@@ -1,9 +1,10 @@
 name: Collect Brawl Stars Data
 
 on:
-  # Run daily at midnight UTC
+  # Run daily at midnight CET (23:00 UTC in winter, 22:00 UTC in summer)
+  # Note: GitHub Actions uses UTC, so we use 23:00 UTC which is midnight CET in winter
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 23 * * *'
 
   # Allow manual trigger
   workflow_dispatch:
