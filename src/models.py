@@ -6,6 +6,7 @@ Python just captures raw data - all analysis happens in JavaScript.
 from dataclasses import dataclass, field, asdict
 from typing import List, Dict
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 
 @dataclass
@@ -101,7 +102,7 @@ def create_brawler_snapshot(brawler_data: dict) -> BrawlerSnapshot:
 
 def create_player_snapshot(player_data: dict) -> PlayerSnapshot:
     """Create PlayerSnapshot from API player data"""
-    timestamp = datetime.utcnow().isoformat() + 'Z'
+    timestamp = datetime.now(ZoneInfo("Europe/Paris")).isoformat()
 
     # Create brawler snapshots
     brawler_snapshots = [
@@ -125,7 +126,7 @@ def create_player_snapshot(player_data: dict) -> PlayerSnapshot:
 
 def create_club_snapshot(club_data: dict, member_snapshots: List[PlayerSnapshot]) -> ClubSnapshot:
     """Create ClubSnapshot from API club data and member snapshots"""
-    timestamp = datetime.utcnow().isoformat() + 'Z'
+    timestamp = datetime.now(ZoneInfo("Europe/Paris")).isoformat()
 
     return ClubSnapshot(
         tag=club_data.get('tag', ''),
@@ -146,8 +147,8 @@ def create_daily_snapshot(clubs_data: List[tuple], individual_players_data: List
         clubs_data: List of tuples (club_data, list_of_player_data_dicts)
         individual_players_data: List of player_data dicts for individual tracking
     """
-    now = datetime.utcnow()
-    timestamp = now.isoformat() + 'Z'
+    now = datetime.now(ZoneInfo("Europe/Paris"))
+    timestamp = now.isoformat()
     date = now.strftime('%Y-%m-%d')
 
     # Create club snapshots

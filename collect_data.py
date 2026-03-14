@@ -7,6 +7,7 @@ Fetches data from API and saves to JSON files in data/ folder.
 import json
 import os
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from src.config import CLUBS, INDIVIDUAL_PLAYERS
 from src.api import fetch_club_data, fetch_player_data, get_club_members_tags, fetch_brawlers_reference
 from src.models import create_daily_snapshot
@@ -16,7 +17,7 @@ def main():
     print("=" * 60)
     print("BRAWL STARS DATA COLLECTION")
     print("=" * 60)
-    print(f"Timestamp: {datetime.utcnow().isoformat()}Z")
+    print(f"Timestamp: {datetime.now(ZoneInfo('Europe/Paris')).isoformat()}")
     print()
 
     # Fetch and save brawlers reference data
