@@ -21,6 +21,8 @@ on:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allow pushing commits
 
     steps:
       - name: Checkout repository
