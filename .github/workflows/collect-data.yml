@@ -38,7 +38,7 @@ jobs:
 
       - name: Collect data
         env:
-          BRAWL_STARS_API_TOKEN: ${{ secrets.BRAWL_STARS_API_TOKEN }}
+          BRAWL_STARS_PROXY_URL: ${{ secrets.BRAWL_STARS_PROXY_URL }}
         run: uv run collect_data.py
 
       - name: Commit and push changes

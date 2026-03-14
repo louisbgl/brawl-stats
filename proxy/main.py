@@ -6,6 +6,7 @@ Provides a static IP endpoint for GitHub Actions to use.
 from flask import Flask, request, jsonify
 import requests
 import os
+from urllib.parse import quote
 
 app = Flask(__name__)
 
@@ -28,8 +29,15 @@ def proxy(endpoint):
     Proxy all requests to Brawl Stars API
     Example: /players/%23LLJGJQVY -> https://api.brawlstars.com/v1/players/%23LLJGJQVY
     """
+    # Flask decodes the URL, but we need to keep player tags encoded
+    # Re-encode the endpoint to preserve %23 as %23 (not #)
+    # Split by '/' and encode each part
+    parts = endpoint.split('/')
+    encoded_parts = [quote(part, safe='') for part in parts]
+    encoded_endpoint = '/'.join(encoded_parts)
+
     # Build the full URL
-    url = f"{BRAWL_API_BASE}/{endpoint}"
+    url = f"{BRAWL_API_BASE}/{encoded_endpoint}"
 
     # Forward query parameters
     params = request.args.to_dict()
@@ -42,7 +50,7 @@ def proxy(endpoint):
 
     try:
         # Make the request to Brawl Stars API
-        response = requests.get(url, headers=headers, params=params)
+        response = requests.get(url, headers=headers, params=params, timeout=10)
 
         # Return the response with same status code
         return jsonify(response.json()), response.status_code
