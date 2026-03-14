@@ -13,11 +13,13 @@ _BRAWLERS_CACHE = None
 
 
 def api_call(endpoint):
-    """Make an API call to Brawl Stars API"""
-    headers = {
-        "Authorization": f"Bearer {API_TOKEN}",
-        "Accept": "application/json"
-    }
+    """Make an API call to Brawl Stars API (or proxy)"""
+    headers = {"Accept": "application/json"}
+
+    # Only add auth header if using direct API (not proxy)
+    if API_TOKEN:
+        headers["Authorization"] = f"Bearer {API_TOKEN}"
+
     response = requests.get(f"{BASE_URL}/{endpoint}", headers=headers)
     if response.ok:
         return response

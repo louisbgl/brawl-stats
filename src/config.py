@@ -13,14 +13,24 @@ load_dotenv()
 # API Configuration
 # ============================================================================
 
-API_TOKEN = os.getenv("BRAWL_STARS_API_TOKEN")
-if not API_TOKEN:
-    raise ValueError(
-        "BRAWL_STARS_API_TOKEN not found in environment variables. "
-        "Please create a .env file with your API token."
-    )
+# Optional: Use proxy URL instead of direct API
+# If set, requests go through proxy (which handles auth)
+# If not set, uses direct API with token
+PROXY_URL = os.getenv("BRAWL_STARS_PROXY_URL")
 
-BASE_URL = "https://api.brawlstars.com/v1"
+if PROXY_URL:
+    # Using proxy - no token needed locally
+    BASE_URL = PROXY_URL
+    API_TOKEN = None
+else:
+    # Direct API access - token required
+    BASE_URL = "https://api.brawlstars.com/v1"
+    API_TOKEN = os.getenv("BRAWL_STARS_API_TOKEN")
+    if not API_TOKEN:
+        raise ValueError(
+            "BRAWL_STARS_API_TOKEN not found in environment variables. "
+            "Either set BRAWL_STARS_API_TOKEN or BRAWL_STARS_PROXY_URL in .env file."
+        )
 
 
 # ============================================================================
