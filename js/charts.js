@@ -35,30 +35,59 @@ const ChartsManager = {
             };
         });
 
-        const ctx = document.getElementById('trophyChart').getContext('2d');
-        this.charts.trophy = new Chart(ctx, {
-            type: 'line',
-            data: { labels: dates, datasets },
-            options: this.getCommonLineOptions('Trophies')
-        });
+        const ctx = document.getElementById('trophyChart')?.getContext('2d');
+        if (ctx) {
+            this.charts.trophy = new Chart(ctx, {
+                type: 'line',
+                data: { labels: dates, datasets },
+                options: this.getCommonLineOptions('Trophies')
+            });
+        }
     },
 
     createBrawlerTrophyTimeline(brawlerName) {
-        const canvas = document.getElementById('brawlerTrophyChart');
+        const canvas = document.getElementById('trophyTimelineChart');
         if (!canvas) return;
 
-        if (this.charts.brawlerTrophy) {
-            this.charts.brawlerTrophy.destroy();
-        }
-
-        if (!brawlerName) {
-            const ctx = canvas.getContext('2d');
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            return;
+        if (this.charts.trophyTimeline) {
+            this.charts.trophyTimeline.destroy();
         }
 
         const players = DataManager.getAllPlayers();
         const dates = DataManager.historicalData.map(s => s.date);
+
+        if (!brawlerName) {
+            // Show overall player trophies
+            const datasets = players.map((player, idx) => {
+                const trophyData = DataManager.historicalData.map(snapshot => {
+                    let trophies = null;
+                    snapshot.clubs.forEach(club => {
+                        const p = club.members.find(m => m.tag === player.tag);
+                        if (p) trophies = p.trophies;
+                    });
+                    return trophies;
+                });
+
+                return {
+                    label: player.name,
+                    data: trophyData,
+                    borderColor: this.colors[idx % this.colors.length],
+                    backgroundColor: this.colors[idx % this.colors.length] + '20',
+                    borderWidth: 2,
+                    tension: 0.3,
+                    pointRadius: 4,
+                    pointHoverRadius: 6
+                };
+            });
+
+            const ctx = canvas.getContext('2d');
+            this.charts.trophyTimeline = new Chart(ctx, {
+                type: 'line',
+                data: { labels: dates, datasets },
+                options: this.getCommonLineOptions('Trophies')
+            });
+            return;
+        }
 
         const datasets = players.map((player, idx) => {
             const trophyData = DataManager.historicalData.map(snapshot => {
@@ -91,30 +120,68 @@ const ChartsManager = {
         }).filter(d => d !== null);
 
         const ctx = canvas.getContext('2d');
-        this.charts.brawlerTrophy = new Chart(ctx, {
+        this.charts.trophyTimeline = new Chart(ctx, {
             type: 'line',
             data: { labels: dates, datasets },
             options: this.getCommonLineOptions(`${brawlerName} Trophies`)
         });
     },
 
-    createWinsTimeline() {
+    createWinsTimeline(gamemode = '') {
+        if (this.charts.wins) {
+            this.charts.wins.destroy();
+        }
+
         const players = DataManager.getAllPlayers();
         const dates = DataManager.historicalData.map(s => s.date);
 
-        // Create 3 datasets per player (3v3, solo, duo)
-        const datasets3v3 = this.createWinsDatasets(players, dates, '3vs3Victories', ' (3v3)');
-        const datasetsSolo = this.createWinsDatasets(players, dates, 'soloVictories', ' (Solo)');
-        const datasetsDuo = this.createWinsDatasets(players, dates, 'duoVictories', ' (Duo)');
+        let datasets;
+        let title = 'Total Wins';
+
+        if (!gamemode) {
+            // Overall - show total wins per player
+            datasets = players.map((player, idx) => {
+                const data = DataManager.historicalData.map(snapshot => {
+                    let total = null;
+                    snapshot.clubs.forEach(club => {
+                        const p = club.members.find(m => m.tag === player.tag);
+                        if (p) {
+                            total = (p.victories_3v3 || 0) + (p.solo_victories || 0) + (p.duo_victories || 0);
+                        }
+                    });
+                    return total;
+                });
+
+                return {
+                    label: player.name,
+                    data,
+                    borderColor: this.colors[idx % this.colors.length],
+                    backgroundColor: this.colors[idx % this.colors.length] + '20',
+                    borderWidth: 2,
+                    tension: 0.3,
+                    pointRadius: 4,
+                    pointHoverRadius: 6
+                };
+            });
+        } else if (gamemode === '3v3') {
+            datasets = this.createWinsDatasets(players, dates, 'victories_3v3', '');
+            title = '3v3 Wins';
+        } else if (gamemode === 'solo') {
+            datasets = this.createWinsDatasets(players, dates, 'solo_victories', '');
+            title = 'Solo Wins';
+        } else if (gamemode === 'duo') {
+            datasets = this.createWinsDatasets(players, dates, 'duo_victories', '');
+            title = 'Duo Wins';
+        }
 
         const ctx = document.getElementById('winsChart').getContext('2d');
         this.charts.wins = new Chart(ctx, {
             type: 'line',
             data: {
                 labels: dates,
-                datasets: [...datasets3v3, ...datasetsSolo, ...datasetsDuo]
+                datasets: datasets
             },
-            options: this.getCommonLineOptions('Total Wins')
+            options: this.getCommonLineOptions(title)
         });
     },
 

@@ -60,27 +60,37 @@
         <!-- Tab: Timelines -->
         <div id="timelines" class="tab-content">
             <div class="card">
-                <h2>Brawler Trophy Timeline</h2>
+                <h2>Trophy Timeline</h2>
                 <p style="margin-bottom: 15px; color: var(--text-secondary);">
-                    Track a specific brawler's trophy progression across all players
+                    Track overall player trophies or select a specific brawler to compare progression
                 </p>
-                <select id="brawlerSelect" style="margin-bottom: 20px;">
-                    <option value="">Select a brawler...</option>
+                <select id="trophyBrawlerSelect" style="margin-bottom: 20px;">
+                    <option value="">Overall (all brawlers)</option>
                 </select>
                 <div class="chart-container">
-                    <canvas id="brawlerTrophyChart"></canvas>
+                    <canvas id="trophyTimelineChart"></canvas>
                 </div>
             </div>
 
             <div class="card">
                 <h2>Gamemode Wins Timeline</h2>
+                <p style="margin-bottom: 15px; color: var(--text-secondary);">
+                    Total wins across all modes or filter by gamemode
+                </p>
+                <select id="gamemodeSelect" style="margin-bottom: 20px;">
+                    <option value="">Overall (all modes)</option>
+                    <option value="3v3">3v3 Only</option>
+                    <option value="solo">Solo Only</option>
+                    <option value="duo">Duo Only</option>
+                </select>
                 <div class="chart-container">
                     <canvas id="winsChart"></canvas>
                 </div>
             </div>
 
             <div class="card">
-                <h2>Collection Timeline</h2>
+                <h2>Brawler Collection Timeline</h2>
+                <p style="margin-bottom: 15px; color: var(--text-secondary);">Number of brawlers owned over time</p>
                 <div class="chart-container">
                     <canvas id="collectionChart"></canvas>
                 </div>
@@ -88,6 +98,7 @@
 
             <div class="card">
                 <h2>Maxed Brawlers Timeline</h2>
+                <p style="margin-bottom: 15px; color: var(--text-secondary);">Brawlers with P11, 2 gadgets, 2 star powers, and hypercharge</p>
                 <div class="chart-container">
                     <canvas id="maxedChart"></canvas>
                 </div>
@@ -95,6 +106,7 @@
 
             <div class="card">
                 <h2>Prestige Brawlers Timeline</h2>
+                <p style="margin-bottom: 15px; color: var(--text-secondary);">Brawlers with 1000+ trophies</p>
                 <div class="chart-container">
                     <canvas id="prestigeChart"></canvas>
                 </div>
@@ -102,8 +114,10 @@
         </div>
     </div>
 
+    <script src="js/config.js"></script>
     <script src="js/data.js"></script>
     <script src="js/charts.js"></script>
+    <script src="js/player-charts.js"></script>
     <script src="js/player-stats.js"></script>
     <script src="js/app.js"></script>
 </body>

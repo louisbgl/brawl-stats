@@ -10,6 +10,12 @@ const PlayerStatsManager = {
 
         const container = document.getElementById('playerStatsContainer');
         container.innerHTML = this.generatePlayerHTML();
+
+        // Create charts after HTML is rendered
+        const prestigeStats = this.getPrestigeStats();
+        const powerDistribution = this.getPowerDistribution();
+        PlayerChartsManager.createPrestigeChart(prestigeStats);
+        PlayerChartsManager.createPowerChart(powerDistribution);
     },
 
     generatePlayerHTML() {
@@ -47,10 +53,6 @@ const PlayerStatsManager = {
                         <div class="stat-label">Avg Trophies/Brawler</div>
                         <div class="stat-value">${this.getAvgTrophies()}</div>
                     </div>
-                    <div class="stat-box">
-                        <div class="stat-label">Experience Level</div>
-                        <div class="stat-value">${p.exp_level}</div>
-                    </div>
                 </div>
             </div>
 
@@ -79,14 +81,20 @@ const PlayerStatsManager = {
 
                 <div class="card">
                     <h3>Prestige Distribution</h3>
-                    ${this.generatePrestigeChart(prestigeStats)}
+                    <p style="margin-bottom: 10px; font-size: 0.9rem; color: var(--text-secondary);">Prestige levels based on brawler trophies (1k = prestige 1, 2k = prestige 2, etc.)</p>
+                    <div style="height: 250px; margin: 15px 0;">
+                        <canvas id="playerPrestigeChart"></canvas>
+                    </div>
                     ${firstPrestigeStats.html}
                 </div>
             </div>
 
             <div class="card">
                 <h3>Power Level Distribution</h3>
-                ${this.generatePowerDistributionHTML(powerDistribution)}
+                <p style="margin-bottom: 10px; font-size: 0.9rem; color: var(--text-secondary);">Shows how many brawlers are at each power level (P1 to P11)</p>
+                <div style="height: 250px; margin: 15px 0;">
+                    <canvas id="playerPowerChart"></canvas>
+                </div>
             </div>
 
             ${missingBrawlers.length > 0 ? `
@@ -100,6 +108,12 @@ const PlayerStatsManager = {
 
             <div class="card">
                 <h3>Brawler Details</h3>
+                <p style="margin-bottom: 10px; font-size: 0.9rem; color: var(--text-secondary);">
+                    <span style="color: var(--accent-green);">Green</span> = fully maxed,
+                    <span style="color: var(--accent-orange);">Yellow</span> = nearly maxed,
+                    <span style="color: var(--accent-red);">Red</span> = missing items.
+                    Buffies excluded (API data unreliable).
+                </p>
                 ${this.generateBrawlerTable()}
             </div>
         `;
@@ -170,41 +184,6 @@ const PlayerStatsManager = {
         return { dates: firstDates, html };
     },
 
-    generatePrestigeChart(stats) {
-        const labels = ['<1k', '1k-2k', '2k-3k', '3k-4k', '4k-5k', '5k+'];
-        const data = [stats[0], stats[1], stats[2], stats[3], stats[4], stats[5]];
-        const total = data.reduce((a, b) => a + b, 0);
-
-        let html = '<div style="margin: 15px 0;">';
-        data.forEach((count, idx) => {
-            const pct = total > 0 ? (count / total * 100).toFixed(1) : 0;
-            html += `
-                <div style="display: flex; align-items: center; margin: 8px 0;">
-                    <div style="width: 80px; font-size: 0.85rem; color: var(--text-secondary);">${labels[idx]}</div>
-                    <div style="flex: 1; background: var(--bg-secondary); height: 25px; border-radius: 4px; overflow: hidden;">
-                        <div style="width: ${pct}%; height: 100%; background: var(--accent-blue); display: flex; align-items: center; justify-content: center; color: white; font-size: 0.8rem; font-weight: 600;">
-                            ${count > 0 ? count : ''}
-                        </div>
-                    </div>
-                    <div style="width: 60px; text-align: right; font-size: 0.85rem; color: var(--text-secondary);">${pct}%</div>
-                </div>
-            `;
-        });
-        html += '</div>';
-        return html;
-    },
-
-    generatePowerDistributionHTML(dist) {
-        let html = '<div class="power-bar">';
-        for (let i = 1; i <= 11; i++) {
-            const count = dist[i];
-            html += `<div class="power-segment ${count > 0 ? 'has-brawlers' : ''}" title="Power ${i}: ${count} brawlers">
-                P${i}<br>${count}
-            </div>`;
-        }
-        html += '</div>';
-        return html;
-    },
 
     getAvgTrophies() {
         if (this.currentPlayer.brawlers.length === 0) return 0;
@@ -218,12 +197,13 @@ const PlayerStatsManager = {
     },
 
     generateBrawlerTable() {
-        const brawlers = [...this.currentPlayer.brawlers].sort((a, b) => b.trophies - a.trophies);
+        // Sort alphabetically by name
+        const brawlers = [...this.currentPlayer.brawlers].sort((a, b) => a.name.localeCompare(b.name));
 
         let html = '<table class="data-table"><thead><tr>';
-        html += '<th>Brawler</th><th>Power</th><th>Trophies</th>';
+        html += '<th>Brawler</th><th>Power</th>';
         html += '<th>Gadgets</th><th>Star Powers</th><th>Hypercharge</th>';
-        html += '<th>Gears</th><th>Buffies</th></tr></thead><tbody>';
+        html += '<th>Gears</th></tr></thead><tbody>';
 
         brawlers.forEach(b => {
             const brawlerRef = this.brawlersRef.find(br => br.name === b.name);
@@ -236,15 +216,27 @@ const PlayerStatsManager = {
             const sp2 = this.getItemName(brawlerRef.starPowers || [], b.star_power_ids[1]);
             const hc = this.getItemName(brawlerRef.hyperCharges || [], b.hyper_charge_ids[0]);
 
-            html += '<tr>';
+            // Determine row color class based on completion status
+            const isMaxed = b.power === 11 && gadget1 && gadget2 && sp1 && sp2 && hc;
+            const hasMissingItems = !gadget1 || !gadget2 || !sp1 || !sp2 || !hc;
+            const isAlmostMaxed = b.power < 11 || b.gear_ids.length < 6;
+
+            let rowClass = '';
+            if (isMaxed && !hasMissingItems) {
+                rowClass = 'brawler-maxed';
+            } else if (hasMissingItems) {
+                rowClass = 'brawler-missing';
+            } else if (isAlmostMaxed) {
+                rowClass = 'brawler-almost';
+            }
+
+            html += `<tr class="${rowClass}">`;
             html += `<td><strong>${b.name}</strong></td>`;
             html += `<td>P${b.power}</td>`;
-            html += `<td>${b.trophies}</td>`;
             html += `<td>${this.formatItems([gadget1, gadget2])}</td>`;
             html += `<td>${this.formatItems([sp1, sp2])}</td>`;
-            html += `<td>${hc || '<span class="badge missing">Missing</span>'}</td>`;
-            html += `<td>${b.gear_ids.length} gears</td>`;
-            html += `<td>${b.buffies ? '✓' : '✗'}</td>`;
+            html += `<td>${hc ? `<span class="badge owned">${hc}</span>` : '<span class="badge missing">Missing</span>'}</td>`;
+            html += `<td>${b.gear_ids.length}</td>`;
             html += '</tr>';
         });
 

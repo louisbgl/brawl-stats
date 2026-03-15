@@ -218,6 +218,31 @@ select:focus {
     color: var(--accent-green);
 }
 
+/* Brawler Table Row Colors */
+.brawler-maxed {
+    background-color: rgba(6, 214, 160, 0.1);
+}
+
+.brawler-maxed:hover {
+    background-color: rgba(6, 214, 160, 0.15);
+}
+
+.brawler-almost {
+    background-color: rgba(255, 159, 28, 0.1);
+}
+
+.brawler-almost:hover {
+    background-color: rgba(255, 159, 28, 0.15);
+}
+
+.brawler-missing {
+    background-color: rgba(239, 71, 111, 0.1);
+}
+
+.brawler-missing:hover {
+    background-color: rgba(239, 71, 111, 0.15);
+}
+
 /* Charts */
 .chart-container {
     position: relative;

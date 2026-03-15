@@ -15,12 +15,13 @@ async function init() {
         // Populate player selector
         populatePlayerSelect();
 
-        // Populate brawler selector
-        populateBrawlerSelect();
+        // Populate trophy brawler selector
+        populateTrophyBrawlerSelect();
 
         // Create initial charts
-        ChartsManager.createTrophyTimeline();
-        ChartsManager.createWinsTimeline();
+        ChartsManager.createTrophyTimeline(); // Club Overview chart
+        ChartsManager.createBrawlerTrophyTimeline(); // Timelines tab - overall by default
+        ChartsManager.createWinsTimeline(); // Timelines tab - overall by default
         ChartsManager.createCollectionTimeline();
         ChartsManager.createMaxedTimeline();
         ChartsManager.createPrestigeTimeline();
@@ -75,8 +76,8 @@ function populatePlayerSelect() {
     });
 }
 
-function populateBrawlerSelect() {
-    const select = document.getElementById('brawlerSelect');
+function populateTrophyBrawlerSelect() {
+    const select = document.getElementById('trophyBrawlerSelect');
     const brawlers = DataManager.getAllBrawlerNames();
 
     brawlers.forEach(name => {
@@ -87,15 +88,28 @@ function populateBrawlerSelect() {
     });
 
     select.addEventListener('change', (e) => {
-        ChartsManager.createBrawlerTrophyTimeline(e.target.value);
+        if (e.target.value) {
+            ChartsManager.createBrawlerTrophyTimeline(e.target.value);
+        } else {
+            ChartsManager.createTrophyTimeline();
+        }
+    });
+
+    // Setup gamemode selector
+    document.getElementById('gamemodeSelect').addEventListener('change', (e) => {
+        ChartsManager.createWinsTimeline(e.target.value);
     });
 }
 
 function displayClubQuickStats() {
     const players = DataManager.getAllPlayers();
     const totalTrophies = players.reduce((sum, p) => sum + p.trophies, 0);
-    const totalBrawlers = players.reduce((sum, p) => sum + p.brawlers.length, 0);
     const avgTrophies = Math.round(totalTrophies / players.length);
+
+    // Count prestige brawlers (1000+ trophies) across all players
+    const prestigeBrawlers = players.reduce((sum, p) => {
+        return sum + p.brawlers.filter(b => b.trophies >= 1000).length;
+    }, 0);
 
     const html = `
         <div class="stat-box">
@@ -111,8 +125,8 @@ function displayClubQuickStats() {
             <div class="stat-value highlight-green">${avgTrophies.toLocaleString()}</div>
         </div>
         <div class="stat-box">
-            <div class="stat-label">Total Brawlers</div>
-            <div class="stat-value highlight-orange">${totalBrawlers}</div>
+            <div class="stat-label">Prestige Brawlers</div>
+            <div class="stat-value highlight-orange">${prestigeBrawlers}</div>
         </div>
     `;
 
