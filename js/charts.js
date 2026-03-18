@@ -329,6 +329,7 @@ const ChartsManager = {
                 },
                 tooltip: {
                     backgroundColor: 'rgba(0, 0, 0, 0.9)',
+                    itemSort: (a, b) => b.parsed.y - a.parsed.y,
                     callbacks: {
                         label: context =>
                             `${context.dataset.label}: ${context.parsed.y.toLocaleString()}`
