@@ -55,18 +55,28 @@ const DataManager = {
         const players = [];
         this.latestData.clubs.forEach((club, clubIndex) => {
             club.members.forEach((player, playerIndex) => {
-                players.push({
-                    ...player,
-                    clubIndex,
-                    playerIndex
-                });
+                players.push({ ...player, clubIndex, playerIndex });
             });
+        });
+        (this.latestData.individual_players || []).forEach((player, playerIndex) => {
+            players.push({ ...player, clubIndex: -1, playerIndex });
         });
         return players;
     },
 
     getPlayer(clubIndex, playerIndex) {
+        if (clubIndex === -1) {
+            return this.latestData.individual_players[playerIndex];
+        }
         return this.latestData.clubs[clubIndex].members[playerIndex];
+    },
+
+    findPlayerInSnapshot(snapshot, tag) {
+        for (const club of snapshot.clubs) {
+            const p = club.members.find(m => m.tag === tag);
+            if (p) return p;
+        }
+        return (snapshot.individual_players || []).find(p => p.tag === tag) ?? null;
     },
 
     getBrawlerName(brawlerId) {

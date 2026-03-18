@@ -156,10 +156,8 @@ const PlayerStatsManager = {
         const firstDates = { 2: null, 3: null, 4: null, 5: null };
 
         DataManager.historicalData.forEach(snapshot => {
-            snapshot.clubs.forEach(club => {
-                const player = club.members.find(p => p.tag === this.currentPlayer.tag);
-                if (!player) return;
-
+            const player = DataManager.findPlayerInSnapshot(snapshot, this.currentPlayer.tag);
+            if (player) {
                 player.brawlers.forEach(b => {
                     const prestige = Math.floor(b.trophies / 1000);
                     for (let level = 2; level <= 5; level++) {
@@ -168,7 +166,7 @@ const PlayerStatsManager = {
                         }
                     }
                 });
-            });
+            }
         });
 
         let html = '<div style="margin-top: 15px; font-size: 0.9rem;">';

@@ -15,12 +15,8 @@ const ChartsManager = {
 
         const datasets = players.map((player, idx) => {
             const trophyData = DataManager.historicalData.map(snapshot => {
-                let trophies = null;
-                snapshot.clubs.forEach(club => {
-                    const p = club.members.find(m => m.tag === player.tag);
-                    if (p) trophies = p.trophies;
-                });
-                return trophies;
+                const p = DataManager.findPlayerInSnapshot(snapshot, player.tag);
+                return p ? p.trophies : null;
             });
 
             return {
@@ -60,12 +56,8 @@ const ChartsManager = {
             // Show overall player trophies
             const datasets = players.map((player, idx) => {
                 const trophyData = DataManager.historicalData.map(snapshot => {
-                    let trophies = null;
-                    snapshot.clubs.forEach(club => {
-                        const p = club.members.find(m => m.tag === player.tag);
-                        if (p) trophies = p.trophies;
-                    });
-                    return trophies;
+                    const p = DataManager.findPlayerInSnapshot(snapshot, player.tag);
+                    return p ? p.trophies : null;
                 });
 
                 return {
@@ -91,15 +83,10 @@ const ChartsManager = {
 
         const datasets = players.map((player, idx) => {
             const trophyData = DataManager.historicalData.map(snapshot => {
-                let trophies = null;
-                snapshot.clubs.forEach(club => {
-                    const p = club.members.find(m => m.tag === player.tag);
-                    if (p) {
-                        const brawler = p.brawlers.find(b => b.name === brawlerName);
-                        if (brawler) trophies = brawler.trophies;
-                    }
-                });
-                return trophies;
+                const p = DataManager.findPlayerInSnapshot(snapshot, player.tag);
+                if (!p) return null;
+                const brawler = p.brawlers.find(b => b.name === brawlerName);
+                return brawler ? brawler.trophies : null;
             });
 
             // Only include if player has this brawler
@@ -142,14 +129,9 @@ const ChartsManager = {
             // Overall - show total wins per player
             datasets = players.map((player, idx) => {
                 const data = DataManager.historicalData.map(snapshot => {
-                    let total = null;
-                    snapshot.clubs.forEach(club => {
-                        const p = club.members.find(m => m.tag === player.tag);
-                        if (p) {
-                            total = (p.victories_3v3 || 0) + (p.solo_victories || 0) + (p.duo_victories || 0);
-                        }
-                    });
-                    return total;
+                    const p = DataManager.findPlayerInSnapshot(snapshot, player.tag);
+                    if (!p) return null;
+                    return (p.victories_3v3 || 0) + (p.solo_victories || 0) + (p.duo_victories || 0);
                 });
 
                 return {
@@ -164,13 +146,13 @@ const ChartsManager = {
                 };
             });
         } else if (gamemode === '3v3') {
-            datasets = this.createWinsDatasets(players, dates, 'victories_3v3', '');
+            datasets = this.createWinsDatasets(players, 'victories_3v3', '');
             title = '3v3 Wins';
         } else if (gamemode === 'solo') {
-            datasets = this.createWinsDatasets(players, dates, 'solo_victories', '');
+            datasets = this.createWinsDatasets(players, 'solo_victories', '');
             title = 'Solo Wins';
         } else if (gamemode === 'duo') {
-            datasets = this.createWinsDatasets(players, dates, 'duo_victories', '');
+            datasets = this.createWinsDatasets(players, 'duo_victories', '');
             title = 'Duo Wins';
         }
 
@@ -185,15 +167,11 @@ const ChartsManager = {
         });
     },
 
-    createWinsDatasets(players, dates, field, suffix) {
+    createWinsDatasets(players, field, suffix) {
         return players.map((player, idx) => {
             const data = DataManager.historicalData.map(snapshot => {
-                let value = null;
-                snapshot.clubs.forEach(club => {
-                    const p = club.members.find(m => m.tag === player.tag);
-                    if (p) value = p[field] || 0;
-                });
-                return value;
+                const p = DataManager.findPlayerInSnapshot(snapshot, player.tag);
+                return p ? p[field] || 0 : null;
             });
 
             return {
@@ -215,12 +193,8 @@ const ChartsManager = {
 
         const datasets = players.map((player, idx) => {
             const data = DataManager.historicalData.map(snapshot => {
-                let count = null;
-                snapshot.clubs.forEach(club => {
-                    const p = club.members.find(m => m.tag === player.tag);
-                    if (p) count = p.brawlers.length;
-                });
-                return count;
+                const p = DataManager.findPlayerInSnapshot(snapshot, player.tag);
+                return p ? p.brawlers.length : null;
             });
 
             return {
@@ -249,19 +223,14 @@ const ChartsManager = {
 
         const datasets = players.map((player, idx) => {
             const data = DataManager.historicalData.map(snapshot => {
-                let count = null;
-                snapshot.clubs.forEach(club => {
-                    const p = club.members.find(m => m.tag === player.tag);
-                    if (p) {
-                        count = p.brawlers.filter(b =>
-                            b.power === 11 &&
-                            b.gadget_ids.length >= 2 &&
-                            b.star_power_ids.length >= 2 &&
-                            b.hyper_charge_ids.length >= 1
-                        ).length;
-                    }
-                });
-                return count;
+                const p = DataManager.findPlayerInSnapshot(snapshot, player.tag);
+                if (!p) return null;
+                return p.brawlers.filter(b =>
+                    b.power === 11 &&
+                    b.gadget_ids.length >= 2 &&
+                    b.star_power_ids.length >= 2 &&
+                    b.hyper_charge_ids.length >= 1
+                ).length;
             });
 
             return {
@@ -290,14 +259,9 @@ const ChartsManager = {
 
         const datasets = players.map((player, idx) => {
             const data = DataManager.historicalData.map(snapshot => {
-                let count = null;
-                snapshot.clubs.forEach(club => {
-                    const p = club.members.find(m => m.tag === player.tag);
-                    if (p) {
-                        count = p.brawlers.filter(b => b.trophies >= 1000).length;
-                    }
-                });
-                return count;
+                const p = DataManager.findPlayerInSnapshot(snapshot, player.tag);
+                if (!p) return null;
+                return p.brawlers.filter(b => b.trophies >= 1000).length;
             });
 
             return {
