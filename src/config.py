@@ -38,15 +38,15 @@ else:
 # ============================================================================
 
 CLUBS = [
-    {
-        "name": "JOEL Club",
-        "tag": "#80QPP8V8P",
-    },
-    # Add more clubs here as needed:
+    # Add clubs here as needed:
     # {
     #     "name": "Another Club",
     #     "tag": "#XXXXXXX",
     # },
+    {
+        "name": "JOEL Club",
+        "tag": "#80QPP8V8P",
+    },
 ]
 
 
@@ -60,6 +60,14 @@ INDIVIDUAL_PLAYERS = [
     #     "name": "Friend Name",
     #     "tag": "#XXXXXXX",
     # },
+    {
+        "name": "Mathys",
+        "tag": "#2LGCLLPU2",
+    },
+    {
+        "name": "Nielsen",
+        "tag": "#Q0CQLYCVL",
+    }
 ]
 
 
