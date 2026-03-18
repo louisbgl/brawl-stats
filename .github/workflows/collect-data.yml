@@ -51,13 +51,13 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          git pull --rebase origin main
           git add data/
 
           # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git pull --rebase origin main
             git commit -m "Daily data update: $(date +'%Y-%m-%d')"
             git push
           fi
