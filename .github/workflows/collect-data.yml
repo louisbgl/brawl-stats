@@ -51,7 +51,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git pull --rebase origin main
           git add data/
 
           # Check if there are changes to commit
@@ -59,5 +58,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Daily data update: $(date +'%Y-%m-%d')"
-            git push
+            git push || (git pull --rebase origin main && git push)
           fi
