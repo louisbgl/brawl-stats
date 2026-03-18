@@ -28,6 +28,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Git Pull
+        run: git pull
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
