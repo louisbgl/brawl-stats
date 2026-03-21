@@ -154,8 +154,8 @@ h1 {
 .stat-value.highlight-orange { color: var(--accent-orange); }
 .stat-value.highlight-red { color: var(--accent-red); }
 
-/* Player Select */
-select {
+/* Player Select and Input */
+select, input[type="text"] {
     width: 100%;
     padding: 12px;
     background: var(--bg-secondary);
@@ -166,7 +166,11 @@ select {
     cursor: pointer;
 }
 
-select:focus {
+input[type="text"] {
+    cursor: text;
+}
+
+select:focus, input[type="text"]:focus {
     outline: none;
     border-color: var(--accent-blue);
 }
@@ -266,6 +270,60 @@ select:focus {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    header {
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+
+    /* Move progress badge on mobile to avoid overlap */
+    .card[style*="position: relative"] > div[style*="position: absolute"] {
+        position: static !important;
+        margin-bottom: 15px;
+    }
+
+    .card[style*="position: relative"] p[style*="max-width"] {
+        max-width: 100% !important;
+    }
+
+    .tabs {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .tab {
+        padding: 10px 16px;
+        font-size: 0.9rem;
+    }
+
+    .card {
+        padding: 16px;
+        margin-bottom: 15px;
+    }
+
+    .card h2 {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+
+    .card h3 {
+        font-size: 1rem;
+        margin-bottom: 12px;
+    }
+
     .two-col {
         grid-template-columns: 1fr;
     }
@@ -274,10 +332,86 @@ select:focus {
         grid-template-columns: 1fr;
     }
 
-    .header-content {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
+    .stat-value {
+        font-size: 1.5rem;
+    }
+
+    .chart-container {
+        height: 300px;
+    }
+
+    /* Make table scrollable horizontally on mobile */
+    .data-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .data-table thead,
+    .data-table tbody,
+    .data-table tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    .data-table td,
+    .data-table th {
+        padding: 8px;
+        font-size: 0.85rem;
+    }
+
+    /* Stack filter inputs on mobile */
+    .card > div[style*="display: flex"] {
+        flex-direction: column !important;
+        align-items: stretch !important;
+    }
+
+    .card > div[style*="display: flex"] > * {
+        width: 100% !important;
+        min-width: 0 !important;
+    }
+
+    /* Make badges smaller on mobile */
+    .badge {
+        font-size: 0.7rem;
+        padding: 3px 6px;
+    }
+
+    /* Adjust missing items grid */
+    .missing-list {
+        gap: 6px;
+    }
+
+    .missing-item {
+        font-size: 0.85rem;
+        padding: 6px 10px;
+    }
+
+    /* Make select inputs full width on mobile */
+    select, input[type="text"] {
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    .stat-box {
+        padding: 15px;
+    }
+
+    .stat-label {
+        font-size: 0.75rem;
+    }
+
+    .stat-value {
+        font-size: 1.3rem;
+    }
+
+    /* Force single column for all grids */
+    .stats-grid {
+        grid-template-columns: 1fr !important;
     }
 }
 

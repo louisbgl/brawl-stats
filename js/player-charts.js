@@ -3,6 +3,7 @@
 const PlayerChartsManager = {
     prestigeChart: null,
     powerChart: null,
+    trophyTimelineChart: null,
 
     createPrestigeChart(prestigeStats) {
         if (this.prestigeChart) {
@@ -186,6 +187,85 @@ const PlayerChartsManager = {
                                 }
                             });
                         });
+                    }
+                }
+            }
+        });
+    },
+
+    createPlayerTrophyChart(trophyTimeline) {
+        if (this.trophyTimelineChart) {
+            this.trophyTimelineChart.destroy();
+        }
+
+        if (trophyTimeline.dates.length === 0) {
+            return;
+        }
+
+        const ctx = document.getElementById('playerTrophyTimelineChart').getContext('2d');
+        this.trophyTimelineChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: trophyTimeline.dates,
+                datasets: [{
+                    label: 'Trophies',
+                    data: trophyTimeline.trophies,
+                    borderColor: '#4a9eff',
+                    backgroundColor: 'rgba(74, 158, 255, 0.1)',
+                    fill: true,
+                    tension: 0.3,
+                    pointRadius: 3,
+                    pointHoverRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: {
+                    mode: 'index',
+                    intersect: false
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        ticks: {
+                            color: '#9ba3af',
+                            callback: value => value.toLocaleString()
+                        },
+                        grid: {
+                            color: '#3a4556'
+                        },
+                        title: {
+                            display: true,
+                            text: 'Trophies',
+                            color: '#e8eaed'
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            color: '#9ba3af',
+                            maxRotation: 45,
+                            minRotation: 45
+                        },
+                        grid: {
+                            display: false
+                        },
+                        title: {
+                            display: true,
+                            text: 'Date',
+                            color: '#e8eaed'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.9)',
+                        callbacks: {
+                            label: context => `Trophies: ${context.parsed.y.toLocaleString()}`
+                        }
                     }
                 }
             }

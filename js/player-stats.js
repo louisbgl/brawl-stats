@@ -14,8 +14,14 @@ const PlayerStatsManager = {
         // Create charts after HTML is rendered
         const prestigeStats = this.getPrestigeStats();
         const powerDistribution = this.getPowerDistribution();
+        const trophyTimeline = this.getTrophyTimeline();
         PlayerChartsManager.createPrestigeChart(prestigeStats);
         PlayerChartsManager.createPowerChart(powerDistribution);
+        PlayerChartsManager.createPlayerTrophyChart(trophyTimeline);
+
+        // Setup filters
+        this.setupBrawlerFilter();
+        this.setupTrophyTimelineFilter();
     },
 
     generatePlayerHTML() {
@@ -53,6 +59,24 @@ const PlayerStatsManager = {
                         <div class="stat-label">Avg Trophies/Brawler</div>
                         <div class="stat-value">${this.getAvgTrophies()}</div>
                     </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; flex-wrap: wrap; gap: 10px;">
+                    <h3 style="margin-bottom: 0;">Trophy Progression</h3>
+                    <select id="trophyTimelineRangeSelect" style="margin-bottom: 0; width: auto; min-width: 150px;">
+                        <option value="all">All Time</option>
+                        <option value="month">Last Month</option>
+                        <option value="week">Last Week</option>
+                        <option value="yesterday">Yesterday</option>
+                    </select>
+                </div>
+
+                ${this.getTrendIndicatorsHTML()}
+
+                <div style="height: 200px; margin-top: 15px;">
+                    <canvas id="playerTrophyTimelineChart"></canvas>
                 </div>
             </div>
 
@@ -97,14 +121,7 @@ const PlayerStatsManager = {
                 </div>
             </div>
 
-            ${missingBrawlers.length > 0 ? `
-                <div class="card">
-                    <h3>Missing Brawlers (${missingBrawlers.length})</h3>
-                    <div class="missing-list">
-                        ${missingBrawlers.map(b => `<div class="missing-item">${b}</div>`).join('')}
-                    </div>
-                </div>
-            ` : ''}
+            ${this.generateAccountWorthHTML()}
 
             <div class="card">
                 <h3>Brawler Details</h3>
@@ -114,6 +131,22 @@ const PlayerStatsManager = {
                     <span style="color: var(--accent-red);">Red</span> = missing items.
                     Buffies excluded (API data unreliable).
                 </p>
+
+                <div style="margin-bottom: 15px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+                    <input
+                        type="text"
+                        id="brawlerSearchInput"
+                        placeholder="Search brawler name..."
+                        style="flex: 1; min-width: 200px; padding: 10px; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; color: var(--text-primary);"
+                    />
+                    <select id="brawlerFilterSelect" style="width: auto; min-width: 180px;">
+                        <option value="all">All Brawlers</option>
+                        <option value="maxed">Fully Maxed</option>
+                        <option value="missing">Missing Items</option>
+                        <option value="not-p11">Not Power 11</option>
+                    </select>
+                </div>
+
                 ${this.generateBrawlerTable()}
             </div>
         `;
@@ -246,5 +279,344 @@ const PlayerStatsManager = {
         return items.map(item =>
             item ? `<span class="badge owned">${item}</span>` : '<span class="badge missing">Missing</span>'
         ).join(' ');
+    },
+
+    getTrophyTimeline() {
+        const timeline = { dates: [], trophies: [] };
+
+        DataManager.historicalData.forEach(snapshot => {
+            const player = DataManager.findPlayerInSnapshot(snapshot, this.currentPlayer.tag);
+            if (player) {
+                timeline.dates.push(snapshot.date);
+                timeline.trophies.push(player.trophies);
+            }
+        });
+
+        return timeline;
+    },
+
+    getTrendIndicatorsHTML() {
+        const timeline = this.getTrophyTimeline();
+        if (timeline.trophies.length < 2) {
+            return '<div style="margin: 10px 0; color: var(--text-secondary); font-size: 0.9rem;">Not enough data for trends</div>';
+        }
+
+        const current = timeline.trophies[timeline.trophies.length - 1];
+        const yesterday = timeline.trophies.length >= 2 ? timeline.trophies[timeline.trophies.length - 2] : current;
+        const weekAgo = timeline.trophies.length >= 8 ? timeline.trophies[timeline.trophies.length - 8] : timeline.trophies[0];
+        const monthAgo = timeline.trophies.length >= 31 ? timeline.trophies[timeline.trophies.length - 31] : timeline.trophies[0];
+
+        const dayChange = current - yesterday;
+        const weekChange = current - weekAgo;
+        const monthChange = current - monthAgo;
+
+        const formatTrend = (change, label) => {
+            const sign = change >= 0 ? '+' : '';
+            const color = change >= 0 ? 'var(--accent-green)' : 'var(--accent-red)';
+            const arrow = change >= 0 ? '↑' : '↓';
+            return `
+                <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; background: var(--bg-secondary); border-radius: 6px;">
+                    <span style="font-size: 0.8rem; color: var(--text-secondary); min-width: 60px;">${label}</span>
+                    <span style="color: ${color}; font-weight: 700; font-size: 1.1rem;">${arrow} ${sign}${Math.abs(change).toLocaleString()}</span>
+                </div>
+            `;
+        };
+
+        return `
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-top: 12px;">
+                ${formatTrend(dayChange, '1 Day')}
+                ${formatTrend(weekChange, '7 Days')}
+                ${formatTrend(monthChange, '30 Days')}
+            </div>
+        `;
+    },
+
+    generateAccountWorthHTML() {
+        // Calculate upgrade costs
+        const costs = this.calculateUpgradeCosts();
+
+        if (costs.totalCoins === 0) {
+            return '';
+        }
+
+        const missingBrawlersHTML = costs.missingBrawlers.length > 0 ? `
+            <div style="margin-top: 20px;">
+                <h4 style="font-size: 1rem; margin-bottom: 10px;">Missing Brawlers (${costs.missingBrawlers.length})</h4>
+                <div class="missing-list">
+                    ${costs.missingBrawlers.map(b => `<div class="missing-item">${b}</div>`).join('')}
+                </div>
+            </div>
+        ` : '';
+
+        return `
+            <div class="card" style="position: relative;">
+                <div style="position: absolute; top: 24px; right: 24px;">
+                    <div style="background: var(--bg-secondary); padding: 8px 12px; border-radius: 6px; border: 2px solid var(--accent-purple); display: flex; align-items: center; gap: 8px;">
+                        <span style="font-size: 0.7rem; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px;">Progress</span>
+                        <span style="font-size: 1.15rem; font-weight: 700; color: var(--accent-purple);">${costs.progressPercent}%</span>
+                    </div>
+                </div>
+
+                <h3>Account Worth & Progression</h3>
+                <p style="margin-bottom: 15px; font-size: 0.9rem; color: var(--text-secondary); max-width: 75%;">
+                    Estimated costs based on power points, coins, and item unlocks.
+                    <strong>Note:</strong> Does not include buffies or gears in calculations.
+                </p>
+
+                <div class="two-col">
+                    <div>
+                        <h4 style="font-size: 0.95rem; margin-bottom: 10px; color: var(--text-secondary); text-transform: uppercase;">Coins</h4>
+                        <div class="stats-grid">
+                            <div class="stat-box">
+                                <div class="stat-label">Current Worth</div>
+                                <div class="stat-value highlight-orange">${costs.currentWorthCoins.toLocaleString()}</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-label">Cost to Max</div>
+                                <div class="stat-value highlight-red">${costs.costToMaxCoins.toLocaleString()}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 style="font-size: 0.95rem; margin-bottom: 10px; color: var(--text-secondary); text-transform: uppercase;">Power Points</h4>
+                        <div class="stats-grid">
+                            <div class="stat-box">
+                                <div class="stat-label">Current Worth</div>
+                                <div class="stat-value highlight-blue">${costs.currentWorthPowerPoints.toLocaleString()}</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-label">Cost to Max</div>
+                                <div class="stat-value highlight-purple">${costs.costToMaxPowerPoints.toLocaleString()}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <h4 style="font-size: 1rem; margin-bottom: 10px;">Missing Items</h4>
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <div class="stat-label">Gadgets Missing</div>
+                            <div style="font-size: 1.5rem; font-weight: 600;">${costs.missingItems.gadgets}</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-label">Star Powers Missing</div>
+                            <div style="font-size: 1.5rem; font-weight: 600;">${costs.missingItems.starPowers}</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-label">Hypercharges Missing</div>
+                            <div style="font-size: 1.5rem; font-weight: 600;">${costs.missingItems.hypercharges}</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-label">Brawlers Below P11</div>
+                            <div style="font-size: 1.5rem; font-weight: 600;">${costs.missingItems.belowP11}</div>
+                        </div>
+                    </div>
+                </div>
+
+                ${missingBrawlersHTML}
+            </div>
+        `;
+    },
+
+    calculateUpgradeCosts() {
+        // Brawl Stars upgrade costs
+        const POWER_POINT_COSTS = {
+            1: 0,
+            2: 20,
+            3: 30,
+            4: 50,
+            5: 80,
+            6: 130,
+            7: 210,
+            8: 340,
+            9: 550,
+            10: 890,
+            11: 1440
+        };
+
+        const COIN_COSTS = {
+            1: 0,
+            2: 20,
+            3: 35,
+            4: 75,
+            5: 140,
+            6: 290,
+            7: 480,
+            8: 800,
+            9: 1250,
+            10: 1875,
+            11: 2800
+        };
+
+        const GADGET_COST = 1000;
+        const STAR_POWER_COST = 2000;
+        const HYPERCHARGE_COST = 5000;
+
+        let currentWorthCoins = 0;
+        let currentWorthPowerPoints = 0;
+        let costToMaxCoins = 0;
+        let costToMaxPowerPoints = 0;
+        let missingGadgets = 0;
+        let missingStarPowers = 0;
+        let missingHypercharges = 0;
+        let belowP11 = 0;
+
+        const totalBrawlers = this.brawlersRef.length;
+
+        this.currentPlayer.brawlers.forEach(b => {
+            // Power level costs
+            for (let p = 1; p <= b.power; p++) {
+                currentWorthCoins += COIN_COSTS[p];
+                currentWorthPowerPoints += POWER_POINT_COSTS[p];
+            }
+            if (b.power < 11) {
+                belowP11++;
+                for (let p = b.power + 1; p <= 11; p++) {
+                    costToMaxCoins += COIN_COSTS[p];
+                    costToMaxPowerPoints += POWER_POINT_COSTS[p];
+                }
+            }
+
+            const brawlerRef = this.brawlersRef.find(br => br.name === b.name);
+            if (brawlerRef) {
+                // Gadgets
+                const gadgetsOwned = b.gadget_ids.length;
+                const gadgetsAvailable = (brawlerRef.gadgets || []).length;
+                currentWorthCoins += gadgetsOwned * GADGET_COST;
+                const gadgetsMissing = Math.max(0, gadgetsAvailable - gadgetsOwned);
+                missingGadgets += gadgetsMissing;
+                costToMaxCoins += gadgetsMissing * GADGET_COST;
+
+                // Star Powers
+                const spOwned = b.star_power_ids.length;
+                const spAvailable = (brawlerRef.starPowers || []).length;
+                currentWorthCoins += spOwned * STAR_POWER_COST;
+                const spMissing = Math.max(0, spAvailable - spOwned);
+                missingStarPowers += spMissing;
+                costToMaxCoins += spMissing * STAR_POWER_COST;
+
+                // Hypercharges
+                const hcOwned = b.hyper_charge_ids.length;
+                const hcAvailable = (brawlerRef.hyperCharges || []).length;
+                currentWorthCoins += hcOwned * HYPERCHARGE_COST;
+                const hcMissing = Math.max(0, hcAvailable - hcOwned);
+                missingHypercharges += hcMissing;
+                costToMaxCoins += hcMissing * HYPERCHARGE_COST;
+            }
+        });
+
+        // Add cost for missing brawlers (assume they need everything)
+        const missingBrawlers = this.getMissingBrawlers();
+        missingBrawlers.forEach(brawlerName => {
+            const brawlerRef = this.brawlersRef.find(br => br.name === brawlerName);
+            if (brawlerRef) {
+                // Cost to get to P11
+                for (let p = 1; p <= 11; p++) {
+                    costToMaxCoins += COIN_COSTS[p];
+                    costToMaxPowerPoints += POWER_POINT_COSTS[p];
+                }
+                belowP11++;
+
+                // All items
+                const gadgetsAvailable = (brawlerRef.gadgets || []).length;
+                const spAvailable = (brawlerRef.starPowers || []).length;
+                const hcAvailable = (brawlerRef.hyperCharges || []).length;
+
+                missingGadgets += gadgetsAvailable;
+                missingStarPowers += spAvailable;
+                missingHypercharges += hcAvailable;
+
+                costToMaxCoins += gadgetsAvailable * GADGET_COST;
+                costToMaxCoins += spAvailable * STAR_POWER_COST;
+                costToMaxCoins += hcAvailable * HYPERCHARGE_COST;
+            }
+        });
+
+        const totalCoins = currentWorthCoins + costToMaxCoins;
+        const totalPowerPoints = currentWorthPowerPoints + costToMaxPowerPoints;
+        const progressPercent = totalCoins > 0 ? Math.round((currentWorthCoins / totalCoins) * 100) : 0;
+
+        return {
+            currentWorthCoins,
+            currentWorthPowerPoints,
+            costToMaxCoins,
+            costToMaxPowerPoints,
+            totalCoins,
+            totalPowerPoints,
+            progressPercent,
+            missingBrawlers,
+            missingItems: {
+                gadgets: missingGadgets,
+                starPowers: missingStarPowers,
+                hypercharges: missingHypercharges,
+                belowP11
+            }
+        };
+    },
+
+    setupBrawlerFilter() {
+        const searchInput = document.getElementById('brawlerSearchInput');
+        const filterSelect = document.getElementById('brawlerFilterSelect');
+        const table = document.querySelector('.data-table');
+
+        if (!searchInput || !filterSelect || !table) return;
+
+        const applyFilters = () => {
+            const searchTerm = searchInput.value.toLowerCase();
+            const filterType = filterSelect.value;
+            const rows = table.querySelectorAll('tbody tr');
+
+            rows.forEach(row => {
+                const brawlerName = row.querySelector('td:first-child strong').textContent.toLowerCase();
+                const matchesSearch = brawlerName.includes(searchTerm);
+
+                let matchesFilter = true;
+                if (filterType === 'maxed') {
+                    matchesFilter = row.classList.contains('brawler-maxed');
+                } else if (filterType === 'missing') {
+                    matchesFilter = row.classList.contains('brawler-missing');
+                } else if (filterType === 'not-p11') {
+                    const powerCell = row.querySelector('td:nth-child(2)').textContent;
+                    matchesFilter = powerCell !== 'P11';
+                }
+
+                row.style.display = (matchesSearch && matchesFilter) ? '' : 'none';
+            });
+        };
+
+        searchInput.addEventListener('input', applyFilters);
+        filterSelect.addEventListener('change', applyFilters);
+    },
+
+    setupTrophyTimelineFilter() {
+        const rangeSelect = document.getElementById('trophyTimelineRangeSelect');
+        if (!rangeSelect) return;
+
+        rangeSelect.addEventListener('change', () => {
+            const range = rangeSelect.value;
+            const fullTimeline = this.getTrophyTimeline();
+            let filteredTimeline = { dates: [], trophies: [] };
+
+            if (range === 'all') {
+                filteredTimeline = fullTimeline;
+            } else {
+                const dataLength = fullTimeline.dates.length;
+                let startIndex = 0;
+
+                if (range === 'yesterday') {
+                    startIndex = Math.max(0, dataLength - 2);
+                } else if (range === 'week') {
+                    startIndex = Math.max(0, dataLength - 8);
+                } else if (range === 'month') {
+                    startIndex = Math.max(0, dataLength - 31);
+                }
+
+                filteredTimeline.dates = fullTimeline.dates.slice(startIndex);
+                filteredTimeline.trophies = fullTimeline.trophies.slice(startIndex);
+            }
+
+            PlayerChartsManager.createPlayerTrophyChart(filteredTimeline);
+        });
     }
 };
