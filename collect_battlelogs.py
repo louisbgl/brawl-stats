@@ -9,7 +9,7 @@ Designed to run every hour to catch all battles before the API's 25-entry limit 
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from src.config import get_all_tracked_player_tags
-from src.battle_store import update
+from src.battle_store import update, write_metadata
 
 
 def main():
@@ -51,6 +51,9 @@ def main():
         except Exception as e:
             fail_count += 1
             print(f"✗ Error: {e}")
+
+    # Write metadata file (always updates to ensure commit)
+    write_metadata(len(players), total_new)
 
     print()
     print("=" * 60)

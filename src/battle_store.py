@@ -10,9 +10,11 @@ Deduplication key: battleTime (a player can only be in one battle at a time).
 
 import json
 from pathlib import Path
+from datetime import datetime, timezone
 from src.api import api_call
 
 STORE_DIR = Path(__file__).parent.parent / "data" / "battlelogs"
+METADATA_FILE = STORE_DIR / "_last_updated.json"
 
 
 def _tag_to_filename(tag: str) -> Path:
@@ -52,3 +54,17 @@ def update(tag: str, name: str = "") -> tuple[int, int]:
         _save_raw(tag, merged)
 
     return len(new_items), len(existing) + len(new_items)
+
+
+def write_metadata(total_players: int, total_new_battles: int):
+    """
+    Write metadata file with timestamp of last collection run.
+    This file is always updated to ensure git commits happen every run.
+    """
+    STORE_DIR.mkdir(parents=True, exist_ok=True)
+    metadata = {
+        "last_collection": datetime.now(timezone.utc).isoformat(),
+        "players_checked": total_players,
+        "new_battles": total_new_battles
+    }
+    METADATA_FILE.write_text(json.dumps(metadata, indent=2, ensure_ascii=False), encoding="utf-8")
