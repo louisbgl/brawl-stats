@@ -2825,5 +2825,97 @@
       "mode": "hotZone",
       "modeId": 17
     }
+  },
+  {
+    "battle": {
+      "duration": 115,
+      "mode": "wipeout",
+      "result": "victory",
+      "starPlayer": {
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 972
+        },
+        "name": "sniper_xsd",
+        "tag": "#9YJCG08Q2"
+      },
+      "teams": [
+        [
+          {
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 972
+            },
+            "name": "sniper_xsd",
+            "tag": "#9YJCG08Q2"
+          },
+          {
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 870
+            },
+            "name": "JOEL | FREEED🐸",
+            "tag": "#2L0U0PGRL"
+          },
+          {
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 960
+            },
+            "name": "[69]インフィニティ",
+            "tag": "#QL0UC0JPU"
+          }
+        ],
+        [
+          {
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1200
+            },
+            "name": "vanefamily23",
+            "tag": "#2URGY8VL2V"
+          },
+          {
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1285
+            },
+            "name": "Melanie",
+            "tag": "#80VGRVCGJ"
+          },
+          {
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1034
+            },
+            "name": "Mr Williams",
+            "tag": "#RVQVYRVUV"
+          }
+        ]
+      ],
+      "trophyChange": 12,
+      "type": "ranked"
+    },
+    "battleTime": "20260325T221139.000Z",
+    "event": {
+      "id": 15001200,
+      "map": "Hello Always Ends With a Goodbye",
+      "mode": "wipeout",
+      "modeId": 25
+    }
   }
 ]
