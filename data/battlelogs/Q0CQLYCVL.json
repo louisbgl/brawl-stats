@@ -2297,5 +2297,189 @@
       "mode": "hotZone",
       "modeId": 17
     }
+  },
+  {
+    "battle": {
+      "duration": 101,
+      "mode": "hotZone",
+      "result": "defeat",
+      "starPlayer": {
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 942
+        },
+        "name": "BATASS",
+        "tag": "#2PC0Q9C"
+      },
+      "teams": [
+        [
+          {
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 561
+            },
+            "name": "🌚ARTEMGABI🫠🏆",
+            "tag": "#9YY9JPLC9"
+          },
+          {
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 731
+            },
+            "name": "く⁠コ⁠:⁠彡",
+            "tag": "#Q0CQLYCVL"
+          },
+          {
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 802
+            },
+            "name": "JawadBrawler",
+            "tag": "#R2YLYRYQ8"
+          }
+        ],
+        [
+          {
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1099
+            },
+            "name": "pere o12",
+            "tag": "#QJ0P82L8V"
+          },
+          {
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 942
+            },
+            "name": "BATASS",
+            "tag": "#2PC0Q9C"
+          },
+          {
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWBERT",
+              "power": 10,
+              "trophies": 762
+            },
+            "name": "lulu",
+            "tag": "#22RV02RYY"
+          }
+        ]
+      ],
+      "trophyChange": -3,
+      "type": "ranked"
+    },
+    "battleTime": "20260325T151949.000Z",
+    "event": {
+      "id": 15001203,
+      "map": "Hyacinth House",
+      "mode": "hotZone",
+      "modeId": 17
+    }
+  },
+  {
+    "battle": {
+      "duration": 94,
+      "mode": "knockout",
+      "result": "defeat",
+      "starPlayer": {
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1047
+        },
+        "name": "™|𝑏𝖚𝕥𝑏μɩ🐊",
+        "tag": "#GJ22G2GJL"
+      },
+      "teams": [
+        [
+          {
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1414
+            },
+            "name": "не лошадь",
+            "tag": "#JG9PCRGRU"
+          },
+          {
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1809
+            },
+            "name": "itay the king",
+            "tag": "#GGVQ8V0PR"
+          },
+          {
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1047
+            },
+            "name": "™|𝑏𝖚𝕥𝑏μɩ🐊",
+            "tag": "#GJ22G2GJL"
+          }
+        ],
+        [
+          {
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 10,
+              "trophies": 788
+            },
+            "name": "JOEL | Orbova",
+            "tag": "#JJ8P8URQC"
+          },
+          {
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1064
+            },
+            "name": "El Cactus",
+            "tag": "#2LGCLLPU2"
+          },
+          {
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 678
+            },
+            "name": "く⁠コ⁠:⁠彡",
+            "tag": "#Q0CQLYCVL"
+          }
+        ]
+      ],
+      "trophyChange": -3,
+      "type": "ranked"
+    },
+    "battleTime": "20260325T152325.000Z",
+    "event": {
+      "id": 15000440,
+      "map": "Flaring Phoenix",
+      "mode": "knockout",
+      "modeId": 20
+    }
   }
 ]
