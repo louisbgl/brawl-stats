@@ -46,10 +46,13 @@ cp .env.example .env
 ### Python Backend (Data Collection)
 
 **Key Modules:**
-- `src/api.py`: API client for Brawl Stars API with caching for brawlers reference data
-- `src/models.py`: Dataclasses for snapshots (DailySnapshot, ClubSnapshot, PlayerSnapshot, BrawlerSnapshot)
+- `src/api.py`: API client for Brawl Stars API with caching for brawlers reference data. `api_call(endpoint)` auto-encodes `#` in tags.
+- `src/models.py`: Dataclasses for daily snapshots (DailySnapshot, ClubSnapshot, PlayerSnapshot, BrawlerSnapshot)
+- `src/battle_models.py`: Dataclasses for battle log tracking (BattleEntry, BattlePlayer, BattleBrawler, PlayerBattleLog). `won` is inferred from `trophy_change` sign.
+- `src/battle_store.py`: Persistent storage for battle logs. Saves raw API items to `data/battlelogs/{TAG}.json`, deduped by `battleTime`. Use `update(tag)` to fetch and persist new battles, `load_raw(tag)` to read them back.
 - `src/config.py`: Configuration including API credentials, club/player tags, and game constants
-- `collect_data.py`: Main entry point that orchestrates data collection
+- `collect_data.py`: Main entry point that orchestrates daily data collection
+- `test_api.py`: Interactive API playground (not part of data collection). Key functions: `call(endpoint)`, `pretty(data)`, `keys(data)` (schema analysis), `print_battles(data)`, `print_stored_battles(tag)`, `update_all_battlelogs()`, `all_player_tags()`.
 
 **API Configuration:**
 - Supports both direct API access (requires `BRAWL_STARS_API_TOKEN`) and proxy mode (requires `BRAWL_STARS_PROXY_URL`)
@@ -106,6 +109,18 @@ INDIVIDUAL_PLAYERS = [
     {"name": "Player Name", "tag": "#XXXXXXX"},
 ]
 ```
+
+### Battle Log Storage
+
+Battle logs are stored separately from daily snapshots, in `data/battlelogs/{TAG}.json` (one file per player). Each file is a JSON list of raw API battle items sorted oldest → newest by `battleTime`. This format is intentionally raw so the data survives model changes.
+
+To update all tracked players' battle logs manually:
+```python
+# in test_api.py playground
+update_all_battlelogs()
+```
+
+Battle log data models live in `src/battle_models.py`. The `won` field on `BattleEntry` is inferred from `trophy_change` (positive = win, negative = loss, zero = undetermined/friendly). This is a simplification that can be refined later.
 
 ### Data Snapshot Format
 - Each snapshot contains: `date`, `timestamp`, `clubs[]`, `individual_players[]`

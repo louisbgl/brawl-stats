@@ -100,3 +100,44 @@ HYPER_CHARGE_COST = 5000
 GEAR_COST = 1000  # for the most part (being reworked)
 BUFFIE_GOLD_COST = 1000
 BUFFIE_PP_COST = 2000
+
+
+# ============================================================================
+# Helper Functions
+# ============================================================================
+
+def get_all_tracked_player_tags() -> list[tuple[str, str]]:
+    """
+    Get all tracked players (club members + individual players).
+
+    Returns:
+        List of (tag, name) tuples for all players to track.
+        Note: For club members, we need to fetch club data to get current members.
+    """
+    from .api import fetch_club_data, get_club_members_tags, fetch_player_data
+
+    players = []
+
+    # Get all club members
+    for club_config in CLUBS:
+        try:
+            club_data = fetch_club_data(club_config['tag'])
+            member_tags = get_club_members_tags(club_data)
+
+            # Fetch each member to get their name
+            for tag in member_tags:
+                try:
+                    player_data = fetch_player_data(tag)
+                    players.append((tag, player_data.get('name', 'Unknown')))
+                except Exception:
+                    # If we can't fetch player data, still add with unknown name
+                    players.append((tag, 'Unknown'))
+        except Exception:
+            # Skip club if we can't fetch its data
+            continue
+
+    # Add individual players
+    for player_config in INDIVIDUAL_PLAYERS:
+        players.append((player_config['tag'], player_config['name']))
+
+    return players
