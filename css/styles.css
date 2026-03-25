@@ -503,3 +503,177 @@ select:focus, input[type="text"]:focus {
     font-size: 0.9rem;
     color: var(--text-secondary);
 }
+
+/* Battle Performance */
+.performance-stat {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+    gap: 12px;
+}
+
+.performance-stat:last-child {
+    border-bottom: none;
+}
+
+.performance-label {
+    flex: 0 0 140px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.performance-value {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.performance-detail {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-left: auto;
+}
+
+.form-visual {
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+}
+
+.form-indicator {
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.form-indicator.win {
+    background: var(--accent-green);
+    color: var(--bg-primary);
+}
+
+.form-indicator.loss {
+    background: var(--accent-red);
+    color: var(--bg-primary);
+}
+
+.form-indicator.draw {
+    background: var(--text-secondary);
+    color: var(--bg-primary);
+}
+
+/* Brawler Rankings */
+.ranking-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.ranking-column {
+    background: var(--bg-secondary);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+}
+
+.ranking-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--accent-purple);
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+}
+
+.ranking-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0;
+    font-size: 0.9rem;
+}
+
+.ranking-pos {
+    flex: 0 0 20px;
+    font-weight: 700;
+    color: var(--accent-orange);
+}
+
+.ranking-brawler {
+    flex: 1;
+    color: var(--text-primary);
+}
+
+.ranking-value {
+    flex: 0 0 auto;
+    font-weight: 600;
+    color: var(--accent-blue);
+}
+
+/* Trophy change colors */
+.trophy-positive {
+    color: var(--accent-green);
+    font-weight: 600;
+}
+
+.trophy-negative {
+    color: var(--accent-red);
+    font-weight: 600;
+}
+
+/* Teammate Chemistry */
+.teammate-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.teammate-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+}
+
+.teammate-rank {
+    flex: 0 0 30px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--accent-orange);
+}
+
+.teammate-name {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.teammate-wr {
+    flex: 0 0 auto;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--accent-blue);
+}
+
+.teammate-games {
+    flex: 0 0 auto;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.teammate-record {
+    flex: 0 0 auto;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}

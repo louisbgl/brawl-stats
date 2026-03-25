@@ -5,11 +5,18 @@ const PlayerStatsManager = {
     brawlersRef: null,
 
     displayPlayerStats(clubIndex, playerIndex) {
-        this.currentPlayer = DataManager.getPlayer(clubIndex, playerIndex);
-        this.brawlersRef = DataManager.brawlersData.items;
+        try {
+            this.currentPlayer = DataManager.getPlayer(clubIndex, playerIndex);
+            this.brawlersRef = DataManager.brawlersData.items;
 
-        const container = document.getElementById('playerStatsContainer');
-        container.innerHTML = this.generatePlayerHTML();
+            const container = document.getElementById('playerStatsContainer');
+            container.innerHTML = this.generatePlayerHTML();
+        } catch (error) {
+            console.error('Error displaying player stats:', error);
+            document.getElementById('playerStatsContainer').innerHTML =
+                `<div class="loading" style="color: var(--accent-red);">Error loading player stats: ${error.message}</div>`;
+            return;
+        }
 
         // Create charts after HTML is rendered
         const prestigeStats = this.getPrestigeStats();
@@ -18,6 +25,15 @@ const PlayerStatsManager = {
         PlayerChartsManager.createPrestigeChart(prestigeStats);
         PlayerChartsManager.createPowerChart(powerDistribution);
         PlayerChartsManager.createPlayerTrophyChart(trophyTimeline);
+
+        // Create mode distribution chart if battlelog data exists
+        if (BattlelogDataManager.isLoaded) {
+            const battles = BattlelogDataManager.getBattlesForPlayer(this.currentPlayer.tag);
+            if (battles.length > 0) {
+                PlayerChartsManager.createModeDistributionChart(this.currentPlayer.tag);
+                PlayerChartsManager.createActivityHeatmap(this.currentPlayer.tag);
+            }
+        }
 
         // Setup filters
         this.setupBrawlerFilter();
@@ -69,6 +85,7 @@ const PlayerStatsManager = {
                         <option value="all">All Time</option>
                         <option value="month">Last Month</option>
                         <option value="week">Last Week</option>
+                        <option value="today">Today</option>
                         <option value="yesterday">Yesterday</option>
                     </select>
                 </div>
@@ -83,6 +100,7 @@ const PlayerStatsManager = {
             <div class="two-col">
                 <div class="card">
                     <h3>Gamemode Wins</h3>
+                    <p style="margin-bottom: 15px; font-size: 0.9rem; color: var(--text-secondary);">Total victories from daily snapshot data</p>
                     <div class="stats-grid">
                         <div class="stat-box">
                             <div class="stat-label">3v3 Wins</div>
@@ -103,14 +121,26 @@ const PlayerStatsManager = {
                     </div>
                 </div>
 
-                <div class="card">
-                    <h3>Prestige Distribution</h3>
-                    <p style="margin-bottom: 10px; font-size: 0.9rem; color: var(--text-secondary);">Prestige levels based on brawler trophies (1k = prestige 1, 2k = prestige 2, etc.)</p>
-                    <div style="height: 250px; margin: 15px 0;">
-                        <canvas id="playerPrestigeChart"></canvas>
-                    </div>
-                    ${firstPrestigeStats.html}
+                ${this.generateGameModeDistributionHTML()}
+            </div>
+
+            ${this.generateBattlePerformanceHTML()}
+
+            ${this.generateBrawlerRankingsHTML()}
+
+            ${this.generateBrawlerBattleStatsHTML()}
+
+            ${this.generateTeammateChemistryHTML()}
+
+            ${this.generateActivityHeatmapHTML()}
+
+            <div class="card">
+                <h3>Prestige Distribution</h3>
+                <p style="margin-bottom: 10px; font-size: 0.9rem; color: var(--text-secondary);">Number of brawlers at each prestige level</p>
+                <div style="height: 300px; margin: 15px 0;">
+                    <canvas id="playerPrestigeChart"></canvas>
                 </div>
+                ${firstPrestigeStats.html}
             </div>
 
             <div class="card">
@@ -176,12 +206,20 @@ const PlayerStatsManager = {
     },
 
     getPrestigeStats() {
-        const stats = { 0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
+        const stats = {};
+        let maxPrestige = 3; // Always show at least 0-3
+
         this.currentPlayer.brawlers.forEach(b => {
             const prestige = Math.floor(b.trophies / 1000);
-            const level = Math.min(prestige, 5); // Cap at 5+
-            stats[level]++;
+            stats[prestige] = (stats[prestige] || 0) + 1;
+            if (prestige > maxPrestige) maxPrestige = prestige;
         });
+
+        // Ensure we have entries for all prestige levels from 0 to max
+        for (let i = 0; i <= maxPrestige; i++) {
+            if (!stats[i]) stats[i] = 0;
+        }
+
         return stats;
     },
 
@@ -282,29 +320,109 @@ const PlayerStatsManager = {
     },
 
     getTrophyTimeline() {
-        const timeline = { dates: [], trophies: [] };
+        const timeline = {
+            dates: [],
+            trophies: [],
+            sources: [],
+            snapshotDates: [],
+            snapshotTrophies: [],
+            snapshotTimestamps: []
+        };
 
+        // Store daily snapshots separately for trend calculations
         DataManager.historicalData.forEach(snapshot => {
             const player = DataManager.findPlayerInSnapshot(snapshot, this.currentPlayer.tag);
             if (player) {
-                timeline.dates.push(snapshot.date);
-                timeline.trophies.push(player.trophies);
+                timeline.snapshotDates.push(snapshot.date);
+                timeline.snapshotTrophies.push(player.trophies);
+                timeline.snapshotTimestamps.push(snapshot.timestamp);
             }
         });
+
+        // If no battlelog data, just use snapshots
+        if (!BattlelogDataManager.isLoaded) {
+            timeline.dates = [...timeline.snapshotDates];
+            timeline.trophies = [...timeline.snapshotTrophies];
+            timeline.sources = new Array(timeline.dates.length).fill('snapshot');
+            return timeline;
+        }
+
+        const battles = BattlelogDataManager.getBattlesForPlayer(this.currentPlayer.tag);
+        if (battles.length === 0) {
+            timeline.dates = [...timeline.snapshotDates];
+            timeline.trophies = [...timeline.snapshotTrophies];
+            timeline.sources = new Array(timeline.dates.length).fill('snapshot');
+            return timeline;
+        }
+
+        // Build timeline: snapshots are source of truth, battles add granularity
+        // Algorithm: Add all snapshots as anchor points, then add battles AFTER the last snapshot
+        const points = [];
+
+        // Add all snapshot points
+        timeline.snapshotDates.forEach((date, i) => {
+            points.push({
+                date: new Date(timeline.snapshotTimestamps[i]),
+                dateStr: date,
+                trophies: timeline.snapshotTrophies[i],
+                source: 'snapshot',
+                isAnchor: true
+            });
+        });
+
+        // If we have snapshots, add battle granularity after the last snapshot
+        if (timeline.snapshotTimestamps.length > 0) {
+            const lastSnapshotTime = new Date(timeline.snapshotTimestamps[timeline.snapshotTimestamps.length - 1]);
+            const lastSnapshotTrophies = timeline.snapshotTrophies[timeline.snapshotTrophies.length - 1];
+
+            // Convert battles to sorted list with timestamps
+            const battlesWithTime = battles.map(b => {
+                const isoDate = b.battleTime.replace(/(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/, '$1-$2-$3T$4:$5:$6');
+                return {
+                    time: new Date(isoDate),
+                    timeStr: isoDate,
+                    trophyChange: b.battle.trophyChange || 0
+                };
+            }).sort((a, b) => a.time - b.time);
+
+            // Add battles that happened AFTER the last snapshot
+            let currentTrophies = lastSnapshotTrophies;
+            battlesWithTime.forEach(battle => {
+                if (battle.time > lastSnapshotTime) {
+                    currentTrophies += battle.trophyChange;
+                    points.push({
+                        date: battle.time,
+                        dateStr: battle.timeStr,
+                        trophies: currentTrophies,
+                        source: 'battle',
+                        isAnchor: false
+                    });
+                }
+            });
+        }
+
+        // Sort all points chronologically
+        points.sort((a, b) => a.date - b.date);
+
+        timeline.dates = points.map(p => p.dateStr);
+        timeline.trophies = points.map(p => p.trophies);
+        timeline.sources = points.map(p => p.source);
 
         return timeline;
     },
 
     getTrendIndicatorsHTML() {
         const timeline = this.getTrophyTimeline();
-        if (timeline.trophies.length < 2) {
+        if (timeline.snapshotTrophies.length < 2) {
             return '<div style="margin: 10px 0; color: var(--text-secondary); font-size: 0.9rem;">Not enough data for trends</div>';
         }
 
-        const current = timeline.trophies[timeline.trophies.length - 1];
-        const yesterday = timeline.trophies.length >= 2 ? timeline.trophies[timeline.trophies.length - 2] : current;
-        const weekAgo = timeline.trophies.length >= 8 ? timeline.trophies[timeline.trophies.length - 8] : timeline.trophies[0];
-        const monthAgo = timeline.trophies.length >= 31 ? timeline.trophies[timeline.trophies.length - 31] : timeline.trophies[0];
+        // Use snapshot data for trend calculations
+        const snapshots = timeline.snapshotTrophies;
+        const current = snapshots[snapshots.length - 1];
+        const yesterday = snapshots.length >= 2 ? snapshots[snapshots.length - 2] : current;
+        const weekAgo = snapshots.length >= 8 ? snapshots[snapshots.length - 8] : snapshots[0];
+        const monthAgo = snapshots.length >= 31 ? snapshots[snapshots.length - 31] : snapshots[0];
 
         const dayChange = current - yesterday;
         const weekChange = current - weekAgo;
@@ -596,27 +714,535 @@ const PlayerStatsManager = {
         rangeSelect.addEventListener('change', () => {
             const range = rangeSelect.value;
             const fullTimeline = this.getTrophyTimeline();
-            let filteredTimeline = { dates: [], trophies: [] };
+            let filteredTimeline = {
+                dates: [],
+                trophies: [],
+                sources: [],
+                snapshotDates: [],
+                snapshotTrophies: [],
+                snapshotTimestamps: []
+            };
 
             if (range === 'all') {
                 filteredTimeline = fullTimeline;
             } else {
-                const dataLength = fullTimeline.dates.length;
-                let startIndex = 0;
+                const now = new Date();
+                const todayStr = now.toISOString().split('T')[0];
 
-                if (range === 'yesterday') {
-                    startIndex = Math.max(0, dataLength - 2);
+                let cutoffDate;
+                let endDate = null; // For "yesterday" which needs both start and end
+
+                if (range === 'today') {
+                    cutoffDate = new Date(todayStr);
+                } else if (range === 'yesterday') {
+                    const yesterday = new Date(now);
+                    yesterday.setDate(yesterday.getDate() - 1);
+                    const yesterdayStr = yesterday.toISOString().split('T')[0];
+                    cutoffDate = new Date(yesterdayStr);
+                    endDate = new Date(todayStr);
                 } else if (range === 'week') {
-                    startIndex = Math.max(0, dataLength - 8);
+                    cutoffDate = new Date(now);
+                    cutoffDate.setDate(cutoffDate.getDate() - 7);
                 } else if (range === 'month') {
-                    startIndex = Math.max(0, dataLength - 31);
+                    cutoffDate = new Date(now);
+                    cutoffDate.setDate(cutoffDate.getDate() - 30);
                 }
 
-                filteredTimeline.dates = fullTimeline.dates.slice(startIndex);
-                filteredTimeline.trophies = fullTimeline.trophies.slice(startIndex);
+                if (cutoffDate) {
+                    // Filter main timeline data points
+                    for (let i = 0; i < fullTimeline.dates.length; i++) {
+                        const pointDate = new Date(fullTimeline.dates[i]);
+                        const inRange = endDate
+                            ? (pointDate >= cutoffDate && pointDate < endDate)
+                            : (pointDate >= cutoffDate);
+
+                        if (inRange) {
+                            filteredTimeline.dates.push(fullTimeline.dates[i]);
+                            filteredTimeline.trophies.push(fullTimeline.trophies[i]);
+                            if (fullTimeline.sources) {
+                                filteredTimeline.sources.push(fullTimeline.sources[i]);
+                            }
+                        }
+                    }
+
+                    // Filter snapshot arrays (needed for chart x-axis)
+                    for (let i = 0; i < fullTimeline.snapshotDates.length; i++) {
+                        const snapshotDate = new Date(fullTimeline.snapshotDates[i]);
+                        const inRange = endDate
+                            ? (snapshotDate >= cutoffDate && snapshotDate < endDate)
+                            : (snapshotDate >= cutoffDate);
+
+                        if (inRange) {
+                            filteredTimeline.snapshotDates.push(fullTimeline.snapshotDates[i]);
+                            filteredTimeline.snapshotTrophies.push(fullTimeline.snapshotTrophies[i]);
+                            filteredTimeline.snapshotTimestamps.push(fullTimeline.snapshotTimestamps[i]);
+                        }
+                    }
+                }
             }
 
             PlayerChartsManager.createPlayerTrophyChart(filteredTimeline);
         });
+    },
+
+    generateBattlePerformanceHTML() {
+        if (!BattlelogDataManager.isLoaded) {
+            return '';
+        }
+
+        const tag = this.currentPlayer.tag;
+        const battles = BattlelogDataManager.getBattlesForPlayer(tag);
+
+        if (battles.length === 0) {
+            return `
+                <div class="card">
+                    <h3>Battle Performance</h3>
+                    <p style="color: var(--text-secondary);">No battle data available yet</p>
+                </div>
+            `;
+        }
+
+        const overallWr = BattlelogAnalytics.getWinRate(tag);
+        const starPlayerCount = BattlelogAnalytics.getStarPlayerCount(tag);
+        const mvpRate = battles.length > 0 ? (starPlayerCount / battles.length) * 100 : 0;
+
+        // Find best mode
+        const modeCounts = {};
+        const modeWins = {};
+        battles.forEach(b => {
+            const mode = b.event.mode;
+            modeCounts[mode] = (modeCounts[mode] || 0) + 1;
+            if (BattlelogAnalytics.isWin(b)) {
+                modeWins[mode] = (modeWins[mode] || 0) + 1;
+            }
+        });
+
+        let bestMode = 'N/A';
+        let bestModeWr = 0;
+        let bestModeGames = 0;
+        for (const [mode, count] of Object.entries(modeCounts)) {
+            if (count >= 5) {
+                const wins = modeWins[mode] || 0;
+                const wr = (wins / count) * 100;
+                if (wr > bestModeWr) {
+                    bestModeWr = wr;
+                    bestMode = mode;
+                    bestModeGames = count;
+                }
+            }
+        }
+
+
+        // Most MVPs with which brawler
+        const brawlerMvps = {};
+        battles.forEach(b => {
+            const starPlayer = b.battle.starPlayer;
+            if (starPlayer && starPlayer.tag === tag) {
+                const brawlerName = starPlayer.brawler.name;
+                brawlerMvps[brawlerName] = (brawlerMvps[brawlerName] || 0) + 1;
+            }
+        });
+
+        let topMvpBrawler = 'N/A';
+        let topMvpCount = 0;
+        for (const [brawler, count] of Object.entries(brawlerMvps)) {
+            if (count > topMvpCount) {
+                topMvpCount = count;
+                topMvpBrawler = brawler;
+            }
+        }
+
+        return `
+            <div class="card">
+                <h3>Battle Performance</h3>
+                <div class="two-col" style="margin-top: 15px;">
+                    <div>
+                        <h4 style="font-size: 0.95rem; margin-bottom: 12px; color: var(--text-secondary); text-transform: uppercase;">Win Rate Analysis</h4>
+                        <div class="performance-stat">
+                            <span class="performance-label">Overall WR</span>
+                            <span class="performance-value highlight-blue">${overallWr.winRate.toFixed(1)}%</span>
+                            <span class="performance-detail">(${overallWr.wins}W-${overallWr.losses}L)</span>
+                        </div>
+                        <div class="performance-stat">
+                            <span class="performance-label">Best Mode</span>
+                            <span class="performance-value highlight-green">${bestMode}</span>
+                            <span class="performance-detail">${bestMode !== 'N/A' ? `${bestModeWr.toFixed(1)}% in ${bestModeGames} games` : ''}</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 style="font-size: 0.95rem; margin-bottom: 12px; color: var(--text-secondary); text-transform: uppercase;">Star Player Stats</h4>
+                        <div class="performance-stat">
+                            <span class="performance-label">MVP Rate</span>
+                            <span class="performance-value highlight-orange">${mvpRate.toFixed(1)}%</span>
+                            <span class="performance-detail">(${starPlayerCount}/${battles.length} games)</span>
+                        </div>
+                        <div class="performance-stat">
+                            <span class="performance-label">Most MVPs with</span>
+                            <span class="performance-value highlight-purple">${topMvpBrawler}</span>
+                            <span class="performance-detail">${topMvpCount > 0 ? `${topMvpCount} times` : ''}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    },
+
+    generateBrawlerRankingsHTML() {
+        if (!BattlelogDataManager.isLoaded) {
+            return '';
+        }
+
+        const tag = this.currentPlayer.tag;
+        const battles = BattlelogDataManager.getBattlesForPlayer(tag);
+
+        if (battles.length === 0) {
+            return '';
+        }
+
+        // Aggregate brawler stats - need to find which brawler the player used
+        const brawlerStats = {};
+        battles.forEach(b => {
+            let brawlerName = null;
+
+            // Team modes
+            if (b.battle.teams) {
+                for (const team of b.battle.teams) {
+                    const player = team.find(p => p.tag === tag);
+                    if (player) {
+                        brawlerName = player.brawler.name;
+                        break;
+                    }
+                }
+            }
+
+            // Solo showdown
+            if (!brawlerName && b.battle.players) {
+                const player = b.battle.players.find(p => p.tag === tag);
+                if (player) {
+                    brawlerName = player.brawler.name;
+                }
+            }
+
+            if (brawlerName) {
+                if (!brawlerStats[brawlerName]) {
+                    brawlerStats[brawlerName] = {
+                        name: brawlerName,
+                        games: 0,
+                        wins: 0,
+                        trophyChange: 0,
+                        mvps: 0
+                    };
+                }
+                brawlerStats[brawlerName].games++;
+                if (BattlelogAnalytics.isWin(b)) brawlerStats[brawlerName].wins++;
+                brawlerStats[brawlerName].trophyChange += b.battle.trophyChange || 0;
+
+                const starPlayer = b.battle.starPlayer;
+                if (starPlayer && starPlayer.tag === tag && starPlayer.brawler.name === brawlerName) {
+                    brawlerStats[brawlerName].mvps++;
+                }
+            }
+        });
+
+        const brawlerArray = Object.values(brawlerStats).filter(b => b.games >= 10);
+        brawlerArray.forEach(b => b.winRate = (b.wins / b.games) * 100);
+
+        const byWinRate = [...brawlerArray].sort((a, b) => b.winRate - a.winRate).slice(0, 5);
+        const byGames = [...brawlerArray].sort((a, b) => b.games - a.games).slice(0, 5);
+        const byTrophies = [...brawlerArray].sort((a, b) => b.trophyChange - a.trophyChange).slice(0, 5);
+        const byMvps = [...brawlerArray].sort((a, b) => b.mvps - a.mvps).slice(0, 5);
+
+        const rankingList = (list, valueFn) => list.map((b, i) =>
+            `<div class="ranking-item">
+                <span class="ranking-pos">${i + 1}.</span>
+                <span class="ranking-brawler">${b.name}</span>
+                <span class="ranking-value">${valueFn(b)}</span>
+            </div>`
+        ).join('');
+
+        return `
+            <div class="card">
+                <h3>Brawler Performance Rankings</h3>
+                <p style="margin-bottom: 15px; font-size: 0.9rem; color: var(--text-secondary);">Top 5 brawlers by different metrics (min 10 games)</p>
+                <div class="ranking-grid">
+                    <div class="ranking-column">
+                        <h4 class="ranking-title">Highest Win Rate</h4>
+                        ${rankingList(byWinRate, b => `${b.winRate.toFixed(1)}%`)}
+                    </div>
+                    <div class="ranking-column">
+                        <h4 class="ranking-title">Most Played</h4>
+                        ${rankingList(byGames, b => `${b.games} games`)}
+                    </div>
+                    <div class="ranking-column">
+                        <h4 class="ranking-title">Trophy Grinders</h4>
+                        ${rankingList(byTrophies, b => `${b.trophyChange > 0 ? '+' : ''}${b.trophyChange}`)}
+                    </div>
+                    <div class="ranking-column">
+                        <h4 class="ranking-title">MVP Machines</h4>
+                        ${rankingList(byMvps, b => `${b.mvps} MVPs`)}
+                    </div>
+                </div>
+            </div>
+        `;
+    },
+
+    generateGameModeDistributionHTML() {
+        if (!BattlelogDataManager.isLoaded) {
+            return '';
+        }
+
+        const tag = this.currentPlayer.tag;
+        const battles = BattlelogDataManager.getBattlesForPlayer(tag);
+
+        if (battles.length === 0) {
+            return '';
+        }
+
+        const modeCounts = {};
+        battles.forEach(b => {
+            const mode = b.event.mode;
+            modeCounts[mode] = (modeCounts[mode] || 0) + 1;
+        });
+
+        const total = battles.length;
+        const modeData = Object.entries(modeCounts)
+            .map(([mode, count]) => ({
+                mode,
+                count,
+                percentage: (count / total) * 100
+            }))
+            .sort((a, b) => b.count - a.count);
+
+        return `
+            <div class="card">
+                <h3>Game Mode Distribution</h3>
+                <p style="margin-bottom: 15px; font-size: 0.9rem; color: var(--text-secondary);">Percentage of games played in each mode</p>
+                <div style="height: 300px; margin: 15px 0;">
+                    <canvas id="playerModeChart"></canvas>
+                </div>
+            </div>
+        `;
+    },
+
+    generateBrawlerBattleStatsHTML() {
+        if (!BattlelogDataManager.isLoaded) {
+            return '';
+        }
+
+        const tag = this.currentPlayer.tag;
+        const battles = BattlelogDataManager.getBattlesForPlayer(tag);
+
+        if (battles.length === 0) {
+            return '';
+        }
+
+        // Aggregate brawler stats
+        const brawlerStats = {};
+        battles.forEach(b => {
+            let brawlerName = null;
+
+            if (b.battle.teams) {
+                for (const team of b.battle.teams) {
+                    const player = team.find(p => p.tag === tag);
+                    if (player) {
+                        brawlerName = player.brawler.name;
+                        break;
+                    }
+                }
+            }
+
+            if (!brawlerName && b.battle.players) {
+                const player = b.battle.players.find(p => p.tag === tag);
+                if (player) {
+                    brawlerName = player.brawler.name;
+                }
+            }
+
+            if (brawlerName) {
+                if (!brawlerStats[brawlerName]) {
+                    brawlerStats[brawlerName] = {
+                        name: brawlerName,
+                        games: 0,
+                        wins: 0,
+                        trophyChange: 0,
+                        mvps: 0,
+                        lastPlayed: b.battleTime
+                    };
+                }
+                brawlerStats[brawlerName].games++;
+                if (BattlelogAnalytics.isWin(b)) brawlerStats[brawlerName].wins++;
+                brawlerStats[brawlerName].trophyChange += b.battle.trophyChange || 0;
+
+                const starPlayer = b.battle.starPlayer;
+                if (starPlayer && starPlayer.tag === tag && starPlayer.brawler.name === brawlerName) {
+                    brawlerStats[brawlerName].mvps++;
+                }
+
+                // Update last played if more recent
+                const currentBattleTime = b.battleTime.replace(/(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/, '$1-$2-$3T$4:$5:$6');
+                const lastPlayedTime = brawlerStats[brawlerName].lastPlayed.replace(/(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/, '$1-$2-$3T$4:$5:$6');
+                if (new Date(currentBattleTime) > new Date(lastPlayedTime)) {
+                    brawlerStats[brawlerName].lastPlayed = b.battleTime;
+                }
+            }
+        });
+
+        const brawlerArray = Object.values(brawlerStats);
+        brawlerArray.forEach(b => b.winRate = (b.wins / b.games) * 100);
+        brawlerArray.sort((a, b) => b.games - a.games);
+
+        const formatLastPlayed = (dateStr) => {
+            if (!dateStr) return 'Unknown';
+            // Convert 20260324T161433.000Z to ISO format
+            const isoDate = dateStr.replace(/(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/, '$1-$2-$3T$4:$5:$6');
+            const date = new Date(isoDate);
+            if (isNaN(date.getTime())) return 'Unknown';
+            const now = new Date();
+            const diffMs = now - date;
+            const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+            if (diffDays === 0) return 'Today';
+            if (diffDays === 1) return 'Yesterday';
+            return `${diffDays} days ago`;
+        };
+
+        const tableRows = brawlerArray.map(b => `
+            <tr>
+                <td><strong>${b.name}</strong></td>
+                <td>${b.games}</td>
+                <td>${b.wins}-${b.games - b.wins} (${b.winRate.toFixed(1)}%)</td>
+                <td class="${b.trophyChange >= 0 ? 'trophy-positive' : 'trophy-negative'}">${b.trophyChange > 0 ? '+' : ''}${b.trophyChange}</td>
+                <td>${formatLastPlayed(b.lastPlayed)}</td>
+                <td>${b.mvps}</td>
+            </tr>
+        `).join('');
+
+        return `
+            <div class="card">
+                <h3>Brawler Battle Stats</h3>
+                <p style="margin-bottom: 15px; font-size: 0.9rem; color: var(--text-secondary);">Detailed battle performance per brawler from battlelog data</p>
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Brawler</th>
+                                <th>Games</th>
+                                <th>Win Rate</th>
+                                <th>Net Trophies</th>
+                                <th>Last Played</th>
+                                <th>MVPs</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${tableRows}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        `;
+    },
+
+    generateTeammateChemistryHTML() {
+        if (!BattlelogDataManager.isLoaded) {
+            return '';
+        }
+
+        const tag = this.currentPlayer.tag;
+        const battles = BattlelogDataManager.getBattlesForPlayer(tag);
+
+        if (battles.length === 0) {
+            return '';
+        }
+
+        // Get all tracked player tags
+        const trackedPlayers = DataManager.getAllPlayers();
+        const trackedTags = new Set(trackedPlayers.map(p => p.tag));
+
+        // Track teammate stats
+        const teammateStats = {};
+
+        battles.forEach(b => {
+            // Only team modes have teammates
+            if (b.battle.teams) {
+                for (const team of b.battle.teams) {
+                    const playerInTeam = team.find(p => p.tag === tag);
+                    if (playerInTeam) {
+                        // Found our team, track teammates
+                        team.forEach(p => {
+                            if (p.tag !== tag && trackedTags.has(p.tag)) { // Not self and is tracked player
+                                if (!teammateStats[p.tag]) {
+                                    teammateStats[p.tag] = {
+                                        tag: p.tag,
+                                        name: p.name,
+                                        games: 0,
+                                        wins: 0
+                                    };
+                                }
+                                teammateStats[p.tag].games++;
+                                if (BattlelogAnalytics.isWin(b)) {
+                                    teammateStats[p.tag].wins++;
+                                }
+                            }
+                        });
+                        break;
+                    }
+                }
+            }
+        });
+
+        const teammateArray = Object.values(teammateStats);
+        if (teammateArray.length === 0) {
+            return `
+                <div class="card">
+                    <h3>Teammate Chemistry</h3>
+                    <p style="color: var(--text-secondary);">No teammate data available (only solo modes played)</p>
+                </div>
+            `;
+        }
+
+        teammateArray.forEach(t => t.winRate = (t.wins / t.games) * 100);
+        teammateArray.sort((a, b) => b.winRate - a.winRate);
+
+        const teammateList = teammateArray.map((t, i) => `
+            <div class="teammate-item">
+                <span class="teammate-rank">${i + 1}.</span>
+                <span class="teammate-name">${t.name}</span>
+                <span class="teammate-wr">${t.winRate.toFixed(1)}%</span>
+                <span class="teammate-games">${t.games} games</span>
+                <span class="teammate-record">${t.wins}W-${t.games - t.wins}L</span>
+            </div>
+        `).join('');
+
+        return `
+            <div class="card">
+                <h3>Teammate Chemistry</h3>
+                <p style="margin-bottom: 15px; font-size: 0.9rem; color: var(--text-secondary);">Win rate when playing with each teammate (all modes combined)</p>
+                <div class="teammate-list">
+                    ${teammateList}
+                </div>
+            </div>
+        `;
+    },
+
+    generateActivityHeatmapHTML() {
+        if (!BattlelogDataManager.isLoaded) {
+            return '';
+        }
+
+        const tag = this.currentPlayer.tag;
+        const battles = BattlelogDataManager.getBattlesForPlayer(tag);
+
+        if (battles.length === 0) {
+            return '';
+        }
+
+        return `
+            <div class="card">
+                <h3>Activity Heatmap</h3>
+                <p style="margin-bottom: 15px; font-size: 0.9rem; color: var(--text-secondary);">When you play most (by hour and day of week)</p>
+                <div style="height: 350px; margin-top: 15px;">
+                    <canvas id="playerActivityHeatmap"></canvas>
+                </div>
+            </div>
+        `;
     }
 };
