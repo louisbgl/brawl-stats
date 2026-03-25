@@ -3,6 +3,7 @@
 async function init() {
     try {
         await DataManager.init();
+        await BattlelogDataManager.init();
 
         // Update last update time
         const updateTime = new Date(DataManager.latestData.timestamp);
@@ -26,8 +27,9 @@ async function init() {
         ChartsManager.createMaxedTimeline();
         ChartsManager.createPrestigeTimeline();
 
-        // Setup club quick stats
+        // Setup club quick stats and leaderboards
         displayClubQuickStats();
+        displayClubLeaderboards();
 
     } catch (error) {
         console.error('Failed to initialize:', error);
@@ -111,7 +113,14 @@ function displayClubQuickStats() {
         return sum + p.brawlers.filter(b => b.trophies >= 1000).length;
     }, 0);
 
-    const html = `
+    // Battlelog stats
+    const totalBattles = BattlelogDataManager.getTotalBattleCount();
+    const clubAvgWr = BattlelogAnalytics.getClubAverageWinRate();
+    const favoriteMode = BattlelogAnalytics.getClubMostPlayedMode();
+    const mostActive = BattlelogAnalytics.getMostActivePlayer(7);
+    const bestWr = BattlelogAnalytics.getBestWinRatePlayer(7, 10);
+
+    let html = `
         <div class="stat-box">
             <div class="stat-label">Total Members</div>
             <div class="stat-value highlight-blue">${players.length}</div>
@@ -121,16 +130,114 @@ function displayClubQuickStats() {
             <div class="stat-value highlight-purple">${totalTrophies.toLocaleString()}</div>
         </div>
         <div class="stat-box">
-            <div class="stat-label">Avg Trophies</div>
-            <div class="stat-value highlight-green">${avgTrophies.toLocaleString()}</div>
-        </div>
-        <div class="stat-box">
             <div class="stat-label">Prestige Brawlers</div>
             <div class="stat-value highlight-orange">${prestigeBrawlers}</div>
         </div>
     `;
 
+    // Add battlelog stats if data is available
+    if (BattlelogDataManager.isLoaded && totalBattles > 0) {
+        html += `
+            <div class="stat-box">
+                <div class="stat-label">Total Battles</div>
+                <div class="stat-value highlight-blue">${totalBattles.toLocaleString()}</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Club Avg Win Rate</div>
+                <div class="stat-value highlight-green">${clubAvgWr.toFixed(1)}%</div>
+            </div>
+        `;
+
+        if (favoriteMode) {
+            html += `
+                <div class="stat-box">
+                    <div class="stat-label">Favorite Mode</div>
+                    <div class="stat-value highlight-purple">${favoriteMode.mode}</div>
+                    <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px;">${favoriteMode.percentage.toFixed(1)}% of games</div>
+                </div>
+            `;
+        }
+
+        if (mostActive) {
+            html += `
+                <div class="stat-box">
+                    <div class="stat-label">Most Active (7d)</div>
+                    <div class="stat-value highlight-orange">${mostActive.name}</div>
+                    <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px;">${mostActive.battleCount} games</div>
+                </div>
+            `;
+        }
+
+        if (bestWr) {
+            html += `
+                <div class="stat-box">
+                    <div class="stat-label">Best WR (7d)</div>
+                    <div class="stat-value highlight-green">${bestWr.name}</div>
+                    <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px;">${bestWr.winRate.toFixed(1)}%</div>
+                </div>
+            `;
+        }
+    }
+
     document.getElementById('clubQuickStats').innerHTML = html;
+}
+
+function displayClubLeaderboards() {
+    const container = document.getElementById('clubLeaderboards');
+    if (!container) return;
+
+    if (!BattlelogDataManager.isLoaded || BattlelogDataManager.getTotalBattleCount() === 0) {
+        container.innerHTML = '<div class="loading">No battlelog data available yet</div>';
+        return;
+    }
+
+    const players = DataManager.getAllPlayers();
+
+    // Calculate leaderboard stats
+    const grindKing = players
+        .map(p => ({
+            name: p.name,
+            battles: BattlelogDataManager.getPlayerBattleCount(p.tag)
+        }))
+        .sort((a, b) => b.battles - a.battles)[0];
+
+    const bestOverallWr = BattlelogAnalytics.getBestOverallWinRatePlayer(20);
+    const starPlayer = BattlelogAnalytics.getTopStarPlayer();
+    const hotStreak = BattlelogAnalytics.getLongestCurrentStreak();
+
+    const html = `
+        <div class="leaderboard-grid">
+            <div class="leaderboard-item">
+                <div class="leaderboard-icon">👑</div>
+                <div class="leaderboard-title">Grind King</div>
+                <div class="leaderboard-player">${grindKing?.name || 'N/A'}</div>
+                <div class="leaderboard-stat">${grindKing?.battles.toLocaleString() || 0} battles</div>
+            </div>
+
+            <div class="leaderboard-item">
+                <div class="leaderboard-icon">🏆</div>
+                <div class="leaderboard-title">Best Win Rate</div>
+                <div class="leaderboard-player">${bestOverallWr?.name || 'N/A'}</div>
+                <div class="leaderboard-stat">${bestOverallWr ? `${bestOverallWr.winRate.toFixed(1)}%` : 'N/A'}</div>
+            </div>
+
+            <div class="leaderboard-item">
+                <div class="leaderboard-icon">⭐</div>
+                <div class="leaderboard-title">Star Player</div>
+                <div class="leaderboard-player">${starPlayer?.name || 'N/A'}</div>
+                <div class="leaderboard-stat">${starPlayer?.starPlayerCount || 0} MVPs</div>
+            </div>
+
+            <div class="leaderboard-item">
+                <div class="leaderboard-icon">🔥</div>
+                <div class="leaderboard-title">Hot Streak</div>
+                <div class="leaderboard-player">${hotStreak?.name || 'N/A'}</div>
+                <div class="leaderboard-stat">${hotStreak ? `${hotStreak.streak} wins` : 'N/A'}</div>
+            </div>
+        </div>
+    `;
+
+    container.innerHTML = html;
 }
 
 // Initialize on page load
