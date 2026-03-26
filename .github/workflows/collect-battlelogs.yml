@@ -1,11 +1,12 @@
-name: Collect Battle Logs
+name: Collect Battle Logs (DISABLED - Now running on Oracle VM)
 
 on:
-  # Run every 30 minutes
-  schedule:
-    - cron: '*/30 * * * *'
+  # DISABLED: Battlelog collection moved to Oracle Cloud VM for reliable scheduling
+  # Keeping workflow for reference and manual runs if needed
+  # schedule:
+  #   - cron: '*/30 * * * *'
 
-  # Allow manual trigger
+  # Allow manual trigger (use only if Oracle VM collection fails)
   workflow_dispatch:
 
   # Run on push to main (for testing)
