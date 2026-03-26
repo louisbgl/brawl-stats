@@ -1,9 +1,9 @@
 name: Collect Battle Logs
 
 on:
-  # Run every hour
+  # Run every 30 minutes
   schedule:
-    - cron: '0 * * * *'
+    - cron: '*/30 * * * *'
 
   # Allow manual trigger
   workflow_dispatch:
@@ -54,6 +54,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Hourly battlelog update: $(date +'%Y-%m-%d %H:00 UTC')"
+            git commit -m "Battlelog update: $(TZ='Europe/Paris' date +'%A %Y-%m-%d %H:%M CET')"
             git push || (git pull --rebase origin main && git push)
           fi
