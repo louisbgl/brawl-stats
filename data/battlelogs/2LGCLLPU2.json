@@ -7724,5 +7724,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260326T231539.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 129,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#2LGCLLPU2",
+        "name": "El Cactus",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 1080
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1080
+            }
+          },
+          {
+            "tag": "#L0RUGJGJ0",
+            "name": "SKOR😄",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1129
+            }
+          },
+          {
+            "tag": "#G99QQU0U0",
+            "name": "HU|Büdös Zokni",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 11,
+              "trophies": 839
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L8CC2LRQ9",
+            "name": "yannisb4m",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1022
+            }
+          },
+          {
+            "tag": "#L8JJCPRL2",
+            "name": "Andréas_46410",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 1002
+            }
+          },
+          {
+            "tag": "#L8CYCYC9C",
+            "name": "𝕶𝕮_𝖊𝖗𝖎𝖔𝖙",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1030
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
