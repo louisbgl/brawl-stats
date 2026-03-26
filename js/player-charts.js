@@ -79,6 +79,7 @@ const PlayerChartsManager = {
                     },
                     tooltip: {
                         backgroundColor: 'rgba(0, 0, 0, 0.9)',
+                        itemSort: (a, b) => b.parsed.y - a.parsed.y,
                         callbacks: {
                             label: context => `${context.parsed.y} brawler${context.parsed.y !== 1 ? 's' : ''}`
                         }
@@ -175,6 +176,7 @@ const PlayerChartsManager = {
                     },
                     tooltip: {
                         backgroundColor: 'rgba(0, 0, 0, 0.9)',
+                        itemSort: (a, b) => b.parsed.y - a.parsed.y,
                         callbacks: {
                             label: context => `${context.parsed.y} brawler${context.parsed.y !== 1 ? 's' : ''}`
                         }
@@ -541,9 +543,8 @@ const PlayerChartsManager = {
 
         // Count battles per hour/day
         battles.forEach(b => {
-            // Convert 20260324T161433.000Z to ISO format
-            const isoDate = b.battleTime.replace(/(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/, '$1-$2-$3T$4:$5:$6');
-            const date = new Date(isoDate);
+            const date = Utils.parseBattleTime(b.battleTime);
+            if (!date) return;
             const day = date.getDay(); // 0 = Sunday
             const hour = date.getHours();
             heatmapData[`${day}-${hour}`]++;

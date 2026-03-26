@@ -69,12 +69,19 @@
         <div id="timelines" class="tab-content">
             <div class="card">
                 <h2>Trophy Timeline</h2>
-                <p style="margin-bottom: 15px; color: var(--text-secondary);">
+                <p style="margin-bottom: 10px; color: var(--text-secondary);">
                     Track overall player trophies or select a specific brawler to compare progression
                 </p>
-                <select id="trophyBrawlerSelect" style="margin-bottom: 20px;">
-                    <option value="">Overall (all brawlers)</option>
-                </select>
+                <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
+                    <select id="trophyBrawlerSelect">
+                        <option value="">Overall (all brawlers)</option>
+                    </select>
+                    <div style="display: flex; gap: 10px; align-items: center;">
+                        <label style="color: var(--text-secondary); font-size: 0.9rem;">View:</label>
+                        <button id="trophyViewDaily" class="view-toggle active">Daily Snapshots</button>
+                        <button id="trophyViewBattles" class="view-toggle">All Battles</button>
+                    </div>
+                </div>
                 <div class="chart-container">
                     <canvas id="trophyTimelineChart"></canvas>
                 </div>
@@ -117,6 +124,29 @@
                 <p style="margin-bottom: 15px; color: var(--text-secondary);">Brawlers with 1000+ trophies</p>
                 <div class="chart-container">
                     <canvas id="prestigeChart"></canvas>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Activity Timeline</h2>
+                <p style="margin-bottom: 10px; color: var(--text-secondary);">Games played per day</p>
+                <div style="margin-bottom: 15px;">
+                    <select id="activityTimelineRangeSelect" style="padding: 8px 12px; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; color: var(--text-primary); cursor: pointer;">
+                        <option value="all">All Time</option>
+                        <option value="30">Last 30 Days</option>
+                        <option value="7">Last 7 Days</option>
+                    </select>
+                </div>
+                <div class="chart-container">
+                    <canvas id="activityTimelineChart"></canvas>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Mode Popularity Timeline</h2>
+                <p style="margin-bottom: 15px; color: var(--text-secondary);">Percentage distribution of game modes over time</p>
+                <div class="chart-container">
+                    <canvas id="modePopularityChart"></canvas>
                 </div>
             </div>
         </div>

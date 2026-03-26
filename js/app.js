@@ -26,6 +26,8 @@ async function init() {
         ChartsManager.createCollectionTimeline();
         ChartsManager.createMaxedTimeline();
         ChartsManager.createPrestigeTimeline();
+        ChartsManager.createActivityTimeline();
+        ChartsManager.createModePopularityTimeline();
 
         // Setup club quick stats and leaderboards
         displayClubQuickStats();
@@ -89,18 +91,51 @@ function populateTrophyBrawlerSelect() {
         select.appendChild(option);
     });
 
+    let currentTrophyView = 'daily';
+    let currentBrawler = '';
+
     select.addEventListener('change', (e) => {
-        if (e.target.value) {
-            ChartsManager.createBrawlerTrophyTimeline(e.target.value);
+        currentBrawler = e.target.value;
+        if (currentBrawler) {
+            ChartsManager.createBrawlerTrophyTimeline(currentBrawler, currentTrophyView);
         } else {
-            ChartsManager.createTrophyTimeline();
+            ChartsManager.createBrawlerTrophyTimeline('', currentTrophyView);
         }
     });
+
+    // Setup trophy timeline view toggle
+    const trophyViewDaily = document.getElementById('trophyViewDaily');
+    const trophyViewBattles = document.getElementById('trophyViewBattles');
+    if (trophyViewDaily && trophyViewBattles) {
+        trophyViewDaily.addEventListener('click', () => {
+            if (currentTrophyView === 'daily') return;
+            currentTrophyView = 'daily';
+            trophyViewDaily.classList.add('active');
+            trophyViewBattles.classList.remove('active');
+            ChartsManager.createBrawlerTrophyTimeline(currentBrawler, 'daily');
+        });
+
+        trophyViewBattles.addEventListener('click', () => {
+            if (currentTrophyView === 'battles') return;
+            currentTrophyView = 'battles';
+            trophyViewBattles.classList.add('active');
+            trophyViewDaily.classList.remove('active');
+            ChartsManager.createBrawlerTrophyTimeline(currentBrawler, 'battles');
+        });
+    }
 
     // Setup gamemode selector
     document.getElementById('gamemodeSelect').addEventListener('change', (e) => {
         ChartsManager.createWinsTimeline(e.target.value);
     });
+
+    // Setup activity timeline range selector
+    const activityRangeSelect = document.getElementById('activityTimelineRangeSelect');
+    if (activityRangeSelect) {
+        activityRangeSelect.addEventListener('change', (e) => {
+            ChartsManager.createActivityTimeline(e.target.value);
+        });
+    }
 }
 
 function displayClubQuickStats() {
@@ -154,26 +189,6 @@ function displayClubQuickStats() {
                     <div class="stat-label">Favorite Mode</div>
                     <div class="stat-value highlight-purple">${favoriteMode.mode}</div>
                     <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px;">${favoriteMode.percentage.toFixed(1)}% of games</div>
-                </div>
-            `;
-        }
-
-        if (mostActive) {
-            html += `
-                <div class="stat-box">
-                    <div class="stat-label">Most Active (7d)</div>
-                    <div class="stat-value highlight-orange">${mostActive.name}</div>
-                    <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px;">${mostActive.battleCount} games</div>
-                </div>
-            `;
-        }
-
-        if (bestWr) {
-            html += `
-                <div class="stat-box">
-                    <div class="stat-label">Best WR (7d)</div>
-                    <div class="stat-value highlight-green">${bestWr.name}</div>
-                    <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px;">${bestWr.winRate.toFixed(1)}%</div>
                 </div>
             `;
         }

@@ -379,13 +379,13 @@ const PlayerStatsManager = {
 
             // Convert battles to sorted list with timestamps
             const battlesWithTime = battles.map(b => {
-                const isoDate = b.battleTime.replace(/(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/, '$1-$2-$3T$4:$5:$6');
+                const date = Utils.parseBattleTime(b.battleTime);
                 return {
-                    time: new Date(isoDate),
-                    timeStr: isoDate,
+                    time: date,
+                    timeStr: date ? date.toISOString() : null,
                     trophyChange: b.battle.trophyChange || 0
                 };
-            }).sort((a, b) => a.time - b.time);
+            }).filter(b => b.time !== null).sort((a, b) => a.time - b.time);
 
             // Add battles that happened AFTER the last snapshot
             let currentTrophies = lastSnapshotTrophies;
@@ -1089,9 +1089,9 @@ const PlayerStatsManager = {
                 }
 
                 // Update last played if more recent
-                const currentBattleTime = b.battleTime.replace(/(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/, '$1-$2-$3T$4:$5:$6');
-                const lastPlayedTime = brawlerStats[brawlerName].lastPlayed.replace(/(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/, '$1-$2-$3T$4:$5:$6');
-                if (new Date(currentBattleTime) > new Date(lastPlayedTime)) {
+                const currentBattleDate = Utils.parseBattleTime(b.battleTime);
+                const lastPlayedDate = Utils.parseBattleTime(brawlerStats[brawlerName].lastPlayed);
+                if (currentBattleDate && lastPlayedDate && currentBattleDate > lastPlayedDate) {
                     brawlerStats[brawlerName].lastPlayed = b.battleTime;
                 }
             }

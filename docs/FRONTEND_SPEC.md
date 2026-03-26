@@ -1,8 +1,8 @@
 # Frontend Feature Specification
 
-## Current Implementation Status (2026-03-25)
+## Current Implementation Status (2026-03-26)
 
-The dashboard is fully functional with 3 main tabs. This spec now includes both **implemented features** (✅) and **planned battlelog enhancements** (🔜).
+The dashboard is fully functional with 3 main tabs. Tabs 1 & 2 are feature-complete with all planned battlelog enhancements implemented. This spec now tracks both **completed features** (✅) and **planned features** (🔜).
 
 ---
 
@@ -16,16 +16,16 @@ The dashboard is fully functional with 3 main tabs. This spec now includes both 
   - Average Trophies
   - Prestige Brawlers (1000+ trophy brawlers across all players)
 
-### 🔜 Planned (Battlelog Data)
+### 🔜 Planned (Future Enhancements)
 
-**Enhanced Quick Stats Grid:**
+**Enhanced Quick Stats Grid** (requires battlelog data):
 Add 4 new stats to existing grid:
 - **Total Battles Tracked** - Sum of all battles from battlelog data
 - **Club Avg Win Rate** - Overall win % across all members
 - **Most Active (7d)** - Player with most games in last 7 days
 - **Best Win Rate (7d)** - Player with highest WR (min 10 games to qualify)
 
-**NEW: Club Leaderboards Card:**
+**NEW: Club Leaderboards Card** (requires battlelog data):
 Mini competitive rankings:
 - **Grind King** - Most total battles played all-time
 - **Tryhard** - Highest % of games in ranked mode
@@ -45,15 +45,14 @@ Mini competitive rankings:
 - Average Trophies per Brawler
 
 **Trophy Progression Chart**:
-- **Hybrid timeline**: Daily snapshots + hourly battlelog data (no toggle needed)
-- Automatically uses most granular data available at each point in time
-- Early history: Daily snapshots (one point per day)
-- Recent days: Battle-by-battle points (multiple per day)
-- Seamless transition - line becomes more detailed as battlelog data becomes available
-- Tooltip on snapshot points: "March 20, 2026: 15,420 trophies"
-- Tooltip on battle points: "March 25, 3:42 PM: Brawl Ball win with Colt (+8) → 15,650 trophies"
-- Time range filter: All Time / Last Month / Last Week / Yesterday
+- **Hybrid timeline**: Daily snapshots + battlelog data for recent activity
+- Snapshots as anchor points (source of truth for historical data)
+- Battle-by-battle granularity after last snapshot (shows recent playing sessions)
+- Intelligent x-axis: Time-based for short ranges (today/yesterday), date-based for longer ranges
+- Time range filters: All Time / Month / Week / Yesterday / Today
+- Smooth progression with proper timezone handling (CET/CEST)
 - Trend indicators: 1-day, 7-day, 30-day trophy changes with arrows
+- Chart automatically adapts to data availability
 
 **Gamemode Wins**:
 - 3v3 Victories
@@ -62,7 +61,7 @@ Mini competitive rankings:
 - Total Victories
 
 **Prestige Distribution**:
-- Bar chart showing brawler count by prestige level (0-5+)
+- Bar chart showing brawler count by prestige level (0-7)
 - First achievement dates (First Prestige 2, 3, 4, 5)
 
 **Power Level Distribution**:
@@ -79,54 +78,46 @@ Mini competitive rankings:
 - Columns: Brawler name, Power level, Gadgets (2), Star Powers (2), Hypercharge, Gears
 - Color-coded rows: Green (fully maxed), Yellow (almost maxed), Red (missing items)
 - Filters: All / Fully Maxed / Missing Items / Not Power 11
-- Search by brawler name
+- Search by brawler name (working correctly with proper table targeting)
 
-### 🔜 Planned (Battlelog Data)
+**Battle Performance Card** (battlelog data):
+- Overall win rate with W-L record
+- Ranked mode win rate
+- Best game mode (highest WR with min 10 games)
+- Recent form: Last 10 games with W/L visual indicator
+- MVP rate percentage
+- Most MVPs by brawler
 
-**NEW: Battle Performance Card** (insert after Gamemode Wins):
-```
-Win Rate Analysis
-├─ Overall WR: 65.4% (123W - 65L)
-├─ Ranked WR: 72% (36W - 14L)
-├─ Best Mode: Brawl Ball (75% in 40 games)
-└─ Recent Form: Last 10 games (7W - 3L) with visual: W W L W W W L W W L
-
-Star Player Stats
-├─ MVP Rate: 28% (35/125 games)
-├─ Most MVPs with: Colt (12 times)
-```
-
-**NEW: Brawler Performance Rankings Card:**
-Top 5 lists for different metrics:
+**Brawler Performance Rankings** (battlelog data):
+Top 5 lists showing:
 - **Highest Win Rate** (min 10 games to qualify)
 - **Most Played** (total game count)
-- **Trophy Grinders** (biggest net trophy gain from battles)
+- **Trophy Grinders** (biggest net trophy gain)
 - **MVP Machines** (most star player awards)
 
-**NEW: Brawler Battle Stats Table** (separate from existing Brawler Details table):
-A new table focused on battle performance (keeps existing item-tracking table unchanged):
-- Columns: Brawler name | Games Played | Win Rate (W-L + %) | Net Trophies | Last Played | MVP Count
+**Game Mode Distribution Chart** (battlelog data):
+- Pie chart showing percentage of games in each mode
+- Hover for exact game counts
+
+**Brawler Battle Stats Table** (battlelog data):
+Separate table focused on battle performance:
+- Columns: Brawler | Games | Win Rate | Net Trophies | Last Played | MVPs
 - Sortable by all columns
-- Shows battle-specific stats for each brawler
+- Shows comprehensive battle stats per brawler
 
-**NEW: Game Mode Distribution Chart:**
-Pie/donut chart showing % of games in each mode:
-- Example: Brawl Ball 35%, Gem Grab 20%, Knockout 15%, etc.
+**Teammate Chemistry Card** (battlelog data):
+- Win rate when playing with each tracked club member
+- Filters to only show club members (tracked players)
+- Shows games played together and W-L record
 
-**NEW: Teammate Chemistry Card** (after Account Worth):
-List all tracked players with your win rate when playing together (all modes combined):
-```
-Teammates Win Rate (All Modes)
-1. Mathys      80% WR    20 games    16W-4L
-2. Nielsen     75% WR    16 games    12W-4L
-3. Louis       68% WR    25 games    17W-8L
-```
+**Activity Heatmap** (battlelog data):
+- 7×24 grid (days of week × hours of day)
+- Color intensity based on games played in each time slot
+- Shows optimal playing times
 
-**NEW: Activity Heatmap Chart** (after Trophy Progression):
-- 7×24 grid (rows = days of week, columns = hours of day)
-- Color intensity = games played in that time slot
-- Shows when player is most active
-- Example insight: "You play most on Saturday evenings"
+### 🔜 Planned (Future Enhancements)
+
+No additional features planned for Tab 2 - feature complete!
 
 ---
 
@@ -154,21 +145,14 @@ Teammates Win Rate (All Modes)
 **Prestige Brawlers Timeline**:
 - Count of brawlers with 1000+ trophies per player
 
-### 🔜 Planned (Battlelog Data)
+### 🔜 Planned (Battlelog Data - Phase 3)
 
 **Enhanced Trophy Timeline**:
-- Add view toggle: **[Daily Snapshots] [All Battles (Hourly)]**
+- Add view toggle: **[Daily Snapshots] [All Battles]**
 - Daily Snapshots mode: Original view (one point per day)
 - All Battles mode: Every single battle plotted as individual points
 - Tooltip on battles: "Mar 25, 3:42 PM: Brawl Ball win with Colt (+8)"
 - Reveals grind sessions, win streaks, tilt sessions in real-time
-
-**NEW: Win Rate Timeline Chart** (insert between Trophy and Gamemode Wins):
-- Rolling 20-game average win rate over time
-- Line per player, Y-axis = 0-100%
-- Smoothed line to reduce noise from individual games
-- Filter dropdown: All Modes / Ranked / Brawl Ball / Gem Grab / etc.
-- Shows if players are improving or declining over time
 
 **NEW: Activity Timeline Chart** (insert after Prestige):
 - Games played per day (bar or area chart)
@@ -301,7 +285,7 @@ Only shows pairs that have played together (min 5 games)
 
 ## Implementation Phases
 
-### ✅ Phase 1: Core Features (COMPLETE)
+### ✅ Phase 1: Core Dashboard (COMPLETE)
 1. Tab-based navigation system (3 tabs)
 2. Club overview with trophy timeline
 3. Individual player detailed stats view
@@ -311,49 +295,42 @@ Only shows pairs that have played together (min 5 games)
 7. Account worth calculator with progression tracking
 8. Trophy progression with trend indicators (1d/7d/30d)
 
-### 🔜 Phase 2: Battlelog Integration - Quick Wins (NEXT)
-**Tab 1 - Club Overview:**
+### ✅ Phase 2: Tab 2 Battlelog Integration (COMPLETE)
+1. Hybrid trophy progression chart (snapshots + battlelog granularity)
+2. Battle Performance card (WR analysis + star player stats)
+3. Brawler Performance Rankings card (top 5 lists)
+4. Game Mode Distribution pie chart
+5. Brawler Battle Stats table (separate from item-tracking table)
+6. Teammate Chemistry card (filtered to club members only)
+7. Activity Heatmap chart (7×24 grid)
+8. Smart x-axis switching (time-based for short ranges, date-based for long ranges)
+9. Working filters on all tables and charts
+
+### 🔜 Phase 3: Tab 3 Enhancements (CURRENT - NEXT UP)
+**Timelines Tab:**
+1. Activity Timeline chart (games per day with date range filter)
+2. Enhanced Trophy Timeline with view toggle (daily snapshots vs all battles)
+3. Enhanced Gamemode Wins Timeline (dual-axis with WR overlay toggle)
+4. Mode Popularity Timeline (stacked area chart showing mode distribution)
+
+### 🔜 Phase 4: Tab 1 Enhancements
+**Club Overview:**
 1. Enhanced quick stats (4 new stats: battles tracked, avg WR, most active, best WR)
 2. Club Leaderboards card (Grind King, Tryhard, Star Player, Hot Streak)
 
-**Tab 2 - Player Stats:**
-3. Battle Performance card (WR analysis + star player stats)
-4. Brawler Performance Rankings card (top 5 lists)
-5. Game Mode Distribution pie chart
-
-**Tab 3 - Timelines:**
-6. Win Rate Timeline chart (rolling average)
-
-### 🔜 Phase 3: Battlelog Integration - Medium Effort
-**Tab 2 - Player Stats:**
-7. Hybrid trophy progression chart (daily + hourly data, automatic)
-8. Brawler Battle Stats table (new separate table for battle performance)
-9. Teammate Chemistry card (win rates with each teammate)
-
-**Tab 3 - Timelines:**
-10. Enhanced trophy timeline with view toggle (daily vs hourly)
-11. Activity Timeline chart (games per day)
-12. Enhanced Gamemode Wins Timeline (dual-axis with WR overlay)
-
-### 🔜 Phase 4: Battlelog Integration - Advanced
-**Tab 2 - Player Stats:**
-13. Activity Heatmap chart (7×24 grid)
-
-**Tab 3 - Timelines:**
-14. Mode Popularity Timeline (stacked area chart)
-
+### 🔜 Phase 5: New Tab - Battles Deep Dive
 **New Tab 4 - Battles:**
-15. Recent Battles Feed (filterable list)
-16. Map Performance table
-17. Head-to-Head Comparison
-18. Streak Tracker
+1. Recent Battles Feed (filterable list)
+2. Map Performance table
+3. Head-to-Head Comparison
+4. Streak Tracker
 
-### 🔜 Phase 5: Meta Analysis Deep Dive
+### 🔜 Phase 6: New Tab - Meta Analysis
 **New Tab 5 - Meta Analysis:**
-19. Brawler Meta Analysis (most faced, hardest matchups, best counters)
-20. Performance by Time (time of day, day of week, tilt detector)
-21. Trophy Efficiency (trophies/hour, best sessions, worst tilts)
-22. Teammate Synergy Matrix (full grid of duo combinations)
+1. Brawler Meta Analysis (most faced, hardest matchups, best counters)
+2. Performance by Time (time of day, day of week, tilt detector)
+3. Trophy Efficiency (trophies/hour, best sessions, worst tilts)
+4. Teammate Synergy Matrix (full grid of duo combinations)
 
 ---
 
