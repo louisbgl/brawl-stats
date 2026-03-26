@@ -177,7 +177,9 @@ const PlayerStatsManager = {
                     </select>
                 </div>
 
-                ${this.generateBrawlerTable()}
+                <div id="brawlerDetailsTableContainer">
+                    ${this.generateBrawlerTable()}
+                </div>
             </div>
         `;
     },
@@ -676,17 +678,23 @@ const PlayerStatsManager = {
     setupBrawlerFilter() {
         const searchInput = document.getElementById('brawlerSearchInput');
         const filterSelect = document.getElementById('brawlerFilterSelect');
-        const table = document.querySelector('.data-table');
+        const tableContainer = document.getElementById('brawlerDetailsTableContainer');
 
-        if (!searchInput || !filterSelect || !table) return;
+        if (!searchInput || !filterSelect || !tableContainer) return;
 
         const applyFilters = () => {
+            const table = tableContainer.querySelector('.data-table');
+            if (!table) return;
+
             const searchTerm = searchInput.value.toLowerCase();
             const filterType = filterSelect.value;
             const rows = table.querySelectorAll('tbody tr');
 
             rows.forEach(row => {
-                const brawlerName = row.querySelector('td:first-child strong').textContent.toLowerCase();
+                const brawlerNameCell = row.querySelector('td:first-child strong');
+                if (!brawlerNameCell) return;
+
+                const brawlerName = brawlerNameCell.textContent.toLowerCase();
                 const matchesSearch = brawlerName.includes(searchTerm);
 
                 let matchesFilter = true;
@@ -695,8 +703,10 @@ const PlayerStatsManager = {
                 } else if (filterType === 'missing') {
                     matchesFilter = row.classList.contains('brawler-missing');
                 } else if (filterType === 'not-p11') {
-                    const powerCell = row.querySelector('td:nth-child(2)').textContent;
-                    matchesFilter = powerCell !== 'P11';
+                    const powerCell = row.querySelector('td:nth-child(2)');
+                    if (powerCell) {
+                        matchesFilter = powerCell.textContent !== 'P11';
+                    }
                 }
 
                 row.style.display = (matchesSearch && matchesFilter) ? '' : 'none';
