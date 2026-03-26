@@ -222,6 +222,7 @@ const PlayerChartsManager = {
 
         const snapshotDates = trophyTimeline.snapshotDates;
 
+
         // Use linear axis with proper time-based positioning
         const dataPoints = [];
 
@@ -232,19 +233,34 @@ const PlayerChartsManager = {
             // Get time range
             const firstDate = new Date(trophyTimeline.dates[0]);
             const lastDate = new Date(trophyTimeline.dates[trophyTimeline.dates.length - 1]);
-            const timeRange = lastDate - firstDate || 1;
+            const timeRange = lastDate - firstDate;
 
-            trophyTimeline.dates.forEach((date, i) => {
-                const timestamp = new Date(date);
-                const xPos = (timestamp - firstDate) / timeRange;
-                dataPoints.push({
-                    x: xPos,
-                    y: trophyTimeline.trophies[i],
-                    source: trophyTimeline.sources[i],
-                    dateStr: date,
-                    timestamp: timestamp
+            // If only one point or all points at same time, space them out evenly
+            if (timeRange === 0 || trophyTimeline.dates.length === 1) {
+                trophyTimeline.dates.forEach((date, i) => {
+                    const xPos = trophyTimeline.dates.length === 1 ? 0.5 : i / (trophyTimeline.dates.length - 1);
+                    dataPoints.push({
+                        x: xPos,
+                        y: trophyTimeline.trophies[i],
+                        source: trophyTimeline.sources[i],
+                        dateStr: date,
+                        timestamp: new Date(date)
+                    });
                 });
-            });
+            } else {
+                // Normal time-based positioning
+                trophyTimeline.dates.forEach((date, i) => {
+                    const timestamp = new Date(date);
+                    const xPos = (timestamp - firstDate) / timeRange;
+                    dataPoints.push({
+                        x: xPos,
+                        y: trophyTimeline.trophies[i],
+                        source: trophyTimeline.sources[i],
+                        dateStr: date,
+                        timestamp: timestamp
+                    });
+                });
+            }
         } else {
             // Use snapshot-indexed x-axis (for longer periods)
             trophyTimeline.dates.forEach((date, i) => {
@@ -422,14 +438,18 @@ const PlayerChartsManager = {
                     tooltip: {
                         backgroundColor: 'rgba(0, 0, 0, 0.9)',
                         filter: (tooltipItem) => {
-                            return tooltipItem.raw.source === 'snapshot';
+                            return tooltipItem.raw && tooltipItem.raw.source === 'snapshot';
                         },
                         callbacks: {
                             title: (context) => {
+                                if (!context || !context[0] || !context[0].raw) return '';
                                 const dateStr = context[0].raw.dateStr;
                                 return dateStr.split('T')[0];
                             },
-                            label: (context) => `Trophies: ${context.parsed.y.toLocaleString()}`
+                            label: (context) => {
+                                if (!context || !context.parsed) return '';
+                                return `Trophies: ${context.parsed.y.toLocaleString()}`;
+                            }
                         }
                     }
                 }

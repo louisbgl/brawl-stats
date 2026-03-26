@@ -341,6 +341,7 @@ const PlayerStatsManager = {
             }
         });
 
+
         // If no battlelog data, just use snapshots
         if (!BattlelogDataManager.isLoaded) {
             timeline.dates = [...timeline.snapshotDates];
@@ -358,7 +359,7 @@ const PlayerStatsManager = {
         }
 
         // Build timeline: snapshots are source of truth, battles add granularity
-        // Algorithm: Add all snapshots as anchor points, then add battles AFTER the last snapshot
+        // Algorithm: Add all snapshots as anchor points, then reconstruct trophy counts using battles
         const points = [];
 
         // Add all snapshot points
@@ -372,11 +373,8 @@ const PlayerStatsManager = {
             });
         });
 
-        // If we have snapshots, add battle granularity after the last snapshot
+        // If we have snapshots, add battle granularity between snapshots
         if (timeline.snapshotTimestamps.length > 0) {
-            const lastSnapshotTime = new Date(timeline.snapshotTimestamps[timeline.snapshotTimestamps.length - 1]);
-            const lastSnapshotTrophies = timeline.snapshotTrophies[timeline.snapshotTrophies.length - 1];
-
             // Convert battles to sorted list with timestamps
             const battlesWithTime = battles.map(b => {
                 const date = Utils.parseBattleTime(b.battleTime);
@@ -387,20 +385,56 @@ const PlayerStatsManager = {
                 };
             }).filter(b => b.time !== null).sort((a, b) => a.time - b.time);
 
-            // Add battles that happened AFTER the last snapshot
-            let currentTrophies = lastSnapshotTrophies;
-            battlesWithTime.forEach(battle => {
-                if (battle.time > lastSnapshotTime) {
-                    currentTrophies += battle.trophyChange;
-                    points.push({
-                        date: battle.time,
-                        dateStr: battle.timeStr,
-                        trophies: currentTrophies,
-                        source: 'battle',
-                        isAnchor: false
-                    });
+            // Process battles between snapshots
+            for (let snapshotIdx = 0; snapshotIdx < timeline.snapshotTimestamps.length; snapshotIdx++) {
+                const snapshotTime = new Date(timeline.snapshotTimestamps[snapshotIdx]);
+                const snapshotTrophies = timeline.snapshotTrophies[snapshotIdx];
+                const nextSnapshotTime = snapshotIdx < timeline.snapshotTimestamps.length - 1
+                    ? new Date(timeline.snapshotTimestamps[snapshotIdx + 1])
+                    : new Date(); // For the last snapshot, go up to now
+
+                // Find battles between this snapshot and the next
+                const battlesInRange = battlesWithTime.filter(b =>
+                    b.time > snapshotTime && b.time <= nextSnapshotTime
+                );
+
+                if (battlesInRange.length > 0) {
+                    // Working backwards from the next snapshot (or current trophy count)
+                    let currentTrophies = snapshotIdx < timeline.snapshotTimestamps.length - 1
+                        ? timeline.snapshotTrophies[snapshotIdx + 1]
+                        : snapshotTrophies; // For last snapshot, start from its value
+
+                    // If this is the last snapshot, calculate forward from it
+                    if (snapshotIdx === timeline.snapshotTimestamps.length - 1) {
+                        battlesInRange.forEach(battle => {
+                            currentTrophies += battle.trophyChange;
+                            points.push({
+                                date: battle.time,
+                                dateStr: battle.timeStr,
+                                trophies: currentTrophies,
+                                source: 'battle',
+                                isAnchor: false
+                            });
+                        });
+                    } else {
+                        // For battles between two snapshots, work backwards from next snapshot
+                        // to ensure we end up at the correct trophy count
+                        const battlePoints = [];
+                        for (let i = battlesInRange.length - 1; i >= 0; i--) {
+                            const battle = battlesInRange[i];
+                            currentTrophies -= battle.trophyChange;
+                            battlePoints.unshift({
+                                date: battle.time,
+                                dateStr: battle.timeStr,
+                                trophies: currentTrophies + battle.trophyChange,
+                                source: 'battle',
+                                isAnchor: false
+                            });
+                        }
+                        points.push(...battlePoints);
+                    }
                 }
-            });
+            }
         }
 
         // Sort all points chronologically
@@ -741,15 +775,18 @@ const PlayerStatsManager = {
 
                 let cutoffDate;
                 let endDate = null; // For "yesterday" which needs both start and end
+                let needsAnchor = false; // Single-day filters need previous day's snapshot as anchor
 
                 if (range === 'today') {
                     cutoffDate = new Date(todayStr);
+                    needsAnchor = true;
                 } else if (range === 'yesterday') {
                     const yesterday = new Date(now);
                     yesterday.setDate(yesterday.getDate() - 1);
                     const yesterdayStr = yesterday.toISOString().split('T')[0];
                     cutoffDate = new Date(yesterdayStr);
                     endDate = new Date(todayStr);
+                    needsAnchor = true;
                 } else if (range === 'week') {
                     cutoffDate = new Date(now);
                     cutoffDate.setDate(cutoffDate.getDate() - 7);
@@ -759,6 +796,13 @@ const PlayerStatsManager = {
                 }
 
                 if (cutoffDate) {
+                    // For single-day filters, we need the snapshot from the day before as starting anchor
+                    let anchorDate = null;
+                    if (needsAnchor) {
+                        anchorDate = new Date(cutoffDate);
+                        anchorDate.setDate(anchorDate.getDate() - 1);
+                    }
+
                     // Filter main timeline data points
                     for (let i = 0; i < fullTimeline.dates.length; i++) {
                         const pointDate = new Date(fullTimeline.dates[i]);
@@ -766,7 +810,11 @@ const PlayerStatsManager = {
                             ? (pointDate >= cutoffDate && pointDate < endDate)
                             : (pointDate >= cutoffDate);
 
-                        if (inRange) {
+                        // Include anchor snapshot if needed
+                        const isAnchor = anchorDate && fullTimeline.sources[i] === 'snapshot' &&
+                            pointDate.toISOString().split('T')[0] === anchorDate.toISOString().split('T')[0];
+
+                        if (inRange || isAnchor) {
                             filteredTimeline.dates.push(fullTimeline.dates[i]);
                             filteredTimeline.trophies.push(fullTimeline.trophies[i]);
                             if (fullTimeline.sources) {
@@ -782,12 +830,17 @@ const PlayerStatsManager = {
                             ? (snapshotDate >= cutoffDate && snapshotDate < endDate)
                             : (snapshotDate >= cutoffDate);
 
-                        if (inRange) {
+                        // Include anchor snapshot if needed
+                        const isAnchor = anchorDate &&
+                            snapshotDate.toISOString().split('T')[0] === anchorDate.toISOString().split('T')[0];
+
+                        if (inRange || isAnchor) {
                             filteredTimeline.snapshotDates.push(fullTimeline.snapshotDates[i]);
                             filteredTimeline.snapshotTrophies.push(fullTimeline.snapshotTrophies[i]);
                             filteredTimeline.snapshotTimestamps.push(fullTimeline.snapshotTimestamps[i]);
                         }
                     }
+
                 }
             }
 
