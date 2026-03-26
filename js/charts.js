@@ -132,6 +132,7 @@ const ChartsManager = {
             if (brawlerName) {
                 const brawler = player.brawlers.find(b => b.name === brawlerName);
                 currentTrophies = brawler ? brawler.trophies : 0;
+                if (!currentTrophies) return; // Player doesn't have this brawler
             } else {
                 currentTrophies = player.trophies;
             }
@@ -143,10 +144,38 @@ const ChartsManager = {
                 return dateA - dateB;
             });
 
-            // Filter by brawler if specified and calculate total trophy change to work backwards
-            const relevantBattles = brawlerName
-                ? sortedBattles.filter(b => b.battle.brawler === brawlerName)
-                : sortedBattles;
+            // Filter by brawler if specified - need to extract player's brawler from battle
+            const relevantBattles = [];
+            sortedBattles.forEach(battle => {
+                // Find which brawler this player used in this battle
+                let playerBrawler = null;
+
+                // Check team modes
+                if (battle.battle.teams) {
+                    for (const team of battle.battle.teams) {
+                        const playerInTeam = team.find(p => p.tag === player.tag);
+                        if (playerInTeam) {
+                            playerBrawler = playerInTeam.brawler.name;
+                            break;
+                        }
+                    }
+                }
+
+                // Check solo modes (showdown)
+                if (!playerBrawler && battle.battle.players) {
+                    const playerInBattle = battle.battle.players.find(p => p.tag === player.tag);
+                    if (playerInBattle) {
+                        playerBrawler = playerInBattle.brawler.name;
+                    }
+                }
+
+                // Include if no filter or brawler matches
+                if (!brawlerName || playerBrawler === brawlerName) {
+                    relevantBattles.push(battle);
+                }
+            });
+
+            if (relevantBattles.length === 0) return;
 
             // Calculate starting trophy count by working backwards from current
             const totalChange = relevantBattles.reduce((sum, b) => sum + (b.battle.trophyChange || 0), 0);
@@ -466,7 +495,12 @@ const ChartsManager = {
             battles.forEach(battle => {
                 const battleDate = Utils.parseBattleTime(battle.battleTime);
                 if (!battleDate) return;
-                const dateStr = battleDate.toISOString().split('T')[0];
+
+                // Use UTC date to avoid timezone boundary issues
+                const year = battleDate.getUTCFullYear();
+                const month = String(battleDate.getUTCMonth() + 1).padStart(2, '0');
+                const day = String(battleDate.getUTCDate()).padStart(2, '0');
+                const dateStr = `${year}-${month}-${day}`;
 
                 if (cutoffDate && battleDate < cutoffDate) return;
 
@@ -575,7 +609,12 @@ const ChartsManager = {
                 const battleDate = Utils.parseBattleTime(battle.battleTime);
                 if (!battleDate) return;
 
-                const dateStr = battleDate.toISOString().split('T')[0];
+                // Use UTC date to avoid timezone boundary issues
+                const year = battleDate.getUTCFullYear();
+                const month = String(battleDate.getUTCMonth() + 1).padStart(2, '0');
+                const day = String(battleDate.getUTCDate()).padStart(2, '0');
+                const dateStr = `${year}-${month}-${day}`;
+
                 allDates.add(dateStr);
 
                 if (!playerModeData[player.tag][dateStr]) {
