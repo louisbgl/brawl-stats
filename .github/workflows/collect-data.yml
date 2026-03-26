@@ -1,12 +1,12 @@
-name: Collect Brawl Stars Data
+name: Collect Brawl Stars Data (DISABLED - Now running on Oracle VM)
 
 on:
-  # Run daily at midnight CET (23:00 UTC in winter, 22:00 UTC in summer)
-  # Note: GitHub Actions uses UTC, so we use 23:00 UTC which is midnight CET in winter
-  schedule:
-    - cron: '0 23 * * *'
+  # DISABLED: Data collection moved to Oracle Cloud VM for reliable scheduling
+  # Keeping workflow for reference and manual runs if needed
+  # schedule:
+  #   - cron: '0 23 * * *'
 
-  # Allow manual trigger
+  # Allow manual trigger (use only if Oracle VM collection fails)
   workflow_dispatch:
 
   # Run on push to master (for testing)
