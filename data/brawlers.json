@@ -1,54 +1,6 @@
 {
   "items": [
     {
-      "gadgets": [
-        {
-          "id": 23000255,
-          "name": "FAST FORWARD"
-        },
-        {
-          "id": 23000288,
-          "name": "CLAY PIGEONS"
-        }
-      ],
-      "gears": [
-        {
-          "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
-        },
-        {
-          "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
-        },
-        {
-          "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
-        },
-        {
-          "id": 62000003,
-          "level": 3,
-          "name": "VISION"
-        },
-        {
-          "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
-        }
-      ],
-      "hyperCharges": [
-        {
-          "id": 23000613,
-          "name": "DOUBLE BARREL"
-        }
-      ],
       "id": 16000000,
       "name": "SHELLY",
       "starPowers": [
@@ -60,62 +12,57 @@
           "id": 23000135,
           "name": "BAND-AID"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000273,
-          "name": "SPEEDLOADER"
-        },
-        {
-          "id": 23000319,
-          "name": "SILVER BULLET"
+          "id": 23000613,
+          "name": "DOUBLE BARREL"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000005,
-          "level": 3,
-          "name": "RELOAD SPEED"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000614,
-          "name": "DUAL WIELDING"
+          "id": 23000255,
+          "name": "FAST FORWARD"
+        },
+        {
+          "id": 23000288,
+          "name": "CLAY PIGEONS"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000001,
       "name": "COLT",
       "starPowers": [
@@ -127,62 +74,62 @@
           "id": 23000138,
           "name": "MAGNUM SPECIAL"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000272,
-          "name": "T-BONE MISSILE"
-        },
-        {
-          "id": 23000310,
-          "name": "STOMPER"
+          "id": 23000614,
+          "name": "DUAL WIELDING"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
-          "id": 62000006,
-          "level": 3,
-          "name": "SUPER CHARGE"
+          "id": 62000005,
+          "name": "RELOAD SPEED",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000616,
-          "name": "JAWS OF STEEL"
+          "id": 23000273,
+          "name": "SPEEDLOADER"
+        },
+        {
+          "id": 23000319,
+          "name": "SILVER BULLET"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000002,
       "name": "BULL",
       "starPowers": [
@@ -194,62 +141,62 @@
           "id": 23000137,
           "name": "TOUGH GUY"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000245,
-          "name": "ROCKET LACES"
-        },
-        {
-          "id": 23000316,
-          "name": "ROCKET FUEL"
+          "id": 23000616,
+          "name": "JAWS OF STEEL"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
-          "id": 62000005,
-          "level": 3,
-          "name": "RELOAD SPEED"
+          "id": 62000006,
+          "name": "SUPER CHARGE",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000688,
-          "name": "ROCKET BARRAGE"
+          "id": 23000272,
+          "name": "T-BONE MISSILE"
+        },
+        {
+          "id": 23000310,
+          "name": "STOMPER"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000003,
       "name": "BROCK",
       "starPowers": [
@@ -261,62 +208,62 @@
           "id": 23000150,
           "name": "ROCKET NO. 4"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000246,
-          "name": "MULTIBALL LAUNCHER"
-        },
-        {
-          "id": 23000409,
-          "name": "BOUNCY CASTLE"
+          "id": 23000688,
+          "name": "ROCKET BARRAGE"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000005,
-          "level": 3,
-          "name": "RELOAD SPEED"
+          "name": "RELOAD SPEED",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000776,
-          "name": "TRICK SHOT KING"
+          "id": 23000245,
+          "name": "ROCKET LACES"
+        },
+        {
+          "id": 23000316,
+          "name": "ROCKET FUEL"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000004,
       "name": "RICO",
       "starPowers": [
@@ -328,62 +275,62 @@
           "id": 23000156,
           "name": "ROBO RETREAT"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000247,
-          "name": "POPPING PINCUSHION"
-        },
-        {
-          "id": 23000406,
-          "name": "LIFE PLANT"
+          "id": 23000776,
+          "name": "TRICK SHOT KING"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
-          "id": 62000010,
-          "level": 3,
-          "name": "STICKY SPIKES"
+          "id": 62000005,
+          "name": "RELOAD SPEED",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000615,
-          "name": "BLOOMING SEASON"
+          "id": 23000246,
+          "name": "MULTIBALL LAUNCHER"
+        },
+        {
+          "id": 23000409,
+          "name": "BOUNCY CASTLE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000005,
       "name": "SPIKE",
       "starPowers": [
@@ -395,57 +342,62 @@
           "id": 23000151,
           "name": "CURVEBALL"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000250,
-          "name": "STICKY SYRUP MIXER"
-        },
-        {
-          "id": 23000293,
-          "name": "HERBAL TONIC"
+          "id": 23000615,
+          "name": "BLOOMING SEASON"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000010,
+          "name": "STICKY SPIKES",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000757,
-          "name": "BOTTLED-UP RAGE"
+          "id": 23000247,
+          "name": "POPPING PINCUSHION"
+        },
+        {
+          "id": 23000406,
+          "name": "LIFE PLANT"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000006,
       "name": "BARLEY",
       "starPowers": [
@@ -457,62 +409,57 @@
           "id": 23000158,
           "name": "EXTRA NOXIOUS"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000251,
-          "name": "SPARK PLUG"
-        },
-        {
-          "id": 23000295,
-          "name": "RECOIL SPRING"
+          "id": 23000757,
+          "name": "BOTTLED-UP RAGE"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000014,
-          "level": 3,
-          "name": "PET POWER"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000630,
-          "name": "SCRAPPY 2.0"
+          "id": 23000250,
+          "name": "STICKY SYRUP MIXER"
+        },
+        {
+          "id": 23000293,
+          "name": "HERBAL TONIC"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000007,
       "name": "JESSIE",
       "starPowers": [
@@ -524,62 +471,62 @@
           "id": 23000149,
           "name": "SHOCKY"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000249,
-          "name": "BEAR PAWS"
-        },
-        {
-          "id": 23000314,
-          "name": "FAUX FUR"
+          "id": 23000630,
+          "name": "SCRAPPY 2.0"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000014,
-          "level": 3,
-          "name": "PET POWER"
+          "name": "PET POWER",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000686,
-          "name": "HYPERBEARING"
+          "id": 23000251,
+          "name": "SPARK PLUG"
+        },
+        {
+          "id": 23000295,
+          "name": "RECOIL SPRING"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000008,
       "name": "NITA",
       "starPowers": [
@@ -591,57 +538,62 @@
           "id": 23000136,
           "name": "HYPER BEAR"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000258,
-          "name": "FIDGET SPINNER"
-        },
-        {
-          "id": 23000294,
-          "name": "SATCHEL CHARGE"
+          "id": 23000686,
+          "name": "HYPERBEARING"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000014,
+          "name": "PET POWER",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000652,
-          "name": "BOOMER"
+          "id": 23000249,
+          "name": "BEAR PAWS"
+        },
+        {
+          "id": 23000314,
+          "name": "FAUX FUR"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000009,
       "name": "DYNAMIKE",
       "starPowers": [
@@ -653,62 +605,57 @@
           "id": 23000155,
           "name": "DEMOLITION"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000264,
-          "name": "SUPLEX SUPPLEMENT"
-        },
-        {
-          "id": 23000292,
-          "name": "ASTEROID BELT"
+          "id": 23000652,
+          "name": "BOOMER"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000006,
-          "level": 3,
-          "name": "SUPER CHARGE"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000679,
-          "name": "GRAVITY LEAP"
+          "id": 23000258,
+          "name": "FIDGET SPINNER"
+        },
+        {
+          "id": 23000294,
+          "name": "SATCHEL CHARGE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000010,
       "name": "EL PRIMO",
       "starPowers": [
@@ -720,62 +667,62 @@
           "id": 23000140,
           "name": "METEOR RUSH"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000265,
-          "name": "COMBO SPINNER"
-        },
-        {
-          "id": 23000290,
-          "name": "CREATURE OF THE NIGHT"
+          "id": 23000679,
+          "name": "GRAVITY LEAP"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000006,
+          "name": "SUPER CHARGE",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
+        }
+      ],
+      "gadgets": [
+        {
+          "id": 23000264,
+          "name": "SUPLEX SUPPLEMENT"
         },
         {
-          "id": 62000018,
-          "level": 3,
-          "name": "BAT STORM"
+          "id": 23000292,
+          "name": "ASTEROID BELT"
         }
-      ],
-      "hyperCharges": [
-        {
-          "id": 23000819,
-          "name": "BLOOD BOOMERANG"
-        }
-      ],
+      ]
+    },
+    {
       "id": 16000011,
       "name": "MORTIS",
       "starPowers": [
@@ -787,62 +734,62 @@
           "id": 23000154,
           "name": "COILED SNAKE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000243,
-          "name": "INSTAPOISON"
-        },
-        {
-          "id": 23000286,
-          "name": "SLOWING TOXIN"
+          "id": 23000819,
+          "name": "BLOOD BOOMERANG"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000009,
-          "level": 3,
-          "name": "ENDURING TOXINS"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
-        }
-      ],
-      "hyperCharges": [
+          "name": "GADGET COOLDOWN",
+          "level": 3
+        },
         {
-          "id": 23000650,
-          "name": "UTILITY KNIVES"
+          "id": 62000018,
+          "name": "BAT STORM",
+          "level": 3
         }
       ],
+      "gadgets": [
+        {
+          "id": 23000265,
+          "name": "COMBO SPINNER"
+        },
+        {
+          "id": 23000290,
+          "name": "CREATURE OF THE NIGHT"
+        }
+      ]
+    },
+    {
       "id": 16000012,
       "name": "CROW",
       "starPowers": [
@@ -854,57 +801,62 @@
           "id": 23000143,
           "name": "CARRION CROW"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000267,
-          "name": "TUNING FORK"
-        },
-        {
-          "id": 23000350,
-          "name": "PROTECTIVE TUNES"
+          "id": 23000650,
+          "name": "UTILITY KNIVES"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000009,
+          "name": "ENDURING TOXINS",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000822,
-          "name": "MEDIC'S MELODY"
+          "id": 23000243,
+          "name": "INSTAPOISON"
+        },
+        {
+          "id": 23000286,
+          "name": "SLOWING TOXIN"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000013,
       "name": "POCO",
       "starPowers": [
@@ -916,62 +868,57 @@
           "id": 23000144,
           "name": "SCREECHING SOLO"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000263,
-          "name": "SUPER TOTEM"
-        },
-        {
-          "id": 23000289,
-          "name": "TRIPWIRE"
+          "id": 23000822,
+          "name": "MEDIC'S MELODY"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000005,
-          "level": 3,
-          "name": "RELOAD SPEED"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000896,
-          "name": "CATCH A BEAR"
+          "id": 23000267,
+          "name": "TUNING FORK"
+        },
+        {
+          "id": 23000350,
+          "name": "PROTECTIVE TUNES"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000014,
       "name": "BO",
       "starPowers": [
@@ -983,57 +930,62 @@
           "id": 23000148,
           "name": "SNARE A BEAR"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000268,
-          "name": "AUTO AIMER"
-        },
-        {
-          "id": 23000291,
-          "name": "HOMEMADE RECIPE"
+          "id": 23000896,
+          "name": "CATCH A BEAR"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000005,
+          "name": "RELOAD SPEED",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000777,
-          "name": "BOPPIN'"
+          "id": 23000263,
+          "name": "SUPER TOTEM"
+        },
+        {
+          "id": 23000289,
+          "name": "TRIPWIRE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000015,
       "name": "PIPER",
       "starPowers": [
@@ -1045,62 +997,57 @@
           "id": 23000152,
           "name": "SNAPPY SNIPING"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000257,
-          "name": "PULSE MODULATOR"
-        },
-        {
-          "id": 23000404,
-          "name": "SCRAPSUCKER"
+          "id": 23000777,
+          "name": "BOPPIN'"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000016,
-          "level": 3,
-          "name": "SUPER TURRET"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000898,
-          "name": "MAMA'S LOVE"
+          "id": 23000268,
+          "name": "AUTO AIMER"
+        },
+        {
+          "id": 23000291,
+          "name": "HOMEMADE RECIPE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000016,
       "name": "PAM",
       "starPowers": [
@@ -1112,62 +1059,62 @@
           "id": 23000139,
           "name": "MAMA'S SQUEEZE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000266,
-          "name": "PSYCHIC ENHANCER"
-        },
-        {
-          "id": 23000356,
-          "name": "SUPPORT FROM BEYOND"
+          "id": 23000898,
+          "name": "MAMA'S LOVE"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
-          "id": 62000014,
-          "level": 3,
-          "name": "PET POWER"
+          "id": 62000016,
+          "name": "SUPER TURRET",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000824,
-          "name": "SUPERMASSIVE"
+          "id": 23000257,
+          "name": "PULSE MODULATOR"
+        },
+        {
+          "id": 23000404,
+          "name": "SCRAPSUCKER"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000017,
       "name": "TARA",
       "starPowers": [
@@ -1179,57 +1126,62 @@
           "id": 23000160,
           "name": "HEALING SHADE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000260,
-          "name": "RECOILING ROTATOR"
-        },
-        {
-          "id": 23000313,
-          "name": "TAR BARREL"
+          "id": 23000824,
+          "name": "SUPERMASSIVE"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000014,
+          "name": "PET POWER",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000859,
-          "name": "BARREL O' BULLETS"
+          "id": 23000266,
+          "name": "PSYCHIC ENHANCER"
+        },
+        {
+          "id": 23000356,
+          "name": "SUPPORT FROM BEYOND"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000018,
       "name": "DARRYL",
       "starPowers": [
@@ -1241,62 +1193,57 @@
           "id": 23000157,
           "name": "ROLLING RELOAD"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000248,
-          "name": "SALTY BARREL"
-        },
-        {
-          "id": 23000287,
-          "name": "TRUSTY SPYGLASS"
+          "id": 23000859,
+          "name": "BARREL O' BULLETS"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000014,
-          "level": 3,
-          "name": "PET POWER"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000861,
-          "name": "NEW LOBBER"
+          "id": 23000260,
+          "name": "RECOILING ROTATOR"
+        },
+        {
+          "id": 23000313,
+          "name": "TAR BARREL"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000019,
       "name": "PENNY",
       "starPowers": [
@@ -1308,57 +1255,62 @@
           "id": 23000142,
           "name": "MASTER BLASTER"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000261,
-          "name": "ACTIVE NOISE CANCELING"
-        },
-        {
-          "id": 23000351,
-          "name": "IRRESISTIBLE ATTRACTION"
+          "id": 23000861,
+          "name": "NEW LOBBER"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000014,
+          "name": "PET POWER",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000758,
-          "name": "SEISMIC SMASH"
+          "id": 23000248,
+          "name": "SALTY BARREL"
+        },
+        {
+          "id": 23000287,
+          "name": "TRUSTY SPYGLASS"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000020,
       "name": "FRANK",
       "starPowers": [
@@ -1370,62 +1322,57 @@
           "id": 23000153,
           "name": "SPONGE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000252,
-          "name": "LAMP BLOWOUT"
-        },
-        {
-          "id": 23000352,
-          "name": "VENGEFUL SPIRITS"
+          "id": 23000758,
+          "name": "SEISMIC SMASH"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000008,
-          "level": 3,
-          "name": "TALK TO THE HAND"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000690,
-          "name": "HYPER HANDS"
+          "id": 23000261,
+          "name": "ACTIVE NOISE CANCELING"
+        },
+        {
+          "id": 23000351,
+          "name": "IRRESISTIBLE ATTRACTION"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000021,
       "name": "GENE",
       "starPowers": [
@@ -1437,62 +1384,62 @@
           "id": 23000159,
           "name": "SPIRIT SLAP"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000253,
-          "name": "MINE MANIA"
-        },
-        {
-          "id": 23000355,
-          "name": "LAST HURRAH"
+          "id": 23000690,
+          "name": "HYPER HANDS"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
-          "id": 62000007,
-          "level": 3,
-          "name": "THICC HEAD"
+          "id": 62000008,
+          "name": "TALK TO THE HAND",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000687,
-          "name": "HEADSTRONG"
+          "id": 23000252,
+          "name": "LAMP BLOWOUT"
+        },
+        {
+          "id": 23000352,
+          "name": "VENGEFUL SPIRITS"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000022,
       "name": "TICK",
       "starPowers": [
@@ -1504,62 +1451,62 @@
           "id": 23000161,
           "name": "AUTOMA-TICK RELOAD"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000276,
-          "name": "CLONE PROJECTOR"
-        },
-        {
-          "id": 23000408,
-          "name": "LOLLIPOP DROP"
+          "id": 23000687,
+          "name": "HEADSTRONG"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
-          "id": 62000011,
-          "level": 3,
-          "name": "LINGERING SMOKE"
+          "id": 62000007,
+          "name": "THICC HEAD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000651,
-          "name": "LIMBO"
+          "id": 23000253,
+          "name": "MINE MANIA"
+        },
+        {
+          "id": 23000355,
+          "name": "LAST HURRAH"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000023,
       "name": "LEON",
       "starPowers": [
@@ -1571,57 +1518,62 @@
           "id": 23000141,
           "name": "INVISIHEAL"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000242,
-          "name": "GROW LIGHT"
-        },
-        {
-          "id": 23000348,
-          "name": "UNFRIENDLY BUSHES"
+          "id": 23000651,
+          "name": "LIMBO"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000011,
+          "name": "LINGERING SMOKE",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000628,
-          "name": "GRASPING ROOTS"
+          "id": 23000276,
+          "name": "CLONE PROJECTOR"
+        },
+        {
+          "id": 23000408,
+          "name": "LOLLIPOP DROP"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000024,
       "name": "ROSA",
       "starPowers": [
@@ -1633,57 +1585,57 @@
           "id": 23000147,
           "name": "THORNY GLOVES"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000262,
-          "name": "HEAT EJECTOR"
-        },
-        {
-          "id": 23000317,
-          "name": "FLYING HOOK"
+          "id": 23000628,
+          "name": "GRASPING ROOTS"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000910,
-          "name": "FLAMESPIN"
+          "id": 23000242,
+          "name": "GROW LIGHT"
+        },
+        {
+          "id": 23000348,
+          "name": "UNFRIENDLY BUSHES"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000025,
       "name": "CARL",
       "starPowers": [
@@ -1695,57 +1647,57 @@
           "id": 23000145,
           "name": "PROTECTIVE PIROUETTE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000275,
-          "name": "VITAMIN BOOSTER"
-        },
-        {
-          "id": 23000458,
-          "name": "EXTRA STICKY"
+          "id": 23000910,
+          "name": "FLAMESPIN"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000683,
-          "name": "OUT OF BOUNDS"
+          "id": 23000262,
+          "name": "HEAT EJECTOR"
+        },
+        {
+          "id": 23000317,
+          "name": "FLYING HOOK"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000026,
       "name": "BIBI",
       "starPowers": [
@@ -1757,62 +1709,57 @@
           "id": 23000146,
           "name": "BATTING STANCE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000259,
-          "name": "CHEAT CARTRIDGE"
-        },
-        {
-          "id": 23000318,
-          "name": "EXTRA CREDITS"
+          "id": 23000683,
+          "name": "OUT OF BOUNDS"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000005,
-          "level": 3,
-          "name": "RELOAD SPEED"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000854,
-          "name": "AIMBOT"
+          "id": 23000275,
+          "name": "VITAMIN BOOSTER"
+        },
+        {
+          "id": 23000458,
+          "name": "EXTRA STICKY"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000027,
       "name": "8-BIT",
       "starPowers": [
@@ -1824,62 +1771,62 @@
           "id": 23000181,
           "name": "PLUGGED IN"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000270,
-          "name": "SLEEP STIMULATOR"
-        },
-        {
-          "id": 23000405,
-          "name": "SWEET DREAMS"
+          "id": 23000854,
+          "name": "AIMBOT"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
-          "id": 62000012,
-          "level": 3,
-          "name": "EXHAUSTING STORM"
+          "id": 62000005,
+          "name": "RELOAD SPEED",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000685,
-          "name": "SWIFT WINDS"
+          "id": 23000259,
+          "name": "CHEAT CARTRIDGE"
+        },
+        {
+          "id": 23000318,
+          "name": "EXTRA CREDITS"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000028,
       "name": "SANDY",
       "starPowers": [
@@ -1891,57 +1838,62 @@
           "id": 23000187,
           "name": "HEALING WINDS"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000271,
-          "name": "HONEY MOLASSES"
-        },
-        {
-          "id": 23000312,
-          "name": "RATTLED HIVE"
+          "id": 23000685,
+          "name": "SWIFT WINDS"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000012,
+          "name": "EXHAUSTING STORM",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000895,
-          "name": "PROTECT THE QUEEN"
+          "id": 23000270,
+          "name": "SLEEP STIMULATOR"
+        },
+        {
+          "id": 23000405,
+          "name": "SWEET DREAMS"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000029,
       "name": "BEA",
       "starPowers": [
@@ -1953,57 +1905,57 @@
           "id": 23000193,
           "name": "HONEYCOMB"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000274,
-          "name": "FRIENDZONER"
-        },
-        {
-          "id": 23000459,
-          "name": "ACID SPRAY"
+          "id": 23000895,
+          "name": "PROTECT THE QUEEN"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000778,
-          "name": "OVERHYPED HAZE"
+          "id": 23000271,
+          "name": "HONEY MOLASSES"
+        },
+        {
+          "id": 23000312,
+          "name": "RATTLED HIVE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000030,
       "name": "EMZ",
       "starPowers": [
@@ -2015,62 +1967,57 @@
           "id": 23000199,
           "name": "HYPE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000269,
-          "name": "SERVICE BELL"
-        },
-        {
-          "id": 23000349,
-          "name": "PORTER REINFORCEMENTS"
+          "id": 23000778,
+          "name": "OVERHYPED HAZE"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000014,
-          "level": 3,
-          "name": "PET POWER"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000899,
-          "name": "SUPER PORTERS! ASSEMBLE!"
+          "id": 23000274,
+          "name": "FRIENDZONER"
+        },
+        {
+          "id": 23000459,
+          "name": "ACID SPRAY"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000031,
       "name": "MR. P",
       "starPowers": [
@@ -2082,57 +2029,62 @@
           "id": 23000205,
           "name": "REVOLVING DOOR"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000254,
-          "name": "PHASE SHIFTER"
-        },
-        {
-          "id": 23000311,
-          "name": "SNEAKY SNEAKERS"
+          "id": 23000899,
+          "name": "SUPER PORTERS! ASSEMBLE!"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000014,
+          "name": "PET POWER",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000689,
-          "name": "UNLIMITED ENERGY"
+          "id": 23000269,
+          "name": "SERVICE BELL"
+        },
+        {
+          "id": 23000349,
+          "name": "PORTER REINFORCEMENTS"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000032,
       "name": "MAX",
       "starPowers": [
@@ -2144,62 +2096,57 @@
           "id": 23000211,
           "name": "RUN N GUN"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000256,
-          "name": "PNEUMATIC BOOSTER"
-        },
-        {
-          "id": 23000486,
-          "name": "REBUILD"
+          "id": 23000689,
+          "name": "UNLIMITED ENERGY"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000006,
-          "level": 3,
-          "name": "SUPER CHARGE"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000617,
-          "name": "SEISMIC EVENT"
+          "id": 23000254,
+          "name": "PHASE SHIFTER"
+        },
+        {
+          "id": 23000311,
+          "name": "SNEAKY SNEAKERS"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000034,
       "name": "JACKY",
       "starPowers": [
@@ -2211,57 +2158,62 @@
           "id": 23000223,
           "name": "HARDY HARD HAT"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000277,
-          "name": "SPRING EJECTOR"
-        },
-        {
-          "id": 23000407,
-          "name": "TWISTER"
+          "id": 23000617,
+          "name": "SEISMIC EVENT"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000006,
+          "name": "SUPER CHARGE",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000756,
-          "name": "BLIZZARD"
+          "id": 23000256,
+          "name": "PNEUMATIC BOOSTER"
+        },
+        {
+          "id": 23000486,
+          "name": "REBUILD"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000035,
       "name": "GALE",
       "starPowers": [
@@ -2273,62 +2225,57 @@
           "id": 23000229,
           "name": "FREEZING SNOW"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000278,
-          "name": "WARPIN' TIME"
-        },
-        {
-          "id": 23000353,
-          "name": "RETURN TO SENDER"
+          "id": 23000756,
+          "name": "BLIZZARD"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000006,
-          "level": 3,
-          "name": "SUPER CHARGE"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000825,
-          "name": "BIG PEEP"
+          "id": 23000277,
+          "name": "SPRING EJECTOR"
+        },
+        {
+          "id": 23000407,
+          "name": "TWISTER"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000036,
       "name": "NANI",
       "starPowers": [
@@ -2340,62 +2287,62 @@
           "id": 23000235,
           "name": "TEMPERED STEEL"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000244,
-          "name": "GARDEN MULCHER"
-        },
-        {
-          "id": 23000315,
-          "name": "TRANSPLANT"
+          "id": 23000825,
+          "name": "BIG PEEP"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000006,
-          "level": 3,
-          "name": "SUPER CHARGE"
+          "name": "SUPER CHARGE",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000681,
-          "name": "THORNS"
+          "id": 23000278,
+          "name": "WARPIN' TIME"
+        },
+        {
+          "id": 23000353,
+          "name": "RETURN TO SENDER"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000037,
       "name": "SPROUT",
       "starPowers": [
@@ -2407,57 +2354,62 @@
           "id": 23000241,
           "name": "PHOTOSYNTHESIS"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000285,
-          "name": "POWER SURGE"
-        },
-        {
-          "id": 23000485,
-          "name": "POWER SHIELD"
+          "id": 23000681,
+          "name": "THORNS"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000006,
+          "name": "SUPER CHARGE",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000826,
-          "name": "STAGE 5"
+          "id": 23000244,
+          "name": "GARDEN MULCHER"
+        },
+        {
+          "id": 23000315,
+          "name": "TRANSPLANT"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000038,
       "name": "SURGE",
       "starPowers": [
@@ -2469,57 +2421,57 @@
           "id": 23000284,
           "name": "SERVE ICE COLD"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000302,
-          "name": "NA-AH!"
-        },
-        {
-          "id": 23000457,
-          "name": "GOTCHA!"
+          "id": 23000826,
+          "name": "STAGE 5"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000632,
-          "name": "TEEN SPIRIT"
+          "id": 23000285,
+          "name": "POWER SURGE"
+        },
+        {
+          "id": 23000485,
+          "name": "POWER SHIELD"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000039,
       "name": "COLETTE",
       "starPowers": [
@@ -2531,67 +2483,57 @@
           "id": 23000301,
           "name": "MASS TAX"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000309,
-          "name": "FIRE STARTERS"
-        },
-        {
-          "id": 23000488,
-          "name": "DANCING FLAMES"
+          "id": 23000632,
+          "name": "TEEN SPIRIT"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000005,
-          "level": 3,
-          "name": "RELOAD SPEED"
-        },
-        {
-          "id": 62000013,
-          "level": 3,
-          "name": "STICKY OIL"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000970,
-          "name": "OIL SPILL"
+          "id": 23000302,
+          "name": "NA-AH!"
+        },
+        {
+          "id": 23000457,
+          "name": "GOTCHA!"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000040,
       "name": "AMBER",
       "starPowers": [
@@ -2603,62 +2545,67 @@
           "id": 23000308,
           "name": "SCORCHIN' SIPHON"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000326,
-          "name": "ICE BLOCK"
-        },
-        {
-          "id": 23000400,
-          "name": "CRYO SYRUP"
+          "id": 23000970,
+          "name": "OIL SPILL"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
-          "id": 62000006,
-          "level": 3,
-          "name": "SUPER CHARGE"
+          "id": 62000005,
+          "name": "RELOAD SPEED",
+          "level": 3
+        },
+        {
+          "id": 62000013,
+          "name": "STICKY OIL",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000631,
-          "name": "SLUSHIE STORM"
+          "id": 23000309,
+          "name": "FIRE STARTERS"
+        },
+        {
+          "id": 23000488,
+          "name": "DANCING FLAMES"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000041,
       "name": "LOU",
       "starPowers": [
@@ -2670,57 +2617,62 @@
           "id": 23000325,
           "name": "HYPOTHERMIA"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000333,
-          "name": "SHOT IN THE ARM"
-        },
-        {
-          "id": 23000461,
-          "name": "BOOSTER SHOTS"
+          "id": 23000631,
+          "name": "SLUSHIE STORM"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000006,
+          "name": "SUPER CHARGE",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001026,
-          "name": "UNSTABLE CONCOCTION"
+          "id": 23000326,
+          "name": "ICE BLOCK"
+        },
+        {
+          "id": 23000400,
+          "name": "CRYO SYRUP"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000042,
       "name": "BYRON",
       "starPowers": [
@@ -2732,62 +2684,57 @@
           "id": 23000332,
           "name": "INJECTION"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000340,
-          "name": "LET'S FLY"
-        },
-        {
-          "id": 23000403,
-          "name": "HARDCORE"
+          "id": 23001026,
+          "name": "UNSTABLE CONCOCTION"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000006,
-          "level": 3,
-          "name": "SUPER CHARGE"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000654,
-          "name": "OUTBURST"
+          "id": 23000333,
+          "name": "SHOT IN THE ARM"
+        },
+        {
+          "id": 23000461,
+          "name": "BOOSTER SHOTS"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000043,
       "name": "EDGAR",
       "starPowers": [
@@ -2799,57 +2746,62 @@
           "id": 23000339,
           "name": "FISTICUFFS"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000347,
-          "name": "TAKE COVER"
-        },
-        {
-          "id": 23000402,
-          "name": "AIR SUPPORT"
+          "id": 23000654,
+          "name": "OUTBURST"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000006,
+          "name": "SUPER CHARGE",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000860,
-          "name": "THE GOODEST BOY"
+          "id": 23000340,
+          "name": "LET'S FLY"
+        },
+        {
+          "id": 23000403,
+          "name": "HARDCORE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000044,
       "name": "RUFFS",
       "starPowers": [
@@ -2861,57 +2813,57 @@
           "id": 23000346,
           "name": "FIELD PROMOTION"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000364,
-          "name": "SPEED ZONE"
-        },
-        {
-          "id": 23000401,
-          "name": "BREAKTHROUGH"
+          "id": 23000860,
+          "name": "THE GOODEST BOY"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000858,
-          "name": "INFINITRO"
+          "id": 23000347,
+          "name": "TAKE COVER"
+        },
+        {
+          "id": 23000402,
+          "name": "AIR SUPPORT"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000045,
       "name": "STU",
       "starPowers": [
@@ -2923,62 +2875,57 @@
           "id": 23000363,
           "name": "GASO-HEAL"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000371,
-          "name": "NEST EGG"
-        },
-        {
-          "id": 23000463,
-          "name": "REVERSE POLARITY"
+          "id": 23000858,
+          "name": "INFINITRO"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000005,
-          "level": 3,
-          "name": "RELOAD SPEED"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000682,
-          "name": "MAGNETIC"
+          "id": 23000364,
+          "name": "SPEED ZONE"
+        },
+        {
+          "id": 23000401,
+          "name": "BREAKTHROUGH"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000046,
       "name": "BELLE",
       "starPowers": [
@@ -2990,57 +2937,62 @@
           "id": 23000370,
           "name": "GROUNDED"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000378,
-          "name": "WINDUP"
-        },
-        {
-          "id": 23000462,
-          "name": "RESIDUE"
+          "id": 23000682,
+          "name": "MAGNETIC"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000005,
+          "name": "RELOAD SPEED",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000823,
-          "name": "BOUNCY BLOB"
+          "id": 23000371,
+          "name": "NEST EGG"
+        },
+        {
+          "id": 23000463,
+          "name": "REVERSE POLARITY"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000047,
       "name": "SQUEAK",
       "starPowers": [
@@ -3052,57 +3004,57 @@
           "id": 23000377,
           "name": "SUPER STICKY"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000385,
-          "name": "WATCHTOWER"
-        },
-        {
-          "id": 23000460,
-          "name": "RADIO CHECK"
+          "id": 23000823,
+          "name": "BOUNCY BLOB"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000920,
-          "name": "GROM BOMB GOES BOOM!"
+          "id": 23000378,
+          "name": "WINDUP"
+        },
+        {
+          "id": 23000462,
+          "name": "RESIDUE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000048,
       "name": "GROM",
       "starPowers": [
@@ -3114,57 +3066,57 @@
           "id": 23000384,
           "name": "X-FACTOR"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000392,
-          "name": "RESERVE BUOY"
-        },
-        {
-          "id": 23000490,
-          "name": "X-RAY-SHADES"
+          "id": 23000920,
+          "name": "GROM BOMB GOES BOOM!"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000680,
-          "name": "BUZZWATCH"
+          "id": 23000385,
+          "name": "WATCHTOWER"
+        },
+        {
+          "id": 23000460,
+          "name": "RADIO CHECK"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000049,
       "name": "BUZZ",
       "starPowers": [
@@ -3176,62 +3128,57 @@
           "id": 23000391,
           "name": "EYES SHARP"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000399,
-          "name": "PIGGY BANK"
-        },
-        {
-          "id": 23000487,
-          "name": "COIN SHOWER"
+          "id": 23000680,
+          "name": "BUZZWATCH"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000005,
-          "level": 3,
-          "name": "RELOAD SPEED"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000971,
-          "name": "TAX REBATE"
+          "id": 23000392,
+          "name": "RESERVE BUOY"
+        },
+        {
+          "id": 23000490,
+          "name": "X-RAY-SHADES"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000050,
       "name": "GRIFF",
       "starPowers": [
@@ -3243,62 +3190,62 @@
           "id": 23000398,
           "name": "BUSINESS RESILIENCE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000416,
-          "name": "CHILL PILL"
-        },
-        {
-          "id": 23000465,
-          "name": "ROTTEN BANANA"
+          "id": 23000971,
+          "name": "TAX REBATE"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
-          "id": 62000006,
-          "level": 3,
-          "name": "SUPER CHARGE"
+          "id": 62000005,
+          "name": "RELOAD SPEED",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000890,
-          "name": "RAT KING"
+          "id": 23000399,
+          "name": "PIGGY BANK"
+        },
+        {
+          "id": 23000487,
+          "name": "COIN SHOWER"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000051,
       "name": "ASH",
       "starPowers": [
@@ -3310,57 +3257,62 @@
           "id": 23000415,
           "name": "MAD AS HECK"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000423,
-          "name": "JOLTING VOLTS"
-        },
-        {
-          "id": 23000489,
-          "name": "TOOLBOX"
+          "id": 23000890,
+          "name": "RAT KING"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000006,
+          "name": "SUPER CHARGE",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000897,
-          "name": "TUNGSTEN TOUGHNESS"
+          "id": 23000416,
+          "name": "CHILL PILL"
+        },
+        {
+          "id": 23000465,
+          "name": "ROTTEN BANANA"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000052,
       "name": "MEG",
       "starPowers": [
@@ -3372,62 +3324,57 @@
           "id": 23000422,
           "name": "HEAVY METAL"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000433,
-          "name": "FREEZE FRAME"
-        },
-        {
-          "id": 23000456,
-          "name": "STUNT DOUBLE"
+          "id": 23000897,
+          "name": "TUNGSTEN TOUGHNESS"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000005,
-          "level": 3,
-          "name": "RELOAD SPEED"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000909,
-          "name": "INFLATED EGO"
+          "id": 23000423,
+          "name": "JOLTING VOLTS"
+        },
+        {
+          "id": 23000489,
+          "name": "TOOLBOX"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000053,
       "name": "LOLA",
       "starPowers": [
@@ -3439,57 +3386,62 @@
           "id": 23000432,
           "name": "SEALED WITH A KISS"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000440,
-          "name": "CORN-FU"
-        },
-        {
-          "id": 23000464,
-          "name": "ROUNDHOUSE KICK"
+          "id": 23000909,
+          "name": "INFLATED EGO"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000005,
+          "name": "RELOAD SPEED",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000653,
-          "name": "DRAGON KICK"
+          "id": 23000433,
+          "name": "FREEZE FRAME"
+        },
+        {
+          "id": 23000456,
+          "name": "STUNT DOUBLE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000054,
       "name": "FANG",
       "starPowers": [
@@ -3501,67 +3453,57 @@
           "id": 23000439,
           "name": "DIVINE SOLES"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000454,
-          "name": "GOTTA GO!"
-        },
-        {
-          "id": 23000455,
-          "name": "MOTHERLY LOVE"
+          "id": 23000653,
+          "name": "DRAGON KICK"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000005,
-          "level": 3,
-          "name": "RELOAD SPEED"
-        },
-        {
-          "id": 62000015,
-          "level": 3,
-          "name": "QUADRUPLETS"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000892,
-          "name": "GENERATIONS"
+          "id": 23000440,
+          "name": "CORN-FU"
+        },
+        {
+          "id": 23000464,
+          "name": "ROUNDHOUSE KICK"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000056,
       "name": "EVE",
       "starPowers": [
@@ -3573,57 +3515,67 @@
           "id": 23000453,
           "name": "HAPPY SURPRISE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000472,
-          "name": "DROP THE BASS"
-        },
-        {
-          "id": 23000473,
-          "name": "BACKSTAGE PASS"
+          "id": 23000892,
+          "name": "GENERATIONS"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000005,
+          "name": "RELOAD SPEED",
+          "level": 3
+        },
+        {
+          "id": 62000015,
+          "name": "QUADRUPLETS",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000888,
-          "name": "MAGNUM OPUS"
+          "id": 23000454,
+          "name": "GOTTA GO!"
+        },
+        {
+          "id": 23000455,
+          "name": "MOTHERLY LOVE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000057,
       "name": "JANET",
       "starPowers": [
@@ -3635,62 +3587,57 @@
           "id": 23000471,
           "name": "VOCAL WARM UP"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000480,
-          "name": "SUGAR RUSH"
-        },
-        {
-          "id": 23000481,
-          "name": "CRASH TEST"
+          "id": 23000888,
+          "name": "MAGNUM OPUS"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
-        },
-        {
-          "id": 62000006,
-          "level": 3,
-          "name": "SUPER CHARGE"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001003,
-          "name": "DAREDEVIL"
+          "id": 23000472,
+          "name": "DROP THE BASS"
+        },
+        {
+          "id": 23000473,
+          "name": "BACKSTAGE PASS"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000058,
       "name": "BONNIE",
       "starPowers": [
@@ -3702,62 +3649,62 @@
           "id": 23000479,
           "name": "WISDOM TOOTH"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000497,
-          "name": "DORMANT STAR"
-        },
-        {
-          "id": 23000498,
-          "name": "PHAT SPLATTER"
+          "id": 23001003,
+          "name": "DAREDEVIL"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000006,
-          "level": 3,
-          "name": "SUPER CHARGE"
+          "name": "SUPER CHARGE",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000857,
-          "name": "SILENT STUNNER"
+          "id": 23000480,
+          "name": "SUGAR RUSH"
+        },
+        {
+          "id": 23000481,
+          "name": "CRASH TEST"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000059,
       "name": "OTIS",
       "starPowers": [
@@ -3769,57 +3716,62 @@
           "id": 23000496,
           "name": "INK REFILLS"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000505,
-          "name": "MAGNETIC FIELD"
-        },
-        {
-          "id": 23000506,
-          "name": "PULSE REPELLENT"
+          "id": 23000857,
+          "name": "SILENT STUNNER"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000006,
+          "name": "SUPER CHARGE",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000923,
-          "name": "HYPER FIST"
+          "id": 23000497,
+          "name": "DORMANT STAR"
+        },
+        {
+          "id": 23000498,
+          "name": "PHAT SPLATTER"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000060,
       "name": "SAM",
       "starPowers": [
@@ -3831,57 +3783,57 @@
           "id": 23000504,
           "name": "REMOTE RECHARGE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000513,
-          "name": "KOOKY POPPER"
-        },
-        {
-          "id": 23000514,
-          "name": "SOUL SWITCHER"
+          "id": 23000923,
+          "name": "HYPER FIST"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000919,
-          "name": "SPOOKY POP"
+          "id": 23000505,
+          "name": "MAGNETIC FIELD"
+        },
+        {
+          "id": 23000506,
+          "name": "PULSE REPELLENT"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000061,
       "name": "GUS",
       "starPowers": [
@@ -3893,57 +3845,57 @@
           "id": 23000512,
           "name": "SPIRIT ANIMAL"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000521,
-          "name": "UTILITY BELT"
-        },
-        {
-          "id": 23000522,
-          "name": "SLO-MO REPLAY"
+          "id": 23000919,
+          "name": "SPOOKY POP"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000921,
-          "name": "PLOT ARMOR"
+          "id": 23000513,
+          "name": "KOOKY POPPER"
+        },
+        {
+          "id": 23000514,
+          "name": "SOUL SWITCHER"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000062,
       "name": "BUSTER",
       "starPowers": [
@@ -3955,57 +3907,57 @@
           "id": 23000520,
           "name": "KEVLAR VEST"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000529,
-          "name": "SPICY DICE"
-        },
-        {
-          "id": 23000530,
-          "name": "CANDY BEANS"
+          "id": 23000921,
+          "name": "PLOT ARMOR"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000900,
-          "name": "CRUNCHY, CHEWY, GOOEY"
+          "id": 23000521,
+          "name": "UTILITY BELT"
+        },
+        {
+          "id": 23000522,
+          "name": "SLO-MO REPLAY"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000063,
       "name": "CHESTER",
       "starPowers": [
@@ -4017,57 +3969,57 @@
           "id": 23000528,
           "name": "SNEAK PEEK"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000537,
-          "name": "WALKING CANE"
-        },
-        {
-          "id": 23000538,
-          "name": "GRAND PIANO"
+          "id": 23000900,
+          "name": "CRUNCHY, CHEWY, GOOEY"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000889,
-          "name": "ANOTHER DIMENSION"
+          "id": 23000529,
+          "name": "SPICY DICE"
+        },
+        {
+          "id": 23000530,
+          "name": "CANDY BEANS"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000064,
       "name": "GRAY",
       "starPowers": [
@@ -4079,57 +4031,57 @@
           "id": 23000536,
           "name": "NEW PERSPECTIVE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000545,
-          "name": "CARAMELIZE"
-        },
-        {
-          "id": 23000546,
-          "name": "COOKIE CRUMBS"
+          "id": 23000889,
+          "name": "ANOTHER DIMENSION"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000894,
-          "name": "SUGAR FOR ALL!"
+          "id": 23000537,
+          "name": "WALKING CANE"
+        },
+        {
+          "id": 23000538,
+          "name": "GRAND PIANO"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000065,
       "name": "MANDY",
       "starPowers": [
@@ -4141,57 +4093,57 @@
           "id": 23000544,
           "name": "HARD CANDY"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000555,
-          "name": "OUT OF LINE"
-        },
-        {
-          "id": 23000556,
-          "name": "HACKS!"
+          "id": 23000894,
+          "name": "SUGAR FOR ALL!"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001004,
-          "name": "360-DEGREE SURVEILLANCE"
+          "id": 23000545,
+          "name": "CARAMELIZE"
+        },
+        {
+          "id": 23000546,
+          "name": "COOKIE CRUMBS"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000066,
       "name": "R-T",
       "starPowers": [
@@ -4203,57 +4155,57 @@
           "id": 23000554,
           "name": "RECORDING"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000563,
-          "name": "SPELLBOUND"
-        },
-        {
-          "id": 23000564,
-          "name": "DIVE"
+          "id": 23001004,
+          "name": "360-DEGREE SURVEILLANCE"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000922,
-          "name": "PSYCHIC SAFETY"
+          "id": 23000555,
+          "name": "OUT OF LINE"
+        },
+        {
+          "id": 23000556,
+          "name": "HACKS!"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000067,
       "name": "WILLOW",
       "starPowers": [
@@ -4265,57 +4217,57 @@
           "id": 23000562,
           "name": "OBSESSION"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000571,
-          "name": "DISENGAGE!"
-        },
-        {
-          "id": 23000572,
-          "name": "FINISH THEM!"
+          "id": 23000922,
+          "name": "PSYCHIC SAFETY"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000629,
-          "name": "AFTERMATH"
+          "id": 23000563,
+          "name": "SPELLBOUND"
+        },
+        {
+          "id": 23000564,
+          "name": "DIVE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000068,
       "name": "MAISIE",
       "starPowers": [
@@ -4327,57 +4279,57 @@
           "id": 23000570,
           "name": "TREMORS"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000579,
-          "name": "WATER BALLOONS"
-        },
-        {
-          "id": 23000580,
-          "name": "BARRICADE"
+          "id": 23000629,
+          "name": "AFTERMATH"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000893,
-          "name": "HOMING FISH-ILES"
+          "id": 23000571,
+          "name": "DISENGAGE!"
+        },
+        {
+          "id": 23000572,
+          "name": "FINISH THEM!"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000069,
       "name": "HANK",
       "starPowers": [
@@ -4389,57 +4341,57 @@
           "id": 23000578,
           "name": "TAKE COVER!"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000587,
-          "name": "REPLANTING"
-        },
-        {
-          "id": 23000588,
-          "name": "POISON MUSHROOM"
+          "id": 23000893,
+          "name": "HOMING FISH-ILES"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000684,
-          "name": "COMPLETE DARKNESS"
+          "id": 23000579,
+          "name": "WATER BALLOONS"
+        },
+        {
+          "id": 23000580,
+          "name": "BARRICADE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000070,
       "name": "CORDELIUS",
       "starPowers": [
@@ -4451,57 +4403,57 @@
           "id": 23000586,
           "name": "MUSHROOM KINGDOM"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000595,
-          "name": "DOUBLE SAUSAGE"
-        },
-        {
-          "id": 23000596,
-          "name": "EXTRA MUSTARD"
+          "id": 23000684,
+          "name": "COMPLETE DARKNESS"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001006,
-          "name": "FREE TOPPINGS"
+          "id": 23000587,
+          "name": "REPLANTING"
+        },
+        {
+          "id": 23000588,
+          "name": "POISON MUSHROOM"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000071,
       "name": "DOUG",
       "starPowers": [
@@ -4513,57 +4465,57 @@
           "id": 23000594,
           "name": "SELF SERVICE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000603,
-          "name": "OVERCOOKED"
-        },
-        {
-          "id": 23000604,
-          "name": "MADE WITH LOVE"
+          "id": 23001006,
+          "name": "FREE TOPPINGS"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000618,
-          "name": "PYROLYTIC"
+          "id": 23000595,
+          "name": "DOUBLE SAUSAGE"
+        },
+        {
+          "id": 23000596,
+          "name": "EXTRA MUSTARD"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000072,
       "name": "PEARL",
       "starPowers": [
@@ -4575,57 +4527,57 @@
           "id": 23000602,
           "name": "HEAT SHIELD"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000611,
-          "name": "REROUTING"
-        },
-        {
-          "id": 23000612,
-          "name": "GHOST TRAIN"
+          "id": 23000618,
+          "name": "PYROLYTIC"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001005,
-          "name": "FULL STEAM AHEAD!"
+          "id": 23000603,
+          "name": "OVERCOOKED"
+        },
+        {
+          "id": 23000604,
+          "name": "MADE WITH LOVE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000073,
       "name": "CHUCK",
       "starPowers": [
@@ -4637,57 +4589,57 @@
           "id": 23000610,
           "name": "TICKETS PLEASE!"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000625,
-          "name": "SPIDERS"
-        },
-        {
-          "id": 23000626,
-          "name": "PERSONAL SPACE"
+          "id": 23001005,
+          "name": "FULL STEAM AHEAD!"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000627,
-          "name": "PESTILENCE"
+          "id": 23000611,
+          "name": "REROUTING"
+        },
+        {
+          "id": 23000612,
+          "name": "GHOST TRAIN"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000074,
       "name": "CHARLIE",
       "starPowers": [
@@ -4699,57 +4651,57 @@
           "id": 23000624,
           "name": "SLIMY"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000639,
-          "name": "CLIPPING SCREAM"
-        },
-        {
-          "id": 23000640,
-          "name": "PRESTO"
+          "id": 23000627,
+          "name": "PESTILENCE"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000641,
-          "name": "SOUND CHECK"
+          "id": 23000625,
+          "name": "SPIDERS"
+        },
+        {
+          "id": 23000626,
+          "name": "PERSONAL SPACE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000075,
       "name": "MICO",
       "starPowers": [
@@ -4761,57 +4713,57 @@
           "id": 23000638,
           "name": "RECORD SMASH"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000648,
-          "name": "CARDBOARD BOX"
-        },
-        {
-          "id": 23000649,
-          "name": "CHEESEBURGER"
+          "id": 23000641,
+          "name": "SOUND CHECK"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001007,
-          "name": "MAKING BISCUITS"
+          "id": 23000639,
+          "name": "CLIPPING SCREAM"
+        },
+        {
+          "id": 23000640,
+          "name": "PRESTO"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000076,
       "name": "KIT",
       "starPowers": [
@@ -4823,57 +4775,57 @@
           "id": 23000647,
           "name": "OVERLY ATTACHED"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000661,
-          "name": "ORDER: SWAP"
-        },
-        {
-          "id": 23000662,
-          "name": "ORDER: FALL BACK"
+          "id": 23001007,
+          "name": "MAKING BISCUITS"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001053,
-          "name": "THE THREE-BOT PROBLEM"
+          "id": 23000648,
+          "name": "CARDBOARD BOX"
+        },
+        {
+          "id": 23000649,
+          "name": "CHEESEBURGER"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000077,
       "name": "LARRY & LAWRIE",
       "starPowers": [
@@ -4885,57 +4837,57 @@
           "id": 23000660,
           "name": "PROTOCOL: ASSIST"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000669,
-          "name": "PERFECT PITCH"
-        },
-        {
-          "id": 23000670,
-          "name": "INTERLUDE"
+          "id": 23001053,
+          "name": "THE THREE-BOT PROBLEM"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000887,
-          "name": "FLASH MOB"
+          "id": 23000661,
+          "name": "ORDER: SWAP"
+        },
+        {
+          "id": 23000662,
+          "name": "ORDER: FALL BACK"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000078,
       "name": "MELODIE",
       "starPowers": [
@@ -4947,57 +4899,57 @@
           "id": 23000668,
           "name": "EXTENDED MIX"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000677,
-          "name": "STINGING FLIGHT"
-        },
-        {
-          "id": 23000678,
-          "name": "MASTER FLETCHER"
+          "id": 23000887,
+          "name": "FLASH MOB"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000759,
-          "name": "IN MY ELEMENT"
+          "id": 23000669,
+          "name": "PERFECT PITCH"
+        },
+        {
+          "id": 23000670,
+          "name": "INTERLUDE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000079,
       "name": "ANGELO",
       "starPowers": [
@@ -5009,57 +4961,57 @@
           "id": 23000676,
           "name": "FLOW"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000736,
-          "name": "UPPER CUT"
-        },
-        {
-          "id": 23000737,
-          "name": "LAST STAND"
+          "id": 23000759,
+          "name": "IN MY ELEMENT"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000993,
-          "name": "FIRE AND FLAMES"
+          "id": 23000677,
+          "name": "STINGING FLIGHT"
+        },
+        {
+          "id": 23000678,
+          "name": "MASTER FLETCHER"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000080,
       "name": "DRACO",
       "starPowers": [
@@ -5071,57 +5023,57 @@
           "id": 23000735,
           "name": "SHREDDING"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000754,
-          "name": "VANISH"
-        },
-        {
-          "id": 23000755,
-          "name": "REPOT"
+          "id": 23000993,
+          "name": "FIRE AND FLAMES"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000924,
-          "name": "GERMINATE"
+          "id": 23000736,
+          "name": "UPPER CUT"
+        },
+        {
+          "id": 23000737,
+          "name": "LAST STAND"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000081,
       "name": "LILY",
       "starPowers": [
@@ -5133,57 +5085,57 @@
           "id": 23000753,
           "name": "VIGILANCE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000766,
-          "name": "FRIENDSHIP IS GREAT"
-        },
-        {
-          "id": 23000767,
-          "name": "HEALTHY ADDITIVES"
+          "id": 23000924,
+          "name": "GERMINATE"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000891,
-          "name": "DOUBLE SCOOPS"
+          "id": 23000754,
+          "name": "VANISH"
+        },
+        {
+          "id": 23000755,
+          "name": "REPOT"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000082,
       "name": "BERRY",
       "starPowers": [
@@ -5195,57 +5147,57 @@
           "id": 23000765,
           "name": "MAKING A MESS"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000774,
-          "name": "SNAPPY SHOOTING"
-        },
-        {
-          "id": 23000775,
-          "name": "TACTICAL RETREAT"
+          "id": 23000891,
+          "name": "DOUBLE SCOOPS"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000933,
-          "name": "RECALL OF DUTY"
+          "id": 23000766,
+          "name": "FRIENDSHIP IS GREAT"
+        },
+        {
+          "id": 23000767,
+          "name": "HEALTHY ADDITIVES"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000083,
       "name": "CLANCY",
       "starPowers": [
@@ -5257,57 +5209,57 @@
           "id": 23000773,
           "name": "PUMPING UP"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000806,
-          "name": "DODGY DIGGING"
-        },
-        {
-          "id": 23000807,
-          "name": "RAT RACE"
+          "id": 23000933,
+          "name": "RECALL OF DUTY"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001002,
-          "name": "THE BIG CHEESE"
+          "id": 23000774,
+          "name": "SNAPPY SHOOTING"
+        },
+        {
+          "id": 23000775,
+          "name": "TACTICAL RETREAT"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000084,
       "name": "MOE",
       "starPowers": [
@@ -5319,57 +5271,57 @@
           "id": 23000805,
           "name": "SPEEDING TICKET"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000817,
-          "name": "DASHI DASH"
-        },
-        {
-          "id": 23000818,
-          "name": "HOSOMAKI HEALING"
+          "id": 23001002,
+          "name": "THE BIG CHEESE"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000972,
-          "name": "ALL YOU CAN EAT"
+          "id": 23000806,
+          "name": "DODGY DIGGING"
+        },
+        {
+          "id": 23000807,
+          "name": "RAT RACE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000085,
       "name": "KENJI",
       "starPowers": [
@@ -5381,57 +5333,57 @@
           "id": 23000816,
           "name": "NIGIRI NEMESIS"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000834,
-          "name": "LONGARMS"
-        },
-        {
-          "id": 23000835,
-          "name": "JUMP SCARE"
+          "id": 23000972,
+          "name": "ALL YOU CAN EAT"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000979,
-          "name": "THE FRIGHTENER"
+          "id": 23000817,
+          "name": "DASHI DASH"
+        },
+        {
+          "id": 23000818,
+          "name": "HOSOMAKI HEALING"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000086,
       "name": "SHADE",
       "starPowers": [
@@ -5443,57 +5395,57 @@
           "id": 23000833,
           "name": "HARDENED HOODIE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000850,
-          "name": "VOODOO CHILE"
-        },
-        {
-          "id": 23000851,
-          "name": "ELEMENTALIST"
+          "id": 23000979,
+          "name": "THE FRIGHTENER"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001034,
-          "name": "BOKOR"
+          "id": 23000834,
+          "name": "LONGARMS"
+        },
+        {
+          "id": 23000835,
+          "name": "JUMP SCARE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000087,
       "name": "JUJU",
       "starPowers": [
@@ -5505,57 +5457,57 @@
           "id": 23000849,
           "name": "NUMBING NEEDLES"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000877,
-          "name": "MANSIONS OF MEEPLE"
-        },
-        {
-          "id": 23000878,
-          "name": "RAGEQUIT"
+          "id": 23001034,
+          "name": "BOKOR"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001055,
-          "name": "THE LAST RULEBENDER"
+          "id": 23000850,
+          "name": "VOODOO CHILE"
+        },
+        {
+          "id": 23000851,
+          "name": "ELEMENTALIST"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000089,
       "name": "MEEPLE",
       "starPowers": [
@@ -5567,57 +5519,57 @@
           "id": 23000876,
           "name": "RULE BENDING"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000885,
-          "name": "REGULATE"
-        },
-        {
-          "id": 23000886,
-          "name": "ALL EYEZ ON ME"
+          "id": 23001055,
+          "name": "THE LAST RULEBENDER"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001033,
-          "name": "AIN'T NO HALF-SUPERING"
+          "id": 23000877,
+          "name": "MANSIONS OF MEEPLE"
+        },
+        {
+          "id": 23000878,
+          "name": "RAGEQUIT"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000090,
       "name": "OLLIE",
       "starPowers": [
@@ -5629,57 +5581,57 @@
           "id": 23000884,
           "name": "RENEGADE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000907,
-          "name": "HIT THE LIGHTS"
-        },
-        {
-          "id": 23000908,
-          "name": "GRIM AND FROSTBITTEN"
+          "id": 23001033,
+          "name": "AIN'T NO HALF-SUPERING"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000980,
-          "name": "DRUM SOLO"
+          "id": 23000885,
+          "name": "REGULATE"
+        },
+        {
+          "id": 23000886,
+          "name": "ALL EYEZ ON ME"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000091,
       "name": "LUMI",
       "starPowers": [
@@ -5691,57 +5643,57 @@
           "id": 23000906,
           "name": "HALF-TIME"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000917,
-          "name": "BACK TO THE FINXTURE"
-        },
-        {
-          "id": 23000918,
-          "name": "NO ESCAPE"
+          "id": 23000980,
+          "name": "DRUM SOLO"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001051,
-          "name": "TEMPORAL TRAVELING"
+          "id": 23000907,
+          "name": "HIT THE LIGHTS"
+        },
+        {
+          "id": 23000908,
+          "name": "GRIM AND FROSTBITTEN"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000092,
       "name": "FINX",
       "starPowers": [
@@ -5753,57 +5705,57 @@
           "id": 23000916,
           "name": "PRIMER"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000931,
-          "name": "WEEKEND WARRIOR"
-        },
-        {
-          "id": 23000932,
-          "name": "TIME FOR A SLOW SONG"
+          "id": 23001051,
+          "name": "TEMPORAL TRAVELING"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001054,
-          "name": "CROWD-PLEASER"
+          "id": 23000917,
+          "name": "BACK TO THE FINXTURE"
+        },
+        {
+          "id": 23000918,
+          "name": "NO ESCAPE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000093,
       "name": "JAE-YONG",
       "starPowers": [
@@ -5815,57 +5767,57 @@
           "id": 23000930,
           "name": "EXTRA HIGH NOTE"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000940,
-          "name": "GRACIOUS HOST"
-        },
-        {
-          "id": 23000941,
-          "name": "HENSOJUTSU"
+          "id": 23001054,
+          "name": "CROWD-PLEASER"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23000943,
-          "name": "ANCIENT ENERGY"
+          "id": 23000931,
+          "name": "WEEKEND WARRIOR"
+        },
+        {
+          "id": 23000932,
+          "name": "TIME FOR A SLOW SONG"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000094,
       "name": "KAZE",
       "starPowers": [
@@ -5877,57 +5829,57 @@
           "id": 23000939,
           "name": "GRATUITY INCLUDED"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23000991,
-          "name": "FEED THE GATORS"
-        },
-        {
-          "id": 23000992,
-          "name": "COLD-BLOODED"
+          "id": 23000943,
+          "name": "ANCIENT ENERGY"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001139,
-          "name": "SWAMP SNACKING"
+          "id": 23000940,
+          "name": "GRACIOUS HOST"
+        },
+        {
+          "id": 23000941,
+          "name": "HENSOJUTSU"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000095,
       "name": "ALLI",
       "starPowers": [
@@ -5939,57 +5891,57 @@
           "id": 23000990,
           "name": "YOU BETTER RUN, YOU BETTER TAKE COVER"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23001000,
-          "name": "FOR THE QUEEN!"
-        },
-        {
-          "id": 23001001,
-          "name": "WORKER ANTS"
+          "id": 23001139,
+          "name": "SWAMP SNACKING"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001052,
-          "name": "RETREAD"
+          "id": 23000991,
+          "name": "FEED THE GATORS"
+        },
+        {
+          "id": 23000992,
+          "name": "COLD-BLOODED"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000096,
       "name": "TRUNK",
       "starPowers": [
@@ -6001,57 +5953,57 @@
           "id": 23000999,
           "name": "COLONY SCOUTS"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23001041,
-          "name": "WINDMILL"
-        },
-        {
-          "id": 23001042,
-          "name": "CAPO-WHAT?"
+          "id": 23001052,
+          "name": "RETREAD"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001138,
-          "name": "TRIPLECANE"
+          "id": 23001000,
+          "name": "FOR THE QUEEN!"
+        },
+        {
+          "id": 23001001,
+          "name": "WORKER ANTS"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000097,
       "name": "MINA",
       "starPowers": [
@@ -6063,57 +6015,57 @@
           "id": 23001040,
           "name": "BLOWN AWAY"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23001049,
-          "name": "ELECTRIC SHUFFLE"
-        },
-        {
-          "id": 23001050,
-          "name": "NOW YOU SEE ME..."
+          "id": 23001138,
+          "name": "TRIPLECANE"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001137,
-          "name": "THE GRAND VORTEX"
+          "id": 23001041,
+          "name": "WINDMILL"
+        },
+        {
+          "id": 23001042,
+          "name": "CAPO-WHAT?"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000098,
       "name": "ZIGGY",
       "starPowers": [
@@ -6125,52 +6077,57 @@
           "id": 23001048,
           "name": "THE GREAT ZIGGINI"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23001062,
-          "name": "BOTTOMLESS MAGS"
-        },
-        {
-          "id": 23001063,
-          "name": "YOU ONLY BRAWL TWICE"
+          "id": 23001137,
+          "name": "THE GRAND VORTEX"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [],
+      "gadgets": [
+        {
+          "id": 23001049,
+          "name": "ELECTRIC SHUFFLE"
+        },
+        {
+          "id": 23001050,
+          "name": "NOW YOU SEE ME..."
+        }
+      ]
+    },
+    {
       "id": 16000099,
       "name": "PIERCE",
       "starPowers": [
@@ -6182,57 +6139,52 @@
           "id": 23001061,
           "name": "SLIP 'N SNIPE"
         }
-      ]
-    },
-    {
-      "gadgets": [
-        {
-          "id": 23001070,
-          "name": "LONGER STRINGS"
-        },
-        {
-          "id": 23001071,
-          "name": "DISAPPEARING ACT"
-        }
       ],
+      "hyperCharges": [],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001211,
-          "name": "PAS DE DEUX"
+          "id": 23001062,
+          "name": "BOTTOMLESS MAGS"
+        },
+        {
+          "id": 23001063,
+          "name": "YOU ONLY BRAWL TWICE"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000100,
       "name": "GIGI",
       "starPowers": [
@@ -6244,52 +6196,57 @@
           "id": 23001069,
           "name": "A HELPING HAND"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23001183,
-          "name": "SLIPPERY SAVIOR"
-        },
-        {
-          "id": 23001184,
-          "name": "MORE LUMENS!"
+          "id": 23001211,
+          "name": "PAS DE DEUX"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [],
+      "gadgets": [
+        {
+          "id": 23001070,
+          "name": "LONGER STRINGS"
+        },
+        {
+          "id": 23001071,
+          "name": "DISAPPEARING ACT"
+        }
+      ]
+    },
+    {
       "id": 16000101,
       "name": "GLOWBERT",
       "starPowers": [
@@ -6301,57 +6258,52 @@
           "id": 23001182,
           "name": "PARASITISM"
         }
-      ]
-    },
-    {
-      "gadgets": [
-        {
-          "id": 23001191,
-          "name": "A STARR IS BORN"
-        },
-        {
-          "id": 23001192,
-          "name": "MASTER OF SHADOWS"
-        }
       ],
+      "hyperCharges": [],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [
+      "gadgets": [
         {
-          "id": 23001231,
-          "name": "UNLIMITED POWER!"
+          "id": 23001183,
+          "name": "SLIPPERY SAVIOR"
+        },
+        {
+          "id": 23001184,
+          "name": "MORE LUMENS!"
         }
-      ],
+      ]
+    },
+    {
       "id": 16000102,
       "name": "SIRIUS",
       "starPowers": [
@@ -6363,52 +6315,57 @@
           "id": 23001190,
           "name": "THE DARKEST STARR"
         }
-      ]
-    },
-    {
-      "gadgets": [
+      ],
+      "hyperCharges": [
         {
-          "id": 23001218,
-          "name": "POISON PUDDLES"
-        },
-        {
-          "id": 23001219,
-          "name": "NAJIA JAR"
+          "id": 23001231,
+          "name": "UNLIMITED POWER!"
         }
       ],
       "gears": [
         {
           "id": 62000000,
-          "level": 3,
-          "name": "SPEED"
+          "name": "SPEED",
+          "level": 3
         },
         {
           "id": 62000001,
-          "level": 3,
-          "name": "HEALTH"
+          "name": "HEALTH",
+          "level": 3
         },
         {
           "id": 62000002,
-          "level": 3,
-          "name": "DAMAGE"
+          "name": "DAMAGE",
+          "level": 3
         },
         {
           "id": 62000003,
-          "level": 3,
-          "name": "VISION"
+          "name": "VISION",
+          "level": 3
         },
         {
           "id": 62000004,
-          "level": 3,
-          "name": "SHIELD"
+          "name": "SHIELD",
+          "level": 3
         },
         {
           "id": 62000017,
-          "level": 3,
-          "name": "GADGET COOLDOWN"
+          "name": "GADGET COOLDOWN",
+          "level": 3
         }
       ],
-      "hyperCharges": [],
+      "gadgets": [
+        {
+          "id": 23001191,
+          "name": "A STARR IS BORN"
+        },
+        {
+          "id": 23001192,
+          "name": "MASTER OF SHADOWS"
+        }
+      ]
+    },
+    {
       "id": 16000103,
       "name": "NAJIA",
       "starPowers": [
@@ -6419,6 +6376,49 @@
         {
           "id": 23001217,
           "name": "VENOMOUS"
+        }
+      ],
+      "hyperCharges": [],
+      "gears": [
+        {
+          "id": 62000000,
+          "name": "SPEED",
+          "level": 3
+        },
+        {
+          "id": 62000001,
+          "name": "HEALTH",
+          "level": 3
+        },
+        {
+          "id": 62000002,
+          "name": "DAMAGE",
+          "level": 3
+        },
+        {
+          "id": 62000003,
+          "name": "VISION",
+          "level": 3
+        },
+        {
+          "id": 62000004,
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000017,
+          "name": "GADGET COOLDOWN",
+          "level": 3
+        }
+      ],
+      "gadgets": [
+        {
+          "id": 23001218,
+          "name": "POISON PUDDLES"
+        },
+        {
+          "id": 23001219,
+          "name": "NAJIA JAR"
         }
       ]
     }
