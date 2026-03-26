@@ -254,6 +254,29 @@ select:focus, input[type="text"]:focus {
     margin-top: 20px;
 }
 
+/* View Toggle Buttons */
+.view-toggle {
+    padding: 8px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.view-toggle:hover {
+    background: var(--bg-tertiary);
+    border-color: var(--accent);
+}
+
+.view-toggle.active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+}
+
 /* Loading States */
 .loading {
     text-align: center;

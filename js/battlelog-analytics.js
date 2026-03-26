@@ -19,7 +19,10 @@ const BattlelogAnalytics = {
         if (options.days) {
             const cutoff = new Date();
             cutoff.setDate(cutoff.getDate() - options.days);
-            battles = battles.filter(b => new Date(b.battleTime) >= cutoff);
+            battles = battles.filter(b => {
+                const battleDate = Utils.parseBattleTime(b.battleTime);
+                return battleDate && battleDate >= cutoff;
+            });
         }
 
         // Filter by mode if specified
@@ -105,7 +108,10 @@ const BattlelogAnalytics = {
 
         for (const player of players) {
             const battles = BattlelogDataManager.getBattlesForPlayer(player.tag);
-            const recentBattles = battles.filter(b => new Date(b.battleTime) >= cutoff);
+            const recentBattles = battles.filter(b => {
+                const battleDate = Utils.parseBattleTime(b.battleTime);
+                return battleDate && battleDate >= cutoff;
+            });
 
             if (recentBattles.length > maxBattles) {
                 maxBattles = recentBattles.length;
