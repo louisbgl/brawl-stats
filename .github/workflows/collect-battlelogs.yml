@@ -6,18 +6,8 @@ on:
   # schedule:
   #   - cron: '*/30 * * * *'
 
-  # Allow manual trigger (use only if Oracle VM collection fails)
+  # Allow manual trigger only (use only if Oracle VM collection fails)
   workflow_dispatch:
-
-  # Run on push to main (for testing)
-  push:
-    branches:
-      - main
-    paths:
-      - 'collect_battlelogs.py'
-      - 'src/battle_store.py'
-      - 'src/battle_models.py'
-      - '.github/workflows/collect-battlelogs.yml'
 
 jobs:
   collect:

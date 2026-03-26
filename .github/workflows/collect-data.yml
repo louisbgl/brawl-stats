@@ -6,17 +6,8 @@ on:
   # schedule:
   #   - cron: '0 23 * * *'
 
-  # Allow manual trigger (use only if Oracle VM collection fails)
+  # Allow manual trigger only (use only if Oracle VM collection fails)
   workflow_dispatch:
-
-  # Run on push to master (for testing)
-  push:
-    branches:
-      - master
-    paths:
-      - 'collect_data.py'
-      - 'src/**'
-      - '.github/workflows/collect-data.yml'
 
 jobs:
   collect:
