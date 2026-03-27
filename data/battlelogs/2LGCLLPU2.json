@@ -7816,5 +7816,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260327T113116.000Z",
+    "event": {
+      "id": 15001167,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Singed Earth"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 138,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#L8CLRL08V",
+        "name": "Le_Faucon",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 965
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1075
+            }
+          },
+          {
+            "tag": "#LGRU9GJUG",
+            "name": "[БАН]ФАХРИ",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 9,
+              "trophies": 812
+            }
+          },
+          {
+            "tag": "#P92Q82YRR",
+            "name": "palestine🇵🇸♥️",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 963
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L8CLRL08V",
+            "name": "Le_Faucon",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 965
+            }
+          },
+          {
+            "tag": "#L8UVCGU0R",
+            "name": "Dream",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 958
+            }
+          },
+          {
+            "tag": "#L8CY88U8V",
+            "name": "AXL♧PERPIX°☆",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 974
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
