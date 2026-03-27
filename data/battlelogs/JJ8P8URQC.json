@@ -14587,5 +14587,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260327T133200.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 86,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#G28LCGCY",
+        "name": "kidzu",
+        "brawler": {
+          "id": 16000101,
+          "name": "GLOWBERT",
+          "power": 11,
+          "trophies": 419
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#V8CC2L920",
+            "name": "Nazim pro",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 8,
+              "trophies": 354
+            }
+          },
+          {
+            "tag": "#G28LCGCY",
+            "name": "kidzu",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWBERT",
+              "power": 11,
+              "trophies": 419
+            }
+          },
+          {
+            "tag": "#2J0GC0CL",
+            "name": "SV BIFF",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 421
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2U9RVY228R",
+            "name": "nass",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 10,
+              "trophies": 263
+            }
+          },
+          {
+            "tag": "#2CLPYQ0JCC",
+            "name": "wazid🎭",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 7,
+              "trophies": 404
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 9,
+              "trophies": 410
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260327T133608.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 85,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#2UGV8Q9C2P",
+        "name": "шишка",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 9,
+          "trophies": 272
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9LPGVP2JG",
+            "name": "юви",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWBERT",
+              "power": 10,
+              "trophies": 314
+            }
+          },
+          {
+            "tag": "#2JU88YQVJ0",
+            "name": "dori",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 9,
+              "trophies": 353
+            }
+          },
+          {
+            "tag": "#2UGV8Q9C2P",
+            "name": "шишка",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 9,
+              "trophies": 272
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 8,
+              "trophies": 229
+            }
+          },
+          {
+            "tag": "#2UJ9CYV8GC",
+            "name": "🇹🇷 DENİZ 🇹🇷",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 759
+            }
+          },
+          {
+            "tag": "#2CY9RQRCCL",
+            "name": "ŞAŞKIN DOUG",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 9,
+              "trophies": 281
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
