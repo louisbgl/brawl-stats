@@ -17219,5 +17219,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260327T195158.000Z",
+    "event": {
+      "id": 15001167,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Singed Earth"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 115,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#JJ8P8URQC",
+        "name": "JOEL | Orbova",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 9,
+          "trophies": 654
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GLP0CJVPL",
+            "name": "יהונתן",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1036
+            }
+          },
+          {
+            "tag": "#GCU0LG98G",
+            "name": "sonounfemboy:3",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1700
+            }
+          },
+          {
+            "tag": "#Q0YG8YV8R",
+            "name": "alerita",
+            "brawler": {
+              "id": 16000066,
+              "name": "R-T",
+              "power": 8,
+              "trophies": 494
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RCLY0VYQ",
+            "name": "Merox01",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 949
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 9,
+              "trophies": 654
+            }
+          },
+          {
+            "tag": "#8JVV8L9UR",
+            "name": "Matthieu",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 9,
+              "trophies": 593
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
