@@ -16251,5 +16251,97 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260327T185727.000Z",
+    "event": {
+      "id": 15001167,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Singed Earth"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 203,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#LV2LR9LV8",
+        "name": "ROSITO",
+        "brawler": {
+          "id": 16000000,
+          "name": "SHELLY",
+          "power": 10,
+          "trophies": 619
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9YVY0VL0C",
+            "name": "NoYokai|ロメオ",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 511
+            }
+          },
+          {
+            "tag": "#YULUCPPQV",
+            "name": "Yokai|エステバン",
+            "brawler": {
+              "id": 16000090,
+              "name": "OLLIE",
+              "power": 9,
+              "trophies": 462
+            }
+          },
+          {
+            "tag": "#GGJGPLJYP",
+            "name": "𝙺𝙴𝚅𝙸𝙽 文",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 10,
+              "trophies": 933
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 9,
+              "trophies": 386
+            }
+          },
+          {
+            "tag": "#8JVV8L9UR",
+            "name": "Matthieu",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 8,
+              "trophies": 379
+            }
+          },
+          {
+            "tag": "#LV2LR9LV8",
+            "name": "ROSITO",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 10,
+              "trophies": 619
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
