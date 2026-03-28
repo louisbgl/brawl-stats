@@ -5057,5 +5057,97 @@
       "mode": "hotZone",
       "modeId": 17
     }
+  },
+  {
+    "battleTime": "20260328T192503.000Z",
+    "event": {
+      "id": 15000293,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Parallel Plays"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 102,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#2C8CLLU9V8",
+        "name": "chachafz",
+        "brawler": {
+          "id": 16000006,
+          "name": "BARLEY",
+          "power": 11,
+          "trophies": 464
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JJL99YYYU",
+            "name": "furkan",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 629
+            }
+          },
+          {
+            "tag": "#PPQ8988LV",
+            "name": "0livia._.",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 414
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 406
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C8CLLU9V8",
+            "name": "chachafz",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 464
+            }
+          },
+          {
+            "tag": "#2ULU0Y0GJQ",
+            "name": "прошка бравла",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 919
+            }
+          },
+          {
+            "tag": "#2UPV0PP0VY",
+            "name": "спидран🥵🥵🥵🥵",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 7,
+              "trophies": 305
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
