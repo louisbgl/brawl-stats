@@ -20457,5 +20457,147 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260328T082318.000Z",
+    "event": {
+      "id": 15000461,
+      "mode": "duels",
+      "modeId": 24,
+      "map": "Shrouding Serpent"
+    },
+    "battle": {
+      "mode": "duels",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 44,
+      "players": [
+        {
+          "tag": "#JJ8P8URQC",
+          "name": "JOEL | Orbova",
+          "brawlers": [
+            {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 9,
+              "trophies": 243,
+              "trophyChange": 4
+            },
+            {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 9,
+              "trophies": 379,
+              "trophyChange": 4
+            },
+            {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 7,
+              "trophies": 335,
+              "trophyChange": 4
+            }
+          ]
+        },
+        {
+          "tag": "#PV28PCJVC",
+          "name": "shinizlle",
+          "brawlers": [
+            {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 8,
+              "trophies": 457,
+              "trophyChange": -2
+            },
+            {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 8,
+              "trophies": 413,
+              "trophyChange": 0
+            },
+            {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 8,
+              "trophies": 468,
+              "trophyChange": 0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260328T082424.000Z",
+    "event": {
+      "id": 15000461,
+      "mode": "duels",
+      "modeId": 24,
+      "map": "Shrouding Serpent"
+    },
+    "battle": {
+      "mode": "duels",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 44,
+      "players": [
+        {
+          "tag": "#2UQQJRJJUC",
+          "name": "deathxd",
+          "brawlers": [
+            {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 763,
+              "trophyChange": 5
+            },
+            {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 9,
+              "trophies": 510,
+              "trophyChange": 4
+            },
+            {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 7,
+              "trophies": 435,
+              "trophyChange": 4
+            }
+          ]
+        },
+        {
+          "tag": "#JJ8P8URQC",
+          "name": "JOEL | Orbova",
+          "brawlers": [
+            {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 9,
+              "trophies": 247,
+              "trophyChange": -1
+            },
+            {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 9,
+              "trophies": 383,
+              "trophyChange": -1
+            },
+            {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 7,
+              "trophies": 339,
+              "trophyChange": -1
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
