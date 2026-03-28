@@ -20386,5 +20386,76 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260328T075701.000Z",
+    "event": {
+      "id": 15000461,
+      "mode": "duels",
+      "modeId": 24,
+      "map": "Shrouding Serpent"
+    },
+    "battle": {
+      "mode": "duels",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 64,
+      "players": [
+        {
+          "tag": "#JJ8P8URQC",
+          "name": "JOEL | Orbova",
+          "brawlers": [
+            {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 9,
+              "trophies": 244,
+              "trophyChange": -1
+            },
+            {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 9,
+              "trophies": 380,
+              "trophyChange": -1
+            },
+            {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 7,
+              "trophies": 336,
+              "trophyChange": -1
+            }
+          ]
+        },
+        {
+          "tag": "#PV2U8RVPV",
+          "name": "Evan|👑",
+          "brawlers": [
+            {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 8,
+              "trophies": 407,
+              "trophyChange": 10
+            },
+            {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 8,
+              "trophies": 482,
+              "trophyChange": 0
+            },
+            {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 8,
+              "trophies": 468,
+              "trophyChange": 0
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
