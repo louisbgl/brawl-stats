@@ -17,11 +17,12 @@ class Achievement:
     date: str  # YYYY-MM-DD
     player_tag: str
     player_name: str
-    type: str  # "new_brawler", "maxed_brawler", "gadget", "star_power", "hypercharge", "prestige"
-    brawler: str  # Brawler name
+    type: str  # "new_brawler", "maxed_brawler", "gadget", "star_power", "hypercharge", "prestige", "trophy_milestone", "first_prestige_level", "total_prestiges"
+    brawler: Optional[str] = None  # Brawler name (not needed for account-level achievements)
     item_name: Optional[str] = None  # For gadgets/star powers (resolved from brawlers.json)
     item_id: Optional[int] = None  # Store the ID for reference
     prestige_level: Optional[int] = None  # For prestige achievements (1, 2, 3, ...)
+    milestone_value: Optional[int] = None  # For trophy milestones (10000, 20000, etc.) or total prestige count
 
     def to_dict(self):
         """Convert to dict for JSON serialization, excluding None values"""
@@ -100,11 +101,15 @@ class AchievementGenerator:
 
     def _create_achievement_key(self, achievement: Achievement) -> str:
         """Create a unique key for deduplication"""
-        key_parts = [achievement.player_tag, achievement.type, achievement.brawler]
+        key_parts = [achievement.player_tag, achievement.type]
+        if achievement.brawler is not None:
+            key_parts.append(achievement.brawler)
         if achievement.item_id is not None:
             key_parts.append(str(achievement.item_id))
         if achievement.prestige_level is not None:
             key_parts.append(str(achievement.prestige_level))
+        if achievement.milestone_value is not None:
+            key_parts.append(str(achievement.milestone_value))
         return "|".join(key_parts)
 
     def _add_achievement(self, achievement: Achievement) -> bool:
@@ -236,6 +241,72 @@ class AchievementGenerator:
                     if self._add_achievement(achievement):
                         new_achievements.append(achievement)
 
+            # Check for trophy milestones (every 10k)
+            prev_trophies = prev_player.get('trophies', 0)
+            curr_trophies = curr_player.get('trophies', 0)
+            prev_milestone = (prev_trophies // 10000) * 10000
+            curr_milestone = (curr_trophies // 10000) * 10000
+
+            # Award achievement for each 10k milestone crossed
+            for milestone in range(prev_milestone + 10000, curr_milestone + 10000, 10000):
+                if milestone > 0:
+                    achievement = Achievement(
+                        date=date,
+                        player_tag=tag,
+                        player_name=player_name,
+                        type="trophy_milestone",
+                        milestone_value=milestone
+                    )
+                    if self._add_achievement(achievement):
+                        new_achievements.append(achievement)
+
+            # Check for first prestige level achievements (P2, P3, P4, P5+)
+            prev_prestige_counts = {}
+            curr_prestige_counts = {}
+
+            for brawler in prev_player.get('brawlers', []):
+                prestige = self._get_prestige_level(brawler.get('trophies', 0))
+                if prestige > 0:
+                    prev_prestige_counts[prestige] = prev_prestige_counts.get(prestige, 0) + 1
+
+            for brawler in curr_player.get('brawlers', []):
+                prestige = self._get_prestige_level(brawler.get('trophies', 0))
+                if prestige > 0:
+                    curr_prestige_counts[prestige] = curr_prestige_counts.get(prestige, 0) + 1
+
+            # Check for first time reaching each prestige level (P2+)
+            for prestige_level in range(2, 8):  # Check P2 through P7
+                if curr_prestige_counts.get(prestige_level, 0) > 0 and prev_prestige_counts.get(prestige_level, 0) == 0:
+                    achievement = Achievement(
+                        date=date,
+                        player_tag=tag,
+                        player_name=player_name,
+                        type="first_prestige_level",
+                        prestige_level=prestige_level
+                    )
+                    if self._add_achievement(achievement):
+                        new_achievements.append(achievement)
+
+            # Check for total prestige milestones (every 10 prestiges)
+            prev_total_prestiges = sum(self._get_prestige_level(b.get('trophies', 0)) for b in prev_player.get('brawlers', []))
+            curr_total_prestiges = sum(self._get_prestige_level(b.get('trophies', 0)) for b in curr_player.get('brawlers', []))
+
+            prev_prestige_milestone = (prev_total_prestiges // 10) * 10
+            curr_prestige_milestone = (curr_total_prestiges // 10) * 10
+
+            # Award achievement for each 10 prestige milestone crossed
+            for milestone in range(prev_prestige_milestone + 10, curr_prestige_milestone + 10, 10):
+                if milestone > 0:
+                    achievement = Achievement(
+                        date=date,
+                        player_tag=tag,
+                        player_name=player_name,
+                        type="total_prestiges",
+                        milestone_value=milestone
+                    )
+                    if self._add_achievement(achievement):
+                        new_achievements.append(achievement)
+
         return new_achievements
 
     def load_existing_achievements(self):
@@ -254,10 +325,11 @@ class AchievementGenerator:
                 player_tag=item['player_tag'],
                 player_name=item['player_name'],
                 type=item['type'],
-                brawler=item['brawler'],
+                brawler=item.get('brawler'),
                 item_name=item.get('item_name'),
                 item_id=item.get('item_id'),
-                prestige_level=item.get('prestige_level')
+                prestige_level=item.get('prestige_level'),
+                milestone_value=item.get('milestone_value')
             )
             key = self._create_achievement_key(achievement)
             self.achievement_keys.add(key)

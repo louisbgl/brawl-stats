@@ -4,11 +4,13 @@ const DataManager = {
     latestData: null,
     historicalData: [],
     brawlersData: null,
+    achievementsData: [],
 
     async init() {
         await this.loadLatest();
         await this.loadHistorical();
         await this.loadBrawlersReference();
+        await this.loadAchievements();
     },
 
     async loadLatest() {
@@ -49,6 +51,20 @@ const DataManager = {
         const response = await fetch('data/brawlers.json');
         this.brawlersData = await response.json();
         return this.brawlersData;
+    },
+
+    async loadAchievements() {
+        try {
+            const response = await fetch('data/achievements.json');
+            if (response.ok) {
+                this.achievementsData = await response.json();
+                console.log(`Loaded ${this.achievementsData.length} achievements`);
+            }
+        } catch (error) {
+            console.warn('Could not load achievements:', error);
+            this.achievementsData = [];
+        }
+        return this.achievementsData;
     },
 
     getAllPlayers() {
