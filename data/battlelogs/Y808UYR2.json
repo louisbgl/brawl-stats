@@ -3876,5 +3876,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260329T153647.000Z",
+    "event": {
+      "id": 15000082,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Layer Cake"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 94,
+      "starPlayer": {
+        "tag": "#GQUGJYVLJ",
+        "name": "Josojanci123",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 1007
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#289LV0JVRQ",
+            "name": "rakushechkka+",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1343
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 556
+            }
+          },
+          {
+            "tag": "#VJC98G9GR",
+            "name": "we1 | Drakon",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 10,
+              "trophies": 571
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UP0P08LJL",
+            "name": "stergosaurus",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#Q2YJGLQLG",
+            "name": "☠️çınar👻",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 9,
+              "trophies": 341
+            }
+          },
+          {
+            "tag": "#GQUGJYVLJ",
+            "name": "Josojanci123",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1007
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260329T153952.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 123,
+      "starPlayer": {
+        "tag": "#L90C9GJQ2",
+        "name": "Alcazar",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 508
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 505
+            }
+          },
+          {
+            "tag": "#R8PQUPVYU",
+            "name": "Buldak229",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 9,
+              "trophies": 545
+            }
+          },
+          {
+            "tag": "#GRQG9002",
+            "name": "Petar",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 500
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L90C9GJQ2",
+            "name": "Alcazar",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 508
+            }
+          },
+          {
+            "tag": "#V0LCR8282",
+            "name": "𝓂𝓂𝓃𝒾𝓈𝒽𝓀❦",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 436
+            }
+          },
+          {
+            "tag": "#9Y89VVJJU",
+            "name": "⛩️|Rzm64🥀",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
