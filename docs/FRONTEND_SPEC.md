@@ -1,8 +1,19 @@
 # Frontend Feature Specification
 
-## Current Implementation Status (2026-03-26)
+## Current Implementation Status (2026-03-29)
 
-The dashboard is fully functional with 3 main tabs. Tabs 1 & 2 are feature-complete with all planned battlelog enhancements implemented. This spec now tracks both **completed features** (✅) and **planned features** (🔜).
+The dashboard is fully functional with 3 main tabs. **Tabs 1, 2, and 3 are now feature-complete** with all planned enhancements implemented, including battlelog integration. This spec now tracks both **completed features** (✅) and **planned features** (🔜).
+
+---
+
+## Tab Overview
+
+1. **Club Overview** ✅ - Trophy timeline, quick stats, club leaderboards
+2. **Player Stats** ✅ - Detailed individual analysis with battlelog integration
+3. **Timelines** ✅ - Historical progression charts with enhanced battlelog views
+4. **Achievements** 🔜 - Milestone tracking (new brawlers, prestiges, maxed brawlers, items)
+5. **Battles** 🔜 - Battle feed, map performance, head-to-head, streaks
+6. **Meta Analysis** 🔜 - Brawler matchups, time-based performance, synergy matrix
 
 ---
 
@@ -15,22 +26,15 @@ The dashboard is fully functional with 3 main tabs. Tabs 1 & 2 are feature-compl
   - Combined Trophies
   - Average Trophies
   - Prestige Brawlers (1000+ trophy brawlers across all players)
-
-### 🔜 Planned (Future Enhancements)
-
-**Enhanced Quick Stats Grid** (requires battlelog data):
-Add 4 new stats to existing grid:
-- **Total Battles Tracked** - Sum of all battles from battlelog data
-- **Club Avg Win Rate** - Overall win % across all members
-- **Most Active (7d)** - Player with most games in last 7 days
-- **Best Win Rate (7d)** - Player with highest WR (min 10 games to qualify)
-
-**NEW: Club Leaderboards Card** (requires battlelog data):
-Mini competitive rankings:
-- **Grind King** - Most total battles played all-time
-- **Tryhard** - Highest % of games in ranked mode
-- **Star Player** - Most MVP awards total
-- **Hot Streak** - Longest current win streak
+  - Total Battles Tracked (sum of all battles from battlelog data)
+  - Club Avg Win Rate (overall win % across all members)
+  - Most Active (7d) (player with most games in last 7 days)
+  - Best Win Rate (7d) (player with highest WR, min 10 games to qualify)
+- **Club Leaderboards Card**:
+  - Grind King - Most total battles played all-time
+  - Tryhard - Highest % of games in ranked mode
+  - Star Player - Most MVP awards total
+  - Hot Streak - Longest current win streak
 
 ---
 
@@ -145,35 +149,82 @@ No additional features planned for Tab 2 - feature complete!
 **Prestige Brawlers Timeline**:
 - Count of brawlers with 1000+ trophies per player
 
-### 🔜 Planned (Battlelog Data - Phase 3)
-
-**Enhanced Trophy Timeline**:
-- Add view toggle: **[Daily Snapshots] [All Battles]**
-- Daily Snapshots mode: Original view (one point per day)
-- All Battles mode: Every single battle plotted as individual points
-- Tooltip on battles: "Mar 25, 3:42 PM: Brawl Ball win with Colt (+8)"
-- Reveals grind sessions, win streaks, tilt sessions in real-time
-
-**NEW: Activity Timeline Chart** (insert after Prestige):
+**Activity Timeline Chart**:
 - Games played per day (bar or area chart)
 - Shows activity spikes and patterns
 - Reveals who grinds on weekends vs daily players
 - Filter: Last 7 days / Last 30 days / All time
 
+**Enhanced Trophy Timeline**:
+- View toggle: **[Daily Snapshots] [All Battles]**
+- Daily Snapshots mode: Original view (one point per day)
+- All Battles mode: Every single battle plotted as individual points
+- Tooltip on battles: "Mar 25, 3:42 PM: Brawl Ball win with Colt (+8)"
+- Reveals grind sessions, win streaks, tilt sessions in real-time
+
 **Enhanced Gamemode Wins Timeline**:
-- Add dual-axis chart: wins (left Y-axis) + win rate % (right Y-axis)
+- Dual-axis chart: wins (left Y-axis) + win rate % (right Y-axis)
 - Toggle: "Show win rate overlay" (adds dotted line showing WR trending)
 
-**NEW: Mode Popularity Timeline:**
+**Mode Popularity Timeline:**
 - Stacked area chart showing % distribution of modes over time
 - Reveals if club preferences shift (e.g., casual → ranked)
 - Shows which modes become more/less popular
 
 ---
 
-## Tab 4: Battles (New Tab - Deep Dive)
+## Tab 4: Achievements (Milestone Tracking)
 
-### 🔜 Planned (Battlelog Data)
+### 🔜 Planned
+
+**Achievement Feed Card**:
+- Reverse chronological timeline of all player milestones
+- Grouped by day with date headers ("Today", "Yesterday", "March 27, 2026")
+- Each entry shows: Player name, achievement type icon, description, relative time
+- Clean card-based layout with color-coded badges
+
+**Achievement Types**:
+- **New Brawler Unlocked** - When player unlocks a new brawler
+- **Brawler Maxed Out** - When brawler reaches P11 + 2 gadgets + 2 star powers + hypercharge
+- **Gadget Unlocked** - Specific gadget for specific brawler
+- **Star Power Unlocked** - Specific star power for specific brawler
+- **Hypercharge Unlocked** - Hypercharge for specific brawler
+- **Prestige Milestone** - Each 1000 trophy milestone on a brawler (Prestige 1, 2, 3, 4, 5, 6, 7...)
+
+**Filters**:
+- **Player Filter**: Dropdown to show specific player(s) or "All Players"
+- **Achievement Type Filter**: Multi-select checkboxes for each achievement type
+- **Date Range**: Last 7 days / Last 30 days / All time / Custom range
+
+**Stats Summary Card**:
+- Total achievements earned (all players)
+- Achievements this week
+- Most active player (most achievements)
+- Latest achievement
+
+**Data Storage**:
+- File: `data/achievements.json`
+- Format: Array of achievement objects with `date`, `player_tag`, `player_name`, `type`, `brawler`, `item_name` (for gadgets/SPs), `prestige_level` (for prestiges)
+- Generated via Python script that compares consecutive daily snapshots
+- Runs automatically on every commit to main via GitHub Actions workflow
+- Historical backfill: Scan all snapshots from 2026-03-14 to present on first run
+- Once recorded, achievements are permanent (even if theoretically "lost" later)
+
+**Implementation Details**:
+- New script: `generate_achievements.py`
+- Compares snapshot day N with day N-1 to detect changes
+- Detection logic:
+  - New brawler: New ID appears in player's brawlers array
+  - Maxed brawler: Brawler reaches P11 AND has 2 gadgets + 2 star powers + hypercharge
+  - Gadget/SP/HC: New ID appears in respective item arrays
+  - Prestige: Brawler crosses 1000, 2000, 3000... trophy thresholds (each is separate achievement)
+- Deduplication: Track already-awarded achievements to prevent re-awarding
+
+---
+
+## Tab 5: Battles (Deep Dive)
+
+### 🔜 Planned
 
 **Recent Battles Feed Card**:
 - Scrollable list of last 100 battles across all tracked players
@@ -204,9 +255,9 @@ No additional features planned for Tab 2 - feature complete!
 - **Best Streaks (All-Time)**: Longest win streak & loss streak per player
 - **Momentum Indicator**: Win rate last 5 games vs last 20 games (trending up/down)
 
-## Tab 5: Meta Analysis (New Tab - Advanced Analytics)
+## Tab 6: Meta Analysis (Advanced Analytics)
 
-### 🔜 Planned (Battlelog Data)
+### 🔜 Planned
 
 **Brawler Meta Analysis Card**:
 - **Most Faced Enemy Brawlers**: Which brawlers you encounter most often
@@ -283,54 +334,54 @@ Only shows pairs that have played together (min 5 games)
 
 ---
 
-## Implementation Phases
+## Feature Status by Tab
 
-### ✅ Phase 1: Core Dashboard (COMPLETE)
-1. Tab-based navigation system (3 tabs)
-2. Club overview with trophy timeline
-3. Individual player detailed stats view
-4. Per-brawler breakdown table (item tracking)
-5. All 5 timeline charts (trophy, wins, collection, maxed, prestige)
-6. Power & prestige distribution charts
-7. Account worth calculator with progression tracking
-8. Trophy progression with trend indicators (1d/7d/30d)
+### ✅ Tab 1: Club Overview (COMPLETE)
+- Trophy Timeline Chart
+- Quick Stats Grid (8 stats including battlelog metrics)
+- Club Leaderboards Card (Grind King, Tryhard, Star Player, Hot Streak)
 
-### ✅ Phase 2: Tab 2 Battlelog Integration (COMPLETE)
-1. Hybrid trophy progression chart (snapshots + battlelog granularity)
-2. Battle Performance card (WR analysis + star player stats)
-3. Brawler Performance Rankings card (top 5 lists)
-4. Game Mode Distribution pie chart
-5. Brawler Battle Stats table (separate from item-tracking table)
-6. Teammate Chemistry card (filtered to club members only)
-7. Activity Heatmap chart (7×24 grid)
-8. Smart x-axis switching (time-based for short ranges, date-based for long ranges)
-9. Working filters on all tables and charts
+### ✅ Tab 2: Player Stats (COMPLETE)
+- Overview stats (trophies, brawlers owned, maxed count)
+- Hybrid Trophy Progression Chart (snapshots + battlelog)
+- Gamemode wins breakdown
+- Prestige & Power distribution charts
+- Account worth & progression tracker
+- Brawler details table (item tracking)
+- Battle Performance card (WR, MVP stats, recent form)
+- Brawler Performance Rankings (top 5 lists)
+- Game Mode Distribution pie chart
+- Brawler Battle Stats table
+- Teammate Chemistry card
+- Activity Heatmap (7×24 grid)
 
-### 🔜 Phase 3: Tab 3 Enhancements (CURRENT - NEXT UP)
-**Timelines Tab:**
-1. Activity Timeline chart (games per day with date range filter)
-2. Enhanced Trophy Timeline with view toggle (daily snapshots vs all battles)
-3. Enhanced Gamemode Wins Timeline (dual-axis with WR overlay toggle)
-4. Mode Popularity Timeline (stacked area chart showing mode distribution)
+### ✅ Tab 3: Timelines (COMPLETE)
+- Trophy Timeline (with brawler filter + view toggle for daily/battle mode)
+- Gamemode Wins Timeline (with dual-axis WR overlay)
+- Brawler Collection Timeline
+- Maxed Brawlers Timeline
+- Prestige Brawlers Timeline
+- Activity Timeline (games per day)
+- Mode Popularity Timeline (stacked area chart)
 
-### 🔜 Phase 4: Tab 1 Enhancements
-**Club Overview:**
-1. Enhanced quick stats (4 new stats: battles tracked, avg WR, most active, best WR)
-2. Club Leaderboards card (Grind King, Tryhard, Star Player, Hot Streak)
+### 🔜 Tab 4: Achievements (TO DO - NEXT UP)
+- Achievement Feed (reverse chronological, grouped by day)
+- Stats Summary Card
+- Filters (player, type, date range)
+- Achievement types: New brawlers, maxed brawlers, gadgets, star powers, hypercharges, prestiges
+- Backend: `generate_achievements.py` script + GitHub Actions workflow
 
-### 🔜 Phase 5: New Tab - Battles Deep Dive
-**New Tab 4 - Battles:**
-1. Recent Battles Feed (filterable list)
-2. Map Performance table
-3. Head-to-Head Comparison
-4. Streak Tracker
+### 🔜 Tab 5: Battles (TO DO)
+- Recent Battles Feed (filterable list of last 100 battles)
+- Map Performance Table
+- Head-to-Head Comparison
+- Streak Tracker
 
-### 🔜 Phase 6: New Tab - Meta Analysis
-**New Tab 5 - Meta Analysis:**
-1. Brawler Meta Analysis (most faced, hardest matchups, best counters)
-2. Performance by Time (time of day, day of week, tilt detector)
-3. Trophy Efficiency (trophies/hour, best sessions, worst tilts)
-4. Teammate Synergy Matrix (full grid of duo combinations)
+### 🔜 Tab 6: Meta Analysis (TO DO)
+- Brawler Meta Analysis (most faced, hardest matchups, best counters)
+- Performance by Time (time of day, day of week, tilt detector)
+- Trophy Efficiency (trophies/hour, best/worst sessions)
+- Teammate Synergy Matrix (full grid)
 
 ---
 
