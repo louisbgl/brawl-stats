@@ -385,6 +385,14 @@ Only shows pairs that have played together (min 5 games)
 
 ---
 
+## Development Philosophy
+
+**AI-Generated Frontend**: The entire frontend is written by AI and is not manually reviewed or edited. As such:
+- No design decision is permanent
+- Code can be freely refactored for better modularity and readability
+- Iterative improvements are encouraged
+- Prioritize clean, maintainable code over preserving existing structure
+
 ## UI/UX Principles
 
 - **Purple gradient theme**: Maintained throughout
