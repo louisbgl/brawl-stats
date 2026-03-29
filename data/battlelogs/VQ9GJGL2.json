@@ -4957,5 +4957,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260329T093010.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 80,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 11,
+          "trophies": 1605
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QJ9L0002R",
+            "name": "imparator eymen",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2CR02QLQC8",
+            "name": "MICO COOLt",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 341
+            }
+          },
+          {
+            "tag": "#2ULYLC8VG0",
+            "name": "שירה 67",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 6,
+              "trophies": 186
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QLRVC9RVJ",
+            "name": "İMP|ALPER🇹🇷",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 433
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 407
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1605
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
