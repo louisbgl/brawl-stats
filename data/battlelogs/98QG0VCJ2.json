@@ -22384,5 +22384,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260329T145823.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#LJCCURVRU",
+        "name": "I SEE YOU",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 1091
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9LJQJ0QG2",
+            "name": "Egor pro",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1080
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#LJCCURVRU",
+            "name": "I SEE YOU",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1091
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#80GUQLCLU",
+            "name": "DavkaVolt",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 368
+            }
+          },
+          {
+            "tag": "#P2U9YUJY9",
+            "name": "rTmmg",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1267
+            }
+          },
+          {
+            "tag": "#2RL9CJRCG",
+            "name": "Ｄａｄｏ__ッ",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 833
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
