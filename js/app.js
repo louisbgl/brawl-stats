@@ -54,6 +54,11 @@ function setupTabs() {
             tab.classList.add('active');
             const targetTab = tab.dataset.tab;
             document.getElementById(targetTab).classList.add('active');
+
+            // Initialize achievements tab when clicked
+            if (targetTab === 'achievements') {
+                AchievementsManager.init();
+            }
         });
     });
 }
