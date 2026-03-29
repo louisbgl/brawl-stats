@@ -1,0 +1,53 @@
+name: Generate Achievements
+
+on:
+  # Run on every push to main branch
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/????-??-??.json'  # Only when snapshot files change
+      - 'generate_achievements.py'  # Or when the script itself changes
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allow pushing commits
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch full history for all snapshots
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Generate achievements
+        run: uv run python generate_achievements.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/achievements.json
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update achievements: $(TZ='Europe/Paris' date +'%Y-%m-%d')"
+            git push || (git pull --rebase origin main && git push)
+          fi
