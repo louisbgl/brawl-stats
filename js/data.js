@@ -5,12 +5,65 @@ const DataManager = {
     historicalData: [],
     brawlersData: null,
     achievementsData: [],
+    loadingPromises: {
+        historical: null,
+        achievements: null
+    },
 
+    // Legacy init for backwards compatibility - now only loads critical data
     async init() {
         await this.loadLatest();
-        await this.loadHistorical();
         await this.loadBrawlersReference();
-        await this.loadAchievements();
+        // Historical and achievements loaded in background
+    },
+
+    // Load critical data needed for first render
+    async initCritical() {
+        await this.loadLatest();
+        await this.loadBrawlersReference();
+    },
+
+    // Load non-critical data in background
+    initBackground() {
+        // Start loading but don't await - let it happen in background
+        this.loadingPromises.historical = this.loadHistorical();
+        this.loadingPromises.achievements = this.loadAchievements();
+    },
+
+    // Ensure historical data is loaded (for timelines tab)
+    async ensureHistoricalLoaded() {
+        // If already loaded, return immediately
+        if (this.historicalData.length > 0) {
+            return this.historicalData;
+        }
+
+        // If background loading started, wait for it
+        if (this.loadingPromises.historical) {
+            await this.loadingPromises.historical;
+        } else {
+            // Background loading never started, load now
+            await this.loadHistorical();
+        }
+
+        return this.historicalData;
+    },
+
+    // Ensure achievements data is loaded (for achievements tab)
+    async ensureAchievementsLoaded() {
+        // If already loaded, return immediately
+        if (this.achievementsData.length > 0) {
+            return this.achievementsData;
+        }
+
+        // If background loading started, wait for it
+        if (this.loadingPromises.achievements) {
+            await this.loadingPromises.achievements;
+        } else {
+            // Background loading never started, load now
+            await this.loadAchievements();
+        }
+
+        return this.achievementsData;
     },
 
     async loadLatest() {
@@ -44,7 +97,6 @@ const DataManager = {
         }
 
         this.historicalData.sort((a, b) => new Date(a.date) - new Date(b.date));
-        console.log(`Loaded ${this.historicalData.length} historical snapshots`);
     },
 
     async loadBrawlersReference() {
@@ -58,7 +110,6 @@ const DataManager = {
             const response = await fetch('data/achievements.json');
             if (response.ok) {
                 this.achievementsData = await response.json();
-                console.log(`Loaded ${this.achievementsData.length} achievements`);
             }
         } catch (error) {
             console.warn('Could not load achievements:', error);

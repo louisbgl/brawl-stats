@@ -164,7 +164,7 @@ const ChartsManager = {
                 // Check solo modes (showdown)
                 if (!playerBrawler && battle.battle.players) {
                     const playerInBattle = battle.battle.players.find(p => p.tag === player.tag);
-                    if (playerInBattle) {
+                    if (playerInBattle && playerInBattle.brawler) {
                         playerBrawler = playerInBattle.brawler.name;
                     }
                 }
