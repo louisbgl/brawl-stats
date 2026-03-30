@@ -1,4 +1,5 @@
 // Player Charts module - handles Chart.js visualizations for individual players
+// Refactored to use shared helpers from helpers.js and constants from config.js
 
 const PlayerChartsManager = {
     prestigeChart: null,
@@ -16,18 +17,7 @@ const PlayerChartsManager = {
         const labels = prestigeLevels.map(p => `Prestige ${p}`);
         const data = prestigeLevels.map(p => prestigeStats[p]);
 
-        const colors = {
-            0: '#e8eaed',  // white
-            1: '#9d4edd',  // purple
-            2: '#ef476f',  // red
-            3: '#ffd60a',  // yellow
-            4: '#ff9f1c',  // orange
-            5: '#06d6a0',  // green
-            6: '#4a9eff',  // blue
-            7: '#118ab2'   // teal
-        };
-
-        const backgroundColors = prestigeLevels.map(p => colors[p] || colors[0]);
+        const backgroundColors = prestigeLevels.map(p => GameConstants.PRESTIGE_COLORS[p] || GameConstants.PRESTIGE_COLORS[0]);
 
         const ctx = document.getElementById('playerPrestigeChart').getContext('2d');
         this.prestigeChart = new Chart(ctx, {
@@ -40,48 +30,13 @@ const PlayerChartsManager = {
                     backgroundColor: backgroundColors
                 }]
             },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
+            options: ChartHelpers.getCommonBarOptions('Number of Brawlers', {
                 scales: {
-                    y: {
-                        beginAtZero: true,
-                        ticks: {
-                            stepSize: 1,
-                            color: '#9ba3af'
-                        },
-                        grid: {
-                            color: '#3a4556'
-                        },
-                        title: {
-                            display: true,
-                            text: 'Number of Brawlers',
-                            color: '#e8eaed'
-                        }
-                    },
                     x: {
-                        ticks: {
-                            color: '#9ba3af'
-                        },
-                        grid: {
-                            display: false
-                        },
                         title: {
                             display: true,
                             text: 'Prestige Level',
                             color: '#e8eaed'
-                        }
-                    }
-                },
-                plugins: {
-                    legend: {
-                        display: false
-                    },
-                    tooltip: {
-                        backgroundColor: 'rgba(0, 0, 0, 0.9)',
-                        itemSort: (a, b) => b.parsed.y - a.parsed.y,
-                        callbacks: {
-                            label: context => `${context.parsed.y} brawler${context.parsed.y !== 1 ? 's' : ''}`
                         }
                     }
                 },
@@ -90,27 +45,8 @@ const PlayerChartsManager = {
                         top: 25
                     }
                 },
-                animation: {
-                    onComplete: function() {
-                        const chartInstance = this;
-                        const ctx = chartInstance.ctx;
-                        ctx.font = '12px sans-serif';
-                        ctx.fillStyle = '#e8eaed';
-                        ctx.textAlign = 'center';
-                        ctx.textBaseline = 'bottom';
-
-                        this.data.datasets.forEach((dataset, i) => {
-                            const meta = chartInstance.getDatasetMeta(i);
-                            meta.data.forEach((bar, index) => {
-                                const data = dataset.data[index];
-                                if (data > 0) {
-                                    ctx.fillText(data, bar.x, bar.y - 5);
-                                }
-                            });
-                        });
-                    }
-                }
-            }
+                animation: ChartHelpers.createBarWithLabelsAnimation()
+            })
         });
     },
 
@@ -137,48 +73,13 @@ const PlayerChartsManager = {
                     backgroundColor: '#4a9eff'
                 }]
             },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
+            options: ChartHelpers.getCommonBarOptions('Number of Brawlers', {
                 scales: {
-                    y: {
-                        beginAtZero: true,
-                        ticks: {
-                            stepSize: 1,
-                            color: '#9ba3af'
-                        },
-                        grid: {
-                            color: '#3a4556'
-                        },
-                        title: {
-                            display: true,
-                            text: 'Number of Brawlers',
-                            color: '#e8eaed'
-                        }
-                    },
                     x: {
-                        ticks: {
-                            color: '#9ba3af'
-                        },
-                        grid: {
-                            display: false
-                        },
                         title: {
                             display: true,
                             text: 'Power Level',
                             color: '#e8eaed'
-                        }
-                    }
-                },
-                plugins: {
-                    legend: {
-                        display: false
-                    },
-                    tooltip: {
-                        backgroundColor: 'rgba(0, 0, 0, 0.9)',
-                        itemSort: (a, b) => b.parsed.y - a.parsed.y,
-                        callbacks: {
-                            label: context => `${context.parsed.y} brawler${context.parsed.y !== 1 ? 's' : ''}`
                         }
                     }
                 },
@@ -187,27 +88,8 @@ const PlayerChartsManager = {
                         top: 25
                     }
                 },
-                animation: {
-                    onComplete: function() {
-                        const chartInstance = this;
-                        const ctx = chartInstance.ctx;
-                        ctx.font = '12px sans-serif';
-                        ctx.fillStyle = '#e8eaed';
-                        ctx.textAlign = 'center';
-                        ctx.textBaseline = 'bottom';
-
-                        this.data.datasets.forEach((dataset, i) => {
-                            const meta = chartInstance.getDatasetMeta(i);
-                            meta.data.forEach((bar, index) => {
-                                const data = dataset.data[index];
-                                if (data > 0) {
-                                    ctx.fillText(data, bar.x, bar.y - 5);
-                                }
-                            });
-                        });
-                    }
-                }
-            }
+                animation: ChartHelpers.createBarWithLabelsAnimation()
+            })
         });
     },
 
@@ -221,7 +103,6 @@ const PlayerChartsManager = {
         }
 
         const snapshotDates = trophyTimeline.snapshotDates;
-
 
         // Use linear axis with proper time-based positioning
         const dataPoints = [];
@@ -466,7 +347,7 @@ const PlayerChartsManager = {
         const modeCounts = {};
 
         battles.forEach(b => {
-            const mode = b.event.mode;
+            const mode = BattlelogHelpers.getBattleMode(b);
             modeCounts[mode] = (modeCounts[mode] || 0) + 1;
         });
 
@@ -475,10 +356,6 @@ const PlayerChartsManager = {
 
         const labels = modeData.map(([mode]) => mode);
         const data = modeData.map(([, count]) => count);
-        const colors = [
-            '#4a9eff', '#9d4edd', '#06d6a0', '#ff9f1c',
-            '#ef476f', '#118ab2', '#ffd60a', '#06ffa5'
-        ];
 
         const canvas = document.getElementById('playerModeChart');
         if (!canvas) return;
@@ -490,7 +367,7 @@ const PlayerChartsManager = {
                 labels: labels,
                 datasets: [{
                     data: data,
-                    backgroundColor: colors.slice(0, labels.length),
+                    backgroundColor: GameConstants.COLOR_PALETTE.slice(0, labels.length),
                     borderWidth: 2,
                     borderColor: '#252d3d'
                 }]

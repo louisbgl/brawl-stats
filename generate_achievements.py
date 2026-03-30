@@ -362,7 +362,9 @@ class AchievementGenerator:
             if not prev_snapshot or not curr_snapshot:
                 continue
 
-            new_achievements = self.compare_snapshots(curr_date, prev_snapshot, curr_snapshot)
+            # Use prev_date because achievements happened between prev and curr snapshots
+            # E.g., if something appears in March 30 snapshot but not March 29, it happened on March 29
+            new_achievements = self.compare_snapshots(prev_date, prev_snapshot, curr_snapshot)
             new_count += len(new_achievements)
 
             if new_achievements:

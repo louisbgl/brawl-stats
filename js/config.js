@@ -1,11 +1,105 @@
 // Configuration constants and utility functions for the frontend
 
-const Config = {
+// ============================================================================
+// GAME CONSTANTS - Brawl Stars game mechanics and costs
+// ============================================================================
+
+const GameConstants = {
     // Brawlers that currently have buffies available
     BUFFIED_BRAWLERS: [
         "NITA", "CROW", "BULL", "BO", "BIBI", "LEON",
         "SHELLY", "COLT", "SPIKE", "EMZ", "FRANK", "MORTIS"
-    ]
+    ],
+
+    // Power point costs to upgrade each level
+    POWER_POINT_COSTS: {
+        1: 0,
+        2: 20,
+        3: 30,
+        4: 50,
+        5: 80,
+        6: 130,
+        7: 210,
+        8: 340,
+        9: 550,
+        10: 890,
+        11: 1440
+    },
+
+    // Coin costs to upgrade each level
+    COIN_COSTS: {
+        1: 0,
+        2: 20,
+        3: 35,
+        4: 75,
+        5: 140,
+        6: 290,
+        7: 480,
+        8: 800,
+        9: 1250,
+        10: 1875,
+        11: 2800
+    },
+
+    // Item costs in coins
+    ITEM_COSTS: {
+        GADGET: 1000,
+        STAR_POWER: 2000,
+        HYPERCHARGE: 5000
+    },
+
+    // Trophy threshold for prestige levels
+    PRESTIGE_THRESHOLD: 1000,
+
+    // Criteria for a "maxed" brawler
+    MAXED_CRITERIA: {
+        power: 11,
+        gadgets: 2,
+        starPowers: 2,
+        hypercharges: 1
+    },
+
+    // Color palette for charts (shared across all visualizations)
+    COLOR_PALETTE: [
+        '#4a9eff', // Blue
+        '#9d4edd', // Purple
+        '#06d6a0', // Green
+        '#ff9f1c', // Orange
+        '#ef476f', // Red
+        '#118ab2', // Teal
+        '#ffd60a'  // Yellow
+    ],
+
+    // Prestige level colors for prestige chart
+    PRESTIGE_COLORS: {
+        0: '#e8eaed',  // White (0-999)
+        1: '#9d4edd',  // Purple (1000-1999)
+        2: '#ef476f',  // Red (2000-2999)
+        3: '#ffd60a',  // Yellow (3000-3999)
+        4: '#ff9f1c',  // Orange (4000-4999)
+        5: '#06d6a0',  // Green (5000-5999)
+        6: '#4a9eff',  // Blue (6000-6999)
+        7: '#118ab2'   // Teal (7000+)
+    },
+
+    // Game mode colors for mode popularity charts
+    MODE_COLORS: {
+        'gemGrab': '#06d6a0',
+        'brawlBall': '#4a9eff',
+        'bounty': '#ff9f1c',
+        'heist': '#ef476f',
+        'hotZone': '#9d4edd',
+        'knockout': '#118ab2',
+        'showdown': '#ffd60a',
+        'duoShowdown': '#ffb703',
+        'soloShowdown': '#ffd60a',
+        'wipeout': '#e63946'
+    }
+};
+
+// Legacy export for backwards compatibility
+const Config = {
+    BUFFIED_BRAWLERS: GameConstants.BUFFIED_BRAWLERS
 };
 
 // Utility functions
@@ -41,6 +135,78 @@ const Utils = {
         } catch (error) {
             console.warn('Failed to parse battleTime:', battleTime, error);
             return null;
+        }
+    },
+
+    /**
+     * Get today's date in YYYY-MM-DD format (local timezone)
+     * @returns {string} - Today's date string
+     */
+    getTodayDateString() {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const day = String(now.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}`;
+    },
+
+    /**
+     * Get yesterday's date in YYYY-MM-DD format (local timezone)
+     * @returns {string} - Yesterday's date string
+     */
+    getYesterdayDateString() {
+        const yesterday = new Date();
+        yesterday.setDate(yesterday.getDate() - 1);
+        const year = yesterday.getFullYear();
+        const month = String(yesterday.getMonth() + 1).padStart(2, '0');
+        const day = String(yesterday.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}`;
+    },
+
+    /**
+     * Format a YYYY-MM-DD date string for display
+     * Shows "Today", "Yesterday", or full date
+     * @param {string} dateStr - Date in YYYY-MM-DD format
+     * @returns {string} - Formatted date string
+     */
+    formatDateHeader(dateStr) {
+        const todayStr = this.getTodayDateString();
+        const yesterdayStr = this.getYesterdayDateString();
+
+        if (dateStr === todayStr) {
+            return 'Today';
+        } else if (dateStr === yesterdayStr) {
+            return 'Yesterday';
+        } else {
+            // Parse for display (use noon to avoid timezone edge cases)
+            const date = new Date(dateStr + 'T12:00:00');
+            return date.toLocaleDateString('en-US', {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+        }
+    },
+
+    /**
+     * Format a YYYY-MM-DD date string for day labels (used in battles tab)
+     * @param {string} dateStr - Date in YYYY-MM-DD format
+     * @returns {string} - Formatted day label
+     */
+    formatDayLabel(dateStr) {
+        const todayStr = this.getTodayDateString();
+        const yesterdayStr = this.getYesterdayDateString();
+
+        if (dateStr === todayStr) {
+            return 'Today';
+        } else if (dateStr === yesterdayStr) {
+            return 'Yesterday';
+        } else {
+            const date = new Date(dateStr + 'T12:00:00');
+            const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            return `${days[date.getDay()]}, ${months[date.getMonth()]} ${date.getDate()}`;
         }
     }
 };

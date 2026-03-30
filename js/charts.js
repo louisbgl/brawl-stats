@@ -1,11 +1,8 @@
 // Charts module - handles all Chart.js visualizations
+// Refactored to use shared helpers from helpers.js and constants from config.js
 
 const ChartsManager = {
     charts: {},
-    colors: [
-        '#4a9eff', '#9d4edd', '#06d6a0', '#ff9f1c',
-        '#ef476f', '#118ab2', '#ffd60a'
-    ],
 
     createTrophyTimeline() {
         if (DataManager.historicalData.length === 0) return;
@@ -19,16 +16,11 @@ const ChartsManager = {
                 return p ? p.trophies : null;
             });
 
-            return {
-                label: player.name,
-                data: trophyData,
-                borderColor: this.colors[idx % this.colors.length],
-                backgroundColor: this.colors[idx % this.colors.length] + '20',
-                borderWidth: 2,
-                tension: 0.3,
-                pointRadius: 4,
-                pointHoverRadius: 6
-            };
+            return ChartHelpers.createLineDataset(
+                player.name,
+                trophyData,
+                GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
+            );
         });
 
         const ctx = document.getElementById('trophyChart')?.getContext('2d');
@@ -36,7 +28,7 @@ const ChartsManager = {
             this.charts.trophy = new Chart(ctx, {
                 type: 'line',
                 data: { labels: dates, datasets },
-                options: this.getCommonLineOptions('Trophies')
+                options: ChartHelpers.getCommonLineOptions('Trophies')
             });
         }
     },
@@ -63,27 +55,23 @@ const ChartsManager = {
                         return p ? p.trophies : null;
                     });
 
-                    return {
-                        label: player.name,
-                        data: trophyData,
-                        borderColor: this.colors[idx % this.colors.length],
-                        backgroundColor: this.colors[idx % this.colors.length] + '20',
-                        borderWidth: 2,
-                        tension: 0.3,
-                        pointRadius: 4,
-                        pointHoverRadius: 6
-                    };
+                    return ChartHelpers.createLineDataset(
+                        player.name,
+                        trophyData,
+                        GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
+                    );
                 });
 
                 const ctx = canvas.getContext('2d');
                 this.charts.trophyTimeline = new Chart(ctx, {
                     type: 'line',
                     data: { labels: dates, datasets },
-                    options: this.getCommonLineOptions('Trophies')
+                    options: ChartHelpers.getCommonLineOptions('Trophies')
                 });
                 return;
             }
 
+            // Show brawler-specific trophies
             const datasets = players.map((player, idx) => {
                 const trophyData = DataManager.historicalData.map(snapshot => {
                     const p = DataManager.findPlayerInSnapshot(snapshot, player.tag);
@@ -94,17 +82,12 @@ const ChartsManager = {
 
                 // Only include if player has this brawler
                 if (trophyData.some(t => t !== null)) {
-                    return {
-                        label: player.name,
-                        data: trophyData,
-                        borderColor: this.colors[idx % this.colors.length],
-                        backgroundColor: this.colors[idx % this.colors.length] + '20',
-                        borderWidth: 2,
-                        tension: 0.3,
-                        pointRadius: 4,
-                        pointHoverRadius: 6,
-                        spanGaps: true
-                    };
+                    return ChartHelpers.createLineDataset(
+                        player.name,
+                        trophyData,
+                        GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length],
+                        { spanGaps: true }
+                    );
                 }
                 return null;
             }).filter(d => d !== null);
@@ -113,91 +96,32 @@ const ChartsManager = {
             this.charts.trophyTimeline = new Chart(ctx, {
                 type: 'line',
                 data: { labels: dates, datasets },
-                options: this.getCommonLineOptions(`${brawlerName} Trophies`)
+                options: ChartHelpers.getCommonLineOptions(`${brawlerName} Trophies`)
             });
             return;
         }
 
-        // All battles view
+        // All battles view - use helper to construct timeline
         if (!BattlelogDataManager.isLoaded) return;
 
         const playerBattleData = {};
 
         players.forEach(player => {
             const battles = BattlelogDataManager.getBattlesForPlayer(player.tag);
-            playerBattleData[player.tag] = [];
+            const timeline = BattlelogHelpers.constructTrophyTimeline(
+                player.tag,
+                DataManager.historicalData,
+                battles,
+                brawlerName
+            );
 
-            // Get current trophy count for this player (or brawler if filtered)
-            let currentTrophies;
-            if (brawlerName) {
-                const brawler = player.brawlers.find(b => b.name === brawlerName);
-                currentTrophies = brawler ? brawler.trophies : 0;
-                if (!currentTrophies) return; // Player doesn't have this brawler
-            } else {
-                currentTrophies = player.trophies;
+            if (timeline.dates.length > 0) {
+                playerBattleData[player.tag] = timeline.dates.map((dateStr, i) => ({
+                    timestamp: new Date(dateStr).getTime(),
+                    trophies: timeline.trophies[i],
+                    source: timeline.sources[i]
+                }));
             }
-
-            // Create a copy and sort oldest to newest by parsing dates
-            const sortedBattles = [...battles].sort((a, b) => {
-                const dateA = Utils.parseBattleTime(a.battleTime);
-                const dateB = Utils.parseBattleTime(b.battleTime);
-                return dateA - dateB;
-            });
-
-            // Filter by brawler if specified - need to extract player's brawler from battle
-            const relevantBattles = [];
-            sortedBattles.forEach(battle => {
-                // Find which brawler this player used in this battle
-                let playerBrawler = null;
-
-                // Check team modes
-                if (battle.battle.teams) {
-                    for (const team of battle.battle.teams) {
-                        const playerInTeam = team.find(p => p.tag === player.tag);
-                        if (playerInTeam) {
-                            playerBrawler = playerInTeam.brawler.name;
-                            break;
-                        }
-                    }
-                }
-
-                // Check solo modes (showdown)
-                if (!playerBrawler && battle.battle.players) {
-                    const playerInBattle = battle.battle.players.find(p => p.tag === player.tag);
-                    if (playerInBattle && playerInBattle.brawler) {
-                        playerBrawler = playerInBattle.brawler.name;
-                    }
-                }
-
-                // Include if no filter or brawler matches
-                if (!brawlerName || playerBrawler === brawlerName) {
-                    relevantBattles.push(battle);
-                }
-            });
-
-            if (relevantBattles.length === 0) return;
-
-            // Calculate starting trophy count by working backwards from current
-            const totalChange = relevantBattles.reduce((sum, b) => sum + (b.battle.trophyChange || 0), 0);
-            let runningTrophies = currentTrophies - totalChange;
-
-            // Now go forward through battles, adding trophy changes
-            relevantBattles.forEach(battle => {
-                const battleDate = Utils.parseBattleTime(battle.battleTime);
-                if (!battleDate) return;
-                const trophyChange = battle.battle.trophyChange || 0;
-
-                runningTrophies += trophyChange;
-
-                playerBattleData[player.tag].push({
-                    timestamp: battleDate.getTime(),
-                    dateLabel: this.formatBattleTimestamp(battleDate),
-                    trophies: runningTrophies,
-                    mode: battle.battle.mode,
-                    result: trophyChange > 0 ? 'Win' : trophyChange < 0 ? 'Loss' : 'Draw',
-                    trophyChange: trophyChange
-                });
-            });
         });
 
         // Create datasets with point data
@@ -208,8 +132,8 @@ const ChartsManager = {
             return {
                 label: player.name,
                 data: battles.map(b => ({ x: b.timestamp, y: b.trophies })),
-                borderColor: this.colors[idx % this.colors.length],
-                backgroundColor: this.colors[idx % this.colors.length] + '20',
+                borderColor: GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length],
+                backgroundColor: GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length] + '20',
                 borderWidth: 1,
                 tension: 0.1,
                 pointRadius: 2,
@@ -221,80 +145,24 @@ const ChartsManager = {
         this.charts.trophyTimeline = new Chart(ctx, {
             type: 'line',
             data: { datasets },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                interaction: {
-                    mode: 'index',
-                    intersect: false,
-                },
-                scales: {
-                    x: {
-                        type: 'linear',
-                        ticks: {
-                            callback: (value) => {
-                                return this.formatBattleTimestamp(new Date(value));
+            options: ChartHelpers.getCommonLineOptions(
+                brawlerName ? `${brawlerName} Trophies` : 'Trophies',
+                {
+                    scales: {
+                        x: {
+                            type: 'linear',
+                            ticks: {
+                                callback: (value) => ChartHelpers.formatBattleTimestamp(new Date(value)),
+                                color: '#9ba3af',
+                                maxRotation: 45,
+                                minRotation: 45,
+                                maxTicksLimit: 12
                             },
-                            color: '#9ba3af',
-                            maxRotation: 45,
-                            minRotation: 45,
-                            maxTicksLimit: 12
-                        },
-                        grid: {
-                            display: false
-                        }
-                    },
-                    y: {
-                        beginAtZero: false,
-                        ticks: {
-                            callback: value => value.toLocaleString(),
-                            color: '#9ba3af'
-                        },
-                        grid: {
-                            color: '#3a4556'
-                        },
-                        title: {
-                            display: true,
-                            text: brawlerName ? `${brawlerName} Trophies` : 'Trophies',
-                            color: '#e8eaed'
-                        }
-                    }
-                },
-                plugins: {
-                    legend: {
-                        labels: {
-                            color: '#e8eaed',
-                            usePointStyle: true,
-                            padding: 15
-                        }
-                    },
-                    tooltip: {
-                        backgroundColor: 'rgba(0, 0, 0, 0.9)',
-                        padding: 12,
-                        titleColor: '#e8eaed',
-                        bodyColor: '#e8eaed',
-                        itemSort: (a, b) => b.parsed.y - a.parsed.y,
-                        callbacks: {
-                            title: (context) => {
-                                return this.formatBattleTimestamp(new Date(context[0].parsed.x));
-                            },
-                            label: (context) => {
-                                const playerTag = players[context.datasetIndex].tag;
-                                const battles = playerBattleData[playerTag];
-                                const battle = battles.find(b => b.timestamp === context.parsed.x);
-
-                                if (battle && battle.trophyChange !== undefined) {
-                                    const changeStr = battle.trophyChange > 0
-                                        ? `+${battle.trophyChange}`
-                                        : `${battle.trophyChange}`;
-                                    return `${context.dataset.label}: ${context.parsed.y.toLocaleString()} (${changeStr})`;
-                                }
-                                return `${context.dataset.label}: ${context.parsed.y.toLocaleString()}`;
-                            }
+                            grid: { display: false }
                         }
                     }
                 }
-            }
+            )
         });
     },
 
@@ -318,56 +186,44 @@ const ChartsManager = {
                     return (p.victories_3v3 || 0) + (p.solo_victories || 0) + (p.duo_victories || 0);
                 });
 
-                return {
-                    label: player.name,
+                return ChartHelpers.createLineDataset(
+                    player.name,
                     data,
-                    borderColor: this.colors[idx % this.colors.length],
-                    backgroundColor: this.colors[idx % this.colors.length] + '20',
-                    borderWidth: 2,
-                    tension: 0.3,
-                    pointRadius: 4,
-                    pointHoverRadius: 6
-                };
+                    GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
+                );
             });
         } else if (gamemode === '3v3') {
-            datasets = this.createWinsDatasets(players, 'victories_3v3', '');
+            datasets = this.createWinsDatasets(players, 'victories_3v3');
             title = '3v3 Wins';
         } else if (gamemode === 'solo') {
-            datasets = this.createWinsDatasets(players, 'solo_victories', '');
+            datasets = this.createWinsDatasets(players, 'solo_victories');
             title = 'Solo Wins';
         } else if (gamemode === 'duo') {
-            datasets = this.createWinsDatasets(players, 'duo_victories', '');
+            datasets = this.createWinsDatasets(players, 'duo_victories');
             title = 'Duo Wins';
         }
 
         const ctx = document.getElementById('winsChart').getContext('2d');
         this.charts.wins = new Chart(ctx, {
             type: 'line',
-            data: {
-                labels: dates,
-                datasets: datasets
-            },
-            options: this.getCommonLineOptions(title)
+            data: { labels: dates, datasets },
+            options: ChartHelpers.getCommonLineOptions(title)
         });
     },
 
-    createWinsDatasets(players, field, suffix) {
+    createWinsDatasets(players, field) {
         return players.map((player, idx) => {
             const data = DataManager.historicalData.map(snapshot => {
                 const p = DataManager.findPlayerInSnapshot(snapshot, player.tag);
                 return p ? p[field] || 0 : null;
             });
 
-            return {
-                label: player.name + suffix,
+            return ChartHelpers.createLineDataset(
+                player.name,
                 data,
-                borderColor: this.colors[idx % this.colors.length],
-                backgroundColor: this.colors[idx % this.colors.length] + '20',
-                borderWidth: 2,
-                tension: 0.3,
-                pointRadius: 3,
-                pointHoverRadius: 5
-            };
+                GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length],
+                { pointRadius: 3, pointHoverRadius: 5 }
+            );
         });
     },
 
@@ -381,23 +237,18 @@ const ChartsManager = {
                 return p ? p.brawlers.length : null;
             });
 
-            return {
-                label: player.name,
+            return ChartHelpers.createLineDataset(
+                player.name,
                 data,
-                borderColor: this.colors[idx % this.colors.length],
-                backgroundColor: this.colors[idx % this.colors.length] + '20',
-                borderWidth: 2,
-                tension: 0.3,
-                pointRadius: 4,
-                pointHoverRadius: 6
-            };
+                GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
+            );
         });
 
         const ctx = document.getElementById('collectionChart').getContext('2d');
         this.charts.collection = new Chart(ctx, {
             type: 'line',
             data: { labels: dates, datasets },
-            options: this.getCommonLineOptions('Brawlers Owned')
+            options: ChartHelpers.getCommonLineOptions('Brawlers Owned')
         });
     },
 
@@ -409,31 +260,21 @@ const ChartsManager = {
             const data = DataManager.historicalData.map(snapshot => {
                 const p = DataManager.findPlayerInSnapshot(snapshot, player.tag);
                 if (!p) return null;
-                return p.brawlers.filter(b =>
-                    b.power === 11 &&
-                    b.gadget_ids.length >= 2 &&
-                    b.star_power_ids.length >= 2 &&
-                    b.hyper_charge_ids.length >= 1
-                ).length;
+                return p.brawlers.filter(b => CalculationHelpers.isMaxedBrawler(b)).length;
             });
 
-            return {
-                label: player.name,
+            return ChartHelpers.createLineDataset(
+                player.name,
                 data,
-                borderColor: this.colors[idx % this.colors.length],
-                backgroundColor: this.colors[idx % this.colors.length] + '20',
-                borderWidth: 2,
-                tension: 0.3,
-                pointRadius: 4,
-                pointHoverRadius: 6
-            };
+                GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
+            );
         });
 
         const ctx = document.getElementById('maxedChart').getContext('2d');
         this.charts.maxed = new Chart(ctx, {
             type: 'line',
             data: { labels: dates, datasets },
-            options: this.getCommonLineOptions('Maxed Brawlers')
+            options: ChartHelpers.getCommonLineOptions('Maxed Brawlers')
         });
     },
 
@@ -445,26 +286,21 @@ const ChartsManager = {
             const data = DataManager.historicalData.map(snapshot => {
                 const p = DataManager.findPlayerInSnapshot(snapshot, player.tag);
                 if (!p) return null;
-                return p.brawlers.filter(b => b.trophies >= 1000).length;
+                return p.brawlers.filter(b => b.trophies >= GameConstants.PRESTIGE_THRESHOLD).length;
             });
 
-            return {
-                label: player.name,
+            return ChartHelpers.createLineDataset(
+                player.name,
                 data,
-                borderColor: this.colors[idx % this.colors.length],
-                backgroundColor: this.colors[idx % this.colors.length] + '20',
-                borderWidth: 2,
-                tension: 0.3,
-                pointRadius: 4,
-                pointHoverRadius: 6
-            };
+                GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
+            );
         });
 
         const ctx = document.getElementById('prestigeChart').getContext('2d');
         this.charts.prestige = new Chart(ctx, {
             type: 'line',
             data: { labels: dates, datasets },
-            options: this.getCommonLineOptions('Prestige Brawlers (1000+ Trophies)')
+            options: ChartHelpers.getCommonLineOptions('Prestige Brawlers (1000+ Trophies)')
         });
     },
 
@@ -517,8 +353,8 @@ const ChartsManager = {
             return {
                 label: player.name,
                 data: data,
-                backgroundColor: this.colors[idx % this.colors.length] + '80',
-                borderColor: this.colors[idx % this.colors.length],
+                backgroundColor: GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length] + '80',
+                borderColor: GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length],
                 borderWidth: 1
             };
         });
@@ -527,56 +363,18 @@ const ChartsManager = {
         this.charts.activityTimeline = new Chart(ctx, {
             type: 'bar',
             data: { labels: dates, datasets },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                interaction: {
-                    mode: 'index',
-                    intersect: false,
-                },
+            options: ChartHelpers.getCommonLineOptions('Games Played', {
                 scales: {
                     y: {
                         beginAtZero: true,
-                        stacked: false,
-                        ticks: {
-                            callback: value => value.toLocaleString(),
-                            color: '#9ba3af'
-                        },
-                        grid: {
-                            color: '#3a4556'
-                        },
-                        title: {
-                            display: true,
-                            text: 'Games Played',
-                            color: '#e8eaed'
-                        }
+                        stacked: false
                     },
                     x: {
-                        stacked: false,
-                        ticks: {
-                            color: '#9ba3af',
-                            maxRotation: 45,
-                            minRotation: 45
-                        },
-                        grid: {
-                            display: false
-                        }
+                        stacked: false
                     }
                 },
                 plugins: {
-                    legend: {
-                        labels: {
-                            color: '#e8eaed',
-                            usePointStyle: true,
-                            padding: 15
-                        }
-                    },
                     tooltip: {
-                        backgroundColor: 'rgba(0, 0, 0, 0.9)',
-                        padding: 12,
-                        titleColor: '#e8eaed',
-                        bodyColor: '#e8eaed',
-                        itemSort: (a, b) => b.parsed.y - a.parsed.y,
                         callbacks: {
                             label: (context) => {
                                 return `${context.dataset.label}: ${context.parsed.y} game${context.parsed.y !== 1 ? 's' : ''}`;
@@ -584,7 +382,7 @@ const ChartsManager = {
                         }
                     }
                 }
-            }
+            })
         });
     },
 
@@ -609,7 +407,6 @@ const ChartsManager = {
                 const battleDate = Utils.parseBattleTime(battle.battleTime);
                 if (!battleDate) return;
 
-                // Use UTC date to avoid timezone boundary issues
                 const year = battleDate.getUTCFullYear();
                 const month = String(battleDate.getUTCMonth() + 1).padStart(2, '0');
                 const day = String(battleDate.getUTCDate()).padStart(2, '0');
@@ -621,7 +418,7 @@ const ChartsManager = {
                     playerModeData[player.tag][dateStr] = {};
                 }
 
-                const mode = battle.battle.mode || 'Unknown';
+                const mode = BattlelogHelpers.getBattleMode(battle);
                 playerModeData[player.tag][dateStr][mode] = (playerModeData[player.tag][dateStr][mode] || 0) + 1;
             });
         });
@@ -656,25 +453,11 @@ const ChartsManager = {
             });
         });
 
-        // Define colors for common modes
-        const modeColors = {
-            'gemGrab': '#06d6a0',
-            'brawlBall': '#4a9eff',
-            'bounty': '#ff9f1c',
-            'heist': '#ef476f',
-            'hotZone': '#9d4edd',
-            'knockout': '#118ab2',
-            'showdown': '#ffd60a',
-            'duoShowdown': '#ffb703',
-            'soloShowdown': '#ffd60a',
-            'wipeout': '#e63946'
-        };
-
         const datasets = Array.from(allModes).map((mode, idx) => ({
             label: mode,
             data: modePercentages[mode],
-            backgroundColor: modeColors[mode] || this.colors[idx % this.colors.length] + 'cc',
-            borderColor: modeColors[mode] || this.colors[idx % this.colors.length],
+            backgroundColor: GameConstants.MODE_COLORS[mode] || GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length] + 'cc',
+            borderColor: GameConstants.MODE_COLORS[mode] || GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length],
             borderWidth: 1,
             fill: true
         }));
@@ -683,57 +466,22 @@ const ChartsManager = {
         this.charts.modePopularity = new Chart(ctx, {
             type: 'line',
             data: { labels: dates, datasets },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                interaction: {
-                    mode: 'index',
-                    intersect: false,
-                },
+            options: ChartHelpers.getCommonLineOptions('Mode Distribution (%)', {
                 scales: {
                     y: {
                         stacked: true,
                         beginAtZero: true,
                         max: 100,
                         ticks: {
-                            callback: value => value + '%',
-                            color: '#9ba3af'
-                        },
-                        grid: {
-                            color: '#3a4556'
-                        },
-                        title: {
-                            display: true,
-                            text: 'Mode Distribution (%)',
-                            color: '#e8eaed'
+                            callback: value => value + '%'
                         }
                     },
                     x: {
-                        stacked: true,
-                        ticks: {
-                            color: '#9ba3af',
-                            maxRotation: 45,
-                            minRotation: 45
-                        },
-                        grid: {
-                            display: false
-                        }
+                        stacked: true
                     }
                 },
                 plugins: {
-                    legend: {
-                        labels: {
-                            color: '#e8eaed',
-                            usePointStyle: true,
-                            padding: 15
-                        }
-                    },
                     tooltip: {
-                        backgroundColor: 'rgba(0, 0, 0, 0.9)',
-                        padding: 12,
-                        titleColor: '#e8eaed',
-                        bodyColor: '#e8eaed',
-                        itemSort: (a, b) => b.parsed.y - a.parsed.y,
                         callbacks: {
                             label: (context) => {
                                 return `${context.dataset.label}: ${context.parsed.y.toFixed(1)}%`;
@@ -741,93 +489,7 @@ const ChartsManager = {
                         }
                     }
                 }
-            }
+            })
         });
-    },
-
-    formatBattleTimestamp(date) {
-        if (!date || isNaN(date.getTime())) return '';
-
-        const now = new Date();
-        const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-        const yesterday = new Date(today);
-        yesterday.setDate(yesterday.getDate() - 1);
-
-        const dateDay = new Date(date.getFullYear(), date.getMonth(), date.getDate());
-
-        // Format time as HH:MM
-        const hours = date.getHours().toString().padStart(2, '0');
-        const minutes = date.getMinutes().toString().padStart(2, '0');
-        const timeStr = `${hours}:${minutes}`;
-
-        // If today, show "Today HH:MM"
-        if (dateDay.getTime() === today.getTime()) {
-            return `Today ${timeStr}`;
-        }
-
-        // If yesterday, show "Yesterday HH:MM"
-        if (dateDay.getTime() === yesterday.getTime()) {
-            return `Yesterday ${timeStr}`;
-        }
-
-        // Otherwise show "MMM DD HH:MM"
-        const month = date.toLocaleDateString('en-US', { month: 'short' });
-        const day = date.getDate();
-        return `${month} ${day} ${timeStr}`;
-    },
-
-    getCommonLineOptions(yLabel) {
-        return {
-            responsive: true,
-            maintainAspectRatio: false,
-            interaction: {
-                mode: 'index',
-                intersect: false,
-            },
-            scales: {
-                y: {
-                    beginAtZero: false,
-                    ticks: {
-                        callback: value => value.toLocaleString(),
-                        color: '#9ba3af'
-                    },
-                    grid: {
-                        color: '#3a4556'
-                    },
-                    title: {
-                        display: true,
-                        text: yLabel,
-                        color: '#e8eaed'
-                    }
-                },
-                x: {
-                    ticks: {
-                        color: '#9ba3af',
-                        maxRotation: 45,
-                        minRotation: 45
-                    },
-                    grid: {
-                        display: false
-                    }
-                }
-            },
-            plugins: {
-                legend: {
-                    labels: {
-                        color: '#e8eaed',
-                        usePointStyle: true,
-                        padding: 15
-                    }
-                },
-                tooltip: {
-                    backgroundColor: 'rgba(0, 0, 0, 0.9)',
-                    itemSort: (a, b) => b.parsed.y - a.parsed.y,
-                    callbacks: {
-                        label: context =>
-                            `${context.dataset.label}: ${context.parsed.y.toLocaleString()}`
-                    }
-                }
-            }
-        };
     }
 };

@@ -23,9 +23,19 @@ const BattlelogDataManager = {
 
     // Ensure battlelog data is loaded before using
     async ensureLoaded() {
+        // If already loaded, return immediately
+        if (this.isLoaded && this.battlelogsCache.size > 0) {
+            return true;
+        }
+
+        // If loading promise exists, wait for it
         if (this.loadingPromise) {
             await this.loadingPromise;
+        } else {
+            // No promise exists, start loading now
+            await this.init();
         }
+
         return this.isLoaded;
     },
 
@@ -45,9 +55,11 @@ const BattlelogDataManager = {
                 const battles = await response.json();
                 this.battlelogsCache.set(tag, battles);
                 return battles;
+            } else {
+                console.warn(`Failed to load battlelog for ${tag}: ${response.status}`);
             }
         } catch (error) {
-            console.warn(`No battlelog found for ${tag}`);
+            console.warn(`Error loading battlelog for ${tag}:`, error);
         }
         return [];
     },

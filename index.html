@@ -26,6 +26,7 @@
             <button class="tab" data-tab="player">Player Stats</button>
             <button class="tab" data-tab="timelines">Timelines</button>
             <button class="tab" data-tab="achievements">Achievements</button>
+            <button class="tab" data-tab="battles">Battles</button>
         </div>
 
         <!-- Tab: Club Overview -->
@@ -158,16 +159,32 @@
                 <div class="loading">Loading achievements...</div>
             </div>
         </div>
+
+        <!-- Tab: Battles -->
+        <div id="battles" class="tab-content">
+            <div id="battlesContainer">
+                <div class="loading">Loading battles...</div>
+            </div>
+        </div>
     </div>
 
+    <!-- Core configuration and utilities -->
     <script src="js/config.js"></script>
+    <script src="js/helpers.js"></script>
+
+    <!-- Data managers -->
     <script src="js/data.js"></script>
     <script src="js/battlelog-data.js"></script>
     <script src="js/battlelog-analytics.js"></script>
+
+    <!-- Visualization modules -->
     <script src="js/charts.js"></script>
     <script src="js/player-charts.js"></script>
     <script src="js/player-stats.js"></script>
     <script src="js/achievements.js"></script>
+    <script src="js/battles.js"></script>
+
+    <!-- Routing and application -->
     <script src="js/router.js"></script>
     <script src="js/app.js"></script>
 </body>

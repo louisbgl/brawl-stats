@@ -985,3 +985,131 @@ select:focus, input[type="text"]:focus {
         height: 18px;
     }
 }
+
+/* Battles Tab */
+.battles-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.day-group {
+    margin-bottom: 30px;
+}
+
+.day-header {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    padding: 12px 0 8px 0;
+    border-bottom: 2px solid var(--border);
+    margin-bottom: 12px;
+}
+
+.battle-entry {
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    transition: all 0.2s;
+}
+
+.battle-entry:hover {
+    transform: translateX(2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.battle-win {
+    background: rgba(6, 214, 160, 0.1);
+    border-color: var(--accent-green);
+}
+
+.battle-loss {
+    background: rgba(239, 71, 111, 0.1);
+    border-color: var(--accent-red);
+}
+
+.battle-draw {
+    background: rgba(155, 163, 175, 0.1);
+    border-color: var(--text-secondary);
+}
+
+.battle-main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+}
+
+.battle-player {
+    font-weight: 700;
+    color: var(--accent-blue);
+}
+
+.battle-brawler {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.battle-mode {
+    color: var(--accent-purple);
+}
+
+.battle-map {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.battle-result {
+    font-weight: 600;
+}
+
+.battle-win .battle-result {
+    color: var(--accent-green);
+}
+
+.battle-loss .battle-result {
+    color: var(--accent-red);
+}
+
+.battle-draw .battle-result {
+    color: var(--text-secondary);
+}
+
+.battle-time {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    margin-left: auto;
+}
+
+.battle-separator {
+    color: var(--border);
+}
+
+.battle-teammates {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.load-more-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.load-more-btn:hover {
+    background: var(--accent-purple);
+    border-color: var(--accent-purple);
+    color: white;
+}
