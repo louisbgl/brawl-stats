@@ -7269,5 +7269,214 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260330T131912.000Z",
+    "event": {
+      "id": 15000990,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Lilypond Grove"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 6,
+      "trophyChange": 1,
+      "players": [
+        {
+          "tag": "#2ULRVVRRPU",
+          "name": "gok",
+          "brawler": {
+            "id": 16000076,
+            "name": "KIT",
+            "power": 9,
+            "trophies": 1706
+          }
+        },
+        {
+          "tag": "#2GCL0Y8LV8",
+          "name": "Makar pro",
+          "brawler": {
+            "id": 16000000,
+            "name": "SHELLY",
+            "power": 9,
+            "trophies": 823
+          }
+        },
+        {
+          "tag": "#L9JJVCC9Y",
+          "name": "banana007",
+          "brawler": {
+            "id": 16000015,
+            "name": "PIPER",
+            "power": 11,
+            "trophies": 739
+          }
+        },
+        {
+          "tag": "#2RJJJL2CY0",
+          "name": "browstars",
+          "brawler": {
+            "id": 16000020,
+            "name": "FRANK",
+            "power": 10,
+            "trophies": 997
+          }
+        },
+        {
+          "tag": "#LYJGG0PGY",
+          "name": "ell_gin",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 10,
+            "trophies": 895
+          }
+        },
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000000,
+            "name": "SHELLY",
+            "power": 9,
+            "trophies": 663
+          }
+        },
+        {
+          "tag": "#99JYJ80CP",
+          "name": "NL|Finn☆",
+          "brawler": {
+            "id": 16000029,
+            "name": "BEA",
+            "power": 11,
+            "trophies": 785
+          }
+        },
+        {
+          "tag": "#982QRCP9L",
+          "name": "𝐴𝑦𝑟𝑒𝑡",
+          "brawler": {
+            "id": 16000000,
+            "name": "SHELLY",
+            "power": 11,
+            "trophies": 987
+          }
+        },
+        {
+          "tag": "#L82VJC28J",
+          "name": "kingh5793 🇮🇱",
+          "brawler": {
+            "id": 16000038,
+            "name": "SURGE",
+            "power": 11,
+            "trophies": 998
+          }
+        },
+        {
+          "tag": "#UPU2RCCY",
+          "name": "M pro",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 750
+          }
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260330T132048.000Z",
+    "event": {
+      "id": 15001166,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "The Seven Pillars of Humanity"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 83,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#8J2CLC9JG",
+        "name": "ВОРОН",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 10,
+          "trophies": 890
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 822
+            }
+          },
+          {
+            "tag": "#8J2CLC9JG",
+            "name": "ВОРОН",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 890
+            }
+          },
+          {
+            "tag": "#9G9YRQU98",
+            "name": "лифан🍓",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 843
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GRJ80CGPP",
+            "name": "Manarchiee",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 867
+            }
+          },
+          {
+            "tag": "#GRJ0CY9G0",
+            "name": "alien.1971",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 855
+            }
+          },
+          {
+            "tag": "#GRRGGGLQJ",
+            "name": "pti bibi 2",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 858
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
