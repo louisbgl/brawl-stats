@@ -23,8 +23,11 @@ const BattlelogDataManager = {
 
     // Ensure battlelog data is loaded before using
     async ensureLoaded() {
+        console.log(`BattlelogDataManager.ensureLoaded: loadingPromise=${!!this.loadingPromise}, isLoaded=${this.isLoaded}, cacheSize=${this.battlelogsCache.size}`);
         if (this.loadingPromise) {
+            console.log('BattlelogDataManager.ensureLoaded: Awaiting loadingPromise...');
             await this.loadingPromise;
+            console.log(`BattlelogDataManager.ensureLoaded: Promise resolved, isLoaded=${this.isLoaded}, cacheSize=${this.battlelogsCache.size}`);
         }
         return this.isLoaded;
     },
