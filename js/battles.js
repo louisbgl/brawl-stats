@@ -11,8 +11,11 @@ const BattlesManager = {
     currentWeekOffset: 0, // 0 = current week, 1 = last week, etc.
 
     init() {
+        console.log('BattlesManager: Initializing...');
         this.loadBattles();
+        console.log(`BattlesManager: Loaded ${this.battles.length} total battles`);
         this.applyFilters();
+        console.log(`BattlesManager: After filters, ${this.filteredBattles.length} battles remain`);
         this.render();
     },
 
@@ -20,9 +23,11 @@ const BattlesManager = {
         // Get all battles from battlelog data
         const allBattles = [];
         const players = DataManager.getAllPlayers();
+        console.log(`BattlesManager: Loading battles for ${players.length} players`);
 
         players.forEach(player => {
             const playerBattles = BattlelogDataManager.getBattlesForPlayer(player.tag);
+            console.log(`BattlesManager: Player ${player.name} (${player.tag}) has ${playerBattles.length} battles`);
             playerBattles.forEach(battle => {
                 allBattles.push({
                     player: player,
@@ -35,6 +40,10 @@ const BattlesManager = {
         allBattles.sort((a, b) => new Date(b.battle.battleTime) - new Date(a.battle.battleTime));
 
         this.battles = allBattles;
+        if (allBattles.length > 0) {
+            console.log(`BattlesManager: First battle date: ${allBattles[0].battle.battleTime}`);
+            console.log(`BattlesManager: Last battle date: ${allBattles[allBattles.length - 1].battle.battleTime}`);
+        }
     },
 
     applyFilters() {
@@ -80,10 +89,16 @@ const BattlesManager = {
         const weekEnd = new Date(weekStart);
         weekEnd.setDate(weekStart.getDate() + 7);
 
-        return this.filteredBattles.filter(b => {
+        console.log(`BattlesManager: Week range for offset ${this.currentWeekOffset}: ${weekStart.toISOString()} to ${weekEnd.toISOString()}`);
+        console.log(`BattlesManager: Filtering ${this.filteredBattles.length} battles for current week`);
+
+        const weekBattles = this.filteredBattles.filter(b => {
             const battleDate = new Date(b.battle.battleTime);
             return battleDate >= weekStart && battleDate < weekEnd;
         });
+
+        console.log(`BattlesManager: Found ${weekBattles.length} battles in current week`);
+        return weekBattles;
     },
 
     getWeekLabel() {
