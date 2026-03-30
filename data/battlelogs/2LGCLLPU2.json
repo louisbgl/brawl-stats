@@ -15278,5 +15278,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260330T114501.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 96,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#PYJJ09RPU",
+        "name": "SL|Asab",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 1060
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GJC0YUJUL",
+            "name": "ljubitelj masti",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1250
+            }
+          },
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1380
+            }
+          },
+          {
+            "tag": "#Y82VG2LCR",
+            "name": "AMINE > MYG",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1193
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LYGYUQGPJ",
+            "name": "𝜗𝜚ely💕e",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 1037
+            }
+          },
+          {
+            "tag": "#PYJJ09RPU",
+            "name": "SL|Asab",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1060
+            }
+          },
+          {
+            "tag": "#PJVJY229C",
+            "name": "➶𝗞𝗶𝗻𝗴…",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWBERT",
+              "power": 11,
+              "trophies": 340
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
