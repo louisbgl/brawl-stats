@@ -6138,5 +6138,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260329T175848.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 97,
+      "starPlayer": {
+        "tag": "#PVQRQC0JR",
+        "name": "reexes🍉",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 1053
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#22P2C09V2",
+            "name": "FTC | Barni",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 402
+            }
+          },
+          {
+            "tag": "#2UUU82RJ2C",
+            "name": "EGEPRO",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 7,
+              "trophies": 367
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 1125
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PCRC9RQU0",
+            "name": "hazell",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 501
+            }
+          },
+          {
+            "tag": "#QY2988LRQ",
+            "name": "ksencii",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 9,
+              "trophies": 577
+            }
+          },
+          {
+            "tag": "#PVQRQC0JR",
+            "name": "reexes🍉",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1053
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

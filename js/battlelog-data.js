@@ -4,11 +4,29 @@ const BattlelogDataManager = {
     battlelogsCache: new Map(), // tag -> battle items array
     metadataCache: null,
     isLoaded: false,
+    loadingPromise: null,
 
-    async init() {
+    // Start loading in background but return immediately
+    init() {
+        if (!this.loadingPromise) {
+            this.loadingPromise = this._loadAll();
+        }
+        return this.loadingPromise;
+    },
+
+    // Internal method that does the actual loading
+    async _loadAll() {
         await this.loadAllBattlelogs();
         await this.loadMetadata();
         this.isLoaded = true;
+    },
+
+    // Ensure battlelog data is loaded before using
+    async ensureLoaded() {
+        if (this.loadingPromise) {
+            await this.loadingPromise;
+        }
+        return this.isLoaded;
     },
 
     async loadAllBattlelogs() {
@@ -17,8 +35,6 @@ const BattlelogDataManager = {
         for (const player of players) {
             await this.loadBattlelogForPlayer(player.tag);
         }
-
-        console.log(`Loaded battlelogs for ${this.battlelogsCache.size} players`);
     },
 
     async loadBattlelogForPlayer(tag) {

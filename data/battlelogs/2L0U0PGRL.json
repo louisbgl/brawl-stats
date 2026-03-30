@@ -5676,5 +5676,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260329T212034.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 116,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 11,
+          "trophies": 981
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 981
+            }
+          },
+          {
+            "tag": "#2JP9QY0GY",
+            "name": "iineeess",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 886
+            }
+          },
+          {
+            "tag": "#2QVY2J9GGV",
+            "name": "Çakır Baba",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1027
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q000UC92G",
+            "name": "allsuka",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 706
+            }
+          },
+          {
+            "tag": "#8UL8PJYRQ",
+            "name": "Sonic YT",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 773
+            }
+          },
+          {
+            "tag": "#JPJJVP8CG",
+            "name": "gugelhupf",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 524
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260329T212415.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "starPlayer": {
+        "tag": "#2V0C2UUV",
+        "name": "Faze_009",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 2003
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UQJ9PGPQQ",
+            "name": "evikeee",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 593
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#P00UPGQPG",
+            "name": "ツ𝖕𝖆𝖎𝖓",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1033
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V0C2UUV",
+            "name": "Faze_009",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 2003
+            }
+          },
+          {
+            "tag": "#PGUC9J02L",
+            "name": "CSK|👑ⁿᵒᵗᵉᵃᵐⁱⁿᵍ",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 2085
+            }
+          },
+          {
+            "tag": "#UVVYJUUU",
+            "name": "dill_duck",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1054
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

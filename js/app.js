@@ -2,36 +2,36 @@
 
 async function init() {
     try {
-        await DataManager.init();
-        await BattlelogDataManager.init();
+        // PHASE 1: Load critical data only (blocking)
+        await DataManager.init(); // Now only loads latest.json + brawlers.json
 
         // Update last update time
         const updateTime = new Date(DataManager.latestData.timestamp);
         document.getElementById('lastUpdate').textContent =
             `Last updated: ${updateTime.toLocaleString()}`;
 
-        // Setup tab switching
+        // Setup UI components
         setupTabs();
-
-        // Populate player selector
         populatePlayerSelect();
-
-        // Populate trophy brawler selector
         populateTrophyBrawlerSelect();
 
-        // Create initial charts
-        ChartsManager.createTrophyTimeline(); // Club Overview chart
-        ChartsManager.createBrawlerTrophyTimeline(); // Timelines tab - overall by default
-        ChartsManager.createWinsTimeline(); // Timelines tab - overall by default
-        ChartsManager.createCollectionTimeline();
-        ChartsManager.createMaxedTimeline();
-        ChartsManager.createPrestigeTimeline();
-        ChartsManager.createActivityTimeline();
-        ChartsManager.createModePopularityTimeline();
+        // Initialize Overview tab (first visible tab)
+        await initOverviewTab();
 
-        // Setup club quick stats and leaderboards
-        displayClubQuickStats();
-        displayClubLeaderboards();
+        // PHASE 2: Start background loading (non-blocking)
+        if (typeof requestIdleCallback !== 'undefined') {
+            requestIdleCallback(() => {
+                startBackgroundLoading();
+            });
+        } else {
+            // Fallback for browsers that don't support requestIdleCallback
+            setTimeout(() => {
+                startBackgroundLoading();
+            }, 100);
+        }
+
+        // PHASE 3: Initialize router (handles URL-based navigation)
+        Router.init();
 
     } catch (error) {
         console.error('Failed to initialize:', error);
@@ -40,27 +40,34 @@ async function init() {
     }
 }
 
-function setupTabs() {
-    const tabs = document.querySelectorAll('.tab');
-    const tabContents = document.querySelectorAll('.tab-content');
+async function initOverviewTab() {
+    // Display quick stats (without battlelog data initially)
+    displayClubQuickStats();
+    displayClubLeaderboards();
 
-    tabs.forEach(tab => {
-        tab.addEventListener('click', () => {
-            // Remove active from all
-            tabs.forEach(t => t.classList.remove('active'));
-            tabContents.forEach(tc => tc.classList.remove('active'));
+    // Trophy chart needs historical data, which will be loaded in background
+    // Chart will be created once data is available
+}
 
-            // Add active to clicked
-            tab.classList.add('active');
-            const targetTab = tab.dataset.tab;
-            document.getElementById(targetTab).classList.add('active');
+function startBackgroundLoading() {
+    DataManager.initBackground();
 
-            // Initialize achievements tab when clicked
-            if (targetTab === 'achievements') {
-                AchievementsManager.init();
-            }
-        });
+    // Create trophy chart once historical data is loaded
+    DataManager.loadingPromises.historical.then(() => {
+        ChartsManager.createTrophyTimeline();
     });
+
+    BattlelogDataManager.init().then(() => {
+        // Update overview stats with battlelog metrics now that data is available
+        displayClubQuickStats();
+        displayClubLeaderboards();
+    });
+}
+
+function setupTabs() {
+    // Tab switching is now handled by Router
+    // This function kept for potential future tab-related setup
+    // (event listeners for tabs are set up in Router.init)
 }
 
 function populatePlayerSelect() {

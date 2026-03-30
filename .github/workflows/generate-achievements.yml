@@ -5,9 +5,13 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'data/????-??-??.json'  # Only when snapshot files change
-      - 'generate_achievements.py'  # Or when the script itself changes
+
+  # Run on pull request merge
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
 
   # Allow manual trigger
   workflow_dispatch:
