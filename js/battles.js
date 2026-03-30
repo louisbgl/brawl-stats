@@ -86,14 +86,20 @@ const BattlesManager = {
 
     getBattlesForCurrentWeek() {
         const now = new Date();
+
+        // Calculate start of current week (Monday at 00:00 local time)
+        const currentDayOfWeek = now.getDay(); // 0 = Sunday, 1 = Monday, etc.
+        const daysToMonday = currentDayOfWeek === 0 ? 6 : currentDayOfWeek - 1; // If Sunday, go back 6 days
+
         const weekStart = new Date(now);
-        weekStart.setDate(now.getDate() - (this.currentWeekOffset * 7) - now.getDay()); // Start of week (Sunday)
+        weekStart.setDate(now.getDate() - daysToMonday - (this.currentWeekOffset * 7));
         weekStart.setHours(0, 0, 0, 0);
 
         const weekEnd = new Date(weekStart);
         weekEnd.setDate(weekStart.getDate() + 7);
 
         console.log(`BattlesManager: Week range for offset ${this.currentWeekOffset}: ${weekStart.toISOString()} to ${weekEnd.toISOString()}`);
+        console.log(`BattlesManager: Now: ${now.toISOString()}, Day of week: ${currentDayOfWeek}`);
         console.log(`BattlesManager: Filtering ${this.filteredBattles.length} battles for current week`);
 
         const weekBattles = this.filteredBattles.filter(b => {
@@ -102,6 +108,10 @@ const BattlesManager = {
         });
 
         console.log(`BattlesManager: Found ${weekBattles.length} battles in current week`);
+        if (weekBattles.length > 0) {
+            console.log(`BattlesManager: First battle in week: ${weekBattles[0].battle.battleTime}`);
+            console.log(`BattlesManager: Last battle in week: ${weekBattles[weekBattles.length - 1].battle.battleTime}`);
+        }
         return weekBattles;
     },
 
