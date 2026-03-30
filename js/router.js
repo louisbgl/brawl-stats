@@ -15,8 +15,19 @@ const Router = {
         'timelines': () => {
             Router.switchToTab('timelines');
         },
-        'achievements': () => {
+        'achievements': (playerFilter, dateRange, ...types) => {
             Router.switchToTab('achievements');
+            if (playerFilter || dateRange || types.length > 0) {
+                // Apply filters from URL
+                AchievementsManager.applyFiltersFromURL(playerFilter, dateRange, types);
+            }
+        },
+        'battles': (playerFilter, modeFilter, resultFilter) => {
+            Router.switchToTab('battles');
+            if (playerFilter || modeFilter || resultFilter) {
+                // Apply filters from URL
+                BattlesManager.applyFiltersFromURL(playerFilter, modeFilter, resultFilter);
+            }
         }
     },
 
@@ -58,6 +69,10 @@ const Router = {
             // Ensure achievements data is loaded before initializing
             await DataManager.ensureAchievementsLoaded();
             AchievementsManager.init();
+        } else if (tabName === 'battles') {
+            // Ensure battlelog data is loaded before initializing
+            await BattlelogDataManager.ensureLoaded();
+            BattlesManager.init();
         } else if (tabName === 'timelines') {
             // Ensure historical data is loaded before creating charts
             await DataManager.ensureHistoricalLoaded();
