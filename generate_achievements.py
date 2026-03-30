@@ -30,10 +30,11 @@ class Achievement:
 
 
 class AchievementGenerator:
-    """Generates achievements by comparing daily snapshots"""
+    """Generates achievements by comparing daily snapshots and battle logs"""
 
     def __init__(self, data_dir: Path = Path("data")):
         self.data_dir = data_dir
+        self.battlelogs_dir = data_dir / "battlelogs"
         self.brawlers_ref = self._load_brawlers_reference()
         self.existing_achievements: List[Achievement] = []
         self.achievement_keys: Set[str] = set()  # For deduplication
@@ -99,6 +100,85 @@ class AchievementGenerator:
             return 0
         return trophies // 1000
 
+    def _load_battlelog(self, tag: str) -> List[Dict]:
+        """Load battle log for a player"""
+        filename = tag.replace('#', '')
+        battlelog_file = self.battlelogs_dir / f"{filename}.json"
+        if not battlelog_file.exists():
+            return []
+        try:
+            with open(battlelog_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Warning: Error loading battlelog for {tag}: {e}")
+            return []
+
+    def _extract_brawler_trophies_from_battlelog(self, tag: str, battles: List[Dict]) -> Dict[str, int]:
+        """
+        Extract highest trophy count for each brawler from battle log.
+        Returns: {brawler_name: max_trophies}
+        """
+        brawler_trophies = {}
+
+        for battle in battles:
+            # Extract player data from teams (3v3) or players (solo/duo)
+            player_data = None
+
+            if 'teams' in battle.get('battle', {}):
+                for team in battle['battle']['teams']:
+                    for player in team:
+                        if player.get('tag') == tag:
+                            player_data = player
+                            break
+                    if player_data:
+                        break
+            elif 'players' in battle.get('battle', {}):
+                for player in battle['battle']['players']:
+                    if player.get('tag') == tag:
+                        player_data = player
+                        break
+
+            if player_data and 'brawler' in player_data:
+                brawler_name = player_data['brawler'].get('name')
+                brawler_trophies_in_battle = player_data['brawler'].get('trophies', 0)
+
+                if brawler_name and brawler_trophies_in_battle > 0:
+                    # Keep the highest trophy count seen
+                    if brawler_name not in brawler_trophies:
+                        brawler_trophies[brawler_name] = brawler_trophies_in_battle
+                    else:
+                        brawler_trophies[brawler_name] = max(
+                            brawler_trophies[brawler_name],
+                            brawler_trophies_in_battle
+                        )
+
+        return brawler_trophies
+
+    def _merge_brawler_data(self, snapshot_brawlers: List[Dict], battlelog_trophies: Dict[str, int]) -> List[Dict]:
+        """
+        Merge snapshot brawler data with battle log trophy data.
+        Uses the highest trophy count from either source.
+        Returns updated brawler list with most recent trophy data.
+        """
+        merged = []
+
+        for brawler in snapshot_brawlers:
+            brawler_copy = brawler.copy()
+            brawler_name = brawler['name']
+            snapshot_trophies = brawler.get('trophies', 0)
+            battlelog_trophies_for_brawler = battlelog_trophies.get(brawler_name, 0)
+
+            # Use the higher trophy count (battlelog is likely more recent)
+            if battlelog_trophies_for_brawler > snapshot_trophies:
+                brawler_copy['trophies'] = battlelog_trophies_for_brawler
+                brawler_copy['_source'] = 'battlelog'  # Mark source for debugging
+            else:
+                brawler_copy['_source'] = 'snapshot'
+
+            merged.append(brawler_copy)
+
+        return merged
+
     def _create_achievement_key(self, achievement: Achievement) -> str:
         """Create a unique key for deduplication"""
         key_parts = [achievement.player_tag, achievement.type]
@@ -122,11 +202,25 @@ class AchievementGenerator:
         return True
 
     def compare_snapshots(self, date: str, prev_snapshot: Dict, curr_snapshot: Dict) -> List[Achievement]:
-        """Compare two consecutive snapshots and detect achievements"""
+        """Compare two consecutive snapshots and detect achievements, using battle log data for trophy counts"""
         new_achievements = []
 
         prev_players = {p['tag']: p for p in self._get_all_players(prev_snapshot)}
         curr_players = {p['tag']: p for p in self._get_all_players(curr_snapshot)}
+
+        # Load battle logs for all current players to get most recent trophy data
+        battlelogs_cache = {}
+        battlelog_enhanced_count = 0
+        for tag in curr_players.keys():
+            battles = self._load_battlelog(tag)
+            if battles:
+                trophies = self._extract_brawler_trophies_from_battlelog(tag, battles)
+                if trophies:
+                    battlelogs_cache[tag] = trophies
+                    battlelog_enhanced_count += 1
+
+        if battlelog_enhanced_count > 0:
+            print(f"  ✓ Enhanced {battlelog_enhanced_count} players with battlelog trophy data")
 
         for tag, curr_player in curr_players.items():
             prev_player = prev_players.get(tag)
@@ -135,9 +229,17 @@ class AchievementGenerator:
 
             player_name = curr_player['name']
 
-            # Build brawler lookup dicts
+            # Merge current player's brawlers with battlelog trophy data
+            battlelog_trophies = battlelogs_cache.get(tag, {})
+            merged_curr_brawlers = self._merge_brawler_data(
+                curr_player.get('brawlers', []),
+                battlelog_trophies
+            )
+
+            # Also merge previous player's brawlers (use older battlelog data if available)
+            # For prev, we use snapshot data only since battlelogs are cumulative
             prev_brawlers = {b['name']: b for b in prev_player.get('brawlers', [])}
-            curr_brawlers = {b['name']: b for b in curr_player.get('brawlers', [])}
+            curr_brawlers = {b['name']: b for b in merged_curr_brawlers}
 
             # Detect new brawlers
             new_brawler_names = set(curr_brawlers.keys()) - set(prev_brawlers.keys())
