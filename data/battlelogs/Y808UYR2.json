@@ -5787,5 +5787,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260330T083450.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 105,
+      "starPlayer": {
+        "tag": "#2C8RG88U2G",
+        "name": "фуфик★",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LGYYRJ9QY",
+            "name": "MARSHMALLOW",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2UJ8089P92",
+            "name": "леон хамелеон",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 9,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C8RG88U2G",
+            "name": "фуфик★",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2QCG29Y9CQ",
+            "name": "samuscamu 🗿",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2UJJC2VQ99",
+            "name": "Dustin_Steve_Ww",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
