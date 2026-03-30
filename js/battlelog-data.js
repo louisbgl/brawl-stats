@@ -39,15 +39,20 @@ const BattlelogDataManager = {
 
     async loadBattlelogForPlayer(tag) {
         const filename = tag.replace('#', '');
+        console.log(`BattlelogDataManager: Loading battlelog for ${tag} from data/battlelogs/${filename}.json`);
         try {
             const response = await fetch(`data/battlelogs/${filename}.json`);
+            console.log(`BattlelogDataManager: Fetch response for ${tag}: ${response.status} ${response.ok}`);
             if (response.ok) {
                 const battles = await response.json();
+                console.log(`BattlelogDataManager: Loaded ${battles.length} battles for ${tag}`);
                 this.battlelogsCache.set(tag, battles);
                 return battles;
+            } else {
+                console.warn(`BattlelogDataManager: Failed to load battlelog for ${tag}: ${response.status}`);
             }
         } catch (error) {
-            console.warn(`No battlelog found for ${tag}`);
+            console.warn(`BattlelogDataManager: Error loading battlelog for ${tag}:`, error);
         }
         return [];
     },
