@@ -10,8 +10,12 @@ const BattlesManager = {
     },
     currentWeekOffset: 0, // 0 = current week, 1 = last week, etc.
 
-    init() {
+    async init() {
         console.log('BattlesManager: Initializing...');
+        // Ensure battlelog data is actually loaded before proceeding
+        await BattlelogDataManager.ensureLoaded();
+        console.log('BattlesManager: Battlelog data confirmed loaded');
+
         this.loadBattles();
         console.log(`BattlesManager: Loaded ${this.battles.length} total battles`);
         this.applyFilters();
