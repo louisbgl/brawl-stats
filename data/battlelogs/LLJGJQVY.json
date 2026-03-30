@@ -17535,5 +17535,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260330T070649.000Z",
+    "event": {
+      "id": 15001053,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sidetrack"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 103,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2UG0LQJYYG",
+        "name": "Demonic",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 1479
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QPC8U0P",
+            "name": "ZMX",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1184
+            }
+          },
+          {
+            "tag": "#P0G8QVVJC",
+            "name": "愛|𝑮𝖖𝖚𝓲𝒌❦",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1184
+            }
+          },
+          {
+            "tag": "#RGY9QYYL2",
+            "name": "ST|Martinpro",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1146
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UG0LQJYYG",
+            "name": "Demonic",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1479
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1674
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1339
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
