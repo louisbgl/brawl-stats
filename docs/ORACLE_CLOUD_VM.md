@@ -33,99 +33,83 @@ ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132
 
 ---
 
-## Proxy Service
+## Services on the VM
 
-### Service Status
-The proxy runs as a systemd service called `brawl-proxy`.
+### Automated Data Collection (Cron Jobs)
 
-**Check status**:
+The VM runs automated data collection tasks via cron:
+
+**View cron schedule**:
 ```bash
-ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'sudo systemctl status brawl-proxy.service'
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'crontab -l'
 ```
 
-**View logs**:
+#### Daily Profile Snapshots
+- **Schedule**: Every day at 23:00 UTC (midnight CET winter / 1am CEST summer)
+- **Script**: `/home/ubuntu/collect-snapshots.sh`
+- **Branch**: `data-snapshots` (auto-merges to `main`)
+- **What it does**:
+  1. Collects player profile data (trophies, brawlers, power levels)
+  2. Saves to `data/YYYY-MM-DD.json`
+  3. Commits to `data-snapshots` branch
+  4. Auto-merges to `main`
+
+**View snapshot collection logs**:
 ```bash
-ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'sudo journalctl -u brawl-proxy.service -n 50'
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'tail -100 /home/ubuntu/collect-snapshots.log'
 ```
 
-**Restart service**:
+#### Battlelog Collection
+- **Schedule**: Every 30 minutes
+- **Script**: `/home/ubuntu/collect-battlelogs.sh`
+- **Branch**: `data-battlelogs` (auto-merges to `main`)
+- **What it does**:
+  1. Collects recent battle history for all tracked players
+  2. Saves to `data/battlelogs/{TAG}.json`
+  3. Commits to `data-battlelogs` branch
+  4. Auto-merges to `main`
+
+**View battlelog collection logs**:
 ```bash
-ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'sudo systemctl restart brawl-proxy.service'
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'tail -100 /home/ubuntu/collect-battlelogs.log'
 ```
 
-**Stop service**:
+#### Collection Scripts Location
+- **Project directory**: `/home/ubuntu/brawl-stats`
+- **Snapshot script**: `/home/ubuntu/collect-snapshots.sh`
+- **Battlelog script**: `/home/ubuntu/collect-battlelogs.sh`
+- **Python environment**: Uses `uv` package manager
+
+**Manually trigger collection**:
 ```bash
-ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'sudo systemctl stop brawl-proxy.service'
-```
+# Trigger snapshot collection
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 '/home/ubuntu/collect-snapshots.sh'
 
-**Start service**:
-```bash
-ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'sudo systemctl start brawl-proxy.service'
-```
-
-### Service Configuration
-- **Location**: `/etc/systemd/system/brawl-proxy.service`
-- **Environment File**: `/home/ubuntu/.env`
-- **Code Location**: `/home/ubuntu/main.py`
-- **Python venv**: `/home/ubuntu/venv`
-
-### Proxy URL
-```
-http://129.151.245.132:8080
-```
-
-**Health check**:
-```bash
-curl http://129.151.245.132:8080/health
-```
-
-**Test API call**:
-```bash
-curl "http://129.151.245.132:8080/players/%23LLJGJQVY"
+# Trigger battlelog collection
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 '/home/ubuntu/collect-battlelogs.sh'
 ```
 
 ---
 
-## Updating the API Token
+## Updating the Brawl Stars API Token
 
-If you need to create a new Brawl Stars API key (e.g., if it expires), follow these steps:
+The data collection scripts use a Brawl Stars API token. If it expires or needs updating:
 
 1. Go to https://developer.brawlstars.com
 2. Create a new API key with IP: `129.151.245.132`
 3. Copy the new token
-4. Update the token on the VM:
+4. Update the token in the project's `.env` file on the VM:
 
 ```bash
 ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 << 'EOF'
+cd /home/ubuntu/brawl-stats
 cat > .env << 'ENVFILE'
 BRAWL_STARS_API_TOKEN=YOUR_NEW_TOKEN_HERE
-PORT=8080
 ENVFILE
-sudo systemctl restart brawl-proxy.service
 EOF
 ```
 
-5. Verify it works:
-```bash
-curl "http://129.151.245.132:8080/players/%23LLJGJQVY"
-```
-
----
-
-## Updating the Proxy Code
-
-If you need to update the proxy code on the VM:
-
-```bash
-# First, update the code in your local repo, then:
-scp -i ~/Downloads/ssh-key-2026-03-14.key proxy/main.py ubuntu@129.151.245.132:~/main.py
-
-# Restart the service
-ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'sudo systemctl restart brawl-proxy.service'
-
-# Check it's working
-ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'sudo systemctl status brawl-proxy.service'
-```
+5. The cron jobs will automatically use the new token on next run
 
 ---
 
@@ -133,7 +117,6 @@ ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'sudo systemctl
 
 The VM has iptables firewall configured to allow:
 - Port 22 (SSH)
-- Port 8080 (Proxy)
 
 To view firewall rules:
 ```bash
@@ -172,26 +155,10 @@ The VM is running on **Oracle Cloud Free Tier**, which includes:
 
 ## Troubleshooting
 
-### Proxy not responding
-1. Check if service is running:
-   ```bash
-   ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'sudo systemctl status brawl-proxy.service'
-   ```
-
-2. Check logs for errors:
-   ```bash
-   ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'sudo journalctl -u brawl-proxy.service -n 100'
-   ```
-
-3. Try restarting:
-   ```bash
-   ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'sudo systemctl restart brawl-proxy.service'
-   ```
-
-### API calls failing with 403
-This means the IP is not whitelisted or the token expired:
+### Data collection failing with API errors
+This usually means the API token expired or IP is not whitelisted:
 1. Create a new API key at https://developer.brawlstars.com with IP `129.151.245.132`
-2. Update the token on the VM (see "Updating the API Token" above)
+2. Update the token in `/home/ubuntu/brawl-stats/.env` (see "Updating the Brawl Stars API Token" above)
 
 ### Cannot SSH into VM
 1. Check that you're using the correct SSH key file
@@ -229,16 +196,17 @@ chmod 600 ~/Documents/backups/oracle-cloud-ssh-key.pem
 # SSH into VM
 ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132
 
-# Check proxy health
-curl http://129.151.245.132:8080/health
+# View data collection logs
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'tail -100 /home/ubuntu/collect-snapshots.log'
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'tail -100 /home/ubuntu/collect-battlelogs.log'
 
-# View proxy logs
-ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'sudo journalctl -u brawl-proxy.service -n 50 --no-pager'
+# Manually trigger data collection
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 '/home/ubuntu/collect-snapshots.sh'
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 '/home/ubuntu/collect-battlelogs.sh'
 
-# Restart proxy
-ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'sudo systemctl restart brawl-proxy.service'
+# View cron schedule
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'crontab -l'
 
-# Update proxy code
-scp -i ~/Downloads/ssh-key-2026-03-14.key proxy/main.py ubuntu@129.151.245.132:~/main.py && \
-ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'sudo systemctl restart brawl-proxy.service'
+# Check if data collection is working
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'ls -lth /home/ubuntu/brawl-stats/data/*.json | head -5'
 ```

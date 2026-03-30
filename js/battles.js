@@ -1,4 +1,5 @@
 // Battles module - battle feed with week-based pagination
+// Refactored to use shared helpers from helpers.js
 
 const BattlesManager = {
     battles: [],
@@ -113,10 +114,7 @@ const BattlesManager = {
     },
 
     getBattleResult(battleEntry) {
-        const trophyChange = battleEntry.battle.battle?.trophyChange || 0;
-        if (trophyChange > 0) return 'win';
-        if (trophyChange < 0) return 'loss';
-        return 'draw';
+        return BattlelogHelpers.getBattleResult(battleEntry.battle);
     },
 
     getBattlesGroupedByDay() {
@@ -206,11 +204,11 @@ const BattlesManager = {
             `<option value="${p.tag}" ${this.currentFilters.player === p.tag ? 'selected' : ''}>${p.name}</option>`
         ).join('');
 
-        // Get unique modes
+        // Get unique modes using helper
         const modes = new Set();
         this.battles.forEach(b => {
-            const mode = b.battle.event?.mode || b.battle.battle?.mode;
-            if (mode) modes.add(mode);
+            const mode = BattlelogHelpers.getBattleMode(b.battle);
+            if (mode && mode !== 'Unknown') modes.add(mode);
         });
         const modeOptions = Array.from(modes).sort().map(mode =>
             `<option value="${mode}" ${this.currentFilters.mode === mode ? 'selected' : ''}>${mode}</option>`
@@ -309,56 +307,31 @@ const BattlesManager = {
         const result = this.getBattleResult(battleEntry);
         const trophyChange = battle.battle?.trophyChange || 0;
 
-        // Get brawler info
-        let brawlerName = 'Unknown';
-        let brawlerPower = '';
+        // Get brawler info using helper
+        const brawler = BattlelogHelpers.getPlayerBrawlerFromBattle(battle, player.tag);
+        const brawlerName = brawler ? brawler.name : 'Unknown';
+        const brawlerPower = brawler && brawler.power ? ` P${brawler.power}` : '';
 
-        // Try to get brawler from teams (3v3)
-        if (battle.battle?.teams) {
-            for (const team of battle.battle.teams) {
-                const playerInTeam = team.find(p => p.tag === player.tag);
-                if (playerInTeam && playerInTeam.brawler) {
-                    brawlerName = playerInTeam.brawler.name;
-                    brawlerPower = playerInTeam.brawler.power ? ` P${playerInTeam.brawler.power}` : '';
-                    break;
-                }
-            }
-        }
+        // Get mode and map using helpers
+        const mode = BattlelogHelpers.getBattleMode(battle);
+        const map = BattlelogHelpers.getBattleMap(battle);
 
-        // Try solo modes
-        if (brawlerName === 'Unknown' && battle.battle?.players) {
-            const playerInBattle = battle.battle.players.find(p => p.tag === player.tag);
-            if (playerInBattle && playerInBattle.brawler) {
-                brawlerName = playerInBattle.brawler.name;
-                brawlerPower = playerInBattle.brawler.power ? ` P${playerInBattle.brawler.power}` : '';
-            }
-        }
-
-        // Get mode and map
-        const mode = battle.event?.mode || battle.battle?.mode || 'Unknown';
-        const map = battle.event?.map || 'Unknown Map';
-
-        // Get teammates (for 3v3)
+        // Get teammates using helper
         let teammatesHTML = '';
-        if (battle.battle?.teams) {
-            const playerTeam = battle.battle.teams.find(team => team.some(p => p.tag === player.tag));
-            if (playerTeam) {
-                const teammates = playerTeam.filter(p => p.tag !== player.tag);
-                if (teammates.length > 0) {
-                    const teammateNames = teammates.map(t => {
-                        // Use the name from battle data, fallback to tracked player name, then 'Unknown'
-                        const name = t.name || this.getPlayerName(t.tag) || 'Unknown';
-                        const brawler = t.brawler?.name || '?';
-                        return `${name} (${brawler})`;
-                    }).join(', ');
-                    teammatesHTML = `<div class="battle-teammates">Teammates: ${teammateNames}</div>`;
-                }
-            }
+        const teammates = BattlelogHelpers.getTeammatesFromBattle(battle, player.tag);
+        if (teammates.length > 0) {
+            const teammateNames = teammates.map(t => {
+                // Use the name from battle data, fallback to tracked player name, then 'Unknown'
+                const name = t.name || this.getPlayerName(t.tag) || 'Unknown';
+                const brawler = t.brawler?.name || '?';
+                return `${name} (${brawler})`;
+            }).join(', ');
+            teammatesHTML = `<div class="battle-teammates">Teammates: ${teammateNames}</div>`;
         }
 
-        // Format time ago
+        // Format time ago using helper
         const battleDate = Utils.parseBattleTime(battle.battleTime);
-        const timeAgo = battleDate ? this.formatTimeAgo(battleDate) : 'unknown';
+        const timeAgo = battleDate ? ViewHelpers.formatTimeAgo(battleDate) : 'unknown';
 
         // Result display
         const resultIcon = result === 'win' ? '✅' : result === 'loss' ? '❌' : '➖';
@@ -394,18 +367,6 @@ const BattlesManager = {
         return player ? player.name : null;
     },
 
-    formatTimeAgo(date) {
-        const now = new Date();
-        const diff = now - date;
-        const minutes = Math.floor(diff / 60000);
-        const hours = Math.floor(minutes / 60);
-        const days = Math.floor(hours / 24);
-
-        if (days > 0) return `${days}d ago`;
-        if (hours > 0) return `${hours}h ago`;
-        if (minutes > 0) return `${minutes}m ago`;
-        return 'just now';
-    },
 
     setupEventHandlers() {
         // Filter handlers

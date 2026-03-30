@@ -1,4 +1,5 @@
 // Achievements module - displays player milestone timeline
+// Refactored to use shared helpers from helpers.js
 
 const AchievementsManager = {
     achievements: [],

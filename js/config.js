@@ -1,11 +1,105 @@
 // Configuration constants and utility functions for the frontend
 
-const Config = {
+// ============================================================================
+// GAME CONSTANTS - Brawl Stars game mechanics and costs
+// ============================================================================
+
+const GameConstants = {
     // Brawlers that currently have buffies available
     BUFFIED_BRAWLERS: [
         "NITA", "CROW", "BULL", "BO", "BIBI", "LEON",
         "SHELLY", "COLT", "SPIKE", "EMZ", "FRANK", "MORTIS"
-    ]
+    ],
+
+    // Power point costs to upgrade each level
+    POWER_POINT_COSTS: {
+        1: 0,
+        2: 20,
+        3: 30,
+        4: 50,
+        5: 80,
+        6: 130,
+        7: 210,
+        8: 340,
+        9: 550,
+        10: 890,
+        11: 1440
+    },
+
+    // Coin costs to upgrade each level
+    COIN_COSTS: {
+        1: 0,
+        2: 20,
+        3: 35,
+        4: 75,
+        5: 140,
+        6: 290,
+        7: 480,
+        8: 800,
+        9: 1250,
+        10: 1875,
+        11: 2800
+    },
+
+    // Item costs in coins
+    ITEM_COSTS: {
+        GADGET: 1000,
+        STAR_POWER: 2000,
+        HYPERCHARGE: 5000
+    },
+
+    // Trophy threshold for prestige levels
+    PRESTIGE_THRESHOLD: 1000,
+
+    // Criteria for a "maxed" brawler
+    MAXED_CRITERIA: {
+        power: 11,
+        gadgets: 2,
+        starPowers: 2,
+        hypercharges: 1
+    },
+
+    // Color palette for charts (shared across all visualizations)
+    COLOR_PALETTE: [
+        '#4a9eff', // Blue
+        '#9d4edd', // Purple
+        '#06d6a0', // Green
+        '#ff9f1c', // Orange
+        '#ef476f', // Red
+        '#118ab2', // Teal
+        '#ffd60a'  // Yellow
+    ],
+
+    // Prestige level colors for prestige chart
+    PRESTIGE_COLORS: {
+        0: '#e8eaed',  // White (0-999)
+        1: '#9d4edd',  // Purple (1000-1999)
+        2: '#ef476f',  // Red (2000-2999)
+        3: '#ffd60a',  // Yellow (3000-3999)
+        4: '#ff9f1c',  // Orange (4000-4999)
+        5: '#06d6a0',  // Green (5000-5999)
+        6: '#4a9eff',  // Blue (6000-6999)
+        7: '#118ab2'   // Teal (7000+)
+    },
+
+    // Game mode colors for mode popularity charts
+    MODE_COLORS: {
+        'gemGrab': '#06d6a0',
+        'brawlBall': '#4a9eff',
+        'bounty': '#ff9f1c',
+        'heist': '#ef476f',
+        'hotZone': '#9d4edd',
+        'knockout': '#118ab2',
+        'showdown': '#ffd60a',
+        'duoShowdown': '#ffb703',
+        'soloShowdown': '#ffd60a',
+        'wipeout': '#e63946'
+    }
+};
+
+// Legacy export for backwards compatibility
+const Config = {
+    BUFFIED_BRAWLERS: GameConstants.BUFFIED_BRAWLERS
 };
 
 // Utility functions

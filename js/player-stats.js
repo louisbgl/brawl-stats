@@ -1,4 +1,5 @@
-// Player Stats module - detailed player analysis
+// Player Stats module - displays detailed individual player analysis
+// Refactored to use shared helpers from helpers.js and constants from config.js
 
 const PlayerStatsManager = {
     currentPlayer: null,
@@ -186,10 +187,7 @@ const PlayerStatsManager = {
 
     getMaxedBrawlersCount() {
         return this.currentPlayer.brawlers.filter(b =>
-            b.power === 11 &&
-            b.gadget_ids.length >= 2 &&
-            b.star_power_ids.length >= 2 &&
-            b.hyper_charge_ids.length >= 1
+            CalculationHelpers.isMaxedBrawler(b)
         ).length;
     },
 
@@ -322,129 +320,16 @@ const PlayerStatsManager = {
     },
 
     getTrophyTimeline() {
-        const timeline = {
-            dates: [],
-            trophies: [],
-            sources: [],
-            snapshotDates: [],
-            snapshotTrophies: [],
-            snapshotTimestamps: []
-        };
+        const battles = BattlelogDataManager.isLoaded
+            ? BattlelogDataManager.getBattlesForPlayer(this.currentPlayer.tag)
+            : [];
 
-        // Store daily snapshots separately for trend calculations
-        DataManager.historicalData.forEach(snapshot => {
-            const player = DataManager.findPlayerInSnapshot(snapshot, this.currentPlayer.tag);
-            if (player) {
-                timeline.snapshotDates.push(snapshot.date);
-                timeline.snapshotTrophies.push(player.trophies);
-                timeline.snapshotTimestamps.push(snapshot.timestamp);
-            }
-        });
-
-
-        // If no battlelog data, just use snapshots
-        if (!BattlelogDataManager.isLoaded) {
-            timeline.dates = [...timeline.snapshotDates];
-            timeline.trophies = [...timeline.snapshotTrophies];
-            timeline.sources = new Array(timeline.dates.length).fill('snapshot');
-            return timeline;
-        }
-
-        const battles = BattlelogDataManager.getBattlesForPlayer(this.currentPlayer.tag);
-        if (battles.length === 0) {
-            timeline.dates = [...timeline.snapshotDates];
-            timeline.trophies = [...timeline.snapshotTrophies];
-            timeline.sources = new Array(timeline.dates.length).fill('snapshot');
-            return timeline;
-        }
-
-        // Build timeline: snapshots are source of truth, battles add granularity
-        // Algorithm: Add all snapshots as anchor points, then reconstruct trophy counts using battles
-        const points = [];
-
-        // Add all snapshot points
-        timeline.snapshotDates.forEach((date, i) => {
-            points.push({
-                date: new Date(timeline.snapshotTimestamps[i]),
-                dateStr: date,
-                trophies: timeline.snapshotTrophies[i],
-                source: 'snapshot',
-                isAnchor: true
-            });
-        });
-
-        // If we have snapshots, add battle granularity between snapshots
-        if (timeline.snapshotTimestamps.length > 0) {
-            // Convert battles to sorted list with timestamps
-            const battlesWithTime = battles.map(b => {
-                const date = Utils.parseBattleTime(b.battleTime);
-                return {
-                    time: date,
-                    timeStr: date ? date.toISOString() : null,
-                    trophyChange: b.battle.trophyChange || 0
-                };
-            }).filter(b => b.time !== null).sort((a, b) => a.time - b.time);
-
-            // Process battles between snapshots
-            for (let snapshotIdx = 0; snapshotIdx < timeline.snapshotTimestamps.length; snapshotIdx++) {
-                const snapshotTime = new Date(timeline.snapshotTimestamps[snapshotIdx]);
-                const snapshotTrophies = timeline.snapshotTrophies[snapshotIdx];
-                const nextSnapshotTime = snapshotIdx < timeline.snapshotTimestamps.length - 1
-                    ? new Date(timeline.snapshotTimestamps[snapshotIdx + 1])
-                    : new Date(); // For the last snapshot, go up to now
-
-                // Find battles between this snapshot and the next
-                const battlesInRange = battlesWithTime.filter(b =>
-                    b.time > snapshotTime && b.time <= nextSnapshotTime
-                );
-
-                if (battlesInRange.length > 0) {
-                    // Working backwards from the next snapshot (or current trophy count)
-                    let currentTrophies = snapshotIdx < timeline.snapshotTimestamps.length - 1
-                        ? timeline.snapshotTrophies[snapshotIdx + 1]
-                        : snapshotTrophies; // For last snapshot, start from its value
-
-                    // If this is the last snapshot, calculate forward from it
-                    if (snapshotIdx === timeline.snapshotTimestamps.length - 1) {
-                        battlesInRange.forEach(battle => {
-                            currentTrophies += battle.trophyChange;
-                            points.push({
-                                date: battle.time,
-                                dateStr: battle.timeStr,
-                                trophies: currentTrophies,
-                                source: 'battle',
-                                isAnchor: false
-                            });
-                        });
-                    } else {
-                        // For battles between two snapshots, work backwards from next snapshot
-                        // to ensure we end up at the correct trophy count
-                        const battlePoints = [];
-                        for (let i = battlesInRange.length - 1; i >= 0; i--) {
-                            const battle = battlesInRange[i];
-                            currentTrophies -= battle.trophyChange;
-                            battlePoints.unshift({
-                                date: battle.time,
-                                dateStr: battle.timeStr,
-                                trophies: currentTrophies + battle.trophyChange,
-                                source: 'battle',
-                                isAnchor: false
-                            });
-                        }
-                        points.push(...battlePoints);
-                    }
-                }
-            }
-        }
-
-        // Sort all points chronologically
-        points.sort((a, b) => a.date - b.date);
-
-        timeline.dates = points.map(p => p.dateStr);
-        timeline.trophies = points.map(p => p.trophies);
-        timeline.sources = points.map(p => p.source);
-
-        return timeline;
+        return BattlelogHelpers.constructTrophyTimeline(
+            this.currentPlayer.tag,
+            DataManager.historicalData,
+            battles,
+            null
+        );
     },
 
     getTrendIndicatorsHTML() {
@@ -574,139 +459,10 @@ const PlayerStatsManager = {
     },
 
     calculateUpgradeCosts() {
-        // Brawl Stars upgrade costs
-        const POWER_POINT_COSTS = {
-            1: 0,
-            2: 20,
-            3: 30,
-            4: 50,
-            5: 80,
-            6: 130,
-            7: 210,
-            8: 340,
-            9: 550,
-            10: 890,
-            11: 1440
-        };
-
-        const COIN_COSTS = {
-            1: 0,
-            2: 20,
-            3: 35,
-            4: 75,
-            5: 140,
-            6: 290,
-            7: 480,
-            8: 800,
-            9: 1250,
-            10: 1875,
-            11: 2800
-        };
-
-        const GADGET_COST = 1000;
-        const STAR_POWER_COST = 2000;
-        const HYPERCHARGE_COST = 5000;
-
-        let currentWorthCoins = 0;
-        let currentWorthPowerPoints = 0;
-        let costToMaxCoins = 0;
-        let costToMaxPowerPoints = 0;
-        let missingGadgets = 0;
-        let missingStarPowers = 0;
-        let missingHypercharges = 0;
-        let belowP11 = 0;
-
-        const totalBrawlers = this.brawlersRef.length;
-
-        this.currentPlayer.brawlers.forEach(b => {
-            // Power level costs
-            for (let p = 1; p <= b.power; p++) {
-                currentWorthCoins += COIN_COSTS[p];
-                currentWorthPowerPoints += POWER_POINT_COSTS[p];
-            }
-            if (b.power < 11) {
-                belowP11++;
-                for (let p = b.power + 1; p <= 11; p++) {
-                    costToMaxCoins += COIN_COSTS[p];
-                    costToMaxPowerPoints += POWER_POINT_COSTS[p];
-                }
-            }
-
-            const brawlerRef = this.brawlersRef.find(br => br.name === b.name);
-            if (brawlerRef) {
-                // Gadgets
-                const gadgetsOwned = b.gadget_ids.length;
-                const gadgetsAvailable = (brawlerRef.gadgets || []).length;
-                currentWorthCoins += gadgetsOwned * GADGET_COST;
-                const gadgetsMissing = Math.max(0, gadgetsAvailable - gadgetsOwned);
-                missingGadgets += gadgetsMissing;
-                costToMaxCoins += gadgetsMissing * GADGET_COST;
-
-                // Star Powers
-                const spOwned = b.star_power_ids.length;
-                const spAvailable = (brawlerRef.starPowers || []).length;
-                currentWorthCoins += spOwned * STAR_POWER_COST;
-                const spMissing = Math.max(0, spAvailable - spOwned);
-                missingStarPowers += spMissing;
-                costToMaxCoins += spMissing * STAR_POWER_COST;
-
-                // Hypercharges
-                const hcOwned = b.hyper_charge_ids.length;
-                const hcAvailable = (brawlerRef.hyperCharges || []).length;
-                currentWorthCoins += hcOwned * HYPERCHARGE_COST;
-                const hcMissing = Math.max(0, hcAvailable - hcOwned);
-                missingHypercharges += hcMissing;
-                costToMaxCoins += hcMissing * HYPERCHARGE_COST;
-            }
-        });
-
-        // Add cost for missing brawlers (assume they need everything)
-        const missingBrawlers = this.getMissingBrawlers();
-        missingBrawlers.forEach(brawlerName => {
-            const brawlerRef = this.brawlersRef.find(br => br.name === brawlerName);
-            if (brawlerRef) {
-                // Cost to get to P11
-                for (let p = 1; p <= 11; p++) {
-                    costToMaxCoins += COIN_COSTS[p];
-                    costToMaxPowerPoints += POWER_POINT_COSTS[p];
-                }
-                belowP11++;
-
-                // All items
-                const gadgetsAvailable = (brawlerRef.gadgets || []).length;
-                const spAvailable = (brawlerRef.starPowers || []).length;
-                const hcAvailable = (brawlerRef.hyperCharges || []).length;
-
-                missingGadgets += gadgetsAvailable;
-                missingStarPowers += spAvailable;
-                missingHypercharges += hcAvailable;
-
-                costToMaxCoins += gadgetsAvailable * GADGET_COST;
-                costToMaxCoins += spAvailable * STAR_POWER_COST;
-                costToMaxCoins += hcAvailable * HYPERCHARGE_COST;
-            }
-        });
-
-        const totalCoins = currentWorthCoins + costToMaxCoins;
-        const totalPowerPoints = currentWorthPowerPoints + costToMaxPowerPoints;
-        const progressPercent = totalCoins > 0 ? Math.round((currentWorthCoins / totalCoins) * 100) : 0;
-
-        return {
-            currentWorthCoins,
-            currentWorthPowerPoints,
-            costToMaxCoins,
-            costToMaxPowerPoints,
-            totalCoins,
-            totalPowerPoints,
-            progressPercent,
-            missingBrawlers,
-            missingItems: {
-                gadgets: missingGadgets,
-                starPowers: missingStarPowers,
-                hypercharges: missingHypercharges,
-                belowP11
-            }
-        };
+        return CalculationHelpers.calculateUpgradeCosts(
+            this.currentPlayer.brawlers,
+            this.brawlersRef
+        );
     },
 
     setupBrawlerFilter() {
@@ -962,50 +718,8 @@ const PlayerStatsManager = {
             return '';
         }
 
-        // Aggregate brawler stats - need to find which brawler the player used
-        const brawlerStats = {};
-        battles.forEach(b => {
-            let brawlerName = null;
-
-            // Team modes
-            if (b.battle.teams) {
-                for (const team of b.battle.teams) {
-                    const player = team.find(p => p.tag === tag);
-                    if (player) {
-                        brawlerName = player.brawler.name;
-                        break;
-                    }
-                }
-            }
-
-            // Solo showdown
-            if (!brawlerName && b.battle.players) {
-                const player = b.battle.players.find(p => p.tag === tag);
-                if (player) {
-                    brawlerName = player.brawler.name;
-                }
-            }
-
-            if (brawlerName) {
-                if (!brawlerStats[brawlerName]) {
-                    brawlerStats[brawlerName] = {
-                        name: brawlerName,
-                        games: 0,
-                        wins: 0,
-                        trophyChange: 0,
-                        mvps: 0
-                    };
-                }
-                brawlerStats[brawlerName].games++;
-                if (BattlelogAnalytics.isWin(b)) brawlerStats[brawlerName].wins++;
-                brawlerStats[brawlerName].trophyChange += b.battle.trophyChange || 0;
-
-                const starPlayer = b.battle.starPlayer;
-                if (starPlayer && starPlayer.tag === tag && starPlayer.brawler.name === brawlerName) {
-                    brawlerStats[brawlerName].mvps++;
-                }
-            }
-        });
+        // Calculate brawler stats using shared helper
+        const brawlerStats = BattlelogHelpers.calculateBrawlerStats(tag, battles);
 
         const brawlerArray = Object.values(brawlerStats).filter(b => b.games >= 10);
         brawlerArray.forEach(b => b.winRate = (b.wins / b.games) * 100);
@@ -1099,74 +813,12 @@ const PlayerStatsManager = {
             return '';
         }
 
-        // Aggregate brawler stats
-        const brawlerStats = {};
-        battles.forEach(b => {
-            let brawlerName = null;
-
-            if (b.battle.teams) {
-                for (const team of b.battle.teams) {
-                    const player = team.find(p => p.tag === tag);
-                    if (player) {
-                        brawlerName = player.brawler.name;
-                        break;
-                    }
-                }
-            }
-
-            if (!brawlerName && b.battle.players) {
-                const player = b.battle.players.find(p => p.tag === tag);
-                if (player) {
-                    brawlerName = player.brawler.name;
-                }
-            }
-
-            if (brawlerName) {
-                if (!brawlerStats[brawlerName]) {
-                    brawlerStats[brawlerName] = {
-                        name: brawlerName,
-                        games: 0,
-                        wins: 0,
-                        trophyChange: 0,
-                        mvps: 0,
-                        lastPlayed: b.battleTime
-                    };
-                }
-                brawlerStats[brawlerName].games++;
-                if (BattlelogAnalytics.isWin(b)) brawlerStats[brawlerName].wins++;
-                brawlerStats[brawlerName].trophyChange += b.battle.trophyChange || 0;
-
-                const starPlayer = b.battle.starPlayer;
-                if (starPlayer && starPlayer.tag === tag && starPlayer.brawler.name === brawlerName) {
-                    brawlerStats[brawlerName].mvps++;
-                }
-
-                // Update last played if more recent
-                const currentBattleDate = Utils.parseBattleTime(b.battleTime);
-                const lastPlayedDate = Utils.parseBattleTime(brawlerStats[brawlerName].lastPlayed);
-                if (currentBattleDate && lastPlayedDate && currentBattleDate > lastPlayedDate) {
-                    brawlerStats[brawlerName].lastPlayed = b.battleTime;
-                }
-            }
-        });
+        // Calculate brawler stats using shared helper
+        const brawlerStats = BattlelogHelpers.calculateBrawlerStats(tag, battles);
 
         const brawlerArray = Object.values(brawlerStats);
         brawlerArray.forEach(b => b.winRate = (b.wins / b.games) * 100);
         brawlerArray.sort((a, b) => b.games - a.games);
-
-        const formatLastPlayed = (dateStr) => {
-            if (!dateStr) return 'Unknown';
-            // Convert 20260324T161433.000Z to ISO format
-            const isoDate = dateStr.replace(/(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/, '$1-$2-$3T$4:$5:$6');
-            const date = new Date(isoDate);
-            if (isNaN(date.getTime())) return 'Unknown';
-            const now = new Date();
-            const diffMs = now - date;
-            const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-            if (diffDays === 0) return 'Today';
-            if (diffDays === 1) return 'Yesterday';
-            return `${diffDays} days ago`;
-        };
 
         const tableRows = brawlerArray.map(b => `
             <tr>
@@ -1174,7 +826,7 @@ const PlayerStatsManager = {
                 <td>${b.games}</td>
                 <td>${b.wins}-${b.games - b.wins} (${b.winRate.toFixed(1)}%)</td>
                 <td class="${b.trophyChange >= 0 ? 'trophy-positive' : 'trophy-negative'}">${b.trophyChange > 0 ? '+' : ''}${b.trophyChange}</td>
-                <td>${formatLastPlayed(b.lastPlayed)}</td>
+                <td>${ViewHelpers.formatLastPlayed(b.lastPlayed)}</td>
                 <td>${b.mvps}</td>
             </tr>
         `).join('');
