@@ -45,6 +45,45 @@ const AchievementsManager = {
         this.filteredAchievements = filtered;
     },
 
+    applyFiltersFromURL(playerFilter, dateRange, types) {
+        // Apply filters from URL parameters
+        if (playerFilter && playerFilter !== 'all') {
+            this.currentFilters.player = playerFilter;
+        }
+        if (dateRange && ['all', '7days', '30days'].includes(dateRange)) {
+            this.currentFilters.dateRange = dateRange;
+        }
+        if (types && types.length > 0) {
+            // Parse types from URL (comma-separated or array)
+            const typeArray = Array.isArray(types) ? types : types[0].split(',');
+            this.currentFilters.types = new Set(typeArray.filter(t => t && t !== 'all'));
+        }
+
+        this.applyFilters();
+        this.render();
+        this.setupFilterHandlers();
+    },
+
+    updateURL() {
+        // Update URL with current filters
+        const params = [];
+
+        // Player filter
+        params.push(this.currentFilters.player !== 'all' ? this.currentFilters.player : 'all');
+
+        // Date range filter
+        params.push(this.currentFilters.dateRange);
+
+        // Achievement types (comma-separated)
+        if (this.currentFilters.types.size > 0) {
+            params.push(Array.from(this.currentFilters.types).join(','));
+        } else {
+            params.push('none');
+        }
+
+        Router.updateURL('achievements', params);
+    },
+
     render() {
         const container = document.getElementById('achievementsContainer');
         if (!container) return;
@@ -164,27 +203,7 @@ const AchievementsManager = {
     },
 
     formatDateHeader(dateStr) {
-        const date = new Date(dateStr + 'T00:00:00');
-        const today = new Date();
-        const yesterday = new Date(today);
-        yesterday.setDate(yesterday.getDate() - 1);
-
-        today.setHours(0, 0, 0, 0);
-        yesterday.setHours(0, 0, 0, 0);
-        date.setHours(0, 0, 0, 0);
-
-        if (date.getTime() === today.getTime()) {
-            return 'Today';
-        } else if (date.getTime() === yesterday.getTime()) {
-            return 'Yesterday';
-        } else {
-            return date.toLocaleDateString('en-US', {
-                weekday: 'long',
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-            });
-        }
+        return Utils.formatDateHeader(dateStr);
     },
 
     generateAchievementCard(achievement) {
@@ -266,6 +285,7 @@ const AchievementsManager = {
             playerFilter.addEventListener('change', (e) => {
                 this.currentFilters.player = e.target.value;
                 this.applyFilters();
+                this.updateURL();
                 this.render();
                 this.setupFilterHandlers(); // Re-attach handlers
             });
@@ -277,6 +297,7 @@ const AchievementsManager = {
             dateFilter.addEventListener('change', (e) => {
                 this.currentFilters.dateRange = e.target.value;
                 this.applyFilters();
+                this.updateURL();
                 this.render();
                 this.setupFilterHandlers();
             });
@@ -288,6 +309,7 @@ const AchievementsManager = {
             selectAllBtn.addEventListener('click', () => {
                 this.currentFilters.types = new Set(['new_brawler', 'maxed_brawler', 'gadget', 'star_power', 'hypercharge', 'prestige', 'trophy_milestone', 'first_prestige_level', 'total_prestiges']);
                 this.applyFilters();
+                this.updateURL();
                 this.render();
                 this.setupFilterHandlers();
             });
@@ -299,6 +321,7 @@ const AchievementsManager = {
             deselectAllBtn.addEventListener('click', () => {
                 this.currentFilters.types.clear();
                 this.applyFilters();
+                this.updateURL();
                 this.render();
                 this.setupFilterHandlers();
             });
@@ -315,6 +338,7 @@ const AchievementsManager = {
                     this.currentFilters.types.delete(type);
                 }
                 this.applyFilters();
+                this.updateURL();
                 this.render();
                 this.setupFilterHandlers();
             });

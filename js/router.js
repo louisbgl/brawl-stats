@@ -15,11 +15,19 @@ const Router = {
         'timelines': () => {
             Router.switchToTab('timelines');
         },
-        'achievements': () => {
+        'achievements': (playerFilter, dateRange, ...types) => {
             Router.switchToTab('achievements');
+            if (playerFilter || dateRange || types.length > 0) {
+                // Apply filters from URL
+                AchievementsManager.applyFiltersFromURL(playerFilter, dateRange, types);
+            }
         },
-        'battles': () => {
+        'battles': (playerFilter, modeFilter, resultFilter) => {
             Router.switchToTab('battles');
+            if (playerFilter || modeFilter || resultFilter) {
+                // Apply filters from URL
+                BattlesManager.applyFiltersFromURL(playerFilter, modeFilter, resultFilter);
+            }
         }
     },
 

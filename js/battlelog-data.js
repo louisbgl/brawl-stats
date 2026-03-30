@@ -23,24 +23,17 @@ const BattlelogDataManager = {
 
     // Ensure battlelog data is loaded before using
     async ensureLoaded() {
-        console.log(`BattlelogDataManager.ensureLoaded: loadingPromise=${!!this.loadingPromise}, isLoaded=${this.isLoaded}, cacheSize=${this.battlelogsCache.size}`);
-
         // If already loaded, return immediately
         if (this.isLoaded && this.battlelogsCache.size > 0) {
-            console.log('BattlelogDataManager.ensureLoaded: Already loaded');
             return true;
         }
 
         // If loading promise exists, wait for it
         if (this.loadingPromise) {
-            console.log('BattlelogDataManager.ensureLoaded: Awaiting existing loadingPromise...');
             await this.loadingPromise;
-            console.log(`BattlelogDataManager.ensureLoaded: Promise resolved, isLoaded=${this.isLoaded}, cacheSize=${this.battlelogsCache.size}`);
         } else {
             // No promise exists, start loading now
-            console.log('BattlelogDataManager.ensureLoaded: No loading in progress, starting now...');
             await this.init();
-            console.log(`BattlelogDataManager.ensureLoaded: Loading complete, isLoaded=${this.isLoaded}, cacheSize=${this.battlelogsCache.size}`);
         }
 
         return this.isLoaded;
@@ -56,20 +49,17 @@ const BattlelogDataManager = {
 
     async loadBattlelogForPlayer(tag) {
         const filename = tag.replace('#', '');
-        console.log(`BattlelogDataManager: Loading battlelog for ${tag} from data/battlelogs/${filename}.json`);
         try {
             const response = await fetch(`data/battlelogs/${filename}.json`);
-            console.log(`BattlelogDataManager: Fetch response for ${tag}: ${response.status} ${response.ok}`);
             if (response.ok) {
                 const battles = await response.json();
-                console.log(`BattlelogDataManager: Loaded ${battles.length} battles for ${tag}`);
                 this.battlelogsCache.set(tag, battles);
                 return battles;
             } else {
-                console.warn(`BattlelogDataManager: Failed to load battlelog for ${tag}: ${response.status}`);
+                console.warn(`Failed to load battlelog for ${tag}: ${response.status}`);
             }
         } catch (error) {
-            console.warn(`BattlelogDataManager: Error loading battlelog for ${tag}:`, error);
+            console.warn(`Error loading battlelog for ${tag}:`, error);
         }
         return [];
     },

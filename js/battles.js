@@ -8,18 +8,15 @@ const BattlesManager = {
         mode: 'all',
         result: 'all' // 'all', 'win', 'loss', 'draw'
     },
-    currentWeekOffset: 0, // 0 = current week, 1 = last week, etc.
+    currentDayOffset: 0, // 0 = today, 1 = yesterday, etc.
+    daysToLoad: 7, // Show 7 days at a time
 
     async init() {
-        console.log('BattlesManager: Initializing...');
         // Ensure battlelog data is actually loaded before proceeding
         await BattlelogDataManager.ensureLoaded();
-        console.log('BattlesManager: Battlelog data confirmed loaded');
 
         this.loadBattles();
-        console.log(`BattlesManager: Loaded ${this.battles.length} total battles`);
         this.applyFilters();
-        console.log(`BattlesManager: After filters, ${this.filteredBattles.length} battles remain`);
         this.render();
     },
 
@@ -27,11 +24,9 @@ const BattlesManager = {
         // Get all battles from battlelog data
         const allBattles = [];
         const players = DataManager.getAllPlayers();
-        console.log(`BattlesManager: Loading battles for ${players.length} players`);
 
         players.forEach(player => {
             const playerBattles = BattlelogDataManager.getBattlesForPlayer(player.tag);
-            console.log(`BattlesManager: Player ${player.name} (${player.tag}) has ${playerBattles.length} battles`);
             playerBattles.forEach(battle => {
                 allBattles.push({
                     player: player,
@@ -41,13 +36,14 @@ const BattlesManager = {
         });
 
         // Sort by date descending (newest first)
-        allBattles.sort((a, b) => new Date(b.battle.battleTime) - new Date(a.battle.battleTime));
+        allBattles.sort((a, b) => {
+            const dateA = Utils.parseBattleTime(a.battle.battleTime);
+            const dateB = Utils.parseBattleTime(b.battle.battleTime);
+            if (!dateA || !dateB) return 0;
+            return dateB - dateA;
+        });
 
         this.battles = allBattles;
-        if (allBattles.length > 0) {
-            console.log(`BattlesManager: First battle date: ${allBattles[0].battle.battleTime}`);
-            console.log(`BattlesManager: Last battle date: ${allBattles[allBattles.length - 1].battle.battleTime}`);
-        }
     },
 
     applyFilters() {
@@ -77,6 +73,45 @@ const BattlesManager = {
         this.filteredBattles = filtered;
     },
 
+    applyFiltersFromURL(playerFilter, modeFilter, resultFilter) {
+        // Apply filters from URL parameters
+        if (playerFilter && playerFilter !== 'all') {
+            this.currentFilters.player = playerFilter;
+        }
+        if (modeFilter && modeFilter !== 'all') {
+            this.currentFilters.mode = modeFilter;
+        }
+        if (resultFilter && resultFilter !== 'all') {
+            this.currentFilters.result = resultFilter;
+        }
+
+        this.currentDayOffset = 0;
+        this.applyFilters();
+        this.render();
+    },
+
+    updateURL() {
+        // Update URL with current filters
+        const params = [];
+        if (this.currentFilters.player !== 'all') {
+            params.push(this.currentFilters.player);
+        } else {
+            params.push('all');
+        }
+        if (this.currentFilters.mode !== 'all') {
+            params.push(this.currentFilters.mode);
+        } else {
+            params.push('all');
+        }
+        if (this.currentFilters.result !== 'all') {
+            params.push(this.currentFilters.result);
+        } else {
+            params.push('all');
+        }
+
+        Router.updateURL('battles', params);
+    },
+
     getBattleResult(battleEntry) {
         const trophyChange = battleEntry.battle.battle?.trophyChange || 0;
         if (trophyChange > 0) return 'win';
@@ -84,51 +119,73 @@ const BattlesManager = {
         return 'draw';
     },
 
-    getBattlesForCurrentWeek() {
+    getBattlesGroupedByDay() {
+        // Calculate date range: from (currentDayOffset) to (currentDayOffset + daysToLoad) days ago
         const now = new Date();
+        const endDate = new Date(now);
+        endDate.setDate(now.getDate() - this.currentDayOffset);
+        endDate.setHours(23, 59, 59, 999); // End of the most recent day
 
-        // Calculate start of current week (Monday at 00:00 local time)
-        const currentDayOfWeek = now.getDay(); // 0 = Sunday, 1 = Monday, etc.
-        const daysToMonday = currentDayOfWeek === 0 ? 6 : currentDayOfWeek - 1; // If Sunday, go back 6 days
+        const startDate = new Date(endDate);
+        startDate.setDate(endDate.getDate() - (this.daysToLoad - 1));
+        startDate.setHours(0, 0, 0, 0); // Start of the oldest day
 
-        const weekStart = new Date(now);
-        weekStart.setDate(now.getDate() - daysToMonday - (this.currentWeekOffset * 7));
-        weekStart.setHours(0, 0, 0, 0);
+        // Filter battles in range and group by day
+        const grouped = {};
 
-        const weekEnd = new Date(weekStart);
-        weekEnd.setDate(weekStart.getDate() + 7);
+        this.filteredBattles.forEach(b => {
+            const battleDate = Utils.parseBattleTime(b.battle.battleTime);
+            if (!battleDate) return;
 
-        console.log(`BattlesManager: Week range for offset ${this.currentWeekOffset}: ${weekStart.toISOString()} to ${weekEnd.toISOString()}`);
-        console.log(`BattlesManager: Now: ${now.toISOString()}, Day of week: ${currentDayOfWeek}`);
-        console.log(`BattlesManager: Filtering ${this.filteredBattles.length} battles for current week`);
+            if (battleDate >= startDate && battleDate <= endDate) {
+                // Get day string (YYYY-MM-DD in local time)
+                const year = battleDate.getFullYear();
+                const month = String(battleDate.getMonth() + 1).padStart(2, '0');
+                const day = String(battleDate.getDate()).padStart(2, '0');
+                const dayKey = `${year}-${month}-${day}`;
 
-        const weekBattles = this.filteredBattles.filter(b => {
-            const battleDate = new Date(b.battle.battleTime);
-            return battleDate >= weekStart && battleDate < weekEnd;
+                if (!grouped[dayKey]) {
+                    grouped[dayKey] = [];
+                }
+                grouped[dayKey].push(b);
+            }
         });
 
-        console.log(`BattlesManager: Found ${weekBattles.length} battles in current week`);
-        if (weekBattles.length > 0) {
-            console.log(`BattlesManager: First battle in week: ${weekBattles[0].battle.battleTime}`);
-            console.log(`BattlesManager: Last battle in week: ${weekBattles[weekBattles.length - 1].battle.battleTime}`);
-        }
-        return weekBattles;
+        return grouped;
     },
 
-    getWeekLabel() {
-        if (this.currentWeekOffset === 0) return 'This Week';
-        if (this.currentWeekOffset === 1) return 'Last Week';
-        return `${this.currentWeekOffset} Weeks Ago`;
-    },
-
-    hasMoreWeeks() {
-        // Check if there are battles older than current week range
+    getDateRangeLabel() {
         const now = new Date();
-        const weekStart = new Date(now);
-        weekStart.setDate(now.getDate() - ((this.currentWeekOffset + 1) * 7) - now.getDay());
-        weekStart.setHours(0, 0, 0, 0);
+        const endDate = new Date(now);
+        endDate.setDate(now.getDate() - this.currentDayOffset);
 
-        return this.filteredBattles.some(b => new Date(b.battle.battleTime) < weekStart);
+        const startDate = new Date(endDate);
+        startDate.setDate(endDate.getDate() - (this.daysToLoad - 1));
+
+        if (this.currentDayOffset === 0) {
+            return 'Last 7 Days';
+        }
+
+        const formatDate = (d) => {
+            const month = String(d.getMonth() + 1).padStart(2, '0');
+            const day = String(d.getDate()).padStart(2, '0');
+            return `${month}/${day}`;
+        };
+
+        return `${formatDate(startDate)} - ${formatDate(endDate)}`;
+    },
+
+    hasMoreDays() {
+        // Check if there are battles older than current date range
+        const now = new Date();
+        const oldestDate = new Date(now);
+        oldestDate.setDate(now.getDate() - this.currentDayOffset - this.daysToLoad);
+        oldestDate.setHours(23, 59, 59, 999);
+
+        return this.filteredBattles.some(b => {
+            const battleDate = Utils.parseBattleTime(b.battle.battleTime);
+            return battleDate && battleDate < oldestDate;
+        });
     },
 
     render() {
@@ -192,37 +249,59 @@ const BattlesManager = {
     },
 
     generateFeedHTML() {
-        const weekBattles = this.getBattlesForCurrentWeek();
+        const groupedBattles = this.getBattlesGroupedByDay();
+        const dayKeys = Object.keys(groupedBattles).sort().reverse(); // Newest first
 
-        if (weekBattles.length === 0) {
+        if (dayKeys.length === 0) {
             return `
                 <div class="card">
-                    <h2>${this.getWeekLabel()}</h2>
+                    <h2>${this.getDateRangeLabel()}</h2>
                     <div style="text-align: center; padding: 40px; color: var(--text-secondary);">
-                        No battles found for this week
+                        No battles found in this date range
                     </div>
-                    ${this.hasMoreWeeks() ? '<button id="loadPreviousWeek" class="load-more-btn">Load Previous Week</button>' : ''}
+                    ${this.hasMoreDays() ? '<button id="loadOlderBattles" class="load-more-btn">Load Older Battles</button>' : ''}
                 </div>
             `;
         }
 
-        const battlesList = weekBattles.map(b => this.generateBattleEntryHTML(b)).join('');
+        // Count total battles in this range
+        const totalInRange = dayKeys.reduce((sum, day) => sum + groupedBattles[day].length, 0);
+
+        // Generate HTML for each day
+        const daysHTML = dayKeys.map(dayKey => {
+            const battles = groupedBattles[dayKey];
+            const battlesList = battles.map(b => this.generateBattleEntryHTML(b)).join('');
+            const dayLabel = this.formatDayLabel(dayKey);
+
+            return `
+                <div class="day-group">
+                    <div class="day-header">${dayLabel} <span style="color: var(--text-secondary); font-size: 0.9rem;">(${battles.length} battles)</span></div>
+                    <div class="battles-feed">
+                        ${battlesList}
+                    </div>
+                </div>
+            `;
+        }).join('');
 
         return `
             <div class="card">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-                    <h2>${this.getWeekLabel()}</h2>
+                    <h2>${this.getDateRangeLabel()}</h2>
                     <div style="color: var(--text-secondary); font-size: 0.9rem;">
-                        ${weekBattles.length} battle${weekBattles.length !== 1 ? 's' : ''}
+                        ${totalInRange} battle${totalInRange !== 1 ? 's' : ''} (${this.filteredBattles.length} total)
                     </div>
                 </div>
-                <div class="battles-feed">
-                    ${battlesList}
+                ${daysHTML}
+                <div style="display: flex; gap: 10px; margin-top: 20px;">
+                    ${this.hasMoreDays() ? '<button id="loadOlderBattles" class="load-more-btn">Load Older (7 days)</button>' : ''}
+                    ${this.currentDayOffset > 0 ? '<button id="loadNewerBattles" class="load-more-btn">Load Newer (7 days)</button>' : ''}
                 </div>
-                ${this.hasMoreWeeks() ? '<button id="loadPreviousWeek" class="load-more-btn">Load Previous Week</button>' : ''}
-                ${this.currentWeekOffset > 0 ? '<button id="loadNewerWeek" class="load-more-btn" style="margin-top: 10px;">Load Newer Week</button>' : ''}
             </div>
         `;
+    },
+
+    formatDayLabel(dayKey) {
+        return Utils.formatDayLabel(dayKey);
     },
 
     generateBattleEntryHTML(battleEntry) {
@@ -267,7 +346,8 @@ const BattlesManager = {
                 const teammates = playerTeam.filter(p => p.tag !== player.tag);
                 if (teammates.length > 0) {
                     const teammateNames = teammates.map(t => {
-                        const name = this.getPlayerName(t.tag) || 'Unknown';
+                        // Use the name from battle data, fallback to tracked player name, then 'Unknown'
+                        const name = t.name || this.getPlayerName(t.tag) || 'Unknown';
                         const brawler = t.brawler?.name || '?';
                         return `${name} (${brawler})`;
                     }).join(', ');
@@ -277,7 +357,8 @@ const BattlesManager = {
         }
 
         // Format time ago
-        const timeAgo = this.formatTimeAgo(new Date(battle.battleTime));
+        const battleDate = Utils.parseBattleTime(battle.battleTime);
+        const timeAgo = battleDate ? this.formatTimeAgo(battleDate) : 'unknown';
 
         // Result display
         const resultIcon = result === 'win' ? '✅' : result === 'loss' ? '❌' : '➖';
@@ -335,8 +416,9 @@ const BattlesManager = {
         if (playerFilter) {
             playerFilter.addEventListener('change', (e) => {
                 this.currentFilters.player = e.target.value;
-                this.currentWeekOffset = 0; // Reset to current week
+                this.currentDayOffset = 0; // Reset to today
                 this.applyFilters();
+                this.updateURL();
                 this.render();
             });
         }
@@ -344,8 +426,9 @@ const BattlesManager = {
         if (modeFilter) {
             modeFilter.addEventListener('change', (e) => {
                 this.currentFilters.mode = e.target.value;
-                this.currentWeekOffset = 0; // Reset to current week
+                this.currentDayOffset = 0; // Reset to today
                 this.applyFilters();
+                this.updateURL();
                 this.render();
             });
         }
@@ -353,26 +436,27 @@ const BattlesManager = {
         if (resultFilter) {
             resultFilter.addEventListener('change', (e) => {
                 this.currentFilters.result = e.target.value;
-                this.currentWeekOffset = 0; // Reset to current week
+                this.currentDayOffset = 0; // Reset to today
                 this.applyFilters();
+                this.updateURL();
                 this.render();
             });
         }
 
         // Pagination handlers
-        const loadPreviousBtn = document.getElementById('loadPreviousWeek');
-        const loadNewerBtn = document.getElementById('loadNewerWeek');
+        const loadOlderBtn = document.getElementById('loadOlderBattles');
+        const loadNewerBtn = document.getElementById('loadNewerBattles');
 
-        if (loadPreviousBtn) {
-            loadPreviousBtn.addEventListener('click', () => {
-                this.currentWeekOffset++;
+        if (loadOlderBtn) {
+            loadOlderBtn.addEventListener('click', () => {
+                this.currentDayOffset += this.daysToLoad;
                 this.render();
             });
         }
 
         if (loadNewerBtn) {
             loadNewerBtn.addEventListener('click', () => {
-                this.currentWeekOffset--;
+                this.currentDayOffset = Math.max(0, this.currentDayOffset - this.daysToLoad);
                 this.render();
             });
         }
