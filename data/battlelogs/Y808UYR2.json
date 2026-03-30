@@ -6424,5 +6424,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260330T124740.000Z",
+    "event": {
+      "id": 15000440,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flaring Phoenix"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 113,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 9
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#2GV08Y0UYP",
+            "name": "no name.",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#2UYJV20VCV",
+            "name": "ватафак",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 9
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9RGJU9J9V",
+            "name": "el.xandro",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#RL0RJGPV9",
+            "name": "𝕌𝕃𝕋ℝ𝔸 mili",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 10,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#2UYR80C88R",
+            "name": "nikto",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 10,
+              "trophies": 9
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260330T125029.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 89,
+      "starPlayer": {
+        "tag": "#2GYC2VC2GV",
+        "name": "Ecrin✨",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2ULV2YJC0U",
+            "name": "Noah647",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2CYPLQJJ0C",
+            "name": "TOM",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2URJUC9UJ0",
+            "name": "тюлень по имени",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QGCG9GQ29",
+            "name": "ccc",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2GYC2VC2GV",
+            "name": "Ecrin✨",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
