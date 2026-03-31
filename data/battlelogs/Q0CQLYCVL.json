@@ -7885,5 +7885,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260331T211806.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 109,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "く⁠コ⁠:⁠彡",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 786
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2PRRJRUJU",
+            "name": "OG Diddy",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 635
+            }
+          },
+          {
+            "tag": "#Y99YJGLQG",
+            "name": "あ| TD",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 889
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 786
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9GJJ00UJR",
+            "name": "🧨|FaZe_Sh4doW|",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 10,
+              "trophies": 913
+            }
+          },
+          {
+            "tag": "#2YJRGUYP2",
+            "name": "Nayaa秋",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 696
+            }
+          },
+          {
+            "tag": "#20R20C0VUU",
+            "name": "TH|¡GGH!",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1010
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

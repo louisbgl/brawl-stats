@@ -32075,5 +32075,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260331T211136.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 161,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2LGCLLPU2",
+        "name": "El Cactus",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 896
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RGLJRL8LL",
+            "name": "İMPOSSİBLE",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 10,
+              "trophies": 922
+            }
+          },
+          {
+            "tag": "#PPQQQVR8",
+            "name": "Night",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 11,
+              "trophies": 901
+            }
+          },
+          {
+            "tag": "#GGV2PCPV",
+            "name": "SugariestAntPL",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 831
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 896
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 9,
+              "trophies": 147
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 9,
+              "trophies": 870
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
