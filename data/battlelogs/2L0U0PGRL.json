@@ -11785,5 +11785,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260331T110410.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "friendly",
+      "result": "victory",
+      "duration": 150,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000031,
+          "name": "MR. P",
+          "power": -1,
+          "trophies": -1
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#8GQ",
+            "name": "Bot 1",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#9UC",
+            "name": "Bot 2",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y92",
+            "name": "Bot 3",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#LQY",
+            "name": "Bot 4",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#QCR",
+            "name": "Bot 5",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260331T110752.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 117,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#PYL0UUUV",
+        "name": "Salsabrava",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 691
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GVR0VYLLR",
+            "name": "reltih floda",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 841
+            }
+          },
+          {
+            "tag": "#RCG8CJ9C9",
+            "name": "T-T",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 9,
+              "trophies": 886
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 9,
+              "trophies": 695
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UURCURJL9",
+            "name": "ζ͜͡GregôrY💞",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 8,
+              "trophies": 405
+            }
+          },
+          {
+            "tag": "#2UGCU0UP99",
+            "name": "EMİN﷽",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1882
+            }
+          },
+          {
+            "tag": "#PYL0UUUV",
+            "name": "Salsabrava",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 691
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
