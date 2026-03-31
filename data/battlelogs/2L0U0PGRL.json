@@ -11693,5 +11693,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260331T110000.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 75,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000097,
+          "name": "MINA",
+          "power": 11,
+          "trophies": 539
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 539
+            }
+          },
+          {
+            "tag": "#2J99JQPPU2",
+            "name": "sigma theo",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 904
+            }
+          },
+          {
+            "tag": "#Q2GYRG2",
+            "name": "The King",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 10,
+              "trophies": 801
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YJYP00VYJ",
+            "name": "Ambre",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 10,
+              "trophies": 792
+            }
+          },
+          {
+            "tag": "#YJQRCR0PP",
+            "name": "TM|Thomas🤫",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 10,
+              "trophies": 793
+            }
+          },
+          {
+            "tag": "#YJQRY0QV8",
+            "name": "enzo_942",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 8,
+              "trophies": 715
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
