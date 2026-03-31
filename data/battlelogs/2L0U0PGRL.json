@@ -11158,5 +11158,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260331T001547.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "unknown",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 385,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#Q2YYUUYVQ",
+        "name": "Ra1DeN^^",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 903
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 822
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 876
+            }
+          },
+          {
+            "tag": "#2PVYUCPVU",
+            "name": "ma🤷🏻‍♂️",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 985
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9Y8YUV0RJ",
+            "name": "El DoDo",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1577
+            }
+          },
+          {
+            "tag": "#Q2YYUUYVQ",
+            "name": "Ra1DeN^^",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 903
+            }
+          },
+          {
+            "tag": "#P298UGC8Q",
+            "name": "Kahla(:",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWBERT",
+              "power": 9,
+              "trophies": 873
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
