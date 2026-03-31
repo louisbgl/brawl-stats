@@ -7793,5 +7793,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260331T150543.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 149,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#GCLQYC9QC",
+        "name": "kristoffer69",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 907
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y02YU88U9",
+            "name": "XK|Aaron",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 625
+            }
+          },
+          {
+            "tag": "#P0YV90LCL",
+            "name": "XK|Fractal",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 633
+            }
+          },
+          {
+            "tag": "#2JU09V0GRR",
+            "name": "SUP | BRK”",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 697
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 689
+            }
+          },
+          {
+            "tag": "#GCLQYC9QC",
+            "name": "kristoffer69",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 907
+            }
+          },
+          {
+            "tag": "#P9YRYVGC2",
+            "name": "Sleepy",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 628
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
