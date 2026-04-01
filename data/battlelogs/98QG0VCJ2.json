@@ -47734,5 +47734,103 @@
         "id": 3
       }
     }
+  },
+  {
+    "battleTime": "20260401T220101.000Z",
+    "event": {
+      "id": 15001184,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS BRUCE NITA"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawler": {
+            "id": 16000099,
+            "name": "PIERCE",
+            "power": 11,
+            "trophies": 1135
+          }
+        },
+        {
+          "tag": "#QJLY0VL9Q",
+          "name": "kiri3.0",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 1147
+          }
+        },
+        {
+          "tag": "#9JUPUR928",
+          "name": "×Sedoş_AZE",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1168
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20260401T220423.000Z",
+    "event": {
+      "id": 15001184,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS BRUCE NITA"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2C0Y0P2GVV",
+          "name": "Majola",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 1133
+          }
+        },
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawler": {
+            "id": 16000099,
+            "name": "PIERCE",
+            "power": 11,
+            "trophies": 1135
+          }
+        },
+        {
+          "tag": "#CVRVPPCL",
+          "name": "Brothersforever",
+          "brawler": {
+            "id": 16000020,
+            "name": "FRANK",
+            "power": 11,
+            "trophies": 1135
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible",
+        "id": 5
+      }
+    }
   }
 ]
