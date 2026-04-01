@@ -8725,5 +8725,103 @@
         "id": 3
       }
     }
+  },
+  {
+    "battleTime": "20260401T120237.000Z",
+    "event": {
+      "id": 15001184,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS BRUCE NITA"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#R2CPLRRCY",
+          "name": "dora",
+          "brawler": {
+            "id": 16000071,
+            "name": "DOUG",
+            "power": 11,
+            "trophies": 847
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "く⁠コ⁠:⁠彡",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 848
+          }
+        },
+        {
+          "tag": "#2CJ928RLPP",
+          "name": "noam pro",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 846
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20260401T120610.000Z",
+    "event": {
+      "id": 15001184,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS BRUCE NITA"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#QVYPRUCPP",
+          "name": "so|temin",
+          "brawler": {
+            "id": 16000071,
+            "name": "DOUG",
+            "power": 11,
+            "trophies": 824
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "く⁠コ⁠:⁠彡",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 848
+          }
+        },
+        {
+          "tag": "#2LLVVCC9RU",
+          "name": "𝓹𝓲𝓲🦭",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 832
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible",
+        "id": 5
+      }
+    }
   }
 ]
