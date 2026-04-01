@@ -12065,5 +12065,103 @@
         "id": 4
       }
     }
+  },
+  {
+    "battleTime": "20260401T165710.000Z",
+    "event": {
+      "id": 15001184,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS BRUCE NITA"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#9VLQPJRJR",
+          "name": "gdziejestfurman",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 11,
+            "trophies": 856
+          }
+        },
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000048,
+            "name": "GROM",
+            "power": 11,
+            "trophies": 856
+          }
+        },
+        {
+          "tag": "#2UJ9GCGUCQ",
+          "name": "arlona",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 844
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20260401T170009.000Z",
+    "event": {
+      "id": 15001184,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS BRUCE NITA"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2QGRLVURPJ",
+          "name": "円周率",
+          "brawler": {
+            "id": 16000009,
+            "name": "DYNAMIKE",
+            "power": 11,
+            "trophies": 856
+          }
+        },
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000048,
+            "name": "GROM",
+            "power": 11,
+            "trophies": 856
+          }
+        },
+        {
+          "tag": "#2ULYR9UCU0",
+          "name": "nikoriko bortis",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 847
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible",
+        "id": 5
+      }
+    }
   }
 ]
