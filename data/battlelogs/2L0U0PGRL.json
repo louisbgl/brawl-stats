@@ -18418,5 +18418,54 @@
         "id": 5
       }
     }
+  },
+  {
+    "battleTime": "20260401T093037.000Z",
+    "event": {
+      "id": 15001184,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS BRUCE NITA"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#92UVRPUJ2",
+          "name": "соси",
+          "brawler": {
+            "id": 16000063,
+            "name": "CHESTER",
+            "power": 11,
+            "trophies": 1012
+          }
+        },
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000099,
+            "name": "PIERCE",
+            "power": 11,
+            "trophies": 1012
+          }
+        },
+        {
+          "tag": "#V8J9QLJGC",
+          "name": "Muhammet JR 7",
+          "brawler": {
+            "id": 16000020,
+            "name": "FRANK",
+            "power": 11,
+            "trophies": 1012
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible",
+        "id": 5
+      }
+    }
   }
 ]
