@@ -9607,5 +9607,97 @@
         "id": 5
       }
     }
+  },
+  {
+    "battleTime": "20260402T172244.000Z",
+    "event": {
+      "id": 15001204,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Goalies"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 141,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "く⁠コ⁠:⁠彡",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 147
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L0G0CGQ9C",
+            "name": "путь бойцов!",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 3,
+              "trophies": 60
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 147
+            }
+          },
+          {
+            "tag": "#2YCJ9LPP2Q",
+            "name": "Igor",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 6,
+              "trophies": 15
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L0YGQYJ29",
+            "name": "🤍.",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 5,
+              "trophies": 65
+            }
+          },
+          {
+            "tag": "#L09CV020V",
+            "name": "jort",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 6,
+              "trophies": 73
+            }
+          },
+          {
+            "tag": "#L0PR2GRQC",
+            "name": "qwertyy",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 6,
+              "trophies": 81
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
