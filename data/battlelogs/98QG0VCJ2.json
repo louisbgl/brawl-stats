@@ -57779,5 +57779,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260402T140111.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 110,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#2YU9L9LVU",
+        "name": "Geo#1",
+        "brawler": {
+          "id": 16000093,
+          "name": "JAE-YONG",
+          "power": 11,
+          "trophies": 1005
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C8QP8YQR",
+            "name": "[̲̅$̲̅(ツ)$̲̅]",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1792
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1594
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1758
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LRRCL9RYQ",
+            "name": "“|[alex]|”",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1134
+            }
+          },
+          {
+            "tag": "#20UVVLJ9C9",
+            "name": "HMB|NIc_PrO",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 2024
+            }
+          },
+          {
+            "tag": "#2YU9L9LVU",
+            "name": "Geo#1",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 11,
+              "trophies": 1005
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
