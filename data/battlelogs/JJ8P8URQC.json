@@ -22359,5 +22359,103 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260402T153636.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#JJ8P8URQC",
+          "name": "JOEL | Orbova",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 10,
+            "trophies": 525
+          }
+        },
+        {
+          "tag": "#2LL0G28C2L",
+          "name": "artem",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 10,
+            "trophies": 528
+          }
+        },
+        {
+          "tag": "#Y8JQPRJ2V",
+          "name": "Oxide | LBZ",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 9,
+            "trophies": 548
+          }
+        }
+      ],
+      "level": {
+        "name": "Normal",
+        "id": 0
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T154047.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#JJ8P8URQC",
+          "name": "JOEL | Orbova",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 10,
+            "trophies": 525
+          }
+        },
+        {
+          "tag": "#2UGG9RQUUV",
+          "name": "אליה",
+          "brawler": {
+            "id": 16000010,
+            "name": "EL PRIMO",
+            "power": 11,
+            "trophies": 248
+          }
+        },
+        {
+          "tag": "#2J2UQ28CRP",
+          "name": "נהוראי",
+          "brawler": {
+            "id": 16000023,
+            "name": "LEON",
+            "power": 8,
+            "trophies": 532
+          }
+        }
+      ],
+      "level": {
+        "name": "Hard",
+        "id": 1
+      }
+    }
   }
 ]
