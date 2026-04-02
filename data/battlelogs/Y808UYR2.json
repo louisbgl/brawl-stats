@@ -10303,5 +10303,189 @@
         "id": 5
       }
     }
+  },
+  {
+    "battleTime": "20260402T013700.000Z",
+    "event": {
+      "id": 15001211,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Crab Claws"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 56,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#Y2GUJG0CC",
+        "name": "niki52",
+        "brawler": {
+          "id": 16000081,
+          "name": "LILY",
+          "power": 11,
+          "trophies": 1000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9008RPY28",
+            "name": "友|𝑳𝒊𝒏𝒅𝒂 🩵",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1313
+            }
+          },
+          {
+            "tag": "#PUVV8822L",
+            "name": "kokoroc",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 843
+            }
+          },
+          {
+            "tag": "#Y2GUJG0CC",
+            "name": "niki52",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 1000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PJ88UY0QQ",
+            "name": "лютейший",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1147
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 556
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1079
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260402T013906.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 81,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#GJG0QR8CV",
+        "name": "margz",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 544
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28JRVQVPC2",
+            "name": "SON|Muhammad 💔",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1033
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 917
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 9,
+              "trophies": 1004
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8VRLY28C",
+            "name": "Vuu",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1114
+            }
+          },
+          {
+            "tag": "#GJG0QR8CV",
+            "name": "margz",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 544
+            }
+          },
+          {
+            "tag": "#P029CP828",
+            "name": "Mohtep",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 1188
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
