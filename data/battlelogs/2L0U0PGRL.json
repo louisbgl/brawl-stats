@@ -18724,5 +18724,103 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260402T070120.000Z",
+    "event": {
+      "id": 15001184,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS BRUCE NITA"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#2QU80Q2Q0G",
+          "name": "cherry",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 9,
+            "trophies": 1001
+          }
+        },
+        {
+          "tag": "#2UG8UV299R",
+          "name": "67 six seven 67",
+          "brawler": {
+            "id": 16000045,
+            "name": "STU",
+            "power": 7,
+            "trophies": 289
+          }
+        },
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000047,
+            "name": "SQUEAK",
+            "power": 11,
+            "trophies": 1000
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible II",
+        "id": 6
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T070540.000Z",
+    "event": {
+      "id": 15001184,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS BRUCE NITA"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2LCVYPULG0",
+          "name": "Zeta division",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 209
+          }
+        },
+        {
+          "tag": "#QJRQQJP0R",
+          "name": "Alipowek 🔥",
+          "brawler": {
+            "id": 16000026,
+            "name": "BIBI",
+            "power": 11,
+            "trophies": 1010
+          }
+        },
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000019,
+            "name": "PENNY",
+            "power": 11,
+            "trophies": 1012
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible II",
+        "id": 6
+      }
+    }
   }
 ]

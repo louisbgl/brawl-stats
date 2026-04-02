@@ -23350,5 +23350,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260402T072401.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 140,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#2JCCCGRYQP",
+        "name": "W bąk",
+        "brawler": {
+          "id": 16000010,
+          "name": "EL PRIMO",
+          "power": 11,
+          "trophies": 626
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GCGQUV2RC",
+            "name": "QLS_X-rt",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1562
+            }
+          },
+          {
+            "tag": "#2JCCCGRYQP",
+            "name": "W bąk",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 626
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWBERT",
+              "power": 9,
+              "trophies": 228
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8LP0R2PUR",
+            "name": "👾|KILLER|👾",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 8,
+              "trophies": 236
+            }
+          },
+          {
+            "tag": "#2RRPU29GVJ",
+            "name": "dragon 🐲",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 667
+            }
+          },
+          {
+            "tag": "#20UYP02GR8",
+            "name": "friend",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 935
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
