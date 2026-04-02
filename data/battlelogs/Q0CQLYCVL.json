@@ -8970,5 +8970,152 @@
         "id": 2
       }
     }
+  },
+  {
+    "battleTime": "20260402T125423.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#9GVY89CUQ",
+          "name": "Tornadosmall",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 673
+          }
+        },
+        {
+          "tag": "#9J90QCCJQ",
+          "name": "Shadow",
+          "brawler": {
+            "id": 16000023,
+            "name": "LEON",
+            "power": 11,
+            "trophies": 675
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "く⁠コ⁠:⁠彡",
+          "brawler": {
+            "id": 16000009,
+            "name": "DYNAMIKE",
+            "power": 11,
+            "trophies": 659
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T125556.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#YYL890LJL",
+          "name": "dan the man",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 626
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "く⁠コ⁠:⁠彡",
+          "brawler": {
+            "id": 16000009,
+            "name": "DYNAMIKE",
+            "power": 11,
+            "trophies": 659
+          }
+        },
+        {
+          "tag": "#2LP99R2YRV",
+          "name": "Nazim|BS",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 11,
+            "trophies": 679
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T125828.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "く⁠コ⁠:⁠彡",
+          "brawler": {
+            "id": 16000009,
+            "name": "DYNAMIKE",
+            "power": 11,
+            "trophies": 659
+          }
+        },
+        {
+          "tag": "#RYGLQ9URR",
+          "name": "mo",
+          "brawler": {
+            "id": 16000082,
+            "name": "BERRY",
+            "power": 10,
+            "trophies": 667
+          }
+        },
+        {
+          "tag": "#VVV822PV",
+          "name": "Israel_13",
+          "brawler": {
+            "id": 16000016,
+            "name": "PAM",
+            "power": 10,
+            "trophies": 670
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
   }
 ]
