@@ -48126,5 +48126,440 @@
         "id": 4
       }
     }
+  },
+  {
+    "battleTime": "20260402T090222.000Z",
+    "event": {
+      "id": 15001179,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Pinned Down"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 112,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000103,
+          "name": "NAJIA",
+          "power": 11,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#JYPU8Q9C9",
+            "name": "enzo",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 10,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#JPUCLGPPR",
+            "name": "s.ch4sixseven",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 8,
+              "trophies": 5
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JYV8JJUJY",
+            "name": "Death_MashineYT",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#JPURRULQQ",
+            "name": "SL|⛩️StayGold🎋",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 9,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#JPU9YU0R9",
+            "name": "Enzo_t'es_gros",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 8,
+              "trophies": 5
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260402T091344.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#98CGQYRQU",
+          "name": "samu para xd",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1043
+          }
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000099,
+            "name": "PIERCE",
+            "power": 11,
+            "trophies": 430
+          }
+        },
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawler": {
+            "id": 16000042,
+            "name": "BYRON",
+            "power": 11,
+            "trophies": 1046
+          }
+        }
+      ],
+      "level": {
+        "name": "Normal",
+        "id": 0
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T091640.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#220G98QLV2",
+          "name": "Code: Eqwaak",
+          "brawler": {
+            "id": 16000020,
+            "name": "FRANK",
+            "power": 11,
+            "trophies": 1046
+          }
+        },
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawler": {
+            "id": 16000042,
+            "name": "BYRON",
+            "power": 11,
+            "trophies": 1046
+          }
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000099,
+            "name": "PIERCE",
+            "power": 11,
+            "trophies": 430
+          }
+        }
+      ],
+      "level": {
+        "name": "Hard",
+        "id": 1
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T091832.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawler": {
+            "id": 16000099,
+            "name": "PIERCE",
+            "power": 11,
+            "trophies": 1135
+          }
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000101,
+            "name": "GLOWBERT",
+            "power": 11,
+            "trophies": 1110
+          }
+        },
+        {
+          "tag": "#2UGPU009PG",
+          "name": "TDM KÜRDO",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 10,
+            "trophies": 1137
+          }
+        }
+      ],
+      "level": {
+        "name": "Expert",
+        "id": 2
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T091933.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000101,
+            "name": "GLOWBERT",
+            "power": 11,
+            "trophies": 1110
+          }
+        },
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawler": {
+            "id": 16000099,
+            "name": "PIERCE",
+            "power": 11,
+            "trophies": 1135
+          }
+        },
+        {
+          "tag": "#9LQV2LC98",
+          "name": "арк",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 11,
+            "trophies": 1144
+          }
+        }
+      ],
+      "level": {
+        "name": "Expert",
+        "id": 2
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T092123.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawler": {
+            "id": 16000099,
+            "name": "PIERCE",
+            "power": 11,
+            "trophies": 1135
+          }
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000042,
+            "name": "BYRON",
+            "power": 11,
+            "trophies": 1028
+          }
+        },
+        {
+          "tag": "#GLQVLCURP",
+          "name": "LL|XAVI",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1106
+          }
+        }
+      ],
+      "level": {
+        "name": "Expert",
+        "id": 2
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T092344.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawler": {
+            "id": 16000099,
+            "name": "PIERCE",
+            "power": 11,
+            "trophies": 1135
+          }
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000042,
+            "name": "BYRON",
+            "power": 11,
+            "trophies": 1028
+          }
+        },
+        {
+          "tag": "#22LL29RR80",
+          "name": "geи piдор3000",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 11,
+            "trophies": 1136
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T092711.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2UCGCQJRGQ",
+          "name": "nwm xd",
+          "brawler": {
+            "id": 16000086,
+            "name": "SHADE",
+            "power": 11,
+            "trophies": 1135
+          }
+        },
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawler": {
+            "id": 16000099,
+            "name": "PIERCE",
+            "power": 11,
+            "trophies": 1135
+          }
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000013,
+            "name": "POCO",
+            "power": 11,
+            "trophies": 1016
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
   }
 ]
