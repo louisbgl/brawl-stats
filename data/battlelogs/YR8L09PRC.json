@@ -12808,5 +12808,195 @@
         "id": 4
       }
     }
+  },
+  {
+    "battleTime": "20260402T173219.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#Q0020PJUC",
+          "name": "dr stinkynails",
+          "brawler": {
+            "id": 16000075,
+            "name": "MICO",
+            "power": 11,
+            "trophies": 1000
+          }
+        },
+        {
+          "tag": "#GRCRGY8YU",
+          "name": "losnapletkosた",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 1016
+          }
+        },
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1015
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T173609.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2YCLYYUCYR",
+          "name": "катя",
+          "brawler": {
+            "id": 16000027,
+            "name": "8-BIT",
+            "power": 11,
+            "trophies": 782
+          }
+        },
+        {
+          "tag": "#PRR0CLYGU",
+          "name": "LeSsOr",
+          "brawler": {
+            "id": 16000009,
+            "name": "DYNAMIKE",
+            "power": 11,
+            "trophies": 791
+          }
+        },
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 10,
+            "trophies": 783
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T175851.000Z",
+    "event": {
+      "id": 15001204,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Goalies"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 32,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#C8CQQ298",
+        "name": "FT|Fumetsu",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 815
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 873
+            }
+          },
+          {
+            "tag": "#C8CQQ298",
+            "name": "FT|Fumetsu",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 815
+            }
+          },
+          {
+            "tag": "#9QVRRJUG2",
+            "name": "CRAZY ERDELADO",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 950
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JGYGU9CQC",
+            "name": "ViVi",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 891
+            }
+          },
+          {
+            "tag": "#JG0UQ290V",
+            "name": "🌀aylan78⛩️",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 905
+            }
+          },
+          {
+            "tag": "#JGPUPP0LV",
+            "name": "Fln",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 914
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
