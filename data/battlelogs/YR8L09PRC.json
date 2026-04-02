@@ -12998,5 +12998,489 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260402T180149.000Z",
+    "event": {
+      "id": 15001204,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Goalies"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 144,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#JCG8VLPG",
+        "name": "KING_PETR",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 1085
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9JLJUC2LV",
+            "name": "pit_fire91",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 967
+            }
+          },
+          {
+            "tag": "#PP0LCURJ9",
+            "name": "Jetrix7",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 856
+            }
+          },
+          {
+            "tag": "#8CC0PGL98",
+            "name": "挿画",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1931
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 883
+            }
+          },
+          {
+            "tag": "#C8CQQ298",
+            "name": "FT|Fumetsu",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 825
+            }
+          },
+          {
+            "tag": "#JCG8VLPG",
+            "name": "KING_PETR",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1085
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260402T180323.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2C9Y90YQ0",
+          "name": "ромачк",
+          "brawler": {
+            "id": 16000102,
+            "name": "SIRIUS",
+            "power": 11,
+            "trophies": 1354
+          }
+        },
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1015
+          }
+        },
+        {
+          "tag": "#C8CQQ298",
+          "name": "FT|Fumetsu",
+          "brawler": {
+            "id": 16000026,
+            "name": "BIBI",
+            "power": 11,
+            "trophies": 1208
+          }
+        }
+      ],
+      "level": {
+        "name": "Normal",
+        "id": 0
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T180530.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2YQPRGLCQJ",
+          "name": "Kal Drogo",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1038
+          }
+        },
+        {
+          "tag": "#C8CQQ298",
+          "name": "FT|Fumetsu",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 1035
+          }
+        },
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1015
+          }
+        }
+      ],
+      "level": {
+        "name": "Hard",
+        "id": 1
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T180723.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#C8CQQ298",
+          "name": "FT|Fumetsu",
+          "brawler": {
+            "id": 16000009,
+            "name": "DYNAMIKE",
+            "power": 11,
+            "trophies": 1012
+          }
+        },
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1015
+          }
+        },
+        {
+          "tag": "#PQ0GQ0LGC",
+          "name": "Tuğrul",
+          "brawler": {
+            "id": 16000002,
+            "name": "BULL",
+            "power": 11,
+            "trophies": 1014
+          }
+        }
+      ],
+      "level": {
+        "name": "Expert",
+        "id": 2
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T181011.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1015
+          }
+        },
+        {
+          "tag": "#C8CQQ298",
+          "name": "FT|Fumetsu",
+          "brawler": {
+            "id": 16000009,
+            "name": "DYNAMIKE",
+            "power": 11,
+            "trophies": 1012
+          }
+        },
+        {
+          "tag": "#2Y9RY9V920",
+          "name": "JTT 207",
+          "brawler": {
+            "id": 16000076,
+            "name": "KIT",
+            "power": 11,
+            "trophies": 1017
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T181224.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1015
+          }
+        },
+        {
+          "tag": "#C8CQQ298",
+          "name": "FT|Fumetsu",
+          "brawler": {
+            "id": 16000009,
+            "name": "DYNAMIKE",
+            "power": 11,
+            "trophies": 1012
+          }
+        },
+        {
+          "tag": "#2UG8JUGVYU",
+          "name": "👾🌓bro🌗👾",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 1023
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T181413.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1015
+          }
+        },
+        {
+          "tag": "#C8CQQ298",
+          "name": "FT|Fumetsu",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 1000
+          }
+        },
+        {
+          "tag": "#2V028YUV9R",
+          "name": "sleppe",
+          "brawler": {
+            "id": 16000023,
+            "name": "LEON",
+            "power": 9,
+            "trophies": 1015
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T182725.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#QVVCY0Q0U",
+          "name": "ZETA|FRANK",
+          "brawler": {
+            "id": 16000009,
+            "name": "DYNAMIKE",
+            "power": 11,
+            "trophies": 1014
+          }
+        },
+        {
+          "tag": "#C8CQQ298",
+          "name": "FT|Fumetsu",
+          "brawler": {
+            "id": 16000009,
+            "name": "DYNAMIKE",
+            "power": 11,
+            "trophies": 1012
+          }
+        },
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1015
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20260402T182828.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1015
+          }
+        },
+        {
+          "tag": "#2QGQC0VQ0Q",
+          "name": "FT | Akasyas",
+          "brawler": {
+            "id": 16000027,
+            "name": "8-BIT",
+            "power": 11,
+            "trophies": 1000
+          }
+        },
+        {
+          "tag": "#C8CQQ298",
+          "name": "FT|Fumetsu",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 11,
+            "trophies": 1016
+          }
+        }
+      ],
+      "level": {
+        "name": "Normal",
+        "id": 0
+      }
+    }
   }
 ]
