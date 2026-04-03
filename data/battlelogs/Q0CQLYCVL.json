@@ -10527,5 +10527,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260403T085948.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 157,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#GJUR90LQ2",
+        "name": "✞✯𝕸𝕺𝕽𝕿𝕴𝕾✯",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 781
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CCG98JRC",
+            "name": "LA23Profi",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 420
+            }
+          },
+          {
+            "tag": "#JGPJ8C0YV",
+            "name": "Tangymacaw 🇨🇩",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 288
+            }
+          },
+          {
+            "tag": "#GJUR90LQ2",
+            "name": "✞✯𝕸𝕺𝕽𝕿𝕴𝕾✯",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 781
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9CQ2U92PQ",
+            "name": "твой БАТЯ",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 10,
+              "trophies": 322
+            }
+          },
+          {
+            "tag": "#28RJ88PYGU",
+            "name": "被|yengleey",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 259
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 251
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
