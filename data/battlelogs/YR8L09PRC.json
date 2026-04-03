@@ -14413,5 +14413,97 @@
         "id": 6
       }
     }
+  },
+  {
+    "battleTime": "20260403T093146.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 65,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#RRYUYGCLG",
+        "name": "giovann8",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 1085
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#99P2UUVL2",
+            "name": "QLS|Diego🥊⚽️",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 934
+            }
+          },
+          {
+            "tag": "#RQU2282G0",
+            "name": "NYC |Tweeko",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 664
+            }
+          },
+          {
+            "tag": "#YR9UQV9Y0",
+            "name": "sigma🌮🌮🌮",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1026
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RRYUYGCLG",
+            "name": "giovann8",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1085
+            }
+          },
+          {
+            "tag": "#2PV8YLVQJ2",
+            "name": "ronni🏆",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 10,
+              "trophies": 1516
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1237
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
