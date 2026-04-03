@@ -10803,5 +10803,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260403T113010.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 103,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#2RRG2Y82V",
+        "name": "Sir Ryanski",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 285
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JLJ8QLLG2",
+            "name": "ԅjakv64ԅ⛩️",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 6,
+              "trophies": 224
+            }
+          },
+          {
+            "tag": "#2G2LCPJY8V",
+            "name": "Miljan",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 7,
+              "trophies": 91
+            }
+          },
+          {
+            "tag": "#2Q28RLLRCL",
+            "name": "Necke🇷🇸",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 7,
+              "trophies": 154
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RRG2Y82V",
+            "name": "Sir Ryanski",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 285
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 271
+            }
+          },
+          {
+            "tag": "#P2QYGGLC0",
+            "name": "Vaskan Cood",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 778
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
