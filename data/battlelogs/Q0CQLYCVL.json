@@ -11079,5 +11079,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260403T194133.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 72,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "く⁠コ⁠:⁠彡",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 295
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9QGQCQ9GQ",
+            "name": "paráda 😝",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 7,
+              "trophies": 172
+            }
+          },
+          {
+            "tag": "#82VYQY8LG",
+            "name": "𝄞Mettaton|KH𝄞",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 5,
+              "trophies": 188
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 295
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y8V82CV9Y",
+            "name": "RONGEEZ",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 7,
+              "trophies": 233
+            }
+          },
+          {
+            "tag": "#Y8V82Q009",
+            "name": "nokays",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 6,
+              "trophies": 225
+            }
+          },
+          {
+            "tag": "#Y8V2JUQLC",
+            "name": "⚡️BlackAdam⚡️",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 7,
+              "trophies": 212
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
