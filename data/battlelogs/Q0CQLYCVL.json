@@ -10895,5 +10895,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260403T122148.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 23,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#VUCG0RJG",
+        "name": "ⓚⓘⓛⓛⓔⓡ",
+        "brawler": {
+          "id": 16000094,
+          "name": "KAZE",
+          "power": 11,
+          "trophies": 657
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RLGYRPG8C",
+            "name": "vlady",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 9,
+              "trophies": 474
+            }
+          },
+          {
+            "tag": "#VUCG0RJG",
+            "name": "ⓚⓘⓛⓛⓔⓡ",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 657
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 283
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2G99V2UGU0",
+            "name": "zoééé",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 209
+            }
+          },
+          {
+            "tag": "#UUC28JR9P",
+            "name": "TE Max",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 8,
+              "trophies": 265
+            }
+          },
+          {
+            "tag": "#YQPCYJGY2",
+            "name": "Franz",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 286
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260403T122442.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#GL9JU8GY2",
+        "name": "Transcend",
+        "brawler": {
+          "id": 16000100,
+          "name": "GIGI",
+          "power": 11,
+          "trophies": 711
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GL9JU8GY2",
+            "name": "Transcend",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 711
+            }
+          },
+          {
+            "tag": "#GRVYVPP9P",
+            "name": "BenOG",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 9,
+              "trophies": 513
+            }
+          },
+          {
+            "tag": "#2CYVVQLU00",
+            "name": "1uli4n is the",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1284
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q00909G90",
+            "name": "poisow",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 371
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 296
+            }
+          },
+          {
+            "tag": "#PCVL8RGL8",
+            "name": "really?🧃チャールズ",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 9,
+              "trophies": 579
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
