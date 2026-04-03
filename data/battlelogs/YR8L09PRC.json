@@ -14505,5 +14505,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260403T190932.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 134,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2V2CP9JJJ",
+        "name": "Aleix 05",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 932
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 856
+            }
+          },
+          {
+            "tag": "#GJ20JRJY",
+            "name": "ᴘᴀʙʟᴏʙᴏᴏᴋ 🜲",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 233
+            }
+          },
+          {
+            "tag": "#2V2CP9JJJ",
+            "name": "Aleix 05",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 932
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R0Q0PURGV",
+            "name": "gigi lugio",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 9,
+              "trophies": 540
+            }
+          },
+          {
+            "tag": "#200R2R0CG",
+            "name": "dawit",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 9,
+              "trophies": 668
+            }
+          },
+          {
+            "tag": "#RV9CQ82RG",
+            "name": "silent ♡",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 636
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
