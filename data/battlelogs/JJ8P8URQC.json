@@ -26412,5 +26412,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260404T145808.000Z",
+    "event": {
+      "id": 15001201,
+      "mode": "wipeout",
+      "modeId": 25,
+      "map": "Palette Hangout"
+    },
+    "battle": {
+      "mode": "wipeout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 58,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#20820J9Y8J",
+        "name": "Noway",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 9,
+          "trophies": 242
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L2GPPP29L",
+            "name": "amogus",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 4,
+              "trophies": 229
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 9,
+              "trophies": 251
+            }
+          },
+          {
+            "tag": "#20820J9Y8J",
+            "name": "Noway",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 9,
+              "trophies": 242
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JLY2GVP0U",
+            "name": "bloodyboy[брад]",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 6,
+              "trophies": 233
+            }
+          },
+          {
+            "tag": "#JLCQLCJPU",
+            "name": "𝓣𝓻𝓲𝓹𝓸𝓽𝓪⁴",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 7,
+              "trophies": 251
+            }
+          },
+          {
+            "tag": "#JP2P00RG0",
+            "name": "Report_",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 7,
+              "trophies": 247
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
