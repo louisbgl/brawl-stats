@@ -26504,5 +26504,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260404T150013.000Z",
+    "event": {
+      "id": 15001201,
+      "mode": "wipeout",
+      "modeId": 25,
+      "map": "Palette Hangout"
+    },
+    "battle": {
+      "mode": "wipeout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 94,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#2GJG29P2L0",
+        "name": "MARIOS",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 896
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GJG29P2L0",
+            "name": "MARIOS",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 896
+            }
+          },
+          {
+            "tag": "#2L29LGY990",
+            "name": "M0RSKA",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 9,
+              "trophies": 246
+            }
+          },
+          {
+            "tag": "#PCGVGVVLC",
+            "name": "Basco",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 626
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UR0JR0VPU",
+            "name": "Sn",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 7,
+              "trophies": 299
+            }
+          },
+          {
+            "tag": "#L2GPPP29L",
+            "name": "amogus",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 4,
+              "trophies": 239
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 9,
+              "trophies": 261
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260404T150135.000Z",
+    "event": {
+      "id": 15001201,
+      "mode": "wipeout",
+      "modeId": 25,
+      "map": "Palette Hangout"
+    },
+    "battle": {
+      "mode": "wipeout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 53,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#JJ8P8URQC",
+        "name": "JOEL | Orbova",
+        "brawler": {
+          "id": 16000044,
+          "name": "RUFFS",
+          "power": 9,
+          "trophies": 260
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 9,
+              "trophies": 260
+            }
+          },
+          {
+            "tag": "#L2GPPP29L",
+            "name": "amogus",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 4,
+              "trophies": 238
+            }
+          },
+          {
+            "tag": "#P9229PUPY",
+            "name": "Gap",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 9,
+              "trophies": 207
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8Q2290U29",
+            "name": "🪐•OKLM ❦",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 6,
+              "trophies": 220
+            }
+          },
+          {
+            "tag": "#8LV080J0R",
+            "name": "neyt_tlnio",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 7,
+              "trophies": 249
+            }
+          },
+          {
+            "tag": "#8LUUJPV82",
+            "name": "Noahm",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 6,
+              "trophies": 233
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
