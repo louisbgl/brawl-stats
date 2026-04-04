@@ -22457,5 +22457,188 @@
         "id": 1
       }
     }
+  },
+  {
+    "battleTime": "20260404T102832.000Z",
+    "event": {
+      "id": 15001205,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "No Good Deed"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 40,
+      "starPlayer": {
+        "tag": "#2L2VPRQYL",
+        "name": "F∟Ʊ†əɾΨ",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 769
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L2VPRQYL",
+            "name": "F∟Ʊ†əɾΨ",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 769
+            }
+          },
+          {
+            "tag": "#PU9Q8C08V",
+            "name": "Frédéric",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1451
+            }
+          },
+          {
+            "tag": "#GRQJRR00J",
+            "name": "MW|Groot",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 877
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VLYC0V22",
+            "name": "APODERMAINY",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1024
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 9,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#8JVV8L9UR",
+            "name": "Matthieu",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 10,
+              "trophies": 876
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260404T102943.000Z",
+    "event": {
+      "id": 15001205,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "No Good Deed"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 38,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#JJ8P8URQC",
+        "name": "JOEL | Orbova",
+        "brawler": {
+          "id": 16000044,
+          "name": "RUFFS",
+          "power": 9,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 9,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#8JVV8L9UR",
+            "name": "Matthieu",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 7,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#8URUU8088",
+            "name": "Phoénix",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 9,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8Q2YY0QPV",
+            "name": "LA|Snowzy",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 9,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#8Q28C0LY9",
+            "name": "baptiste",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 9,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#8LVC0RCYQ",
+            "name": "Vorloxe",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 7,
+              "trophies": 5
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
