@@ -47493,5 +47493,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260405T200114.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 155,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000100,
+          "name": "GIGI",
+          "power": 11,
+          "trophies": 342
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28G9VJGVJP",
+            "name": "Misia",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 7,
+              "trophies": 322
+            }
+          },
+          {
+            "tag": "#YQCRRQ0L2",
+            "name": "szczupaczek 🤙",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 289
+            }
+          },
+          {
+            "tag": "#Y2V92UQUG",
+            "name": "MeLasHago",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 427
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UYYL9YJCP",
+            "name": "mikuho ráfkáč",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1324
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 342
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 676
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
