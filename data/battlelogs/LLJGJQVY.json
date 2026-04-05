@@ -44555,5 +44555,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260405T155844.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 8,
+      "starPlayer": {
+        "tag": "#2VG2G89QP",
+        "name": "DW|LEN",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 1178
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YV89RC9CG",
+            "name": "#🧬AT#🧬GC#🧬#",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 1912
+            }
+          },
+          {
+            "tag": "#2L2CU8Y9Q",
+            "name": "SK|𝐌𝐨𝐫𝐭𝐢𝐬",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1914
+            }
+          },
+          {
+            "tag": "#Q0JLR0CYU",
+            "name": "DICCHIMMILLU",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1243
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VG2G89QP",
+            "name": "DW|LEN",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1178
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 2084
+            }
+          },
+          {
+            "tag": "#8YULLLVUL",
+            "name": "артем",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
