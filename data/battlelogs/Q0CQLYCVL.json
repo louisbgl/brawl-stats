@@ -11355,5 +11355,103 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260405T115656.000Z",
+    "event": {
+      "id": 15001185,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGROM"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2V2RQVP9P8",
+          "name": "КРУТЫШКА ПОКО",
+          "brawler": {
+            "id": 16000079,
+            "name": "ANGELO",
+            "power": 8,
+            "trophies": 224
+          }
+        },
+        {
+          "tag": "#LVJ8QQGUU",
+          "name": "shado-yt",
+          "brawler": {
+            "id": 16000085,
+            "name": "KENJI",
+            "power": 11,
+            "trophies": 206
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "く⁠コ⁠:⁠彡",
+          "brawler": {
+            "id": 16000086,
+            "name": "SHADE",
+            "power": 11,
+            "trophies": 243
+          }
+        }
+      ],
+      "level": {
+        "name": "Normal",
+        "id": 0
+      }
+    }
+  },
+  {
+    "battleTime": "20260405T115916.000Z",
+    "event": {
+      "id": 15001185,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGROM"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "く⁠コ⁠:⁠彡",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 848
+          }
+        },
+        {
+          "tag": "#2QYYPVUU9V",
+          "name": "sigma",
+          "brawler": {
+            "id": 16000000,
+            "name": "SHELLY",
+            "power": 11,
+            "trophies": 859
+          }
+        },
+        {
+          "tag": "#2LJCCGJR2U",
+          "name": "кота",
+          "brawler": {
+            "id": 16000101,
+            "name": "GLOWBERT",
+            "power": 5,
+            "trophies": 87
+          }
+        }
+      ],
+      "level": {
+        "name": "Hard",
+        "id": 1
+      }
+    }
   }
 ]
