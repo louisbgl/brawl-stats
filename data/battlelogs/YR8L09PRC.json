@@ -44237,5 +44237,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260407T110043.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 103,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#RJ8L8Y80G",
+        "name": "CLEAN",
+        "brawler": {
+          "id": 16000101,
+          "name": "GLOWBERT",
+          "power": 6,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9U2JL8YLG",
+            "name": "Ido",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 1,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#RJ8L8Y80G",
+            "name": "CLEAN",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWBERT",
+              "power": 6,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 1,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LV2UG0G8P",
+            "name": "GhostDragon",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 3,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#LV20GJVC8",
+            "name": "luke2creamyyy",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 2,
+              "trophies": 20
+            }
+          },
+          {
+            "tag": "#LV89C8YQJ",
+            "name": "Lil hun",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 5,
+              "trophies": 5
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260407T110446.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 198,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#9LLVC9LVQ",
+        "name": "tilted nicky🩸",
+        "brawler": {
+          "id": 16000068,
+          "name": "MAISIE",
+          "power": 11,
+          "trophies": 889
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C0YU2CPG",
+            "name": "bora",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 841
+            }
+          },
+          {
+            "tag": "#GP900GULC",
+            "name": "☞Abdul",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1694
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 846
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UP8RJCP2J",
+            "name": "ПРОСТО крутой",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 685
+            }
+          },
+          {
+            "tag": "#9LLVC9LVQ",
+            "name": "tilted nicky🩸",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 889
+            }
+          },
+          {
+            "tag": "#8UP2Y0LPU",
+            "name": "Z1nky",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 11,
+              "trophies": 977
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
