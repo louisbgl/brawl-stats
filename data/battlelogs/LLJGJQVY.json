@@ -47381,5 +47381,606 @@
         "id": 3
       }
     }
+  },
+  {
+    "battleTime": "20260407T080045.000Z",
+    "event": {
+      "id": 15001185,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGROM"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 1013
+          }
+        },
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1106
+          }
+        },
+        {
+          "tag": "#2UV2UV0QU0",
+          "name": "Ishigo",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1103
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20260407T080337.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 64,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 11,
+          "trophies": 1749
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QGVG0RRGU",
+            "name": "FUT|BREEZE",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1005
+            }
+          },
+          {
+            "tag": "#C2QVLR9L8",
+            "name": "⛩️|₦iͥnjͣaͫᴳᵒᵈ",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1001
+            }
+          },
+          {
+            "tag": "#R2G9GJVY",
+            "name": "ミ★ SQUIRTLE ★彡",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 1006
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R9RU0QCLJ",
+            "name": "TTM|ℙŁ¥ʑʑɘʁ",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 1087
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1749
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1585
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260407T080516.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 63,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000103,
+          "name": "NAJIA",
+          "power": 11,
+          "trophies": 1595
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1759
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1595
+            }
+          },
+          {
+            "tag": "#28GVJLJ99J",
+            "name": "🧽sponge bob🧽",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1220
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GUP8ULP90",
+            "name": "BMW|Anes🇧🇦",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1279
+            }
+          },
+          {
+            "tag": "#2JLGYVQRC",
+            "name": "darispoeper",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1189
+            }
+          },
+          {
+            "tag": "#2PRUU2VPCL",
+            "name": "Nummer 4🏒",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1287
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260407T080727.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 95,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 11,
+          "trophies": 1770
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RPURLLVJY",
+            "name": "Wiewiór 🐿️",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1066
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1770
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1606
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9JUUVRJJP",
+            "name": "waddahugo",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1748
+            }
+          },
+          {
+            "tag": "#8VV8Q9Y2G",
+            "name": "Peresitooo",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1908
+            }
+          },
+          {
+            "tag": "#GRQLL9QV2",
+            "name": "Carlangas",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1793
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260407T080905.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 69,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000103,
+          "name": "NAJIA",
+          "power": 11,
+          "trophies": 1618
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#88VLVYLR9",
+            "name": "GG|Josepado⚡",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 1362
+            }
+          },
+          {
+            "tag": "#GRR09008G",
+            "name": "cloudzツ",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1201
+            }
+          },
+          {
+            "tag": "#QG2YC9VJG",
+            "name": "TM|Suna🧹␈",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 1033
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1782
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1618
+            }
+          },
+          {
+            "tag": "#2UQG9LU299",
+            "name": "da coolest gegi",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260407T081118.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 96,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 11,
+          "trophies": 1795
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1631
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1795
+            }
+          },
+          {
+            "tag": "#2RGUCL20Q0",
+            "name": "🇺🇦Суми🇺🇦",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1255
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2G2J9VQ9YP",
+            "name": "TTM |Jajab8 😛",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1096
+            }
+          },
+          {
+            "tag": "#P22LUGUL2",
+            "name": "clacla",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1163
+            }
+          },
+          {
+            "tag": "#2UCCUJ9G0",
+            "name": "༄Oxoni",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 1205
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260407T081312.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 92,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000103,
+          "name": "NAJIA",
+          "power": 11,
+          "trophies": 1645
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#J8RU82PLV",
+            "name": "yumissx |🍰",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1137
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1809
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1645
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P2L8V9U8C",
+            "name": "pidr.",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 10,
+              "trophies": 572
+            }
+          },
+          {
+            "tag": "#8R2LLU9VQ",
+            "name": "chmo.",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 9,
+              "trophies": 675
+            }
+          },
+          {
+            "tag": "#P0YQ000U0",
+            "name": "Daddy|Doom💔",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1261
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
