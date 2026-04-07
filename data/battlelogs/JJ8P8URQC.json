@@ -36933,5 +36933,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260407T153111.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 100,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#2U9GYPCQV2",
+        "name": "жизнь",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 9,
+          "trophies": 753
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2U9GYPCQV2",
+            "name": "жизнь",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 9,
+              "trophies": 753
+            }
+          },
+          {
+            "tag": "#2CYVUP992L",
+            "name": "Legend🇬🇪🇬🇪",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 995
+            }
+          },
+          {
+            "tag": "#2J9YY9C2G",
+            "name": "|𝒯ℒ𝒢_ℱ𝒦|",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 10,
+              "trophies": 350
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UYV0V8R9J",
+            "name": "пипка",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 7,
+              "trophies": 380
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 7,
+              "trophies": 269
+            }
+          },
+          {
+            "tag": "#2CQ00QQJGR",
+            "name": "code:baptou",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 1237
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
