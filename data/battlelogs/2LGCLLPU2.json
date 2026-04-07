@@ -37033,5 +37033,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260407T105834.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 44,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2Q02JGVLP",
+        "name": "gaukler #2",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 811
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9VQLVP9JG",
+            "name": "SK|SAMUEL 3.0",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 8,
+              "trophies": 703
+            }
+          },
+          {
+            "tag": "#2Q02JGVLP",
+            "name": "gaukler #2",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 811
+            }
+          },
+          {
+            "tag": "#LC8RL90C8",
+            "name": "АМОГУС",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 793
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G8RQPGL0G",
+            "name": "erah|NO 1",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 11,
+              "trophies": 942
+            }
+          },
+          {
+            "tag": "#Q0JP0Y2V8",
+            "name": "⛩️FUT|Rıdo",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 10,
+              "trophies": 318
+            }
+          },
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1076
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
