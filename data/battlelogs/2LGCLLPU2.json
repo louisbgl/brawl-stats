@@ -40988,5 +40988,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260407T173210.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 142,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#Y299J808P",
+        "name": "Kxzzヤ",
+        "brawler": {
+          "id": 16000077,
+          "name": "LARRY & LAWRIE",
+          "power": 11,
+          "trophies": 627
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 2056
+            }
+          },
+          {
+            "tag": "#LLLY82JUU",
+            "name": "Titto🖤💔",
+            "brawler": {
+              "id": 16000090,
+              "name": "OLLIE",
+              "power": 9,
+              "trophies": 832
+            }
+          },
+          {
+            "tag": "#9R8CR8GLY",
+            "name": "ractho",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 900
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9V8UVJUQ2",
+            "name": "KingAdolf",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 10,
+              "trophies": 952
+            }
+          },
+          {
+            "tag": "#Y299J808P",
+            "name": "Kxzzヤ",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 627
+            }
+          },
+          {
+            "tag": "#CCUCGCGR",
+            "name": "🔥🥀Ꮶ𝗠ℒ🥀🔥",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 9,
+              "trophies": 879
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
