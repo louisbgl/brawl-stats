@@ -13483,5 +13483,54 @@
         "id": 0
       }
     }
+  },
+  {
+    "battleTime": "20260408T090049.000Z",
+    "event": {
+      "id": 15001183,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON MAISIE"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#Y808UYR2",
+          "name": "JOEL|MissANG3ll",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 1003
+          }
+        },
+        {
+          "tag": "#2UG9JPQLV9",
+          "name": "basello",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 1004
+          }
+        },
+        {
+          "tag": "#YC8CJU2GY",
+          "name": "𝘿𝙚𝙭𝙩𝙚𝙧",
+          "brawler": {
+            "id": 16000002,
+            "name": "BULL",
+            "power": 11,
+            "trophies": 1010
+          }
+        }
+      ],
+      "level": {
+        "name": "Hard",
+        "id": 1
+      }
+    }
   }
 ]
