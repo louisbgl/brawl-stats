@@ -13434,5 +13434,54 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260408T085847.000Z",
+    "event": {
+      "id": 15001183,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON MAISIE"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#Y808UYR2",
+          "name": "JOEL|MissANG3ll",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 1003
+          }
+        },
+        {
+          "tag": "#VC90P0PV",
+          "name": "hoxilz",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 604
+          }
+        },
+        {
+          "tag": "#8C8G82VPY",
+          "name": "QLS | ÆMĲĜŒ",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 1003
+          }
+        }
+      ],
+      "level": {
+        "name": "Normal",
+        "id": 0
+      }
+    }
   }
 ]
