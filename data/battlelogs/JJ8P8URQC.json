@@ -38405,5 +38405,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260408T162719.000Z",
+    "event": {
+      "id": 15000440,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flaring Phoenix"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 101,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#PJ90YPVP2",
+        "name": "бешеный пердун",
+        "brawler": {
+          "id": 16000089,
+          "name": "MEEPLE",
+          "power": 11,
+          "trophies": 534
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UY9UV9PPP",
+            "name": "sonitkaa",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 366
+            }
+          },
+          {
+            "tag": "#C9R0PR8Q",
+            "name": "Licia",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 361
+            }
+          },
+          {
+            "tag": "#2GJ8JRQJJV",
+            "name": "ajlan",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 8,
+              "trophies": 323
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PJ90YPVP2",
+            "name": "бешеный пердун",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 534
+            }
+          },
+          {
+            "tag": "#2QGUGCY208",
+            "name": "paz",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 9,
+              "trophies": 757
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 7,
+              "trophies": 278
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
