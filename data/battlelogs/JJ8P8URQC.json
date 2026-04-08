@@ -38221,5 +38221,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260408T104529.000Z",
+    "event": {
+      "id": 15000440,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flaring Phoenix"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 136,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#RYQUCR8JQ",
+        "name": "Frascuelo",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 9,
+          "trophies": 768
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#229CRJUCY9",
+            "name": "ада из ада",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 8,
+              "trophies": 319
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 9,
+              "trophies": 282
+            }
+          },
+          {
+            "tag": "#RYQUCR8JQ",
+            "name": "Frascuelo",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 9,
+              "trophies": 768
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RJUPYLV0Y",
+            "name": "Brawl Tima",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 10,
+              "trophies": 742
+            }
+          },
+          {
+            "tag": "#2L02GVU2CV",
+            "name": "VIP_САНЯ",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 8,
+              "trophies": 228
+            }
+          },
+          {
+            "tag": "#RCVQP8Q99",
+            "name": "Tostikipkaas",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 592
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
