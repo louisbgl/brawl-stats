@@ -15743,5 +15743,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260409T102157.000Z",
+    "event": {
+      "id": 15000292,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Open Business"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 73,
+      "starPlayer": {
+        "tag": "#2R2YPQQG9G",
+        "name": "Shimaak|TR🇹🇷",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2R2YPQQG9G",
+            "name": "Shimaak|TR🇹🇷",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2PR9ULYP",
+            "name": "net",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JPUQQY22G",
+            "name": "sekreT",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#28J0YGU0RR",
+            "name": "maksym",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#JRPLUJ92G",
+            "name": "ринуся",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 9,
+              "trophies": 11
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260409T102536.000Z",
+    "event": {
+      "id": 15000132,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Center Stage"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 160,
+      "starPlayer": {
+        "tag": "#U9PP022RC",
+        "name": "𝚋𝚕𝚊𝚊𝚣𝚢☘️",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GU9LY99PV",
+            "name": "Mafia",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#8R8J8J2PG",
+            "name": "CosminZet23",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#U9PP022RC",
+            "name": "𝚋𝚕𝚊𝚊𝚣𝚢☘️",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#GL9JV9UQU",
+            "name": "dc:bubusx_",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2R0J9CQU08",
+            "name": "BS[Roy🇮🇱🇮🇱",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
