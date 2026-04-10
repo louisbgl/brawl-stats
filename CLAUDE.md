@@ -169,28 +169,39 @@ The Oracle Cloud VM at `129.151.245.132` runs two automated collection tasks via
 - **Schedule**: 23:00 UTC daily (midnight CET winter / 1am CEST summer)
 - **Script**: `/home/ubuntu/collect-snapshots.sh`
 - **Branch workflow**:
-  1. Pulls latest `main` into `data-snapshots` branch
-  2. Runs `collect_data.py` (player profiles, trophies, brawlers)
-  3. Saves to `data/YYYY-MM-DD.json` and `data/latest.json`
-  4. Commits to `data-snapshots` branch
-  5. Auto-merges to `main`
+  1. Checkouts `data-snapshots` branch and fetches updates
+  2. Stashes any local changes to avoid conflicts
+  3. Attempts to pull from `main` (continues on conflict)
+  4. **Runs `collect_data.py`** (player profiles, trophies, brawlers) - **ALWAYS EXECUTES**
+  5. Saves to `data/YYYY-MM-DD.json` and `data/latest.json`
+  6. Commits to `data-snapshots` branch
+  7. Pushes to remote `data-snapshots` branch
+  8. Auto-merges to `main` and pushes
 - **Logs**: `/home/ubuntu/collect-snapshots.log`
+- **Resilience**: Data collection happens regardless of git state. If git operations fail, data is preserved locally on VM (in working dir → committed locally → on branch → on main, in that order of preference)
 
 **Battlelog Collection:**
 - **Schedule**: Every 30 minutes
 - **Script**: `/home/ubuntu/collect-battlelogs.sh`
 - **Branch workflow**:
-  1. Pulls latest `main` into `data-battlelogs` branch
-  2. Runs `collect_battlelogs.py` (recent battle history)
-  3. Saves to `data/battlelogs/{TAG}.json` (one file per player)
-  4. Commits to `data-battlelogs` branch
-  5. Auto-merges to `main`
+  1. Checkouts `data-battlelogs` branch and fetches updates
+  2. Stashes any local changes to avoid conflicts
+  3. Attempts to pull from `main` (continues on conflict)
+  4. **Runs `collect_battlelogs.py`** (recent battle history) - **ALWAYS EXECUTES**
+  5. Saves to `data/battlelogs/{TAG}.json` (one file per player)
+  6. Commits to `data-battlelogs` branch
+  7. Pushes to remote `data-battlelogs` branch
+  8. Auto-merges to `main` and pushes
 - **Logs**: `/home/ubuntu/collect-battlelogs.log`
+- **Resilience**: Same graceful degradation as snapshots - collection never fails due to git conflicts
 
 **Why separate branches?**
 - Prevents merge conflicts between concurrent collection tasks
 - Each task can safely work on its own data files
 - Auto-merge ensures `main` always has latest data
+
+**Script Design Philosophy:**
+Both collection scripts prioritize **data collection over git operations**. The Python data collection always runs, even if git is in a bad state. If git operations fail at any stage (merge conflicts, push failures, etc.), the script continues and preserves data locally. This ensures no data loss due to git issues. Scripts use `git stash` to handle local changes and abort failed merges gracefully.
 
 #### 2. GitHub Actions - Post-Processing & Deployment
 
