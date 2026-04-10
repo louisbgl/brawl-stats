@@ -39129,5 +39129,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260410T062231.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 115,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#JJ8P8URQC",
+        "name": "JOEL | Orbova",
+        "brawler": {
+          "id": 16000070,
+          "name": "CORDELIUS",
+          "power": 9,
+          "trophies": 281
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QG2QCYQ20",
+            "name": "vanitasvtyalete",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 8,
+              "trophies": 250
+            }
+          },
+          {
+            "tag": "#PYJPJLRUQ",
+            "name": "Kirito_mir",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 7,
+              "trophies": 235
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 9,
+              "trophies": 281
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8LYP2LJYP",
+            "name": "ТЁМАПРО",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 8,
+              "trophies": 264
+            }
+          },
+          {
+            "tag": "#8LYPYJCQP",
+            "name": "волтлеон",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 8,
+              "trophies": 264
+            }
+          },
+          {
+            "tag": "#8LY9L99LJ",
+            "name": "femboy)",
+            "brawler": {
+              "id": 16000060,
+              "name": "SAM",
+              "power": 8,
+              "trophies": 247
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260410T062544.000Z",
+    "event": {
+      "id": 15001210,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Opening Move"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 152,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#8Q0LG2QVQ",
+        "name": "🥀ᴛᴏxɪᴄ🖤",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 10,
+          "trophies": 258
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 9,
+              "trophies": 280
+            }
+          },
+          {
+            "tag": "#22892VC0V8",
+            "name": "saba",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 257
+            }
+          },
+          {
+            "tag": "#L2RV9Q9QJ",
+            "name": "Artem_6_5_7",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 10,
+              "trophies": 237
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8LVQQ2Q99",
+            "name": "Ro Space x",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 10,
+              "trophies": 270
+            }
+          },
+          {
+            "tag": "#8Q0LG2QVQ",
+            "name": "🥀ᴛᴏxɪᴄ🖤",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 10,
+              "trophies": 258
+            }
+          },
+          {
+            "tag": "#8Q2L8LVUY",
+            "name": "DOGGY_БАРСУК",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 9,
+              "trophies": 253
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
