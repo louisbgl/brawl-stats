@@ -48163,5 +48163,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260410T105735.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 79,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#L29VPRVVU",
+        "name": "SeM",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 11,
+          "trophies": 1209
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 1158
+            }
+          },
+          {
+            "tag": "#R0YRRGRUC",
+            "name": "999 Fiick3r",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1497
+            }
+          },
+          {
+            "tag": "#L29VPRVVU",
+            "name": "SeM",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1209
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LJRUPCG02",
+            "name": "GT_Louis 🌊💥",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1268
+            }
+          },
+          {
+            "tag": "#LJRC8GVL2",
+            "name": "wilson",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1271
+            }
+          },
+          {
+            "tag": "#LJLVLC282",
+            "name": "mathéo2805",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 1260
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260410T110014.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 133,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#980PY009U",
+        "name": "roroblechon74",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 1005
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9G2JULJYQ",
+            "name": "Ekisten",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1026
+            }
+          },
+          {
+            "tag": "#PJVU2CU8U",
+            "name": "Kavarin",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1017
+            }
+          },
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 1168
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LPYVJRVR",
+            "name": "Я гей",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1014
+            }
+          },
+          {
+            "tag": "#980PY009U",
+            "name": "roroblechon74",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1005
+            }
+          },
+          {
+            "tag": "#Y2L2JLG2C",
+            "name": "GHK | Lausa",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 1018
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
