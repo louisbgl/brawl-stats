@@ -649,6 +649,81 @@ const ViewHelpers = {
      */
     formatItemsList(items) {
         return items.map(item => this.createItemBadge(item)).join(' ');
+    },
+
+    /**
+     * Create a podium-style leaderboard display
+     * @param {string} title - Leaderboard title
+     * @param {string} icon - Emoji icon
+     * @param {Array} rankedPlayers - Array of { name, value, formattedValue } objects, pre-sorted
+     * @param {string} accentColor - CSS variable name for accent color (e.g., 'var(--accent-blue)')
+     * @returns {string} - HTML string
+     */
+    createPodiumLeaderboard(title, icon, rankedPlayers, accentColor = 'var(--accent-purple)') {
+        if (!rankedPlayers || rankedPlayers.length === 0) {
+            return `
+                <div class="leaderboard-container">
+                    <div class="leaderboard-header">
+                        <div class="leaderboard-icon">${icon}</div>
+                        <div class="leaderboard-title">${title}</div>
+                    </div>
+                    <div class="podium-display">
+                        <div class="loading">No data available</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Take top 3 for podium (reordered as 2nd, 1st, 3rd for visual effect)
+        const top3 = rankedPlayers.slice(0, 3);
+        const podiumOrder = [
+            top3[1] || null, // 2nd place (left)
+            top3[0] || null, // 1st place (center)
+            top3[2] || null  // 3rd place (right)
+        ];
+
+        const podiumHTML = podiumOrder.map((player, visualIdx) => {
+            if (!player) return '<div class="podium-empty"></div>';
+
+            // Map visual position to actual rank
+            const actualRank = visualIdx === 1 ? 1 : visualIdx === 0 ? 2 : 3;
+            const rankEmoji = actualRank === 1 ? '🥇' : actualRank === 2 ? '🥈' : '🥉';
+
+            return `
+                <div class="podium-place podium-rank-${actualRank}">
+                    <div class="podium-rank">${rankEmoji}</div>
+                    <div class="podium-player">${player.name}</div>
+                    <div class="podium-value" style="color: ${accentColor};">${player.formattedValue}</div>
+                </div>
+            `;
+        }).join('');
+
+        // Remaining players (4th and beyond)
+        const remainingPlayers = rankedPlayers.slice(3);
+        const remainingHTML = remainingPlayers.length > 0 ? `
+            <div class="leaderboard-rest">
+                ${remainingPlayers.map((player, idx) => `
+                    <div class="leaderboard-rest-item">
+                        <div class="leaderboard-rest-rank">${idx + 4}</div>
+                        <div class="leaderboard-rest-player">${player.name}</div>
+                        <div class="leaderboard-rest-value" style="color: ${accentColor};">${player.formattedValue}</div>
+                    </div>
+                `).join('')}
+            </div>
+        ` : '';
+
+        return `
+            <div class="leaderboard-container">
+                <div class="leaderboard-header">
+                    <div class="leaderboard-icon">${icon}</div>
+                    <div class="leaderboard-title">${title}</div>
+                </div>
+                <div class="podium-display">
+                    ${podiumHTML}
+                </div>
+                ${remainingHTML}
+            </div>
+        `;
     }
 };
 

@@ -488,7 +488,7 @@ select:focus, input[type="text"]:focus {
     border: 1px solid var(--border);
 }
 
-/* Leaderboards */
+/* Leaderboards - Old style (kept for compatibility) */
 .leaderboard-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -534,6 +534,152 @@ select:focus, input[type="text"]:focus {
 .leaderboard-stat {
     font-size: 0.9rem;
     color: var(--text-secondary);
+}
+
+/* Podium Leaderboards */
+.leaderboard-container {
+    background: var(--bg-secondary);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    margin-bottom: 20px;
+}
+
+.leaderboard-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--border);
+}
+
+.leaderboard-header .leaderboard-icon {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.leaderboard-header .leaderboard-title {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.podium-display {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+    min-height: 220px;
+}
+
+.podium-place {
+    flex: 1;
+    max-width: 150px;
+    background: var(--bg-card);
+    border-radius: 8px;
+    border: 2px solid var(--border);
+    padding: 15px 10px;
+    text-align: center;
+    transition: transform 0.2s, border-color 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.podium-place:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-purple);
+}
+
+/* Podium heights - 1st is tallest */
+.podium-rank-1 {
+    height: 200px;
+    border-color: var(--accent-orange);
+    background: linear-gradient(135deg, var(--bg-card) 0%, rgba(255, 159, 28, 0.1) 100%);
+}
+
+.podium-rank-2 {
+    height: 160px;
+    border-color: var(--accent-blue);
+    background: linear-gradient(135deg, var(--bg-card) 0%, rgba(74, 158, 255, 0.1) 100%);
+}
+
+.podium-rank-3 {
+    height: 130px;
+    border-color: var(--accent-purple);
+    background: linear-gradient(135deg, var(--bg-card) 0%, rgba(157, 78, 221, 0.1) 100%);
+}
+
+.podium-empty {
+    flex: 1;
+    max-width: 150px;
+}
+
+.podium-rank {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+
+.podium-player {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 5px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.2;
+}
+
+.podium-value {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+/* Rest of leaderboard (4th+) */
+.leaderboard-rest {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+}
+
+.leaderboard-rest-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 15px;
+    background: var(--bg-card);
+    border-radius: 6px;
+    margin-bottom: 8px;
+    transition: background 0.2s;
+}
+
+.leaderboard-rest-item:hover {
+    background: var(--bg-primary);
+}
+
+.leaderboard-rest-rank {
+    flex: 0 0 30px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    text-align: center;
+}
+
+.leaderboard-rest-player {
+    flex: 1;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.leaderboard-rest-value {
+    flex: 0 0 auto;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 /* Battle Performance */
@@ -983,6 +1129,56 @@ select:focus, input[type="text"]:focus {
     .filter-icon-img {
         width: 18px;
         height: 18px;
+    }
+
+    /* Podium adjustments for mobile */
+    .podium-display {
+        gap: 10px;
+        min-height: 180px;
+    }
+
+    .podium-place {
+        max-width: 100px;
+        padding: 10px;
+    }
+
+    .podium-rank-1 {
+        height: 160px;
+    }
+
+    .podium-rank-2 {
+        height: 130px;
+    }
+
+    .podium-rank-3 {
+        height: 110px;
+    }
+
+    .podium-rank {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+
+    .podium-player {
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+    }
+
+    .podium-value {
+        font-size: 1rem;
+    }
+
+    .leaderboard-rest-rank {
+        flex: 0 0 25px;
+        font-size: 0.85rem;
+    }
+
+    .leaderboard-rest-player {
+        font-size: 0.9rem;
+    }
+
+    .leaderboard-rest-value {
+        font-size: 0.95rem;
     }
 }
 

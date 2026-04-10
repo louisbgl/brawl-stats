@@ -220,47 +220,101 @@ function displayClubLeaderboards() {
 
     const players = DataManager.getAllPlayers();
 
-    // Calculate leaderboard stats
-    const grindKing = players
+    // === TOTAL BATTLES LEADERBOARD ===
+    const battlesRanking = players
         .map(p => ({
             name: p.name,
-            battles: BattlelogDataManager.getPlayerBattleCount(p.tag)
+            value: BattlelogDataManager.getPlayerBattleCount(p.tag),
+            formattedValue: BattlelogDataManager.getPlayerBattleCount(p.tag).toLocaleString()
         }))
-        .sort((a, b) => b.battles - a.battles)[0];
+        .sort((a, b) => b.value - a.value);
 
-    const bestOverallWr = BattlelogAnalytics.getBestOverallWinRatePlayer(20);
-    const starPlayer = BattlelogAnalytics.getTopStarPlayer();
-    const hotStreak = BattlelogAnalytics.getLongestCurrentStreak();
+    // === WIN RATE LEADERBOARD (show all players, note if < 20 battles) ===
+    const winRateRanking = players
+        .map(p => {
+            const battleCount = BattlelogDataManager.getPlayerBattleCount(p.tag);
+            const wr = BattlelogAnalytics.getWinRate(p.tag);
+
+            return {
+                name: p.name,
+                value: wr.winRate,
+                formattedValue: battleCount < 20 ? `${wr.winRate.toFixed(1)}%*` : `${wr.winRate.toFixed(1)}%`
+            };
+        })
+        .sort((a, b) => b.value - a.value);
+
+    // === STAR PLAYER LEADERBOARD ===
+    const starPlayerRanking = players
+        .map(p => {
+            const starPlayerCount = BattlelogAnalytics.getStarPlayerCount(p.tag);
+            return {
+                name: p.name,
+                value: starPlayerCount,
+                formattedValue: starPlayerCount.toString()
+            };
+        })
+        .sort((a, b) => b.value - a.value);
+
+    // === MAXED BRAWLERS LEADERBOARD ===
+    const maxedRanking = players
+        .map(p => ({
+            name: p.name,
+            value: p.brawlers.filter(b => CalculationHelpers.isMaxedBrawler(b)).length,
+            formattedValue: p.brawlers.filter(b => CalculationHelpers.isMaxedBrawler(b)).length.toString()
+        }))
+        .sort((a, b) => b.value - a.value);
+
+    // === DYNAMIC PRESTIGE LEADERBOARDS (P1, P2, P3, etc.) ===
+    // First, find the max prestige level across all players
+    const maxPrestigeLevel = Math.max(
+        ...players.flatMap(p =>
+            p.brawlers.map(b => CalculationHelpers.getPrestigeLevel(b.trophies))
+        )
+    );
+
+    // Create rankings for each prestige level (1 to maxPrestigeLevel)
+    const prestigeLeaderboards = [];
+    const prestigeEmojis = ['💎', '💠', '🔷', '🔹', '✨', '⭐', '🌟', '💫', '⚡', '🏆'];
+
+    for (let level = 1; level <= maxPrestigeLevel; level++) {
+        // Count brawlers at this prestige level for each player
+        const ranking = players
+            .map(p => {
+                const count = p.brawlers.filter(b => {
+                    const prestigeLevel = CalculationHelpers.getPrestigeLevel(b.trophies);
+                    return prestigeLevel === level;
+                }).length;
+
+                return {
+                    name: p.name,
+                    value: count,
+                    formattedValue: count.toString()
+                };
+            })
+            .sort((a, b) => b.value - a.value);
+
+        const emoji = prestigeEmojis[level - 1] || '💎';
+        const accentColor = level === 1 ? 'var(--accent-purple)' :
+                          level === 2 ? 'var(--accent-red)' :
+                          'var(--accent-orange)';
+
+        prestigeLeaderboards.push(
+            ViewHelpers.createPodiumLeaderboard(
+                `Prestige ${level} (${level * 1000}+ trophies)`,
+                emoji,
+                ranking,
+                accentColor
+            )
+        );
+    }
 
     const html = `
-        <div class="leaderboard-grid">
-            <div class="leaderboard-item">
-                <div class="leaderboard-icon">👑</div>
-                <div class="leaderboard-title">Grind King</div>
-                <div class="leaderboard-player">${grindKing?.name || 'N/A'}</div>
-                <div class="leaderboard-stat">${grindKing?.battles.toLocaleString() || 0} battles</div>
-            </div>
-
-            <div class="leaderboard-item">
-                <div class="leaderboard-icon">🏆</div>
-                <div class="leaderboard-title">Best Win Rate</div>
-                <div class="leaderboard-player">${bestOverallWr?.name || 'N/A'}</div>
-                <div class="leaderboard-stat">${bestOverallWr ? `${bestOverallWr.winRate.toFixed(1)}%` : 'N/A'}</div>
-            </div>
-
-            <div class="leaderboard-item">
-                <div class="leaderboard-icon">⭐</div>
-                <div class="leaderboard-title">Star Player</div>
-                <div class="leaderboard-player">${starPlayer?.name || 'N/A'}</div>
-                <div class="leaderboard-stat">${starPlayer?.starPlayerCount || 0} MVPs</div>
-            </div>
-
-            <div class="leaderboard-item">
-                <div class="leaderboard-icon">🔥</div>
-                <div class="leaderboard-title">Hot Streak</div>
-                <div class="leaderboard-player">${hotStreak?.name || 'N/A'}</div>
-                <div class="leaderboard-stat">${hotStreak ? `${hotStreak.streak} wins` : 'N/A'}</div>
-            </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px;">
+            ${ViewHelpers.createPodiumLeaderboard('Total Battles', '👑', battlesRanking, 'var(--accent-blue)')}
+            ${ViewHelpers.createPodiumLeaderboard('Win Rate', '📊', winRateRanking, 'var(--accent-green)')}
+            ${ViewHelpers.createPodiumLeaderboard('Star Player MVPs', '⭐', starPlayerRanking, 'var(--accent-purple)')}
+            ${ViewHelpers.createPodiumLeaderboard('Maxed Brawlers', '✨', maxedRanking, 'var(--accent-green)')}
+            ${prestigeLeaderboards.join('')}
         </div>
     `;
 
