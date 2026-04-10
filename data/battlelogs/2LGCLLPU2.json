@@ -48347,5 +48347,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260410T142751.000Z",
+    "event": {
+      "id": 15001167,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Singed Earth"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 85,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#29R0CPUJR",
+        "name": "[AU]TORNADO",
+        "brawler": {
+          "id": 16000098,
+          "name": "ZIGGY",
+          "power": 11,
+          "trophies": 1201
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CYY0LVQ9R",
+            "name": "LagallinaCiega",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 577
+            }
+          },
+          {
+            "tag": "#G2JCVUJLU",
+            "name": "TH|Santi30🏀",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 622
+            }
+          },
+          {
+            "tag": "#LGRJ88PG0",
+            "name": "QWERTY",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 907
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#29R0CPUJR",
+            "name": "[AU]TORNADO",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 1201
+            }
+          },
+          {
+            "tag": "#88009CLLR",
+            "name": "ᎶᏒᏋᏋᏁ ᏒᎧᏗᏒ",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 859
+            }
+          },
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 726
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
