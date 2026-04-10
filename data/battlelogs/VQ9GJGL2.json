@@ -29322,5 +29322,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260410T092642.000Z",
+    "event": {
+      "id": 15001210,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Opening Move"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 79,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#QC89VGQQ",
+        "name": "[|Nitrox|]",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 11,
+          "trophies": 404
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#29L8UJG9U",
+            "name": "michou",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWBERT",
+              "power": 11,
+              "trophies": 1989
+            }
+          },
+          {
+            "tag": "#QC89VGQQ",
+            "name": "[|Nitrox|]",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 404
+            }
+          },
+          {
+            "tag": "#GRCQCRVRV",
+            "name": "FUT|youssef702",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 1691
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1631
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 1060
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 1853
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260410T092914.000Z",
+    "event": {
+      "id": 15001210,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Opening Move"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 101,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000075,
+          "name": "MICO",
+          "power": 11,
+          "trophies": 1843
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UP29YPY8J",
+            "name": "🪄⭐MAGIC⭐🪄",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 2001
+            }
+          },
+          {
+            "tag": "#GCR9CG2GR",
+            "name": "Dauernd Legende",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 2007
+            }
+          },
+          {
+            "tag": "#L0QRYVJ28",
+            "name": "....",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1622
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 1055
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 1843
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
