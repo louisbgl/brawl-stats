@@ -50187,5 +50187,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260411T055026.000Z",
+    "event": {
+      "id": 15001167,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Singed Earth"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 37,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#RLPJ89P2",
+        "name": "Ish 💛 ana",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 1333
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9C2Q8VPUV",
+            "name": "t|viltrum|t",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 613
+            }
+          },
+          {
+            "tag": "#GJVJYRP92",
+            "name": "TRB |Bagwe",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 857
+            }
+          },
+          {
+            "tag": "#RLPJ89P2",
+            "name": "Ish 💛 ana",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1333
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QRJC9QJC8",
+            "name": "NiceShøt",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#LG0PL0U0C",
+            "name": "FUT/MATVIKS",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1897
+            }
+          },
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 1277
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260411T055300.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 121,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#PVQVL822",
+        "name": "betben",
+        "brawler": {
+          "id": 16000064,
+          "name": "GRAY",
+          "power": 11,
+          "trophies": 1141
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PVQVL822",
+            "name": "betben",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 1141
+            }
+          },
+          {
+            "tag": "#U2QRJG0RC",
+            "name": "криптовалючик",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1655
+            }
+          },
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 1270
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GCRVJPGPC",
+            "name": "Skil",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1335
+            }
+          },
+          {
+            "tag": "#GCJPR8C2R",
+            "name": "глад",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 10,
+              "trophies": 1324
+            }
+          },
+          {
+            "tag": "#GCCGGJCCV",
+            "name": "QLS|GuilleVgx☔",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 11,
+              "trophies": 1324
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
