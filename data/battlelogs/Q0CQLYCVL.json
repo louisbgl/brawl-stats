@@ -18735,5 +18735,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260411T122827.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 68,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#G9JQ8PC2",
+        "name": "darii_013",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 11,
+          "trophies": 1313
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QLPCYL",
+            "name": "TM|V1RUS",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 908
+            }
+          },
+          {
+            "tag": "#2CQUVJLUJ",
+            "name": "🖤ImManu🖤",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1196
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 883
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RJ0R98VC",
+            "name": "bot 7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 924
+            }
+          },
+          {
+            "tag": "#R0C9P88QU",
+            "name": "hyra",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 813
+            }
+          },
+          {
+            "tag": "#G9JQ8PC2",
+            "name": "darii_013",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1313
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260411T122928.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 30,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2RV2Y2RUPQ",
+        "name": "XxTENSAIxX",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 11,
+          "trophies": 329
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 312
+            }
+          },
+          {
+            "tag": "#2RV2Y2RUPQ",
+            "name": "XxTENSAIxX",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 329
+            }
+          },
+          {
+            "tag": "#LV8LRURVQ",
+            "name": "АБОБА",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 7,
+              "trophies": 345
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#U09LG8YPP",
+            "name": "Madyene 69",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 10,
+              "trophies": 279
+            }
+          },
+          {
+            "tag": "#U0G9VU8QL",
+            "name": "🤣🤣",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 8,
+              "trophies": 350
+            }
+          },
+          {
+            "tag": "#U2800CQVL",
+            "name": "ethan252024",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 10,
+              "trophies": 360
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
