@@ -32440,5 +32440,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260412T113051.000Z",
+    "event": {
+      "id": 15000581,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Healthy Middle Ground"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 79,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#YG8JCU0G2",
+        "name": "Sᴛʀᴇᴀᴍʙᴇᴛ",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 9,
+          "trophies": 1703
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#20U0QRC0QR",
+            "name": "CHN/BATOU🇧🇪🌒",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 852
+            }
+          },
+          {
+            "tag": "#22089VQLGU",
+            "name": "LEGENDARY🇺🇦",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 9,
+              "trophies": 863
+            }
+          },
+          {
+            "tag": "#YG8JCU0G2",
+            "name": "Sᴛʀᴇᴀᴍʙᴇᴛ",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 9,
+              "trophies": 1703
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YRRJG2L0",
+            "name": "El Monster",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 844
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 9,
+              "trophies": 573
+            }
+          },
+          {
+            "tag": "#22GUYVGPG",
+            "name": "Nagiko",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 10,
+              "trophies": 510
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260412T113229.000Z",
+    "event": {
+      "id": 15000581,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Healthy Middle Ground"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 58,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#22GUYVGPG",
+        "name": "Nagiko",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 509
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YRRJG2L0",
+            "name": "El Monster",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 645
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 9,
+              "trophies": 571
+            }
+          },
+          {
+            "tag": "#22GUYVGPG",
+            "name": "Nagiko",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 509
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YQ20VVJRJ",
+            "name": "toto la rue",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 563
+            }
+          },
+          {
+            "tag": "#YLYQ2YJQL",
+            "name": "talmo",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 9,
+              "trophies": 594
+            }
+          },
+          {
+            "tag": "#YQ00LPLVJ",
+            "name": "Julius 2",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 580
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
