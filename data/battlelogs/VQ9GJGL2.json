@@ -33084,5 +33084,103 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260412T155635.000Z",
+    "event": {
+      "id": 15001187,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS CROW"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#RLLQR208R",
+          "name": "Twiksa",
+          "brawler": {
+            "id": 16000009,
+            "name": "DYNAMIKE",
+            "power": 11,
+            "trophies": 1386
+          }
+        },
+        {
+          "tag": "#VQ9GJGL2",
+          "name": "JOEL | OrDos_",
+          "brawler": {
+            "id": 16000005,
+            "name": "SPIKE",
+            "power": 11,
+            "trophies": 1596
+          }
+        },
+        {
+          "tag": "#2U8RLLR9GL",
+          "name": "DRAGON",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1360
+          }
+        }
+      ],
+      "level": {
+        "name": "Normal",
+        "id": 0
+      }
+    }
+  },
+  {
+    "battleTime": "20260412T155810.000Z",
+    "event": {
+      "id": 15001187,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS CROW"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#R820GLLQY",
+          "name": "FUT | MaLiK",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1211
+          }
+        },
+        {
+          "tag": "#VQ9GJGL2",
+          "name": "JOEL | OrDos_",
+          "brawler": {
+            "id": 16000005,
+            "name": "SPIKE",
+            "power": 11,
+            "trophies": 1596
+          }
+        },
+        {
+          "tag": "#8JUCU0QYG",
+          "name": "Roni",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 1422
+          }
+        }
+      ],
+      "level": {
+        "name": "Hard",
+        "id": 1
+      }
+    }
   }
 ]
