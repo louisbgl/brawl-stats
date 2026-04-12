@@ -75936,5 +75936,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260412T221234.000Z",
+    "event": {
+      "id": 15001053,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sidetrack"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 174,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#29J8GYU08",
+        "name": "Lucq",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 11,
+          "trophies": 842
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2URLRJGCQ8",
+            "name": "Duque",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1436
+            }
+          },
+          {
+            "tag": "#8V8JP8RVV",
+            "name": "TN / JOSE / 😜",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1063
+            }
+          },
+          {
+            "tag": "#Q2P890VUU",
+            "name": "AT|Thao;)",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 799
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R8VPC9VJ0",
+            "name": "イム・ザイター⚡",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 1777
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 886
+            }
+          },
+          {
+            "tag": "#29J8GYU08",
+            "name": "Lucq",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 842
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
