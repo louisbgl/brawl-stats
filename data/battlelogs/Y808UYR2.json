@@ -19677,5 +19677,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260413T195939.000Z",
+    "event": {
+      "id": 15000292,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Open Business"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 119,
+      "starPlayer": {
+        "tag": "#2PLVJCL82",
+        "name": "Filip3481",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#P2U0VJUQ2",
+            "name": "⛩️ | m7md🎋",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#LC22LUGYU",
+            "name": "bleood",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 9,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8P0YLYJR",
+            "name": "Kakashi-Sensei",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2PLVJCL82",
+            "name": "Filip3481",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2Q208Q9YG0",
+            "name": "KochamEwelinkeP",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
