@@ -354,8 +354,14 @@ const PlayerChartsManager = {
         const modeData = Object.entries(modeCounts)
             .sort((a, b) => b[1] - a[1]);
 
-        const labels = modeData.map(([mode]) => mode);
+        const labels = modeData.map(([mode]) => GameConstants.getModeName(mode));
         const data = modeData.map(([, count]) => count);
+        const colors = modeData.map(([mode], idx) => {
+            const modeColor = GameConstants.getModeColor(mode);
+            return modeColor === '#888888'
+                ? GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
+                : modeColor;
+        });
 
         const canvas = document.getElementById('playerModeChart');
         if (!canvas) return;
@@ -367,7 +373,7 @@ const PlayerChartsManager = {
                 labels: labels,
                 datasets: [{
                     data: data,
-                    backgroundColor: GameConstants.COLOR_PALETTE.slice(0, labels.length),
+                    backgroundColor: colors,
                     borderWidth: 2,
                     borderColor: '#252d3d'
                 }]

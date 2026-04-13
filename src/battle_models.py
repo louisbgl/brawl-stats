@@ -2,15 +2,73 @@
 Data models for battle log tracking.
 Mirrors the structure discovered via keys() analysis on the API response.
 
-Battle types observed:
-  - Team modes (brawlBall, gemGrab, bounty, knockout, hotZone, siege, duoShowdown):
-      always have: result ("victory"/"defeat"), teams, duration, starPlayer
-      sometimes have: trophyChange (not in friendlies)
-  - Solo showdown (soloShowdown):
-      always have: rank, players
-      never have: result, teams, duration, starPlayer, trophyChange
+=== BATTLE TYPES (battle.type) ===
+  - ranked: Ladder/Trophy system (normal matchmaking with trophy changes, brawlers at various trophy levels)
+  - soloRanked: Competitive Ranked system (ELO-based matchmaking, no trophy changes, brawlers at low trophy levels 1-16)
+  - friendly: Friendly matches (no trophy changes, casual play)
+  - null (no type field): Special events and PvE modes (e.g., lastStand)
 
-won inference: trophy_change > 0 → True, < 0 → False, == 0 → None (friendly/undetermined)
+=== ALL EVENT MODES (event.mode) ===
+Complete list from battlelog data (15 total):
+  bounty, brawlBall, brawlBall5V5, duels, duoShowdown, gemGrab, heist, hotZone,
+  knockout, soloShowdown, trioShowdown, unknown, wipeout, wipeout5V5
+
+=== BATTLE STRUCTURE BY MODE TYPE ===
+
+1. Team Modes (3v3) - Standard competitive modes
+   Modes: brawlBall, gemGrab, bounty, knockout, hotZone, siege, heist, wipeout
+   Structure:
+     - battle.mode = event.mode (same)
+     - teams[] with 2 teams of 3 players each
+     - result ("victory"/"defeat"), duration, starPlayer
+     - trophyChange (except friendlies)
+
+2. Team Modes (5v5) - Special 5v5 variants
+   Modes: brawlBall5V5, wipeout5V5
+   Structure:
+     - event.mode has "5V5" suffix (e.g., "brawlBall5V5")
+     - battle.mode is base mode (e.g., "brawlBall")
+     - teams[] with 2 teams of 5 players each (instead of 3)
+     - Same structure as 3v3 otherwise
+
+3. Showdown Modes - Battle royale
+   Modes: soloShowdown (1 player), duoShowdown (2 players), trioShowdown (3 players)
+   Structure:
+     - soloShowdown: players[] array (no teams)
+     - duoShowdown: teams[] array with 2 players each
+     - trioShowdown: event.mode="trioShowdown", battle.mode="duoShowdown", teams[] with 3 players each
+     - rank (placement 1-10)
+     - NO result, duration, starPlayer, trophyChange
+
+4. Duels Mode - 1v1 with multiple brawlers
+   Mode: duels
+   Structure:
+     - players[] array with 2 players (1v1)
+     - Each player has brawlers[] array (3 brawlers each)
+     - Each brawler has its own trophyChange
+     - result ("victory"/"defeat"), duration
+     - NO starPlayer, NO battle-level trophyChange
+
+5. PvE Modes - Player vs Environment
+   Mode: lastStand
+   Structure:
+     - event.mode = "unknown", battle.mode = "lastStand"
+     - players[] array
+     - result ("victory"/"defeat"), level object
+     - battle.type = null
+     - NO trophyChange, NO starPlayer
+
+6. Unknown Event Mode
+   event.mode = "unknown" appears for:
+     - lastStand (PvE) - 288 battles
+     - siege (ranked) - 102 battles
+     - Edge cases: brawlBall, soloShowdown
+
+=== TROPHY CHANGE INFERENCE ===
+won = trophy_change > 0 → True
+won = trophy_change < 0 → False
+won = trophy_change == 0 → None (friendly/undetermined)
+won = (use result field) → for modes without trophyChange (showdown, lastStand)
 """
 
 from dataclasses import dataclass, field, asdict
@@ -65,6 +123,25 @@ class BattleEntry:
     def timestamp(self) -> datetime:
         """Parse battle_time into a UTC datetime."""
         return datetime.strptime(self.battle_time, "%Y%m%dT%H%M%S.%fZ").replace(tzinfo=timezone.utc)
+
+    def is_team_mode(self) -> bool:
+        """Check if this is a team-based mode (3v3)."""
+        return self.mode in {
+            'brawlBall', 'gemGrab', 'bounty', 'knockout',
+            'hotZone', 'siege', 'heist', 'wipeout'
+        }
+
+    def is_showdown_mode(self) -> bool:
+        """Check if this is a showdown mode (battle royale)."""
+        return self.mode in {'soloShowdown', 'duoShowdown', 'trioShowdown'}
+
+    def is_duels_mode(self) -> bool:
+        """Check if this is duels mode (1v1 with multiple brawlers)."""
+        return self.mode == 'duels'
+
+    def is_pve_mode(self) -> bool:
+        """Check if this is a PvE mode (player vs environment)."""
+        return self.mode == 'lastStand'
 
 
 @dataclass

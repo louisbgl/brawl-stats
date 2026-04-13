@@ -65,26 +65,34 @@ const BattlelogAnalytics = {
     // ============================================================================
     // Battle Detection Helpers
     // ============================================================================
+    // NOTE: These methods now delegate to BattlelogHelpers for consistency
+    //       and proper handling of new modes (duels, lastStand, etc.)
 
-    isWin(battle) {
-        const trophyChange = battle.battle.trophyChange || 0;
-        if (trophyChange > 0) return true;
-        if (trophyChange < 0) return false;
-
-        // For friendly battles (trophyChange = 0), check result
-        return battle.battle.result === 'victory';
+    isWin(battle, playerTag = null) {
+        return BattlelogHelpers.isWin(battle, playerTag);
     },
 
-    isLoss(battle) {
-        const trophyChange = battle.battle.trophyChange || 0;
-        if (trophyChange < 0) return true;
-        if (trophyChange > 0) return false;
+    isLoss(battle, playerTag = null) {
+        return BattlelogHelpers.isLoss(battle, playerTag);
+    },
 
-        // For friendly battles (trophyChange = 0), check result
-        return battle.battle.result === 'defeat';
+    // Battle type detection helpers
+    // Note: "ranked" = Ladder/trophy system, "soloRanked" = Competitive ELO-based ranked
+
+    isLadderMode(battle) {
+        return battle.battle.type === 'ranked';
+    },
+
+    isCompetitiveRanked(battle) {
+        return battle.battle.type === 'soloRanked';
+    },
+
+    isFriendlyMode(battle) {
+        return battle.battle.type === 'friendly';
     },
 
     isRankedMode(battle) {
+        // Legacy helper - returns true for both ladder AND competitive ranked
         const type = battle.battle.type || '';
         return type.toLowerCase().includes('ranked');
     },

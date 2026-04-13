@@ -211,7 +211,7 @@ const BattlesManager = {
             if (mode && mode !== 'Unknown') modes.add(mode);
         });
         const modeOptions = Array.from(modes).sort().map(mode =>
-            `<option value="${mode}" ${this.currentFilters.mode === mode ? 'selected' : ''}>${mode}</option>`
+            `<option value="${mode}" ${this.currentFilters.mode === mode ? 'selected' : ''}>${GameConstants.getModeName(mode)}</option>`
         ).join('');
 
         return `
@@ -305,12 +305,22 @@ const BattlesManager = {
     generateBattleEntryHTML(battleEntry) {
         const { player, battle } = battleEntry;
         const result = this.getBattleResult(battleEntry);
-        const trophyChange = battle.battle?.trophyChange || 0;
+        const trophyChange = BattlelogHelpers.getTrophyChange(battle, player.tag);
 
         // Get brawler info using helper
-        const brawler = BattlelogHelpers.getPlayerBrawlerFromBattle(battle, player.tag);
-        const brawlerName = brawler ? brawler.name : 'Unknown';
-        const brawlerPower = brawler && brawler.power ? ` P${brawler.power}` : '';
+        const brawlerData = BattlelogHelpers.getPlayerBrawlerFromBattle(battle, player.tag);
+
+        // Handle duels mode (multiple brawlers) vs regular modes (single brawler)
+        let brawlerName, brawlerPower;
+        if (Array.isArray(brawlerData)) {
+            // Duels mode: show all brawlers
+            const brawlerNames = brawlerData.map(b => b.name).join(', ');
+            brawlerName = brawlerNames || 'Unknown';
+            brawlerPower = ''; // Don't show power for duels (too many brawlers)
+        } else {
+            brawlerName = brawlerData ? brawlerData.name : 'Unknown';
+            brawlerPower = brawlerData && brawlerData.power ? ` P${brawlerData.power}` : '';
+        }
 
         // Get mode and map using helpers
         const mode = BattlelogHelpers.getBattleMode(battle);

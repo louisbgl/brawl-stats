@@ -453,14 +453,21 @@ const ChartsManager = {
             });
         });
 
-        const datasets = Array.from(allModes).map((mode, idx) => ({
-            label: mode,
-            data: modePercentages[mode],
-            backgroundColor: GameConstants.MODE_COLORS[mode] || GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length] + 'cc',
-            borderColor: GameConstants.MODE_COLORS[mode] || GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length],
-            borderWidth: 1,
-            fill: true
-        }));
+        const datasets = Array.from(allModes).map((mode, idx) => {
+            const modeColor = GameConstants.getModeColor(mode);
+            const fallbackColor = modeColor === '#888888'
+                ? GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
+                : modeColor;
+
+            return {
+                label: GameConstants.getModeName(mode),
+                data: modePercentages[mode],
+                backgroundColor: fallbackColor + 'cc',
+                borderColor: fallbackColor,
+                borderWidth: 1,
+                fill: true
+            };
+        });
 
         const ctx = canvas.getContext('2d');
         this.charts.modePopularity = new Chart(ctx, {

@@ -83,17 +83,81 @@ const GameConstants = {
     },
 
     // Game mode colors for mode popularity charts
+    // Complete list of all 15 event.mode values found in battle logs
     MODE_COLORS: {
+        // Team 3v3 modes
         'gemGrab': '#06d6a0',
         'brawlBall': '#4a9eff',
         'bounty': '#ff9f1c',
         'heist': '#ef476f',
         'hotZone': '#9d4edd',
         'knockout': '#118ab2',
+        'siege': '#8338ec',
+        'wipeout': '#e63946',
+        // Team 5v5 modes
+        'brawlBall5V5': '#6bb6ff',
+        'wipeout5V5': '#ff5964',
+        // Showdown modes
         'showdown': '#ffd60a',
-        'duoShowdown': '#ffb703',
         'soloShowdown': '#ffd60a',
-        'wipeout': '#e63946'
+        'duoShowdown': '#ffb703',
+        'trioShowdown': '#fb8500',
+        // Special modes
+        'duels': '#ff006e',
+        'lastStand': '#06ffa5',
+        'unknown': '#888888'
+    },
+
+    // Game mode display names (human-readable)
+    MODE_NAMES: {
+        // Team 3v3 modes
+        'gemGrab': 'Gem Grab',
+        'brawlBall': 'Brawl Ball',
+        'bounty': 'Bounty',
+        'heist': 'Heist',
+        'hotZone': 'Hot Zone',
+        'knockout': 'Knockout',
+        'siege': 'Siege',
+        'wipeout': 'Wipeout',
+        // Team 5v5 modes
+        'brawlBall5V5': 'Brawl Ball 5v5',
+        'wipeout5V5': 'Wipeout 5v5',
+        // Showdown modes
+        'showdown': 'Showdown',
+        'soloShowdown': 'Solo Showdown',
+        'duoShowdown': 'Duo Showdown',
+        'trioShowdown': 'Trio Showdown',
+        // Special modes
+        'duels': 'Duels',
+        'lastStand': 'Last Stand',
+        'unknown': 'Unknown'
+    },
+
+    // Game mode categories
+    MODE_CATEGORIES: {
+        team: ['gemGrab', 'brawlBall', 'bounty', 'heist', 'hotZone', 'knockout', 'siege', 'wipeout'],
+        team5v5: ['brawlBall5V5', 'wipeout5V5'],
+        showdown: ['soloShowdown', 'duoShowdown', 'trioShowdown'],
+        duels: ['duels'],
+        pve: ['lastStand']
+    },
+
+    /**
+     * Get display name for a game mode
+     * @param {string} mode - Internal mode name (e.g., 'brawlBall')
+     * @returns {string} - Human-readable name (e.g., 'Brawl Ball')
+     */
+    getModeName(mode) {
+        return this.MODE_NAMES[mode] || mode;
+    },
+
+    /**
+     * Get color for a game mode
+     * @param {string} mode - Internal mode name
+     * @returns {string} - Hex color code
+     */
+    getModeColor(mode) {
+        return this.MODE_COLORS[mode] || '#888888';
     }
 };
 

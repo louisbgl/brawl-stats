@@ -48,7 +48,7 @@ cp .env.example .env
 **Key Modules:**
 - `src/api.py`: API client for Brawl Stars API with caching for brawlers reference data. `api_call(endpoint)` auto-encodes `#` in tags.
 - `src/models.py`: Dataclasses for daily snapshots (DailySnapshot, ClubSnapshot, PlayerSnapshot, BrawlerSnapshot)
-- `src/battle_models.py`: Dataclasses for battle log tracking (BattleEntry, BattlePlayer, BattleBrawler, PlayerBattleLog). `won` is inferred from `trophy_change` sign.
+- `src/battle_models.py`: Dataclasses for battle log tracking (BattleEntry, BattlePlayer, BattleBrawler, PlayerBattleLog). Contains comprehensive documentation of ALL 15 event.mode values and 4 battle.type values found in battle logs. Battle types: (1) ranked=Ladder/trophy system with trophyChange, (2) soloRanked=Competitive ELO-based ranked (no trophies, brawlers at 1-16 trophies), (3) friendly=casual matches, (4) null=special events/PvE. Includes helper methods: `is_team_mode()`, `is_showdown_mode()`, `is_duels_mode()`, `is_pve_mode()`. Key mode types: (1) Team 3v3: standard modes with teams[] and 3 players, (2) Team 5v5: brawlBall5V5/wipeout5V5 with 5 players per team, (3) Showdown: battle royale with rank placement, (4) Duels: 1v1 where each player uses 3 brawlers with individual trophyChange, (5) PvE: lastStand with no trophyChange.
 - `src/battle_store.py`: Persistent storage for battle logs. Saves raw API items to `data/battlelogs/{TAG}.json`, deduped by `battleTime`. Use `update(tag)` to fetch and persist new battles, `load_raw(tag)` to read them back.
 - `src/config.py`: Configuration including API credentials, club/player tags, and game constants
 - `collect_data.py`: Main entry point that orchestrates daily data collection
@@ -72,12 +72,22 @@ This frontend is designed for AI-assisted development ("vibecoding"). All common
 **Core Modules (Load Order Matters):**
 
 1. **`js/config.js`** - Game constants and utilities
-   - `GameConstants`: All Brawl Stars game mechanics (upgrade costs, prestige threshold, item costs, color palettes)
+   - `GameConstants`: All Brawl Stars game mechanics (upgrade costs, prestige threshold, item costs, color palettes, mode names/colors)
+     - `MODE_COLORS`: Color mapping for all game modes (heist, wipeout, lastStand, etc.)
+     - `MODE_NAMES`: Human-readable display names (e.g., 'brawlBall' → 'Brawl Ball')
+     - `MODE_CATEGORIES`: Modes organized by type (team, showdown, pve)
+     - `getModeName(mode)`: Get display name for a mode (use this instead of raw mode strings)
+     - `getModeColor(mode)`: Get color for a mode (use this instead of direct MODE_COLORS access)
    - `Utils`: Date/time parsing and formatting utilities
    - Load first - required by all other modules
 
 2. **`js/helpers.js`** - Shared helper functions (single source of truth)
    - `BattlelogHelpers`: Battle data extraction (player lookup, teammates, win/loss detection, brawler stats calculation, trophy timeline construction)
+     - `getPlayerBrawlerFromBattle(battle, playerTag)` - Returns single brawler OR array (for duels mode)
+     - `getTrophyChange(battle, playerTag)` - Gets trophy change for any mode (handles duels summing, lastStand zero, etc.)
+     - `isWin(battle, playerTag)` / `isLoss(battle, playerTag)` - **ALWAYS pass playerTag** for duels support
+     - `getBattleResult(battle, playerTag)` - Returns 'win'/'loss'/'draw'
+     - `calculateBrawlerStats(playerTag, battles)` - Handles duels mode (multiple brawlers per battle)
    - `ChartHelpers`: Chart.js factories (common chart configs, dataset creation, animations, timestamp formatting)
    - `ViewHelpers`: HTML generation (stat boxes, filter selects, time formatting, item badges)
    - `CalculationHelpers`: Shared calculations (maxed brawler check, prestige level, upgrade costs)
@@ -137,9 +147,11 @@ When adding a new chart:
 2. Reference `GameConstants.COLOR_PALETTE` for colors
 
 When analyzing battles:
-1. Use `BattlelogHelpers.getPlayerBrawlerFromBattle()` to find player's brawler
-2. Use `BattlelogHelpers.calculateBrawlerStats()` for win rates and statistics
-3. Use `BattlelogHelpers.isWin()` / `isLoss()` for result detection
+1. **ALWAYS** use `BattlelogHelpers.getTrophyChange(battle, playerTag)` for trophy changes (handles duels mode)
+2. **ALWAYS** pass `playerTag` to `isWin(battle, playerTag)` / `isLoss(battle, playerTag)` (required for duels)
+3. Use `BattlelogHelpers.getPlayerBrawlerFromBattle(battle, playerTag)` - may return single brawler OR array (duels)
+4. Use `BattlelogHelpers.calculateBrawlerStats(playerTag, battles)` for win rates (handles all modes including duels)
+5. **NEVER** directly access `battle.battle.trophyChange` - always use `getTrophyChange()` helper
 
 When calculating costs:
 1. Use `CalculationHelpers.calculateUpgradeCosts()` for account/brawler upgrade costs
@@ -149,6 +161,11 @@ When formatting dates:
 1. Use `Utils.parseBattleTime()` to parse API battle timestamps
 2. Use `ViewHelpers.formatTimeAgo()` for relative times ("5m ago")
 3. Use `Utils.formatDayLabel()` for date headers
+
+When displaying game modes:
+1. **ALWAYS** use `GameConstants.getModeName(mode)` for display text (never show raw mode strings like "brawlBall")
+2. **ALWAYS** use `GameConstants.getModeColor(mode)` for mode-specific colors (consistent colors across UI)
+3. Use `GameConstants.MODE_CATEGORIES` to filter or group modes by type (team/showdown/pve)
 
 **Tab Features:**
 - **Club Overview**: Trophy timeline + quick stats for all members
