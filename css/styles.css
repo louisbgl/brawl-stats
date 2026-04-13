@@ -1202,6 +1202,438 @@ select:focus, input[type="text"]:focus {
     margin-bottom: 12px;
 }
 
+/* Battle card - expandable with original look */
+.battle-card {
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    transition: all 0.2s;
+}
+
+.battle-card:hover {
+    transform: translateX(2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.battle-card.battle-win {
+    background: rgba(6, 214, 160, 0.1);
+    border-color: var(--accent-green);
+}
+
+.battle-card.battle-loss {
+    background: rgba(239, 71, 111, 0.1);
+    border-color: var(--accent-red);
+}
+
+.battle-card.battle-draw {
+    background: rgba(155, 163, 175, 0.1);
+    border-color: var(--text-secondary);
+}
+
+/* Competitive ranked styling */
+.battle-card.battle-competitive-ranked.battle-win {
+    background: rgba(157, 78, 221, 0.1);
+    border-color: var(--accent-purple);
+}
+
+.battle-card.battle-competitive-ranked.battle-loss {
+    background: rgba(157, 78, 221, 0.1);
+    border-color: var(--accent-purple);
+}
+
+.battle-card.battle-competitive-ranked.battle-draw {
+    background: rgba(157, 78, 221, 0.1);
+    border-color: var(--accent-purple);
+}
+
+.battle-collapsed {
+    cursor: pointer;
+}
+
+.battle-collapsed-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+}
+
+.battle-ranked-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+    color: white;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-right: 4px;
+}
+
+.battle-event-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    background: linear-gradient(135deg, #06ffa5, #00c896);
+    color: #0a0e27;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-right: 4px;
+}
+
+.battle-result-icon {
+    font-size: 1.1rem;
+}
+
+.battle-player-name {
+    font-weight: 700;
+    color: var(--accent-blue);
+}
+
+.battle-brawler-name {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.battle-mode-name {
+    color: var(--accent-purple);
+}
+
+.battle-map {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.battle-result {
+    font-weight: 600;
+}
+
+.battle-card.battle-win .battle-result {
+    color: var(--accent-green);
+}
+
+.battle-card.battle-loss .battle-result {
+    color: var(--accent-red);
+}
+
+.battle-card.battle-draw .battle-result {
+    color: var(--text-secondary);
+}
+
+.battle-trophy-change {
+    font-weight: 600;
+}
+
+.battle-trophy-change.positive {
+    color: var(--accent-green);
+}
+
+.battle-trophy-change.negative {
+    color: var(--accent-red);
+}
+
+.battle-time-ago {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    margin-left: auto;
+}
+
+.battle-expand-icon {
+    color: var(--text-secondary);
+    font-size: 0.7rem;
+    transition: transform 0.2s;
+}
+
+.battle-card.expanded .battle-expand-icon {
+    transform: rotate(180deg);
+}
+
+.battle-separator {
+    color: var(--border);
+}
+
+.battle-expanded {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+}
+
+.battle-expanded-content {
+    font-size: 0.9rem;
+}
+
+/* Expanded battle view styles */
+.expanded-section {
+    margin-bottom: 15px;
+}
+
+.expanded-section:last-child {
+    margin-bottom: 0;
+}
+
+.expanded-info-line {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.expanded-info-text {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.expanded-info-text strong {
+    color: var(--text-primary);
+}
+
+.expanded-info-text strong.positive {
+    color: var(--accent-green);
+}
+
+.expanded-info-text strong.negative {
+    color: var(--accent-red);
+}
+
+.expanded-info-separator {
+    color: var(--border);
+}
+
+.ranked-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+/* Teams grid */
+.expanded-teams-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+@media (max-width: 768px) {
+    .expanded-teams-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.expanded-team {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.expanded-team.team-win {
+    background: rgba(6, 214, 160, 0.05);
+    border-color: var(--accent-green);
+}
+
+.expanded-team.team-loss {
+    background: rgba(239, 71, 111, 0.05);
+    border-color: var(--accent-red);
+}
+
+.expanded-team-header {
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+}
+
+.expanded-team-player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    gap: 10px;
+}
+
+.expanded-player-name {
+    font-size: 0.9rem;
+    color: var(--text-primary);
+}
+
+.expanded-player-name.player-team-you {
+    font-weight: 700;
+    color: var(--accent-blue);
+}
+
+.expanded-player-brawler {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+/* Showdown styles */
+.showdown-participants {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.showdown-participants.showdown-solo {
+    /* Solo showdown: single column list */
+}
+
+.showdown-participants.showdown-team-mode {
+    /* Duo/Trio showdown: display teams */
+    gap: 12px;
+}
+
+.showdown-player {
+    display: grid;
+    grid-template-columns: 40px 1fr auto;
+    gap: 12px;
+    align-items: center;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+}
+
+.showdown-player.showdown-player-you {
+    background: rgba(74, 158, 255, 0.1);
+    border-color: var(--accent-blue);
+}
+
+.showdown-rank {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    text-align: center;
+}
+
+.showdown-name {
+    font-size: 0.9rem;
+    color: var(--text-primary);
+}
+
+.showdown-brawler {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    text-align: right;
+}
+
+/* Showdown teams (duo/trio) */
+.showdown-team {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.showdown-team.showdown-team-you {
+    background: rgba(74, 158, 255, 0.1);
+    border-color: var(--accent-blue);
+}
+
+.showdown-team-header {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+}
+
+.showdown-team-player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+    gap: 10px;
+}
+
+/* Duels styles */
+.duels-brawler {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    gap: 10px;
+}
+
+.duels-brawler-name {
+    font-size: 0.9rem;
+    color: var(--text-primary);
+}
+
+.duels-trophy-change {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.duels-trophy-change.positive {
+    color: var(--accent-green);
+}
+
+.duels-trophy-change.negative {
+    color: var(--accent-red);
+}
+
+/* PvE styles */
+.pve-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    background: linear-gradient(135deg, #06ffa5, #00c896);
+    color: #0a0e27;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.pve-players {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pve-player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    gap: 10px;
+}
+
+.pve-player.pve-player-you {
+    background: rgba(74, 158, 255, 0.1);
+    border-color: var(--accent-blue);
+}
+
+.pve-player-name {
+    font-size: 0.9rem;
+    color: var(--text-primary);
+}
+
+.pve-player-brawler {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* Legacy battle styles - keeping for backwards compatibility */
 .battle-entry {
     padding: 12px 16px;
     border-radius: 8px;
@@ -1214,17 +1646,17 @@ select:focus, input[type="text"]:focus {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-.battle-win {
+.battle-win.battle-entry {
     background: rgba(6, 214, 160, 0.1);
     border-color: var(--accent-green);
 }
 
-.battle-loss {
+.battle-loss.battle-entry {
     background: rgba(239, 71, 111, 0.1);
     border-color: var(--accent-red);
 }
 
-.battle-draw {
+.battle-draw.battle-entry {
     background: rgba(155, 163, 175, 0.1);
     border-color: var(--text-secondary);
 }

@@ -117,7 +117,7 @@ const GameConstants = {
         'heist': 'Heist',
         'hotZone': 'Hot Zone',
         'knockout': 'Knockout',
-        'siege': 'Siege',
+        'siege': 'Brawl Arena',
         'wipeout': 'Wipeout',
         // Team 5v5 modes
         'brawlBall5V5': 'Brawl Ball 5v5',
@@ -158,6 +158,43 @@ const GameConstants = {
      */
     getModeColor(mode) {
         return this.MODE_COLORS[mode] || '#888888';
+    },
+
+    /**
+     * Check if mode is a team mode (3v3 or 5v5)
+     * @param {string} mode - Internal mode name
+     * @returns {boolean} - True if team mode
+     */
+    isTeamMode(mode) {
+        return this.MODE_CATEGORIES.team.includes(mode) ||
+               this.MODE_CATEGORIES.team5v5.includes(mode);
+    },
+
+    /**
+     * Check if mode is a showdown mode
+     * @param {string} mode - Internal mode name
+     * @returns {boolean} - True if showdown mode
+     */
+    isShowdownMode(mode) {
+        return this.MODE_CATEGORIES.showdown.includes(mode);
+    },
+
+    /**
+     * Check if mode is duels
+     * @param {string} mode - Internal mode name
+     * @returns {boolean} - True if duels mode
+     */
+    isDuelsMode(mode) {
+        return mode === 'duels';
+    },
+
+    /**
+     * Check if mode is PvE
+     * @param {string} mode - Internal mode name
+     * @returns {boolean} - True if PvE mode
+     */
+    isPvEMode(mode) {
+        return this.MODE_CATEGORIES.pve.includes(mode);
     }
 };
 
