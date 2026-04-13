@@ -72,7 +72,15 @@ const BattlelogHelpers = {
      * @returns {string} - Mode name or 'Unknown'
      */
     getBattleMode(battle) {
-        return battle.event?.mode || battle.battle?.mode || 'Unknown';
+        const eventMode = battle.event?.mode;
+        const battleMode = battle.battle?.mode;
+
+        // If event.mode is "unknown", use battle.mode instead (e.g., lastStand, siege)
+        if (eventMode === 'unknown' && battleMode) {
+            return battleMode;
+        }
+
+        return eventMode || battleMode || 'Unknown';
     },
 
     /**

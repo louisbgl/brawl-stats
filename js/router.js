@@ -22,11 +22,11 @@ const Router = {
                 AchievementsManager.applyFiltersFromURL(playerFilter, dateRange, types);
             }
         },
-        'battles': (playerFilter, modeFilter, resultFilter) => {
+        'battles': (playerFilter, modeFilter, typeFilter, resultFilter) => {
             Router.switchToTab('battles');
-            if (playerFilter || modeFilter || resultFilter) {
+            if (playerFilter || modeFilter || typeFilter || resultFilter) {
                 // Apply filters from URL
-                BattlesManager.applyFiltersFromURL(playerFilter, modeFilter, resultFilter);
+                BattlesManager.applyFiltersFromURL(playerFilter, modeFilter, typeFilter, resultFilter);
             }
         }
     },
