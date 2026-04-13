@@ -89665,5 +89665,147 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260413T113050.000Z",
+    "event": {
+      "id": 15001174,
+      "mode": "duels",
+      "modeId": 24,
+      "map": "Paralysis Pen"
+    },
+    "battle": {
+      "mode": "duels",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 85,
+      "players": [
+        {
+          "tag": "#2CPCVP2R9",
+          "name": "𝑴𝒂𝒔𝒚𝒐𝒌💜",
+          "brawlers": [
+            {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 1595,
+              "trophyChange": -3
+            },
+            {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 10,
+              "trophies": 1395,
+              "trophyChange": -3
+            },
+            {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 1312,
+              "trophyChange": -3
+            }
+          ]
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawlers": [
+            {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 1050,
+              "trophyChange": 4
+            },
+            {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1389,
+              "trophyChange": 4
+            },
+            {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 750,
+              "trophyChange": 4
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260413T113249.000Z",
+    "event": {
+      "id": 15001174,
+      "mode": "duels",
+      "modeId": 24,
+      "map": "Paralysis Pen"
+    },
+    "battle": {
+      "mode": "duels",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 97,
+      "players": [
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawlers": [
+            {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 1054,
+              "trophyChange": 5
+            },
+            {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1393,
+              "trophyChange": 4
+            },
+            {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 754,
+              "trophyChange": 4
+            }
+          ]
+        },
+        {
+          "tag": "#2RJQGVLRU",
+          "name": "CMI|redmid24",
+          "brawlers": [
+            {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 2009,
+              "trophyChange": -4
+            },
+            {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1289,
+              "trophyChange": -4
+            },
+            {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 855,
+              "trophyChange": -4
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
