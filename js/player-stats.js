@@ -684,7 +684,7 @@ const PlayerStatsManager = {
                         </div>
                         <div class="performance-stat">
                             <span class="performance-label">Best Mode</span>
-                            <span class="performance-value highlight-green">${bestMode}</span>
+                            <span class="performance-value highlight-green">${bestMode !== 'N/A' ? GameConstants.getModeName(bestMode) : 'N/A'}</span>
                             <span class="performance-detail">${bestMode !== 'N/A' ? `${bestModeWr.toFixed(1)}% in ${bestModeGames} games` : ''}</span>
                         </div>
                     </div>

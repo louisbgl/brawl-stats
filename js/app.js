@@ -199,7 +199,7 @@ function displayClubQuickStats() {
             html += `
                 <div class="stat-box">
                     <div class="stat-label">Favorite Mode</div>
-                    <div class="stat-value highlight-purple">${favoriteMode.mode}</div>
+                    <div class="stat-value highlight-purple">${GameConstants.getModeName(favoriteMode.mode)}</div>
                     <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px;">${favoriteMode.percentage.toFixed(1)}% of games</div>
                 </div>
             `;

@@ -7,10 +7,12 @@
 
 const BattlelogHelpers = {
     /**
-     * Get the brawler a player used in a battle
+     * Get the brawler(s) a player used in a battle
      * @param {Object} battle - Battle object from API
      * @param {string} playerTag - Player tag to find
-     * @returns {Object|null} - Brawler object { name, power, ... } or null
+     * @returns {Object|Array|null} - Brawler object, array of brawlers (duels), or null
+     *
+     * Note: For duels mode, returns an array of brawlers. For all other modes, returns a single brawler.
      */
     getPlayerBrawlerFromBattle(battle, playerTag) {
         // Check team modes (3v3)
@@ -23,11 +25,18 @@ const BattlelogHelpers = {
             }
         }
 
-        // Check solo modes (showdown)
+        // Check modes with players[] array (showdown, duels, lastStand)
         if (battle.battle?.players) {
             const player = battle.battle.players.find(p => p.tag === playerTag);
-            if (player && player.brawler) {
-                return player.brawler;
+            if (player) {
+                // Duels mode: player has brawlers[] array
+                if (player.brawlers && Array.isArray(player.brawlers)) {
+                    return player.brawlers; // Return array for duels
+                }
+                // Other modes: player has single brawler
+                if (player.brawler) {
+                    return player.brawler;
+                }
             }
         }
 
@@ -87,40 +96,71 @@ const BattlelogHelpers = {
     },
 
     /**
+     * Get trophy change for a player in a battle
+     * Handles all modes including duels (where each brawler has its own trophyChange)
+     * @param {Object} battle - Battle object
+     * @param {string} playerTag - Player tag (optional, required for duels mode)
+     * @returns {number} - Total trophy change for the player
+     */
+    getTrophyChange(battle, playerTag = null) {
+        // Standard modes: trophyChange at battle level
+        if (battle.battle?.trophyChange !== undefined) {
+            return battle.battle.trophyChange;
+        }
+
+        // Duels mode: sum trophy changes for player's brawlers
+        if (playerTag && battle.battle?.players) {
+            const player = battle.battle.players.find(p => p.tag === playerTag);
+            if (player && player.brawlers && Array.isArray(player.brawlers)) {
+                return player.brawlers.reduce((sum, b) => sum + (b.trophyChange || 0), 0);
+            }
+        }
+
+        // No trophy change (lastStand, friendlies without trophyChange, etc.)
+        return 0;
+    },
+
+    /**
      * Determine if a battle was a win based on trophy change
      * @param {Object} battle - Battle object
+     * @param {string} playerTag - Player tag (optional, required for duels mode)
      * @returns {boolean}
      */
-    isWin(battle) {
-        const trophyChange = battle.battle?.trophyChange || 0;
+    isWin(battle, playerTag = null) {
+        const trophyChange = this.getTrophyChange(battle, playerTag);
         if (trophyChange > 0) return true;
         if (trophyChange < 0) return false;
-        // For friendly battles (trophyChange = 0), check result
+        // For friendly battles/PvE (trophyChange = 0), check result
         return battle.battle?.result === 'victory';
     },
 
     /**
      * Determine if a battle was a loss based on trophy change
      * @param {Object} battle - Battle object
+     * @param {string} playerTag - Player tag (optional, required for duels mode)
      * @returns {boolean}
      */
-    isLoss(battle) {
-        const trophyChange = battle.battle?.trophyChange || 0;
+    isLoss(battle, playerTag = null) {
+        const trophyChange = this.getTrophyChange(battle, playerTag);
         if (trophyChange < 0) return true;
         if (trophyChange > 0) return false;
-        // For friendly battles (trophyChange = 0), check result
+        // For friendly battles/PvE (trophyChange = 0), check result
         return battle.battle?.result === 'defeat';
     },
 
     /**
      * Get battle result as string
      * @param {Object} battle - Battle object
+     * @param {string} playerTag - Player tag (optional, required for duels mode)
      * @returns {string} - 'win', 'loss', or 'draw'
      */
-    getBattleResult(battle) {
-        const trophyChange = battle.battle?.trophyChange || 0;
+    getBattleResult(battle, playerTag = null) {
+        const trophyChange = this.getTrophyChange(battle, playerTag);
         if (trophyChange > 0) return 'win';
         if (trophyChange < 0) return 'loss';
+        // Check result field for modes without trophyChange
+        if (battle.battle?.result === 'victory') return 'win';
+        if (battle.battle?.result === 'defeat') return 'loss';
         return 'draw';
     },
 
@@ -134,33 +174,45 @@ const BattlelogHelpers = {
         const brawlerStats = {};
 
         battles.forEach(battle => {
-            const brawler = this.getPlayerBrawlerFromBattle(battle, playerTag);
-            if (!brawler) return;
+            const brawlerData = this.getPlayerBrawlerFromBattle(battle, playerTag);
+            if (!brawlerData) return;
 
-            const brawlerName = brawler.name;
+            // Handle duels mode (array of brawlers) and regular modes (single brawler)
+            const brawlers = Array.isArray(brawlerData) ? brawlerData : [brawlerData];
 
-            if (!brawlerStats[brawlerName]) {
-                brawlerStats[brawlerName] = {
-                    name: brawlerName,
-                    games: 0,
-                    wins: 0,
-                    trophyChange: 0,
-                    mvps: 0,
-                    lastPlayed: battle.battleTime
-                };
-            }
+            brawlers.forEach(brawler => {
+                const brawlerName = brawler.name;
 
-            brawlerStats[brawlerName].games++;
-            if (this.isWin(battle)) brawlerStats[brawlerName].wins++;
-            brawlerStats[brawlerName].trophyChange += battle.battle?.trophyChange || 0;
-            if (this.isStarPlayer(battle, playerTag)) brawlerStats[brawlerName].mvps++;
+                if (!brawlerStats[brawlerName]) {
+                    brawlerStats[brawlerName] = {
+                        name: brawlerName,
+                        games: 0,
+                        wins: 0,
+                        trophyChange: 0,
+                        mvps: 0,
+                        lastPlayed: battle.battleTime
+                    };
+                }
 
-            // Update last played if more recent
-            const currentBattleDate = Utils.parseBattleTime(battle.battleTime);
-            const lastPlayedDate = Utils.parseBattleTime(brawlerStats[brawlerName].lastPlayed);
-            if (currentBattleDate && lastPlayedDate && currentBattleDate > lastPlayedDate) {
-                brawlerStats[brawlerName].lastPlayed = battle.battleTime;
-            }
+                brawlerStats[brawlerName].games++;
+                if (this.isWin(battle, playerTag)) brawlerStats[brawlerName].wins++;
+
+                // For duels, use brawler-specific trophy change; otherwise use battle trophy change
+                if (brawler.trophyChange !== undefined) {
+                    brawlerStats[brawlerName].trophyChange += brawler.trophyChange;
+                } else {
+                    brawlerStats[brawlerName].trophyChange += this.getTrophyChange(battle, playerTag);
+                }
+
+                if (this.isStarPlayer(battle, playerTag)) brawlerStats[brawlerName].mvps++;
+
+                // Update last played if more recent
+                const currentBattleDate = Utils.parseBattleTime(battle.battleTime);
+                const lastPlayedDate = Utils.parseBattleTime(brawlerStats[brawlerName].lastPlayed);
+                if (currentBattleDate && lastPlayedDate && currentBattleDate > lastPlayedDate) {
+                    brawlerStats[brawlerName].lastPlayed = battle.battleTime;
+                }
+            });
         });
 
         // Calculate win rates
@@ -234,8 +286,12 @@ const BattlelogHelpers = {
         let relevantBattles = [...battles];
         if (brawlerName) {
             relevantBattles = battles.filter(battle => {
-                const brawler = this.getPlayerBrawlerFromBattle(battle, playerTag);
-                return brawler && brawler.name === brawlerName;
+                const brawlerData = this.getPlayerBrawlerFromBattle(battle, playerTag);
+                // Handle duels mode (array of brawlers)
+                if (Array.isArray(brawlerData)) {
+                    return brawlerData.some(b => b.name === brawlerName);
+                }
+                return brawlerData && brawlerData.name === brawlerName;
             });
         }
 
@@ -249,10 +305,21 @@ const BattlelogHelpers = {
         if (relevantBattles.length > 0 && timeline.snapshotTimestamps.length > 0) {
             const battlesWithTime = relevantBattles.map(b => {
                 const date = Utils.parseBattleTime(b.battleTime);
+                let trophyChange = this.getTrophyChange(b, playerTag);
+
+                // For brawler-specific timeline in duels, get only that brawler's trophy change
+                if (brawlerName) {
+                    const brawlerData = this.getPlayerBrawlerFromBattle(b, playerTag);
+                    if (Array.isArray(brawlerData)) {
+                        const specificBrawler = brawlerData.find(brawler => brawler.name === brawlerName);
+                        trophyChange = specificBrawler?.trophyChange || 0;
+                    }
+                }
+
                 return {
                     time: date,
                     timeStr: date ? date.toISOString() : null,
-                    trophyChange: b.battle?.trophyChange || 0
+                    trophyChange
                 };
             }).filter(b => b.time !== null);
 
