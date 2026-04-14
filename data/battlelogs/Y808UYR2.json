@@ -20450,5 +20450,87 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260414T200004.000Z",
+    "event": {
+      "id": 15000292,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Open Business"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 86,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#YV0RQ0RLQ",
+            "name": "CTA|Monster🥇♠︎",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#LPVQRYULU",
+            "name": "timpacke",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2CGUCCYJGC",
+            "name": "TH|TOBAJAS",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YL0CQLQLL",
+            "name": "djony",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2UQ9Q9CVC0",
+            "name": "me",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
