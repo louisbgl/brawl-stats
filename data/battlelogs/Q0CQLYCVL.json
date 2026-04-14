@@ -22513,5 +22513,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260414T135847.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 96,
+      "starPlayer": {
+        "tag": "#PCY0UP9G",
+        "name": "MAMA BERZAS",
+        "brawler": {
+          "id": 16000068,
+          "name": "MAISIE",
+          "power": 11,
+          "trophies": 584
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JJ02GGJJ",
+            "name": "MANAGER 07",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 948
+            }
+          },
+          {
+            "tag": "#2GLRC8C2G",
+            "name": "TUTA RICO",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1327
+            }
+          },
+          {
+            "tag": "#PCY0UP9G",
+            "name": "MAMA BERZAS",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 584
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 727
+            }
+          },
+          {
+            "tag": "#U9UGL2VR2",
+            "name": "Sisko",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 584
+            }
+          },
+          {
+            "tag": "#GCVC9QQ0U",
+            "name": "ace❄️",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 9,
+              "trophies": 133
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
