@@ -35201,5 +35201,103 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260414T204458.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#Y808UYR2",
+          "name": "JOEL|MissANG3ll",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 1003
+          }
+        },
+        {
+          "tag": "#VQ9GJGL2",
+          "name": "JOEL | OrDos_",
+          "brawler": {
+            "id": 16000005,
+            "name": "SPIKE",
+            "power": 11,
+            "trophies": 1596
+          }
+        },
+        {
+          "tag": "#2P0CUCPVU",
+          "name": "ㅊVorn🎋",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1603
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
+  },
+  {
+    "battleTime": "20260414T204607.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#Y808UYR2",
+          "name": "JOEL|MissANG3ll",
+          "brawler": {
+            "id": 16000016,
+            "name": "PAM",
+            "power": 11,
+            "trophies": 669
+          }
+        },
+        {
+          "tag": "#VQ9GJGL2",
+          "name": "JOEL | OrDos_",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1164
+          }
+        },
+        {
+          "tag": "#RRGQV0R0",
+          "name": "Titankiller",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 11,
+            "trophies": 1228
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
   }
 ]
