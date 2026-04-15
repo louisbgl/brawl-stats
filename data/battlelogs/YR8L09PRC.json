@@ -79692,5 +79692,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260415T155808.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 154,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 750
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 750
+            }
+          },
+          {
+            "tag": "#LVQRYCQYU",
+            "name": "HMB|Till06",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1001
+            }
+          },
+          {
+            "tag": "#P2UYLGCJC",
+            "name": "Vaav_Bebus",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 971
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2YQJ28RU8",
+            "name": "Killa🧃🇮🇱✡️",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 941
+            }
+          },
+          {
+            "tag": "#Q29Q9VYYQ",
+            "name": "GRD|casche10",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 913
+            }
+          },
+          {
+            "tag": "#V89VU8QU",
+            "name": "joan",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 869
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
