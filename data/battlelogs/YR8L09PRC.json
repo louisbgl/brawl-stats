@@ -79784,5 +79784,54 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260415T160110.000Z",
+    "event": {
+      "id": 15001186,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON GRIFF"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000020,
+            "name": "FRANK",
+            "power": 9,
+            "trophies": 591
+          }
+        },
+        {
+          "tag": "#2CY22PUPR",
+          "name": "kerem",
+          "brawler": {
+            "id": 16000035,
+            "name": "GALE",
+            "power": 11,
+            "trophies": 587
+          }
+        },
+        {
+          "tag": "#282LCYP09Q",
+          "name": "Alan",
+          "brawler": {
+            "id": 16000003,
+            "name": "BROCK",
+            "power": 9,
+            "trophies": 603
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible V",
+        "id": 9
+      }
+    }
   }
 ]
