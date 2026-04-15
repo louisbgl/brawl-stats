@@ -67354,5 +67354,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260415T173432.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 96,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#82YPJY9J",
+        "name": "tomar753",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 1666
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1010
+            }
+          },
+          {
+            "tag": "#82YPJY9J",
+            "name": "tomar753",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1666
+            }
+          },
+          {
+            "tag": "#2YL9QLJC9J",
+            "name": "SN1P_[nova.",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 886
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GU920UCQQ",
+            "name": "Жасик",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 962
+            }
+          },
+          {
+            "tag": "#80U2VL082",
+            "name": "gachiboi567",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 931
+            }
+          },
+          {
+            "tag": "#VJQU009R8",
+            "name": "A L P H A|X|",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 7,
+              "trophies": 603
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260415T173540.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 46,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#R88YGP8G",
+        "name": "Underek_YT",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 1189
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PG29YPQC2",
+            "name": "Alpharius",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 899
+            }
+          },
+          {
+            "tag": "#R88YGP8G",
+            "name": "Underek_YT",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1189
+            }
+          },
+          {
+            "tag": "#GR89RL0J2",
+            "name": "drt123",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 793
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1021
+            }
+          },
+          {
+            "tag": "#JU9J9G829",
+            "name": "GM_Yoda",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1325
+            }
+          },
+          {
+            "tag": "#R8QYQVJG2",
+            "name": "gg4bro",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1165
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
