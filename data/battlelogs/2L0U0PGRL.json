@@ -82418,5 +82418,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260416T173052.000Z",
+    "event": {
+      "id": 15000440,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flaring Phoenix"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 126,
+      "starPlayer": {
+        "tag": "#LGPLVYJVQ",
+        "name": "KapitanZalupa",
+        "brawler": {
+          "id": 16000081,
+          "name": "LILY",
+          "power": 11,
+          "trophies": 7
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LGPLVYJVQ",
+            "name": "KapitanZalupa",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2CPLLYPG0U",
+            "name": "mparmpas",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 10,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CPJ8QJJRY",
+            "name": "DucOfficial╰‿╯",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#9Y0QR2RPY",
+            "name": "fake",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#PGYR8VVRQ",
+            "name": "BS|☔ᴋɪʟʟᴇʀ ᶫᵒᵛᵉ",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
