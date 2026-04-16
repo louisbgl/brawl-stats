@@ -81360,5 +81360,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260416T165614.000Z",
+    "event": {
+      "id": 15000306,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Dueling Beetles"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 89,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#YYLJJ2JY8",
+        "name": "sanpiedaniel👋",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 582
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GY2R8909P",
+            "name": "YIZI|Ev.P67",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 655
+            }
+          },
+          {
+            "tag": "#YYLJJ2JY8",
+            "name": "sanpiedaniel👋",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 582
+            }
+          },
+          {
+            "tag": "#Y82Y9QP99",
+            "name": "ReyPatillas",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1380
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 9,
+              "trophies": 543
+            }
+          },
+          {
+            "tag": "#PUQ9RR9Q8",
+            "name": "яㅤ",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1814
+            }
+          },
+          {
+            "tag": "#2RLYV9J0L",
+            "name": "TWOJA STARA",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 679
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260416T165800.000Z",
+    "event": {
+      "id": 15000306,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Dueling Beetles"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 70,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 9,
+          "trophies": 629
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q02VCRVYV",
+            "name": "ФЛИППИ",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 773
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 9,
+              "trophies": 629
+            }
+          },
+          {
+            "tag": "#GCPC9UR9Q",
+            "name": "Reyzzぁ",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 7,
+              "trophies": 671
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#V02LQCLCY",
+            "name": "Amigo",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 716
+            }
+          },
+          {
+            "tag": "#UUUCPPRQR",
+            "name": "Julian",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 8,
+              "trophies": 695
+            }
+          },
+          {
+            "tag": "#UVVJJL9YV",
+            "name": "Sosa",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 9,
+              "trophies": 676
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
