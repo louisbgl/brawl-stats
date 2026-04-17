@@ -82883,5 +82883,54 @@
         "id": 5
       }
     }
+  },
+  {
+    "battleTime": "20260417T103123.000Z",
+    "event": {
+      "id": 15001185,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGROM"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#CGJ2G2P8",
+          "name": "Czechy",
+          "brawler": {
+            "id": 16000040,
+            "name": "AMBER",
+            "power": 11,
+            "trophies": 1009
+          }
+        },
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000022,
+            "name": "TICK",
+            "power": 11,
+            "trophies": 1009
+          }
+        },
+        {
+          "tag": "#GC2898R0Y",
+          "name": "barbabaart",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 1007
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible",
+        "id": 5
+      }
+    }
   }
 ]
