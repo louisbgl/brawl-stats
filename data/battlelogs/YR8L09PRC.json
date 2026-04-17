@@ -83373,5 +83373,97 @@
         "id": 8
       }
     }
+  },
+  {
+    "battleTime": "20260417T194724.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 80,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#2V08JR9V8U",
+        "name": "darkwake",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 921
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V08JR9V8U",
+            "name": "darkwake",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 921
+            }
+          },
+          {
+            "tag": "#UP9Y8PCL",
+            "name": "lostnight",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 9,
+              "trophies": 762
+            }
+          },
+          {
+            "tag": "#R8G98Y8P9",
+            "name": "памперс お❤️‍🔥",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 9,
+              "trophies": 937
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GL09RR0J",
+            "name": "jerra",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 8,
+              "trophies": 55
+            }
+          },
+          {
+            "tag": "#8GRLURYGR",
+            "name": "FF|sven👑",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1126
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 828
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
