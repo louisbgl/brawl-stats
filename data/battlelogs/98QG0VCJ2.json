@@ -102650,5 +102650,147 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260417T102757.000Z",
+    "event": {
+      "id": 15000460,
+      "mode": "duels",
+      "modeId": 24,
+      "map": "No Surrender"
+    },
+    "battle": {
+      "mode": "duels",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 88,
+      "players": [
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawlers": [
+            {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 9,
+              "trophies": 690,
+              "trophyChange": -2
+            },
+            {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 9,
+              "trophies": 739,
+              "trophyChange": -2
+            },
+            {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 9,
+              "trophies": 811,
+              "trophyChange": -2
+            }
+          ]
+        },
+        {
+          "tag": "#9CCG0GLGP",
+          "name": "ST_BLACK_MANGO_",
+          "brawlers": [
+            {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 903,
+              "trophyChange": 6
+            },
+            {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 833,
+              "trophyChange": 6
+            },
+            {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 823,
+              "trophyChange": 6
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260417T102954.000Z",
+    "event": {
+      "id": 15000460,
+      "mode": "duels",
+      "modeId": 24,
+      "map": "No Surrender"
+    },
+    "battle": {
+      "mode": "duels",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 89,
+      "players": [
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawlers": [
+            {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 9,
+              "trophies": 688,
+              "trophyChange": 4
+            },
+            {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 9,
+              "trophies": 737,
+              "trophyChange": 4
+            },
+            {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 9,
+              "trophies": 809,
+              "trophyChange": 4
+            }
+          ]
+        },
+        {
+          "tag": "#2UJUVVQLPG",
+          "name": "Barsuk67",
+          "brawlers": [
+            {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 2010,
+              "trophyChange": -4
+            },
+            {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 9,
+              "trophies": 1254,
+              "trophyChange": -4
+            },
+            {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 9,
+              "trophies": 1099,
+              "trophyChange": -4
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
