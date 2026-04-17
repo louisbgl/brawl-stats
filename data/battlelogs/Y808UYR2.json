@@ -31147,5 +31147,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260417T192950.000Z",
+    "event": {
+      "id": 15000132,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Center Stage"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 169,
+      "starPlayer": {
+        "tag": "#U9QUL0Y2L",
+        "name": "andimandi",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JQGCRVV22",
+            "name": "ws | juu",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2UPPY8Y0Y",
+            "name": "ws |irxous",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9P9LGLLC9",
+            "name": "YT_LENN",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#U9QUL0Y2L",
+            "name": "andimandi",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#PQL2LV999",
+            "name": "always_davita",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
