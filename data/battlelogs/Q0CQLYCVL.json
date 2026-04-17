@@ -29692,5 +29692,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260417T180112.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 51,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "く⁠コ⁠:⁠彡",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 856
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#20YYQU89UR",
+            "name": "самбова",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 760
+            }
+          },
+          {
+            "tag": "#2UR8GGQRCV",
+            "name": "Platenium",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 602
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 856
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LQJ9J9L0V",
+            "name": "Sam",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 9,
+              "trophies": 776
+            }
+          },
+          {
+            "tag": "#LQC90V229",
+            "name": "trace mcsorley",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 758
+            }
+          },
+          {
+            "tag": "#LQJLCJCR9",
+            "name": "spancme",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 10,
+              "trophies": 754
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
