@@ -91,9 +91,10 @@ def main():
     # Save to file
     date_str = daily_snapshot.date
     output_dir = "data"
-    os.makedirs(output_dir, exist_ok=True)
+    snapshots_dir = os.path.join(output_dir, "snapshots")
+    os.makedirs(snapshots_dir, exist_ok=True)
 
-    output_file = os.path.join(output_dir, f"{date_str}.json")
+    output_file = os.path.join(snapshots_dir, f"{date_str}.json")
     latest_file = os.path.join(output_dir, "latest.json")
 
     snapshot_dict = daily_snapshot.to_dict()
