@@ -83079,5 +83079,54 @@
         "id": 7
       }
     }
+  },
+  {
+    "battleTime": "20260417T110112.000Z",
+    "event": {
+      "id": 15001185,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGROM"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000022,
+            "name": "TICK",
+            "power": 11,
+            "trophies": 1009
+          }
+        },
+        {
+          "tag": "#8QU82G8",
+          "name": "מחמודידו",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1008
+          }
+        },
+        {
+          "tag": "#PL228JPC8",
+          "name": "メ | Diala🪐",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 1010
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible III",
+        "id": 7
+      }
+    }
   }
 ]
