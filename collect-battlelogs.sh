@@ -3,6 +3,17 @@
 export PATH="$HOME/.local/bin:$PATH"
 cd /home/ubuntu/brawl-stats
 
+# Lock file to prevent concurrent execution with snapshot collection
+LOCKFILE="/tmp/brawl-stats-git.lock"
+LOCKFD=200
+
+# Try to acquire lock with timeout
+exec 200>"$LOCKFILE"
+if ! flock -w 300 200; then
+    echo "[$(date)] ✗ Could not acquire lock after 5 minutes - another collection is running"
+    exit 1
+fi
+
 echo "[$(date)] Starting battlelog collection..."
 
 # Checkout data-battlelogs branch
