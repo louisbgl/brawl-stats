@@ -178,6 +178,72 @@ When displaying game modes:
 
 Data collection is automated using a multi-layered approach combining Oracle Cloud VM cron jobs, Git branching, and GitHub Actions:
 
+---
+
+## 🚨 CRITICAL: Data Collection Incident History & Lessons Learned
+
+**Incident Count:** 4 occurrences (March-April 2026)
+
+**Root Cause:** Merge conflicts between `data-snapshots` and `data-battlelogs` branches blocked automatic data collection pushes to main. Data was collected successfully but stuck on feature branches.
+
+**Key Design Decisions (April 17, 2026):**
+
+1. **Data Collection is SACRED** - Collection must NEVER fail due to git state
+   - Python scripts run regardless of git lock availability
+   - If git lock unavailable → data saved locally on VM (manual recovery possible)
+   - Scripts use 10-second lock timeout (not 5 minutes) to avoid blocking data collection
+
+2. **Folder Structure Reorganization**
+   - Moved all daily snapshots: `data/YYYY-MM-DD.json` → `data/snapshots/YYYY-MM-DD.json`
+   - Kept battlelogs: `data/battlelogs/*.json`
+   - Root `data/` only contains: `latest.json`, `brawlers.json`, `achievements.json`
+   - **Benefit:** Clear file ownership prevents merge conflicts
+
+3. **Branch File Ownership (Zero Overlap)**
+   - `data-snapshots` branch: ONLY tracks `data/snapshots/`, `data/latest.json`, `data/brawlers.json`
+   - `data-battlelogs` branch: ONLY tracks `data/battlelogs/`
+   - Branches never merge FROM main (no sync step that causes conflicts)
+   - **Benefit:** Merge conflicts physically impossible when files don't overlap
+
+4. **File Locking for Concurrent Execution**
+   - Both scripts use `/tmp/brawl-stats-git.lock` (flock)
+   - 10-second timeout for git operations
+   - If lock fails: data collection proceeds, git operations skipped
+   - **Benefit:** Race conditions handled gracefully, data never lost
+
+5. **Automatic Conflict Resolution**
+   - If merge conflict occurs (rare now): auto-resolve by file ownership
+   - Snapshots merge: keep all `data/snapshots/` files, preserve main's battlelogs
+   - Battlelogs merge: keep all `data/battlelogs/` files, preserve main's snapshots
+   - **Benefit:** No manual intervention required
+
+**Recovery Procedure (if data stuck on branches):**
+```bash
+# Snapshots stuck
+git fetch origin data-snapshots:data-snapshots
+git checkout origin/data-snapshots -- data/snapshots/YYYY-MM-DD.json
+git commit -m "Recover snapshot from data-snapshots branch"
+
+# Battlelogs stuck
+git fetch origin data-battlelogs:data-battlelogs
+git checkout origin/data-battlelogs -- data/battlelogs/
+git commit -m "Recover battlelogs from data-battlelogs branch"
+```
+
+**Testing Done:**
+- ✅ Concurrent execution (both scripts simultaneously) - serializes correctly
+- ✅ Git lock unavailable - data still collected and saved locally
+- ✅ Merge conflicts - auto-resolved by file ownership rules
+- ✅ Simulated failures at each stage - data preserved
+
+**What NOT to do:**
+- ❌ Never add sync/merge FROM main in collection scripts (causes conflicts)
+- ❌ Never exit script before data collection if git fails
+- ❌ Never use long lock timeouts that block data collection
+- ❌ Never store both snapshot and battlelog data in same branch
+
+---
+
 #### 1. Oracle Cloud VM - Automated Collection (Primary)
 
 The Oracle Cloud VM at `129.151.245.132` runs two automated collection tasks via cron (see `docs/ORACLE_CLOUD_VM.md` for details):
@@ -185,40 +251,44 @@ The Oracle Cloud VM at `129.151.245.132` runs two automated collection tasks via
 **Daily Profile Snapshots:**
 - **Schedule**: 23:00 UTC daily (midnight CET winter / 1am CEST summer)
 - **Script**: `/home/ubuntu/collect-snapshots.sh`
-- **Branch workflow**:
-  1. Checkouts `data-snapshots` branch and fetches updates
-  2. Stashes any local changes to avoid conflicts
-  3. Attempts to pull from `main` (continues on conflict)
-  4. **Runs `collect_data.py`** (player profiles, trophies, brawlers) - **ALWAYS EXECUTES**
-  5. Saves to `data/YYYY-MM-DD.json` and `data/latest.json`
-  6. Commits to `data-snapshots` branch
-  7. Pushes to remote `data-snapshots` branch
-  8. Auto-merges to `main` and pushes
+- **Workflow**:
+  1. **Try to acquire git lock** (10s timeout)
+  2. If locked → checkout `data-snapshots` branch, pull latest
+  3. **Run `collect_data.py`** (player profiles, trophies, brawlers) - **ALWAYS RUNS**
+  4. Save to `data/snapshots/YYYY-MM-DD.json` and `data/latest.json`
+  5. If locked → commit ONLY snapshot files, push to `data-snapshots` branch
+  6. If locked → merge to `main` with auto-conflict resolution
+  7. If NO lock → data saved locally, manual push needed
 - **Logs**: `/home/ubuntu/collect-snapshots.log`
-- **Resilience**: Data collection happens regardless of git state. If git operations fail, data is preserved locally on VM (in working dir → committed locally → on branch → on main, in that order of preference)
+- **Resilience**: Data collection NEVER fails due to git. Worst case: data on VM disk
 
 **Battlelog Collection:**
 - **Schedule**: Every 30 minutes
 - **Script**: `/home/ubuntu/collect-battlelogs.sh`
-- **Branch workflow**:
-  1. Checkouts `data-battlelogs` branch and fetches updates
-  2. Stashes any local changes to avoid conflicts
-  3. Attempts to pull from `main` (continues on conflict)
-  4. **Runs `collect_battlelogs.py`** (recent battle history) - **ALWAYS EXECUTES**
-  5. Saves to `data/battlelogs/{TAG}.json` (one file per player)
-  6. Commits to `data-battlelogs` branch
-  7. Pushes to remote `data-battlelogs` branch
-  8. Auto-merges to `main` and pushes
+- **Workflow**:
+  1. **Try to acquire git lock** (10s timeout)
+  2. If locked → checkout `data-battlelogs` branch, pull latest
+  3. **Run `collect_battlelogs.py`** (recent battle history) - **ALWAYS RUNS**
+  4. Save to `data/battlelogs/{TAG}.json` (one file per player)
+  5. If locked → commit ONLY battlelog files, push to `data-battlelogs` branch
+  6. If locked → merge to `main` with auto-conflict resolution
+  7. If NO lock → data saved locally, manual push needed
 - **Logs**: `/home/ubuntu/collect-battlelogs.log`
-- **Resilience**: Same graceful degradation as snapshots - collection never fails due to git conflicts
+- **Resilience**: Data collection NEVER fails due to git. Worst case: data on VM disk
 
-**Why separate branches?**
-- Prevents merge conflicts between concurrent collection tasks
-- Each task can safely work on its own data files
-- Auto-merge ensures `main` always has latest data
+**Why separate branches with zero file overlap?**
+- **Merge conflicts physically impossible** when files don't overlap
+- Each branch owns specific files exclusively
+- File locking prevents concurrent git operations (serializes)
+- Auto-merge ensures `main` always has latest data (when git available)
 
 **Script Design Philosophy:**
-Both collection scripts prioritize **data collection over git operations**. The Python data collection always runs, even if git is in a bad state. If git operations fail at any stage (merge conflicts, push failures, etc.), the script continues and preserves data locally. This ensures no data loss due to git issues. Scripts use `git stash` to handle local changes and abort failed merges gracefully.
+Both collection scripts follow the **"DATA FIRST, GIT SECOND"** principle:
+1. Data collection ALWAYS runs (Python scripts execute regardless of git state)
+2. Git operations are optional optimizations (commit/push/merge)
+3. Lock timeout is SHORT (10s) to avoid blocking data collection
+4. If git fails → data preserved on VM disk → manual recovery possible
+5. **NO data loss is acceptable, git failures are tolerable**
 
 #### 2. GitHub Actions - Post-Processing & Deployment
 
