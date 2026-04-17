@@ -28767,5 +28767,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260417T070955.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 101,
+      "starPlayer": {
+        "tag": "#8YRQCQGYQ",
+        "name": "Davidfdez5",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 9
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#8YRQCQGYQ",
+            "name": "Davidfdez5",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#RPUG22YGL",
+            "name": "UMUT",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#UGPRLQQQV",
+            "name": "zakopy",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#ULV2098PC",
+            "name": "skibidi nana 🎀",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#UJPUPYGC2",
+            "name": "🇧🇷|Sm<3",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
