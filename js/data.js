@@ -86,7 +86,7 @@ const DataManager = {
 
         for (const date of dates) {
             try {
-                const response = await fetch(`data/${date}.json`);
+                const response = await fetch(`data/snapshots/${date}.json`);
                 if (response.ok) {
                     const data = await response.json();
                     this.historicalData.push(data);
