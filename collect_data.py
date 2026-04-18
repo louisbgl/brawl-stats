@@ -111,6 +111,16 @@ def main():
     with open(latest_file, 'w') as f:
         json.dump(snapshot_dict, f, indent=2)
 
+    # Write metadata file for auto-refresh detection
+    metadata_file = os.path.join(snapshots_dir, "_last_updated.json")
+    metadata = {
+        "last_collection": datetime.now(ZoneInfo('UTC')).isoformat(),
+        "date": date_str,
+        "total_players": sum(len(club.members) for club in daily_snapshot.clubs) + len(daily_snapshot.individual_players)
+    }
+    with open(metadata_file, 'w') as f:
+        json.dump(metadata, f, indent=2)
+
     # Calculate file size
     file_size_kb = os.path.getsize(output_file) / 1024
 
