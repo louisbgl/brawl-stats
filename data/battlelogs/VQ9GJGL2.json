@@ -43711,5 +43711,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260418T093117.000Z",
+    "event": {
+      "id": 15001203,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Hyacinth House"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 102,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000046,
+          "name": "BELLE",
+          "power": 9,
+          "trophies": 257
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 9,
+              "trophies": 257
+            }
+          },
+          {
+            "tag": "#R9JYYCQ8Q",
+            "name": "vale",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 7,
+              "trophies": 487
+            }
+          },
+          {
+            "tag": "#2JVUU29JG",
+            "name": "LeBucheron",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 999
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CL89QV88",
+            "name": "Аня",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 10,
+              "trophies": 521
+            }
+          },
+          {
+            "tag": "#L8RGR0RYR",
+            "name": "pabloo_",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1102
+            }
+          },
+          {
+            "tag": "#GG29JCUGR",
+            "name": "🌲troncoide🌲",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1197
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
