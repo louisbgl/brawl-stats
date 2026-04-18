@@ -59,6 +59,15 @@ h1 {
 .last-update {
     color: var(--text-secondary);
     font-size: 0.85rem;
+    text-align: right;
+}
+
+.last-update > div {
+    margin-bottom: 2px;
+}
+
+.last-update > div:last-child {
+    margin-bottom: 0;
 }
 
 /* Navigation Tabs */

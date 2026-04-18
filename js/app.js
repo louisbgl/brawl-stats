@@ -5,10 +5,8 @@ async function init() {
         // PHASE 1: Load critical data only (blocking)
         await DataManager.init(); // Now only loads latest.json + brawlers.json
 
-        // Update last update time
-        const updateTime = new Date(DataManager.latestData.timestamp);
-        document.getElementById('lastUpdate').textContent =
-            `Last updated: ${updateTime.toLocaleString()}`;
+        // Update last update times
+        updateLastUpdatedDisplay();
 
         // Setup UI components
         setupTabs();
@@ -61,7 +59,26 @@ function startBackgroundLoading() {
         // Update overview stats with battlelog metrics now that data is available
         displayClubQuickStats();
         displayClubLeaderboards();
+        // Update battlelog timestamp in header
+        updateLastUpdatedDisplay();
     });
+}
+
+function updateLastUpdatedDisplay() {
+    // Display snapshot timestamp
+    const snapshotTime = new Date(DataManager.latestData.timestamp);
+    document.getElementById('snapshotUpdate').textContent =
+        `Snapshots: ${snapshotTime.toLocaleString()}`;
+
+    // Display battlelog timestamp if loaded
+    const battlelogTime = BattlelogDataManager.getLastCollectionTime();
+    const battlelogEl = document.getElementById('battlelogUpdate');
+    if (battlelogTime) {
+        const battlelogDate = new Date(battlelogTime);
+        battlelogEl.textContent = `Battlelogs: ${battlelogDate.toLocaleString()}`;
+    } else {
+        battlelogEl.textContent = 'Battlelogs: Loading...';
+    }
 }
 
 function setupTabs() {
