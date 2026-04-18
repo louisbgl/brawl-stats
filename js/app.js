@@ -31,6 +31,9 @@ async function init() {
         // PHASE 3: Initialize router (handles URL-based navigation)
         Router.init();
 
+        // PHASE 4: Start auto-refresh polling (after initial data load)
+        AutoRefreshManager.init();
+
     } catch (error) {
         console.error('Failed to initialize:', error);
         document.body.innerHTML =

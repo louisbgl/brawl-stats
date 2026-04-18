@@ -21,6 +21,13 @@ const BattlesManager = {
         this.render();
     },
 
+    // Refresh method for auto-refresh
+    refresh() {
+        this.loadBattles();
+        this.applyFilters();
+        this.render();
+    },
+
     loadBattles() {
         // Get all battles from battlelog data
         const allBattles = [];
