@@ -29784,5 +29784,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260418T101432.000Z",
+    "event": {
+      "id": 15001205,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "No Good Deed"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 36,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#V8Q2C28U",
+        "name": "NS|Win💜",
+        "brawler": {
+          "id": 16000085,
+          "name": "KENJI",
+          "power": 11,
+          "trophies": 848
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2RRPCJVQCJ",
+            "name": "LL|greg",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 10,
+              "trophies": 1176
+            }
+          },
+          {
+            "tag": "#8JQGCPCLC",
+            "name": "RiceCurryy",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 9,
+              "trophies": 947
+            }
+          },
+          {
+            "tag": "#JG2080PJV",
+            "name": "doedel_99",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 366
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#89CU9CRLG",
+            "name": "i not marwin i",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 671
+            }
+          },
+          {
+            "tag": "#V8Q2C28U",
+            "name": "NS|Win💜",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 848
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 866
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
