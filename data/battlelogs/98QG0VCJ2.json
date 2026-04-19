@@ -115080,5 +115080,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260419T155649.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 120,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#8V0C2RJV8",
+        "name": "CharlieVGX 🐣💛",
+        "brawler": {
+          "id": 16000083,
+          "name": "CLANCY",
+          "power": 11,
+          "trophies": 1096
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 1032
+            }
+          },
+          {
+            "tag": "#8PP9LCCUV",
+            "name": "CORONA_TIME_$ok",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 11,
+              "trophies": 1031
+            }
+          },
+          {
+            "tag": "#PPPYV9JG",
+            "name": "I am KLinK",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1426
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CY9URPLC",
+            "name": "ALEX|SZRD",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1098
+            }
+          },
+          {
+            "tag": "#8V0C2RJV8",
+            "name": "CharlieVGX 🐣💛",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1096
+            }
+          },
+          {
+            "tag": "#PY8V88JQJ",
+            "name": "babosa🐌🐚",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1643
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
