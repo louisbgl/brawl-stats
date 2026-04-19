@@ -85765,5 +85765,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260419T093312.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 143,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2JLQ9U2VP8",
+        "name": "CODE:HYRA",
+        "brawler": {
+          "id": 16000029,
+          "name": "BEA",
+          "power": 11,
+          "trophies": 982
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#J2PGL008G",
+            "name": "⛩| メ ⱥ𝕝𝐬𝙤メ|⛩",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 1315
+            }
+          },
+          {
+            "tag": "#2JLQ9U2VP8",
+            "name": "CODE:HYRA",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 982
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 825
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UJY8CQ2RV",
+            "name": "gentille",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 375
+            }
+          },
+          {
+            "tag": "#2QQ2URPPYR",
+            "name": "SK|Magic🙊",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#LLJJVJ8Y8",
+            "name": "CODE:NTD",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 843
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260419T093656.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 196,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#92CCUYUJU",
+        "name": "ⱽᵉˣᵘˢ〆",
+        "brawler": {
+          "id": 16000083,
+          "name": "CLANCY",
+          "power": 11,
+          "trophies": 1180
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 835
+            }
+          },
+          {
+            "tag": "#2JLQ9U2VP8",
+            "name": "CODE:HYRA",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 992
+            }
+          },
+          {
+            "tag": "#9JGU29VLU",
+            "name": "kinreinard",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 972
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YQ8UR08GY",
+            "name": "Kayfun__",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 828
+            }
+          },
+          {
+            "tag": "#GVV0PG8VC",
+            "name": "Entago",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 10,
+              "trophies": 905
+            }
+          },
+          {
+            "tag": "#92CCUYUJU",
+            "name": "ⱽᵉˣᵘˢ〆",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1180
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
