@@ -86041,5 +86041,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260419T200211.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 169,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 799
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2R8PPJQLYY",
+            "name": "agazade.20🇧🇷",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 782
+            }
+          },
+          {
+            "tag": "#PJ0CQJLPU",
+            "name": "🇦🇿|FEARLESS",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 993
+            }
+          },
+          {
+            "tag": "#8P09PVJ9J",
+            "name": "⛩️𝓡𝓪𝓾𝓵ᵏⁱˡˡᵧ",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 9,
+              "trophies": 829
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#J0G8098CQ",
+            "name": "⛩️|₦iͥnjͣaͫᴳᵒᵈ",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 885
+            }
+          },
+          {
+            "tag": "#2CJQR0LQVL",
+            "name": "🇹🇷Kaan🇹🇷",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 514
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 799
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
