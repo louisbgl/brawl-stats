@@ -112781,5 +112781,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260419T100057.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 140,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#PQUCRG9YL",
+        "name": "RBG|Denl1x 💙",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 11,
+          "trophies": 2440
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PGJR8LYLG",
+            "name": "CALVASE TOP",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 2012
+            }
+          },
+          {
+            "tag": "#VJULYPRR",
+            "name": "Apollo5363",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1169
+            }
+          },
+          {
+            "tag": "#PQUCRG9YL",
+            "name": "RBG|Denl1x 💙",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 2440
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QY8U0QGLR",
+            "name": "E❤️",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1978
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 1173
+            }
+          },
+          {
+            "tag": "#2YRR2QJQQY",
+            "name": "Dart veider",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1082
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
