@@ -75165,5 +75165,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260419T193658.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 26,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#290GPPCU8V",
+        "name": "mainbuzz|cuent2",
+        "brawler": {
+          "id": 16000049,
+          "name": "BUZZ",
+          "power": 11,
+          "trophies": 845
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 893
+            }
+          },
+          {
+            "tag": "#2LQJRLJ829",
+            "name": "Alex|cuenta 3",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 897
+            }
+          },
+          {
+            "tag": "#290GPPCU8V",
+            "name": "mainbuzz|cuent2",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 845
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8VLJL0R0Y",
+            "name": "luluberlu2007",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 9,
+              "trophies": 855
+            }
+          },
+          {
+            "tag": "#8VYJL9JLY",
+            "name": "*unlockleon.exe",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 860
+            }
+          },
+          {
+            "tag": "#8VQY90YQ9",
+            "name": "MILADEN",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 870
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
