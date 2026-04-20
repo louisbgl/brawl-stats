@@ -94584,5 +94584,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260420T140620.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 79,
+      "starPlayer": {
+        "tag": "#2UCU8QPRC",
+        "name": "QLS|Leo",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LRG0PL9UV",
+            "name": "✨️starmoon✨️",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 9,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2QGLLLPP0V",
+            "name": "Manifest fan",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UG09V9Q29",
+            "name": "todirica frumos",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2GYJ92YCL2",
+            "name": "HACKER",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2UCU8QPRC",
+            "name": "QLS|Leo",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260420T140828.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 55,
+      "starPlayer": {
+        "tag": "#282JQ9UPG",
+        "name": "SiMBa🦁👑",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 7
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2UVLPRUPL2",
+            "name": "rümoş🇹🇷",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 9,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#PGGC08V2C",
+            "name": "Ecrns",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 9,
+              "trophies": 5
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9PV00PGVJ",
+            "name": "jaki pro OS",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 6
+            }
+          },
+          {
+            "tag": "#8GGUR9L9Q",
+            "name": "jack-tombolino",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#282JQ9UPG",
+            "name": "SiMBa🦁👑",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
