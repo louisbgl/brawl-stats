@@ -40785,5 +40785,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260420T055730.000Z",
+    "event": {
+      "id": 15000367,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Goldarm Gulch"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 40,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2CCCQY2C9Q",
+        "name": "MoRtIS",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 8,
+          "trophies": 333
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2RR9PGYP9R",
+            "name": "misha",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 9,
+              "trophies": 334
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 9,
+              "trophies": 368
+            }
+          },
+          {
+            "tag": "#2CCCQY2C9Q",
+            "name": "MoRtIS",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 8,
+              "trophies": 333
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q8JVG82RR",
+            "name": "ябвдв",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 7,
+              "trophies": 439
+            }
+          },
+          {
+            "tag": "#Q92LUR8LQ",
+            "name": "Vetr0duv4ik",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 8,
+              "trophies": 312
+            }
+          },
+          {
+            "tag": "#Q9PC2GLJQ",
+            "name": "Kapibara",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 7,
+              "trophies": 439
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
