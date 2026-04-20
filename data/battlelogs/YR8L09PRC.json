@@ -93600,5 +93600,152 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260420T095124.000Z",
+    "event": {
+      "id": 15001183,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON MAISIE"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1038
+          }
+        },
+        {
+          "tag": "#2UJVRC02GJ",
+          "name": "Kukumber",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 11,
+            "trophies": 1035
+          }
+        },
+        {
+          "tag": "#PP02CRLQ2",
+          "name": "Black_Shark",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 1045
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
+  },
+  {
+    "battleTime": "20260420T095521.000Z",
+    "event": {
+      "id": 15001183,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON MAISIE"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1038
+          }
+        },
+        {
+          "tag": "#2UGR2VQV9Y",
+          "name": "♕𝙡𝙞𝙮𝙖𝙢♕",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 1038
+          }
+        },
+        {
+          "tag": "#Q02QPC9Y2",
+          "name": "сашка",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 1034
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20260420T095737.000Z",
+    "event": {
+      "id": 15001183,
+      "mode": "unknown",
+      "modeId": 61,
+      "map": "BOSS DRAGON MAISIE"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1038
+          }
+        },
+        {
+          "tag": "#J9J8829V",
+          "name": "wiertezᴸᵒᵛᵉ ʸᵒᵘ",
+          "brawler": {
+            "id": 16000009,
+            "name": "DYNAMIKE",
+            "power": 11,
+            "trophies": 1037
+          }
+        },
+        {
+          "tag": "#QQP92JPJL",
+          "name": "GT|Hardi",
+          "brawler": {
+            "id": 16000099,
+            "name": "PIERCE",
+            "power": 11,
+            "trophies": 1035
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
   }
 ]
