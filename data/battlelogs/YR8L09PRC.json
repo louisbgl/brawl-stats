@@ -94766,5 +94766,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260420T153755.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 95,
+      "starPlayer": {
+        "tag": "#Q8PLJCRL2",
+        "name": "Usna",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 10,
+          "trophies": 7
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2V2PYL0UUY",
+            "name": "HEIU",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#R2V2Q2LV8",
+            "name": "damian",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q8LL8L20V",
+            "name": "huggy wuggy",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#Q8PL9RV8R",
+            "name": "[ТОП]ПУПОЗЗИ",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#Q8PLJCRL2",
+            "name": "Usna",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 7
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
