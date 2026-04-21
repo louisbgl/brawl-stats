@@ -33188,5 +33188,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260421T110146.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 203,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "く⁠コ⁠:⁠彡",
+        "brawler": {
+          "id": 16000068,
+          "name": "MAISIE",
+          "power": 11,
+          "trophies": 576
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QYUVV828J",
+            "name": "Raiden",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 876
+            }
+          },
+          {
+            "tag": "#2G0QPU2920",
+            "name": "seif",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 9,
+              "trophies": 313
+            }
+          },
+          {
+            "tag": "#22RQ20YL0",
+            "name": "Tamik",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 886
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CQCGGJVP0",
+            "name": "Bidon ChayaChay",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 1065
+            }
+          },
+          {
+            "tag": "#9QLCQJ9GC",
+            "name": "Jawan",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 582
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 576
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260421T110301.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 53,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#9GL9VQP22",
+        "name": "As_sounette",
+        "brawler": {
+          "id": 16000086,
+          "name": "SHADE",
+          "power": 11,
+          "trophies": 452
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JJ2P9YGG",
+            "name": "про",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1614
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 574
+            }
+          },
+          {
+            "tag": "#9GL9VQP22",
+            "name": "As_sounette",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 452
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C2Q8CCVR0",
+            "name": "$ARAP$",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 720
+            }
+          },
+          {
+            "tag": "#888PVJRJ",
+            "name": "Batur",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 527
+            }
+          },
+          {
+            "tag": "#2U0CU0RPPQ",
+            "name": "Karam 🇵🇸🇵🇸",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1533
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
