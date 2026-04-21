@@ -290,6 +290,25 @@ Both collection scripts follow the **"DATA FIRST, GIT SECOND"** principle:
 4. If git fails → data preserved on VM disk → manual recovery possible
 5. **NO data loss is acceptable, git failures are tolerable**
 
+**🚨 CRITICAL CONSTRAINT - READ THIS:**
+
+**Brawl Stars data is EPHEMERAL and CANNOT be backfilled:**
+- The Brawl Stars API only returns **current state** (player trophies, wins, brawler levels NOW)
+- There is **NO historical API** - you cannot fetch "what were the trophies on April 15?"
+- Battle logs have limited history (~25 recent battles, older ones disappear)
+- **If we miss a daily snapshot, that day's data is LOST FOREVER**
+- **If we miss battlelog collections, those battles are LOST FOREVER**
+
+This is why the "DATA FIRST, GIT SECOND" principle exists. Git problems are recoverable. Data loss is permanent.
+
+**Current Issue (April 2026):**
+The scripts can fail to commit data when git lock is unavailable, but the files get lost on next branch checkout/reset. The script says "data saved locally" but it's not truly persistent - it gets cleaned up by `git reset --hard` and `git clean -fd` commands.
+
+**What must be fixed:**
+- Data files must be saved to a PERSISTENT location outside the git working directory when git lock fails
+- Or: git operations should NEVER run cleanup commands that delete uncommitted data files
+- Or: retry logic to commit the data when lock becomes available
+
 #### 2. GitHub Actions - Post-Processing & Deployment
 
 **Achievement Generation** (`.github/workflows/generate-achievements.yml`):
