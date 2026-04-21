@@ -50055,5 +50055,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260421T150026.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 65,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#GCP88CL9J",
+        "name": "Spargeltarzan",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 11,
+          "trophies": 499
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C8V9R0C8R",
+            "name": "Era7€$",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 487
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 701
+            }
+          },
+          {
+            "tag": "#2CGVCYRPYC",
+            "name": "манки клутой|MK",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 434
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GCP88CL9J",
+            "name": "Spargeltarzan",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 499
+            }
+          },
+          {
+            "tag": "#2JP8GUYLJG",
+            "name": "VacTom26",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 905
+            }
+          },
+          {
+            "tag": "#UQUGPYJP",
+            "name": "ㄥʏ𝗇乂ғᴜʀʏ",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 9,
+              "trophies": 234
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
