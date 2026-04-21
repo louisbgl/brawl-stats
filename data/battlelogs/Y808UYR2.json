@@ -32951,5 +32951,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260421T203029.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 119,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 11,
+          "trophies": 753
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 910
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 753
+            }
+          },
+          {
+            "tag": "#289282Q0GR",
+            "name": "jacky",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 8,
+              "trophies": 396
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#URR22C99Y",
+            "name": "Julesnox30",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 703
+            }
+          },
+          {
+            "tag": "#UG28P8PYV",
+            "name": "le dinoboss🇨🇩",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 705
+            }
+          },
+          {
+            "tag": "#UQ999G8VY",
+            "name": "KNE | 🃏",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 727
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
