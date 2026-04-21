@@ -100163,5 +100163,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260421T071929.000Z",
+    "event": {
+      "id": 15001021,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Spiraling Out"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 127,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000100,
+          "name": "GIGI",
+          "power": 11,
+          "trophies": 447
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RU0YQL9UG",
+            "name": "✦𝓓𝓲𝓼𝓶𝓪𝓵𝔂✦",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 8,
+              "trophies": 284
+            }
+          },
+          {
+            "tag": "#GJ8UL8YQL",
+            "name": "°•°☁Ṩ𝙝ᴏʳʳ☁°•°",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 10,
+              "trophies": 623
+            }
+          },
+          {
+            "tag": "#RRG9P29CQ",
+            "name": "MeTeor_Off",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 11,
+              "trophies": 656
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 447
+            }
+          },
+          {
+            "tag": "#2UP8GU99Q9",
+            "name": "Mati",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 5,
+              "trophies": 321
+            }
+          },
+          {
+            "tag": "#28P98VJC8G",
+            "name": "沙律",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 359
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
