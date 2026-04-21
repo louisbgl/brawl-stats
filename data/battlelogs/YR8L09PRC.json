@@ -100255,5 +100255,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260421T141012.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 73,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#PU20YGGC",
+        "name": "OPLINTIKA🐙",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 10,
+          "trophies": 520
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8Y0U0YUYY",
+            "name": "killwoxx",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 4,
+              "trophies": 354
+            }
+          },
+          {
+            "tag": "#28208UVPCR",
+            "name": "Kioshi97_",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 10,
+              "trophies": 573
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 445
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PV9QVPLQ",
+            "name": "daminepro123",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 399
+            }
+          },
+          {
+            "tag": "#PV80VJ2Y",
+            "name": "zompige hond",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 421
+            }
+          },
+          {
+            "tag": "#PU20YGGC",
+            "name": "OPLINTIKA🐙",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 10,
+              "trophies": 520
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
