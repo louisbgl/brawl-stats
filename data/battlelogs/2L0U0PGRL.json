@@ -86459,5 +86459,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260421T194003.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#P9R9VRPYU",
+        "name": "patrik",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 10,
+          "trophies": 1010
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 550
+            }
+          },
+          {
+            "tag": "#9CQVC8VQ8",
+            "name": "AQM|.B.A.R.B.",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 647
+            }
+          },
+          {
+            "tag": "#80VUJQQYY",
+            "name": "MANIAC",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 9,
+              "trophies": 777
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LVC8QLRLR",
+            "name": "vasyashkaaaa",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 951
+            }
+          },
+          {
+            "tag": "#P9R9VRPYU",
+            "name": "patrik",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 10,
+              "trophies": 1010
+            }
+          },
+          {
+            "tag": "#PCYL0JLYP",
+            "name": "django-pamphile",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 746
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
