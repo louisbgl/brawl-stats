@@ -32084,5 +32084,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260421T102955.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "く⁠コ⁠:⁠彡",
+        "brawler": {
+          "id": 16000068,
+          "name": "MAISIE",
+          "power": 11,
+          "trophies": 531
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GVRYLUY2P",
+            "name": "magic19032",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 9,
+              "trophies": 707
+            }
+          },
+          {
+            "tag": "#PJR8LVYRP",
+            "name": "Wojci",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 10,
+              "trophies": 542
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 531
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#80CGJ0VVY",
+            "name": "Rokaw64",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 9,
+              "trophies": 479
+            }
+          },
+          {
+            "tag": "#GG88PJVGL",
+            "name": "Sparkling_Water",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 7,
+              "trophies": 458
+            }
+          },
+          {
+            "tag": "#GRG28LUV",
+            "name": "SK|⚜️VortexX⚜️",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 1178
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
