@@ -41613,5 +41613,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260421T174938.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 71,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#2UV89R9CYV",
+        "name": "jellaistcool",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 11,
+          "trophies": 890
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UV89R9CYV",
+            "name": "jellaistcool",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 890
+            }
+          },
+          {
+            "tag": "#2JY28QGQ0U",
+            "name": "boxer_[loser🎃]",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1080
+            }
+          },
+          {
+            "tag": "#2CUG9GC9UV",
+            "name": "Ana María",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 1,
+              "trophies": 252
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 9,
+              "trophies": 379
+            }
+          },
+          {
+            "tag": "#2ULGRYPV0J",
+            "name": "Duki",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 10,
+              "trophies": 1063
+            }
+          },
+          {
+            "tag": "#2UC9C9CV8V",
+            "name": "STANSIA",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 9,
+              "trophies": 719
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260421T175208.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 122,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#JJ8P8URQC",
+        "name": "JOEL | Orbova",
+        "brawler": {
+          "id": 16000098,
+          "name": "ZIGGY",
+          "power": 9,
+          "trophies": 390
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 9,
+              "trophies": 390
+            }
+          },
+          {
+            "tag": "#2ULGRYPV0J",
+            "name": "Duki",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 10,
+              "trophies": 1075
+            }
+          },
+          {
+            "tag": "#2UC9C9CV8V",
+            "name": "STANSIA",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 9,
+              "trophies": 730
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UV2RRY2RJ",
+            "name": "Piper(⁠≧⁠▽⁠≦⁠)",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 1674
+            }
+          },
+          {
+            "tag": "#R9PUQJJV9",
+            "name": "Дод🤑",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 9,
+              "trophies": 334
+            }
+          },
+          {
+            "tag": "#2V0YC0RUJ2",
+            "name": "Harut",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 775
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
