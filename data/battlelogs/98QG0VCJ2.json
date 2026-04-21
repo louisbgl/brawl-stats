@@ -123054,5 +123054,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260421T143539.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#889G28PV8",
+        "name": "乂VIRUS乂",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 1010
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1037
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 9,
+              "trophies": 381
+            }
+          },
+          {
+            "tag": "#889G28PV8",
+            "name": "乂VIRUS乂",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1010
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJPUJGJJQ",
+            "name": "fokus",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 750
+            }
+          },
+          {
+            "tag": "#P0C9L2CP0",
+            "name": "Sigma_Fryta🥶🥶",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1040
+            }
+          },
+          {
+            "tag": "#GYYQQ09GG",
+            "name": "Mi bamba",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1242
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
