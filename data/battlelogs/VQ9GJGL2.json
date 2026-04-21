@@ -51192,5 +51192,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260421T212744.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 127,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#28RPLPL0UJ",
+        "name": "v.47🏴",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 1175
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9JY0Q2CPL",
+            "name": "求𝓚𝓾𝓫𝓸𝔁",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 696
+            }
+          },
+          {
+            "tag": "#GRRVYR8C2",
+            "name": "𝐹𝒊𝒐𝒏𝒂𝒞|🦪",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 4,
+              "trophies": 225
+            }
+          },
+          {
+            "tag": "#2UP8P9UP9G",
+            "name": "enora",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 805
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 802
+            }
+          },
+          {
+            "tag": "#2GRC280QG0",
+            "name": "get_boxed",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 331
+            }
+          },
+          {
+            "tag": "#28RPLPL0UJ",
+            "name": "v.47🏴",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1175
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
