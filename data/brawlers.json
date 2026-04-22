@@ -6253,7 +6253,7 @@
     },
     {
       "id": 16000101,
-      "name": "GLOWBERT",
+      "name": "GLOWY",
       "starPowers": [
         {
           "id": 23001181,
@@ -6429,6 +6429,177 @@
         {
           "id": 23001219,
           "name": "NAJIA JAR"
+        }
+      ]
+    },
+    {
+      "id": 16000104,
+      "name": "DAMIAN",
+      "starPowers": [
+        {
+          "id": 23001245,
+          "name": "CROWDKILL"
+        },
+        {
+          "id": 23001246,
+          "name": "VULGAR DISPLAY OF PUNCH"
+        }
+      ],
+      "hyperCharges": [],
+      "gears": [
+        {
+          "id": 62000000,
+          "name": "SPEED",
+          "level": 3
+        },
+        {
+          "id": 62000001,
+          "name": "HEALTH",
+          "level": 3
+        },
+        {
+          "id": 62000002,
+          "name": "DAMAGE",
+          "level": 3
+        },
+        {
+          "id": 62000003,
+          "name": "VISION",
+          "level": 3
+        },
+        {
+          "id": 62000004,
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000017,
+          "name": "GADGET COOLDOWN",
+          "level": 3
+        }
+      ],
+      "gadgets": [
+        {
+          "id": 23001247,
+          "name": "SPIRITUAL HEALING"
+        },
+        {
+          "id": 23001248,
+          "name": "WALL OF SOUND"
+        }
+      ]
+    },
+    {
+      "id": 16000105,
+      "name": "STARR NOVA",
+      "starPowers": [
+        {
+          "id": 23001253,
+          "name": "POWER LEVEL: MAXIMUM"
+        },
+        {
+          "id": 23001254,
+          "name": "MYSTICAL STARR TECHNIQUE"
+        }
+      ],
+      "hyperCharges": [],
+      "gears": [
+        {
+          "id": 62000000,
+          "name": "SPEED",
+          "level": 3
+        },
+        {
+          "id": 62000001,
+          "name": "HEALTH",
+          "level": 3
+        },
+        {
+          "id": 62000002,
+          "name": "DAMAGE",
+          "level": 3
+        },
+        {
+          "id": 62000003,
+          "name": "VISION",
+          "level": 3
+        },
+        {
+          "id": 62000004,
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000017,
+          "name": "GADGET COOLDOWN",
+          "level": 3
+        }
+      ],
+      "gadgets": [
+        {
+          "id": 23001255,
+          "name": "FLOATY TIME"
+        },
+        {
+          "id": 23001256,
+          "name": "SHINING STARR OF FRIENDSHIP AND JUSTICE"
+        }
+      ]
+    },
+    {
+      "id": 16000106,
+      "name": "BOLT",
+      "starPowers": [
+        {
+          "id": 23001279,
+          "name": "TOSS UP"
+        },
+        {
+          "id": 23001280,
+          "name": "UNSTOPPABALL"
+        }
+      ],
+      "hyperCharges": [],
+      "gears": [
+        {
+          "id": 62000000,
+          "name": "SPEED",
+          "level": 3
+        },
+        {
+          "id": 62000001,
+          "name": "HEALTH",
+          "level": 3
+        },
+        {
+          "id": 62000002,
+          "name": "DAMAGE",
+          "level": 3
+        },
+        {
+          "id": 62000003,
+          "name": "VISION",
+          "level": 3
+        },
+        {
+          "id": 62000004,
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000017,
+          "name": "GADGET COOLDOWN",
+          "level": 3
+        }
+      ],
+      "gadgets": [
+        {
+          "id": 23001281,
+          "name": "OIL CHANGE"
+        },
+        {
+          "id": 23001282,
+          "name": "BOUNCY BALL"
         }
       ]
     }
