@@ -51928,5 +51928,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260422T082805.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 63,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#2JVPPLQQ0",
+        "name": "Блютуз",
+        "brawler": {
+          "id": 16000062,
+          "name": "BUSTER",
+          "power": 10,
+          "trophies": 235
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 867
+            }
+          },
+          {
+            "tag": "#28L80YG9PQ",
+            "name": "PIZZALUNGA",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 696
+            }
+          },
+          {
+            "tag": "#2JVPPLQQ0",
+            "name": "Блютуз",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 10,
+              "trophies": 235
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y82Q2CJ2V",
+            "name": "BARAK",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 7,
+              "trophies": 233
+            }
+          },
+          {
+            "tag": "#89RLR8QUR",
+            "name": "🥀_førgøtten_🥀",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 10,
+              "trophies": 892
+            }
+          },
+          {
+            "tag": "#YLQYP92VC",
+            "name": "viniiisjr.",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 10,
+              "trophies": 411
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
