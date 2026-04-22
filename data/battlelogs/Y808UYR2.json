@@ -33319,5 +33319,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260422T023158.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 64,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 942
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QJPPY0G88",
+            "name": "NAVI|Ansar",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 9,
+              "trophies": 453
+            }
+          },
+          {
+            "tag": "#RYJL2P28C",
+            "name": "arracheurdepims",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 492
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 942
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8UGVY0JV0",
+            "name": "LYUZZ",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 8,
+              "trophies": 659
+            }
+          },
+          {
+            "tag": "#8UQCLU9Q0",
+            "name": "сестра пэни",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 6,
+              "trophies": 611
+            }
+          },
+          {
+            "tag": "#8UR0GYJ20",
+            "name": "[LP]AZIZKA_21",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 8,
+              "trophies": 669
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260422T023417.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 108,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2RVJQU0P8V",
+        "name": "ملك الظلام",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 11,
+          "trophies": 796
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9V0QCYYLC",
+            "name": "ThatAddictedGuy",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 440
+            }
+          },
+          {
+            "tag": "#G8CQYU0P0",
+            "name": "Bess",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 850
+            }
+          },
+          {
+            "tag": "#2RVJQU0P8V",
+            "name": "ملك الظلام",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 796
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8RUCLR00R",
+            "name": "oshri🇮🇱✡️🎗️",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 9,
+              "trophies": 645
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 955
+            }
+          },
+          {
+            "tag": "#Q29V2P0GP",
+            "name": "imp Aqşin",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 6,
+              "trophies": 236
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
