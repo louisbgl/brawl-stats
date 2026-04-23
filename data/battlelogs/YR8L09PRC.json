@@ -103820,5 +103820,152 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260423T085443.000Z",
+    "event": {
+      "id": 15001187,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "BOSS CROW"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#R2Y8VLUPP",
+          "name": "Erpuponeconduce",
+          "brawler": {
+            "id": 16000003,
+            "name": "BROCK",
+            "power": 9,
+            "trophies": 711
+          }
+        },
+        {
+          "tag": "#GURUPR9YY",
+          "name": "mladjkee se vra",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 701
+          }
+        },
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 710
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
+  },
+  {
+    "battleTime": "20260423T085655.000Z",
+    "event": {
+      "id": 15001187,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "BOSS CROW"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 710
+          }
+        },
+        {
+          "tag": "#8JLGQPVY2",
+          "name": "Jonas",
+          "brawler": {
+            "id": 16000009,
+            "name": "DYNAMIKE",
+            "power": 11,
+            "trophies": 716
+          }
+        },
+        {
+          "tag": "#QVVQ9Y980",
+          "name": "HYDRA",
+          "brawler": {
+            "id": 16000052,
+            "name": "MEG",
+            "power": 7,
+            "trophies": 717
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20260423T085930.000Z",
+    "event": {
+      "id": 15001187,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "BOSS CROW"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2V8G2YYJP",
+          "name": "araslav",
+          "brawler": {
+            "id": 16000011,
+            "name": "MORTIS",
+            "power": 11,
+            "trophies": 1034
+          }
+        },
+        {
+          "tag": "#2JLR0VC2Y9",
+          "name": "랴ㅡㅣ/🌹Nato",
+          "brawler": {
+            "id": 16000013,
+            "name": "POCO",
+            "power": 10,
+            "trophies": 1034
+          }
+        },
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000063,
+            "name": "CHESTER",
+            "power": 11,
+            "trophies": 1038
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible",
+        "id": 5
+      }
+    }
   }
 ]
