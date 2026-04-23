@@ -130044,5 +130044,152 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260423T101345.000Z",
+    "event": {
+      "id": 15001187,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "BOSS CROW"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 1338
+          }
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000103,
+            "name": "NAJIA",
+            "power": 11,
+            "trophies": 2074
+          }
+        },
+        {
+          "tag": "#9VJYGC2GP",
+          "name": "ADZIK",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 1326
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
+  },
+  {
+    "battleTime": "20260423T102651.000Z",
+    "event": {
+      "id": 15001187,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "BOSS CROW"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#GGQL0VQYL",
+          "name": "99#@#99",
+          "brawler": {
+            "id": 16000026,
+            "name": "BIBI",
+            "power": 11,
+            "trophies": 1499
+          }
+        },
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawler": {
+            "id": 16000103,
+            "name": "NAJIA",
+            "power": 11,
+            "trophies": 2401
+          }
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000063,
+            "name": "CHESTER",
+            "power": 11,
+            "trophies": 1232
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20260423T102834.000Z",
+    "event": {
+      "id": 15001187,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "BOSS CROW"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawler": {
+            "id": 16000103,
+            "name": "NAJIA",
+            "power": 11,
+            "trophies": 2401
+          }
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000005,
+            "name": "SPIKE",
+            "power": 11,
+            "trophies": 1134
+          }
+        },
+        {
+          "tag": "#2LPL9QVJGC",
+          "name": "Bladeemaster",
+          "brawler": {
+            "id": 16000026,
+            "name": "BIBI",
+            "power": 11,
+            "trophies": 1558
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
   }
 ]
