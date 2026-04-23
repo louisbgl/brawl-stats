@@ -34918,5 +34918,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260423T122855.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 378,
+      "starPlayer": {
+        "tag": "#2GCY2QUUG",
+        "name": "💣AGTG💣",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 890
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GCY2QUUG",
+            "name": "💣AGTG💣",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 890
+            }
+          },
+          {
+            "tag": "#RLVPUVLU2",
+            "name": "Za_Za",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 483
+            }
+          },
+          {
+            "tag": "#YVJRRCPCL",
+            "name": "私が死んだ",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 620
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CGCUUYYCG",
+            "name": "cute femboy",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 10,
+              "trophies": 952
+            }
+          },
+          {
+            "tag": "#2JR8Q2UUG",
+            "name": "я честный",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 599
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
