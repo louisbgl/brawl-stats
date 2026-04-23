@@ -65,7 +65,7 @@ class AchievementGenerator:
 
     def _load_snapshot(self, date: str) -> Optional[Dict]:
         """Load a daily snapshot by date (YYYY-MM-DD)"""
-        snapshot_file = self.data_dir / f"{date}.json"
+        snapshot_file = self.data_dir / "snapshots" / f"{date}.json"
         if not snapshot_file.exists():
             return None
         with open(snapshot_file, 'r', encoding='utf-8') as f:
@@ -343,7 +343,8 @@ class AchievementGenerator:
             self.load_existing_achievements()
 
         # Get all snapshot files sorted by date
-        snapshot_files = sorted(self.data_dir.glob("????-??-??.json"))
+        snapshots_dir = self.data_dir / "snapshots"
+        snapshot_files = sorted(snapshots_dir.glob("????-??-??.json"))
 
         if len(snapshot_files) < 2:
             print("Need at least 2 snapshots to compare")
