@@ -86944,5 +86944,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260424T113129.000Z",
+    "event": {
+      "id": 15001053,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sidetrack"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 41,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 9,
+          "trophies": 721
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 9,
+              "trophies": 721
+            }
+          },
+          {
+            "tag": "#QLVQPG9C",
+            "name": "OmegaLouis",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 670
+            }
+          },
+          {
+            "tag": "#Y08GGUVG0",
+            "name": "𝓛āₜõ𝓂āₜ𝑒𝐫õű",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 676
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PP09UU",
+            "name": "KinderBueno",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 632
+            }
+          },
+          {
+            "tag": "#2PP22RL",
+            "name": "mathis du 06",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 8,
+              "trophies": 738
+            }
+          },
+          {
+            "tag": "#2PP20Y8",
+            "name": "Spysun",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 7,
+              "trophies": 700
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
