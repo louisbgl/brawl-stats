@@ -37416,5 +37416,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260424T175338.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 111,
+      "starPlayer": {
+        "tag": "#2QYUCLR08Q",
+        "name": "SK|Miauw😸",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 1002
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L2GCJUPJC",
+            "name": "Nocivanu346",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 10,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#RQ0RL8PVJ",
+            "name": "Anna",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 2003
+            }
+          },
+          {
+            "tag": "#2QYUCLR08Q",
+            "name": "SK|Miauw😸",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1002
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PJPRR8YQP",
+            "name": "pably",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 729
+            }
+          },
+          {
+            "tag": "#R8Q0YRPRY",
+            "name": "gyfg",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1010
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260424T175651.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "starPlayer": {
+        "tag": "#YYLQ2PCRC",
+        "name": "$KRLOS",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 1006
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C82RLPPC",
+            "name": "Myp",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1023
+            }
+          },
+          {
+            "tag": "#YYLQ2PCRC",
+            "name": "$KRLOS",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1006
+            }
+          },
+          {
+            "tag": "#Y9R920GGQ",
+            "name": "Ro",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1009
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R9GYU9LUC",
+            "name": "FaZe|Mattex™",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1191
+            }
+          },
+          {
+            "tag": "#GGCC0UYP9",
+            "name": "Goku",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 1032
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
