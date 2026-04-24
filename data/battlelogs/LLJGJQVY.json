@@ -139460,5 +139460,178 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260424T150048.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 100,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2UYL9P0VP9",
+            "name": "ExQ | Carter",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9PQYYPQL",
+            "name": "sorianitooox",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#YCRVUC0V",
+            "name": "jepleezaun",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2QQVYUCVLU",
+            "name": "×MILK1S× [⌀]°",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260424T150244.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 96,
+      "starPlayer": {
+        "tag": "#2UYL9P0VP9",
+        "name": "ExQ | Carter",
+        "brawler": {
+          "id": 16000097,
+          "name": "MINA",
+          "power": 11,
+          "trophies": 13
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2UYL9P0VP9",
+            "name": "ExQ | Carter",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9PQYYPQL",
+            "name": "sorianitooox",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#YCRVUC0V",
+            "name": "jepleezaun",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2QQVYUCVLU",
+            "name": "×MILK1S× [⌀]°",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
