@@ -37234,5 +37234,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260424T163416.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 86,
+      "starPlayer": {
+        "tag": "#YVQRRLJGP",
+        "name": "EVOLVED|SM",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LYGLUUY28",
+            "name": "negr(:",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1003
+            }
+          },
+          {
+            "tag": "#2CG292P2QC",
+            "name": "Zombie",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 684
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#92YQL2CU9",
+            "name": "ali.10",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1257
+            }
+          },
+          {
+            "tag": "#YGPCGRYCV",
+            "name": "FORCE",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 1353
+            }
+          },
+          {
+            "tag": "#YVQRRLJGP",
+            "name": "EVOLVED|SM",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260424T163643.000Z",
+    "event": {
+      "id": 15000403,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Stardust Storm"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 100,
+      "starPlayer": {
+        "tag": "#2PRCUJ9UQ9",
+        "name": "DENO1234",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 1404
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2PRCUJ9UQ9",
+            "name": "DENO1234",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1404
+            }
+          },
+          {
+            "tag": "#2G9R2LLCLP",
+            "name": "2017saturn",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1003
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LQ2PJLG2",
+            "name": "SK|Gojo🟣",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1203
+            }
+          },
+          {
+            "tag": "#VYYC2RUQ",
+            "name": "elollvia",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 9,
+              "trophies": 1006
+            }
+          },
+          {
+            "tag": "#YRPQ2G0C0",
+            "name": "SanyaX",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 9,
+              "trophies": 502
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
