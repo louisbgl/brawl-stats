@@ -107970,5 +107970,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260424T091142.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 66,
+      "starPlayer": {
+        "tag": "#8PYLRQ9C8",
+        "name": "LOL/YT",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8PYLRQ9C8",
+            "name": "LOL/YT",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 884
+            }
+          },
+          {
+            "tag": "#PJUQ0UYGC",
+            "name": "CASA|Le Boss",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJLLQG2YG",
+            "name": "PEPEROP",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1068
+            }
+          },
+          {
+            "tag": "#YJ8JUJY00",
+            "name": "dxzwwk | ⛩️",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1264
+            }
+          },
+          {
+            "tag": "#YGR8U92L0",
+            "name": "•*/A.N.N.A\\*•",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1026
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
