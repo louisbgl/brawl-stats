@@ -36969,5 +36969,96 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260425T110553.000Z",
+    "event": {
+      "id": 15000350,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Quick Travel"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 88,
+      "starPlayer": {
+        "tag": "#2JVP08UL92",
+        "name": "L.A Makron",
+        "brawler": {
+          "id": 16000013,
+          "name": "POCO",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2JVP08UL92",
+            "name": "L.A Makron",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#89YUJJYJ",
+            "name": "gelb",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2R88GLJUVC",
+            "name": "Rolmox2",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#GGUQYPUJR",
+            "name": "🦊toreiros🦊",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#99JP0J92R",
+            "name": "🥶skibidi🥶",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
