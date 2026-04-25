@@ -40372,5 +40372,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260425T213124.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 88,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#2CUGJ9RVUY",
+        "name": "RZAYEVV",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 1695
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PYG90Y2J2",
+            "name": "melvin",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 943
+            }
+          },
+          {
+            "tag": "#2UYC2R9QP",
+            "name": "fra.albeeri",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 854
+            }
+          },
+          {
+            "tag": "#2QR08299C",
+            "name": "ᵀᴴᴱ✘𝐊𝐘𝐀𝐍神💣",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 671
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UU80JCJQQ",
+            "name": "T3mka",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 10,
+              "trophies": 1910
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 889
+            }
+          },
+          {
+            "tag": "#2CUGJ9RVUY",
+            "name": "RZAYEVV",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1695
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
