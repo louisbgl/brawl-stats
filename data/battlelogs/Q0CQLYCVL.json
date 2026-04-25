@@ -39912,5 +39912,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260425T190502.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 78,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "く⁠コ⁠:⁠彡",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 241
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9RCG0YYQ",
+            "name": "𝚂𝚘𝚞𝚕𝚢 ᴮˢ",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 665
+            }
+          },
+          {
+            "tag": "#PVC8CC0GJ",
+            "name": "Catairen2",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 1596
+            }
+          },
+          {
+            "tag": "#YJ2022R8V",
+            "name": "capten panez",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 10,
+              "trophies": 214
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GGRRQ82Y8",
+            "name": "Almazán _08",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1289
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 241
+            }
+          },
+          {
+            "tag": "#2L9C9GR2GL",
+            "name": "𝓐𝓶𝓮𝓵𝓬𝓲𝓪",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 6,
+              "trophies": 236
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
