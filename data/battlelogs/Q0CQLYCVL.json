@@ -40464,5 +40464,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260425T222413.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 119,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#8G9R2PPQQ",
+        "name": "Miniel",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 813
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 900
+            }
+          },
+          {
+            "tag": "#8G9R2PPQQ",
+            "name": "Miniel",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 813
+            }
+          },
+          {
+            "tag": "#2Q8LU8U8VL",
+            "name": "ZØA$ØN3🚈",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#82R02Y9L8",
+            "name": "tomar753",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 817
+            }
+          },
+          {
+            "tag": "#JRLP982",
+            "name": "ilcante",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 856
+            }
+          },
+          {
+            "tag": "#JVLPL92PV",
+            "name": "sofi",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 964
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
