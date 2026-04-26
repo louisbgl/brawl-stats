@@ -99874,5 +99874,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260426T230350.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 204,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#VUGL20QV",
+        "name": "SKILLET",
+        "brawler": {
+          "id": 16000083,
+          "name": "CLANCY",
+          "power": 11,
+          "trophies": 1523
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9CPVGUY9J",
+            "name": "豈𝐌𝐚𝐧𝐮🤍🧸",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1934
+            }
+          },
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1803
+            }
+          },
+          {
+            "tag": "#2VJ2JRJLU",
+            "name": "Y-4 maili",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 958
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#C0JJVGU2",
+            "name": "NunItoY225",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1050
+            }
+          },
+          {
+            "tag": "#VUGL20QV",
+            "name": "SKILLET",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1523
+            }
+          },
+          {
+            "tag": "#Y2VCVGLGJ",
+            "name": "Armifeki",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 2003
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
