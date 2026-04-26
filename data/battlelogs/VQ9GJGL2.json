@@ -57559,5 +57559,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260426T134416.000Z",
+    "event": {
+      "id": 15000440,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flaring Phoenix"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 50,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000057,
+          "name": "JANET",
+          "power": 11,
+          "trophies": 587
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2RGGPUVUP",
+            "name": "vincenteam",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 9,
+              "trophies": 498
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 587
+            }
+          },
+          {
+            "tag": "#2UPCQRQP",
+            "name": "Pinoy",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 9,
+              "trophies": 500
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22JJP0",
+            "name": "ofek",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 584
+            }
+          },
+          {
+            "tag": "#22JLY8",
+            "name": "Tai_Ju",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 8,
+              "trophies": 571
+            }
+          },
+          {
+            "tag": "#22JQRL",
+            "name": "LatteCoffeeZ",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 9,
+              "trophies": 584
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260426T134658.000Z",
+    "event": {
+      "id": 15000440,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flaring Phoenix"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 112,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#CQRJ29YY",
+        "name": "Gonyx",
+        "brawler": {
+          "id": 16000064,
+          "name": "GRAY",
+          "power": 11,
+          "trophies": 940
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#CQRJ29YY",
+            "name": "Gonyx",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 940
+            }
+          },
+          {
+            "tag": "#2QG89PRRYQ",
+            "name": "Korbi7.0",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 10,
+              "trophies": 876
+            }
+          },
+          {
+            "tag": "#8ULCJP2V8",
+            "name": "Mangol🤡🪐",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1715
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UPCQRQP",
+            "name": "Pinoy",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 9,
+              "trophies": 510
+            }
+          },
+          {
+            "tag": "#2RGGPUVUP",
+            "name": "vincenteam",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 9,
+              "trophies": 508
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 9,
+              "trophies": 581
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
