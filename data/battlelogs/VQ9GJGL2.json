@@ -57743,5 +57743,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260427T182625.000Z",
+    "event": {
+      "id": 15001023,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "In the Liminal"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 95,
+      "trophyChange": 1,
+      "starPlayer": {
+        "tag": "#208RJQJYJ",
+        "name": "DimLoid",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 11,
+          "trophies": 714
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L02UJ8VY9",
+            "name": ",nurbolkotak22",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 313
+            }
+          },
+          {
+            "tag": "#Y9QGU8GGC",
+            "name": "yebok228",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 597
+            }
+          },
+          {
+            "tag": "#208RJQJYJ",
+            "name": "DimLoid",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 714
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8QCVU2Y98",
+            "name": "KAY|HURMA",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 8,
+              "trophies": 118
+            }
+          },
+          {
+            "tag": "#L8Q2G2G2C",
+            "name": "KAY|YİĞİT",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 650
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 598
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
