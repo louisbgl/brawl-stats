@@ -46625,5 +46625,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260427T065732.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 30,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#8GUU8P9PQ",
+        "name": "STPRIMATIK",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 894
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P8Y2U9R2G",
+            "name": "Meля",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1103
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 749
+            }
+          },
+          {
+            "tag": "#8GUU8P9PQ",
+            "name": "STPRIMATIK",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 894
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#20RPRQJ",
+            "name": "Aurum Tv",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 891
+            }
+          },
+          {
+            "tag": "#20RL280",
+            "name": "Lydia",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 945
+            }
+          },
+          {
+            "tag": "#20RYC98",
+            "name": "AngeloSunn",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 10,
+              "trophies": 936
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
