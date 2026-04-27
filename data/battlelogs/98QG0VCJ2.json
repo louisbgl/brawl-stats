@@ -168098,5 +168098,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260427T092824.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 44,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 11,
+          "trophies": 1628
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GG0UCC00",
+            "name": "Magic vacok",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1872
+            }
+          },
+          {
+            "tag": "#VR8LYRU8",
+            "name": "あ𝐆𝐞𝐞𝐤𝐛𝐚𝐫",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1596
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1628
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22VVL8P",
+            "name": "Bai Qi",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 1655
+            }
+          },
+          {
+            "tag": "#22VU2UP",
+            "name": "hugo2005",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1628
+            }
+          },
+          {
+            "tag": "#22VVQLG",
+            "name": "lorenzo",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 10,
+              "trophies": 1678
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
