@@ -39430,5 +39430,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260427T183059.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 166,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#28GJ2L8LP",
+        "name": "Calibre",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 562
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 564
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 9,
+              "trophies": 256
+            }
+          },
+          {
+            "tag": "#9G0CJG2YY",
+            "name": "dariobrainrot",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 10,
+              "trophies": 981
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V8C8VG2PG",
+            "name": "bg",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 8,
+              "trophies": 528
+            }
+          },
+          {
+            "tag": "#28GJ2L8LP",
+            "name": "Calibre",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 562
+            }
+          },
+          {
+            "tag": "#2R0LLPUVGR",
+            "name": "💫LORD|CHAM💫",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 707
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
