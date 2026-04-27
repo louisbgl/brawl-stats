@@ -38334,5 +38334,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260427T112906.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 59,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 11,
+          "trophies": 705
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 705
+            }
+          },
+          {
+            "tag": "#2G822P9QJ",
+            "name": "octosbag",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 647
+            }
+          },
+          {
+            "tag": "#9L9RQL0UP",
+            "name": "Supergril83",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 1060
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LVCCC809",
+            "name": "iNyzeツ",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 1009
+            }
+          },
+          {
+            "tag": "#YG2QJQLQV",
+            "name": "zdoxla matabami",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#R82LRUPY0",
+            "name": "pawert",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1024
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
