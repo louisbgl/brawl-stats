@@ -88478,5 +88478,96 @@
         "id": 6
       }
     }
+  },
+  {
+    "battleTime": "20260428T160917.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 106,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8L9Y2J880",
+            "name": "antePRO",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1003
+            }
+          },
+          {
+            "tag": "#2GJGQJ0G8P",
+            "name": "☠️killer☠️",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1039
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UVV0CGLPJ",
+            "name": "VOLTA",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 504
+            }
+          },
+          {
+            "tag": "#2UCQPVVRY2",
+            "name": "TheLion",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 235
+            }
+          },
+          {
+            "tag": "#2QRUYQUV92",
+            "name": "67",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
