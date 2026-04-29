@@ -42459,5 +42459,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260429T130436.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 342,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#LL9Q09V20",
+        "name": "Julioooo",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 8,
+          "trophies": 336
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 324
+            }
+          },
+          {
+            "tag": "#2Q28PY9YPJ",
+            "name": "Yusuf buz",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 436
+            }
+          },
+          {
+            "tag": "#2UV98QPL89",
+            "name": "navnav",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1257
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GRJRQJQ9R",
+            "name": "Esmer🤍🪐",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 459
+            }
+          },
+          {
+            "tag": "#LL9Q09V20",
+            "name": "Julioooo",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 8,
+              "trophies": 336
+            }
+          },
+          {
+            "tag": "#GVGYULPV",
+            "name": "temo",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 9,
+              "trophies": 428
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260429T131047.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 140,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2V9JCLP8UR",
+        "name": "gg",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 936
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V9JCLP8UR",
+            "name": "gg",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 936
+            }
+          },
+          {
+            "tag": "#RQGVJP9G0",
+            "name": "LSC | Asde",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 8,
+              "trophies": 816
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 322
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#U9QLUG",
+            "name": "jack the ripper",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 719
+            }
+          },
+          {
+            "tag": "#U9LJLP",
+            "name": "Uulee",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 10,
+              "trophies": 719
+            }
+          },
+          {
+            "tag": "#U9QG8U",
+            "name": "Lieutenant",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 9,
+              "trophies": 683
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
