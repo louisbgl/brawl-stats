@@ -88842,5 +88842,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260429T073044.000Z",
+    "event": {
+      "id": 15000403,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Stardust Storm"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 130,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000103,
+          "name": "NAJIA",
+          "power": 11,
+          "trophies": 1038
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#209LQVVYU",
+            "name": "Lider💞不抱歉",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#JRQ0PGUY",
+            "name": "Black Mafioznik",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1015
+            }
+          },
+          {
+            "tag": "#RJ8P8UQC",
+            "name": "•Aレ乇メ•",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1262
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#UPYCUGP9",
+            "name": "tt🖤SPRUT🖤tt",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 392
+            }
+          },
+          {
+            "tag": "#90GVGV0J",
+            "name": "Lightknight",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1011
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1038
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
