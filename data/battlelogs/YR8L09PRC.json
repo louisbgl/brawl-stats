@@ -121034,5 +121034,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260429T143106.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 79,
+      "starPlayer": {
+        "tag": "#80LQ9YRV0",
+        "name": "МИХА[САС]МЫСЛОМ",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QLUGRCPRU",
+            "name": "B3RC1K愛ˢᵒˡᵒ🥀",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1003
+            }
+          },
+          {
+            "tag": "#Y0V08PQGY",
+            "name": "бутерброд",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 490
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1031
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#80LQ9YRV0",
+            "name": "МИХА[САС]МЫСЛОМ",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#8GPG0QQCU",
+            "name": "Burger King RUS",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1006
+            }
+          },
+          {
+            "tag": "#980JQ8GPG",
+            "name": "Allihandżur",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1000
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260429T143252.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 62,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 1248
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y2JJL880",
+            "name": "читер 777",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1038
+            }
+          },
+          {
+            "tag": "#2R9PRVRVGL",
+            "name": "sasal?",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1036
+            }
+          },
+          {
+            "tag": "#2C0PJVL8JV",
+            "name": "qwe6778",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1248
+            }
+          },
+          {
+            "tag": "#2V92R92PR0",
+            "name": "sodiq",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 824
+            }
+          },
+          {
+            "tag": "#2C9LY8J2U0",
+            "name": "Foxi🦊",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1338
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
