@@ -120852,5 +120852,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260429T103858.000Z",
+    "event": {
+      "id": 15000082,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Layer Cake"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 88,
+      "starPlayer": {
+        "tag": "#9V2LVL9CV",
+        "name": "Marcin Orel",
+        "brawler": {
+          "id": 16000049,
+          "name": "BUZZ",
+          "power": 11,
+          "trophies": 904
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1009
+            }
+          },
+          {
+            "tag": "#YY92PRP2J",
+            "name": "RAPTOR 250R",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1060
+            }
+          },
+          {
+            "tag": "#8G98QY0JY",
+            "name": "DOG",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1005
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P0Q8QGRGY",
+            "name": "patyk wilka",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 690
+            }
+          },
+          {
+            "tag": "#9V2LVL9CV",
+            "name": "Marcin Orel",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 904
+            }
+          },
+          {
+            "tag": "#28R0QPUPU",
+            "name": "𝓳𝓼𝓱𝓮𝓲𝓼𝓽",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 1002
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260429T104058.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 56,
+      "starPlayer": {
+        "tag": "#8Q8U2V2Q",
+        "name": "generalpizza",
+        "brawler": {
+          "id": 16000083,
+          "name": "CLANCY",
+          "power": 11,
+          "trophies": 875
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2RVVL2LL8P",
+            "name": "kaidin",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1034
+            }
+          },
+          {
+            "tag": "#PG29JQVJU",
+            "name": "sigma🤨🤨",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#CJYQJV9GY",
+            "name": "MAY|Hyerin",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1252
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#28VCUC28L8",
+            "name": "🔥BS Sai🫦",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#8Q8U2V2Q",
+            "name": "generalpizza",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 875
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1016
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
