@@ -44416,5 +44416,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260430T070035.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 346,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2G2YP82QU2",
+        "name": "Void",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 646
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LJGQ2VGG2",
+            "name": "Navi efnaf",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 586
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 581
+            }
+          },
+          {
+            "tag": "#2UYJ9RJCY8",
+            "name": "fanta_boy",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 7,
+              "trophies": 926
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UL2RCC90J",
+            "name": "$winotа",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 7,
+              "trophies": 887
+            }
+          },
+          {
+            "tag": "#2G2YP82QU2",
+            "name": "Void",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 646
+            }
+          },
+          {
+            "tag": "#RYY0LV9Y8",
+            "name": "алиаскар",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 8,
+              "trophies": 428
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
