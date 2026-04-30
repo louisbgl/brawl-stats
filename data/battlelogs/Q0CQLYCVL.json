@@ -50581,5 +50581,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260430T224924.000Z",
+    "event": {
+      "id": 15001204,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Goalies"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 58,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "く⁠コ⁠:⁠彡",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 576
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YGY0PJGPV",
+            "name": "MIKI",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 7,
+              "trophies": 375
+            }
+          },
+          {
+            "tag": "#Q99UUU28U",
+            "name": "TH/Diego/Esp",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 939
+            }
+          },
+          {
+            "tag": "#Q2VL889P0",
+            "name": "ElXEME?",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 9,
+              "trophies": 350
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 576
+            }
+          },
+          {
+            "tag": "#8J0JPYRJ2",
+            "name": "zabujczy Raptor",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 412
+            }
+          },
+          {
+            "tag": "#2R8RYV2VP",
+            "name": "_kamilek-",
+            "brawler": {
+              "id": 16000056,
+              "name": "EVE",
+              "power": 9,
+              "trophies": 225
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
