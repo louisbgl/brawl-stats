@@ -174904,5 +174904,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260430T162956.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 118,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#GV0GVVPYQ",
+        "name": "msgdelareglerie",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1130
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P28LGUUV",
+            "name": "картель6️⃣7️⃣НЯ",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 10,
+              "trophies": 1055
+            }
+          },
+          {
+            "tag": "#8RLPGVJ0R",
+            "name": "スピード| Zenli 🤍",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 11,
+              "trophies": 628
+            }
+          },
+          {
+            "tag": "#82CPVRQU8",
+            "name": "…mxvv…",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1046
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8JVYJLULR",
+            "name": "饿| ☔Lastik🥀",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1034
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1043
+            }
+          },
+          {
+            "tag": "#GV0GVVPYQ",
+            "name": "msgdelareglerie",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1130
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
