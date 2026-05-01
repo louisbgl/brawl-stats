@@ -46048,5 +46048,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260501T154518.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 181,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#GJR9GL2J",
+        "name": "Alexdi",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 492
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RY8RGJVJG",
+            "name": "т. и. оммопмола",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 10,
+              "trophies": 1215
+            }
+          },
+          {
+            "tag": "#GJR9GL2J",
+            "name": "Alexdi",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 492
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 603
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CRUJRYUG0",
+            "name": "gamer 1.0",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 9,
+              "trophies": 413
+            }
+          },
+          {
+            "tag": "#RPGR8U0QV",
+            "name": "Leon 16",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 9,
+              "trophies": 249
+            }
+          },
+          {
+            "tag": "#9GV2CU0JR",
+            "name": "Ogust",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 289
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260501T155622.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "draw",
+      "duration": 371,
+      "starPlayer": {
+        "tag": "#98G22CYQG",
+        "name": "Alperen",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 9,
+          "trophies": 904
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9JCG9RPJJ",
+            "name": "edra",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 9,
+              "trophies": 472
+            }
+          },
+          {
+            "tag": "#2QUJ9QR29J",
+            "name": "stefan",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 7,
+              "trophies": 230
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 618
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L2V28QYGV",
+            "name": "leon 67!",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 10,
+              "trophies": 1124
+            }
+          },
+          {
+            "tag": "#98G22CYQG",
+            "name": "Alperen",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 904
+            }
+          },
+          {
+            "tag": "#2RCPP98RRV",
+            "name": "Mosiax",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 7,
+              "trophies": 819
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
