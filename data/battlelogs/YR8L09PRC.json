@@ -121583,5 +121583,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260501T165250.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 88,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#R89J2YGVJ",
+        "name": "𝐎𝐫𝐢𝐡𝐢𝐦𝐞",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 1754
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LYG8URGQV",
+            "name": "ярик",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 543
+            }
+          },
+          {
+            "tag": "#28CY8L0R0",
+            "name": "王 斐 - hanmq 🌸",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1165
+            }
+          },
+          {
+            "tag": "#R8GGVUJ0Y",
+            "name": "ZETA|Maël 29",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1076
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R89J2YGVJ",
+            "name": "𝐎𝐫𝐢𝐡𝐢𝐦𝐞",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1754
+            }
+          },
+          {
+            "tag": "#8LPPL8PU0",
+            "name": "Ichigo",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1410
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1048
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
