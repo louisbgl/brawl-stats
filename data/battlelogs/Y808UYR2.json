@@ -46231,5 +46231,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260501T204448.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 114,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 11,
+          "trophies": 618
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C8Y8QL2JU",
+            "name": "النقي جروميخيخي",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 756
+            }
+          },
+          {
+            "tag": "#2G0GGUJP2U",
+            "name": "cr7suitomas33",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 754
+            }
+          },
+          {
+            "tag": "#2CUPG8U8VY",
+            "name": "القاسي سكويك",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 7,
+              "trophies": 411
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LJ9RL8GG2",
+            "name": "kyoion60",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 8,
+              "trophies": 749
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 618
+            }
+          },
+          {
+            "tag": "#2UVLY0QCPR",
+            "name": "Usmini3",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 951
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
