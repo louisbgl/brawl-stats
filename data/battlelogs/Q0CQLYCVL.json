@@ -51593,5 +51593,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260501T173115.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 152,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#L9LLQ9JJU",
+        "name": "Tomar753",
+        "brawler": {
+          "id": 16000083,
+          "name": "CLANCY",
+          "power": 8,
+          "trophies": 852
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UGUVVQLY2",
+            "name": "×NINJA KILL YOU",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 429
+            }
+          },
+          {
+            "tag": "#L9LLQ9JJU",
+            "name": "Tomar753",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 8,
+              "trophies": 852
+            }
+          },
+          {
+            "tag": "#R9YQPL82L",
+            "name": "i Will Cook you",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 1230
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 753
+            }
+          },
+          {
+            "tag": "#YR8RGP9GG",
+            "name": "El cucuy",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 10,
+              "trophies": 264
+            }
+          },
+          {
+            "tag": "#2U8Q8PG0C8",
+            "name": "🐊sopel🐊",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 1,
+              "trophies": 219
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
