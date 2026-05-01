@@ -45866,5 +45866,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260501T123246.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 105,
+      "starPlayer": {
+        "tag": "#92C9VCC0Y",
+        "name": "群|fin🐉",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#90PGPUP2Y",
+            "name": "тигр",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#92C9VCC0Y",
+            "name": "群|fin🐉",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P2RQ0RJ0J",
+            "name": "HyRexq",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#8LCRPUYUU",
+            "name": "👻kipii👻",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#L99YYLY0P",
+            "name": "🕸️MorozZ🕸️",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260501T123607.000Z",
+    "event": {
+      "id": 15000703,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "New Horizons"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 128,
+      "starPlayer": {
+        "tag": "#P0QV02V9C",
+        "name": "max",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R2VCLRQRG",
+            "name": "SX |BOMBASTIC",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#YQYQ2U2VY",
+            "name": "TTM|scratch🍀",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJV8UGYUV",
+            "name": "avi123",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2CGVGUR0J2",
+            "name": "noob",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 10,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#P0QV02V9C",
+            "name": "max",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
