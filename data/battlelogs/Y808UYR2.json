@@ -46783,5 +46783,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260502T063033.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 400,
+      "trophyChange": 31,
+      "starPlayer": {
+        "tag": "#2QRGCGU8PL",
+        "name": "корделиус не",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 10,
+          "trophies": 588
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2U9C9VC98U",
+            "name": "AnnI",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 470
+            }
+          },
+          {
+            "tag": "#2UGY2PRP9Y",
+            "name": "диннура",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 9,
+              "trophies": 931
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 718
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GRVQ8RRUU",
+            "name": "a_stack_of_dirt",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 8,
+              "trophies": 458
+            }
+          },
+          {
+            "tag": "#2QRGCGU8PL",
+            "name": "корделиус не",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 10,
+              "trophies": 588
+            }
+          },
+          {
+            "tag": "#2LLR9Y0QJY",
+            "name": "C⭐mre",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 7,
+              "trophies": 417
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
