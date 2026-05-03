@@ -122772,5 +122772,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260503T072434.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 83,
+      "starPlayer": {
+        "tag": "#2RY0JPJJUL",
+        "name": "Sakura",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 568
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UPUPGQ00U",
+            "name": "эм",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1012
+            }
+          },
+          {
+            "tag": "#2RY0JPJJUL",
+            "name": "Sakura",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 568
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 1006
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8VVRP8J2P",
+            "name": "777",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#2UCVU0LUPC",
+            "name": "arnur",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 984
+            }
+          },
+          {
+            "tag": "#2UR890YY29",
+            "name": "казбек",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260503T072812.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 87,
+      "starPlayer": {
+        "tag": "#20L0Y8P9QG",
+        "name": "Lukalernand",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 903
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GRLCJGR9J",
+            "name": "yusuf",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 10,
+              "trophies": 226
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 1134
+            }
+          },
+          {
+            "tag": "#2URPG8RLL8",
+            "name": "batmannn",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1031
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UCQ8YRU8P",
+            "name": "GRIFF SILENTEbf",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#92RUUCRYY",
+            "name": "keko crow",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1023
+            }
+          },
+          {
+            "tag": "#20L0Y8P9QG",
+            "name": "Lukalernand",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 903
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
