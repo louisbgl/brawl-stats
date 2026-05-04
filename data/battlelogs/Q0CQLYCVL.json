@@ -52052,5 +52052,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260504T132947.000Z",
+    "event": {
+      "id": 15001021,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Spiraling Out"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 98,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#2RGUV8G8PJ",
+        "name": "TTM|Raffa",
+        "brawler": {
+          "id": 16000036,
+          "name": "NANI",
+          "power": 11,
+          "trophies": 1298
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#99PP2J20G",
+            "name": "pablodjjj",
+            "brawler": {
+              "id": 16000087,
+              "name": "JUJU",
+              "power": 6,
+              "trophies": 400
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 767
+            }
+          },
+          {
+            "tag": "#2CQ9LLV20Q",
+            "name": "무서운|시선 금지",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 9,
+              "trophies": 663
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GURP9UC2R",
+            "name": "Jorgito tú papa",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 302
+            }
+          },
+          {
+            "tag": "#GU00CLCC9",
+            "name": "Honza 12345fifa",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 7,
+              "trophies": 237
+            }
+          },
+          {
+            "tag": "#2RGUV8G8PJ",
+            "name": "TTM|Raffa",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 1298
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
