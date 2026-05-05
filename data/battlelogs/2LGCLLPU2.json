@@ -111914,5 +111914,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260505T162949.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 93,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#PYPGGGRQ0",
+        "name": "FIX",
+        "brawler": {
+          "id": 16000071,
+          "name": "DOUG",
+          "power": 11,
+          "trophies": 1832
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GJL9U9Y8U",
+            "name": "ali kader",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1040
+            }
+          },
+          {
+            "tag": "#YUVJYY08C",
+            "name": "homely_&tygan&",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1738
+            }
+          },
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 2040
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PYPGGGRQ0",
+            "name": "FIX",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 1832
+            }
+          },
+          {
+            "tag": "#8PYQ9JYG0",
+            "name": "coykoi c:",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 2016
+            }
+          },
+          {
+            "tag": "#YQJVL20C0",
+            "name": "LOUD/Lloyd",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 950
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
