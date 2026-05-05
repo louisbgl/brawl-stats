@@ -124830,5 +124830,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260505T082409.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 99,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000073,
+          "name": "CHUCK",
+          "power": 11,
+          "trophies": 182
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QG9YJQ0YP",
+            "name": "Daniel",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 9,
+              "trophies": 297
+            }
+          },
+          {
+            "tag": "#2202GUP8U8",
+            "name": "anro",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 7,
+              "trophies": 156
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 182
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G8C29J",
+            "name": "Kafaldar",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 8,
+              "trophies": 220
+            }
+          },
+          {
+            "tag": "#G8JJ0G",
+            "name": "Gio",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 9,
+              "trophies": 203
+            }
+          },
+          {
+            "tag": "#G8CJYJ",
+            "name": "DonBarbano",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 9,
+              "trophies": 196
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
