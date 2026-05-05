@@ -113200,5 +113200,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260505T170023.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 132,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#2LGCLLPU2",
+        "name": "El Cactus",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 2008
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9JJ00L8UL",
+            "name": "campa06",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 1290
+            }
+          },
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 2008
+            }
+          },
+          {
+            "tag": "#CG0QRVUG",
+            "name": "weryglㄆㄐㄧㄔ🤍",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1110
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8URP8LQRR",
+            "name": "RZ|Meikato",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 896
+            }
+          },
+          {
+            "tag": "#Y2PUQLJCU",
+            "name": "FP/Sharingan",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 804
+            }
+          },
+          {
+            "tag": "#9G0Y9QL",
+            "name": "el moesoe",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1913
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
