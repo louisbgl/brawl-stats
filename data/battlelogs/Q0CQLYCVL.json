@@ -55539,5 +55539,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260505T205231.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 73,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#2URQPRY8V",
+        "name": "⚔️|ᴵ ᵃᵐ Noah|⚔️",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 9,
+          "trophies": 551
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 9,
+              "trophies": 699
+            }
+          },
+          {
+            "tag": "#P0GQGPRCY",
+            "name": "𝐆𝐇𝐎𝐒𝐓",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 8,
+              "trophies": 551
+            }
+          },
+          {
+            "tag": "#2UQGUY9UP",
+            "name": "adrox🇲🇦",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 612
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2URQPRY8V",
+            "name": "⚔️|ᴵ ᵃᵐ Noah|⚔️",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 9,
+              "trophies": 551
+            }
+          },
+          {
+            "tag": "#GCR98L0PR",
+            "name": "tusmu3rt0s",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 711
+            }
+          },
+          {
+            "tag": "#YLU2J28PG",
+            "name": "Wallterio",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 645
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
