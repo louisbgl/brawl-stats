@@ -126345,5 +126345,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260506T105701.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 58,
+      "starPlayer": {
+        "tag": "#2QL992PQQ0",
+        "name": "*|-NG-|*",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y8LQVV0YQ",
+            "name": "baobab",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2UG2PCLVL2",
+            "name": "SAM (FORSCH)",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 9,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#8L2Y9QP9P",
+            "name": "-+",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2QL992PQQ0",
+            "name": "*|-NG-|*",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#R09GCPJ29",
+            "name": "FLOR",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260506T105952.000Z",
+    "event": {
+      "id": 15000292,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Open Business"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 108,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UQVVCQ2R9",
+            "name": "Yt|Bouncher777",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#Q2VCRRRV8",
+            "name": "Кайрат Нуртас",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#9LC2RGV80",
+            "name": "wasik q_yt",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GJJ0GLJ2P",
+            "name": "Todor 15__06🥋",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2UP90CYYPP",
+            "name": "MADMAX",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
