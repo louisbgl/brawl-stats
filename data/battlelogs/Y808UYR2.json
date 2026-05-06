@@ -48229,5 +48229,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260506T124854.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 278,
+      "trophyChange": 19,
+      "starPlayer": {
+        "tag": "#22GPQVVL9U",
+        "name": "ПУТЬ АЛАНА",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 9,
+          "trophies": 707
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LQV8YG2VG",
+            "name": "esel",
+            "brawler": {
+              "id": 16000066,
+              "name": "R-T",
+              "power": 10,
+              "trophies": 634
+            }
+          },
+          {
+            "tag": "#2VP8P2RGGP",
+            "name": "я буду топать м",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 654
+            }
+          },
+          {
+            "tag": "#GQUYU9YGR",
+            "name": "порося",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 378
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22GPQVVL9U",
+            "name": "ПУТЬ АЛАНА",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 707
+            }
+          },
+          {
+            "tag": "#QP9G90JGY",
+            "name": "d.z.",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 8,
+              "trophies": 383
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 784
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260506T125329.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 219,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 11,
+          "trophies": 803
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C08VQ8PP0",
+            "name": "Ayaz sigma Türk",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 10,
+              "trophies": 746
+            }
+          },
+          {
+            "tag": "#2U9CL0RV8P",
+            "name": "50k",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 10,
+              "trophies": 66
+            }
+          },
+          {
+            "tag": "#2JPYQ0QGRY",
+            "name": "buzz nobby",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 7,
+              "trophies": 478
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8R820YQP2",
+            "name": "[БЛET] Karasik",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 8,
+              "trophies": 283
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 803
+            }
+          },
+          {
+            "tag": "#2UPCQU2CY8",
+            "name": "Apple pie",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 623
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
