@@ -51682,5 +51682,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260507T143752.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 223,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2Y0CLG9Q0R",
+        "name": "абобус",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 754
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q99Q9UJ9P",
+            "name": "bs",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1313
+            }
+          },
+          {
+            "tag": "#2Y0CLG9Q0R",
+            "name": "абобус",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 754
+            }
+          },
+          {
+            "tag": "#2LYQ0CQJQL",
+            "name": "Olek.pokemon",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 9,
+              "trophies": 994
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LP0CRURQ9",
+            "name": "DИKCИ",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 9,
+              "trophies": 1046
+            }
+          },
+          {
+            "tag": "#RRJ8PYPLJ",
+            "name": "everiss/мак777",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 65
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 613
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
