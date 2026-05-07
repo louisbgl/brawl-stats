@@ -62233,5 +62233,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260507T093313.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 34,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#9RCV9U80V",
+        "name": "RXR Christian",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 656
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9RCV9U80V",
+            "name": "RXR Christian",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 656
+            }
+          },
+          {
+            "tag": "#LRPPVLCRV",
+            "name": "Cw4zy.",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 717
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 9,
+              "trophies": 561
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G9UP8P",
+            "name": "DarkSimone",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 668
+            }
+          },
+          {
+            "tag": "#G9URYL",
+            "name": "lucas15",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 9,
+              "trophies": 680
+            }
+          },
+          {
+            "tag": "#G9V0GG",
+            "name": "daniele",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 10,
+              "trophies": 674
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
