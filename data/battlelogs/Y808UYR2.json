@@ -54073,5 +54073,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260508T125503.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 142,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#GYGP0V89P",
+        "name": "Monchysweet",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 472
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2G99GCCJJ2",
+            "name": "Bot 1",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 7,
+              "trophies": 206
+            }
+          },
+          {
+            "tag": "#R0YQQ2C2P",
+            "name": "kiki -_- 12",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 416
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 307
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GYGP0V89P",
+            "name": "Monchysweet",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 472
+            }
+          },
+          {
+            "tag": "#2UJJ8UYUY2",
+            "name": "نجم ستار برك",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 11,
+              "trophies": 985
+            }
+          },
+          {
+            "tag": "#289QCGQVV8",
+            "name": "Mikkel",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 781
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
