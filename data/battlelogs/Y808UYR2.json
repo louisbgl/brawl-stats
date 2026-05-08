@@ -53889,5 +53889,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260508T120414.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 282,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#28QCJQCVV9",
+        "name": "zockerxys",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 10,
+          "trophies": 811
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9VR0JRU02",
+            "name": "⚔️Killer⚔️",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 552
+            }
+          },
+          {
+            "tag": "#2LRJL2GC",
+            "name": "Babaanne23pro",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 545
+            }
+          },
+          {
+            "tag": "#2U9QRPCQGP",
+            "name": "ernestulda",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 497
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#28QCJQCVV9",
+            "name": "zockerxys",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 10,
+              "trophies": 811
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 293
+            }
+          },
+          {
+            "tag": "#2GCVR90P90",
+            "name": "!?",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 689
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260508T120629.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 104,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 292
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G9U20J2R",
+            "name": "ゲリッ| gelichh🪽",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 8,
+              "trophies": 192
+            }
+          },
+          {
+            "tag": "#2JUVRGG9C",
+            "name": "Jofre",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 229
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 292
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#20R9JLU",
+            "name": "aaaaa",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 10,
+              "trophies": 234
+            }
+          },
+          {
+            "tag": "#20RPG9L",
+            "name": "bambi",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 9,
+              "trophies": 245
+            }
+          },
+          {
+            "tag": "#20R9V2L",
+            "name": "Tokyo 京",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 10,
+              "trophies": 246
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
