@@ -57835,5 +57835,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260508T152747.000Z",
+    "event": {
+      "id": 15000008,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Crystal Arcade"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 114,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "く⁠コ⁠:⁠彡",
+        "brawler": {
+          "id": 16000081,
+          "name": "LILY",
+          "power": 9,
+          "trophies": 355
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UC0URPVU8",
+            "name": "SK|Shelly",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1515
+            }
+          },
+          {
+            "tag": "#8YCL2PC9R",
+            "name": "1sdkif",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 504
+            }
+          },
+          {
+            "tag": "#8LUJVPL29",
+            "name": "-aaa-",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 9,
+              "trophies": 215
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P9Y0R9VCP",
+            "name": "ОЧКО",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 451
+            }
+          },
+          {
+            "tag": "#2UQQ8LRLJR",
+            "name": "البشوش بيلMOHAM",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 955
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 9,
+              "trophies": 355
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
