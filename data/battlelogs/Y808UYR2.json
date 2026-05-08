@@ -53797,5 +53797,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260508T115859.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 115,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 278
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q9PU2CLGU",
+            "name": "puszek",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 171
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 278
+            }
+          },
+          {
+            "tag": "#GG2G9229P",
+            "name": "незнаю",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 9,
+              "trophies": 260
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9VR2L0",
+            "name": "❤Bamboll❤",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 9,
+              "trophies": 230
+            }
+          },
+          {
+            "tag": "#9VG20U",
+            "name": "pluxury_sport",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 224
+            }
+          },
+          {
+            "tag": "#9VGCQ8",
+            "name": "MTS|AGROM",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 226
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
