@@ -53705,5 +53705,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260508T100827.000Z",
+    "event": {
+      "id": 15001053,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sidetrack"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 52,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#PPPL0ULJQ",
+        "name": "J4ules",
+        "brawler": {
+          "id": 16000103,
+          "name": "NAJIA",
+          "power": 11,
+          "trophies": 1155
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L8ULRY0CR",
+            "name": "SHADOW🇵🇸",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 855
+            }
+          },
+          {
+            "tag": "#RVQUQVYU8",
+            "name": "ramizzmaj",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 494
+            }
+          },
+          {
+            "tag": "#PPPL0ULJQ",
+            "name": "J4ules",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1155
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QRVP89P",
+            "name": "sgallone_03",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 989
+            }
+          },
+          {
+            "tag": "#2CLRJ8JUJ0",
+            "name": "MatiXx",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 345
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 210
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
