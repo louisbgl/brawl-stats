@@ -130659,5 +130659,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260508T150032.000Z",
+    "event": {
+      "id": 15001053,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sidetrack"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 63,
+      "trophyChange": 1,
+      "starPlayer": {
+        "tag": "#YYGGGUVR0",
+        "name": "ВОЛОДЯ БЭТМЕН🥀",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 1330
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#282Q2UR0U",
+            "name": "weather?",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 581
+            }
+          },
+          {
+            "tag": "#Y9GU9VYUL",
+            "name": "baby018",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1638
+            }
+          },
+          {
+            "tag": "#YYGGGUVR0",
+            "name": "ВОЛОДЯ БЭТМЕН🥀",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1330
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 9,
+              "trophies": 484
+            }
+          },
+          {
+            "tag": "#QC8882VGQ",
+            "name": "popz",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 797
+            }
+          },
+          {
+            "tag": "#G80Q8RVJ",
+            "name": "dj pipex😈",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 10,
+              "trophies": 532
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
