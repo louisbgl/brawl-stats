@@ -20847,5 +20847,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260509T175523.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 80,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#G8VPPYUY0",
+        "name": "teiva",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 746
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V0VU8VGUC",
+            "name": "T_T",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 629
+            }
+          },
+          {
+            "tag": "#RL0GV8UJQ",
+            "name": "M.F 7 🥶🇨🇵",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 668
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 703
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G8VPPYUY0",
+            "name": "teiva",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 746
+            }
+          },
+          {
+            "tag": "#8RQUCUQUP",
+            "name": "Godflogamer",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 726
+            }
+          },
+          {
+            "tag": "#2YCU9VCLG",
+            "name": "Petr😘slepice☠️",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1304
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
