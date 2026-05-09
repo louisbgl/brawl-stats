@@ -32,7 +32,7 @@ async function init() {
         Router.init();
 
         // PHASE 4: Start auto-refresh polling (after initial data load)
-        AutoRefreshManager.init();
+        // AutoRefreshManager.init(); // Disabled - causes issues with data compatibility layer
 
     } catch (error) {
         console.error('Failed to initialize:', error);

@@ -379,6 +379,14 @@ const BattlesManager = {
 
         const battleMode = BattlelogHelpers.getBattleMode(battle);
         const mode = GameConstants.getModeName(battleMode);
+
+        // Log unmapped mode names (once per mode)
+        if (mode === battleMode && !this._loggedUnmappedModes?.has(battleMode)) {
+            if (!this._loggedUnmappedModes) this._loggedUnmappedModes = new Set();
+            this._loggedUnmappedModes.add(battleMode);
+            console.warn(`[Battles] No display name mapping for mode: "${battleMode}"`);
+        }
+
         const map = BattlelogHelpers.getBattleMap(battle);
         const battleDate = Utils.parseBattleTime(battle.battleTime);
         const timeAgo = battleDate ? ViewHelpers.formatTimeAgo(battleDate) : 'unknown';
@@ -415,13 +423,13 @@ const BattlesManager = {
         const mode = BattlelogHelpers.getBattleMode(battle);
         const battleType = battle.battle?.type;
 
-        // Team modes (3v3 and 5v5) - ladder and friendly
-        if ((battleType === 'ranked' || battleType === 'friendly') && GameConstants.isTeamMode(mode)) {
+        // Team modes (3v3 and 5v5) - ladder, friendly, and challenge
+        if ((battleType === 'ranked' || battleType === 'friendly' || battleType === 'challenge') && GameConstants.isTeamMode(mode)) {
             return this.generateExpandedTeamLadder(battleEntry);
         }
 
-        // Showdown modes - ladder and friendly
-        if ((battleType === 'ranked' || battleType === 'friendly') && GameConstants.isShowdownMode(mode)) {
+        // Showdown modes - ladder, friendly, and challenge
+        if ((battleType === 'ranked' || battleType === 'friendly' || battleType === 'challenge') && GameConstants.isShowdownMode(mode)) {
             return this.generateExpandedShowdownLadder(battleEntry);
         }
 
@@ -441,10 +449,17 @@ const BattlesManager = {
         }
 
         // Default: placeholder for other modes
-        console.log(`TODO: Expanded view not implemented for type="${battleType}", mode="${mode}"`);
+        // Log unsupported mode+type combinations (once per combo)
+        const comboKey = `${battleType}:${mode}`;
+        if (!this._loggedUnsupportedCombos?.has(comboKey)) {
+            if (!this._loggedUnsupportedCombos) this._loggedUnsupportedCombos = new Set();
+            this._loggedUnsupportedCombos.add(comboKey);
+            console.warn(`[Battles] No expanded view for type="${battleType}", mode="${mode}"`);
+        }
+
         return `
             <div class="battle-expanded-content">
-                <p style="color: var(--text-secondary); font-style: italic;">Expanded view - TODO (mode: ${mode}, type: ${battleType})</p>
+                <p style="color: var(--text-secondary); font-style: italic;">Expanded view not implemented (mode: ${GameConstants.getModeName(mode)}, type: ${battleType || 'null'})</p>
             </div>
         `;
     },

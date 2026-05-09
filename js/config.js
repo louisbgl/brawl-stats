@@ -83,7 +83,7 @@ const GameConstants = {
     },
 
     // Game mode colors for mode popularity charts
-    // Complete list of all 15 event.mode values found in battle logs
+    // Complete list of all event.mode values found in battle logs
     MODE_COLORS: {
         // Team 3v3 modes
         'gemGrab': '#06d6a0',
@@ -94,9 +94,14 @@ const GameConstants = {
         'knockout': '#118ab2',
         'siege': '#8338ec',
         'wipeout': '#e63946',
+        'brawlArena': '#a855f7',
+        'airHockey': '#22d3ee',
+        'tagTeam': '#f59e0b',
         // Team 5v5 modes
         'brawlBall5V5': '#6bb6ff',
         'wipeout5V5': '#ff5964',
+        'knockout5V5': '#06b6d4',
+        'deathmatch5v5': '#dc2626',
         // Showdown modes
         'showdown': '#ffd60a',
         'soloShowdown': '#ffd60a',
@@ -105,6 +110,7 @@ const GameConstants = {
         // Special modes
         'duels': '#ff006e',
         'lastStand': '#06ffa5',
+        'megaBoss': '#8b5cf6',
         'unknown': '#888888'
     },
 
@@ -117,11 +123,16 @@ const GameConstants = {
         'heist': 'Heist',
         'hotZone': 'Hot Zone',
         'knockout': 'Knockout',
-        'siege': 'Brawl Arena',
+        'siege': 'Siege',
         'wipeout': 'Wipeout',
+        'brawlArena': 'Brawl Arena',
+        'airHockey': 'Air Hockey',
+        'tagTeam': 'Tag Team',
         // Team 5v5 modes
         'brawlBall5V5': 'Brawl Ball 5v5',
         'wipeout5V5': 'Wipeout 5v5',
+        'knockout5V5': 'Knockout 5v5',
+        'deathmatch5v5': 'Deathmatch 5v5',
         // Showdown modes
         'showdown': 'Showdown',
         'soloShowdown': 'Solo Showdown',
@@ -130,16 +141,17 @@ const GameConstants = {
         // Special modes
         'duels': 'Duels',
         'lastStand': 'Last Stand',
+        'megaBoss': 'Mega Boss',
         'unknown': 'Unknown'
     },
 
     // Game mode categories
     MODE_CATEGORIES: {
-        team: ['gemGrab', 'brawlBall', 'bounty', 'heist', 'hotZone', 'knockout', 'siege', 'wipeout'],
-        team5v5: ['brawlBall5V5', 'wipeout5V5'],
+        team: ['gemGrab', 'brawlBall', 'bounty', 'heist', 'hotZone', 'knockout', 'siege', 'wipeout', 'brawlArena', 'airHockey', 'tagTeam'],
+        team5v5: ['brawlBall5V5', 'wipeout5V5', 'knockout5V5', 'deathmatch5v5'],
         showdown: ['soloShowdown', 'duoShowdown', 'trioShowdown'],
         duels: ['duels'],
-        pve: ['lastStand']
+        pve: ['lastStand', 'megaBoss']
     },
 
     /**

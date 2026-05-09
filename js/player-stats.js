@@ -5,19 +5,26 @@ const PlayerStatsManager = {
     currentPlayer: null,
     brawlersRef: null,
 
-    displayPlayerStats(clubIndex, playerIndex) {
+    async displayPlayerStats(clubIndex, playerIndex) {
+        const container = document.getElementById('playerStatsContainer');
+
         try {
             this.currentPlayer = DataManager.getPlayer(clubIndex, playerIndex);
             this.brawlersRef = DataManager.brawlersData.items;
 
-            const container = document.getElementById('playerStatsContainer');
             container.innerHTML = this.generatePlayerHTML();
         } catch (error) {
             console.error('Error displaying player stats:', error);
-            document.getElementById('playerStatsContainer').innerHTML =
+            container.innerHTML =
                 `<div class="loading" style="color: var(--accent-red);">Error loading player stats: ${error.message}</div>`;
             return;
         }
+
+        // Ensure historical data loaded before creating charts
+        await DataManager.ensureHistoricalLoaded();
+
+        // Regenerate HTML now that historical data is loaded (for trend indicators)
+        container.innerHTML = this.generatePlayerHTML();
 
         // Create charts after HTML is rendered
         const prestigeStats = this.getPrestigeStats();
@@ -26,6 +33,9 @@ const PlayerStatsManager = {
         PlayerChartsManager.createPrestigeChart(prestigeStats);
         PlayerChartsManager.createPowerChart(powerDistribution);
         PlayerChartsManager.createPlayerTrophyChart(trophyTimeline);
+
+        // Ensure battlelog data loaded for mode distribution
+        await BattlelogDataManager.ensureLoaded();
 
         // Create mode distribution chart if battlelog data exists
         if (BattlelogDataManager.isLoaded) {
@@ -39,6 +49,7 @@ const PlayerStatsManager = {
         // Setup filters
         this.setupBrawlerFilter();
         this.setupTrophyTimelineFilter();
+        this.setupBrawlerBattleStatsExpand();
     },
 
     generatePlayerHTML() {
@@ -175,6 +186,7 @@ const PlayerStatsManager = {
                         <option value="maxed">Fully Maxed</option>
                         <option value="missing">Missing Items</option>
                         <option value="not-p11">Not Power 11</option>
+                        <option value="not-owned">Not Owned</option>
                     </select>
                 </div>
 
@@ -266,15 +278,22 @@ const PlayerStatsManager = {
     },
 
     generateBrawlerTable() {
-        // Sort alphabetically by name
-        const brawlers = [...this.currentPlayer.brawlers].sort((a, b) => a.name.localeCompare(b.name));
+        // Get owned brawlers
+        const ownedBrawlers = [...this.currentPlayer.brawlers].sort((a, b) => a.name.localeCompare(b.name));
+
+        // Get missing brawlers
+        const ownedNames = ownedBrawlers.map(b => b.name);
+        const missingBrawlers = this.brawlersRef
+            .filter(br => !ownedNames.includes(br.name))
+            .sort((a, b) => a.name.localeCompare(b.name));
 
         let html = '<table class="data-table"><thead><tr>';
         html += '<th>Brawler</th><th>Power</th>';
         html += '<th>Gadgets</th><th>Star Powers</th><th>Hypercharge</th>';
         html += '<th>Gears</th></tr></thead><tbody>';
 
-        brawlers.forEach(b => {
+        // Owned brawlers
+        ownedBrawlers.forEach(b => {
             const brawlerRef = this.brawlersRef.find(br => br.name === b.name);
             if (!brawlerRef) return;
 
@@ -299,18 +318,42 @@ const PlayerStatsManager = {
                 rowClass = 'brawler-almost';
             }
 
+            // Check if hypercharge available for this brawler
+            const hcAvailable = (brawlerRef.hyperCharges || []).length > 0;
+            let hcDisplay;
+            if (hc) {
+                hcDisplay = `<span class="badge owned">${hc}</span>`;
+            } else if (hcAvailable) {
+                hcDisplay = '<span class="badge missing">Missing</span>';
+            } else {
+                hcDisplay = '<span style="color: var(--text-secondary);">—</span>';
+            }
+
             html += `<tr class="${rowClass}">`;
             html += `<td><strong>${b.name}</strong></td>`;
             html += `<td>P${b.power}</td>`;
             html += `<td>${this.formatItems([gadget1, gadget2])}</td>`;
             html += `<td>${this.formatItems([sp1, sp2])}</td>`;
-            html += `<td>${hc ? `<span class="badge owned">${hc}</span>` : '<span class="badge missing">Missing</span>'}</td>`;
+            html += `<td>${hcDisplay}</td>`;
             html += `<td>${b.gear_ids.length}</td>`;
+            html += '</tr>';
+        });
+
+        // Missing brawlers
+        missingBrawlers.forEach(brawlerRef => {
+            html += `<tr class="brawler-not-owned">`;
+            html += `<td colspan="6"><strong>${brawlerRef.name}</strong> <span style="color: var(--text-secondary); font-size: 0.85rem;">❌ Not Owned</span></td>`;
             html += '</tr>';
         });
 
         html += '</tbody></table>';
         return html;
+    },
+
+    formatMissingCount(available, expected) {
+        const missing = Math.min(available, expected);
+        if (missing === 0) return '<span style="color: var(--text-secondary);">—</span>';
+        return `<span class="badge missing">Missing ${missing}</span>`;
     },
 
     formatItems(items) {
@@ -497,6 +540,8 @@ const PlayerStatsManager = {
                     if (powerCell) {
                         matchesFilter = powerCell.textContent !== 'P11';
                     }
+                } else if (filterType === 'not-owned') {
+                    matchesFilter = row.classList.contains('brawler-not-owned');
                 }
 
                 row.style.display = (matchesSearch && matchesFilter) ? '' : 'none';
@@ -601,6 +646,17 @@ const PlayerStatsManager = {
             }
 
             PlayerChartsManager.createPlayerTrophyChart(filteredTimeline);
+        });
+    },
+
+    setupBrawlerBattleStatsExpand() {
+        const expandBtn = document.getElementById('expandBrawlerBattleStats');
+        if (!expandBtn) return;
+
+        expandBtn.addEventListener('click', () => {
+            const rows = document.querySelectorAll('.brawler-battle-row');
+            rows.forEach(row => row.style.display = '');
+            expandBtn.style.display = 'none';
         });
     },
 
@@ -820,8 +876,11 @@ const PlayerStatsManager = {
         brawlerArray.forEach(b => b.winRate = (b.wins / b.games) * 100);
         brawlerArray.sort((a, b) => b.games - a.games);
 
-        const tableRows = brawlerArray.map(b => `
-            <tr>
+        const DEFAULT_VISIBLE = 10;
+        const showAll = brawlerArray.length <= DEFAULT_VISIBLE;
+
+        const tableRows = brawlerArray.map((b, index) => `
+            <tr class="brawler-battle-row" style="${!showAll && index >= DEFAULT_VISIBLE ? 'display: none;' : ''}">
                 <td><strong>${b.name}</strong></td>
                 <td>${b.games}</td>
                 <td>${b.wins}-${b.games - b.wins} (${b.winRate.toFixed(1)}%)</td>
@@ -830,6 +889,12 @@ const PlayerStatsManager = {
                 <td>${b.mvps}</td>
             </tr>
         `).join('');
+
+        const expandButton = !showAll ? `
+            <button id="expandBrawlerBattleStats" style="margin-top: 15px; padding: 8px 16px; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; color: var(--text-primary); cursor: pointer;">
+                Show All ${brawlerArray.length} Brawlers
+            </button>
+        ` : '';
 
         return `
             <div class="card">
@@ -852,6 +917,7 @@ const PlayerStatsManager = {
                         </tbody>
                     </table>
                 </div>
+                ${expandButton}
             </div>
         `;
     },

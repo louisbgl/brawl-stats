@@ -89,7 +89,7 @@ def main():
     daily_snapshot = create_daily_snapshot(clubs_data, individual_data if individual_data else None)
 
     # Save to file
-    date_str = daily_snapshot.date
+    date_str = daily_snapshot['date']
     output_dir = "data"
     snapshots_dir = os.path.join(output_dir, "snapshots")
     os.makedirs(snapshots_dir, exist_ok=True)
@@ -97,7 +97,7 @@ def main():
     output_file = os.path.join(snapshots_dir, f"{date_str}.json")
     latest_file = os.path.join(output_dir, "latest.json")
 
-    snapshot_dict = daily_snapshot.to_dict()
+    snapshot_dict = daily_snapshot
 
     # Check if file already exists
     file_existed = os.path.exists(output_file)
@@ -116,7 +116,7 @@ def main():
     metadata = {
         "last_collection": datetime.now(ZoneInfo('UTC')).isoformat(),
         "date": date_str,
-        "total_players": sum(len(club.members) for club in daily_snapshot.clubs) + len(daily_snapshot.individual_players)
+        "total_players": sum(len(club['members']) for club in daily_snapshot['clubs']) + len(daily_snapshot['individual_players'])
     }
     with open(metadata_file, 'w') as f:
         json.dump(metadata, f, indent=2)
@@ -129,10 +129,10 @@ def main():
     print("COLLECTION COMPLETE")
     print("=" * 60)
     print(f"Date: {date_str}")
-    print(f"Clubs tracked: {len(daily_snapshot.clubs)}")
-    print(f"Individual players: {len(daily_snapshot.individual_players)}")
+    print(f"Clubs tracked: {len(daily_snapshot['clubs'])}")
+    print(f"Individual players: {len(daily_snapshot['individual_players'])}")
 
-    total_players = sum(len(club.members) for club in daily_snapshot.clubs) + len(daily_snapshot.individual_players)
+    total_players = sum(len(club['members']) for club in daily_snapshot['clubs']) + len(daily_snapshot['individual_players'])
     print(f"Total players: {total_players}")
     print()
     print(f"{action}: {output_file}")

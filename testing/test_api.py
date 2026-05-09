@@ -31,10 +31,16 @@ API playground - edit freely, not part of data collection
 #   Everything else: NO trophyChange
 """
 
+import sys
 import json
+from pathlib import Path
+from datetime import datetime, timezone, timedelta
+
+# Add project root to path so imports work when running from root
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from src.api import api_call
 from src.config import CLUBS, INDIVIDUAL_PLAYERS
-from datetime import datetime, timezone, timedelta
 
 
 # ── helpers ──────────────────────────────────────────────────────────────────
@@ -220,16 +226,209 @@ def update_all_battlelogs():
         print(f"  {tag}  +{new} new  ({total} total)")
 
 
+# ── snapshot comparison ───────────────────────────────────────────────────
+
+def compare_snapshot(tag: str):
+    """Compare API response vs what we store in snapshots."""
+    from src.models import create_player_snapshot
+
+    # Fetch raw API data
+    api_data = call(f"players/{tag}")
+    if not api_data:
+        print("Failed to fetch API data")
+        return
+
+    # Create snapshot (what we store) - now returns dict
+    snapshot_dict = create_player_snapshot(api_data)
+
+    print(f"\n{'='*60}")
+    print(f"SNAPSHOT COMPARISON: {tag}")
+    print(f"{'='*60}\n")
+
+    # Compare top-level player fields
+    print("PLAYER FIELDS:")
+    print(f"  Stored fields: {sorted(snapshot_dict.keys())}")
+    print(f"  API fields: {sorted(api_data.keys())}")
+
+    stored_set = set(snapshot_dict.keys())
+    api_set = set(api_data.keys())
+
+    only_stored = stored_set - api_set
+    only_api = api_set - stored_set
+
+    if only_stored:
+        print(f"\n  ⚠️  Fields ADDED by snapshot (not in API): {sorted(only_stored)}")
+    if only_api:
+        print(f"\n  ⚠️  Fields DISCARDED (in API, not stored): {sorted(only_api)}")
+
+    # Compare brawler fields
+    if api_data.get('brawlers') and snapshot_dict['brawlers']:
+        api_brawler = api_data['brawlers'][0]
+        stored_brawler = snapshot_dict['brawlers'][0]
+
+        print(f"\n\nBRAWLER FIELDS (using first brawler as example):")
+        print(f"  Stored fields: {sorted(stored_brawler.keys())}")
+        print(f"  API fields: {sorted(api_brawler.keys())}")
+
+        stored_b_set = set(stored_brawler.keys())
+        api_b_set = set(api_brawler.keys())
+
+        only_stored_b = stored_b_set - api_b_set
+        only_api_b = api_b_set - stored_b_set
+
+        if only_stored_b:
+            print(f"\n  ⚠️  Fields ADDED by snapshot: {sorted(only_stored_b)}")
+        if only_api_b:
+            print(f"\n  ⚠️  Fields DISCARDED: {sorted(only_api_b)}")
+
+        # Show ID extraction
+        print(f"\n\n  ID EXTRACTION EXAMPLES:")
+        print(f"    API gadgets: {api_brawler.get('gadgets', [])}")
+        print(f"    Stored gadget_ids: {stored_brawler.get('gadget_ids', [])}")
+
+        print(f"\n    API starPowers: {api_brawler.get('starPowers', [])}")
+        print(f"    Stored star_power_ids: {stored_brawler.get('star_power_ids', [])}")
+
+        if api_brawler.get('gears'):
+            print(f"\n    API gears: {api_brawler.get('gears', [])}")
+            print(f"    Stored gear_ids: {stored_brawler.get('gear_ids', [])}")
+
+    print(f"\n{'='*60}")
+
+
+def discover_all_fields():
+    """Fetch all tracked players and discover all possible API fields."""
+    from src.config import get_all_tracked_player_tags
+
+    print(f"\n{'='*60}")
+    print("DISCOVERING ALL API FIELDS")
+    print(f"{'='*60}\n")
+
+    # Get all tracked players
+    players = get_all_tracked_player_tags()
+    print(f"Fetching {len(players)} players...")
+
+    # Collect all fields across all players
+    all_player_fields = set()
+    all_brawler_fields = set()
+    all_gadget_fields = set()
+    all_star_power_fields = set()
+    all_hyper_charge_fields = set()
+    all_gear_fields = set()
+    all_club_fields = set()
+
+    player_field_types = {}
+    brawler_field_types = {}
+
+    for i, (tag, name) in enumerate(players, 1):
+        print(f"  [{i}/{len(players)}] {name} ({tag})...", end=" ")
+
+        data = call(f"players/{tag}")
+        if not data:
+            print("✗ failed")
+            continue
+
+        print("✓")
+
+        # Collect player fields
+        for field, value in data.items():
+            all_player_fields.add(field)
+            if field not in player_field_types:
+                player_field_types[field] = type(value).__name__
+
+        # Collect club fields
+        if 'club' in data and data['club']:
+            for field in data['club'].keys():
+                all_club_fields.add(field)
+
+        # Collect brawler fields
+        for brawler in data.get('brawlers', []):
+            for field, value in brawler.items():
+                all_brawler_fields.add(field)
+                if field not in brawler_field_types:
+                    brawler_field_types[field] = type(value).__name__
+
+            # Collect item fields
+            for gadget in brawler.get('gadgets', []):
+                all_gadget_fields.update(gadget.keys())
+
+            for sp in brawler.get('starPowers', []):
+                all_star_power_fields.update(sp.keys())
+
+            for hc in brawler.get('hyperCharges', []):
+                all_hyper_charge_fields.update(hc.keys())
+
+            for gear in brawler.get('gears', []):
+                all_gear_fields.update(gear.keys())
+
+    # Print results
+    print(f"\n{'='*60}")
+    print("PLAYER FIELDS")
+    print(f"{'='*60}")
+    for field in sorted(all_player_fields):
+        field_type = player_field_types.get(field, 'unknown')
+        print(f"  {field:45} {field_type}")
+
+    print(f"\n{'='*60}")
+    print("BRAWLER FIELDS")
+    print(f"{'='*60}")
+    for field in sorted(all_brawler_fields):
+        field_type = brawler_field_types.get(field, 'unknown')
+        print(f"  {field:45} {field_type}")
+
+    if all_club_fields:
+        print(f"\n{'='*60}")
+        print("CLUB FIELDS (nested in player.club)")
+        print(f"{'='*60}")
+        for field in sorted(all_club_fields):
+            print(f"  {field}")
+
+    if all_gadget_fields:
+        print(f"\n{'='*60}")
+        print("GADGET FIELDS")
+        print(f"{'='*60}")
+        for field in sorted(all_gadget_fields):
+            print(f"  {field}")
+
+    if all_star_power_fields:
+        print(f"\n{'='*60}")
+        print("STAR POWER FIELDS")
+        print(f"{'='*60}")
+        for field in sorted(all_star_power_fields):
+            print(f"  {field}")
+
+    if all_hyper_charge_fields:
+        print(f"\n{'='*60}")
+        print("HYPER CHARGE FIELDS")
+        print(f"{'='*60}")
+        for field in sorted(all_hyper_charge_fields):
+            print(f"  {field}")
+
+    if all_gear_fields:
+        print(f"\n{'='*60}")
+        print("GEAR FIELDS")
+        print(f"{'='*60}")
+        for field in sorted(all_gear_fields):
+            print(f"  {field}")
+
+    print(f"\n{'='*60}")
+    print("SUMMARY")
+    print(f"{'='*60}")
+    print(f"  Total players scanned: {len(players)}")
+    print(f"  Unique player fields: {len(all_player_fields)}")
+    print(f"  Unique brawler fields: {len(all_brawler_fields)}")
+    if all_club_fields:
+        print(f"  Unique club fields: {len(all_club_fields)}")
+    print(f"{'='*60}\n")
+
+
 # ── main ──────────────────────────────────────────────────────────────────────
 
 def main():
     ESCORTE = "#LLJGJQVY"
     FRED = "#2L0U0PGRL"
-    # data = call(f"players/{ESCORTE}/battlelog")
-    # if not data:
-    #     return
 
-    print_stored_battles(ESCORTE)
+    compare_snapshot(ESCORTE)
 
 
 if __name__ == "__main__":
