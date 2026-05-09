@@ -24736,5 +24736,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260509T213126.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 50,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#L2QQLCRL",
+        "name": "daani.",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 978
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P9LYJ8UQ8",
+            "name": "i shoot kids",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 640
+            }
+          },
+          {
+            "tag": "#2GG8VR9R",
+            "name": "blvckdamn",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 999
+            }
+          },
+          {
+            "tag": "#L8LGY2C0U",
+            "name": "enzo",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 7,
+              "trophies": 964
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L2QQLCRL",
+            "name": "daani.",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 978
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 992
+            }
+          },
+          {
+            "tag": "#L228JGP88",
+            "name": "xbs🗿",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 10,
+              "trophies": 769
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
