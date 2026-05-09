@@ -143,10 +143,9 @@ const AutoRefreshManager = {
         if (battlelogsChanged) {
             console.log('[AutoRefresh] Reloading battlelog data...');
             try {
-                // Clear cache and reload all battlelogs
-                BattlelogDataManager.battlelogsCache.clear();
-                await BattlelogDataManager.loadAllBattlelogs();
-                await BattlelogDataManager.loadMetadata();
+                // Clear cache and reload all battlelogs via DataManager
+                DataManager.battlelogsCache.clear();
+                await DataManager.loadBattlelogs();
                 updates.push('battlelogs');
             } catch (error) {
                 console.error('[AutoRefresh] Failed to reload battlelog data:', error);

@@ -1,110 +1,36 @@
-// Battlelog Data module - handles loading and caching of battle log data
+// Battlelog Data module - thin wrapper around DataManager for backwards compatibility
+// All battlelog data now managed by DataManager
 
 const BattlelogDataManager = {
-    battlelogsCache: new Map(), // tag -> battle items array
-    metadataCache: null,
-    isLoaded: false,
-    loadingPromise: null,
-
-    // Start loading in background but return immediately
-    init() {
-        if (!this.loadingPromise) {
-            this.loadingPromise = this._loadAll();
-        }
-        return this.loadingPromise;
-    },
-
-    // Internal method that does the actual loading
-    async _loadAll() {
-        await this.loadAllBattlelogs();
-        await this.loadMetadata();
-        this.isLoaded = true;
+    // Backwards compatibility: expose isLoaded flag
+    get isLoaded() {
+        return DataManager.battlelogsCache.size > 0;
     },
 
     // Ensure battlelog data is loaded before using
     async ensureLoaded() {
-        // If already loaded, return immediately
-        if (this.isLoaded && this.battlelogsCache.size > 0) {
-            return true;
-        }
-
-        // If loading promise exists, wait for it
-        if (this.loadingPromise) {
-            await this.loadingPromise;
-        } else {
-            // No promise exists, start loading now
-            await this.init();
-        }
-
+        await DataManager.ensureBattlelogsLoaded();
         return this.isLoaded;
     },
 
-    async loadAllBattlelogs() {
-        const players = DataManager.getAllPlayers();
-
-        for (const player of players) {
-            await this.loadBattlelogForPlayer(player.tag);
-        }
-    },
-
-    async loadBattlelogForPlayer(tag) {
-        const filename = tag.replace('#', '');
-        try {
-            const response = await fetch(`data/battlelogs/${filename}.json`);
-            if (response.ok) {
-                const battles = await response.json();
-                this.battlelogsCache.set(tag, battles);
-                return battles;
-            } else {
-                console.warn(`Failed to load battlelog for ${tag}: ${response.status}`);
-            }
-        } catch (error) {
-            console.warn(`Error loading battlelog for ${tag}:`, error);
-        }
-        return [];
-    },
-
-    async loadMetadata() {
-        try {
-            const response = await fetch('data/battlelogs/_last_updated.json');
-            if (response.ok) {
-                this.metadataCache = await response.json();
-            }
-        } catch (error) {
-            console.warn('No battlelog metadata found');
-        }
-    },
-
+    // Delegate all methods to DataManager
     getBattlesForPlayer(tag) {
-        return this.battlelogsCache.get(tag) || [];
+        return DataManager.getBattlesForPlayer(tag);
     },
 
     getAllBattles() {
-        const allBattles = [];
-        for (const [tag, battles] of this.battlelogsCache.entries()) {
-            battles.forEach(battle => {
-                allBattles.push({
-                    playerTag: tag,
-                    ...battle
-                });
-            });
-        }
-        return allBattles;
+        return DataManager.getAllBattles();
     },
 
     getTotalBattleCount() {
-        let total = 0;
-        for (const battles of this.battlelogsCache.values()) {
-            total += battles.length;
-        }
-        return total;
+        return DataManager.getTotalBattleCount();
     },
 
     getPlayerBattleCount(tag) {
-        return this.getBattlesForPlayer(tag).length;
+        return DataManager.getPlayerBattleCount(tag);
     },
 
     getLastCollectionTime() {
-        return this.metadataCache?.last_collection || null;
+        return DataManager.getBattlelogLastCollectionTime();
     }
 };
