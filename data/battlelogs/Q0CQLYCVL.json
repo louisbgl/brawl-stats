@@ -60503,5 +60503,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260509T130039.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 84,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "く⁠コ⁠:⁠彡",
+        "brawler": {
+          "id": 16000096,
+          "name": "TRUNK",
+          "power": 9,
+          "trophies": 96
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QJGPQ2UP8",
+            "name": "Maks1_Manyakk”",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 1,
+              "trophies": 69
+            }
+          },
+          {
+            "tag": "#9Q882900C",
+            "name": "Darioninja6",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 7,
+              "trophies": 127
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 9,
+              "trophies": 96
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CLLQL",
+            "name": "Qwerty",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 6,
+              "trophies": 88
+            }
+          },
+          {
+            "tag": "#CL8GG",
+            "name": "GonzaloSpeedman",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 4,
+              "trophies": 88
+            }
+          },
+          {
+            "tag": "#CL000",
+            "name": "simon",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 5,
+              "trophies": 112
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
