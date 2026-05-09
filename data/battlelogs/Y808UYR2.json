@@ -56340,5 +56340,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260509T210357.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 117,
+      "trophyChange": 25,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 172
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9Q9GG0VYJ",
+            "name": "MN|LeveRon🐧",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 10,
+              "trophies": 183
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 172
+            }
+          },
+          {
+            "tag": "#QGRVVCCPG",
+            "name": "Roayden13",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 8,
+              "trophies": 209
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YRP8U0",
+            "name": "Buli",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 186
+            }
+          },
+          {
+            "tag": "#YR9R0P",
+            "name": "Pege",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 9,
+              "trophies": 173
+            }
+          },
+          {
+            "tag": "#YR9JPG",
+            "name": "Skibidi Akuu!",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 180
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
