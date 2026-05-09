@@ -60,9 +60,16 @@ cp .env.example .env
 - Environment variables loaded from `.env` file via python-dotenv
 
 **Data Models Philosophy:**
-- Python stores minimal raw data (IDs only for items like gadgets, star powers, hypercharges, gears)
+- Python stores **complete raw API responses** (as of May 2026 refactor - previously stored minimal data)
+- `src/models.py`: Simple functions that add metadata (timestamp, date) to raw API data
+- JavaScript uses **compatibility layer** (Proxy) to support both snake_case (old) and camelCase (new API) field names
+- Future-proof: Any new API fields automatically available without code changes
 - All analysis and lookups happen in JavaScript using `brawlers.json` reference data
-- Keeps snapshot files compact while allowing frontend flexibility
+
+**Data Migration (April 2026):**
+- Migrated 54 historical snapshot files from filtered format to raw API format
+- `migrate_snapshots.py`: Converted snake_case → camelCase, reconstructed full item objects from IDs
+- Backwards compatible: old code still works via Proxy-based field mapping
 
 ### JavaScript Frontend (Visualization)
 
@@ -93,13 +100,18 @@ This frontend is designed for AI-assisted development ("vibecoding"). All common
    - `CalculationHelpers`: Shared calculations (maxed brawler check, prestige level, upgrade costs)
    - Load second - used by all visualization modules
 
-3. **`js/data.js`** - Data loading and caching
-   - `DataManager`: Singleton that loads latest.json, historical snapshots, brawlers.json, and achievements.json
-   - Provides `getAllPlayers()`, `findPlayerInSnapshot()`, `ensureHistoricalLoaded()`, etc.
+3. **`js/data.js`** - Unified data loading and caching (single source of truth)
+   - `DataManager`: Manages ALL data sources - snapshots, battlelogs, achievements, brawlers
+   - **Lazy loading**: Critical data (latest.json, brawlers.json) loads immediately, others load in background
+   - **Ensure methods**: `ensureHistoricalLoaded()`, `ensureBattlelogsLoaded()`, `ensureAchievementsLoaded()`
+   - **Player queries**: `getAllPlayers()`, `getPlayer()`, `findPlayerInSnapshot()`
+   - **Battlelog queries**: `getBattlesForPlayer()`, `getAllBattles()`, `getTotalBattleCount()`
+   - **Compatibility layer**: Transparent snake_case → camelCase field mapping via Proxy (supports old code)
 
-4. **`js/battlelog-data.js`** - Battle log data management
-   - `BattlelogDataManager`: Loads and caches battle logs from `data/battlelogs/{TAG}.json`
-   - Lazy loads on first access to avoid blocking initial page load
+4. **`js/battlelog-data.js`** - Thin wrapper for backwards compatibility
+   - `BattlelogDataManager`: Delegates all operations to DataManager
+   - Exists only for backwards compat - new code should use DataManager directly
+   - Provides same API as before (ensureLoaded(), getBattlesForPlayer(), etc.)
 
 5. **`js/battlelog-analytics.js`** - Battle analytics
    - `BattlelogAnalytics`: Win rate calculations, activity metrics, streaks, mode stats
@@ -167,12 +179,24 @@ When displaying game modes:
 2. **ALWAYS** use `GameConstants.getModeColor(mode)` for mode-specific colors (consistent colors across UI)
 3. Use `GameConstants.MODE_CATEGORIES` to filter or group modes by type (team/showdown/pve)
 
+**Supported Game Modes (May 2026):**
+- **Team 3v3**: gemGrab, brawlBall, bounty, heist, hotZone, knockout, siege, wipeout, brawlArena, airHockey, tagTeam
+- **Team 5v5**: brawlBall5V5, wipeout5V5, knockout5V5, deathmatch5v5
+- **Showdown**: soloShowdown, duoShowdown, trioShowdown
+- **Special**: duels, lastStand, megaBoss
+- **Battle Types**: ranked (ladder), soloRanked (competitive), friendly, challenge (events)
+
 **Tab Features:**
 - **Club Overview**: Trophy timeline + quick stats for all members
-- **Player Stats**: Prestige tracking, power distribution, per-brawler breakdown with missing items
+- **Player Stats**:
+  - Prestige/power distribution charts
+  - Per-brawler breakdown with missing items (owned + unowned brawlers shown)
+  - Account Worth card tracks coin/power point costs for full account progression
+  - Brawler Battle Stats with pagination (top 10 shown, expandable)
+  - Trophy progression timeline with date range filters
 - **Timelines**: Historical progression (trophies, wins, collection, maxed brawlers, prestige, activity, mode popularity)
 - **Achievements**: Player milestone timeline with filters
-- **Battles**: Paginated battle feed with player/mode/result filters
+- **Battles**: Paginated battle feed with player/mode/result filters, expanded views for all battle types
 
 ### Data Collection & Automation Pipeline
 
