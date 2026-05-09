@@ -21215,5 +21215,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260509T183042.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 26,
+      "starPlayer": {
+        "tag": "#2QL2VL0000",
+        "name": "Enfornox_1er",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 1647
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QR98VG9P0",
+            "name": "BDD_1er",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 10,
+              "trophies": 1490
+            }
+          },
+          {
+            "tag": "#2QL2VL0000",
+            "name": "Enfornox_1er",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1647
+            }
+          },
+          {
+            "tag": "#RUG2YQCQR",
+            "name": "Zerx82",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 830
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 733
+            }
+          },
+          {
+            "tag": "#PY99CGPCL",
+            "name": "Loigi66",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 216
+            }
+          },
+          {
+            "tag": "#9LRJY8G8J",
+            "name": "4ZO| TOTD",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 520
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260509T183311.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 71,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#Q9LP2RUY",
+        "name": "bijelac",
+        "brawler": {
+          "id": 16000071,
+          "name": "DOUG",
+          "power": 11,
+          "trophies": 903
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 733
+            }
+          },
+          {
+            "tag": "#2VLRVGVCY",
+            "name": "brat2",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 10,
+              "trophies": 566
+            }
+          },
+          {
+            "tag": "#Q9LP2RUY",
+            "name": "bijelac",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 903
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PP8RUP",
+            "name": "CMCcece",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 720
+            }
+          },
+          {
+            "tag": "#2PP8ULU",
+            "name": "Dyfano",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 768
+            }
+          },
+          {
+            "tag": "#2PP922L",
+            "name": "Sneezze",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 754
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
