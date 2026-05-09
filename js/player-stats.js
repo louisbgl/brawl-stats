@@ -5,19 +5,26 @@ const PlayerStatsManager = {
     currentPlayer: null,
     brawlersRef: null,
 
-    displayPlayerStats(clubIndex, playerIndex) {
+    async displayPlayerStats(clubIndex, playerIndex) {
+        const container = document.getElementById('playerStatsContainer');
+
         try {
             this.currentPlayer = DataManager.getPlayer(clubIndex, playerIndex);
             this.brawlersRef = DataManager.brawlersData.items;
 
-            const container = document.getElementById('playerStatsContainer');
             container.innerHTML = this.generatePlayerHTML();
         } catch (error) {
             console.error('Error displaying player stats:', error);
-            document.getElementById('playerStatsContainer').innerHTML =
+            container.innerHTML =
                 `<div class="loading" style="color: var(--accent-red);">Error loading player stats: ${error.message}</div>`;
             return;
         }
+
+        // Ensure historical data loaded before creating charts
+        await DataManager.ensureHistoricalLoaded();
+
+        // Regenerate HTML now that historical data is loaded (for trend indicators)
+        container.innerHTML = this.generatePlayerHTML();
 
         // Create charts after HTML is rendered
         const prestigeStats = this.getPrestigeStats();
@@ -26,6 +33,9 @@ const PlayerStatsManager = {
         PlayerChartsManager.createPrestigeChart(prestigeStats);
         PlayerChartsManager.createPowerChart(powerDistribution);
         PlayerChartsManager.createPlayerTrophyChart(trophyTimeline);
+
+        // Ensure battlelog data loaded for mode distribution
+        await BattlelogDataManager.ensureLoaded();
 
         // Create mode distribution chart if battlelog data exists
         if (BattlelogDataManager.isLoaded) {

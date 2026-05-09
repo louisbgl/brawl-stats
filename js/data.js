@@ -1,5 +1,57 @@
 // Data module - handles loading and caching of all data
 
+// Field compatibility layer - maps snake_case (old) to camelCase (API raw)
+const FIELD_COMPAT_MAP = {
+    // Player fields
+    'victories_3v3': '3vs3Victories',
+    'solo_victories': 'soloVictories',
+    'duo_victories': 'duoVictories',
+    'exp_level': 'expLevel',
+    'exp_points': 'expPoints',
+    'highest_trophies': 'highestTrophies',
+    'total_prestige_level': 'totalPrestigeLevel',
+    // Brawler fields
+    'prestige_level': 'prestigeLevel',
+    'highest_trophies': 'highestTrophies', // same for player/brawler
+    // Item ID arrays (extract from full objects)
+    'gadget_ids': (obj) => (obj.gadgets || []).map(g => g.id),
+    'star_power_ids': (obj) => (obj.starPowers || []).map(sp => sp.id),
+    'hyper_charge_ids': (obj) => (obj.hyperCharges || []).map(hc => hc.id),
+    'gear_ids': (obj) => (obj.gears || []).map(g => g.id),
+};
+
+/**
+ * Wrap object with compatibility proxy for snake_case field access.
+ * Allows JS code to use old snake_case fields with new camelCase data.
+ */
+function wrapCompat(obj) {
+    if (!obj || typeof obj !== 'object') return obj;
+
+    return new Proxy(obj, {
+        get(target, prop) {
+            // Direct hit - return as-is
+            if (prop in target) return target[prop];
+
+            // Check compatibility map
+            if (prop in FIELD_COMPAT_MAP) {
+                const mapping = FIELD_COMPAT_MAP[prop];
+
+                // Function mapping (for ID extraction)
+                if (typeof mapping === 'function') {
+                    return mapping(target);
+                }
+
+                // String mapping (field rename)
+                if (mapping in target) {
+                    return target[mapping];
+                }
+            }
+
+            return target[prop];
+        }
+    });
+}
+
 const DataManager = {
     latestData: null,
     historicalData: [],
@@ -89,6 +141,23 @@ const DataManager = {
                 const response = await fetch(`data/snapshots/${date}.json`);
                 if (response.ok) {
                     const data = await response.json();
+
+                    // Wrap all players and brawlers in historical snapshots for compatibility
+                    data.clubs = (data.clubs || []).map(club => ({
+                        ...club,
+                        members: (club.members || []).map(player => {
+                            const wrapped = wrapCompat(player);
+                            wrapped.brawlers = (player.brawlers || []).map(b => wrapCompat(b));
+                            return wrapped;
+                        })
+                    }));
+
+                    data.individual_players = (data.individual_players || []).map(player => {
+                        const wrapped = wrapCompat(player);
+                        wrapped.brawlers = (player.brawlers || []).map(b => wrapCompat(b));
+                        return wrapped;
+                    });
+
                     this.historicalData.push(data);
                 }
             } catch (error) {
@@ -122,28 +191,50 @@ const DataManager = {
         const players = [];
         this.latestData.clubs.forEach((club, clubIndex) => {
             club.members.forEach((player, playerIndex) => {
-                players.push({ ...player, clubIndex, playerIndex });
+                // Wrap player and brawlers for compatibility
+                const wrappedPlayer = wrapCompat({ ...player, clubIndex, playerIndex });
+                wrappedPlayer.brawlers = (player.brawlers || []).map(b => wrapCompat(b));
+                players.push(wrappedPlayer);
             });
         });
         (this.latestData.individual_players || []).forEach((player, playerIndex) => {
-            players.push({ ...player, clubIndex: -1, playerIndex });
+            const wrappedPlayer = wrapCompat({ ...player, clubIndex: -1, playerIndex });
+            wrappedPlayer.brawlers = (player.brawlers || []).map(b => wrapCompat(b));
+            players.push(wrappedPlayer);
         });
         return players;
     },
 
     getPlayer(clubIndex, playerIndex) {
+        let player;
         if (clubIndex === -1) {
-            return this.latestData.individual_players[playerIndex];
+            player = this.latestData.individual_players[playerIndex];
+        } else {
+            player = this.latestData.clubs[clubIndex].members[playerIndex];
         }
-        return this.latestData.clubs[clubIndex].members[playerIndex];
+
+        // Wrap for compatibility
+        const wrapped = wrapCompat(player);
+        wrapped.brawlers = (player.brawlers || []).map(b => wrapCompat(b));
+        return wrapped;
     },
 
     findPlayerInSnapshot(snapshot, tag) {
         for (const club of snapshot.clubs) {
             const p = club.members.find(m => m.tag === tag);
-            if (p) return p;
+            if (p) {
+                const wrapped = wrapCompat(p);
+                wrapped.brawlers = (p.brawlers || []).map(b => wrapCompat(b));
+                return wrapped;
+            }
         }
-        return (snapshot.individual_players || []).find(p => p.tag === tag) ?? null;
+        const individual = (snapshot.individual_players || []).find(p => p.tag === tag);
+        if (individual) {
+            const wrapped = wrapCompat(individual);
+            wrapped.brawlers = (individual.brawlers || []).map(b => wrapCompat(b));
+            return wrapped;
+        }
+        return null;
     },
 
     getBrawlerName(brawlerId) {
