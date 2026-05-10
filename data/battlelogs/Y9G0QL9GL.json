@@ -28463,5 +28463,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260510T204439.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#YUCYRC2UG",
+        "name": "slicenth",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 602
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 622
+            }
+          },
+          {
+            "tag": "#C0YVLRYVJ",
+            "name": "Zabac",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 824
+            }
+          },
+          {
+            "tag": "#YUCYRC2UG",
+            "name": "slicenth",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 602
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PY2G2J",
+            "name": "𝒿𝓊𝓅𝒾𝓉𝑒𝓇",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 701
+            }
+          },
+          {
+            "tag": "#2PY2YQ8",
+            "name": "iArmiusQu❦",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 728
+            }
+          },
+          {
+            "tag": "#2PY8C2L",
+            "name": "Dr Haze YT",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 636
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
