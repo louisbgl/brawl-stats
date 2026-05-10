@@ -105688,5 +105688,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260510T170018.000Z",
+    "event": {
+      "id": 15001023,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "In the Liminal"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 145,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000046,
+          "name": "BELLE",
+          "power": 11,
+          "trophies": 1161
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1054
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 1161
+            }
+          },
+          {
+            "tag": "#2LLQUV0R8J",
+            "name": "SweetTooth",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1308
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0GGL9L",
+            "name": "憂太 | Yuta 🍥",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1108
+            }
+          },
+          {
+            "tag": "#LJ2R890C2",
+            "name": "Toto Rina",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 769
+            }
+          },
+          {
+            "tag": "#Y09GRJVC0",
+            "name": "clement",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 1900
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
