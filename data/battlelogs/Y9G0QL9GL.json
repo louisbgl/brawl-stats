@@ -26592,5 +26592,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260510T130134.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 254,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2GR2QPCCC8",
+        "name": "空｜keimed",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 10,
+          "trophies": 1702
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GVRL9VUQ8",
+            "name": "乂🌸𝙇ơ𝐮🌸乂",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 713
+            }
+          },
+          {
+            "tag": "#GRQ09UR2V",
+            "name": "its_Riki",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 7,
+              "trophies": 324
+            }
+          },
+          {
+            "tag": "#2GR2QPCCC8",
+            "name": "空｜keimed",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 10,
+              "trophies": 1702
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 9,
+              "trophies": 376
+            }
+          },
+          {
+            "tag": "#GLGJV8V8L",
+            "name": "Molor",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1207
+            }
+          },
+          {
+            "tag": "#LV0VV2UGR",
+            "name": "901 Ph",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 9,
+              "trophies": 313
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
