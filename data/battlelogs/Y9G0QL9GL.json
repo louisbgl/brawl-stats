@@ -24828,5 +24828,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260510T101349.000Z",
+    "event": {
+      "id": 15000082,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Layer Cake"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 107,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000049,
+          "name": "BUZZ",
+          "power": 11,
+          "trophies": 567
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CLL2VQ0Q",
+            "name": "luchiux",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1984
+            }
+          },
+          {
+            "tag": "#2YG0YPVG9",
+            "name": "69",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 499
+            }
+          },
+          {
+            "tag": "#LV2JCLUYU",
+            "name": "🐉a.b🥶",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 5,
+              "trophies": 243
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#20VYCQPUY",
+            "name": "🐦‍🔥",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 8,
+              "trophies": 511
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 567
+            }
+          },
+          {
+            "tag": "#2CR08QG9Y0",
+            "name": "Trunks Angel",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 595
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
