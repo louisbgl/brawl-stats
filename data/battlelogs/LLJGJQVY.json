@@ -217771,5 +217771,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260510T105128.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 121,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#2UJQ92VPPR",
+        "name": "DARKLORD isback",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 2000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8CG9VRGRL",
+            "name": "финский",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 718
+            }
+          },
+          {
+            "tag": "#J2RC2VJY",
+            "name": "TvujFotr",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 655
+            }
+          },
+          {
+            "tag": "#YU090CVC0",
+            "name": "mirko🖤",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 10,
+              "trophies": 1002
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UJQ92VPPR",
+            "name": "DARKLORD isback",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 1198
+            }
+          },
+          {
+            "tag": "#20PJCCGJQ",
+            "name": "Delo☭",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1761
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
