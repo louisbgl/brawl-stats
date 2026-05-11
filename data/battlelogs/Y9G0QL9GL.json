@@ -29628,5 +29628,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260511T150225.000Z",
+    "event": {
+      "id": 15001248,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Slippery Showdown"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 194,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#2LQRL22JR",
+        "name": "venxm",
+        "brawler": {
+          "id": 16000049,
+          "name": "BUZZ",
+          "power": 11,
+          "trophies": 541
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28P099GRCC",
+            "name": "Code Boris",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 961
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 671
+            }
+          },
+          {
+            "tag": "#YR2L89GJV",
+            "name": "Physik🤡",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 7,
+              "trophies": 941
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LQRL22JR",
+            "name": "venxm",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 541
+            }
+          },
+          {
+            "tag": "#9YUVU2JU",
+            "name": "CH7",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 532
+            }
+          },
+          {
+            "tag": "#2L2J9J0GU8",
+            "name": "*[BEST]*",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 1018
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
