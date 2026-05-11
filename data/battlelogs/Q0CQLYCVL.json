@@ -63539,5 +63539,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260511T115916.000Z",
+    "event": {
+      "id": 15000008,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Crystal Arcade"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 118,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#2V8CRPCU8L",
+        "name": "HARUN",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 1938
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GCGVVQG9R",
+            "name": "Altec75",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 937
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 743
+            }
+          },
+          {
+            "tag": "#2V8CRPCU8L",
+            "name": "HARUN",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1938
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P9Q88UVQ9",
+            "name": "Boki",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 8,
+              "trophies": 60
+            }
+          },
+          {
+            "tag": "#8VGLC0CP8",
+            "name": "😎Miloš😎",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 9,
+              "trophies": 116
+            }
+          },
+          {
+            "tag": "#2V8PQGPY8",
+            "name": "SRB|DAKSON",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1276
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
