@@ -32603,5 +32603,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260511T204228.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 262,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#8GGU9U9R8",
+        "name": "Arès|god of war",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1167
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RQRY0QP9",
+            "name": "vici",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 562
+            }
+          },
+          {
+            "tag": "#9229R9JPG",
+            "name": "BurnedIRL",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1165
+            }
+          },
+          {
+            "tag": "#PPG8LR0QR",
+            "name": "bruno 7",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 616
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8GGU9U9R8",
+            "name": "Arès|god of war",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1167
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 692
+            }
+          },
+          {
+            "tag": "#2QRU9PGCJ",
+            "name": "calcetines",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1760
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260511T205843.000Z",
+    "event": {
+      "id": 15001203,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Hyacinth House"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 87,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#8VL0GQVJJ",
+        "name": "мс кисуля",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 982
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 688
+            }
+          },
+          {
+            "tag": "#8PGUGR0CY",
+            "name": "мс пох",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 871
+            }
+          },
+          {
+            "tag": "#8VL0GQVJJ",
+            "name": "мс кисуля",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 982
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9Q2PU",
+            "name": "KOK|🤭Lalan97",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 886
+            }
+          },
+          {
+            "tag": "#2P9L8P0",
+            "name": "Swik",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 868
+            }
+          },
+          {
+            "tag": "#2P9Q8R8",
+            "name": "kuzco",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 880
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
