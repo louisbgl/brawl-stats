@@ -29536,5 +29536,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260511T145830.000Z",
+    "event": {
+      "id": 15001248,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Slippery Showdown"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 99,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000049,
+          "name": "BUZZ",
+          "power": 11,
+          "trophies": 661
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LGRP8GPQ2",
+            "name": "Thomas arca",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 11,
+              "trophies": 790
+            }
+          },
+          {
+            "tag": "#YR2L89GJV",
+            "name": "Physik🤡",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 7,
+              "trophies": 931
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 661
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G8LRUP",
+            "name": "Tromb",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 840
+            }
+          },
+          {
+            "tag": "#G8QJ9L",
+            "name": "Martyland",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 814
+            }
+          },
+          {
+            "tag": "#G8LYVL",
+            "name": "Andrea",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 770
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
