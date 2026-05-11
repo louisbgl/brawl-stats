@@ -32419,5 +32419,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260511T200353.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 233,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 679
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JRL8JYLU",
+            "name": "Milla",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 900
+            }
+          },
+          {
+            "tag": "#802C90YP",
+            "name": "DiskaOMG",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 11,
+              "trophies": 785
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 679
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LP909JCR",
+            "name": "crazybuğra_71",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 749
+            }
+          },
+          {
+            "tag": "#2QUVP0L9VP",
+            "name": "MAHO AĞA",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 614
+            }
+          },
+          {
+            "tag": "#LV989VRCQ",
+            "name": "emree",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 615
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260511T201020.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 357,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#GLGQYPL9P",
+        "name": "Abdele123_XD",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 10,
+          "trophies": 680
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 696
+            }
+          },
+          {
+            "tag": "#2JRL8JYLU",
+            "name": "Milla",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 918
+            }
+          },
+          {
+            "tag": "#802C90YP",
+            "name": "DiskaOMG",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 11,
+              "trophies": 801
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GLGQYPL9P",
+            "name": "Abdele123_XD",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 10,
+              "trophies": 680
+            }
+          },
+          {
+            "tag": "#PG8RRCJRG",
+            "name": "johan",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 908
+            }
+          },
+          {
+            "tag": "#9LPVRYYV2",
+            "name": "insta: r.kris_r",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 7,
+              "trophies": 710
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
