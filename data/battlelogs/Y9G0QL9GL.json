@@ -29317,5 +29317,224 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260511T141755.000Z",
+    "event": {
+      "id": 15000991,
+      "mode": "duoShowdown",
+      "modeId": 9,
+      "map": "Lilypond Grove"
+    },
+    "battle": {
+      "mode": "duoShowdown",
+      "type": "ranked",
+      "rank": 3,
+      "trophyChange": 2,
+      "teams": [
+        [
+          {
+            "tag": "#2UY989VYCJ",
+            "name": "Kadir",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 860
+            }
+          },
+          {
+            "tag": "#9LU29PP20",
+            "name": "lMamiAky0ll",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 9,
+              "trophies": 916
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q22VPL92C",
+            "name": "Nazar cov",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 860
+            }
+          },
+          {
+            "tag": "#9JR0288VY",
+            "name": "RETZIKI2310",
+            "brawler": {
+              "id": 16000066,
+              "name": "R-T",
+              "power": 11,
+              "trophies": 425
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 662
+            }
+          },
+          {
+            "tag": "#2LY98J8009",
+            "name": "Человек Паук 🍋",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 9,
+              "trophies": 738
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#82VCLGULJ",
+            "name": "#Alper@#",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 688
+            }
+          },
+          {
+            "tag": "#QCRPU2VG2",
+            "name": "#FUT#adone#win#",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 10,
+              "trophies": 695
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PQCGCV228",
+            "name": "NAvi/MMA",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 8,
+              "trophies": 594
+            }
+          },
+          {
+            "tag": "#2UY2P2RYQV",
+            "name": "КУТИЛА МЕЛОДИ",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 7,
+              "trophies": 170
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260511T141908.000Z",
+    "event": {
+      "id": 15001248,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Slippery Showdown"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 70,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#22UQV8G",
+        "name": "Miladtjeh",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 10,
+          "trophies": 682
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LPRQQ0VR",
+            "name": "CrazyMom",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 522
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 664
+            }
+          },
+          {
+            "tag": "#9URPJVPL0",
+            "name": "ноунейм",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 10,
+              "trophies": 670
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22UGRGU",
+            "name": "vladimir",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 637
+            }
+          },
+          {
+            "tag": "#22UQV8G",
+            "name": "Miladtjeh",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 10,
+              "trophies": 682
+            }
+          },
+          {
+            "tag": "#22UGU9L",
+            "name": "Joopie",
+            "brawler": {
+              "id": 16000056,
+              "name": "EVE",
+              "power": 11,
+              "trophies": 647
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

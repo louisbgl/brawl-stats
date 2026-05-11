@@ -57811,5 +57811,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260511T140454.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 246,
+      "trophyChange": 25,
+      "starPlayer": {
+        "tag": "#2GG2UGL80",
+        "name": "Ashcraft",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 9,
+          "trophies": 822
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JPC2Q2RU",
+            "name": "GeN",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 441
+            }
+          },
+          {
+            "tag": "#2GG2UGL80",
+            "name": "Ashcraft",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 822
+            }
+          },
+          {
+            "tag": "#2JLCVQJ8VR",
+            "name": "Paul112",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 360
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GGRYQ2YG0",
+            "name": "vita",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 345
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 466
+            }
+          },
+          {
+            "tag": "#2UVUU0CRPC",
+            "name": "GHØSTED👻",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1495
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
