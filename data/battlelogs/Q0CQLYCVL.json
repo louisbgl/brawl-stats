@@ -63447,5 +63447,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260511T075308.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 82,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#9Q0Y0902P",
+        "name": "Gордей про",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 837
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GGGG9U8V8",
+            "name": "про",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 736
+            }
+          },
+          {
+            "tag": "#9Q0Y0902P",
+            "name": "Gордей про",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 837
+            }
+          },
+          {
+            "tag": "#99U0QRUGY",
+            "name": "baiver",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 957
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8CUG0PJ0L",
+            "name": "Crabs_",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 628
+            }
+          },
+          {
+            "tag": "#GR2U2VPL0",
+            "name": "BroProGopro",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 677
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 695
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
