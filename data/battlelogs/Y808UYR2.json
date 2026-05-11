@@ -57536,5 +57536,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260511T070215.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 312,
+      "starPlayer": {
+        "tag": "#8Q2QJGU2",
+        "name": "MVR31",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 9,
+          "trophies": 663
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GUUP2GUJU",
+            "name": "G.hacktes",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 470
+            }
+          },
+          {
+            "tag": "#29GVJ82YC",
+            "name": "FB|JagerBull",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 711
+            }
+          },
+          {
+            "tag": "#2CGGCRRRJ9",
+            "name": "RomaTV",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 887
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8Q2QJGU2",
+            "name": "MVR31",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 663
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 417
+            }
+          },
+          {
+            "tag": "#2CRRQUU9GQ",
+            "name": "nr 206",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 1300
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260511T071414.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 199,
+      "trophyChange": 24,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 417
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2P2PL0G9Y8",
+            "name": "SK@M",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 493
+            }
+          },
+          {
+            "tag": "#2C82VGY922",
+            "name": "lubię placki 12",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 709
+            }
+          },
+          {
+            "tag": "#2CGY2JYJ80",
+            "name": "75000",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 208
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9QR88YJ92",
+            "name": "EvG",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1179
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 417
+            }
+          },
+          {
+            "tag": "#9QPLYUJUR",
+            "name": "late",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 10,
+              "trophies": 672
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
