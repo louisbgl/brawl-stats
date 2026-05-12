@@ -147429,5 +147429,137 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260512T200204.000Z",
+    "event": {
+      "id": 15000647,
+      "mode": "deathmatch5v5",
+      "modeId": 31,
+      "map": "Frosty tracks"
+    },
+    "battle": {
+      "mode": "wipeout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 79,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#2CQPG8YQGG",
+        "name": "шнейнепепе",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1096
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q2CLQVUCJ",
+            "name": "PISASISADRISA",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1702
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 1230
+            }
+          },
+          {
+            "tag": "#P2CLVQJ0L",
+            "name": "DIOD",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1415
+            }
+          },
+          {
+            "tag": "#YGRCPC8R9",
+            "name": "£|TAHA™|π",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 2042
+            }
+          },
+          {
+            "tag": "#202JJU2JP8",
+            "name": "FakeLandi",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1080
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VR2LV9LR",
+            "name": "Mr. KOT.",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#2V2U9QG9GR",
+            "name": "аня",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 1019
+            }
+          },
+          {
+            "tag": "#82VYR88Q",
+            "name": "MORE",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1022
+            }
+          },
+          {
+            "tag": "#2CQPG8YQGG",
+            "name": "шнейнепепе",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1096
+            }
+          },
+          {
+            "tag": "#JL29UCQ8Y",
+            "name": "grahl",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1062
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
