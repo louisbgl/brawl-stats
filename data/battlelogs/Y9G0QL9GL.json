@@ -34385,5 +34385,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260512T194312.000Z",
+    "event": {
+      "id": 15001127,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Chivalry"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 77,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#LQLJYC2YJ",
+        "name": "imp|kabab",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1015
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8GYG02G0Y",
+            "name": "na prize🫲😐🫱",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 962
+            }
+          },
+          {
+            "tag": "#8QGYLVVR",
+            "name": "Anikila",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 10,
+              "trophies": 822
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 776
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RQPJ0ULCR",
+            "name": "MG_GAMİNG",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 78
+            }
+          },
+          {
+            "tag": "#LQLJYC2YJ",
+            "name": "imp|kabab",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1015
+            }
+          },
+          {
+            "tag": "#2LJYUR88VC",
+            "name": "xryan 🙂‍↔️",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1320
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
