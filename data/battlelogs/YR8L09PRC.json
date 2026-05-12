@@ -147297,5 +147297,137 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260512T200009.000Z",
+    "event": {
+      "id": 15000647,
+      "mode": "deathmatch5v5",
+      "modeId": 31,
+      "map": "Frosty tracks"
+    },
+    "battle": {
+      "mode": "wipeout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 105,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#J2JRUCGQ0",
+        "name": "tifo",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 2014
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q2CLQVUCJ",
+            "name": "PISASISADRISA",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1692
+            }
+          },
+          {
+            "tag": "#P2CLVQJ0L",
+            "name": "DIOD",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1405
+            }
+          },
+          {
+            "tag": "#LU9QJ2QRY",
+            "name": "avidan89",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 2026
+            }
+          },
+          {
+            "tag": "#J2JRUCGQ0",
+            "name": "tifo",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 2014
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 1218
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L0CURJYY9",
+            "name": "giada.111",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 541
+            }
+          },
+          {
+            "tag": "#8JGJPQCC8",
+            "name": "VIZUET",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 597
+            }
+          },
+          {
+            "tag": "#PQV0V2CQ0",
+            "name": "ELP🅰️JERO🇪🇨",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1055
+            }
+          },
+          {
+            "tag": "#QR98L29CL",
+            "name": "mashalove",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1005
+            }
+          },
+          {
+            "tag": "#22LU0URQG9",
+            "name": "Jusy.777",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 836
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
