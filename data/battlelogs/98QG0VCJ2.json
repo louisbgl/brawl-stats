@@ -216745,5 +216745,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260512T100151.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 125,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#QJU0J0PLP",
+        "name": "Obidov_I",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 2018
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2YGRQLJYV",
+            "name": "adem",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 2133
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1560
+            }
+          },
+          {
+            "tag": "#QJU0J0PLP",
+            "name": "Obidov_I",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2018
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8JR9YG8J0",
+            "name": "Knez23",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1611
+            }
+          },
+          {
+            "tag": "#8GPU9PUPR",
+            "name": "Husss",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1888
+            }
+          },
+          {
+            "tag": "#PUQL0RRU2",
+            "name": "ro_dani",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1933
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
