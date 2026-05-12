@@ -34293,5 +34293,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260512T163431.000Z",
+    "event": {
+      "id": 15001127,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Chivalry"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 139,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#8LCCYJLJ2",
+        "name": "Wewee",
+        "brawler": {
+          "id": 16000021,
+          "name": "GENE",
+          "power": 11,
+          "trophies": 837
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QJ09CUJQQ",
+            "name": "플로리안",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 899
+            }
+          },
+          {
+            "tag": "#2UQL8L82VY",
+            "name": "NLE Choppa",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1491
+            }
+          },
+          {
+            "tag": "#2CLGLV9GVV",
+            "name": "АлиИмран",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 928
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q229YPRV",
+            "name": "V de Vendetta",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 9,
+              "trophies": 446
+            }
+          },
+          {
+            "tag": "#8LCCYJLJ2",
+            "name": "Wewee",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 11,
+              "trophies": 837
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 759
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
