@@ -58179,5 +58179,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260512T094949.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 95,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 512
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#982V9J080",
+            "name": "kedii",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 356
+            }
+          },
+          {
+            "tag": "#2UP8RGCJG",
+            "name": "⚡️𝚂𝚔┃Ň࿆ᶪ⁷⁰⁰🎋",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 8,
+              "trophies": 318
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 512
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VG2JVJ",
+            "name": "facktozzzy",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 421
+            }
+          },
+          {
+            "tag": "#VG8PCL",
+            "name": "Maya",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 465
+            }
+          },
+          {
+            "tag": "#VG0V98",
+            "name": "⚜️Senem⚜️",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 432
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
