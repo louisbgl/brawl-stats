@@ -66108,5 +66108,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260512T120134.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "challenge",
+      "result": "victory",
+      "duration": 117,
+      "trophyChange": 1,
+      "starPlayer": {
+        "tag": "#2YJ29UG9G",
+        "name": "Synox!",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 802
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8C9PVCUQ9",
+            "name": "[БЛЕТ]ЧЕБУРАШКА",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 802
+            }
+          },
+          {
+            "tag": "#2CQ29CU2C9",
+            "name": "mara#012",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 703
+            }
+          },
+          {
+            "tag": "#JR98V2PG8",
+            "name": "ivka",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 802
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RG80V9C9G",
+            "name": "David🤫🧏‍♂️",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 802
+            }
+          },
+          {
+            "tag": "#2YJ29UG9G",
+            "name": "Synox!",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 802
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "く⁠コ⁠:⁠彡",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 803
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
