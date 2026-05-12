@@ -57903,5 +57903,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260512T085917.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 136,
+      "trophyChange": 25,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 491
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9R0G8PRCG",
+            "name": "ms_Poland",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 10,
+              "trophies": 1185
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 491
+            }
+          },
+          {
+            "tag": "#Q2G9P2QJ0",
+            "name": "mikijeratatui",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 306
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q2GUY9CP",
+            "name": "Rostyk",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 310
+            }
+          },
+          {
+            "tag": "#2JQ92GYGUL",
+            "name": "Emekçi",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 269
+            }
+          },
+          {
+            "tag": "#LQCY8GUYU",
+            "name": "♦TTM | GRACIOC♦",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 7,
+              "trophies": 301
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
