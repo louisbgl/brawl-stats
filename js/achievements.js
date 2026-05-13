@@ -98,7 +98,7 @@ const AchievementsManager = {
     generateFiltersHTML() {
         const allPlayers = DataManager.getAllPlayers();
         const playerOptions = allPlayers.map(p =>
-            `<option value="${p.tag}" ${this.currentFilters.player === p.tag ? 'selected' : ''}>${p.name}</option>`
+            `<option value="${p.tag}" ${this.currentFilters.player === p.tag ? 'selected' : ''}>${DataManager.getPlayerName(p.tag)}</option>`
         ).join('');
 
         return `

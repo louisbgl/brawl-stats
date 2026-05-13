@@ -222,7 +222,7 @@ const BattlesManager = {
     generateFiltersHTML() {
         const players = DataManager.getAllPlayers();
         const playerOptions = players.map(p =>
-            `<option value="${p.tag}" ${this.currentFilters.player === p.tag ? 'selected' : ''}>${p.name}</option>`
+            `<option value="${p.tag}" ${this.currentFilters.player === p.tag ? 'selected' : ''}>${DataManager.getPlayerName(p.tag)}</option>`
         ).join('');
 
         // Get unique modes using helper
@@ -402,7 +402,7 @@ const BattlesManager = {
         return `
             <div class="battle-collapsed-row">
                 ${rankedBadge}${eventBadge}
-                <span class="battle-player-name">${player.name}</span>
+                <span class="battle-player-name">${DataManager.getPlayerName(player.tag)}</span>
                 <span class="battle-separator">|</span>
                 <span class="battle-brawler-name">${brawlerName}</span>
                 <span class="battle-separator">|</span>
@@ -738,7 +738,7 @@ const BattlesManager = {
                     <div class="expanded-teams-grid">
                         <div class="expanded-team ${result === 'win' ? 'team-win' : result === 'loss' ? 'team-loss' : ''}">
                             <div class="expanded-team-header">
-                                ${currentPlayer ? currentPlayer.name : player.name} (You) ${result === 'win' ? '✅' : result === 'loss' ? '❌' : ''}
+                                ${currentPlayer ? currentPlayer.name : DataManager.getPlayerName(player.tag)} (You) ${result === 'win' ? '✅' : result === 'loss' ? '❌' : ''}
                             </div>
                             ${generateBrawlersHTML(currentPlayer, true)}
                         </div>
@@ -814,12 +814,6 @@ const BattlesManager = {
             card.classList.remove('expanded');
             if (expandIcon) expandIcon.textContent = '▼';
         }
-    },
-
-    getPlayerName(tag) {
-        const players = DataManager.getAllPlayers();
-        const player = players.find(p => p.tag === tag);
-        return player ? player.name : null;
     },
 
 

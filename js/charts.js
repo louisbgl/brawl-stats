@@ -17,7 +17,7 @@ const ChartsManager = {
             });
 
             return ChartHelpers.createLineDataset(
-                player.name,
+                DataManager.getPlayerName(player.tag),
                 trophyData,
                 GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
             );
@@ -56,7 +56,7 @@ const ChartsManager = {
                     });
 
                     return ChartHelpers.createLineDataset(
-                        player.name,
+                        DataManager.getPlayerName(player.tag),
                         trophyData,
                         GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
                     );
@@ -83,7 +83,7 @@ const ChartsManager = {
                 // Only include if player has this brawler
                 if (trophyData.some(t => t !== null)) {
                     return ChartHelpers.createLineDataset(
-                        player.name,
+                        DataManager.getPlayerName(player.tag),
                         trophyData,
                         GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length],
                         { spanGaps: true }
@@ -130,7 +130,7 @@ const ChartsManager = {
             if (!battles || battles.length === 0) return null;
 
             return {
-                label: player.name,
+                label: DataManager.getPlayerName(player.tag),
                 data: battles.map(b => ({ x: b.timestamp, y: b.trophies })),
                 borderColor: GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length],
                 backgroundColor: GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length] + '20',
@@ -187,7 +187,7 @@ const ChartsManager = {
                 });
 
                 return ChartHelpers.createLineDataset(
-                    player.name,
+                    DataManager.getPlayerName(player.tag),
                     data,
                     GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
                 );
@@ -219,7 +219,7 @@ const ChartsManager = {
             });
 
             return ChartHelpers.createLineDataset(
-                player.name,
+                DataManager.getPlayerName(player.tag),
                 data,
                 GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length],
                 { pointRadius: 3, pointHoverRadius: 5 }
@@ -238,7 +238,7 @@ const ChartsManager = {
             });
 
             return ChartHelpers.createLineDataset(
-                player.name,
+                DataManager.getPlayerName(player.tag),
                 data,
                 GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
             );
@@ -264,7 +264,7 @@ const ChartsManager = {
             });
 
             return ChartHelpers.createLineDataset(
-                player.name,
+                DataManager.getPlayerName(player.tag),
                 data,
                 GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
             );
@@ -290,7 +290,7 @@ const ChartsManager = {
             });
 
             return ChartHelpers.createLineDataset(
-                player.name,
+                DataManager.getPlayerName(player.tag),
                 data,
                 GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
             );
@@ -351,7 +351,7 @@ const ChartsManager = {
             const data = dates.map(date => playerDailyGames[player.tag][date] || 0);
 
             return {
-                label: player.name,
+                label: DataManager.getPlayerName(player.tag),
                 data: data,
                 backgroundColor: GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length] + '80',
                 borderColor: GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length],

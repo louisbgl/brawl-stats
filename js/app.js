@@ -97,7 +97,7 @@ function populatePlayerSelect() {
     DataManager.getAllPlayers().forEach((player, idx) => {
         const option = document.createElement('option');
         option.value = JSON.stringify({ clubIndex: player.clubIndex, playerIndex: player.playerIndex });
-        option.textContent = `${player.name} (${player.tag})`;
+        option.textContent = `${DataManager.getPlayerName(player.tag)} (${player.tag})`;
         select.appendChild(option);
     });
 
@@ -243,7 +243,7 @@ function displayClubLeaderboards() {
     // === TOTAL BATTLES LEADERBOARD ===
     const battlesRanking = players
         .map(p => ({
-            name: p.name,
+            name: DataManager.getPlayerName(p.tag),
             value: BattlelogDataManager.getPlayerBattleCount(p.tag),
             formattedValue: BattlelogDataManager.getPlayerBattleCount(p.tag).toLocaleString()
         }))
@@ -256,7 +256,7 @@ function displayClubLeaderboards() {
             const wr = BattlelogAnalytics.getWinRate(p.tag);
 
             return {
-                name: p.name,
+                name: DataManager.getPlayerName(p.tag),
                 value: wr.winRate,
                 formattedValue: battleCount < 20 ? `${wr.winRate.toFixed(1)}%*` : `${wr.winRate.toFixed(1)}%`
             };
@@ -268,7 +268,7 @@ function displayClubLeaderboards() {
         .map(p => {
             const starPlayerCount = BattlelogAnalytics.getStarPlayerCount(p.tag);
             return {
-                name: p.name,
+                name: DataManager.getPlayerName(p.tag),
                 value: starPlayerCount,
                 formattedValue: starPlayerCount.toString()
             };
@@ -278,7 +278,7 @@ function displayClubLeaderboards() {
     // === MAXED BRAWLERS LEADERBOARD ===
     const maxedRanking = players
         .map(p => ({
-            name: p.name,
+            name: DataManager.getPlayerName(p.tag),
             value: p.brawlers.filter(b => CalculationHelpers.isMaxedBrawler(b)).length,
             formattedValue: p.brawlers.filter(b => CalculationHelpers.isMaxedBrawler(b)).length.toString()
         }))
@@ -306,7 +306,7 @@ function displayClubLeaderboards() {
                 }).length;
 
                 return {
-                    name: p.name,
+                    name: DataManager.getPlayerName(p.tag),
                     value: count,
                     formattedValue: count.toString()
                 };

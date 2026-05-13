@@ -64,7 +64,7 @@ const PlayerStatsManager = {
 
         return `
             <div class="card">
-                <h2>${p.name} <span style="color: var(--text-secondary); font-size: 1rem;">${p.tag}</span></h2>
+                <h2>${DataManager.getPlayerName(p.tag)} <span style="color: var(--text-secondary); font-size: 1rem;">${p.tag}</span></h2>
 
                 <div class="stats-grid">
                     <div class="stat-box">

@@ -125,7 +125,7 @@ const BattlelogAnalytics = {
                 maxBattles = recentBattles.length;
                 mostActive = {
                     tag: player.tag,
-                    name: player.name,
+                    name: DataManager.getPlayerName(player.tag),
                     battleCount: recentBattles.length
                 };
             }
@@ -152,7 +152,7 @@ const BattlelogAnalytics = {
                 bestWr = wr.winRate;
                 bestPlayer = {
                     tag: player.tag,
-                    name: player.name,
+                    name: DataManager.getPlayerName(player.tag),
                     winRate: wr.winRate,
                     wins: wr.wins,
                     losses: wr.losses
@@ -196,7 +196,7 @@ const BattlelogAnalytics = {
                 maxStars = starCount;
                 topPlayer = {
                     tag: player.tag,
-                    name: player.name,
+                    name: DataManager.getPlayerName(player.tag),
                     starPlayerCount: starCount
                 };
             }
@@ -259,7 +259,7 @@ const BattlelogAnalytics = {
                 longestStreak = streak;
                 bestPlayer = {
                     tag: player.tag,
-                    name: player.name,
+                    name: DataManager.getPlayerName(player.tag),
                     streak: streak
                 };
             }
@@ -346,7 +346,7 @@ const BattlelogAnalytics = {
                 bestWr = wr.winRate;
                 bestPlayer = {
                     tag: player.tag,
-                    name: player.name,
+                    name: DataManager.getPlayerName(player.tag),
                     winRate: wr.winRate,
                     wins: wr.wins,
                     losses: wr.losses

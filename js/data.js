@@ -59,6 +59,7 @@ const DataManager = {
     achievementsData: [],
     battlelogsCache: new Map(), // tag -> battle items array
     battlelogsMetadata: null,
+    playerNameCache: new Map(), // tag -> latest name
     loadingPromises: {
         historical: null,
         achievements: null,
@@ -143,7 +144,24 @@ const DataManager = {
     async loadLatest() {
         const response = await fetch('data/latest.json');
         this.latestData = await response.json();
+        this.buildPlayerNameCache();
         return this.latestData;
+    },
+
+    buildPlayerNameCache() {
+        this.playerNameCache.clear();
+        this.latestData.clubs.forEach(club => {
+            club.members.forEach(player => {
+                this.playerNameCache.set(player.tag, player.name);
+            });
+        });
+        (this.latestData.individual_players || []).forEach(player => {
+            this.playerNameCache.set(player.tag, player.name);
+        });
+    },
+
+    getPlayerName(tag) {
+        return this.playerNameCache.get(tag) || 'Unknown';
     },
 
     async loadHistorical() {
