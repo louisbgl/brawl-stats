@@ -58,7 +58,7 @@ function startBackgroundLoading() {
         ChartsManager.createTrophyTimeline();
     });
 
-    BattlelogDataManager.init().then(() => {
+    BattlelogDataManager.ensureLoaded().then(() => {
         // Update overview stats with battlelog metrics now that data is available
         displayClubQuickStats();
         displayClubLeaderboards();
