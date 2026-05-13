@@ -222094,5 +222094,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260513T102522.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 25,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#82U2P2PUU",
+        "name": "spider porc",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 11,
+          "trophies": 896
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1735
+            }
+          },
+          {
+            "tag": "#82U2P2PUU",
+            "name": "spider porc",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 896
+            }
+          },
+          {
+            "tag": "#2QQG8G0YR8",
+            "name": "Juanyx🥷🏾❤️",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 923
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PP20Y8",
+            "name": "Spysun",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1174
+            }
+          },
+          {
+            "tag": "#2PP0JLP",
+            "name": "GRISelda",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 10,
+              "trophies": 1160
+            }
+          },
+          {
+            "tag": "#2P9VCYL",
+            "name": "Quadianad",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 9,
+              "trophies": 1176
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
