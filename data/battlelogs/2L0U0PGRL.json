@@ -112400,5 +112400,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260513T074141.000Z",
+    "event": {
+      "id": 15000499,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Open Space"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 79,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#YJU9RJGJJ",
+        "name": "Pharos",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 10,
+          "trophies": 569
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YJU9RJGJJ",
+            "name": "Pharos",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 569
+            }
+          },
+          {
+            "tag": "#2Y0RJPLQ9Y",
+            "name": "асар",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 904
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 683
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R0008P",
+            "name": "vitamin",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 8,
+              "trophies": 757
+            }
+          },
+          {
+            "tag": "#GVVJ9L",
+            "name": "ALAH",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 7,
+              "trophies": 753
+            }
+          },
+          {
+            "tag": "#GVVGV8",
+            "name": "Alpha PvP",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 10,
+              "trophies": 726
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
