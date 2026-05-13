@@ -68,17 +68,34 @@ function startBackgroundLoading() {
 }
 
 function updateLastUpdatedDisplay() {
-    // Display snapshot timestamp
+    // Display snapshot timestamp with relative time
     const snapshotTime = new Date(DataManager.latestData.timestamp);
+    const snapshotAgo = ViewHelpers.formatTimeAgo(snapshotTime);
     document.getElementById('snapshotUpdate').textContent =
-        `Snapshots: ${snapshotTime.toLocaleString()}`;
+        `Snapshots: ${snapshotAgo}`;
 
     // Display battlelog timestamp if loaded
-    const battlelogTime = BattlelogDataManager.getLastCollectionTime();
     const battlelogEl = document.getElementById('battlelogUpdate');
+
+    // Try metadata first, fallback to most recent battle
+    let battlelogTime = BattlelogDataManager.getLastCollectionTime();
+
+    if (!battlelogTime && BattlelogDataManager.isLoaded) {
+        // Fallback: find most recent battle across all players
+        const allBattles = BattlelogDataManager.getAllBattles();
+        if (allBattles.length > 0) {
+            const mostRecent = allBattles.reduce((latest, b) => {
+                const bTime = Utils.parseBattleTime(b.battleTime);
+                return bTime > latest ? bTime : latest;
+            }, new Date(0));
+            battlelogTime = mostRecent.toISOString();
+        }
+    }
+
     if (battlelogTime) {
         const battlelogDate = new Date(battlelogTime);
-        battlelogEl.textContent = `Battlelogs: ${battlelogDate.toLocaleString()}`;
+        const battlelogAgo = ViewHelpers.formatTimeAgo(battlelogDate);
+        battlelogEl.textContent = `Battlelogs: ${battlelogAgo}`;
     } else {
         battlelogEl.textContent = 'Battlelogs: Loading...';
     }

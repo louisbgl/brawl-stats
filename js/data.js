@@ -323,9 +323,11 @@ const DataManager = {
             const response = await fetch('data/battlelogs/_last_updated.json');
             if (response.ok) {
                 this.battlelogsMetadata = await response.json();
+            } else {
+                console.warn('[Data] Battlelog metadata not found (HTTP ' + response.status + ')');
             }
         } catch (error) {
-            console.warn('No battlelog metadata found');
+            console.warn('[Data] Failed to load battlelog metadata:', error);
         }
     },
 
