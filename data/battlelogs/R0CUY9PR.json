@@ -2574,5 +2574,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260513T180305.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 49,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2VJCPUPJ2",
+        "name": "SK | Jamal",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 561
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 948
+            }
+          },
+          {
+            "tag": "#GLVUQC000",
+            "name": "我|𝐿𝑜𝑟𝑦🪐",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1060
+            }
+          },
+          {
+            "tag": "#P8UPLRVVL",
+            "name": "[GG] Ержан221",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 1341
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VJCPUPJ2",
+            "name": "SK | Jamal",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 561
+            }
+          },
+          {
+            "tag": "#2QLP2PQLY9",
+            "name": "Phönix 🥇🏆",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 992
+            }
+          },
+          {
+            "tag": "#GU0C0Q0LQ",
+            "name": "VP||ARMEN",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1161
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
