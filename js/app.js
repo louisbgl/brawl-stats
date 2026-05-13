@@ -320,7 +320,7 @@ function displayClubLeaderboards() {
 
         prestigeLeaderboards.push(
             ViewHelpers.createPodiumLeaderboard(
-                `Prestige ${level} (${level * 1000}+ trophies)`,
+                `Prestige ${level} (${level * 1000} - ${level * 1000 + 999} trophies)`,
                 emoji,
                 ranking,
                 accentColor
