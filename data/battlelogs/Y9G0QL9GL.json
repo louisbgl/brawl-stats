@@ -34477,5 +34477,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260513T194503.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 82,
+      "starPlayer": {
+        "tag": "#VLGYQGJ8",
+        "name": "delta force",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VLGYQGJ8",
+            "name": "delta force",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#LQ2QRVPPQ",
+            "name": "jjlzn",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8QYJLRPU0",
+            "name": "DR COGOLLO",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#LQC0QP2VV",
+            "name": "ハムザ❤️‍🩹シェリー",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#8QQ9UG0VQ",
+            "name": "kulka__julka",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260513T194802.000Z",
+    "event": {
+      "id": 15000350,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Quick Travel"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 99,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UJ2J8V82Y",
+            "name": "GIOVA 45789",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 9,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#L2UQPYVJC",
+            "name": "staylee",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VJ0VQYQY",
+            "name": "🌧️rousess00🌧️",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#298LC99CC",
+            "name": "Dark",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2Y9Q98U988",
+            "name": "VLB13M13",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 9,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
