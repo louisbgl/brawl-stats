@@ -69971,5 +69971,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260513T160126.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 52,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#8J28LU8JG",
+        "name": "+-&*5",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 924
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PGQQ0JY",
+            "name": "∆{R.U.D.¥}∆",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 664
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 839
+            }
+          },
+          {
+            "tag": "#20CJJCJQR",
+            "name": "Gutek",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1123
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8J28LU8JG",
+            "name": "+-&*5",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 924
+            }
+          },
+          {
+            "tag": "#2UP929YVUV",
+            "name": "zeta (boy)",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 7,
+              "trophies": 785
+            }
+          },
+          {
+            "tag": "#28GUGR0UPR",
+            "name": "(ZETA)ISSEBOY",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
