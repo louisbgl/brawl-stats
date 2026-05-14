@@ -76064,5 +76064,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260514T165851.000Z",
+    "event": {
+      "id": 15001204,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Goalies"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 26,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000049,
+          "name": "BUZZ",
+          "power": 11,
+          "trophies": 686
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 686
+            }
+          },
+          {
+            "tag": "#GCVVCJJQL",
+            "name": "king",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 872
+            }
+          },
+          {
+            "tag": "#QJ8QJJ9YP",
+            "name": "Sukuna_Bey",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 10,
+              "trophies": 692
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PPL9Q8",
+            "name": "FOX",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 786
+            }
+          },
+          {
+            "tag": "#2PPL88U",
+            "name": "Necmergitur",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 10,
+              "trophies": 785
+            }
+          },
+          {
+            "tag": "#2PPL0UG",
+            "name": "Jesper",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 9,
+              "trophies": 796
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
