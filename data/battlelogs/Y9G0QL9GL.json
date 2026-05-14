@@ -35751,5 +35751,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260514T153307.000Z",
+    "event": {
+      "id": 15000292,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Open Business"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 119,
+      "starPlayer": {
+        "tag": "#Y8928JLR8",
+        "name": "⛩️Mãçřø§⛩️",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V0R0QU9GU",
+            "name": "KISE AKASHI AHH",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 9,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2Q8QPVC2YQ",
+            "name": "Kiler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#RCQVUP9GU",
+            "name": "『Avtor』",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#28JJ8LUCQ8",
+            "name": "TTM / LORI",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#Y8928JLR8",
+            "name": "⛩️Mãçřø§⛩️",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
