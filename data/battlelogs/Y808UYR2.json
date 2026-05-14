@@ -59077,5 +59077,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260514T180720.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 189,
+      "trophyChange": 21,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 617
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CV9YCQ0UY",
+            "name": "Ahotnik",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 9,
+              "trophies": 838
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 617
+            }
+          },
+          {
+            "tag": "#28U88JYV",
+            "name": "Toxic||Venøm🥀",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 494
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UQJJV8V8G",
+            "name": "Фрэнк мое будущ",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 9,
+              "trophies": 796
+            }
+          },
+          {
+            "tag": "#28R09YYQV8",
+            "name": "bobbasnuitje",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 278
+            }
+          },
+          {
+            "tag": "#2UPGRU82PC",
+            "name": "Я SIGMA😚😚😚",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 1010
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
