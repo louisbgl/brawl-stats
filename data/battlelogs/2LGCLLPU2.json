@@ -115098,5 +115098,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260514T110223.000Z",
+    "event": {
+      "id": 15001209,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Satomi Springs"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 105,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#229QUJ2Y2G",
+        "name": "cips",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 768
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#229QUJ2Y2G",
+            "name": "cips",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 768
+            }
+          },
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 458
+            }
+          },
+          {
+            "tag": "#2QRRUG2C9Q",
+            "name": "henrick54",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 11,
+              "trophies": 808
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YUGLRJ",
+            "name": "šaran",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 674
+            }
+          },
+          {
+            "tag": "#YURRRL",
+            "name": "Andyl",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 674
+            }
+          },
+          {
+            "tag": "#YUGG00",
+            "name": "Erik",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 672
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
