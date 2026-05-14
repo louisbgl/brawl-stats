@@ -6601,5 +6601,490 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260514T181023.000Z",
+    "event": {
+      "id": 15000947,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Rockwall Brawl"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 10,
+      "trophyChange": -7,
+      "players": [
+        {
+          "tag": "#802CUJYLR",
+          "name": "PollitoZalba",
+          "brawler": {
+            "id": 16000006,
+            "name": "BARLEY",
+            "power": 11,
+            "trophies": 2000
+          }
+        },
+        {
+          "tag": "#2YUJ8CQV9P",
+          "name": "志賀春樹 | 𝒔𝒐𝒇𝒊",
+          "brawler": {
+            "id": 16000015,
+            "name": "PIPER",
+            "power": 11,
+            "trophies": 1165
+          }
+        },
+        {
+          "tag": "#PQQQPQJV0",
+          "name": "**JULIAN**🇺🇦",
+          "brawler": {
+            "id": 16000041,
+            "name": "LOU",
+            "power": 11,
+            "trophies": 1056
+          }
+        },
+        {
+          "tag": "#U82JLQQL",
+          "name": "☣️(Samiho)☢️",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1073
+          }
+        },
+        {
+          "tag": "#Y9RU8L90J",
+          "name": "⛩️MONEY_DOG💫🤫",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 11,
+            "trophies": 2000
+          }
+        },
+        {
+          "tag": "#2RCYRY0C",
+          "name": "PiXATEL",
+          "brawler": {
+            "id": 16000023,
+            "name": "LEON",
+            "power": 11,
+            "trophies": 1605
+          }
+        },
+        {
+          "tag": "#CRRRVQY",
+          "name": "KEMC",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1107
+          }
+        },
+        {
+          "tag": "#VV2VGV02C",
+          "name": "N°1Jester",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1096
+          }
+        },
+        {
+          "tag": "#2888GVR0Y",
+          "name": "Ilkinator",
+          "brawler": {
+            "id": 16000038,
+            "name": "SURGE",
+            "power": 10,
+            "trophies": 1063
+          }
+        },
+        {
+          "tag": "#R0CUY9PR",
+          "name": "JOEL | Sobsh",
+          "brawler": {
+            "id": 16000063,
+            "name": "CHESTER",
+            "power": 11,
+            "trophies": 1109
+          }
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260514T181115.000Z",
+    "event": {
+      "id": 15001209,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Satomi Springs"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 97,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 1102
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1102
+            }
+          },
+          {
+            "tag": "#2P9R828",
+            "name": "⭐️Lying⭐️",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 1100
+            }
+          },
+          {
+            "tag": "#2P9R0JU",
+            "name": "Duy-Nam",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 1087
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9R9YL",
+            "name": "josé",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 11,
+              "trophies": 1069
+            }
+          },
+          {
+            "tag": "#2P9GVLG",
+            "name": "Daniel",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1090
+            }
+          },
+          {
+            "tag": "#2P9RUQL",
+            "name": "BranliSinge",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1103
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260514T181326.000Z",
+    "event": {
+      "id": 15001209,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Satomi Springs"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 108,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#LVYU8JQ8Y",
+        "name": "kilaura",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 2198
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LVYU8JQ8Y",
+            "name": "kilaura",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 2198
+            }
+          },
+          {
+            "tag": "#UGR92YQY",
+            "name": "Brock YT",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1353
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1112
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RY88GV2VY",
+            "name": "Rico",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 1095
+            }
+          },
+          {
+            "tag": "#2LYYJ08CVC",
+            "name": "TikTok: Skawox",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 1146
+            }
+          },
+          {
+            "tag": "#L208GL00Y",
+            "name": "game maker",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1906
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260514T181545.000Z",
+    "event": {
+      "id": 15001209,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Satomi Springs"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 111,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#R92PGG80L",
+        "name": "|Sǔportedd|",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 11,
+          "trophies": 1182
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R9CL8GVV9",
+            "name": "Navi|Stalker",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1224
+            }
+          },
+          {
+            "tag": "#R92PGG80L",
+            "name": "|Sǔportedd|",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1182
+            }
+          },
+          {
+            "tag": "#QYYJ29Y9",
+            "name": "QLS|Toper🥀",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 11,
+              "trophies": 1115
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2Q8R20VG",
+            "name": "Jd_Neira25",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1211
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1128
+            }
+          },
+          {
+            "tag": "#82CLYUGRR",
+            "name": "GX|Oink",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 1032
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260514T181950.000Z",
+    "event": {
+      "id": 15001209,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Satomi Springs"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 94,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#J089CRY8",
+        "name": "BKT Horyon",
+        "brawler": {
+          "id": 16000089,
+          "name": "MEEPLE",
+          "power": 11,
+          "trophies": 1591
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2U9Y80PUC",
+            "name": "Flamburio",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 1031
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1122
+            }
+          },
+          {
+            "tag": "#82CQUYJUP",
+            "name": "crazyden3001",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1637
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9YUC8JL29",
+            "name": "blblbl",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2009
+            }
+          },
+          {
+            "tag": "#9PVQP092L",
+            "name": "ScaryBlessed",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1167
+            }
+          },
+          {
+            "tag": "#J089CRY8",
+            "name": "BKT Horyon",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 1591
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
