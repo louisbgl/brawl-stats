@@ -75880,5 +75880,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260514T160132.000Z",
+    "event": {
+      "id": 15001204,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Goalies"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 65,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#L2C908L90",
+        "name": "Dr_Olivenöl",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 919
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GRUVPVRUU",
+            "name": "ZETA|EDUZITOOO",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 10,
+              "trophies": 509
+            }
+          },
+          {
+            "tag": "#JV9R22RP8",
+            "name": "Tommy2",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1696
+            }
+          },
+          {
+            "tag": "#L2C908L90",
+            "name": "Dr_Olivenöl",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 919
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V90RQJRV",
+            "name": "sa1sfill",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 11,
+              "trophies": 527
+            }
+          },
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 640
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 7,
+              "trophies": 85
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260514T160318.000Z",
+    "event": {
+      "id": 15001204,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Goalies"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 63,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 682
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PYJ2V82P",
+            "name": "Juanpm 🛸",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 875
+            }
+          },
+          {
+            "tag": "#2U8RU8L9CP",
+            "name": "الذكي بيبيhane",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1083
+            }
+          },
+          {
+            "tag": "#2CY2CVUYQG",
+            "name": "اللزج سيرجjsjsi",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 7,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9CP0R80JY",
+            "name": "[ПОТ]MavIS",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 859
+            }
+          },
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 637
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 682
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
