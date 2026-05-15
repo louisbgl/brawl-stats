@@ -225,6 +225,12 @@ def update_all_battlelogs():
         new, total = update(tag)
         print(f"  {tag}  +{new} new  ({total} total)")
 
+def get_brawlers_json_as_dict():
+    """Fetch brawlers.json, returns dict with brawler name as key"""
+    response = call("brawlers")
+    if not response or "items" not in response:
+        return {}
+    return {b["name"]: b for b in response["items"]}
 
 # ── snapshot comparison ───────────────────────────────────────────────────
 
@@ -421,15 +427,63 @@ def discover_all_fields():
         print(f"  Unique club fields: {len(all_club_fields)}")
     print(f"{'='*60}\n")
 
+def has_buffies(brawler):
+    """Check if a brawler has buffies, and which ones."""
+    buffies = []
+    if brawler.get("buffies"):
+        if brawler["buffies"].get("gadget"):
+            buffies.append("gadget")
+        if brawler["buffies"].get("starPower"):
+            buffies.append("starPower")
+        if brawler["buffies"].get("hyperCharge"):
+            buffies.append("hyperCharge")
+    return buffies
+
+def get_list_of_brawlers_with_buffies(player_data):
+    """Return a list of brawlers that have buffies, along with which buffies they have."""
+    brawlers_with_buffies = []
+    for brawler in player_data.get("brawlers", []):
+        buffies = has_buffies(brawler)
+        if buffies:
+            brawlers_with_buffies.append((brawler["name"], buffies))
+    return brawlers_with_buffies
+
+def print_cross_table_brawlers_buffies(player_data):
+    """Print a cross-table of brawlers vs buffies for a player."""
+    buffied_list = get_list_of_brawlers_with_buffies(player_data)
+    if not buffied_list:
+        print("No brawlers with buffies found.")
+        return
+    
+    yes_emoji = "✅"
+    no_emoji = "❌"
+    
+    print(f"\n{'Brawler':10} | {'Gadget Buffie'} | {'Star Power Buffie'} | {'Hyper Charge Buffie'}")
+    print(f"{'-'*10}-+-{'-'*13}-+-{'-'*17}-+-{'-'*19}")
+    for brawler_name, buffies in buffied_list:
+        gadget_buffie = yes_emoji if "gadget" in buffies else no_emoji
+        star_power_buffie = yes_emoji if "starPower" in buffies else no_emoji
+        hyper_charge_buffie = yes_emoji if "hyperCharge" in buffies else no_emoji
+        print(f"{brawler_name:10} | {gadget_buffie:^12} | {star_power_buffie:^16} | {hyper_charge_buffie:^19}")
 
 # ── main ──────────────────────────────────────────────────────────────────────
 
 def main():
     ESCORTE = "#LLJGJQVY"
+    KOKONUT = "#98QG0VCJ2"
     FRED = "#2L0U0PGRL"
 
-    compare_snapshot(ESCORTE)
+    brawlers = get_brawlers_json_as_dict()
 
+    my_snapshot = call(f"players/{ESCORTE}")
+    # my_brawlers = my_snapshot.get("brawlers", [])
+
+    print(f"Player: {my_snapshot.get('name')} ({my_snapshot.get('tag')})")
+    print_cross_table_brawlers_buffies(my_snapshot)
+
+    kokonut_snapshot = call(f"players/{KOKONUT}")
+    print(f"\nPlayer: {kokonut_snapshot.get('name')} ({kokonut_snapshot.get('tag')})")
+    print_cross_table_brawlers_buffies(kokonut_snapshot)
 
 if __name__ == "__main__":
     main()
