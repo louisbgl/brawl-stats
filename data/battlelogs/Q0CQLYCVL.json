@@ -81306,5 +81306,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260514T234038.000Z",
+    "event": {
+      "id": 15001204,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Goalies"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 99,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#22099P9YR0",
+        "name": "kunictrapon",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 272
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C2U0Q02LP",
+            "name": "main spike",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 8,
+              "trophies": 209
+            }
+          },
+          {
+            "tag": "#YQRRP2UYQ",
+            "name": "ПУТЬ СУНДУКОВ",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 1234
+            }
+          },
+          {
+            "tag": "#GL82GPLU9",
+            "name": "tomgioh🤫🧏‍♂️",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 504
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L8UQ0V0CP",
+            "name": "kamss🇵🇸",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 10,
+              "trophies": 285
+            }
+          },
+          {
+            "tag": "#22099P9YR0",
+            "name": "kunictrapon",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 272
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 9,
+              "trophies": 214
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
