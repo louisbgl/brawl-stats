@@ -8006,5 +8006,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260515T090839.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 56,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#L8C9QQ8VL",
+        "name": "pekilo12",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 919
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L8C9QQ8VL",
+            "name": "pekilo12",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 919
+            }
+          },
+          {
+            "tag": "#JCP88JJ9",
+            "name": "💚Wojtusss🤍",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 569
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 11,
+              "trophies": 733
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#U9YGY9R02",
+            "name": "ishaq123",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 768
+            }
+          },
+          {
+            "tag": "#89GPU2VCL",
+            "name": "Bouzelouf 🐑",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 865
+            }
+          },
+          {
+            "tag": "#228JYGJ0G8",
+            "name": "issam",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 9,
+              "trophies": 761
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260515T091112.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 61,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#RG89UQ8JU",
+        "name": "romano56",
+        "brawler": {
+          "id": 16000067,
+          "name": "WILLOW",
+          "power": 7,
+          "trophies": 697
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 11,
+              "trophies": 743
+            }
+          },
+          {
+            "tag": "#GLY88ULUC",
+            "name": "Harrisdu93",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 952
+            }
+          },
+          {
+            "tag": "#LJ8U0LCYU",
+            "name": "TSØTNE🪐🇬🇪",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1770
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2U22UQ8JQ",
+            "name": "Aysko33",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 11,
+              "trophies": 565
+            }
+          },
+          {
+            "tag": "#RG89UQ8JU",
+            "name": "romano56",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 7,
+              "trophies": 697
+            }
+          },
+          {
+            "tag": "#2JJ9G2UR8",
+            "name": "halan",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 9,
+              "trophies": 722
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
