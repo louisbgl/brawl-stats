@@ -235411,5 +235411,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260515T163256.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 191,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 1256
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GY2YP9GJ",
+            "name": "ZETA | NOoBie🦃",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1341
+            }
+          },
+          {
+            "tag": "#QR0GGJ8Q2",
+            "name": "Antozx",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 1287
+            }
+          },
+          {
+            "tag": "#8JLC0CLQ8",
+            "name": "Esp|Pipamadrid",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1560
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L9RYR8R22",
+            "name": "🔥YT/Tufaõ🌪️",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1601
+            }
+          },
+          {
+            "tag": "#80VGGRUCP",
+            "name": "Pizzi❤️🪄",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2016
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1256
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
