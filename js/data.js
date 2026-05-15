@@ -290,6 +290,13 @@ const DataManager = {
         return this.brawlersData.items.map(b => b.name).sort();
     },
 
+    // Get all released brawlers (excludes unreleased)
+    getReleasedBrawlers() {
+        return this.brawlersData.items.filter(b =>
+            !GameConstants.UNRELEASED_BRAWLERS.includes(b.name)
+        );
+    },
+
     // Battlelog loading methods
     async loadBattlelogs() {
         const players = this.getAllPlayers();

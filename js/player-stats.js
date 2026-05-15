@@ -205,7 +205,8 @@ const PlayerStatsManager = {
 
     getMissingBrawlers() {
         const owned = this.currentPlayer.brawlers.map(b => b.name);
-        return this.brawlersRef
+        const releasedBrawlers = DataManager.getReleasedBrawlers();
+        return releasedBrawlers
             .map(b => b.name)
             .filter(name => !owned.includes(name));
     },
@@ -281,9 +282,10 @@ const PlayerStatsManager = {
         // Get owned brawlers
         const ownedBrawlers = [...this.currentPlayer.brawlers].sort((a, b) => a.name.localeCompare(b.name));
 
-        // Get missing brawlers
+        // Get missing brawlers (exclude unreleased)
         const ownedNames = ownedBrawlers.map(b => b.name);
-        const missingBrawlers = this.brawlersRef
+        const releasedBrawlers = DataManager.getReleasedBrawlers();
+        const missingBrawlers = releasedBrawlers
             .filter(br => !ownedNames.includes(br.name))
             .sort((a, b) => a.name.localeCompare(b.name));
 

@@ -11,6 +11,13 @@ const GameConstants = {
         "SHELLY", "COLT", "SPIKE", "EMZ", "FRANK", "MORTIS"
     ],
 
+    // Unreleased brawlers (in API but not yet available in-game)
+    // These are excluded from collection stats and missing brawler calculations
+    UNRELEASED_BRAWLERS: [
+        "BOLT",
+        "STARR NOVA"
+    ],
+
     // Power point costs to upgrade each level
     POWER_POINT_COSTS: {
         1: 0,
