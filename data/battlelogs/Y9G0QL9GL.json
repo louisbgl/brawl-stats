@@ -37298,5 +37298,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260515T103602.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 69,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YJVPU09YY",
+            "name": "егр",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#RQYLPRPYP",
+            "name": "♣FA|ĞØĐŽĨŁĂ🦖",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#8PJQCVPL8",
+            "name": "TTM|FGB§",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#GRJ8UQPRY",
+            "name": "MMA",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2RYGU0RPR0",
+            "name": "SÜPER SONİK",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
