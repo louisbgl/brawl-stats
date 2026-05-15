@@ -59353,5 +59353,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260515T093053.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 227,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#20QUP2QQC",
+        "name": "Spasibo",
+        "brawler": {
+          "id": 16000091,
+          "name": "LUMI",
+          "power": 11,
+          "trophies": 332
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#20QUP2QQC",
+            "name": "Spasibo",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 332
+            }
+          },
+          {
+            "tag": "#2J2YCYJ8UJ",
+            "name": "kirill",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 557
+            }
+          },
+          {
+            "tag": "#2JJYUJ2JPJ",
+            "name": "solaris2. 0",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 913
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GURRG9RLR",
+            "name": "ГОРЫНЫЧ",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 981
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 683
+            }
+          },
+          {
+            "tag": "#PCY08889R",
+            "name": "Saysel",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 451
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
