@@ -89130,5 +89130,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260516T201644.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 89,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000081,
+          "name": "LILY",
+          "power": 9,
+          "trophies": 4
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 9,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2JCP20PCQG",
+            "name": "barlassssssssss",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#20VQYY20R",
+            "name": "BŞ|ŞERİFE ☀️",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 4
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PP2VL0",
+            "name": "VallInch",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 10,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2PP8GG0",
+            "name": "Ugo",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2PP2G8U",
+            "name": "laluciole",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 9,
+              "trophies": 4
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
