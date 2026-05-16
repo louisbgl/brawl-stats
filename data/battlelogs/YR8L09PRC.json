@@ -154567,5 +154567,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260516T113154.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 78,
+      "starPlayer": {
+        "tag": "#2UUGU0PQLU",
+        "name": "🦅🪬",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UJJ0L2Q8J",
+            "name": "sammy",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 9,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2YLJL0C0G0",
+            "name": "bubblewaffel",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QGUGVP92",
+            "name": "LL ENOCH",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 10,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2CPU88YVCL",
+            "name": "imporotor ytb",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2UUGU0PQLU",
+            "name": "🦅🪬",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260516T113454.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 109,
+      "starPlayer": {
+        "tag": "#29P89UGQ0C",
+        "name": "prack",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UV9QU8GL0",
+            "name": "kird//оливк",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#988GP8GV2",
+            "name": "Рубинчик",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#VVQPCGCQY",
+            "name": "Shane🤠🧟‍♂️",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#29P89UGQ0C",
+            "name": "prack",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#YV8LJR88P",
+            "name": "Jadoraim",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
