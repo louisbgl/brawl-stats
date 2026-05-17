@@ -2,14 +2,20 @@
 // Depends on: data.js, battlelog-data.js
 
 const AutoRefreshManager = {
-    timestampIntervalId: null,
+    intervalId: null,
     isEnabled: false,
+    lastSnapshotTime: null,
+    lastBattlelogTime: null,
 
     init() {
-        // Start timestamp updates every 60s
+        // Store initial timestamps from metadata
+        this.lastSnapshotTime = DataManager.latestData?.timestamp;
+        this.lastBattlelogTime = BattlelogDataManager.getLastCollectionTime();
+
+        // Start updates every 60s
         this.start();
 
-        // Pause when tab is hidden (save CPU)
+        // Pause when tab is hidden (save bandwidth)
         document.addEventListener('visibilitychange', () => {
             if (document.hidden) {
                 this.pause();
@@ -20,54 +26,131 @@ const AutoRefreshManager = {
     },
 
     start() {
-        if (this.timestampIntervalId) return; // Already running
+        if (this.intervalId) return; // Already running
 
         this.isEnabled = true;
 
-        // Update timestamps every 60 seconds
-        this.timestampIntervalId = setInterval(() => {
-            this.updateTimestamps();
+        // Every 60 seconds: update timestamps + check for new data
+        this.intervalId = setInterval(() => {
+            this.tick();
         }, 60000);
 
-        console.log('[AutoRefresh] Started timestamp updates every 60s');
+        console.log('[AutoRefresh] Started (60s interval)');
     },
 
     pause() {
-        if (!this.timestampIntervalId) return;
+        if (!this.intervalId) return;
 
-        clearInterval(this.timestampIntervalId);
-        this.timestampIntervalId = null;
+        clearInterval(this.intervalId);
+        this.intervalId = null;
         console.log('[AutoRefresh] Paused (tab hidden)');
     },
 
     resume() {
         if (!this.isEnabled) return;
-        if (this.timestampIntervalId) return; // Already running
+        if (this.intervalId) return; // Already running
 
-        // Update immediately on resume
-        this.updateTimestamps();
+        // Tick immediately on resume
+        this.tick();
 
         // Restart interval
-        this.timestampIntervalId = setInterval(() => {
-            this.updateTimestamps();
+        this.intervalId = setInterval(() => {
+            this.tick();
         }, 60000);
 
         console.log('[AutoRefresh] Resumed (tab visible)');
     },
 
     stop() {
-        if (this.timestampIntervalId) {
-            clearInterval(this.timestampIntervalId);
-            this.timestampIntervalId = null;
+        if (this.intervalId) {
+            clearInterval(this.intervalId);
+            this.intervalId = null;
         }
         this.isEnabled = false;
         console.log('[AutoRefresh] Stopped');
     },
 
+    async tick() {
+        // Update timestamp display
+        this.updateTimestamps();
+
+        // Check for new data
+        await this.checkForNewData();
+    },
+
     updateTimestamps() {
-        // Just refresh the timestamp display - calls the function from app.js
+        // Refresh the timestamp display - calls the function from app.js
         if (typeof updateLastUpdatedDisplay === 'function') {
             updateLastUpdatedDisplay();
         }
+    },
+
+    async checkForNewData() {
+        try {
+            // Check both metadata files in parallel
+            const [snapshotChanged, battlelogChanged] = await Promise.all([
+                this.checkSnapshotMetadata(),
+                this.checkBattlelogMetadata()
+            ]);
+
+            if (snapshotChanged || battlelogChanged) {
+                console.log('[AutoRefresh] New data detected:', {
+                    snapshots: snapshotChanged,
+                    battlelogs: battlelogChanged
+                });
+                this.reloadPage();
+            }
+        } catch (error) {
+            console.error('[AutoRefresh] Error checking for updates:', error);
+        }
+    },
+
+    async checkSnapshotMetadata() {
+        try {
+            const response = await fetch('data/snapshots/_last_updated.json?_=' + Date.now());
+            if (!response.ok) return false;
+
+            const metadata = await response.json();
+            const newTime = metadata.last_collection;
+
+            // Compare as timestamps (handles timezone differences)
+            const newTimestamp = new Date(newTime).getTime();
+            const oldTimestamp = new Date(this.lastSnapshotTime).getTime();
+
+            if (newTimestamp !== oldTimestamp) {
+                this.lastSnapshotTime = newTime;
+                return true;
+            }
+        } catch (error) {
+            // Silent fail - metadata file might not exist yet
+        }
+        return false;
+    },
+
+    async checkBattlelogMetadata() {
+        try {
+            const response = await fetch('data/battlelogs/_last_updated.json?_=' + Date.now());
+            if (!response.ok) return false;
+
+            const metadata = await response.json();
+            const newTime = metadata.last_collection;
+
+            // Compare as timestamps (handles timezone differences)
+            const newTimestamp = new Date(newTime).getTime();
+            const oldTimestamp = new Date(this.lastBattlelogTime).getTime();
+
+            if (newTimestamp !== oldTimestamp) {
+                this.lastBattlelogTime = newTime;
+                return true;
+            }
+        } catch (error) {
+            // Silent fail - metadata file might not exist yet
+        }
+        return false;
+    },
+
+    reloadPage() {
+        console.log('[AutoRefresh] Reloading page with new data...');
+        window.location.reload();
     }
 };
