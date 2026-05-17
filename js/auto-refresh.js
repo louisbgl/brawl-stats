@@ -6,6 +6,7 @@ const AutoRefreshManager = {
     isEnabled: false,
     lastSnapshotTime: null,
     lastBattlelogTime: null,
+    reloadTimeoutId: null,
 
     async init() {
         // Fetch initial timestamps from metadata files
@@ -116,12 +117,11 @@ const AutoRefreshManager = {
             ]);
 
             if (snapshotChanged || battlelogChanged) {
-                console.log('[AutoRefresh] NEW DATA AVAILABLE - Would reload page:', {
+                console.log('[AutoRefresh] New data detected, reloading in 5 minutes:', {
                     snapshots: snapshotChanged,
                     battlelogs: battlelogChanged
                 });
-                // TODO: Uncomment to enable auto-reload
-                // this.reloadPage();
+                this.scheduleReload();
             }
         } catch (error) {
             console.error('[AutoRefresh] Error checking for updates:', error);
@@ -170,6 +170,19 @@ const AutoRefreshManager = {
             // Silent fail - metadata file might not exist yet
         }
         return false;
+    },
+
+    scheduleReload() {
+        // Clear any existing reload timeout
+        if (this.reloadTimeoutId) {
+            clearTimeout(this.reloadTimeoutId);
+        }
+
+        // Schedule reload in 5 minutes (300000ms)
+        this.reloadTimeoutId = setTimeout(() => {
+            console.log('[AutoRefresh] Reloading page with new data...');
+            window.location.reload();
+        }, 300000);
     },
 
     reloadPage() {
