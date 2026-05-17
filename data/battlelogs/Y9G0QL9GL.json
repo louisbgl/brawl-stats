@@ -48578,5 +48578,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260517T172934.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 226,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#2CG0LUCG0Q",
+        "name": "🤪🤪TEUN🤪🤪",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 603
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1016
+            }
+          },
+          {
+            "tag": "#2CG0LUCG0Q",
+            "name": "🤪🤪TEUN🤪🤪",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 603
+            }
+          },
+          {
+            "tag": "#LY02Y9VYL",
+            "name": "CODE: Teun",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 9,
+              "trophies": 657
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UPUP2L2QR",
+            "name": "LG minou 3.0",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 716
+            }
+          },
+          {
+            "tag": "#GJ2UU0C99",
+            "name": "terminator",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 860
+            }
+          },
+          {
+            "tag": "#P0UJJYYPL",
+            "name": "yakışıklı 01",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 681
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
