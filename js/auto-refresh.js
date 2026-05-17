@@ -122,11 +122,12 @@ const AutoRefreshManager = {
             ]);
 
             if (snapshotChanged || battlelogChanged) {
-                console.log('[AutoRefresh] New data detected:', {
+                console.log('[AutoRefresh] NEW DATA AVAILABLE - Would reload page:', {
                     snapshots: snapshotChanged,
                     battlelogs: battlelogChanged
                 });
-                this.reloadPage();
+                // TODO: Uncomment to enable auto-reload
+                // this.reloadPage();
             }
         } catch (error) {
             console.error('[AutoRefresh] Error checking for updates:', error);
