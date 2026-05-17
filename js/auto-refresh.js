@@ -112,7 +112,7 @@ const AutoRefreshManager = {
             ]);
 
             if (snapshotChanged || battlelogChanged) {
-                console.log('[AutoRefresh] New data detected, reloading in 5min');
+                console.log('[AutoRefresh] New data detected, reloading in 10min');
                 this.scheduleReload();
             }
         } catch (error) {
@@ -170,9 +170,9 @@ const AutoRefreshManager = {
             clearTimeout(this.reloadTimeoutId);
         }
 
-        // Schedule reload in 5 minutes (300000ms)
+        // Schedule reload in 10 minutes (600000ms)
         this.reloadTimeoutId = setTimeout(() => {
             window.location.reload();
-        }, 300000);
+        }, 600000);
     }
 };
