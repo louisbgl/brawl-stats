@@ -9049,5 +9049,97 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260517T122716.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 123,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
+        "brawler": {
+          "id": 16000031,
+          "name": "MR. P",
+          "power": 11,
+          "trophies": 622
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 622
+            }
+          },
+          {
+            "tag": "#8RCYCU2YU",
+            "name": "ZØ|Mivi",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 850
+            }
+          },
+          {
+            "tag": "#9GYRVCLJR",
+            "name": "VG | xBascu",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 847
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GUJYG0L0C",
+            "name": "SK/Felix OG",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 9,
+              "trophies": 726
+            }
+          },
+          {
+            "tag": "#QQV2J2YPP",
+            "name": "marceau le BG",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 10,
+              "trophies": 990
+            }
+          },
+          {
+            "tag": "#2YQV0PRUQL",
+            "name": "SK|leo🪐🌘",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 854
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
