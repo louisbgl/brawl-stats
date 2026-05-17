@@ -118686,5 +118686,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260517T212838.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 185,
+      "trophyChange": 24,
+      "starPlayer": {
+        "tag": "#2LGCLLPU2",
+        "name": "El Cactus",
+        "brawler": {
+          "id": 16000064,
+          "name": "GRAY",
+          "power": 10,
+          "trophies": 638
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8JGC8RLY9",
+            "name": "Ti@n_fu",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 854
+            }
+          },
+          {
+            "tag": "#QPYQ9QGLC",
+            "name": "du jurak",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 9,
+              "trophies": 283
+            }
+          },
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 10,
+              "trophies": 638
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GGR9VL",
+            "name": "DaniNOOB",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 593
+            }
+          },
+          {
+            "tag": "#GGRY9J",
+            "name": "carpibiri17",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 544
+            }
+          },
+          {
+            "tag": "#GGGCL0",
+            "name": "EGO | ✰√ꪱꪱc✰",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 645
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
