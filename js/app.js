@@ -31,8 +31,8 @@ async function init() {
         // PHASE 3: Initialize router (handles URL-based navigation)
         Router.init();
 
-        // PHASE 4: Start auto-refresh polling (after initial data load)
-        // AutoRefreshManager.init(); // Disabled - causes issues with data compatibility layer
+        // PHASE 4: Start auto-refresh (timestamp updates)
+        AutoRefreshManager.init();
 
     } catch (error) {
         console.error('Failed to initialize:', error);
