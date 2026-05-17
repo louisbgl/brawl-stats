@@ -34,7 +34,7 @@ const AutoRefreshManager = {
                 this.lastSnapshotTime = metadata.last_collection;
             }
         } catch (error) {
-            console.warn('[AutoRefresh] Could not fetch initial snapshot metadata');
+            // Silent fail
         }
 
         // Fetch battlelog metadata
@@ -45,13 +45,8 @@ const AutoRefreshManager = {
                 this.lastBattlelogTime = metadata.last_collection;
             }
         } catch (error) {
-            console.warn('[AutoRefresh] Could not fetch initial battlelog metadata');
+            // Silent fail
         }
-
-        console.log('[AutoRefresh] Initial timestamps:', {
-            snapshots: this.lastSnapshotTime,
-            battlelogs: this.lastBattlelogTime
-        });
     },
 
     start() {
@@ -117,10 +112,7 @@ const AutoRefreshManager = {
             ]);
 
             if (snapshotChanged || battlelogChanged) {
-                console.log('[AutoRefresh] New data detected, reloading in 5 minutes:', {
-                    snapshots: snapshotChanged,
-                    battlelogs: battlelogChanged
-                });
+                console.log('[AutoRefresh] New data detected, reloading in 5min');
                 this.scheduleReload();
             }
         } catch (error) {
@@ -180,13 +172,7 @@ const AutoRefreshManager = {
 
         // Schedule reload in 5 minutes (300000ms)
         this.reloadTimeoutId = setTimeout(() => {
-            console.log('[AutoRefresh] Reloading page with new data...');
             window.location.reload();
         }, 300000);
-    },
-
-    reloadPage() {
-        console.log('[AutoRefresh] Reloading page with new data...');
-        window.location.reload();
     }
 };
