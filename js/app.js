@@ -32,7 +32,7 @@ async function init() {
         Router.init();
 
         // PHASE 4: Start auto-refresh (timestamp updates)
-        AutoRefreshManager.init();
+        await AutoRefreshManager.init();
 
     } catch (error) {
         console.error('Failed to initialize:', error);

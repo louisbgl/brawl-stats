@@ -7,10 +7,9 @@ const AutoRefreshManager = {
     lastSnapshotTime: null,
     lastBattlelogTime: null,
 
-    init() {
-        // Store initial timestamps from metadata
-        this.lastSnapshotTime = DataManager.latestData?.timestamp;
-        this.lastBattlelogTime = BattlelogDataManager.getLastCollectionTime();
+    async init() {
+        // Fetch initial timestamps from metadata files
+        await this.fetchInitialTimestamps();
 
         // Start updates every 60s
         this.start();
@@ -22,6 +21,35 @@ const AutoRefreshManager = {
             } else {
                 this.resume();
             }
+        });
+    },
+
+    async fetchInitialTimestamps() {
+        // Fetch snapshot metadata
+        try {
+            const response = await fetch('data/snapshots/_last_updated.json?_=' + Date.now());
+            if (response.ok) {
+                const metadata = await response.json();
+                this.lastSnapshotTime = metadata.last_collection;
+            }
+        } catch (error) {
+            console.warn('[AutoRefresh] Could not fetch initial snapshot metadata');
+        }
+
+        // Fetch battlelog metadata
+        try {
+            const response = await fetch('data/battlelogs/_last_updated.json?_=' + Date.now());
+            if (response.ok) {
+                const metadata = await response.json();
+                this.lastBattlelogTime = metadata.last_collection;
+            }
+        } catch (error) {
+            console.warn('[AutoRefresh] Could not fetch initial battlelog metadata');
+        }
+
+        console.log('[AutoRefresh] Initial timestamps:', {
+            snapshots: this.lastSnapshotTime,
+            battlelogs: this.lastBattlelogTime
         });
     },
 
