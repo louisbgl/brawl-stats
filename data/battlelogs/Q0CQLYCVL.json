@@ -91496,5 +91496,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260517T201739.000Z",
+    "event": {
+      "id": 15000293,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Parallel Plays"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 119,
+      "starPlayer": {
+        "tag": "#YL02P09CY",
+        "name": "🔥🗡️LE|DZ🔥🗡️",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 9,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2QRPVVPPGJ",
+            "name": "Leon",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2UG0J2VJPP",
+            "name": "Draco🕋",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 10,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YL02P09CY",
+            "name": "🔥🗡️LE|DZ🔥🗡️",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#JR2RC982V",
+            "name": "Lukas_BS",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2RJVRQ802Q",
+            "name": "enzo",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
