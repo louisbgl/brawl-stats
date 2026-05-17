@@ -104,6 +104,7 @@ const GameConstants = {
         'brawlArena': '#a855f7',
         'airHockey': '#22d3ee',
         'tagTeam': '#f59e0b',
+        'basketBrawl': '#ff6b35',
         // Team 5v5 modes
         'brawlBall5V5': '#6bb6ff',
         'wipeout5V5': '#ff5964',
@@ -135,6 +136,7 @@ const GameConstants = {
         'brawlArena': 'Brawl Arena',
         'airHockey': 'Air Hockey',
         'tagTeam': 'Tag Team',
+        'basketBrawl': 'Basket Brawl',
         // Team 5v5 modes
         'brawlBall5V5': 'Brawl Ball 5v5',
         'wipeout5V5': 'Wipeout 5v5',
@@ -154,7 +156,7 @@ const GameConstants = {
 
     // Game mode categories
     MODE_CATEGORIES: {
-        team: ['gemGrab', 'brawlBall', 'bounty', 'heist', 'hotZone', 'knockout', 'siege', 'wipeout', 'brawlArena', 'airHockey', 'tagTeam'],
+        team: ['gemGrab', 'brawlBall', 'bounty', 'heist', 'hotZone', 'knockout', 'siege', 'wipeout', 'brawlArena', 'airHockey', 'tagTeam', 'basketBrawl'],
         team5v5: ['brawlBall5V5', 'wipeout5V5', 'knockout5V5', 'deathmatch5v5'],
         showdown: ['soloShowdown', 'duoShowdown', 'trioShowdown'],
         duels: ['duels'],
