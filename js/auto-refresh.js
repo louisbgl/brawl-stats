@@ -62,8 +62,6 @@ const AutoRefreshManager = {
         this.intervalId = setInterval(() => {
             this.tick();
         }, 60000);
-
-        console.log('[AutoRefresh] Started (60s interval)');
     },
 
     pause() {
@@ -71,7 +69,6 @@ const AutoRefreshManager = {
 
         clearInterval(this.intervalId);
         this.intervalId = null;
-        console.log('[AutoRefresh] Paused (tab hidden)');
     },
 
     resume() {
@@ -85,8 +82,6 @@ const AutoRefreshManager = {
         this.intervalId = setInterval(() => {
             this.tick();
         }, 60000);
-
-        console.log('[AutoRefresh] Resumed (tab visible)');
     },
 
     stop() {
@@ -95,7 +90,6 @@ const AutoRefreshManager = {
             this.intervalId = null;
         }
         this.isEnabled = false;
-        console.log('[AutoRefresh] Stopped');
     },
 
     async tick() {
