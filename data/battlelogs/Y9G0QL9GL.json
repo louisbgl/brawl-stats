@@ -48670,5 +48670,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260517T173303.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 97,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2RCVV0RPLP",
+        "name": "SK/Tomic🥵",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 9,
+          "trophies": 945
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 509
+            }
+          },
+          {
+            "tag": "#29RLG9GYC",
+            "name": "YourExLovesMe😘",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 8,
+              "trophies": 256
+            }
+          },
+          {
+            "tag": "#2RCVV0RPLP",
+            "name": "SK/Tomic🥵",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 9,
+              "trophies": 945
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PYYJUG",
+            "name": "dog off leash",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 559
+            }
+          },
+          {
+            "tag": "#2PYLUG0",
+            "name": "mathis1er",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 563
+            }
+          },
+          {
+            "tag": "#2PYLRVL",
+            "name": "Wigona",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 584
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
