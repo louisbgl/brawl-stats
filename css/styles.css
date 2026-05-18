@@ -203,6 +203,18 @@ select:focus, input[type="text"]:focus {
     border-bottom: 2px solid var(--border);
 }
 
+.data-table th.battle-stats-sortable:hover {
+    background: var(--bg-card);
+    color: var(--text-primary);
+}
+
+.sort-indicator {
+    font-size: 0.7rem;
+    margin-left: 4px;
+    display: inline-block;
+    transition: opacity 0.2s;
+}
+
 .data-table td {
     padding: 12px;
     border-bottom: 1px solid var(--border);

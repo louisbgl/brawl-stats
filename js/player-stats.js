@@ -4,6 +4,7 @@
 const PlayerStatsManager = {
     currentPlayer: null,
     brawlersRef: null,
+    battleStatsSort: { column: 'games', direction: 'desc' },
 
     async displayPlayerStats(clubIndex, playerIndex) {
         const container = document.getElementById('playerStatsContainer');
@@ -50,6 +51,7 @@ const PlayerStatsManager = {
         this.setupBrawlerFilter();
         this.setupTrophyTimelineFilter();
         this.setupBrawlerBattleStatsExpand();
+        this.setupBrawlerBattleStatsSort();
     },
 
     generatePlayerHTML() {
@@ -662,6 +664,101 @@ const PlayerStatsManager = {
         });
     },
 
+    setupBrawlerBattleStatsSort() {
+        const headers = document.querySelectorAll('.battle-stats-sortable');
+        if (!headers.length) return;
+
+        headers.forEach(header => {
+            header.addEventListener('click', () => {
+                const column = header.dataset.sort;
+
+                // Toggle direction if same column, else default to desc
+                if (this.battleStatsSort.column === column) {
+                    this.battleStatsSort.direction = this.battleStatsSort.direction === 'desc' ? 'asc' : 'desc';
+                } else {
+                    this.battleStatsSort.column = column;
+                    this.battleStatsSort.direction = 'desc';
+                }
+
+                this.updateBrawlerBattleStatsTable();
+            });
+        });
+    },
+
+    updateBrawlerBattleStatsTable() {
+        const tag = this.currentPlayer.tag;
+        const battles = BattlelogDataManager.getBattlesForPlayer(tag);
+
+        if (battles.length === 0) return;
+
+        const brawlerStats = BattlelogHelpers.calculateBrawlerStats(tag, battles);
+        const brawlerArray = Object.values(brawlerStats);
+        brawlerArray.forEach(b => b.winRate = (b.wins / b.games) * 100);
+
+        // Sort based on current sort state
+        const { column, direction } = this.battleStatsSort;
+        brawlerArray.sort((a, b) => {
+            let aVal, bVal;
+
+            if (column === 'winRate') {
+                aVal = a.winRate;
+                bVal = b.winRate;
+            } else if (column === 'trophyChange') {
+                aVal = a.trophyChange;
+                bVal = b.trophyChange;
+            } else if (column === 'lastPlayed') {
+                // Parse battle time strings to Date objects for comparison
+                const aDate = Utils.parseBattleTime(a.lastPlayed);
+                const bDate = Utils.parseBattleTime(b.lastPlayed);
+                // Handle invalid dates by treating them as oldest
+                aVal = aDate && !isNaN(aDate.getTime()) ? aDate.getTime() : 0;
+                bVal = bDate && !isNaN(bDate.getTime()) ? bDate.getTime() : 0;
+            } else if (column === 'mvps') {
+                aVal = a.mvps;
+                bVal = b.mvps;
+            } else { // games (default)
+                aVal = a.games;
+                bVal = b.games;
+            }
+
+            return direction === 'desc' ? bVal - aVal : aVal - bVal;
+        });
+
+        const DEFAULT_VISIBLE = 10;
+        const showAll = brawlerArray.length <= DEFAULT_VISIBLE;
+
+        const tableRows = brawlerArray.map((b, index) => `
+            <tr class="brawler-battle-row" style="${!showAll && index >= DEFAULT_VISIBLE ? 'display: none;' : ''}">
+                <td><strong>${b.name}</strong></td>
+                <td>${b.games}</td>
+                <td>${b.wins}-${b.games - b.wins} (${b.winRate.toFixed(1)}%)</td>
+                <td class="${b.trophyChange >= 0 ? 'trophy-positive' : 'trophy-negative'}">${b.trophyChange > 0 ? '+' : ''}${b.trophyChange}</td>
+                <td>${ViewHelpers.formatLastPlayed(b.lastPlayed)}</td>
+                <td>${b.mvps}</td>
+            </tr>
+        `).join('');
+
+        const tbody = document.querySelector('#brawlerBattleStatsTable tbody');
+        if (tbody) {
+            tbody.innerHTML = tableRows;
+        }
+
+        // Update header sort indicators
+        document.querySelectorAll('.battle-stats-sortable').forEach(header => {
+            const col = header.dataset.sort;
+            const indicator = header.querySelector('.sort-indicator');
+            if (indicator) {
+                if (col === column) {
+                    indicator.textContent = direction === 'desc' ? '↓' : '↑';
+                    indicator.style.opacity = '1';
+                } else {
+                    indicator.textContent = '↓';
+                    indicator.style.opacity = '0.3';
+                }
+            }
+        });
+    },
+
     generateBattlePerformanceHTML() {
         if (!BattlelogDataManager.isLoaded) {
             return '';
@@ -903,15 +1000,25 @@ const PlayerStatsManager = {
                 <h3>Brawler Battle Stats</h3>
                 <p style="margin-bottom: 15px; font-size: 0.9rem; color: var(--text-secondary);">Detailed battle performance per brawler from battlelog data</p>
                 <div style="overflow-x: auto;">
-                    <table class="data-table">
+                    <table class="data-table" id="brawlerBattleStatsTable">
                         <thead>
                             <tr>
                                 <th>Brawler</th>
-                                <th>Games</th>
-                                <th>Win Rate</th>
-                                <th>Net Trophies</th>
-                                <th>Last Played</th>
-                                <th>MVPs</th>
+                                <th class="battle-stats-sortable" data-sort="games" style="cursor: pointer; user-select: none;">
+                                    Games <span class="sort-indicator" style="opacity: 1;">↓</span>
+                                </th>
+                                <th class="battle-stats-sortable" data-sort="winRate" style="cursor: pointer; user-select: none;">
+                                    Win Rate <span class="sort-indicator" style="opacity: 0.3;">↓</span>
+                                </th>
+                                <th class="battle-stats-sortable" data-sort="trophyChange" style="cursor: pointer; user-select: none;">
+                                    Net Trophies <span class="sort-indicator" style="opacity: 0.3;">↓</span>
+                                </th>
+                                <th class="battle-stats-sortable" data-sort="lastPlayed" style="cursor: pointer; user-select: none;">
+                                    Last Played <span class="sort-indicator" style="opacity: 0.3;">↓</span>
+                                </th>
+                                <th class="battle-stats-sortable" data-sort="mvps" style="cursor: pointer; user-select: none;">
+                                    MVPs <span class="sort-indicator" style="opacity: 0.3;">↓</span>
+                                </th>
                             </tr>
                         </thead>
                         <tbody>
