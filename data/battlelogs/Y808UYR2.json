@@ -60975,5 +60975,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260518T190158.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 144,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2VL9PU8RVC",
+        "name": "xVoid 2",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1408
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#20UYGRUR2",
+            "name": "Goyo",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 1107
+            }
+          },
+          {
+            "tag": "#2VL9PU8RVC",
+            "name": "xVoid 2",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1408
+            }
+          },
+          {
+            "tag": "#2YJ2LPY9QQ",
+            "name": "Jules",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1581
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 726
+            }
+          },
+          {
+            "tag": "#92LLCYGQ2",
+            "name": "baswitts",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 564
+            }
+          },
+          {
+            "tag": "#2LQY8C9GC0",
+            "name": "SK/peyolol 🤫",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 8,
+              "trophies": 266
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260518T190910.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 397,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000083,
+          "name": "CLANCY",
+          "power": 11,
+          "trophies": 722
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9PRY9YLL",
+            "name": "Hort5",
+            "brawler": {
+              "id": 16000090,
+              "name": "OLLIE",
+              "power": 9,
+              "trophies": 612
+            }
+          },
+          {
+            "tag": "#98Y202VPQ",
+            "name": "gttt",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 579
+            }
+          },
+          {
+            "tag": "#PY8YQ2GLU",
+            "name": "Yurc",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 323
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 722
+            }
+          },
+          {
+            "tag": "#P8RQR9Y2G",
+            "name": "MAKERGX",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 424
+            }
+          },
+          {
+            "tag": "#2PG0P9CP2",
+            "name": "La Crusque !!",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 10,
+              "trophies": 268
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
