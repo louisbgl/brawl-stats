@@ -62415,5 +62415,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260519T170125.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 84,
+      "trophyChange": 19,
+      "starPlayer": {
+        "tag": "#8VJC8JPP",
+        "name": "Chang",
+        "brawler": {
+          "id": 16000024,
+          "name": "ROSA",
+          "power": 11,
+          "trophies": 853
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8VJC8JPP",
+            "name": "Chang",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 853
+            }
+          },
+          {
+            "tag": "#2UPP88UQP0",
+            "name": "FOURI_67",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1291
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1012
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RV2U88YQJ",
+            "name": "nati",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 856
+            }
+          },
+          {
+            "tag": "#RPU8JG8QG",
+            "name": "jerembob",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1090
+            }
+          },
+          {
+            "tag": "#RG2JYRVY9",
+            "name": "爪ㄖ丂卂",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 11,
+              "trophies": 879
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260519T170312.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 83,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#L2QL2P0JL",
+        "name": "•NonlY•",
+        "brawler": {
+          "id": 16000074,
+          "name": "CHARLIE",
+          "power": 11,
+          "trophies": 991
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UPP88UQP0",
+            "name": "FOURI_67",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1303
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1031
+            }
+          },
+          {
+            "tag": "#G9GVR0YVJ",
+            "name": "salama",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1524
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L2QL2P0JL",
+            "name": "•NonlY•",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 991
+            }
+          },
+          {
+            "tag": "#P8G9VU8QJ",
+            "name": "Tiomakotik",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 1041
+            }
+          },
+          {
+            "tag": "#C2L8GV2VC",
+            "name": "wreiuq",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 893
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
