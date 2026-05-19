@@ -97020,5 +97020,178 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260519T130319.000Z",
+    "event": {
+      "id": 15000011,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Undermine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 102,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#RVJCG08QL",
+            "name": "isyey",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RJYGJGYCQ",
+            "name": "dashh_mel",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2QL8U90CQJ",
+            "name": "555",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#P8VGQ9RY0",
+            "name": "onikx",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260519T130515.000Z",
+    "event": {
+      "id": 15000011,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Undermine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 96,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RVJCG08QL",
+            "name": "isyey",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RJYGJGYCQ",
+            "name": "dashh_mel",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2QL8U90CQJ",
+            "name": "555",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#P8VGQ9RY0",
+            "name": "onikx",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
