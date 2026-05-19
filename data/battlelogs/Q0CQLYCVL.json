@@ -96237,5 +96237,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260519T120323.000Z",
+    "event": {
+      "id": 15000082,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Layer Cake"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 45,
+      "starPlayer": {
+        "tag": "#L9QULY2J0",
+        "name": "hebelehübele",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QCYLV902J",
+            "name": "Rüdiger",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2UJYQ8PL2L",
+            "name": "SK|THANOS🎭",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#L9QULY2J0",
+            "name": "hebelehübele",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LCC9QYLJV",
+            "name": "akciosafarhát",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2L828QCJ0C",
+            "name": "monkey👊🏽🐵",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
