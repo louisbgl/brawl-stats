@@ -155940,5 +155940,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260519T152927.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 65,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000096,
+          "name": "TRUNK",
+          "power": 1,
+          "trophies": 60
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#92UJPLLUC",
+            "name": "SOYDEPAOLA",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 7,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 1,
+              "trophies": 60
+            }
+          },
+          {
+            "tag": "#P9UP8GLJJ",
+            "name": "quasko",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 6,
+              "trophies": 75
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9YRUQL",
+            "name": "BD | DrakeNate",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 7,
+              "trophies": 37
+            }
+          },
+          {
+            "tag": "#9YJ280",
+            "name": "Daniel_2bleA",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 4,
+              "trophies": 35
+            }
+          },
+          {
+            "tag": "#9YJGVJ",
+            "name": "stef",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 8,
+              "trophies": 33
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
