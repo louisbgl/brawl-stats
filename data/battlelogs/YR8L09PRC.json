@@ -155756,5 +155756,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260519T114629.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 38,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#UY92PU",
+        "name": "ZeideN |💮最强的",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 9,
+          "trophies": 84
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8PPQUJ8R2",
+            "name": "RB|filo:D",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 10,
+              "trophies": 122
+            }
+          },
+          {
+            "tag": "#9G99GRCYL",
+            "name": "CAPITANSALAMI",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 1,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 1,
+              "trophies": 148
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#UY99VL",
+            "name": "zmaga",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 7,
+              "trophies": 77
+            }
+          },
+          {
+            "tag": "#UY92PU",
+            "name": "ZeideN |💮最强的",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 9,
+              "trophies": 84
+            }
+          },
+          {
+            "tag": "#UY9JLU",
+            "name": "SkiMaks¹",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 8,
+              "trophies": 77
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260519T114921.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#G0Q29J",
+        "name": "Uvii♤",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 10,
+          "trophies": 113
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P0UC0Y9JP",
+            "name": "☆Bumbulloshka☆",
+            "brawler": {
+              "id": 16000090,
+              "name": "OLLIE",
+              "power": 10,
+              "trophies": 134
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 1,
+              "trophies": 147
+            }
+          },
+          {
+            "tag": "#28JJ2L0U8G",
+            "name": "Boti",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 7,
+              "trophies": 21
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G0QLLU",
+            "name": "MightyMephisto",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 8,
+              "trophies": 112
+            }
+          },
+          {
+            "tag": "#G0GP9L",
+            "name": "daki",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 96
+            }
+          },
+          {
+            "tag": "#G0Q29J",
+            "name": "Uvii♤",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 10,
+              "trophies": 113
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
