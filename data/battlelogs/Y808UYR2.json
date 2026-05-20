@@ -64163,5 +64163,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260520T093007.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 179,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 298
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CPY8UP92C",
+            "name": "Zaro",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 10,
+              "trophies": 207
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 298
+            }
+          },
+          {
+            "tag": "#2UGCJCCLQJ",
+            "name": "Rokarut",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 7,
+              "trophies": 260
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#20J888U",
+            "name": "🏵️Zeeko🏵️",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 8,
+              "trophies": 266
+            }
+          },
+          {
+            "tag": "#20J2JVJ",
+            "name": "Trunk030",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 262
+            }
+          },
+          {
+            "tag": "#20J2RRL",
+            "name": "FritzBell",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 10,
+              "trophies": 268
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
