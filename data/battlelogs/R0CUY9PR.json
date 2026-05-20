@@ -11105,5 +11105,97 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260520T094410.000Z",
+    "event": {
+      "id": 15001178,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Hyperspace"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 47,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#2LJ8LJULRY",
+        "name": "🤡Sacha👎🏻",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1056
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RQPG9V8GC",
+            "name": "жданчик",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1120
+            }
+          },
+          {
+            "tag": "#2VUUPGLG9",
+            "name": "|KaBaN4iK|",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1231
+            }
+          },
+          {
+            "tag": "#2LJ8LJULRY",
+            "name": "🤡Sacha👎🏻",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1056
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GPVGU9R02",
+            "name": "Bot67",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1670
+            }
+          },
+          {
+            "tag": "#QQR8QJY2U",
+            "name": "TE|Aydîn",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1311
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1014
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
