@@ -64531,5 +64531,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260520T145326.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 476,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1040
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1040
+            }
+          },
+          {
+            "tag": "#2UPJR8UQJP",
+            "name": "kerem6664",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1331
+            }
+          },
+          {
+            "tag": "#8QCQJ2LUV",
+            "name": "lars.nevens",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 9,
+              "trophies": 971
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RGVG009GR",
+            "name": "SRDK2",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 316
+            }
+          },
+          {
+            "tag": "#8C0LRRYGJ",
+            "name": "Steef",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1735
+            }
+          },
+          {
+            "tag": "#2CGGLPU8G",
+            "name": "few",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 493
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

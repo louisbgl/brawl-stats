@@ -49865,5 +49865,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260520T143131.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 49,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LJQ8892J8",
+        "name": "★|☣️IZU★😈🌈",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 10,
+          "trophies": 376
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LJQ8892J8",
+            "name": "★|☣️IZU★😈🌈",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 376
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 583
+            }
+          },
+          {
+            "tag": "#2GYQ9ULG",
+            "name": "$LiM€",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 314
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CGULU",
+            "name": "(0-0)",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 8,
+              "trophies": 484
+            }
+          },
+          {
+            "tag": "#CR22L",
+            "name": "radmrdamluku79",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 10,
+              "trophies": 401
+            }
+          },
+          {
+            "tag": "#CJ08P",
+            "name": "ShadyE",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 10,
+              "trophies": 439
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
