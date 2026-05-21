@@ -743,6 +743,13 @@ const PlayerStatsManager = {
             tbody.innerHTML = tableRows;
         }
 
+        // Restore expand button if there are hidden rows
+        const expandBtn = document.getElementById('expandBrawlerBattleStats');
+        if (expandBtn) {
+            const hasHidden = !showAll;
+            expandBtn.style.display = hasHidden ? '' : 'none';
+        }
+
         // Update header sort indicators
         document.querySelectorAll('.battle-stats-sortable').forEach(header => {
             const col = header.dataset.sort;
