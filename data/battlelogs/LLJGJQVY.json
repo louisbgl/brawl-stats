@@ -245824,5 +245824,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260521T082409.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 123,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000091,
+          "name": "LUMI",
+          "power": 11,
+          "trophies": 1353
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1383
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 1501
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 1353
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#980UR8Y2",
+            "name": "GX Antonio",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1571
+            }
+          },
+          {
+            "tag": "#89YCLCPYR",
+            "name": "sostho",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1426
+            }
+          },
+          {
+            "tag": "#29989G02G",
+            "name": "btx super pro",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1795
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260521T082640.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 70,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#2CQ88C9VJ2",
+        "name": "@ackimov",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 2000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CQ88C9VJ2",
+            "name": "@ackimov",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#VQCC8QU0",
+            "name": "xn",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1425
+            }
+          },
+          {
+            "tag": "#YL8PUGYUY",
+            "name": "jaskahamo XD",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 1028
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1393
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 1363
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 1511
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
