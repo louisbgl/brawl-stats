@@ -387,18 +387,42 @@ const PlayerStatsManager = {
             return '<div style="margin: 10px 0; color: var(--text-secondary); font-size: 0.9rem;">Not enough data for trends</div>';
         }
 
-        // Use snapshot data for trend calculations
+        // Use snapshot data for trend calculations — snapshotDates aligned with snapshotTrophies
         const snapshots = timeline.snapshotTrophies;
+        const snapshotDates = timeline.snapshotDates;
         const current = snapshots[snapshots.length - 1];
-        const yesterday = snapshots.length >= 2 ? snapshots[snapshots.length - 2] : current;
-        const weekAgo = snapshots.length >= 8 ? snapshots[snapshots.length - 8] : snapshots[0];
-        const monthAgo = snapshots.length >= 31 ? snapshots[snapshots.length - 31] : snapshots[0];
+        const latestDate = new Date(snapshotDates[snapshotDates.length - 1]);
 
-        const dayChange = current - yesterday;
-        const weekChange = current - weekAgo;
-        const monthChange = current - monthAgo;
+        // Find snapshot closest to N days before the latest snapshot date, skipping nulls
+        const findSnapshotDaysAgo = (days) => {
+            const target = new Date(latestDate);
+            target.setDate(target.getDate() - days);
+            const targetStr = target.toISOString().slice(0, 10);
+            // Walk backwards from target date, find latest non-null snapshot <= target
+            for (let i = snapshotDates.length - 1; i >= 0; i--) {
+                if (snapshotDates[i] <= targetStr && snapshots[i] !== null) {
+                    return snapshots[i];
+                }
+            }
+            return null; // no data that far back
+        };
+
+        const yesterday = findSnapshotDaysAgo(1);
+        const weekAgo = findSnapshotDaysAgo(7);
+        const monthAgo = findSnapshotDaysAgo(30);
+
+        const dayChange = yesterday !== null ? current - yesterday : null;
+        const weekChange = weekAgo !== null ? current - weekAgo : null;
+        const monthChange = monthAgo !== null ? current - monthAgo : null;
+
 
         const formatTrend = (change, label) => {
+            if (change === null) return `
+                <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; background: var(--bg-secondary); border-radius: 6px;">
+                    <span style="font-size: 0.8rem; color: var(--text-secondary); min-width: 60px;">${label}</span>
+                    <span style="color: var(--text-secondary); font-size: 1.1rem;">—</span>
+                </div>
+            `;
             const sign = change >= 0 ? '+' : '';
             const color = change >= 0 ? 'var(--accent-green)' : 'var(--accent-red)';
             const arrow = change >= 0 ? '↑' : '↓';
