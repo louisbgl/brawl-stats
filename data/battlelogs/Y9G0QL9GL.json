@@ -51764,5 +51764,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260521T210147.000Z",
+    "event": {
+      "id": 15001023,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "In the Liminal"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 126,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#80CP90L29",
+        "name": "Aleale",
+        "brawler": {
+          "id": 16000041,
+          "name": "LOU",
+          "power": 11,
+          "trophies": 504
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8G0UG9280",
+            "name": "ManinhoLight",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 9,
+              "trophies": 553
+            }
+          },
+          {
+            "tag": "#80CP90L29",
+            "name": "Aleale",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 504
+            }
+          },
+          {
+            "tag": "#2R8C9RU0RJ",
+            "name": "虹膜 | ᴋᴏɪ",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1221
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 773
+            }
+          },
+          {
+            "tag": "#GGV2U98RR",
+            "name": "CG | 나미",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 875
+            }
+          },
+          {
+            "tag": "#YQ08G2Y",
+            "name": "Haleem",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 9,
+              "trophies": 301
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260521T210333.000Z",
+    "event": {
+      "id": 15001023,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "In the Liminal"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 79,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#YQ08G2Y",
+        "name": "Haleem",
+        "brawler": {
+          "id": 16000073,
+          "name": "CHUCK",
+          "power": 9,
+          "trophies": 313
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 789
+            }
+          },
+          {
+            "tag": "#YQ08G2Y",
+            "name": "Haleem",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 9,
+              "trophies": 313
+            }
+          },
+          {
+            "tag": "#GGV2U98RR",
+            "name": "CG | 나미",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 893
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9PP9QUQ0Q",
+            "name": "LP JUDO 🥋",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 630
+            }
+          },
+          {
+            "tag": "#228GU8PPRG",
+            "name": "Alessandro",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 681
+            }
+          },
+          {
+            "tag": "#P9UL2QYQU",
+            "name": "Kallaa011",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 8,
+              "trophies": 799
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
