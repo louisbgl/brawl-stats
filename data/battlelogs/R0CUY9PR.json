@@ -13890,5 +13890,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260521T091131.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 29,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#2YQUJGCR2",
+        "name": "AXENNx9",
+        "brawler": {
+          "id": 16000029,
+          "name": "BEA",
+          "power": 11,
+          "trophies": 1028
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2YQUJGCR2",
+            "name": "AXENNx9",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 1028
+            }
+          },
+          {
+            "tag": "#2U9GYJ0VC",
+            "name": "𝐑&𝐓 | Richi 力",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 1015
+            }
+          },
+          {
+            "tag": "#YLGU0V2Q8",
+            "name": "Jules.b.21",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1807
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PYV22PRJL",
+            "name": "SpinToBeGay",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1571
+            }
+          },
+          {
+            "tag": "#8PY2P82R2",
+            "name": "luffi",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1193
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1131
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
