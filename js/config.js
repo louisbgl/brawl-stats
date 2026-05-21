@@ -75,12 +75,21 @@ const GameConstants = {
     // Color palette for charts (shared across all visualizations)
     COLOR_PALETTE: [
         '#4a9eff', // Blue
-        '#9d4edd', // Purple
-        '#06d6a0', // Green
-        '#ff9f1c', // Orange
         '#ef476f', // Red
+        '#06d6a0', // Green
+        '#ffd60a', // Yellow
+        '#9d4edd', // Purple
+        '#ff9f1c', // Orange
         '#118ab2', // Teal
-        '#ffd60a'  // Yellow
+        '#f72585', // Pink
+        '#43aa8b', // Sage
+        '#f94144', // Coral
+        '#90e0ef', // Sky
+        '#c77dff', // Lavender
+        '#ffb703', // Amber
+        '#52b788', // Mint
+        '#e76f51', // Burnt orange
+        '#a8dadc', // Pale cyan
     ],
 
     // Prestige level colors for prestige chart
