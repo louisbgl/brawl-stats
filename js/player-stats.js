@@ -5,12 +5,14 @@ const PlayerStatsManager = {
     currentPlayer: null,
     brawlersRef: null,
     battleStatsSort: { column: 'games', direction: 'desc' },
+    battleStatsExpanded: false,
 
     async displayPlayerStats(clubIndex, playerIndex) {
         const container = document.getElementById('playerStatsContainer');
 
         try {
             this.currentPlayer = DataManager.getPlayer(clubIndex, playerIndex);
+            this.battleStatsExpanded = false;
             this.brawlersRef = DataManager.brawlersData.items;
 
             container.innerHTML = this.generatePlayerHTML();
@@ -661,6 +663,7 @@ const PlayerStatsManager = {
             const rows = document.querySelectorAll('.brawler-battle-row');
             rows.forEach(row => row.style.display = '');
             expandBtn.style.display = 'none';
+            this.battleStatsExpanded = true;
         });
     },
 
@@ -725,7 +728,7 @@ const PlayerStatsManager = {
         });
 
         const DEFAULT_VISIBLE = 10;
-        const showAll = brawlerArray.length <= DEFAULT_VISIBLE;
+        const showAll = brawlerArray.length <= DEFAULT_VISIBLE || this.battleStatsExpanded;
 
         const tableRows = brawlerArray.map((b, index) => `
             <tr class="brawler-battle-row" style="${!showAll && index >= DEFAULT_VISIBLE ? 'display: none;' : ''}">
