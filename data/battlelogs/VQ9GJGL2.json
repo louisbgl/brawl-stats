@@ -68743,5 +68743,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260521T202600.000Z",
+    "event": {
+      "id": 15000300,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Ring of Fire"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#Y0RCRLVYU",
+        "name": "Emma",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 5
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CRGCY2PY",
+            "name": "Selrat",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 6
+            }
+          },
+          {
+            "tag": "#Y0RCRLVYU",
+            "name": "Emma",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 5
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PPLL2J",
+            "name": "iSnowz",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#2PPQLLU",
+            "name": "lBarto",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 10,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#2PPL88U",
+            "name": "Necmergitur",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 5
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260521T202812.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 76,
+      "starPlayer": {
+        "tag": "#2PY98PG",
+        "name": "Lyrox®",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 5
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CRGCY2PY",
+            "name": "Selrat",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 6
+            }
+          },
+          {
+            "tag": "#2UYPP2UYRU",
+            "name": "🍭MAIN MANDY🍧",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 5
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PY98PG",
+            "name": "Lyrox®",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#2PY9J8P",
+            "name": "Squiid",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 10,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#2PY920P",
+            "name": "Portgas•D•Ace",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 9,
+              "trophies": 5
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
