@@ -51672,5 +51672,97 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260521T205914.000Z",
+    "event": {
+      "id": 15001023,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "In the Liminal"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 73,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#GGV2U98RR",
+        "name": "CG | 나미",
+        "brawler": {
+          "id": 16000071,
+          "name": "DOUG",
+          "power": 11,
+          "trophies": 858
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YY0YVQJCL",
+            "name": "рамоны с вб",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 702
+            }
+          },
+          {
+            "tag": "#2G2R9CPJRQ",
+            "name": "Naty",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 8,
+              "trophies": 538
+            }
+          },
+          {
+            "tag": "#2U9R2P0YQ2",
+            "name": "Lixie.Stay",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1028
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GGV2U98RR",
+            "name": "CG | 나미",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 858
+            }
+          },
+          {
+            "tag": "#YQ08G2Y",
+            "name": "Haleem",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 9,
+              "trophies": 290
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 758
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

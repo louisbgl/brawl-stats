@@ -14626,5 +14626,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260521T205754.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 133,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#2YV0CJV8LU",
+        "name": "LUV|Alan⚡️",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 1401
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28L2L28CCQ",
+            "name": "causeisaidso",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1603
+            }
+          },
+          {
+            "tag": "#2QU9CYPYUJ",
+            "name": "OmarCrystall",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1029
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1132
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2000R0UGQ2",
+            "name": "LUV|Valenciaa🏮",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 9,
+              "trophies": 641
+            }
+          },
+          {
+            "tag": "#2YV0CJV8LU",
+            "name": "LUV|Alan⚡️",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1401
+            }
+          },
+          {
+            "tag": "#2C802QR0J",
+            "name": "Chooky",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1206
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
