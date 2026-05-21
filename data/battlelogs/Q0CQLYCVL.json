@@ -103714,5 +103714,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260521T193506.000Z",
+    "event": {
+      "id": 15001023,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "In the Liminal"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 79,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#G2099VG",
+        "name": "m4rov",
+        "brawler": {
+          "id": 16000080,
+          "name": "DRACO",
+          "power": 9,
+          "trophies": 238
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RPCQ8J9C9",
+            "name": "мини норт🇺🇸",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1431
+            }
+          },
+          {
+            "tag": "#9VVP82CRC",
+            "name": "iopp1",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 10,
+              "trophies": 350
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 613
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G2099VG",
+            "name": "m4rov",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 9,
+              "trophies": 238
+            }
+          },
+          {
+            "tag": "#8CQUJ90RQ",
+            "name": "Gnusn0!",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 430
+            }
+          },
+          {
+            "tag": "#Y8JVL0UU9",
+            "name": "-Zo0m2k-",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 9,
+              "trophies": 242
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
