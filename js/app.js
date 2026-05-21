@@ -64,6 +64,8 @@ function startBackgroundLoading() {
         displayClubLeaderboards();
         // Update battlelog timestamp in header
         updateLastUpdatedDisplay();
+        // Render battles timeline
+        ChartsManager.createBattlesTimeline();
     });
 }
 
