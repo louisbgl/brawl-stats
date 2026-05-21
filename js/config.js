@@ -1,6 +1,12 @@
 // Configuration constants and utility functions for the frontend
 
 // ============================================================================
+// DASHBOARD OWNER
+// ============================================================================
+// Tag of the dashboard owner — used to show "with [you]" perspective in battle feed
+const OWNER_TAG = '#LLJGJQVY';
+
+// ============================================================================
 // GAME CONSTANTS - Brawl Stars game mechanics and costs
 // ============================================================================
 

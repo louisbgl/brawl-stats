@@ -29,21 +29,46 @@ const BattlesManager = {
     },
 
     loadBattles() {
-        // Get all battles from battlelog data
         const allBattles = [];
         const players = DataManager.getAllPlayers();
 
         players.forEach(player => {
             const playerBattles = BattlelogDataManager.getBattlesForPlayer(player.tag);
             playerBattles.forEach(battle => {
-                allBattles.push({
-                    player: player,
-                    battle: battle
-                });
+                allBattles.push({ player, battle, coPlayers: [] });
             });
         });
 
-        // Sort by date descending (newest first)
+        // Build shared-game index: battleTime+eventId → [{tag, name, entry}]
+        const sharedIndex = {};
+        allBattles.forEach(entry => {
+            const eventId = entry.battle.event?.id;
+            if (!eventId) return;
+            const key = `${entry.battle.battleTime}|${eventId}`;
+            if (!sharedIndex[key]) sharedIndex[key] = [];
+            sharedIndex[key].push(entry);
+        });
+
+        // Attach coPlayers to each entry — used when filter is "all"
+        Object.values(sharedIndex).forEach(entries => {
+            if (entries.length < 2) return;
+            entries.forEach(entry => {
+                entry.coPlayers = entries
+                    .filter(e => e !== entry)
+                    .map(e => e.player.name)
+                    .sort();
+            });
+        });
+
+        // Mark which entry is "primary" for the all-players deduped view
+        // (owner if present, else first alphabetically)
+        Object.values(sharedIndex).forEach(entries => {
+            if (entries.length < 2) return;
+            const ownerEntry = entries.find(e => e.player.tag === OWNER_TAG);
+            const primary = ownerEntry || [...entries].sort((a, b) => a.player.name.localeCompare(b.player.name))[0];
+            entries.forEach(e => { e._sharedPrimary = e === primary; });
+        });
+
         allBattles.sort((a, b) => {
             const dateA = Utils.parseBattleTime(a.battle.battleTime);
             const dateB = Utils.parseBattleTime(b.battle.battleTime);
@@ -60,6 +85,9 @@ const BattlesManager = {
         // Filter by player
         if (this.currentFilters.player !== 'all') {
             filtered = filtered.filter(b => b.player.tag === this.currentFilters.player);
+        } else {
+            // All Players view: show only the primary entry for shared games
+            filtered = filtered.filter(b => b._sharedPrimary !== false);
         }
 
         // Filter by mode
@@ -393,19 +421,27 @@ const BattlesManager = {
 
         // Result display
         const resultText = result === 'win' ? 'Victory' : result === 'loss' ? 'Defeat' : 'Draw';
-        const trophyText = trophyChange !== 0 ? (trophyChange > 0 ? `+${trophyChange}` : trophyChange) : '';
+        const hasCoPlayers = this.currentFilters.player === 'all' && battleEntry.coPlayers?.length;
+        const trophyText = !hasCoPlayers && trophyChange !== 0 ? (trophyChange > 0 ? `+${trophyChange}` : trophyChange) : '';
 
         // Add badges
         const rankedBadge = battleType === 'soloRanked' ? '<span class="battle-ranked-badge">RANKED</span>' : '';
         const eventBadge = (GameConstants.isPvEMode(battleMode) || battleType === null || battleType === undefined) ? '<span class="battle-event-badge">EVENT</span>' : '';
 
+        const playerCell = hasCoPlayers
+            ? `<span class="battle-player-name">${DataManager.getPlayerName(player.tag)}</span>${battleEntry.coPlayers.map(n => `<span class="battle-coplayer-name">${n}</span>`).join('')}`
+            : `<span class="battle-player-name">${DataManager.getPlayerName(player.tag)}</span>`;
+
+        const brawlerCell = hasCoPlayers ? '' : `
+                <span class="battle-brawler-name">${brawlerName}</span>
+                <span class="battle-separator">|</span>`;
+
         return `
             <div class="battle-collapsed-row">
                 ${rankedBadge}${eventBadge}
-                <span class="battle-player-name">${DataManager.getPlayerName(player.tag)}</span>
+                ${playerCell}
                 <span class="battle-separator">|</span>
-                <span class="battle-brawler-name">${brawlerName}</span>
-                <span class="battle-separator">|</span>
+                ${brawlerCell}
                 <span class="battle-mode-name">${mode}</span>
                 <span class="battle-separator">|</span>
                 <span class="battle-map">${map}</span>

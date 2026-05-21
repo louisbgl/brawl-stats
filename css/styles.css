@@ -1315,6 +1315,12 @@ select:focus, input[type="text"]:focus {
     margin-right: 4px;
 }
 
+.battle-coplayer-name {
+    font-weight: 700;
+    color: var(--accent-blue);
+    opacity: 0.85;
+}
+
 .battle-result-icon {
     font-size: 1.1rem;
 }
