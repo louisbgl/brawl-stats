@@ -70554,5 +70554,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260522T113118.000Z",
+    "event": {
+      "id": 15001023,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "In the Liminal"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 97,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#88VG2JPG9",
+        "name": "TheSwzy",
+        "brawler": {
+          "id": 16000023,
+          "name": "LEON",
+          "power": 11,
+          "trophies": 562
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V8YJ0UQ8Y",
+            "name": "rryyaa",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1069
+            }
+          },
+          {
+            "tag": "#YGYCUCPQL",
+            "name": "lagan08",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 528
+            }
+          },
+          {
+            "tag": "#8VPL8LY00",
+            "name": "dap552",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 8,
+              "trophies": 479
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#88VG2JPG9",
+            "name": "TheSwzy",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 562
+            }
+          },
+          {
+            "tag": "#R82JYLQP",
+            "name": "Savaşçı",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 498
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 599
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
