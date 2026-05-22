@@ -14718,5 +14718,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260522T092648.000Z",
+    "event": {
+      "id": 15001053,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sidetrack"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 68,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#82JJLJQG",
+        "name": "m4rbak",
+        "brawler": {
+          "id": 16000000,
+          "name": "SHELLY",
+          "power": 11,
+          "trophies": 1000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1126
+            }
+          },
+          {
+            "tag": "#82JJLJQG",
+            "name": "m4rbak",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#CRG028",
+            "name": "Washakie",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 1027
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CRG8RJ",
+            "name": "jacob",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 1070
+            }
+          },
+          {
+            "tag": "#CRG2YL",
+            "name": "Alec",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 10,
+              "trophies": 1049
+            }
+          },
+          {
+            "tag": "#CRGJQL",
+            "name": "Gabsmaxx",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 10,
+              "trophies": 1058
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
