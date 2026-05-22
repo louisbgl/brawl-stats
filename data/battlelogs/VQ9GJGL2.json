@@ -70254,5 +70254,305 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260522T112241.000Z",
+    "event": {
+      "id": 15001122,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Makeshift Scaffolding"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 1,
+      "players": [
+        {
+          "tag": "#VQ9GJGL2",
+          "name": "JOEL | OrDos_",
+          "brawler": {
+            "id": 16000026,
+            "name": "BIBI",
+            "power": 11,
+            "trophies": 1247
+          }
+        },
+        {
+          "tag": "#2CUVQ8PCP2",
+          "name": "six-seven",
+          "brawler": {
+            "id": 16000026,
+            "name": "BIBI",
+            "power": 11,
+            "trophies": 2028
+          }
+        },
+        {
+          "tag": "#G2VLRL09J",
+          "name": "hobrim",
+          "brawler": {
+            "id": 16000005,
+            "name": "SPIKE",
+            "power": 11,
+            "trophies": 776
+          }
+        },
+        {
+          "tag": "#2QJQ98YR82",
+          "name": "Х.А.А",
+          "brawler": {
+            "id": 16000026,
+            "name": "BIBI",
+            "power": 10,
+            "trophies": 730
+          }
+        },
+        {
+          "tag": "#JQCLLCP8V",
+          "name": "TH|Carlitosss",
+          "brawler": {
+            "id": 16000015,
+            "name": "PIPER",
+            "power": 11,
+            "trophies": 1084
+          }
+        },
+        {
+          "tag": "#2UVQ8LJRJU",
+          "name": "РОХЛЯ СЭН",
+          "brawler": {
+            "id": 16000010,
+            "name": "EL PRIMO",
+            "power": 10,
+            "trophies": 238
+          }
+        },
+        {
+          "tag": "#RLYCQVRR2",
+          "name": "fütyikepacsika",
+          "brawler": {
+            "id": 16000017,
+            "name": "TARA",
+            "power": 10,
+            "trophies": 367
+          }
+        },
+        {
+          "tag": "#2UJJVUUCL2",
+          "name": "sono il miglior",
+          "brawler": {
+            "id": 16000086,
+            "name": "SHADE",
+            "power": 8,
+            "trophies": 514
+          }
+        },
+        {
+          "tag": "#2U8JGC8GLP",
+          "name": "SAF GROM",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 9,
+            "trophies": 428
+          }
+        },
+        {
+          "tag": "#QY88PR820",
+          "name": "alessio",
+          "brawler": {
+            "id": 16000077,
+            "name": "LARRY & LAWRIE",
+            "power": 4,
+            "trophies": 230
+          }
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260522T112624.000Z",
+    "event": {
+      "id": 15001023,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "In the Liminal"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 117,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#2PPCYPU",
+        "name": "Kima",
+        "brawler": {
+          "id": 16000073,
+          "name": "CHUCK",
+          "power": 1,
+          "trophies": 279
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 9,
+              "trophies": 266
+            }
+          },
+          {
+            "tag": "#2PPU0LU",
+            "name": "Nuggets",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 8,
+              "trophies": 251
+            }
+          },
+          {
+            "tag": "#2PPCYPU",
+            "name": "Kima",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 1,
+              "trophies": 279
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PPCLR8",
+            "name": "ⁱᵃᵐ |𝓑𝙡𝑢𝐞🦋",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 9,
+              "trophies": 273
+            }
+          },
+          {
+            "tag": "#2PPC8JP",
+            "name": "Ludovic",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 267
+            }
+          },
+          {
+            "tag": "#2PPJQGP",
+            "name": "xydro",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 8,
+              "trophies": 267
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260522T112852.000Z",
+    "event": {
+      "id": 15001023,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "In the Liminal"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 87,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#2U2CRJCVR2",
+        "name": "Cyberbelar",
+        "brawler": {
+          "id": 16000076,
+          "name": "KIT",
+          "power": 11,
+          "trophies": 925
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2U2CRJCVR2",
+            "name": "Cyberbelar",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 925
+            }
+          },
+          {
+            "tag": "#2QCUR8VU02",
+            "name": "Fanboy OG gamer",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1047
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 7,
+              "trophies": 513
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#20J008P",
+            "name": "Tiger1001",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 828
+            }
+          },
+          {
+            "tag": "#20J2980",
+            "name": "Netervey♡₂₁",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 809
+            }
+          },
+          {
+            "tag": "#20J0LRJ",
+            "name": "tsm myth",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 853
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
