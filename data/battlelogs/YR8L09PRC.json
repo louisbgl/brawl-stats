@@ -166430,5 +166430,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260522T145139.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 323,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2JLLJJQ8Y",
+        "name": "sebycol",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 713
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 9,
+              "trophies": 591
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 789
+            }
+          },
+          {
+            "tag": "#8V89VGCQY",
+            "name": "shadow",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 836
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RYP08289P",
+            "name": "🖤abby🖤",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1287
+            }
+          },
+          {
+            "tag": "#2JLLJJQ8Y",
+            "name": "sebycol",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 713
+            }
+          },
+          {
+            "tag": "#VGPGQC2Y",
+            "name": "chibrondor",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1382
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
