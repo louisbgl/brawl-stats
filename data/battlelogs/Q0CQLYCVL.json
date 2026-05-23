@@ -106540,5 +106540,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260523T222738.000Z",
+    "event": {
+      "id": 15000019,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Safe Zone"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 150,
+      "starPlayer": {
+        "tag": "#UULGL2P2",
+        "name": "Beau D’esting",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 9,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UUJ8JCYGJ",
+            "name": "Sonechka",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#UULGL2P2",
+            "name": "Beau D’esting",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 9,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2VQ8YQR20U",
+            "name": "عب الباسط",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RVGG9PRC2",
+            "name": "GTA 5",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#9VPG8GRVJ",
+            "name": "ICE |dimonsofr",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
