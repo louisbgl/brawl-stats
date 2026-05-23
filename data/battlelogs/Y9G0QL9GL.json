@@ -59779,5 +59779,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260523T203602.000Z",
+    "event": {
+      "id": 15001203,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Hyacinth House"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 98,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 488
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 488
+            }
+          },
+          {
+            "tag": "#20VU2Y90PV",
+            "name": "noamola",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 600
+            }
+          },
+          {
+            "tag": "#GRRRLVGJ9",
+            "name": "FlyBadzz",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 533
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9QQUP",
+            "name": "BigBossNam",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 617
+            }
+          },
+          {
+            "tag": "#2P9GPPG",
+            "name": "Reggie_Kray",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 9,
+              "trophies": 619
+            }
+          },
+          {
+            "tag": "#2P9Q8R8",
+            "name": "kuzco",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 9,
+              "trophies": 516
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260523T203950.000Z",
+    "event": {
+      "id": 15001203,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Hyacinth House"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 96,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2Y9YVCR209",
+        "name": "kikusia308",
+        "brawler": {
+          "id": 16000023,
+          "name": "LEON",
+          "power": 11,
+          "trophies": 916
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 486
+            }
+          },
+          {
+            "tag": "#2QC88RVPLU",
+            "name": "madmoon",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1247
+            }
+          },
+          {
+            "tag": "#2Y9YVCR209",
+            "name": "kikusia308",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 916
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9C2Q8",
+            "name": "LHOROSE",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 898
+            }
+          },
+          {
+            "tag": "#2P9RC98",
+            "name": "Luzubal",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 11,
+              "trophies": 895
+            }
+          },
+          {
+            "tag": "#2P9J9JG",
+            "name": "HugoSensei83",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 898
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
