@@ -72026,5 +72026,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260523T155500.000Z",
+    "event": {
+      "id": 15000019,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Safe Zone"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 101,
+      "starPlayer": {
+        "tag": "#2LPQJVYP2Q",
+        "name": "zhasulanov",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LPQJVYP2Q",
+            "name": "zhasulanov",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R8CR9J",
+            "name": "Johan🃏",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#R8CCUP",
+            "name": "Doc.",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#R8URGU",
+            "name": "Vyliam44",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260523T155939.000Z",
+    "event": {
+      "id": 15000132,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Center Stage"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 161,
+      "starPlayer": {
+        "tag": "#2CJGGUCL",
+        "name": "YsF76🥀🎩",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CJGGUCL",
+            "name": "YsF76🥀🎩",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#YJ29UV8JP",
+            "name": "SMP|𝑬𝒓𝒆𝒛🗽",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2U92RJVQ8C",
+            "name": "MAISIE SOMBRE",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 10,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#GVYPJCVYP",
+            "name": "MERUEM",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
