@@ -54705,5 +54705,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260523T105857.000Z",
+    "event": {
+      "id": 15000390,
+      "mode": "basketBrawl",
+      "modeId": 22,
+      "map": "Triple-Double"
+    },
+    "battle": {
+      "mode": "basketBrawl",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 133,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#2J2LR0YL",
+        "name": "???",
+        "brawler": {
+          "id": 16000096,
+          "name": "TRUNK",
+          "power": 11,
+          "trophies": 925
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GY0U9P000",
+            "name": "_.v4lia_.",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 8,
+              "trophies": 679
+            }
+          },
+          {
+            "tag": "#Y9G0J9PU9",
+            "name": "FUT|Edx",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 9,
+              "trophies": 387
+            }
+          },
+          {
+            "tag": "#2J2LR0YL",
+            "name": "???",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 11,
+              "trophies": 925
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8V9LJJ02",
+            "name": "LL|CHEF",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 563
+            }
+          },
+          {
+            "tag": "#GC08CJJPU",
+            "name": "Maisam",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 7,
+              "trophies": 250
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 632
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
