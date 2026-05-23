@@ -59412,5 +59412,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260523T192127.000Z",
+    "event": {
+      "id": 15000390,
+      "mode": "basketBrawl",
+      "modeId": 22,
+      "map": "Triple-Double"
+    },
+    "battle": {
+      "mode": "basketBrawl",
+      "type": "ranked",
+      "result": "draw",
+      "duration": 210,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000023,
+          "name": "LEON",
+          "power": 11,
+          "trophies": 610
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8J0J8CLCU",
+            "name": "Gergő",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 833
+            }
+          },
+          {
+            "tag": "#28JQQYPLQG",
+            "name": "Darth Maul",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 9,
+              "trophies": 784
+            }
+          },
+          {
+            "tag": "#GQPCYR08L",
+            "name": "Jedi|Szymon",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 10,
+              "trophies": 474
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LLGRR2LY2",
+            "name": "VIVIANsvj",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 693
+            }
+          },
+          {
+            "tag": "#288GGCR22G",
+            "name": "Orso Marsicano",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 623
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 610
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
