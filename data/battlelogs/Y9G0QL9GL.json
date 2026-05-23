@@ -59687,5 +59687,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260523T202839.000Z",
+    "event": {
+      "id": 15001203,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Hyacinth House"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 73,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#P9VCG8J8G",
+        "name": "CKW | Wolf⚡️",
+        "brawler": {
+          "id": 16000082,
+          "name": "BERRY",
+          "power": 11,
+          "trophies": 854
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 490
+            }
+          },
+          {
+            "tag": "#P9VCG8J8G",
+            "name": "CKW | Wolf⚡️",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 854
+            }
+          },
+          {
+            "tag": "#9JUL2QJ0Q",
+            "name": "KOZI BĄK2137",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 583
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YYLUQ2GU",
+            "name": "Droge_Aardappel",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 479
+            }
+          },
+          {
+            "tag": "#8PJQPG998",
+            "name": "g00ner67",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 810
+            }
+          },
+          {
+            "tag": "#20U0V0JRC",
+            "name": "scottex",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 438
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
