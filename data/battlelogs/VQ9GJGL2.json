@@ -71934,5 +71934,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260523T140118.000Z",
+    "event": {
+      "id": 15000548,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Out in the Open"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 110,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#QCU28CL82",
+        "name": "|BSIS|nckls",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1280
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#89VUJYPGG",
+            "name": "jerkiccu",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 750
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1193
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QCU28CL82",
+            "name": "|BSIS|nckls",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1280
+            }
+          },
+          {
+            "tag": "#2JU090V8JY",
+            "name": "НЕПОСЕДА МОРТИС",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1529
+            }
+          },
+          {
+            "tag": "#RYJCQC9VG",
+            "name": "ヒサメ",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 1688
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
