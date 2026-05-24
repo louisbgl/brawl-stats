@@ -73765,5 +73765,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260524T221145.000Z",
+    "event": {
+      "id": 15000440,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flaring Phoenix"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 96,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1034
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1034
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1223
+            }
+          },
+          {
+            "tag": "#2PULU2YGU",
+            "name": "hills",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1181
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PYPLGG",
+            "name": "LeRaccoon",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1136
+            }
+          },
+          {
+            "tag": "#2PYPJQL",
+            "name": "Zid",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1121
+            }
+          },
+          {
+            "tag": "#2PYPP00",
+            "name": "Lelazius",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 10,
+              "trophies": 1136
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
