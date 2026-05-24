@@ -108178,5 +108178,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260524T125603.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 130,
+      "starPlayer": {
+        "tag": "#2UYVVJLV00",
+        "name": "LL/ M15",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 9,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#RUVUCJ2CQ",
+            "name": "жировая складка",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#PQC20PYY0",
+            "name": "GXTARTINA",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UYVVJLV00",
+            "name": "LL/ M15",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2RVQQ92208",
+            "name": "sigma",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2LG2LJPQVJ",
+            "name": "TA |dokfu",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260524T125928.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 137,
+      "starPlayer": {
+        "tag": "#LQRVJ2U2",
+        "name": "ElRome❄️ᴷⁱˡˡᵧₒᵤ",
+        "brawler": {
+          "id": 16000092,
+          "name": "FINX",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#222LG9RGY",
+            "name": "Der_Apfel5000",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#Y9JRQUPR",
+            "name": "jul1an.00",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UG0Y2UY8J",
+            "name": "Твоя мамка",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#LQRVJ2U2",
+            "name": "ElRome❄️ᴷⁱˡˡᵧₒᵤ",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#22908GV9UQ",
+            "name": "henrydry",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
