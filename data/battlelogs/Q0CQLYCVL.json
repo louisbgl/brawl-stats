@@ -107905,5 +107905,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260524T010027.000Z",
+    "event": {
+      "id": 15000440,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flaring Phoenix"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 72,
+      "starPlayer": {
+        "tag": "#289PQ908V",
+        "name": "CHAMPION",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2YYJ0R29QJ",
+            "name": "XOO1G",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#298V80YUPG",
+            "name": "Ich bin dumm",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#289PQ908V",
+            "name": "CHAMPION",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#9Y98QUY8",
+            "name": "xder_Luis",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#JRLRJUCGQ",
+            "name": "carina🎀",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
