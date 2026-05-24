@@ -107996,5 +107996,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260524T113938.000Z",
+    "event": {
+      "id": 15000132,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Center Stage"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 67,
+      "starPlayer": {
+        "tag": "#2UU8L8G2V8",
+        "name": "za",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UU8L8G2V8",
+            "name": "za",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2CQQ8R88JR",
+            "name": "eren tekk",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 9,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GR9YL2VQG",
+            "name": "nathan",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2JQCQYCUPC",
+            "name": "сіріус",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#RQ2CGY0JG",
+            "name": "makaron",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260524T114201.000Z",
+    "event": {
+      "id": 15000703,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "New Horizons"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 61,
+      "starPlayer": {
+        "tag": "#RQYUV8VJR",
+        "name": "(A)",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C0V2JLQCR",
+            "name": "SHAHRAM",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#RQYUV8VJR",
+            "name": "(A)",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2L282V0RR9",
+            "name": "Mati_point",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2C2QG20J2Q",
+            "name": "huri",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 9,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#P0QVRRCQV",
+            "name": "𝓝𝓞𝓑𝓞𝓓𝓨",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
