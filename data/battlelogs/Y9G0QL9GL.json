@@ -60607,5 +60607,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260524T082743.000Z",
+    "event": {
+      "id": 0,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": null
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 92,
+      "starPlayer": {
+        "tag": "#2C0P9U28GR",
+        "name": "Sirius best",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 1063
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28G2JVLLLJ",
+            "name": "楔子|Clumsy🥀",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 383
+            }
+          },
+          {
+            "tag": "#L2Q20LPR8",
+            "name": "Vanzz",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 1040
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1009
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C0P9U28GR",
+            "name": "Sirius best",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1063
+            }
+          },
+          {
+            "tag": "#2LYPRV9UJY",
+            "name": "ezirkhan?",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#88GYUUG8R",
+            "name": "Giboo",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1028
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
