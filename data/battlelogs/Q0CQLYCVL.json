@@ -111744,5 +111744,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260525T192254.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 91,
+      "starPlayer": {
+        "tag": "#YY2C0QVU8",
+        "name": "egrosit ☻☻",
+        "brawler": {
+          "id": 16000000,
+          "name": "SHELLY",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9GVCJPPC0",
+            "name": "イマンツ|DárknèsS🩸",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#YY2C0QVU8",
+            "name": "egrosit ☻☻",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#QY298QQQ",
+            "name": "yodis",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#U2VR9QYQ",
+            "name": "Maury",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2C8J0PL2PL",
+            "name": "Armel_52",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
