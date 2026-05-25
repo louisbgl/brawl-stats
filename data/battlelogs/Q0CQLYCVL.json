@@ -112290,5 +112290,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260525T205643.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 157,
+      "starPlayer": {
+        "tag": "#2U2Q2UJL8",
+        "name": "domis2",
+        "brawler": {
+          "id": 16000023,
+          "name": "LEON",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#UVUG82JP",
+            "name": "dripsmontekapta",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2U2Q2UJL8",
+            "name": "domis2",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#8VCYPC2RP",
+            "name": "bl1ck🕷️",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#GGLJ0J0U8",
+            "name": "☠️нагибатор☠️",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#JUJJJ2GYG",
+            "name": "bobo420🌿",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260525T205825.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 39,
+      "starPlayer": {
+        "tag": "#2GJ9LPURL",
+        "name": "ṀŢẔ|ĦĕÐЯẶ",
+        "brawler": {
+          "id": 16000023,
+          "name": "LEON",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#89Q809V9",
+            "name": "Я БАРБОС",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2UR8CQU9J",
+            "name": "txlted henesy🗽",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2GJ9LPURL",
+            "name": "ṀŢẔ|ĦĕÐЯẶ",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VPV0GPL2",
+            "name": "Giann",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#20UU80Q0P",
+            "name": "stisni",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
