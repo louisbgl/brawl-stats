@@ -67049,5 +67049,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260525T165747.000Z",
+    "event": {
+      "id": 15000386,
+      "mode": "basketBrawl",
+      "modeId": 22,
+      "map": "Pocket Pass"
+    },
+    "battle": {
+      "mode": "basketBrawl",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#LUJ8YQUPY",
+        "name": "SK | Bogdan",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 9,
+          "trophies": 403
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y2YUPJ2CU",
+            "name": "er pippetto",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1056
+            }
+          },
+          {
+            "tag": "#2QU0JC9PQ8",
+            "name": "Wendy",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 9,
+              "trophies": 477
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 678
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LUJ8YQUPY",
+            "name": "SK | Bogdan",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 9,
+              "trophies": 403
+            }
+          },
+          {
+            "tag": "#P8PPYV9V",
+            "name": "javipapa10",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 10,
+              "trophies": 566
+            }
+          },
+          {
+            "tag": "#U0RUGUJ",
+            "name": "nicco",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1712
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
