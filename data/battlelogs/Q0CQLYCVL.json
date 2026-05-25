@@ -112199,5 +112199,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260525T200203.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 184,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8PCGYJ9GC",
+            "name": "bazox",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2R2JUYLQJQ",
+            "name": "Denis the PIG",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LPC8U0229",
+            "name": "MP|dusty",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2GYJ02VQQ",
+            "name": "макс3408",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#LP0YQPU8U",
+            "name": "Polat alemdar",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
