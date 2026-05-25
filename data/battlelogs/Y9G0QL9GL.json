@@ -66957,5 +66957,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260525T110736.000Z",
+    "event": {
+      "id": 15000386,
+      "mode": "basketBrawl",
+      "modeId": 22,
+      "map": "Pocket Pass"
+    },
+    "battle": {
+      "mode": "basketBrawl",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 35,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#2LJGGR9YGC",
+        "name": "code:Dildabek",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 9,
+          "trophies": 595
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QRV8PYL2P",
+            "name": "!!!!!!!!!!!!!!!",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 8,
+              "trophies": 385
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 667
+            }
+          },
+          {
+            "tag": "#2LJGGR9YGC",
+            "name": "code:Dildabek",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 595
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LQP0G0",
+            "name": "El Cucuy",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 8,
+              "trophies": 587
+            }
+          },
+          {
+            "tag": "#LQP98G",
+            "name": "IOSAVA23",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 9,
+              "trophies": 603
+            }
+          },
+          {
+            "tag": "#LQPUPG",
+            "name": "khomerikii",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 8,
+              "trophies": 623
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
