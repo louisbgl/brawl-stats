@@ -67141,5 +67141,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260525T170103.000Z",
+    "event": {
+      "id": 15000386,
+      "mode": "basketBrawl",
+      "modeId": 22,
+      "map": "Pocket Pass"
+    },
+    "battle": {
+      "mode": "basketBrawl",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "starPlayer": {
+        "tag": "#PG88J02QG",
+        "name": "🏴‍☠️LANOPIRAAT",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 9,
+          "trophies": 715
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 695
+            }
+          },
+          {
+            "tag": "#28RYL9GJQU",
+            "name": "tobi",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 8,
+              "trophies": 800
+            }
+          },
+          {
+            "tag": "#2RY2G8Y9PP",
+            "name": "Mojambo",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 9,
+              "trophies": 370
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JQL0U9LJU",
+            "name": "Maya_123",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 410
+            }
+          },
+          {
+            "tag": "#20VV8JGCUU",
+            "name": "zuk",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 1,
+              "trophies": 731
+            }
+          },
+          {
+            "tag": "#PG88J02QG",
+            "name": "🏴‍☠️LANOPIRAAT",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 9,
+              "trophies": 715
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
