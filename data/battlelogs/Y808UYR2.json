@@ -69338,5 +69338,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260525T212917.000Z",
+    "event": {
+      "id": 15000011,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Undermine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 98,
+      "starPlayer": {
+        "tag": "#G88PLU0V",
+        "name": "BECZKA TDP",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2J8RC0Y8Q",
+            "name": "Sky-Gianni",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#YGCVGPYY",
+            "name": "Groot",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G88PLU0V",
+            "name": "BECZKA TDP",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2G9C88LUGG",
+            "name": "_Iwan_🇵🇱",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#J0C2R9JV",
+            "name": "AMi",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 6
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
