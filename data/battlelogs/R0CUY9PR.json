@@ -35665,5 +35665,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260525T073607.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 23,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 1018
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y8GCJ9GRU",
+            "name": "EYMO<3",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 8,
+              "trophies": 223
+            }
+          },
+          {
+            "tag": "#LCGCGV028",
+            "name": "🎱力",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 10,
+              "trophies": 885
+            }
+          },
+          {
+            "tag": "#22VVL2CLRU",
+            "name": "|愛ᵖⁱᶜ𝑲𝑨𝑰𝑻𝑶",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 818
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJRPQQ28",
+            "name": "E F E C A N",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 10,
+              "trophies": 770
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 1018
+            }
+          },
+          {
+            "tag": "#CQYU0QY0",
+            "name": "GX+OS=SUPERPRO",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 706
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
