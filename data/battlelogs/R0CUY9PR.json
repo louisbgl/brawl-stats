@@ -35757,5 +35757,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260525T091616.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 50,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#9GY9RJ2C9",
+        "name": "KilikToy",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 10,
+          "trophies": 443
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GQ8RRJRJ9",
+            "name": "sun🧠",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 7,
+              "trophies": 232
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 1013
+            }
+          },
+          {
+            "tag": "#YUG22JR2P",
+            "name": "lukfragola717",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1295
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8GL9VC8U2",
+            "name": "picka_destroyer",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 749
+            }
+          },
+          {
+            "tag": "#9GY9RJ2C9",
+            "name": "KilikToy",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 10,
+              "trophies": 443
+            }
+          },
+          {
+            "tag": "#R8U0LLGP8",
+            "name": "ICE|Gh@st_BS",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 7,
+              "trophies": 587
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
