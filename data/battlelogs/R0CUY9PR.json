@@ -35573,5 +35573,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260525T072643.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 122,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 1185
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JLLL90VQ",
+            "name": "Sumy🇪🇬🦆",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1352
+            }
+          },
+          {
+            "tag": "#J082J2U8C",
+            "name": "clopo",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 2012
+            }
+          },
+          {
+            "tag": "#2Q0V2JQRR",
+            "name": "jiji.pilotu",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 2020
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1185
+            }
+          },
+          {
+            "tag": "#88L92VRCP",
+            "name": "Fleksyyy_🎶",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1925
+            }
+          },
+          {
+            "tag": "#PQYVLLP8V",
+            "name": "$&Arkady$&",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1657
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
