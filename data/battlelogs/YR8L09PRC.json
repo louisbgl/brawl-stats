@@ -169098,5 +169098,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260526T170036.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 126,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2Y8928LCJU",
+        "name": "YT : Ilyx_off",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 1831
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 673
+            }
+          },
+          {
+            "tag": "#2Y8928LCJU",
+            "name": "YT : Ilyx_off",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1831
+            }
+          },
+          {
+            "tag": "#2JRQY8JC",
+            "name": "FRODO",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 9,
+              "trophies": 900
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9LCL0",
+            "name": "Clementlpl",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 1121
+            }
+          },
+          {
+            "tag": "#2P9QQUP",
+            "name": "BigBossNam",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 1130
+            }
+          },
+          {
+            "tag": "#2P9Q9VL",
+            "name": "Onapritmonblaze",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 8,
+              "trophies": 1124
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
