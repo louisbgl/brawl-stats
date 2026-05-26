@@ -40357,5 +40357,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260526T113104.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 172,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 1409
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#282J99R20P",
+            "name": "⛩️Leͥgeͣnͫd🥀",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1997
+            }
+          },
+          {
+            "tag": "#YY809PYC",
+            "name": "Albe",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1543
+            }
+          },
+          {
+            "tag": "#89PC2GP8",
+            "name": "ibot",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1620
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1409
+            }
+          },
+          {
+            "tag": "#2CJ0RRV8UU",
+            "name": "(^.^)",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1456
+            }
+          },
+          {
+            "tag": "#QGV9YYJP",
+            "name": "alex",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1085
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
