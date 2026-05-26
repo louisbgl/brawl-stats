@@ -113200,5 +113200,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260526T120537.000Z",
+    "event": {
+      "id": 15000440,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flaring Phoenix"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 85,
+      "starPlayer": {
+        "tag": "#YRGGY9V8C",
+        "name": "lizzy_fan",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2J0CJUYU00",
+            "name": "moussinho",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2UP2VUQ9LR",
+            "name": "BOT3",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RYGY8GLU8",
+            "name": "Chocolaatje",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#YRGGY9V8C",
+            "name": "lizzy_fan",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#GQ82VCGLJ",
+            "name": "MF Martin⚽️☠️",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260526T121046.000Z",
+    "event": {
+      "id": 15000022,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Hideout"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 77,
+      "starPlayer": {
+        "tag": "#GJG0GUY0V",
+        "name": "𝑁𝑎𝑉𝑖|BS个シ︎",
+        "brawler": {
+          "id": 16000103,
+          "name": "NAJIA",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#GJG0GUY0V",
+            "name": "𝑁𝑎𝑉𝑖|BS个シ︎",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2C9GGGP2GL",
+            "name": "Flen",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YL2VC8U92",
+            "name": "чытир777",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2VPUURGPP2",
+            "name": "zax",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2J9UL0V8Q0",
+            "name": "Elox",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
