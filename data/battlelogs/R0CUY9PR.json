@@ -41369,5 +41369,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260526T190027.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 88,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#2RPPR8YQ2R",
+        "name": "JrHulk31",
+        "brawler": {
+          "id": 16000023,
+          "name": "LEON",
+          "power": 11,
+          "trophies": 1218
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1460
+            }
+          },
+          {
+            "tag": "#PGRGPU8QV",
+            "name": "guts🏞️",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 759
+            }
+          },
+          {
+            "tag": "#GV2JGLPV2",
+            "name": "wIz_arD",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1441
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RPPR8YQ2R",
+            "name": "JrHulk31",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1218
+            }
+          },
+          {
+            "tag": "#R2PU292C",
+            "name": "⛩️|Demon ツ",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 11,
+              "trophies": 1133
+            }
+          },
+          {
+            "tag": "#L999UQUPP",
+            "name": "🇵🇸saad🇵🇸",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1210
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
