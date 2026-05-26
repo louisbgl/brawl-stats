@@ -68059,5 +68059,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260526T090234.000Z",
+    "event": {
+      "id": 15000292,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Open Business"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 97,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#222PUU9V9P",
+        "name": "Pelinn",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 874
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GU0R0YVJG",
+            "name": "romey",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 10,
+              "trophies": 834
+            }
+          },
+          {
+            "tag": "#2UCGQJRJCG",
+            "name": "𝒜𝓃𝓃♡",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 1355
+            }
+          },
+          {
+            "tag": "#Y2GUQUCC8",
+            "name": "🌚Moon 🌙",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 9,
+              "trophies": 383
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RG0CJL2UR",
+            "name": "J. E. N. N",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 591
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 798
+            }
+          },
+          {
+            "tag": "#222PUU9V9P",
+            "name": "Pelinn",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 874
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
