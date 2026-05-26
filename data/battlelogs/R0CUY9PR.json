@@ -40449,5 +40449,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260526T142436.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 72,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2PRYYLJ8P",
+        "name": "ali_habibi2007",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 1380
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2PRYYLJ8P",
+            "name": "ali_habibi2007",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1380
+            }
+          },
+          {
+            "tag": "#2Q0GR9QRR",
+            "name": "KB | zee☭",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1306
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1401
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GGPC9J",
+            "name": "Giorgio",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 1334
+            }
+          },
+          {
+            "tag": "#GGPQPU",
+            "name": "Mahtu",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1331
+            }
+          },
+          {
+            "tag": "#GGPVUP",
+            "name": "Rodrick",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 10,
+              "trophies": 1341
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260526T142605.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 64,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#PGRRQ82G",
+        "name": "Reape",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 1077
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PGRRQ82G",
+            "name": "Reape",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1077
+            }
+          },
+          {
+            "tag": "#VYYPCCYQ",
+            "name": "Tasku",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1859
+            }
+          },
+          {
+            "tag": "#PG08JJ22",
+            "name": "MrRoma_2",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1418
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1411
+            }
+          },
+          {
+            "tag": "#Y9RC8GCR",
+            "name": "シ︎亗к︎я︎ιρт︎σ亗シ︎",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1079
+            }
+          },
+          {
+            "tag": "#9VLGUUCPY",
+            "name": "Cris ;)",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1208
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
