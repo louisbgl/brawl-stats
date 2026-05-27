@@ -71860,5 +71860,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260527T195817.000Z",
+    "event": {
+      "id": 15001019,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Streets with No Name"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 66,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Y8YP9QQV0",
+        "name": "agüita de coco",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 11,
+          "trophies": 372
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G099CC8C8",
+            "name": "SP4RKL3S",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 9,
+              "trophies": 384
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 6,
+              "trophies": 332
+            }
+          },
+          {
+            "tag": "#Y8YP9QQV0",
+            "name": "agüita de coco",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 372
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GR8R80",
+            "name": "AnnDeeR",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 8,
+              "trophies": 441
+            }
+          },
+          {
+            "tag": "#GR8Y98",
+            "name": "Duly",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 8,
+              "trophies": 388
+            }
+          },
+          {
+            "tag": "#GR98VJ",
+            "name": "URI",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 7,
+              "trophies": 364
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
