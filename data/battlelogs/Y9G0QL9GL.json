@@ -72320,5 +72320,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260527T204752.000Z",
+    "event": {
+      "id": 15000293,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Parallel Plays"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 64,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#8V0LG9PRC",
+        "name": "Sury8",
+        "brawler": {
+          "id": 16000089,
+          "name": "MEEPLE",
+          "power": 11,
+          "trophies": 1010
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8V0LG9PRC",
+            "name": "Sury8",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 1010
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 7,
+              "trophies": 321
+            }
+          },
+          {
+            "tag": "#LV9PR2QUQ",
+            "name": "Amelka",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 5,
+              "trophies": 382
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JUUJP",
+            "name": "Berry",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 643
+            }
+          },
+          {
+            "tag": "#JV00G",
+            "name": "Kewin",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 635
+            }
+          },
+          {
+            "tag": "#JU9GP",
+            "name": "Hagall",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 620
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
