@@ -169190,5 +169190,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260527T175810.000Z",
+    "event": {
+      "id": 15000082,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Layer Cake"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 102,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 1088
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1088
+            }
+          },
+          {
+            "tag": "#2LR820Y80C",
+            "name": "kristina9560",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1120
+            }
+          },
+          {
+            "tag": "#Q2YLGYUV9",
+            "name": "CZ KILLER",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JCPJYVQVJ",
+            "name": "noor0184",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1116
+            }
+          },
+          {
+            "tag": "#GV0RQPU8J",
+            "name": "QLS|TUPAE❤️",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 2060
+            }
+          },
+          {
+            "tag": "#RPP9U09R",
+            "name": "MadDog",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1235
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
