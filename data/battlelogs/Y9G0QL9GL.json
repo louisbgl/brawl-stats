@@ -72412,5 +72412,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260527T213312.000Z",
+    "event": {
+      "id": 15000293,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Parallel Plays"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 91,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#2CJLCUUVCQ",
+        "name": "rayan",
+        "brawler": {
+          "id": 16000006,
+          "name": "BARLEY",
+          "power": 11,
+          "trophies": 779
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GGCGL2P8Y",
+            "name": "НэтКом",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 8,
+              "trophies": 279
+            }
+          },
+          {
+            "tag": "#2CJLCUUVCQ",
+            "name": "rayan",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 779
+            }
+          },
+          {
+            "tag": "#82QUV0JL",
+            "name": "nastiic",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 6,
+              "trophies": 287
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 7,
+              "trophies": 332
+            }
+          },
+          {
+            "tag": "#2VLU9CRG9R",
+            "name": "BOZKURT",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 10,
+              "trophies": 791
+            }
+          },
+          {
+            "tag": "#2JPLP00QCU",
+            "name": "celaeck",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 989
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260527T213515.000Z",
+    "event": {
+      "id": 15000293,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Parallel Plays"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 80,
+      "trophyChange": 1,
+      "starPlayer": {
+        "tag": "#22VJPGYC",
+        "name": "yunusemre",
+        "brawler": {
+          "id": 16000076,
+          "name": "KIT",
+          "power": 11,
+          "trophies": 518
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#22VJPGYC",
+            "name": "yunusemre",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 518
+            }
+          },
+          {
+            "tag": "#PQGGYVQJU",
+            "name": "spaceghostpurrp",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 10,
+              "trophies": 983
+            }
+          },
+          {
+            "tag": "#2LGCCPCVRJ",
+            "name": "LORDIK🤫🤫",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 8,
+              "trophies": 314
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PPUC00PYC",
+            "name": "мистер та(блэт)",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 848
+            }
+          },
+          {
+            "tag": "#LR9GQ0UY",
+            "name": "милкша",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 9,
+              "trophies": 217
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 7,
+              "trophies": 344
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
