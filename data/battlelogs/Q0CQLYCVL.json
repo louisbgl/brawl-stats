@@ -113382,5 +113382,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260527T144559.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 108,
+      "starPlayer": {
+        "tag": "#PQVGL08LY",
+        "name": "[AU]_VoVchiK_",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CC8CU00CU",
+            "name": "Kringon",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#PQVGL08LY",
+            "name": "[AU]_VoVchiK_",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GUCU2PUUQ",
+            "name": "cuggei",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#20YCU9P8V",
+            "name": "F1ST0R",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#Y2U0YLJR",
+            "name": "ardlo",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
