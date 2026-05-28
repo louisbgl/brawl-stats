@@ -172609,5 +172609,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260528T213153.000Z",
+    "event": {
+      "id": 15001204,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Goalies"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 52,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 11,
+          "trophies": 1097
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1097
+            }
+          },
+          {
+            "tag": "#L89PRYCPP",
+            "name": "Sniper|Ozi🇹🇷",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 809
+            }
+          },
+          {
+            "tag": "#2CQPYY0JPY",
+            "name": "……",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1197
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PPL0UG",
+            "name": "Jesper",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1035
+            }
+          },
+          {
+            "tag": "#2PPLL2J",
+            "name": "iSnowz",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 9,
+              "trophies": 1047
+            }
+          },
+          {
+            "tag": "#2PPYVGP",
+            "name": "jujolulo",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1009
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
