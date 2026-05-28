@@ -71795,5 +71795,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260528T082923.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 97,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 369
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 369
+            }
+          },
+          {
+            "tag": "#G98280V2U",
+            "name": "tu na p",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 530
+            }
+          },
+          {
+            "tag": "#2ULUG9P9CU",
+            "name": "Сергiй репех",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CJVC90CJV",
+            "name": "THICK CARL",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 10,
+              "trophies": 724
+            }
+          },
+          {
+            "tag": "#Q82RGGJ0P",
+            "name": "KING ALBOZ🇦🇱",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2008
+            }
+          },
+          {
+            "tag": "#2L20Y89R0C",
+            "name": "Soni♤",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
