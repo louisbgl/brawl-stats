@@ -115612,5 +115612,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260528T170057.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 121,
+      "starPlayer": {
+        "tag": "#P9JJUJVQ9",
+        "name": "пузик фотобудко",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 13
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#P9JJUJVQ9",
+            "name": "пузик фотобудко",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#P9QV98U8",
+            "name": "Barsikok",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9U8Q9VPL",
+            "name": "DRACHOMEN",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#RUU99Q8VQ",
+            "name": "snickers",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#P808JY2PU",
+            "name": "Saterikk?kiss🫦",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
