@@ -73240,5 +73240,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260528T133140.000Z",
+    "event": {
+      "id": 15000403,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Stardust Storm"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 110,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000023,
+          "name": "LEON",
+          "power": 11,
+          "trophies": 1003
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9U22LQQ8C",
+            "name": "spisi .x",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 521
+            }
+          },
+          {
+            "tag": "#99RQJL2G8",
+            "name": "TTM|Polar👻",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 761
+            }
+          },
+          {
+            "tag": "#PGJY2Q2Y8",
+            "name": "Naz luca",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2R2JQLRRPR",
+            "name": "nik",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1029
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1003
+            }
+          },
+          {
+            "tag": "#282C2QY8Q0",
+            "name": "Isidora <3",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1054
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
