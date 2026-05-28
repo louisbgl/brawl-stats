@@ -73463,5 +73463,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260528T163927.000Z",
+    "event": {
+      "id": 15001247,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Please Remain Standing"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 147,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2GJVRUL2",
+        "name": "DeaD_KİLLeR",
+        "brawler": {
+          "id": 16000057,
+          "name": "JANET",
+          "power": 11,
+          "trophies": 1127
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2J80PC0GY",
+            "name": "<•ImPushing•>",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 1006
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 571
+            }
+          },
+          {
+            "tag": "#2GJVRUL2",
+            "name": "DeaD_KİLLeR",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 1127
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#20RCYGP",
+            "name": "IVictoryy",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 861
+            }
+          },
+          {
+            "tag": "#20RUYVL",
+            "name": "Stiffsock🧦",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 921
+            }
+          },
+          {
+            "tag": "#20RCRQ8",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 923
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
