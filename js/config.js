@@ -21,7 +21,6 @@ const GameConstants = {
     // These are excluded from collection stats and missing brawler calculations
     UNRELEASED_BRAWLERS: [
         "BOLT",
-        "STARR NOVA"
     ],
 
     // Power point costs to upgrade each level
