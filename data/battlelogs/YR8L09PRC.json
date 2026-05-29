@@ -172701,5 +172701,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260529T133804.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 137,
+      "starPlayer": {
+        "tag": "#89UJPY299",
+        "name": "Helios🥶🩵",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 717
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#89UJPY299",
+            "name": "Helios🥶🩵",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 717
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1113
+            }
+          },
+          {
+            "tag": "#L0G98PGPR",
+            "name": "Антон Чігур",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1093
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#28GYQVLYV2",
+            "name": "I’m a baddy123",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#82820C8VY",
+            "name": "Danil._07",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1037
+            }
+          },
+          {
+            "tag": "#GCY209JG",
+            "name": "нохчи",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1047
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260529T134629.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 97,
+      "starPlayer": {
+        "tag": "#GJ8PRP820",
+        "name": "Savaşçı",
+        "brawler": {
+          "id": 16000095,
+          "name": "ALLI",
+          "power": 11,
+          "trophies": 1010
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8QCCVRR00",
+            "name": "Ondriskoo3331",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#P8R8YYYY8",
+            "name": "Laluk_CZ",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1346
+            }
+          },
+          {
+            "tag": "#GJ8PRP820",
+            "name": "Savaşçı",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 1010
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 1330
+            }
+          },
+          {
+            "tag": "#90CQR9VL",
+            "name": "pascal psv1",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 10,
+              "trophies": 1006
+            }
+          },
+          {
+            "tag": "#80V0VYGR",
+            "name": "Yago",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
