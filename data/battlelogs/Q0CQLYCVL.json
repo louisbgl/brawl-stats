@@ -118426,5 +118426,178 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260529T174027.000Z",
+    "event": {
+      "id": 15000300,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Ring of Fire"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 65,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#PVUU0YQ82",
+            "name": "꧁꧂",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2L22VJGVC8",
+            "name": "RAYO",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#9GC9JJUCU",
+            "name": "DonDada",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JQGUJJU9",
+            "name": "Ayman-145",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#22CYU0PCGJ",
+            "name": "Dami",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260529T174209.000Z",
+    "event": {
+      "id": 15000300,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Ring of Fire"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 82,
+      "starPlayer": {
+        "tag": "#2L22VJGVC8",
+        "name": "RAYO",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 13
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PVUU0YQ82",
+            "name": "꧁꧂",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2L22VJGVC8",
+            "name": "RAYO",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#9GC9JJUCU",
+            "name": "DonDada",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JQGUJJU9",
+            "name": "Ayman-145",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#22CYU0PCGJ",
+            "name": "Dami",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
