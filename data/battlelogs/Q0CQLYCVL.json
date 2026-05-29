@@ -116596,5 +116596,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260528T233127.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 63,
+      "starPlayer": {
+        "tag": "#2UR8J8CP9L",
+        "name": "H̷A̷C̷K̷E̷R̷.",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1003
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0YUJCL98",
+            "name": "сима",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#9GUV92QQC",
+            "name": "ديكستر",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#L2VRJCGVL",
+            "name": "tiktok:xiamix66",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 9,
+              "trophies": 2065
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 525
+            }
+          },
+          {
+            "tag": "#2UR8J8CP9L",
+            "name": "H̷A̷C̷K̷E̷R̷.",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1003
+            }
+          },
+          {
+            "tag": "#2V9Q9VY8Y8",
+            "name": "биби лемон",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 1,
+              "trophies": 128
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260528T233247.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 31,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000010,
+          "name": "EL PRIMO",
+          "power": 11,
+          "trophies": 1001
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2299JYYG20",
+            "name": "sariita",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 641
+            }
+          },
+          {
+            "tag": "#C9PQ9VUVL",
+            "name": "puseikmana69",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 549
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1001
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JUPCY929G",
+            "name": "дура",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 10,
+              "trophies": 320
+            }
+          },
+          {
+            "tag": "#2VP0PPJJR0",
+            "name": "°~Alev~°",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#888YGGJR",
+            "name": "KoSTA",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1007
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
