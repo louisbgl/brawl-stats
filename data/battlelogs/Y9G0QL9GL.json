@@ -74751,5 +74751,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260529T104006.000Z",
+    "event": {
+      "id": 15000306,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Dueling Beetles"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "championshipChallenge",
+      "result": "defeat",
+      "duration": 68,
+      "starPlayer": {
+        "tag": "#PLVLGV9LC",
+        "name": "GP|Jacob™",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2CJ09VJ2UR",
+            "name": "TTM/APTEM",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2V8JJ8Y8JU",
+            "name": "xuвoшu",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CC9VR2JRY",
+            "name": "גאס",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#PLVLGV9LC",
+            "name": "GP|Jacob™",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#GG2QG9JQQ",
+            "name": "☬ᶜᴿᴬᶻᵞkíllєr☬",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
