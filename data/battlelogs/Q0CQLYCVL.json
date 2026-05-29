@@ -117233,5 +117233,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260529T145153.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 28,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 732
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RPPGYUP20",
+            "name": "꧁࿇ÐɑʀҟƑîʀɛ࿇꧂",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1419
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 732
+            }
+          },
+          {
+            "tag": "#8UG80PUPL",
+            "name": "X-ItzRealMe-X",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 426
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9C8GVQ2GQ",
+            "name": "ABUZİTTİN46",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 9,
+              "trophies": 493
+            }
+          },
+          {
+            "tag": "#GV9Y8JVU",
+            "name": "Zengin Peç",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 9,
+              "trophies": 460
+            }
+          },
+          {
+            "tag": "#9LQ2J0PV8",
+            "name": "Raiden",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 5,
+              "trophies": 219
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260529T145408.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 104,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#2V8JJURC",
+        "name": "Jandarma",
+        "brawler": {
+          "id": 16000023,
+          "name": "LEON",
+          "power": 11,
+          "trophies": 1005
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LGQY8U09G",
+            "name": "愛| ᶦ ᵃᵐNurs!个ツ",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 871
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 745
+            }
+          },
+          {
+            "tag": "#P9R0YVUR9",
+            "name": "тёмка()-_-",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 929
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V8JJURC",
+            "name": "Jandarma",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1005
+            }
+          },
+          {
+            "tag": "#Y8UYPGC9J",
+            "name": "sefamf",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 504
+            }
+          },
+          {
+            "tag": "#RPCU298Q",
+            "name": "Eren",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 513
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
