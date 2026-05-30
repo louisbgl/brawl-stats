@@ -73260,5 +73260,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260530T143339.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 43,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#2PP9GV8",
+        "name": "Aidan",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 10,
+          "trophies": 1258
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1052
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1150
+            }
+          },
+          {
+            "tag": "#Y2RUL8R8Q",
+            "name": "AS|Adri™",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1656
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PP9GV8",
+            "name": "Aidan",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 1258
+            }
+          },
+          {
+            "tag": "#2PP98YJ",
+            "name": "Alex",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1256
+            }
+          },
+          {
+            "tag": "#2PP9Y0P",
+            "name": "J-D_ALPHA",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1260
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

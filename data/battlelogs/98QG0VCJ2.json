@@ -247874,5 +247874,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260530T143143.000Z",
+    "event": {
+      "id": 15000011,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Undermine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 79,
+      "starPlayer": {
+        "tag": "#2U8LR8YGY",
+        "name": "lionel🇮🇹",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 11,
+          "trophies": 7
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2U8LR8YGY",
+            "name": "lionel🇮🇹",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#RQ00VP9C0",
+            "name": "egon",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#YY22J00VC",
+            "name": "Schiggi Dino",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#GJLQ9Y898",
+            "name": "ZORO",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 10,
+              "trophies": 11
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
