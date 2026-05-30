@@ -119728,5 +119728,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260530T210118.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 165,
+      "starPlayer": {
+        "tag": "#2RR2YUQU09",
+        "name": "jadoo",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 563
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 272
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 739
+            }
+          },
+          {
+            "tag": "#2VYYVG8R8R",
+            "name": "Shahi",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 9,
+              "trophies": 90
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QQPJU20LG",
+            "name": "~Mivi~",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 511
+            }
+          },
+          {
+            "tag": "#2RR2YUQU09",
+            "name": "jadoo",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 563
+            }
+          },
+          {
+            "tag": "#200Q22C2",
+            "name": "Shark",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 552
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
