@@ -80960,5 +80960,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260530T191305.000Z",
+    "event": {
+      "id": 15001249,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Arabesque"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 110,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#GJGQ2VPQL",
+        "name": "🔥 RF|Desilar💎",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 10,
+          "trophies": 216
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GJGQ2VPQL",
+            "name": "🔥 RF|Desilar💎",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 10,
+              "trophies": 216
+            }
+          },
+          {
+            "tag": "#2GRP9V9JYV",
+            "name": "RF|Madleh",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 8,
+              "trophies": 565
+            }
+          },
+          {
+            "tag": "#RYU9YLP9G",
+            "name": "GG_MURAD",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 8,
+              "trophies": 589
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#28R0C8Q0VQ",
+            "name": "Antonikura",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 612
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 652
+            }
+          },
+          {
+            "tag": "#8YG8ULCYP",
+            "name": "ATR_Blxir",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 780
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
