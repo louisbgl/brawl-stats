@@ -119546,5 +119546,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260530T205453.000Z",
+    "event": {
+      "id": 15000403,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Stardust Storm"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 153,
+      "starPlayer": {
+        "tag": "#2RUCRVR08U",
+        "name": "[SL]_Loukya🤫🥶",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 2010
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GCYRQ8VC",
+            "name": "rafaelmanzano",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1182
+            }
+          },
+          {
+            "tag": "#P02YQ9GUR",
+            "name": "батя В здании",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1138
+            }
+          },
+          {
+            "tag": "#2RUCRVR08U",
+            "name": "[SL]_Loukya🤫🥶",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 2010
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 437
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 466
+            }
+          },
+          {
+            "tag": "#2VQLY0Q0UJ",
+            "name": "TH|daibote",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 256
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260530T205742.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 105,
+      "starPlayer": {
+        "tag": "#Q9UYG29UR",
+        "name": "愛|𝐁𝐥𝐚𝐳𝐞 🐉",
+        "brawler": {
+          "id": 16000010,
+          "name": "EL PRIMO",
+          "power": 11,
+          "trophies": 2000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9QYUUCJJ",
+            "name": "Ins4no",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#2QPY9QQCL",
+            "name": "so29b",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 517
+            }
+          },
+          {
+            "tag": "#Q9UYG29UR",
+            "name": "愛|𝐁𝐥𝐚𝐳𝐞 🐉",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 272
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1001
+            }
+          },
+          {
+            "tag": "#2CRJRV828J",
+            "name": "гугу гага",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1048
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
