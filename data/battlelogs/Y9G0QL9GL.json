@@ -80408,5 +80408,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260530T170142.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 64,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#2PPQ9UP",
+        "name": "DarkLcs",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 11,
+          "trophies": 634
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 581
+            }
+          },
+          {
+            "tag": "#2PPQ29J",
+            "name": "Maxou81",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 9,
+              "trophies": 617
+            }
+          },
+          {
+            "tag": "#2PPQ9UP",
+            "name": "DarkLcs",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 634
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PPQQC8",
+            "name": "destrucstorm",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 555
+            }
+          },
+          {
+            "tag": "#2PPLGJP",
+            "name": "bastien",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 544
+            }
+          },
+          {
+            "tag": "#2PPLPCL",
+            "name": "Yume",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 10,
+              "trophies": 617
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260530T170411.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 63,
+      "trophyChange": 1,
+      "starPlayer": {
+        "tag": "#PLVYVCUGJ",
+        "name": "mowker vinger",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 626
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8L20UG0L2",
+            "name": "путь леги",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 577
+            }
+          },
+          {
+            "tag": "#2JQP9C2GLU",
+            "name": "Ronaldo",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 912
+            }
+          },
+          {
+            "tag": "#PLVYVCUGJ",
+            "name": "mowker vinger",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 626
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QL8L0U9LR",
+            "name": "Vellion",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 9,
+              "trophies": 540
+            }
+          },
+          {
+            "tag": "#2QV809RPLR",
+            "name": "π°™",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1009
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 593
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
