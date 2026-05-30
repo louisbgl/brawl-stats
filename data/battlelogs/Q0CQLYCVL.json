@@ -119118,5 +119118,87 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260530T162936.000Z",
+    "event": {
+      "id": 15000703,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "New Horizons"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 45,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#2RJRQRUULL",
+            "name": "216",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#QJ2QPQR",
+            "name": "Benyboy",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#LYP22U8QG",
+            "name": "ZARJ",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#YCQVQUJV2",
+            "name": "Ciao",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2UGLYC800U",
+            "name": "Yoyo",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
