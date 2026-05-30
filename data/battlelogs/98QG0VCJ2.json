@@ -245230,5 +245230,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260530T113214.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "championshipChallenge",
+      "result": "victory",
+      "duration": 115,
+      "trophyChange": 1,
+      "starPlayer": {
+        "tag": "#LL8PGQGJ",
+        "name": "ZL|§REDBULL§",
+        "brawler": {
+          "id": 16000089,
+          "name": "MEEPLE",
+          "power": 11,
+          "trophies": 703
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y0Y0GCPYY",
+            "name": "Bektaş",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 703
+            }
+          },
+          {
+            "tag": "#222YG0QJU9",
+            "name": "STMN|YuKii🍀",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 703
+            }
+          },
+          {
+            "tag": "#8G90GQYG",
+            "name": "salfetka",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 703
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 703
+            }
+          },
+          {
+            "tag": "#LL8PGQGJ",
+            "name": "ZL|§REDBULL§",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 703
+            }
+          },
+          {
+            "tag": "#LU222RQ29",
+            "name": "Lunacoco1401",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 703
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260530T113447.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "championshipChallenge",
+      "result": "defeat",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 803
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9LPQ8CGVY",
+            "name": "Treeb1х",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 801
+            }
+          },
+          {
+            "tag": "#2RLGUCRGU",
+            "name": "£xtazy",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 803
+            }
+          },
+          {
+            "tag": "#L0C2LRRVY",
+            "name": "𝐊𝐓𝐗|𝐎𝐬𝐢",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 802
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 803
+            }
+          },
+          {
+            "tag": "#2LQ9GLCQJ",
+            "name": "Urreaa",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 800
+            }
+          },
+          {
+            "tag": "#2LPGJPUQ9",
+            "name": "CU.Crak",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 800
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
