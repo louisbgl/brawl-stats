@@ -83365,5 +83365,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260531T135545.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 83,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#Y00J9GGYP",
+        "name": "MINO_ZETA",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 616
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 820
+            }
+          },
+          {
+            "tag": "#28YUQ88J8V",
+            "name": "[puRPle*]2013",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 437
+            }
+          },
+          {
+            "tag": "#Y00J9GGYP",
+            "name": "MINO_ZETA",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 616
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9G0YJ",
+            "name": "Floleboss",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 668
+            }
+          },
+          {
+            "tag": "#2P9GLV8",
+            "name": "Hugo",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 667
+            }
+          },
+          {
+            "tag": "#2P9QY9J",
+            "name": "❤️RemRem❤️",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 684
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260531T135846.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 132,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#9U2QRJLYY",
+        "name": "8man",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 11,
+          "trophies": 955
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8RRGGYYL8",
+            "name": "☬𝓜ศttŷᴷⁱˡˡᵧₒᵤ☬",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 615
+            }
+          },
+          {
+            "tag": "#JVJULYRU8",
+            "name": "PolishToast",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 311
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 836
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9U9Q8JQRV",
+            "name": "SPAJKE",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1138
+            }
+          },
+          {
+            "tag": "#LLVCJ0YVU",
+            "name": "eidofetezo",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 889
+            }
+          },
+          {
+            "tag": "#9U2QRJLYY",
+            "name": "8man",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 955
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
