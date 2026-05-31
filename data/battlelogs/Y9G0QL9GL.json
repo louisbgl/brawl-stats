@@ -85238,5 +85238,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260531T174348.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 87,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#808VRJVGG",
+        "name": "Inui🥀",
+        "brawler": {
+          "id": 16000089,
+          "name": "MEEPLE",
+          "power": 11,
+          "trophies": 992
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9CLLQ8Y",
+            "name": "Marina",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 895
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 497
+            }
+          },
+          {
+            "tag": "#9V8J8C2GL",
+            "name": "G2 m0NESY",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1287
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CP8VLVV2",
+            "name": "Bot 4",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 466
+            }
+          },
+          {
+            "tag": "#29GR9LP2C",
+            "name": "Emilien",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 451
+            }
+          },
+          {
+            "tag": "#808VRJVGG",
+            "name": "Inui🥀",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 992
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260531T174646.000Z",
+    "event": {
+      "id": 15000390,
+      "mode": "basketBrawl",
+      "modeId": 22,
+      "map": "Triple-Double"
+    },
+    "battle": {
+      "mode": "basketBrawl",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2CJ2PJ29U9",
+        "name": "michael jakson",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 11,
+          "trophies": 1244
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G2QQLJPQ",
+            "name": "Dr.MeHDi🖇️",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 10,
+              "trophies": 297
+            }
+          },
+          {
+            "tag": "#2CJ2PJ29U9",
+            "name": "michael jakson",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1244
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 495
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RYULL0JYV",
+            "name": "YouTube: Z3R0",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 405
+            }
+          },
+          {
+            "tag": "#2V2QG0QQQ8",
+            "name": "Nick882",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1966
+            }
+          },
+          {
+            "tag": "#UULQQLV8",
+            "name": "kent",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 471
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
