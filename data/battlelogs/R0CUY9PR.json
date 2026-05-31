@@ -71056,5 +71056,189 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260531T185208.000Z",
+    "event": {
+      "id": 15000306,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Dueling Beetles"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "championshipChallenge",
+      "result": "victory",
+      "duration": 67,
+      "trophyChange": 1,
+      "starPlayer": {
+        "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98GUPVQJ2",
+            "name": "Amss10",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 101
+            }
+          },
+          {
+            "tag": "#LRUQRU8UR",
+            "name": "géjac hule",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 100
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8UYCYY0YY",
+            "name": "Lay Lay",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 100
+            }
+          },
+          {
+            "tag": "#YRRL08GJ",
+            "name": "<c3>Altair</c>",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 103
+            }
+          },
+          {
+            "tag": "#YUC9PUPUV",
+            "name": "некит",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 101
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260531T185429.000Z",
+    "event": {
+      "id": 15000306,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Dueling Beetles"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "championshipChallenge",
+      "result": "victory",
+      "duration": 92,
+      "trophyChange": 1,
+      "starPlayer": {
+        "tag": "#LRUQRU8UR",
+        "name": "géjac hule",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 200
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LRUQRU8UR",
+            "name": "géjac hule",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 200
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 100
+            }
+          },
+          {
+            "tag": "#2RVQ88LUG9",
+            "name": "[ZETA] Пушер",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 201
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RR99JJUG",
+            "name": "Pączek.",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 202
+            }
+          },
+          {
+            "tag": "#LVLYRYGLP",
+            "name": "Avetisyan _14",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 201
+            }
+          },
+          {
+            "tag": "#98L9RYPU8",
+            "name": "DiversanT",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 202
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
