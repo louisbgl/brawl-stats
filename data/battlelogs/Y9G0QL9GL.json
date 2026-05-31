@@ -85054,5 +85054,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260531T171309.000Z",
+    "event": {
+      "id": 15001206,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Tuning Fork"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 104,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2QQ990UC8G",
+        "name": "Zuzuka",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 1022
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L00YJ9Y2C",
+            "name": "ceren",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 10,
+              "trophies": 513
+            }
+          },
+          {
+            "tag": "#2QQ990UC8G",
+            "name": "Zuzuka",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1022
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 500
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VGY9PP",
+            "name": "OZAN",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 10,
+              "trophies": 699
+            }
+          },
+          {
+            "tag": "#VGP0PG",
+            "name": "Canberk",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 10,
+              "trophies": 712
+            }
+          },
+          {
+            "tag": "#VGYPGG",
+            "name": "special_force",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 10,
+              "trophies": 736
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260531T171603.000Z",
+    "event": {
+      "id": 15001206,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Tuning Fork"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 143,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#J99QL9C8",
+        "name": "pippo",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 9,
+          "trophies": 774
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LLQG2PQ0J",
+            "name": "📡📡📡",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 9,
+              "trophies": 412
+            }
+          },
+          {
+            "tag": "#8PVJ8VYV9",
+            "name": "ээээль ПРИМО",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 619
+            }
+          },
+          {
+            "tag": "#2LYLQJYJ09",
+            "name": "imp\\edgar",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1702
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 510
+            }
+          },
+          {
+            "tag": "#J99QL9C8",
+            "name": "pippo",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 9,
+              "trophies": 774
+            }
+          },
+          {
+            "tag": "#9J8CYJC0P",
+            "name": "matei",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 651
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
