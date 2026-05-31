@@ -73352,5 +73352,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260531T190245.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2PY9QQJ",
+        "name": "lu",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 1008
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1047
+            }
+          },
+          {
+            "tag": "#UPUJLGGR",
+            "name": "v1ct0r",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 862
+            }
+          },
+          {
+            "tag": "#GLC9RLPUV",
+            "name": "_Timortel_",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1113
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PYP8RJ",
+            "name": "lucas",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1019
+            }
+          },
+          {
+            "tag": "#2PY9QQJ",
+            "name": "lu",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1008
+            }
+          },
+          {
+            "tag": "#2PY920P",
+            "name": "Portgas•D•Ace",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 979
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
