@@ -85789,5 +85789,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260531T203452.000Z",
+    "event": {
+      "id": 15001022,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Abracadabra"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 82,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#289RG2RPUG",
+        "name": "krrrrixwxaxa",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 10,
+          "trophies": 750
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9L2C8QCCV",
+            "name": "strawberry |spc",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 9,
+              "trophies": 521
+            }
+          },
+          {
+            "tag": "#LQ2LGJRR9",
+            "name": "kombo",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 9,
+              "trophies": 382
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 546
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2R0J2GR88R",
+            "name": "MOSCOW",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 603
+            }
+          },
+          {
+            "tag": "#YVJ2UV08Y",
+            "name": "ᵽɍɇsɨđɇnŧ",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 774
+            }
+          },
+          {
+            "tag": "#289RG2RPUG",
+            "name": "krrrrixwxaxa",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 10,
+              "trophies": 750
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260531T203754.000Z",
+    "event": {
+      "id": 15001178,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Hyperspace"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#YYJRQCR9",
+        "name": "apex oxemix ⚡️",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 7,
+          "trophies": 472
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 544
+            }
+          },
+          {
+            "tag": "#YYJRQCR9",
+            "name": "apex oxemix ⚡️",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 7,
+              "trophies": 472
+            }
+          },
+          {
+            "tag": "#2LQGQ8CPYU",
+            "name": "Slaxx☆",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 6,
+              "trophies": 399
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PY9GU0",
+            "name": "TheoDuj",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 491
+            }
+          },
+          {
+            "tag": "#2PY9PV8",
+            "name": "Tuturico",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 454
+            }
+          },
+          {
+            "tag": "#2PY8PG0",
+            "name": "KrayZer",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 10,
+              "trophies": 521
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
