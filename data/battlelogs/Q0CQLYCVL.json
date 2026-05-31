@@ -119819,5 +119819,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260531T123212.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#2CGL8CRUQL",
+        "name": "AKK",
+        "brawler": {
+          "id": 16000089,
+          "name": "MEEPLE",
+          "power": 11,
+          "trophies": 853
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CGL8CRUQL",
+            "name": "AKK",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 853
+            }
+          },
+          {
+            "tag": "#2QUGQQ0VGV",
+            "name": "code:TTT∆✓",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1069
+            }
+          },
+          {
+            "tag": "#2UVR0JQCPQ",
+            "name": "elkku 91",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1620
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 785
+            }
+          },
+          {
+            "tag": "#QLYVYG8R",
+            "name": "porcalamadoɲɲæ",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 2180
+            }
+          },
+          {
+            "tag": "#20LCCLCVG0",
+            "name": "il _ferra",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1383
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260531T123455.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 125,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2JR8PC9J0",
+        "name": "TheMightyLegned",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 481
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L0UPGJ8LJ",
+            "name": "Джон Гарик",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 9,
+              "trophies": 498
+            }
+          },
+          {
+            "tag": "#2JR8PC9J0",
+            "name": "TheMightyLegned",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 481
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 739
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G8YRQ8",
+            "name": "luca  ⠀",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 639
+            }
+          },
+          {
+            "tag": "#G8YYGP",
+            "name": "GX Elven_25",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 618
+            }
+          },
+          {
+            "tag": "#G8LGG0",
+            "name": "nekar",
+            "brawler": {
+              "id": 16000066,
+              "name": "R-T",
+              "power": 11,
+              "trophies": 626
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
