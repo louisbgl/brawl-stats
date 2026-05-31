@@ -120003,5 +120003,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260531T141349.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#QC9CVYL9R",
+        "name": "|TTM| <Gruhni>*",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 10,
+          "trophies": 780
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JJLYVYUJJ",
+            "name": "ethan",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1711
+            }
+          },
+          {
+            "tag": "#8P28Y2YPL",
+            "name": "illogical",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 502
+            }
+          },
+          {
+            "tag": "#LY2G0VY8R",
+            "name": "Surge",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1317
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 749
+            }
+          },
+          {
+            "tag": "#9GPYULC99",
+            "name": "☯️nulgal⚛",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#QC9CVYL9R",
+            "name": "|TTM| <Gruhni>*",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 10,
+              "trophies": 780
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
