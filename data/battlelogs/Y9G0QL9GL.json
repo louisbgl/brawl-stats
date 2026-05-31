@@ -81788,5 +81788,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260531T085248.000Z",
+    "event": {
+      "id": 15001249,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Arabesque"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 138,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#JGC08CJP",
+        "name": "TT|QeFiR4Ik",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 1537
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8GJ8P28L8",
+            "name": "Emir pro",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 9,
+              "trophies": 564
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 746
+            }
+          },
+          {
+            "tag": "#22U8GRLPU",
+            "name": "ibrx | ✬",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 715
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JGC08CJP",
+            "name": "TT|QeFiR4Ik",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 1537
+            }
+          },
+          {
+            "tag": "#GUCG0CYRC",
+            "name": "honza",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 695
+            }
+          },
+          {
+            "tag": "#2LCQ289QY8",
+            "name": "🇵🇱SURGE|PRO|",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 8,
+              "trophies": 518
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
