@@ -85973,5 +85973,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260601T085040.000Z",
+    "event": {
+      "id": 15001178,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Hyperspace"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 39,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#R8V8P9QYU",
+        "name": "PRO-SPACE☠️",
+        "brawler": {
+          "id": 16000023,
+          "name": "LEON",
+          "power": 11,
+          "trophies": 819
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9YYY2Y88",
+            "name": "george",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 270
+            }
+          },
+          {
+            "tag": "#R8V8P9QYU",
+            "name": "PRO-SPACE☠️",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 819
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 554
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JRPGUG",
+            "name": "GIANT BROLA🇬🇷",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 9,
+              "trophies": 537
+            }
+          },
+          {
+            "tag": "#JRPCQ8",
+            "name": "Varo",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 617
+            }
+          },
+          {
+            "tag": "#JRPUCL",
+            "name": "Xristos23A",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 11,
+              "trophies": 623
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
