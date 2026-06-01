@@ -73444,5 +73444,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260601T091821.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 97,
+      "starPlayer": {
+        "tag": "#J8RCP90VQ",
+        "name": "|•loniaksz•|🥀�",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2VLY2VP2R9",
+            "name": "baby safeti",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#J8RCP90VQ",
+            "name": "|•loniaksz•|🥀�",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L0R0RJ02Q",
+            "name": "SHILVARD pl",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2UV28UV0G0",
+            "name": "Киборг 3630",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2CPJPY02",
+            "name": "ほNL | Aizeи",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 11
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
