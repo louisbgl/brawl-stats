@@ -72026,5 +72026,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260601T183643.000Z",
+    "event": {
+      "id": 15001021,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Spiraling Out"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 32,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#GQ9ULLC9Q",
+        "name": "♣️flaverr🥷",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1413
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#800UVRP9Y",
+            "name": "Aboven",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1124
+            }
+          },
+          {
+            "tag": "#GQ9ULLC9Q",
+            "name": "♣️flaverr🥷",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1413
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1861
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GVR9QJ",
+            "name": "Muchacho_BoB228",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1438
+            }
+          },
+          {
+            "tag": "#GVJQCJ",
+            "name": "vladyslawwww",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1427
+            }
+          },
+          {
+            "tag": "#GVR89L",
+            "name": "Deadpool",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1443
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260601T183925.000Z",
+    "event": {
+      "id": 15001021,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Spiraling Out"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 135,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#2LGJQY2PLJ",
+        "name": "noob panda🐼🐼",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 1544
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LGJQY2PLJ",
+            "name": "noob panda🐼🐼",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1544
+            }
+          },
+          {
+            "tag": "#2YYC0CGJUL",
+            "name": "E_Ilyès69",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1622
+            }
+          },
+          {
+            "tag": "#YY8YU9CLQ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1135
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1871
+            }
+          },
+          {
+            "tag": "#2PR20GULCL",
+            "name": "Caleb",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1257
+            }
+          },
+          {
+            "tag": "#2Y8PC0RLQP",
+            "name": "Ridwan",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1860
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
