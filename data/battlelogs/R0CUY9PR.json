@@ -71934,5 +71934,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260601T180635.000Z",
+    "event": {
+      "id": 15001021,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Spiraling Out"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 78,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#98YJCUL99",
+        "name": "VFL",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 1070
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#888L02C9C",
+            "name": "King Nasir🙅🏿",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 826
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1871
+            }
+          },
+          {
+            "tag": "#GY2UYCCP0",
+            "name": "ağlama oyna",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98YJCUL99",
+            "name": "VFL",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1070
+            }
+          },
+          {
+            "tag": "#2URU8U0R92",
+            "name": "fear my delay💔",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 10,
+              "trophies": 2008
+            }
+          },
+          {
+            "tag": "#LYRLC8V0G",
+            "name": "1-й бот",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 2023
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
