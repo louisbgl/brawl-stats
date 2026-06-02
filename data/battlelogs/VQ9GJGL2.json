@@ -80635,5 +80635,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260602T182824.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 80,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#98P9YQV2L",
+        "name": "𓆩ȾĦҞ|✝️ƵɆꞤĪȾĦ✝",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 908
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JQV9PGURJ",
+            "name": "GX|omar",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 2150
+            }
+          },
+          {
+            "tag": "#2UPC28090U",
+            "name": "YT | SYM SYM★",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1445
+            }
+          },
+          {
+            "tag": "#98P9YQV2L",
+            "name": "𓆩ȾĦҞ|✝️ƵɆꞤĪȾĦ✝",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 908
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YUVQ80VJG",
+            "name": "anutz",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1087
+            }
+          },
+          {
+            "tag": "#GJU882UYU",
+            "name": "anaetare",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1019
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 864
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
