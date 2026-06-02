@@ -87351,5 +87351,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260602T152242.000Z",
+    "event": {
+      "id": 15001222,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Cabin Fever"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 148,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000035,
+          "name": "GALE",
+          "power": 11,
+          "trophies": 639
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8QCU8RURQ",
+            "name": "Nicoletta 97",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 514
+            }
+          },
+          {
+            "tag": "#JY0C22V9U",
+            "name": "MB|the king",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 7,
+              "trophies": 496
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 639
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G9QGU0",
+            "name": "••DST_Mastroo••",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 10,
+              "trophies": 612
+            }
+          },
+          {
+            "tag": "#G9LUYJ",
+            "name": "Federico",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 8,
+              "trophies": 539
+            }
+          },
+          {
+            "tag": "#G9QJ8P",
+            "name": "𝕭𝖊𝖑𝖎𝖆𝖑",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 10,
+              "trophies": 611
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
