@@ -87168,5 +87168,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260602T063157.000Z",
+    "event": {
+      "id": 15000386,
+      "mode": "basketBrawl",
+      "modeId": 22,
+      "map": "Pocket Pass"
+    },
+    "battle": {
+      "mode": "basketBrawl",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 126,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#Y0V00PQJY",
+        "name": "bodymassaj",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 506
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 642
+            }
+          },
+          {
+            "tag": "#8QGJ8JUY9",
+            "name": "DamianK112",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 404
+            }
+          },
+          {
+            "tag": "#PJVRVUVRR",
+            "name": "catman",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 9,
+              "trophies": 458
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V00VG0LJ0",
+            "name": "қазақстан",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 8,
+              "trophies": 262
+            }
+          },
+          {
+            "tag": "#2UC0L9G0QR",
+            "name": "ХОЛОДОЛЮБ ГРЕЙ",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 964
+            }
+          },
+          {
+            "tag": "#Y0V00PQJY",
+            "name": "bodymassaj",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 506
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260602T063447.000Z",
+    "event": {
+      "id": 15001221,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Tip Toe"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 143,
+      "starPlayer": {
+        "tag": "#2YCLPRG8UR",
+        "name": "🚽LONYX🗿",
+        "brawler": {
+          "id": 16000041,
+          "name": "LOU",
+          "power": 11,
+          "trophies": 297
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JR2YLLJC0",
+            "name": "Bernd das Brot",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 9,
+              "trophies": 793
+            }
+          },
+          {
+            "tag": "#JUCV8020Y",
+            "name": "Schokomann🍫",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 782
+            }
+          },
+          {
+            "tag": "#GU0QC9CCG",
+            "name": "superandrea10",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 713
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2YCLPRG8UR",
+            "name": "🚽LONYX🗿",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 297
+            }
+          },
+          {
+            "tag": "#LYUYGLRR0",
+            "name": "QLS|Zenith🎴",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 7,
+              "trophies": 242
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 639
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
