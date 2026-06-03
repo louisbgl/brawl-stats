@@ -75185,5 +75185,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260603T111615.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 319,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2GLGC0L088",
+        "name": "xMustafa22",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 11,
+          "trophies": 1571
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RVQR0CP8",
+            "name": "ibs",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1298
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 729
+            }
+          },
+          {
+            "tag": "#9L8LJVU8V",
+            "name": "BORZ-1",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 9,
+              "trophies": 1044
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PPUYLJV9G",
+            "name": "derryragno",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 682
+            }
+          },
+          {
+            "tag": "#2GLGC0L088",
+            "name": "xMustafa22",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1571
+            }
+          },
+          {
+            "tag": "#2JU0P2Q998",
+            "name": "GORLIWY BO",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 994
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
