@@ -75461,5 +75461,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260603T225050.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 328,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2LPR00G9VJ",
+        "name": "smithd",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 11,
+          "trophies": 704
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9GPP0RV9Q",
+            "name": "Vladek",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 9,
+              "trophies": 486
+            }
+          },
+          {
+            "tag": "#2LPR00G9VJ",
+            "name": "smithd",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 704
+            }
+          },
+          {
+            "tag": "#LV20PUQ0Q",
+            "name": "Vi.Britania",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 306
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GPLC0L0JY",
+            "name": "Nuni",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 545
+            }
+          },
+          {
+            "tag": "#L8998G22C",
+            "name": "Mils",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 7,
+              "trophies": 274
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 736
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
