@@ -81279,5 +81279,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260603T135754.000Z",
+    "event": {
+      "id": 15001058,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Think Ahead"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 46,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000086,
+          "name": "SHADE",
+          "power": 7,
+          "trophies": 119
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9L8ULYYY8",
+            "name": "pompe-mwaldars",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 4,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#Q2RJY2RU9",
+            "name": "LL|𝐒𝐚𝐤𝐮𝐝𝐨",
+            "brawler": {
+              "id": 16000066,
+              "name": "R-T",
+              "power": 1,
+              "trophies": 33
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 7,
+              "trophies": 119
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PPY0QL",
+            "name": "djivca",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 2,
+              "trophies": 50
+            }
+          },
+          {
+            "tag": "#2PPPLRJ",
+            "name": "VLF GuiGui",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 4,
+              "trophies": 64
+            }
+          },
+          {
+            "tag": "#2PPP8JU",
+            "name": "luap",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 3,
+              "trophies": 53
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260603T140001.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 66,
+      "starPlayer": {
+        "tag": "#2G20082J0R",
+        "name": "Elox",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CYQLGYYUQ",
+            "name": "ßøĵðłŋ",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2GPG8R9GQL",
+            "name": "YT|TIRED",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2G20082J0R",
+            "name": "Elox",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UU28GV2R0",
+            "name": "Мавол",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2V02QJCVP2",
+            "name": "pidiblud",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
