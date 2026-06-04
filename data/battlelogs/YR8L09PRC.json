@@ -181346,5 +181346,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260604T104851.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 231,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#8UU2JYY8C",
+        "name": "Mr. Todorovic",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1048
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R9VLJ8YL",
+            "name": "BrkePro",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 11,
+              "trophies": 887
+            }
+          },
+          {
+            "tag": "#8UU2JYY8C",
+            "name": "Mr. Todorovic",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1048
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1052
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JLJVUG9J",
+            "name": "Ezreal33",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1195
+            }
+          },
+          {
+            "tag": "#2LC2CY0PLR",
+            "name": "Rüzgar l BS",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1348
+            }
+          },
+          {
+            "tag": "#8VGLUL9Q",
+            "name": "makro",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1021
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
