@@ -88087,5 +88087,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260604T185002.000Z",
+    "event": {
+      "id": 15001203,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Hyacinth House"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 98,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#888J8GUUU",
+        "name": "MMK|XxLorisxX",
+        "brawler": {
+          "id": 16000031,
+          "name": "MR. P",
+          "power": 11,
+          "trophies": 508
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#889L8QQJ9",
+            "name": "Naz❤Hyra",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 739
+            }
+          },
+          {
+            "tag": "#989VV2JVJ",
+            "name": "im an airbender",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 406
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 688
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#888J8GUUU",
+            "name": "MMK|XxLorisxX",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 508
+            }
+          },
+          {
+            "tag": "#9LVCV8CGU",
+            "name": "spqr",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 668
+            }
+          },
+          {
+            "tag": "#L29G9JC02",
+            "name": "FUT|Ленниャ",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 319
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
