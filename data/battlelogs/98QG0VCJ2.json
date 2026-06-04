@@ -251826,5 +251826,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260604T100105.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 163,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#2L80GQPQQY",
+        "name": "モンキー🙊",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 1689
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L80GQPQQY",
+            "name": "モンキー🙊",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1689
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1142
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 1376
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#20PRQUQVQ",
+            "name": "☆wind☆",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1957
+            }
+          },
+          {
+            "tag": "#LYYYJYJ29",
+            "name": "ka_e",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1686
+            }
+          },
+          {
+            "tag": "#2QRVUY9GPQ",
+            "name": "ハタハタ",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1093
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
