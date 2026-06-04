@@ -124876,5 +124876,77 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260604T195914.000Z",
+    "event": {
+      "id": 15000861,
+      "mode": "brawlBall2v2",
+      "modeId": 49,
+      "map": "Lines of Play"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 32,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#8P20Y2L9V",
+        "name": "filippo",
+        "brawler": {
+          "id": 16000051,
+          "name": "ASH",
+          "power": 11,
+          "trophies": 915
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QRJ2YQ9RQ",
+            "name": "godeviolent",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 209
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 561
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8P20Y2L9V",
+            "name": "filippo",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 915
+            }
+          },
+          {
+            "tag": "#29JGCVQV8",
+            "name": "Mr.kaos7318",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 564
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
