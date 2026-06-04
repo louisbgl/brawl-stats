@@ -123589,5 +123589,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260604T100319.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 128,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2GVCPCGY28",
+        "name": "🇩🇪jelle🇩🇪",
+        "brawler": {
+          "id": 16000042,
+          "name": "BYRON",
+          "power": 11,
+          "trophies": 818
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YJJ98LGYJ",
+            "name": "DL|BORAN👑",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 436
+            }
+          },
+          {
+            "tag": "#YJV22YRQ8",
+            "name": "DRACOUUUU",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 489
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 781
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2J9YVCCYR0",
+            "name": "NEYMAR=GOAT🐐",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 7,
+              "trophies": 186
+            }
+          },
+          {
+            "tag": "#2GVCPCGY28",
+            "name": "🇩🇪jelle🇩🇪",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 818
+            }
+          },
+          {
+            "tag": "#QCGGRVC9J",
+            "name": "Мурзик✓|穆爾齊克✓",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 796
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
