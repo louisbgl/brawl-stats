@@ -81026,5 +81026,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260604T205257.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 97,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#RPRG98P88",
+        "name": "CODE : D03",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 793
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RPRG98P88",
+            "name": "CODE : D03",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 793
+            }
+          },
+          {
+            "tag": "#R90RJ8J2",
+            "name": "bounty hunter",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 489
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 1016
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9YR0C9UPJ",
+            "name": "kevin",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 214
+            }
+          },
+          {
+            "tag": "#2J2JJP22JL",
+            "name": "lebron",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 308
+            }
+          },
+          {
+            "tag": "#9YV8RR0RV",
+            "name": "big thor",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 838
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
