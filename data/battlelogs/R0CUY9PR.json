@@ -81118,5 +81118,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260605T134345.000Z",
+    "event": {
+      "id": 15001053,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sidetrack"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 74,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#9G0J2G29",
+        "name": "⛩️D0mY-_-S0lo🍃",
+        "brawler": {
+          "id": 16000067,
+          "name": "WILLOW",
+          "power": 11,
+          "trophies": 688
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9PL2CQ9C8",
+            "name": "Brawl Lion",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1972
+            }
+          },
+          {
+            "tag": "#8RLJLY0YR",
+            "name": "killstreak",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 867
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 876
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98CV0G08P",
+            "name": "GX_Sandali",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 739
+            }
+          },
+          {
+            "tag": "#9G0J2G29",
+            "name": "⛩️D0mY-_-S0lo🍃",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 11,
+              "trophies": 688
+            }
+          },
+          {
+            "tag": "#YPRP0GYJ",
+            "name": "@fpp_zz😼",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 938
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
