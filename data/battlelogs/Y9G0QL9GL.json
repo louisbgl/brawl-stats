@@ -89927,5 +89927,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260605T133744.000Z",
+    "event": {
+      "id": 15001249,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Arabesque"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 147,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#GQQU2GRCG",
+        "name": "NehorayTheking",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 11,
+          "trophies": 1201
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UQ9L9VJYJ",
+            "name": "riska tv",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1087
+            }
+          },
+          {
+            "tag": "#2QL0UUU8U2",
+            "name": "➳ᴹᴿ᭄𝓢𝓪𝓪𝓻❤乂",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 722
+            }
+          },
+          {
+            "tag": "#GQQU2GRCG",
+            "name": "NehorayTheking",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1201
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#UG0P08RPQ",
+            "name": "🇬🇪 doberguja",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 488
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 842
+            }
+          },
+          {
+            "tag": "#GVQCGGY20",
+            "name": "İTF|TSUNAMİ|¥",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 566
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
