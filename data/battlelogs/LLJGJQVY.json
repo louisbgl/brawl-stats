@@ -277668,5 +277668,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260605T100740.000Z",
+    "event": {
+      "id": 15000160,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Field Goal"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 56,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#8L8V8J9J2",
+        "name": "JC |Oskxr",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 2000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8L8V8J9J2",
+            "name": "JC |Oskxr",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#80Y8YGY8G",
+            "name": "ProBaba",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1902
+            }
+          },
+          {
+            "tag": "#Q209JRQQU",
+            "name": "Kittyy☁️",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P20UJQRRL",
+            "name": "Yonatanoo2244",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2007
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1374
+            }
+          },
+          {
+            "tag": "#RYUGL2RRJ",
+            "name": "blue label",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2016
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
