@@ -182909,5 +182909,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260605T185228.000Z",
+    "event": {
+      "id": 15001053,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sidetrack"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 144,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000053,
+          "name": "LOLA",
+          "power": 11,
+          "trophies": 1076
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9JLU080C0",
+            "name": "David_26",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 880
+            }
+          },
+          {
+            "tag": "#UYQC0JYR",
+            "name": "regele👑",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 818
+            }
+          },
+          {
+            "tag": "#C008LPL",
+            "name": "愛|KYAMI🐉",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 575
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 1076
+            }
+          },
+          {
+            "tag": "#2LQGJ0RJCJ",
+            "name": "<JOKER🇦🇿>",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 584
+            }
+          },
+          {
+            "tag": "#8PJR9PVCP",
+            "name": "el caa",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1767
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
