@@ -279875,5 +279875,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260605T124220.000Z",
+    "event": {
+      "id": 15001053,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sidetrack"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 163,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 1267
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9LR92R882",
+            "name": "𝐀𝐇𝐌𝐄𝐓 |자가",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1239
+            }
+          },
+          {
+            "tag": "#90L0P9V8J",
+            "name": "Marksus",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1486
+            }
+          },
+          {
+            "tag": "#GUG9RPQJC",
+            "name": "ШКОЛЬНИК",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1915
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PQLRYYVLJ",
+            "name": "APX|Crac💥",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 2014
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1267
+            }
+          },
+          {
+            "tag": "#R9RC99YRY",
+            "name": "(●●)trunk|tuff",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 2040
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
