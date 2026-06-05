@@ -88823,5 +88823,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260605T061705.000Z",
+    "event": {
+      "id": 15001203,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Hyacinth House"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 116,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#LGPYRRVVL",
+        "name": "🐺🐺",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 716
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LVVYP2R9",
+            "name": "DarkOni11",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 10,
+              "trophies": 458
+            }
+          },
+          {
+            "tag": "#8PJVQ2QCQ",
+            "name": "EL-TONY",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 10,
+              "trophies": 556
+            }
+          },
+          {
+            "tag": "#2JYP9Y00JR",
+            "name": "ᴜʀᴀɢᴀɴ 亗",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 528
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LGPYRRVVL",
+            "name": "🐺🐺",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 716
+            }
+          },
+          {
+            "tag": "#2GGR2RVY9L",
+            "name": "banfa",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 799
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 757
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
