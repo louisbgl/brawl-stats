@@ -86637,5 +86637,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260606T120225.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 107,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#PUC2PG2UJ",
+        "name": "CZ|Zouvi",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 975
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PUC2PG2UJ",
+            "name": "CZ|Zouvi",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 975
+            }
+          },
+          {
+            "tag": "#2L29PC0GGU",
+            "name": "ZGG|Reverse",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 390
+            }
+          },
+          {
+            "tag": "#2G809L2YGR",
+            "name": "hacker2.0",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 600
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CVGCU9VL",
+            "name": "😈_san4ka_😈",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 9,
+              "trophies": 334
+            }
+          },
+          {
+            "tag": "#RC08PQRUG",
+            "name": "DYX|CORDECLIUS",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 8,
+              "trophies": 388
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 1052
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
