@@ -90019,5 +90019,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260606T101827.000Z",
+    "event": {
+      "id": 15001178,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Hyperspace"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 98,
+      "starPlayer": {
+        "tag": "#PPQ0QV0R0",
+        "name": "bz3ek",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 508
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2G8L2UJPVP",
+            "name": "Juntahass66",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 455
+            }
+          },
+          {
+            "tag": "#PPQ0QV0R0",
+            "name": "bz3ek",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 508
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 838
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#20JC0P0",
+            "name": "Sigma Boy🤫🤫",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 548
+            }
+          },
+          {
+            "tag": "#20JJ298",
+            "name": "༺Leͥgeͣnͫd༻ᴳᵒᵈ",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 640
+            }
+          },
+          {
+            "tag": "#20JJ9CJ",
+            "name": "Daytona",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 548
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
