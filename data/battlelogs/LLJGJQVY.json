@@ -285450,5 +285450,137 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260606T141934.000Z",
+    "event": {
+      "id": 15000639,
+      "mode": "brawlBall5V5",
+      "modeId": 32,
+      "map": "Great waves"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 81,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 1046
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LCPCPUCUQ",
+            "name": "M1NUS",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 1593
+            }
+          },
+          {
+            "tag": "#LGC0GV99Q",
+            "name": "✝️Agos98✝️",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1613
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1046
+            }
+          },
+          {
+            "tag": "#8RRQJ88C8",
+            "name": "👑 Wiktor 👑",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1152
+            }
+          },
+          {
+            "tag": "#RVCRVVPUU",
+            "name": "elorelo",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2016
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2Y8UGYVRV",
+            "name": "༺Å𝕝𝒑ḭxᴮᵒˢˢ🥀༻",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1201
+            }
+          },
+          {
+            "tag": "#2RCGPGP0UY",
+            "name": "Eko",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 10,
+              "trophies": 276
+            }
+          },
+          {
+            "tag": "#9L2JR8JQV",
+            "name": "yushiffff",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1027
+            }
+          },
+          {
+            "tag": "#2Q0JU9UYQY",
+            "name": "Wastug.1🤍",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 470
+            }
+          },
+          {
+            "tag": "#PLYGVPG08",
+            "name": "dwayn.1🤍",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 617
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
