@@ -90477,5 +90477,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260606T175459.000Z",
+    "event": {
+      "id": 15001178,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Hyperspace"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 136,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000035,
+          "name": "GALE",
+          "power": 11,
+          "trophies": 881
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 881
+            }
+          },
+          {
+            "tag": "#2JVJ9J9VVJ",
+            "name": "🇦🇿Гара бах",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 9,
+              "trophies": 556
+            }
+          },
+          {
+            "tag": "#JL80P8JPR",
+            "name": "HüseyinBabaPro",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 563
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R9Y0GRVQC",
+            "name": "Emily",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 124
+            }
+          },
+          {
+            "tag": "#2J0VC9Q29J",
+            "name": "SALAMINO23",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1836
+            }
+          },
+          {
+            "tag": "#9GYLGGLUC",
+            "name": "Asia_03",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1529
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260606T175640.000Z",
+    "event": {
+      "id": 15001178,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Hyperspace"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 71,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#9VJYR0V9V",
+        "name": "🇹🇷CANER🇹🇷",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 10,
+          "trophies": 489
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GYUJRYQV",
+            "name": "Eymen",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 4,
+              "trophies": 182
+            }
+          },
+          {
+            "tag": "#9VJYR0V9V",
+            "name": "🇹🇷CANER🇹🇷",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 489
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 877
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VLUVUP",
+            "name": "Heat Wave",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 10,
+              "trophies": 559
+            }
+          },
+          {
+            "tag": "#VLVR0P",
+            "name": "alpy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 8,
+              "trophies": 532
+            }
+          },
+          {
+            "tag": "#VLV9C8",
+            "name": "Efece🍓🍒🎀",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 8,
+              "trophies": 556
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
