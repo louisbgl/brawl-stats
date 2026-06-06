@@ -127402,5 +127402,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260606T215537.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 38,
+      "trophyChange": 8,
+      "starPlayer": {
+        "tag": "#8L02C8CCP",
+        "name": "bale10🇧🇷",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 11,
+          "trophies": 2047
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YYYLRLV9P",
+            "name": "arwad~44°",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 757
+            }
+          },
+          {
+            "tag": "#GJUG0802",
+            "name": "Arkan",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 8,
+              "trophies": 810
+            }
+          },
+          {
+            "tag": "#RL9UUCJGP",
+            "name": "hsnmkdd",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1036
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8L02C8CCP",
+            "name": "bale10🇧🇷",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 2047
+            }
+          },
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#2LC2VJVQU",
+            "name": "mewtone",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1505
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260606T215746.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 102,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#92GRJGRQU",
+        "name": "水|Arvoid🍥",
+        "brawler": {
+          "id": 16000094,
+          "name": "KAZE",
+          "power": 11,
+          "trophies": 952
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0RQ9QRJ9",
+            "name": "КМ | kanadzuki☆",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 10,
+              "trophies": 912
+            }
+          },
+          {
+            "tag": "#PG9L9QGV2",
+            "name": "Foorte",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 9,
+              "trophies": 792
+            }
+          },
+          {
+            "tag": "#92GRJGRQU",
+            "name": "水|Arvoid🍥",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 952
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 2008
+            }
+          },
+          {
+            "tag": "#8L02C8CCP",
+            "name": "bale10🇧🇷",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 2055
+            }
+          },
+          {
+            "tag": "#2LC2VJVQU",
+            "name": "mewtone",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1517
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
