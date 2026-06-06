@@ -133924,5 +133924,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260606T185530.000Z",
+    "event": {
+      "id": 15000548,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Out in the Open"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 101,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#88JLLJUJ2",
+        "name": "˗ˏˋ radha ˎˊ˗",
+        "brawler": {
+          "id": 16000103,
+          "name": "NAJIA",
+          "power": 11,
+          "trophies": 957
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#80R22CV0V",
+            "name": "CLAUDIX🐾",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 9,
+              "trophies": 833
+            }
+          },
+          {
+            "tag": "#GGYU0VQCR",
+            "name": "nnnnn💗",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 418
+            }
+          },
+          {
+            "tag": "#88JLLJUJ2",
+            "name": "˗ˏˋ radha ˎˊ˗",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 957
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 267
+            }
+          },
+          {
+            "tag": "#2CRV8JYRGJ",
+            "name": "MYSTIX myla",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 860
+            }
+          },
+          {
+            "tag": "#28LG0JRCJ8",
+            "name": "juan",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 595
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
