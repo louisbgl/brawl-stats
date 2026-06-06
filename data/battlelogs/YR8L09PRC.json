@@ -183369,5 +183369,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260606T110032.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 61,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 1,
+          "trophies": 46
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 1,
+              "trophies": 46
+            }
+          },
+          {
+            "tag": "#C9JYQCPG",
+            "name": "Papa W",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 8,
+              "trophies": 59
+            }
+          },
+          {
+            "tag": "#RGG8YPJGQ",
+            "name": "Nabil.lkh-2013",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 1,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PPQY8G",
+            "name": "Vitom",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 1,
+              "trophies": 22
+            }
+          },
+          {
+            "tag": "#2PPL9Q8",
+            "name": "FOX",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 1,
+              "trophies": 34
+            }
+          },
+          {
+            "tag": "#2PPLL2J",
+            "name": "iSnowz",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 1,
+              "trophies": 41
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
