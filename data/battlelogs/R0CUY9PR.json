@@ -89856,5 +89856,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260606T173433.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 25,
+      "starPlayer": {
+        "tag": "#JCQCVCC2G",
+        "name": "ZOKTAYCILAR BEN",
+        "brawler": {
+          "id": 16000049,
+          "name": "BUZZ",
+          "power": 11,
+          "trophies": 905
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 616
+            }
+          },
+          {
+            "tag": "#2V2JGC20C9",
+            "name": "ЗАДИРА МЭНДИ",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 10,
+              "trophies": 664
+            }
+          },
+          {
+            "tag": "#PYYGQ8PL8",
+            "name": "[BF]London",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1110
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LVLQUGUP9",
+            "name": "pappo",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1586
+            }
+          },
+          {
+            "tag": "#JCQCVCC2G",
+            "name": "ZOKTAYCILAR BEN",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 905
+            }
+          },
+          {
+            "tag": "#VV2J09V",
+            "name": "Em1lzzs",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 779
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260606T173607.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 68,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#R09LLRJRR",
+        "name": "ᨖⱠσrd_Z͛αppʎ♕⫸",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 11,
+          "trophies": 1310
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CJ88J8PU8",
+            "name": "Nospa21",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 766
+            }
+          },
+          {
+            "tag": "#280PJPPLJQ",
+            "name": "pater",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 952
+            }
+          },
+          {
+            "tag": "#28PR2YVRLR",
+            "name": "MAJLIND-4:20",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 624
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LR8890P2L",
+            "name": "MR.Perníček",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1173
+            }
+          },
+          {
+            "tag": "#R09LLRJRR",
+            "name": "ᨖⱠσrd_Z͛αppʎ♕⫸",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1310
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
