@@ -93136,5 +93136,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260607T082618.000Z",
+    "event": {
+      "id": 15001178,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Hyperspace"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 40,
+      "trophyChange": 21,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 590
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LVLPRCCUY",
+            "name": "sophie regen",
+            "brawler": {
+              "id": 16000090,
+              "name": "OLLIE",
+              "power": 4,
+              "trophies": 108
+            }
+          },
+          {
+            "tag": "#G28CVVYQU",
+            "name": "Daàmn🤍Lucki🗽",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 9,
+              "trophies": 688
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 590
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#20RV8YJ",
+            "name": "Paul",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 10,
+              "trophies": 477
+            }
+          },
+          {
+            "tag": "#20RVLPG",
+            "name": "Ebos",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 506
+            }
+          },
+          {
+            "tag": "#20RUULU",
+            "name": "jamii⚡️",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 9,
+              "trophies": 489
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
