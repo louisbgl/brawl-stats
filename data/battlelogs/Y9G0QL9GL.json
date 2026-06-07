@@ -92676,5 +92676,97 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260607T065138.000Z",
+    "event": {
+      "id": 15000054,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Canal Grande"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 65,
+      "trophyChange": 1,
+      "starPlayer": {
+        "tag": "#2PY20P0",
+        "name": "ChenReynard",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 792
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GCJPYGQ2J",
+            "name": "etoine",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 1030
+            }
+          },
+          {
+            "tag": "#YJ2RURUJ8",
+            "name": "PRO OYUNCU",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 672
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 589
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PY2G2J",
+            "name": "𝒿𝓊𝓅𝒾𝓉𝑒𝓇",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 734
+            }
+          },
+          {
+            "tag": "#2PY0JY8",
+            "name": "Nicomouk",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 777
+            }
+          },
+          {
+            "tag": "#2PY20P0",
+            "name": "ChenReynard",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 792
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
