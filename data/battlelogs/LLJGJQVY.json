@@ -285950,5 +285950,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260607T115849.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 103,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000092,
+          "name": "FINX",
+          "power": 11,
+          "trophies": 1080
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1138
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 11,
+              "trophies": 1080
+            }
+          },
+          {
+            "tag": "#PPQGQC8G8",
+            "name": "£ungle",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1719
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JU8RJRGG0",
+            "name": "🧊|Neptune|🧊",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1885
+            }
+          },
+          {
+            "tag": "#RV888L9JQ",
+            "name": "🥀I am Sorry🥀",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1048
+            }
+          },
+          {
+            "tag": "#JVQ282GY",
+            "name": "Lukactus",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1177
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
