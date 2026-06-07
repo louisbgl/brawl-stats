@@ -46353,5 +46353,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260607T133153.000Z",
+    "event": {
+      "id": 15000440,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flaring Phoenix"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 121,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#JJ8P8URQC",
+        "name": "JOEL | Orbova",
+        "brawler": {
+          "id": 16000036,
+          "name": "NANI",
+          "power": 10,
+          "trophies": 915
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LRLC08CRG",
+            "name": "WLK|Frezius☔",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1199
+            }
+          },
+          {
+            "tag": "#2Q2GLR9V",
+            "name": "EMC|Twiti🌺",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1265
+            }
+          },
+          {
+            "tag": "#82VQU9G80",
+            "name": "Tazz",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1070
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 10,
+              "trophies": 915
+            }
+          },
+          {
+            "tag": "#8JVV8L9UR",
+            "name": "Matthieu",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1061
+            }
+          },
+          {
+            "tag": "#Y8UGG0PGL",
+            "name": "jorge patatas",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 2016
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
