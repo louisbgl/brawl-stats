@@ -80387,5 +80387,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260607T230510.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 297,
+      "starPlayer": {
+        "tag": "#PG8GRC029",
+        "name": "txlted kosma<3",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 735
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 434
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 694
+            }
+          },
+          {
+            "tag": "#PG8GRC029",
+            "name": "txlted kosma<3",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 735
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G9YQ9PPP",
+            "name": "TER_PILA",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 764
+            }
+          },
+          {
+            "tag": "#2CL9P2G00G",
+            "name": "вечно_молодой",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1726
+            }
+          },
+          {
+            "tag": "#P9L90RCRV",
+            "name": "kaliberda",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 1040
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
