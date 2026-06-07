@@ -183829,5 +183829,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260607T083459.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 130,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2GRR2JCYJ",
+        "name": "ӄʍ2_36ʐ",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 471
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#222QYUU2G",
+            "name": "KB NUEVE",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 501
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 9,
+              "trophies": 569
+            }
+          },
+          {
+            "tag": "#2GRR2JCYJ",
+            "name": "ӄʍ2_36ʐ",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 471
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q2UL2UCP2",
+            "name": "『mily|milosz🐸』",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 843
+            }
+          },
+          {
+            "tag": "#RPP20U9PL",
+            "name": "buddha",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 569
+            }
+          },
+          {
+            "tag": "#8LLL2YQY2",
+            "name": "¥}*$•/Suprime",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1055
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260607T084057.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 25,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#9LY899VV8",
+        "name": "Erasmooose",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 10,
+          "trophies": 766
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9LY899VV8",
+            "name": "Erasmooose",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 10,
+              "trophies": 766
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 9,
+              "trophies": 567
+            }
+          },
+          {
+            "tag": "#2LY0RLLLLJ",
+            "name": "777xHasan",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 989
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQJLQL",
+            "name": "Foreverduke",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 10,
+              "trophies": 727
+            }
+          },
+          {
+            "tag": "#VQCPP0",
+            "name": "kirito",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 10,
+              "trophies": 779
+            }
+          },
+          {
+            "tag": "#VQCJCL",
+            "name": "Stewa",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 9,
+              "trophies": 734
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
