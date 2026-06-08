@@ -93412,5 +93412,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260608T091252.000Z",
+    "event": {
+      "id": 15001221,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Tip Toe"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 48,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2PY0R0U",
+        "name": "clandi",
+        "brawler": {
+          "id": 16000052,
+          "name": "MEG",
+          "power": 10,
+          "trophies": 588
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 516
+            }
+          },
+          {
+            "tag": "#2PY0R0U",
+            "name": "clandi",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 10,
+              "trophies": 588
+            }
+          },
+          {
+            "tag": "#2PPVJ00",
+            "name": "Prota",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 9,
+              "trophies": 546
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PPV0U0",
+            "name": "Azaël",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 498
+            }
+          },
+          {
+            "tag": "#2PY0298",
+            "name": "Capybara",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 533
+            }
+          },
+          {
+            "tag": "#2PY08QL",
+            "name": "Naaraa29",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 550
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
