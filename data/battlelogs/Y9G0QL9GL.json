@@ -93228,5 +93228,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260608T080439.000Z",
+    "event": {
+      "id": 15001221,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Tip Toe"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 37,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2P9JUUG",
+        "name": "Chuck",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 517
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 508
+            }
+          },
+          {
+            "tag": "#2P9JUUG",
+            "name": "Chuck",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 517
+            }
+          },
+          {
+            "tag": "#2P9CP2J",
+            "name": "teo",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 586
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9RC98",
+            "name": "Luzubal",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 10,
+              "trophies": 520
+            }
+          },
+          {
+            "tag": "#2P9C08U",
+            "name": "Mitsu",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 10,
+              "trophies": 479
+            }
+          },
+          {
+            "tag": "#2P9JJP0",
+            "name": "Shaoows",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 10,
+              "trophies": 443
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260608T080739.000Z",
+    "event": {
+      "id": 15001221,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Tip Toe"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 142,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#YPQQ2UGYC",
+        "name": "валера убица",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 10,
+          "trophies": 470
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RC928VYCC",
+            "name": "hs ozan",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 548
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 518
+            }
+          },
+          {
+            "tag": "#G82R009UL",
+            "name": "BBC|レ乇メツ",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 491
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LYPUCCYCG",
+            "name": "ребенок делает",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 237
+            }
+          },
+          {
+            "tag": "#YPQQ2UGYC",
+            "name": "валера убица",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 10,
+              "trophies": 470
+            }
+          },
+          {
+            "tag": "#PU89G90P0",
+            "name": "Свагакилерярик",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 9,
+              "trophies": 371
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
