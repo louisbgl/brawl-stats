@@ -93636,5 +93636,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260608T164444.000Z",
+    "event": {
+      "id": 15001222,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Cabin Fever"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 77,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2R888YQ0GC",
+        "name": "San Viator JDR",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 9,
+          "trophies": 936
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2R888YQ0GC",
+            "name": "San Viator JDR",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 9,
+              "trophies": 936
+            }
+          },
+          {
+            "tag": "#2PCV0PR9U",
+            "name": "skibidi kos🦅",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 10,
+              "trophies": 620
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 524
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GRU20U",
+            "name": "jorge20",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 741
+            }
+          },
+          {
+            "tag": "#GRJG8P",
+            "name": "HéctorTarazón🎺",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 9,
+              "trophies": 753
+            }
+          },
+          {
+            "tag": "#GRCC80",
+            "name": "CacaniñoCarmesi",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 9,
+              "trophies": 732
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
