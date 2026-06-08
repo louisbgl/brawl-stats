@@ -135943,5 +135943,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260608T100706.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 101,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 648
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#22PQJUUU0L",
+            "name": "נועם",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 802
+            }
+          },
+          {
+            "tag": "#2CR09GQYJP",
+            "name": "בול משוגע",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 10,
+              "trophies": 825
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 648
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8P2JVPPL0",
+            "name": "hotiwonka👯😩",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 687
+            }
+          },
+          {
+            "tag": "#22YVJJJ",
+            "name": "Tornado",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 9,
+              "trophies": 724
+            }
+          },
+          {
+            "tag": "#P8QQJ8R99",
+            "name": "matador",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1807
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
