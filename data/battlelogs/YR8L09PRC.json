@@ -192876,5 +192876,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260608T124834.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 40,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#PL892Y2GV",
+        "name": "Cooking",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 9,
+          "trophies": 520
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Q90UPC9C8",
+            "name": "7pai",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 8,
+              "trophies": 433
+            }
+          },
+          {
+            "tag": "#PL892Y2GV",
+            "name": "Cooking",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 9,
+              "trophies": 520
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 698
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RP8C0P",
+            "name": "KING|Doflamingo",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 9,
+              "trophies": 543
+            }
+          },
+          {
+            "tag": "#RPP000",
+            "name": "nebur",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 524
+            }
+          },
+          {
+            "tag": "#RP9J28",
+            "name": "SFNG",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 8,
+              "trophies": 547
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
