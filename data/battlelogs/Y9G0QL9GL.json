@@ -93504,5 +93504,137 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260608T105820.000Z",
+    "event": {
+      "id": 15000919,
+      "mode": "brawlBall5V5",
+      "modeId": 32,
+      "map": "Stockpile Stadium"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 132,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#RQLPR029P",
+        "name": "B.A.S.T.I.E.N",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 661
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GQ8C0GURJ",
+            "name": "lightly",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 878
+            }
+          },
+          {
+            "tag": "#2QQGPRQGL0",
+            "name": "raphi",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 682
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 526
+            }
+          },
+          {
+            "tag": "#2V9P9808L2",
+            "name": "נוי",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 9,
+              "trophies": 931
+            }
+          },
+          {
+            "tag": "#90LLJJ2UG",
+            "name": "König Stein YT",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 624
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RQLPR029P",
+            "name": "B.A.S.T.I.E.N",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 661
+            }
+          },
+          {
+            "tag": "#8VPLYUPLL",
+            "name": "Snorsen",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 868
+            }
+          },
+          {
+            "tag": "#2J8VC8VUJ2",
+            "name": "Colt main",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 661
+            }
+          },
+          {
+            "tag": "#2CLL80J08",
+            "name": "RiTTeRRuBen♦️",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 592
+            }
+          },
+          {
+            "tag": "#PPQ0J90GR",
+            "name": "CM|Sentence 🥀",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 9,
+              "trophies": 635
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
