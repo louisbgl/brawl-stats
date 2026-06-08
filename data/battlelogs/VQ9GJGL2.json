@@ -88866,5 +88866,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260608T102413.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 273,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#JLJ8G28Q",
+        "name": "sebaaasJR",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 912
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UUUUPQRLR",
+            "name": "Maciek",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1199
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 714
+            }
+          },
+          {
+            "tag": "#QRRY8PJP2",
+            "name": "UGM-133A",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 784
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2ULR8G808Y",
+            "name": "казакстан уграж",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1036
+            }
+          },
+          {
+            "tag": "#JLJ8G28Q",
+            "name": "sebaaasJR",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 912
+            }
+          },
+          {
+            "tag": "#PPYJVVR02",
+            "name": "A̶乃A̷̷₴'| ⁱⓆ︎🖤",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 649
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260608T102932.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 216,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1010
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8LGYUU2RL",
+            "name": "maumau",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 2030
+            }
+          },
+          {
+            "tag": "#GC0LY9Y0R",
+            "name": "SAITAMA 3MK",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1073
+            }
+          },
+          {
+            "tag": "#GCL0G88JG",
+            "name": "Tudor",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1525
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1010
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 11,
+              "trophies": 1038
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 710
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
