@@ -158505,5 +158505,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260608T112326.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 157,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#U2Y09JJQ",
+        "name": "Nadav_AVR",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 1211
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GPQJQRLP",
+            "name": "lolo#69",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 851
+            }
+          },
+          {
+            "tag": "#2CYL99RQG9",
+            "name": "cjug no r",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1010
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 887
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9CUYU0U9J",
+            "name": "matteo il fiero",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 1180
+            }
+          },
+          {
+            "tag": "#QP9GLRVRY",
+            "name": "chill guy {}",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 2136
+            }
+          },
+          {
+            "tag": "#U2Y09JJQ",
+            "name": "Nadav_AVR",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1211
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260608T112830.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 240,
+      "trophyChange": 23,
+      "starPlayer": {
+        "tag": "#2RYP8QUGU9",
+        "name": "𝒶𝓃𝑔𝓁．𝒾𝒸ఌ",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 313
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2RYP8QUGU9",
+            "name": "𝒶𝓃𝑔𝓁．𝒾𝒸ఌ",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 313
+            }
+          },
+          {
+            "tag": "#U0GUYYC9P",
+            "name": "popdimitrije",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 499
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 697
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CQC2CVPJ",
+            "name": "GALLI",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 984
+            }
+          },
+          {
+            "tag": "#2LUJYQG9UQ",
+            "name": "𝓦𝓘𝓛𝓛𝓞",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 261
+            }
+          },
+          {
+            "tag": "#2RGVJ09UVY",
+            "name": "ugly",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1015
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
