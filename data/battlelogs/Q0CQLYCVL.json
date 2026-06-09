@@ -137925,5 +137925,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260609T173827.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 41,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#GCQRCVLL8",
+        "name": "Mike mouse",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 9,
+          "trophies": 75
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GCQRCVLL8",
+            "name": "Mike mouse",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 9,
+              "trophies": 75
+            }
+          },
+          {
+            "tag": "#29VP2RLUY",
+            "name": "LL",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 10,
+              "trophies": 38
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 4,
+              "trophies": 106
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GGCQPP",
+            "name": "BigBoss",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 8,
+              "trophies": 70
+            }
+          },
+          {
+            "tag": "#GGJRQJ",
+            "name": "Mariogc",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 7,
+              "trophies": 87
+            }
+          },
+          {
+            "tag": "#GGCGGG",
+            "name": "bilzrip",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 8,
+              "trophies": 86
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
