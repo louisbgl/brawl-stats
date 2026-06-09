@@ -159474,5 +159474,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260609T154218.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 267,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#88RC0V0Y",
+        "name": "Snipe//Shytoss",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 609
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#C0JU02PJ",
+            "name": "toro",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 616
+            }
+          },
+          {
+            "tag": "#2V0P2Q2LGL",
+            "name": "pollo",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1312
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1064
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2J9802RP",
+            "name": "Kramel",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 10,
+              "trophies": 279
+            }
+          },
+          {
+            "tag": "#88RC0V0Y",
+            "name": "Snipe//Shytoss",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 609
+            }
+          },
+          {
+            "tag": "#8RYL0G2JY",
+            "name": "Spartacus",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 849
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
