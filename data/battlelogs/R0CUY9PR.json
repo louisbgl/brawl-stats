@@ -94441,5 +94441,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260609T185841.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 29,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#LVRJVUJG2",
+        "name": "𝕯𝖗𝖆𝖈𝖚𝖑𝖆",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 681
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QR2LQY9G",
+            "name": "愛//lāuri🗽™️",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1638
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 906
+            }
+          },
+          {
+            "tag": "#LVRJVUJG2",
+            "name": "𝕯𝖗𝖆𝖈𝖚𝖑𝖆",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 681
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YUPUCCLQC",
+            "name": "༄𝕯𝖆𝖗𝖐𝕬𝖓𝖌",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1466
+            }
+          },
+          {
+            "tag": "#GPLQU9Q9C",
+            "name": "brennizx7",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 599
+            }
+          },
+          {
+            "tag": "#P29RVYGQR",
+            "name": "gauthier",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 887
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
