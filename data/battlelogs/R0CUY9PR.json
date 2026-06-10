@@ -94533,5 +94533,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260610T194148.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 90,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#829YQGVU",
+        "name": "J./KDB*.L.com",
+        "brawler": {
+          "id": 16000081,
+          "name": "LILY",
+          "power": 10,
+          "trophies": 676
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#888QJGQU0",
+            "name": "GX Joseph",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 929
+            }
+          },
+          {
+            "tag": "#P8CJC09RQ",
+            "name": "BS|☔️ZERO©♿️",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 1200
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 919
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#829YQGVU",
+            "name": "J./KDB*.L.com",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 10,
+              "trophies": 676
+            }
+          },
+          {
+            "tag": "#GL9UV8GGC",
+            "name": "lolo.com",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 9,
+              "trophies": 545
+            }
+          },
+          {
+            "tag": "#20R9V2PRC0",
+            "name": "narcyxw",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 763
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
