@@ -159749,5 +159749,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260610T123403.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 195,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#98VVLYUPL",
+        "name": "lazar19x",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 680
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LJR2JJ2L8",
+            "name": "LolTNT173",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 638
+            }
+          },
+          {
+            "tag": "#98VVLYUPL",
+            "name": "lazar19x",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 680
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 9,
+              "trophies": 750
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GVJQCJ",
+            "name": "vladyslawwww",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 9,
+              "trophies": 733
+            }
+          },
+          {
+            "tag": "#GVJLQL",
+            "name": "trippak1la",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 746
+            }
+          },
+          {
+            "tag": "#GVRL8P",
+            "name": "Susanno",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 9,
+              "trophies": 698
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
