@@ -138017,5 +138017,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260610T112336.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 29,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#QJ9GGLCC",
+        "name": "Danii..ez🎃🤖",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 6,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QJ9GGLCC",
+            "name": "Danii..ez🎃🤖",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 6,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 4,
+              "trophies": 121
+            }
+          },
+          {
+            "tag": "#PR0LL90VL",
+            "name": "spike",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 4,
+              "trophies": 124
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CRJ9L0",
+            "name": "MasterM",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 4,
+              "trophies": 89
+            }
+          },
+          {
+            "tag": "#CRJC9J",
+            "name": "Lech",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 4,
+              "trophies": 95
+            }
+          },
+          {
+            "tag": "#CRJQPU",
+            "name": "Hellosh",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 3,
+              "trophies": 95
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260610T112530.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 45,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2V8RR28QG",
+        "name": "killer",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 1364
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9L8UU88Q0",
+            "name": "matti",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 367
+            }
+          },
+          {
+            "tag": "#2V8RR28QG",
+            "name": "killer",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1364
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 418
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G2UU8P",
+            "name": "AleArri",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 669
+            }
+          },
+          {
+            "tag": "#G2VQPP",
+            "name": "Matte",
+            "brawler": {
+              "id": 16000087,
+              "name": "JUJU",
+              "power": 11,
+              "trophies": 757
+            }
+          },
+          {
+            "tag": "#G80280",
+            "name": "Maru",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 728
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
