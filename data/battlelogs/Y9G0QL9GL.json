@@ -96023,5 +96023,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260611T083149.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 118,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#LG989CP",
+        "name": "sekvoan",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 777
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#U8LLGV",
+            "name": "plaza is here",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 731
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 648
+            }
+          },
+          {
+            "tag": "#YCJQCYJ0C",
+            "name": "e_lb92",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 486
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LG989CP",
+            "name": "sekvoan",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 777
+            }
+          },
+          {
+            "tag": "#98UYGV9JJ",
+            "name": "Star🤩",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 561
+            }
+          },
+          {
+            "tag": "#LPC9VCJYP",
+            "name": "рики",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 930
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260611T083326.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 69,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 645
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GJ2JPQ8PR",
+            "name": "(￣(エ)￣)",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 859
+            }
+          },
+          {
+            "tag": "#9GYGCQ2Y9",
+            "name": "Dobart",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 622
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 645
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VLVQJ0",
+            "name": "Ezio Auditore",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 716
+            }
+          },
+          {
+            "tag": "#VLUPJP",
+            "name": "Irving",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 738
+            }
+          },
+          {
+            "tag": "#VLVY2L",
+            "name": "🤠🤠🤠",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 10,
+              "trophies": 674
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
