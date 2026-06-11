@@ -92264,5 +92264,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260611T205832.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 201,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#8LU2RUV00",
+        "name": "NEKOCAT",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 327
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8LU2RUV00",
+            "name": "NEKOCAT",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 327
+            }
+          },
+          {
+            "tag": "#YCVPRUQPC",
+            "name": "gululu",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1395
+            }
+          },
+          {
+            "tag": "#9Y8YU09U8",
+            "name": "AYRAN",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 847
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 814
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 789
+            }
+          },
+          {
+            "tag": "#9P9RUURG",
+            "name": "spov01",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 869
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260611T210002.000Z",
+    "event": {
+      "id": 15001204,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Goalies"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 23,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#9UVUQPQUL",
+        "name": "YNS_ZHR",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 9,
+          "trophies": 580
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JGVP88QQR",
+            "name": "может я",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 8,
+              "trophies": 974
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 9,
+              "trophies": 205
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 352
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9UVUQPQUL",
+            "name": "YNS_ZHR",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 9,
+              "trophies": 580
+            }
+          },
+          {
+            "tag": "#220R02G29Q",
+            "name": "TH|døBråzîl🤙🏻",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 10,
+              "trophies": 589
+            }
+          },
+          {
+            "tag": "#2RRPRRGRGR",
+            "name": "loulouuu",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 851
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
