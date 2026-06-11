@@ -95854,5 +95854,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260611T120022.000Z",
+    "event": {
+      "id": 15001247,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Please Remain Standing"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 94,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#YUJQU8PPP",
+        "name": "TDA|Dani199💀😈",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 11,
+          "trophies": 1146
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P9P2PC9PR",
+            "name": "LOnex x сияю",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 10,
+              "trophies": 751
+            }
+          },
+          {
+            "tag": "#8UUJGVYJC",
+            "name": "Filya",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1121
+            }
+          },
+          {
+            "tag": "#PLGLVQUVC",
+            "name": "poodelka",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1023
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YUJQU8PPP",
+            "name": "TDA|Dani199💀😈",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1146
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#8G9YVCYL2",
+            "name": "QLS|Tyburn",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 11,
+              "trophies": 1103
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
