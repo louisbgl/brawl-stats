@@ -96299,5 +96299,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260611T211203.000Z",
+    "event": {
+      "id": 15001206,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Tuning Fork"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 83,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#2PPGJJU",
+        "name": "Tay",
+        "brawler": {
+          "id": 16000016,
+          "name": "PAM",
+          "power": 11,
+          "trophies": 672
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 666
+            }
+          },
+          {
+            "tag": "#QQQQ8VJJV",
+            "name": "zynova",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 8,
+              "trophies": 478
+            }
+          },
+          {
+            "tag": "#9R8UCP8R0",
+            "name": "JC|KING",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 1011
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PPQCJ0",
+            "name": "Malsy",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 682
+            }
+          },
+          {
+            "tag": "#2PPGJJU",
+            "name": "Tay",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 672
+            }
+          },
+          {
+            "tag": "#2PPGLU0",
+            "name": "Léaa",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 727
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260611T211412.000Z",
+    "event": {
+      "id": 15001249,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Arabesque"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 95,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 663
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JCQJUG9YP",
+            "name": "Adrian●♡",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 470
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 663
+            }
+          },
+          {
+            "tag": "#20VPC2GLJL",
+            "name": "Santino",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 9,
+              "trophies": 859
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y828PG",
+            "name": "Luis13",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 7,
+              "trophies": 684
+            }
+          },
+          {
+            "tag": "#Y82L9L",
+            "name": "MewiChiquito🐣",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 9,
+              "trophies": 673
+            }
+          },
+          {
+            "tag": "#Y829GU",
+            "name": "AndresM",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 9,
+              "trophies": 678
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
