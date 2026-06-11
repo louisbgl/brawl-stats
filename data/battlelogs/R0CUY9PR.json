@@ -95762,5 +95762,97 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260611T101406.000Z",
+    "event": {
+      "id": 15001204,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Goalies"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 169,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#J8PG88RJ",
+        "name": "GAZTE",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 10,
+          "trophies": 885
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#J8PG88RJ",
+            "name": "GAZTE",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 10,
+              "trophies": 885
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 918
+            }
+          },
+          {
+            "tag": "#20CJPLY90",
+            "name": "Shabo2014🥷🇰🇿",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 756
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R9QJUJ8CY",
+            "name": "𝖁𝖎𝖐𝖞𝖔𝖗𝖓",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 10,
+              "trophies": 790
+            }
+          },
+          {
+            "tag": "#RQPPV08UL",
+            "name": "Fishi_drip",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1032
+            }
+          },
+          {
+            "tag": "#2G82GV2YGY",
+            "name": "Alfred",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1316
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
