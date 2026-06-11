@@ -200236,5 +200236,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260611T152922.000Z",
+    "event": {
+      "id": 15001204,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Goalies"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 73,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2Q02CR0C9J",
+        "name": "FABI",
+        "brawler": {
+          "id": 16000085,
+          "name": "KENJI",
+          "power": 10,
+          "trophies": 1161
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Q02CR0C9J",
+            "name": "FABI",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 10,
+              "trophies": 1161
+            }
+          },
+          {
+            "tag": "#2UY9JUVCGU",
+            "name": "beberikhvtiso",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 8,
+              "trophies": 779
+            }
+          },
+          {
+            "tag": "#29028RPUQY",
+            "name": "knuffelfan",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 11,
+              "trophies": 698
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GQ98UQCQ",
+            "name": "𝕯𝖊𝖉𝖊💙",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 11,
+              "trophies": 704
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 408
+            }
+          },
+          {
+            "tag": "#92L0RJ2JR",
+            "name": "legendary",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 7,
+              "trophies": 415
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
