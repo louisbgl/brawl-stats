@@ -96207,5 +96207,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260611T134842.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 73,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 655
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#CJUUUJJQ",
+            "name": "Elisa5151",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 9,
+              "trophies": 684
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 655
+            }
+          },
+          {
+            "tag": "#QPUY90RU",
+            "name": "gonflamo",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 314
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJP99J",
+            "name": "Lxngbow",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 599
+            }
+          },
+          {
+            "tag": "#GJP0R8",
+            "name": "Soapy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 538
+            }
+          },
+          {
+            "tag": "#GJ9JJP",
+            "name": "i like cake",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 9,
+              "trophies": 587
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
