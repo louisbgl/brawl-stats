@@ -97126,5 +97126,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260612T165616.000Z",
+    "event": {
+      "id": 15001178,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Hyperspace"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 132,
+      "trophyChange": 22,
+      "starPlayer": {
+        "tag": "#2QRJC2QQ0Q",
+        "name": "Eric",
+        "brawler": {
+          "id": 16000018,
+          "name": "DARRYL",
+          "power": 11,
+          "trophies": 446
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QRJC2QQ0Q",
+            "name": "Eric",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 446
+            }
+          },
+          {
+            "tag": "#2LJQPQV2P8",
+            "name": "ERIC",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 10,
+              "trophies": 882
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 764
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PP880G",
+            "name": "antoine-83",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 10,
+              "trophies": 703
+            }
+          },
+          {
+            "tag": "#2PP2U2J",
+            "name": "MEDAG",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 10,
+              "trophies": 731
+            }
+          },
+          {
+            "tag": "#2PP2YGP",
+            "name": "英|sukuna",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 10,
+              "trophies": 706
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260612T165820.000Z",
+    "event": {
+      "id": 15001178,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Hyperspace"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 55,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#982GCVUJG",
+        "name": "aspri",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 1805
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UGQVLVVYG",
+            "name": "leoswans7",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2008
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 786
+            }
+          },
+          {
+            "tag": "#GRC0CQ2YV",
+            "name": "ISMA_NDY11",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 952
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#982GCVUJG",
+            "name": "aspri",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1805
+            }
+          },
+          {
+            "tag": "#J88QQ9GU8",
+            "name": "YABANİ",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 11,
+              "trophies": 406
+            }
+          },
+          {
+            "tag": "#9Y98J02C8",
+            "name": "lori007",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 6,
+              "trophies": 414
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
