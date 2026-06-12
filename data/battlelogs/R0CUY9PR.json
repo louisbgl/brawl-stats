@@ -96406,5 +96406,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260612T154937.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 135,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#PJ8RQ88PL",
+        "name": "leon",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 2000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JLPPV0CLR",
+            "name": "banana",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1834
+            }
+          },
+          {
+            "tag": "#PJ8RQ88PL",
+            "name": "leon",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#2YRYP9YUY",
+            "name": "ツ ᴷⁱˡˡᵧₒᵤ",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1821
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GLUPPQG98",
+            "name": "STK | 🦆MᴀᴛDᴜᴄᴋ",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1821
+            }
+          },
+          {
+            "tag": "#90CPCJUUC",
+            "name": "(; <Squezzy> ;)",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2006
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1510
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
