@@ -97494,5 +97494,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260612T203324.000Z",
+    "event": {
+      "id": 15001178,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Hyperspace"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 139,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#2Q8RPLJ8PC",
+        "name": "Ettore Gk 1 ⚽",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 11,
+          "trophies": 913
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QY800R9L8",
+            "name": "joseelpromax67",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 796
+            }
+          },
+          {
+            "tag": "#2Q8RPLJ8PC",
+            "name": "Ettore Gk 1 ⚽",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 913
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 804
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GRUJ8U",
+            "name": "Pepe0rtiz_",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 813
+            }
+          },
+          {
+            "tag": "#GRCPGG",
+            "name": "Pablo",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 863
+            }
+          },
+          {
+            "tag": "#GRCGQL",
+            "name": "Ibra",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 10,
+              "trophies": 788
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
