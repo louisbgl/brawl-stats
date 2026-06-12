@@ -161027,5 +161027,228 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260612T073037.000Z",
+    "event": {
+      "id": 15000403,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Stardust Storm"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 79,
+      "starPlayer": {
+        "tag": "#8U8V2YUY8",
+        "name": "Mario#1",
+        "brawler": {
+          "id": 16000083,
+          "name": "CLANCY",
+          "power": 11,
+          "trophies": 1390
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UJV8J0RJQ",
+            "name": "angelok♡",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 10,
+              "trophies": 1003
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1120
+            }
+          },
+          {
+            "tag": "#2GPUGGRV82",
+            "name": "Yara",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 447
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CJGQ8JGV",
+            "name": "רונאלדו 7 ⚽",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1450
+            }
+          },
+          {
+            "tag": "#8U8V2YUY8",
+            "name": "Mario#1",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1390
+            }
+          },
+          {
+            "tag": "#G9QPJGQJL",
+            "name": "Rares5229",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1121
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260612T075652.000Z",
+    "event": {
+      "id": 15000645,
+      "mode": "deathmatch5v5",
+      "modeId": 31,
+      "map": "Slippery road"
+    },
+    "battle": {
+      "mode": "wipeout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 161,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#GJ0RPYYP",
+        "name": "⚽Winner⚽",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 1869
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RV9U09JV",
+            "name": "Aaron",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1001
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1010
+            }
+          },
+          {
+            "tag": "#2CJLLVVVP8",
+            "name": "Bot-105🇧🇬",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1530
+            }
+          },
+          {
+            "tag": "#RJ2PJ0RVL",
+            "name": "wulqerttt",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1615
+            }
+          },
+          {
+            "tag": "#GJ0RPYYP",
+            "name": "⚽Winner⚽",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1869
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LYULJQCPV",
+            "name": "Zeta-mine 🇷🇺",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 1295
+            }
+          },
+          {
+            "tag": "#2UPQUQ0RR9",
+            "name": "win striker",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2083
+            }
+          },
+          {
+            "tag": "#PY0GJ2VYL",
+            "name": "16cm",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2016
+            }
+          },
+          {
+            "tag": "#PU0QG8V2C",
+            "name": "Bart",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1125
+            }
+          },
+          {
+            "tag": "#8UGQYCCPG",
+            "name": "Trisss",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1504
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
