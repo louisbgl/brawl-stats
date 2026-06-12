@@ -96483,5 +96483,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260612T071337.000Z",
+    "event": {
+      "id": 15001249,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Arabesque"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 41,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 673
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GY99P9J98",
+            "name": "Fabian",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 882
+            }
+          },
+          {
+            "tag": "#2QP8CUC8P",
+            "name": "MEZOPOTAMYA 🏆",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#PQ0298QVR",
+            "name": "𝓢𝓴𝓲𝓽𝓵𝓮𝓼",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1061
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 673
+            }
+          },
+          {
+            "tag": "#YRVGCJJVU",
+            "name": "CYSIU",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 587
+            }
+          },
+          {
+            "tag": "#GGGCG8Q90",
+            "name": "Razizm",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1507
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260612T071657.000Z",
+    "event": {
+      "id": 15001249,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Arabesque"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 159,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 684
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VLL002CGG",
+            "name": "unai",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 10,
+              "trophies": 589
+            }
+          },
+          {
+            "tag": "#G92VU9R8L",
+            "name": "Julien",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 850
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 684
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2U9V0Y22RQ",
+            "name": "Boriskata",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 981
+            }
+          },
+          {
+            "tag": "#R0GJ88CYY",
+            "name": "Kom6ito",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 8,
+              "trophies": 246
+            }
+          },
+          {
+            "tag": "#Y20L9P2QC",
+            "name": "Lubo kalashnika",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 642
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
