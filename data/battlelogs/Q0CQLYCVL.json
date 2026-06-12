@@ -150843,5 +150843,97 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260612T212800.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 36,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#Q9QG8Y2L9",
+        "name": "⛩️|Rzm64🥀",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 9,
+          "trophies": 524
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GQCYJVGLC",
+            "name": "moke55",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 727
+            }
+          },
+          {
+            "tag": "#Q9QG8Y2L9",
+            "name": "⛩️|Rzm64🥀",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 9,
+              "trophies": 524
+            }
+          },
+          {
+            "tag": "#RY2JY9YPU",
+            "name": "CCVG|SeroxxX",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1233
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QRJ2YQ9RQ",
+            "name": "godeviolent",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 8,
+              "trophies": 134
+            }
+          },
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 515
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 872
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
