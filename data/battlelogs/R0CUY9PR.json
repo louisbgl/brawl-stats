@@ -97418,5 +97418,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260613T202316.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 33,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#9LVRVQ8RU",
+        "name": "js",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 696
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9LVRVQ8RU",
+            "name": "js",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 696
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 11,
+              "trophies": 745
+            }
+          },
+          {
+            "tag": "#P92G8J29J",
+            "name": "Turtle Crazy",
+            "brawler": {
+              "id": 16000060,
+              "name": "SAM",
+              "power": 11,
+              "trophies": 556
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JCUQL",
+            "name": "manel020917",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 678
+            }
+          },
+          {
+            "tag": "#2JU280",
+            "name": "Anjos",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 683
+            }
+          },
+          {
+            "tag": "#2JU8LP",
+            "name": "Timula",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 724
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260613T202531.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 94,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#G2YGCUQUG",
+        "name": "Brawlking 3.0✝️",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 11,
+          "trophies": 744
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G2YGCUQUG",
+            "name": "Brawlking 3.0✝️",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 744
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 11,
+              "trophies": 755
+            }
+          },
+          {
+            "tag": "#2QJLJ0Q89C",
+            "name": "Mustafa 🤫🧏🔥",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 1058
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RQQUC9YC0",
+            "name": "NAVI|Червяк🪱",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 10,
+              "trophies": 914
+            }
+          },
+          {
+            "tag": "#990PRP2Q",
+            "name": "cas1906",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 1815
+            }
+          },
+          {
+            "tag": "#9RG2YV",
+            "name": "Gianluca",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 715
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
