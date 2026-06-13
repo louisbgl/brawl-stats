@@ -93276,5 +93276,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260613T215539.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 54,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#GLUVVV9PG",
+        "name": "A.M.A.",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 9,
+          "trophies": 231
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 261
+            }
+          },
+          {
+            "tag": "#GLUVVV9PG",
+            "name": "A.M.A.",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 9,
+              "trophies": 231
+            }
+          },
+          {
+            "tag": "#L0V2GQ2U8",
+            "name": "JJK | GOJO",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 7,
+              "trophies": 209
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PPJGUG",
+            "name": "tocky",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 7,
+              "trophies": 247
+            }
+          },
+          {
+            "tag": "#2PPRYUU",
+            "name": "Eragon",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 7,
+              "trophies": 241
+            }
+          },
+          {
+            "tag": "#2PPJQGP",
+            "name": "xydro",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 8,
+              "trophies": 240
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260613T215746.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 103,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#9PPL228J",
+        "name": "tiger king",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 1004
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2G28VL2",
+            "name": "Kilcam",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 753
+            }
+          },
+          {
+            "tag": "#CPLG0J2C",
+            "name": "AMaillo",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 9,
+              "trophies": 364
+            }
+          },
+          {
+            "tag": "#9PPL228J",
+            "name": "tiger king",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 1004
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GLUVVV9PG",
+            "name": "A.M.A.",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 9,
+              "trophies": 241
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 281
+            }
+          },
+          {
+            "tag": "#L0V2GQ2U8",
+            "name": "JJK | GOJO",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 7,
+              "trophies": 219
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
