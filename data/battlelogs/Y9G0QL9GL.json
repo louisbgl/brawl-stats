@@ -98505,5 +98505,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260613T103230.000Z",
+    "event": {
+      "id": 15001221,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Tip Toe"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 131,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#Y9YL80CC",
+        "name": "İMP|KUTER",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 1430
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#92RJ8JYQG",
+            "name": "♕𝖙𝖆𝖍𝖎𝖗♕",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 9,
+              "trophies": 589
+            }
+          },
+          {
+            "tag": "#Y9YL80CC",
+            "name": "İMP|KUTER",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1430
+            }
+          },
+          {
+            "tag": "#GLJ0RUVQQ",
+            "name": "Leosão",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 627
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 960
+            }
+          },
+          {
+            "tag": "#2CRGPYQJ0G",
+            "name": "Рустем",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 694
+            }
+          },
+          {
+            "tag": "#2VQL2QGY9C",
+            "name": "okxasan",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 9,
+              "trophies": 980
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
