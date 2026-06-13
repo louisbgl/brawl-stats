@@ -96498,5 +96498,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260613T122928.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 74,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#QL0L9UY8G",
+        "name": "max",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 11,
+          "trophies": 770
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 966
+            }
+          },
+          {
+            "tag": "#QL0L9UY8G",
+            "name": "max",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 770
+            }
+          },
+          {
+            "tag": "#29UR8PP0",
+            "name": "ᵇʸ 𝚁𝙾𝙼 ツ",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1453
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YLQ8PGRCQ",
+            "name": "Попал в бабку",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 460
+            }
+          },
+          {
+            "tag": "#L88PCR8QY",
+            "name": "_$kupoý? | DL",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 9,
+              "trophies": 524
+            }
+          },
+          {
+            "tag": "#GUQQVYPVP",
+            "name": "Ronaldo",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 701
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
