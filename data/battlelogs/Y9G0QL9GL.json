@@ -101035,5 +101035,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260614T091946.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "starPlayer": {
+        "tag": "#229V8PJLRU",
+        "name": "blok3",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 838
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 704
+            }
+          },
+          {
+            "tag": "#229V8PJLRU",
+            "name": "blok3",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 838
+            }
+          },
+          {
+            "tag": "#28Y8GC8CRU",
+            "name": "melis🐚🪷",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 545
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PP0V0U",
+            "name": "Tezaax",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 695
+            }
+          },
+          {
+            "tag": "#2PP2PP0",
+            "name": "❣️DarkLove❣️",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 727
+            }
+          },
+          {
+            "tag": "#2PP0R80",
+            "name": "KinGKaiZ_",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 744
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
