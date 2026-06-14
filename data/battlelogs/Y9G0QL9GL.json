@@ -102134,5 +102134,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260614T180128.000Z",
+    "event": {
+      "id": 15001222,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Cabin Fever"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 160,
+      "starPlayer": {
+        "tag": "#828Q82LRG",
+        "name": "Mr_General",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 882
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V0GQV8CPC",
+            "name": "читер777",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1956
+            }
+          },
+          {
+            "tag": "#828Q82LRG",
+            "name": "Mr_General",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 882
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 794
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJGQ9JYUY",
+            "name": "gaèt_cheval",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 9,
+              "trophies": 333
+            }
+          },
+          {
+            "tag": "#Y0RLQCLJG",
+            "name": "Sigma|Kronos⚔️",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 9,
+              "trophies": 277
+            }
+          },
+          {
+            "tag": "#2QUVRGVCUL",
+            "name": "Younes_91",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 11,
+              "trophies": 1056
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
