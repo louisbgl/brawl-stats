@@ -84700,5 +84700,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260614T131155.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 169,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2V8LQ9VR0P",
+        "name": "ℝ𝔼ℤ|𝕊𝕂𝕀𝕃𝕃",
+        "brawler": {
+          "id": 16000106,
+          "name": "BOLT",
+          "power": 5,
+          "trophies": 146
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V8LQ9VR0P",
+            "name": "ℝ𝔼ℤ|𝕊𝕂𝕀𝕃𝕃",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 5,
+              "trophies": 146
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 1,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#JCV998V22",
+            "name": "🙉🙉🙉",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 1,
+              "trophies": 144
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R9V828",
+            "name": "FV_Anubis☥",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 1,
+              "trophies": 106
+            }
+          },
+          {
+            "tag": "#R9UVLG",
+            "name": "“$uper $ake”",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 2,
+              "trophies": 110
+            }
+          },
+          {
+            "tag": "#R9VC98",
+            "name": "idealych",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 3,
+              "trophies": 99
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
