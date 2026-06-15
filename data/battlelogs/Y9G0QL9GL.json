@@ -104065,5 +104065,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260615T100226.000Z",
+    "event": {
+      "id": 15001222,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Cabin Fever"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 987
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GCV8YYUR2",
+            "name": "★彡[𝒁ԑ𝒖𝓼]彡★",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 491
+            }
+          },
+          {
+            "tag": "#2YGRL28V8Y",
+            "name": "ygt",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2036
+            }
+          },
+          {
+            "tag": "#2JRCQUJ9GU",
+            "name": "༄̿⃟ᴍʀ.𝐘𝐮𝐤𝐚⛩",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 724
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 987
+            }
+          },
+          {
+            "tag": "#9V0C0JJ22",
+            "name": "dadocoyeahtnt",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 609
+            }
+          },
+          {
+            "tag": "#82222VR80",
+            "name": "tommi",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 412
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260615T100439.000Z",
+    "event": {
+      "id": 15000850,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Super Center"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 105,
+      "trophyChange": 25,
+      "starPlayer": {
+        "tag": "#8GJ0UP8QU",
+        "name": "c1pek",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 607
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 986
+            }
+          },
+          {
+            "tag": "#8GJ0UP8QU",
+            "name": "c1pek",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 607
+            }
+          },
+          {
+            "tag": "#2LRYPVCV8Q",
+            "name": "тивимэнтитан",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 856
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9CV9J",
+            "name": "SoOw_",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 832
+            }
+          },
+          {
+            "tag": "#2P9C2Q8",
+            "name": "LHOROSE",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 837
+            }
+          },
+          {
+            "tag": "#2P9C8CL",
+            "name": "MADDOC",
+            "brawler": {
+              "id": 16000090,
+              "name": "OLLIE",
+              "power": 10,
+              "trophies": 805
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
