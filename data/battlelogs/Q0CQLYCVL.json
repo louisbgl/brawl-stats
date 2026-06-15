@@ -164274,5 +164274,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260615T144107.000Z",
+    "event": {
+      "id": 15001021,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Spiraling Out"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 34,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#Q9PUQ2VP",
+        "name": "Đaight",
+        "brawler": {
+          "id": 16000074,
+          "name": "CHARLIE",
+          "power": 11,
+          "trophies": 898
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LJPRRPGJU",
+            "name": "YusufCan",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 967
+            }
+          },
+          {
+            "tag": "#Q9PUQ2VP",
+            "name": "Đaight",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 898
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 812
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQJY98",
+            "name": "🎭SheidHeda🎭",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 849
+            }
+          },
+          {
+            "tag": "#VQRPU0",
+            "name": "Emirikooo 22",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 10,
+              "trophies": 895
+            }
+          },
+          {
+            "tag": "#VQRJ28",
+            "name": "nayochi",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 10,
+              "trophies": 894
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260615T144446.000Z",
+    "event": {
+      "id": 15001021,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Spiraling Out"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 191,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#PULQP2VRL",
+        "name": "Q-cold",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1017
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#89JYYYCLP",
+            "name": "Andrei💚",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 884
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 824
+            }
+          },
+          {
+            "tag": "#Q0Y2QU9JQ",
+            "name": "fan####",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 899
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PULQP2VRL",
+            "name": "Q-cold",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1017
+            }
+          },
+          {
+            "tag": "#9UVL82CPY",
+            "name": "DOMESTOS 401",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1518
+            }
+          },
+          {
+            "tag": "#GG9U280LR",
+            "name": "SK|LNZ",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1603
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
