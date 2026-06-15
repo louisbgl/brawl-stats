@@ -175475,5 +175475,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260615T092855.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 289,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#URPR0URL",
+        "name": "johanna",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 741
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2008VL2V8V",
+            "name": "Olivia🐰",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 2160
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 802
+            }
+          },
+          {
+            "tag": "#299VR80GY",
+            "name": "RoadBloCk",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 751
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8VQ9PPLG8",
+            "name": "elian",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 645
+            }
+          },
+          {
+            "tag": "#YU2LJLR9",
+            "name": "Jax",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 685
+            }
+          },
+          {
+            "tag": "#URPR0URL",
+            "name": "johanna",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 741
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
