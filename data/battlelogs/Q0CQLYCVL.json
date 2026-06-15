@@ -166942,5 +166942,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260615T184909.000Z",
+    "event": {
+      "id": 15001021,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Spiraling Out"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 75,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#C2UP8Y8",
+        "name": "rinaarter",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 11,
+          "trophies": 1442
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 973
+            }
+          },
+          {
+            "tag": "#C2UP8Y8",
+            "name": "rinaarter",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1442
+            }
+          },
+          {
+            "tag": "#9QGCUCU0C",
+            "name": "Serra™⚡ツ",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1614
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PYP8RJ",
+            "name": "lucas",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 1317
+            }
+          },
+          {
+            "tag": "#2PYPQUU",
+            "name": "THOR",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 10,
+              "trophies": 1315
+            }
+          },
+          {
+            "tag": "#2PY9J8P",
+            "name": "Squiid",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1318
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260615T185148.000Z",
+    "event": {
+      "id": 15001021,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Spiraling Out"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 131,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#8V0G90YJ2",
+        "name": "YT Adrii",
+        "brawler": {
+          "id": 16000097,
+          "name": "MINA",
+          "power": 11,
+          "trophies": 1065
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#C2UP8Y8",
+            "name": "rinaarter",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1452
+            }
+          },
+          {
+            "tag": "#9QGCUCU0C",
+            "name": "Serra™⚡ツ",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1634
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 983
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JV08CJ2U",
+            "name": "©®™M.R_NINJA™©®",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 2072
+            }
+          },
+          {
+            "tag": "#P0V902GYL",
+            "name": "Mladen",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1063
+            }
+          },
+          {
+            "tag": "#8V0G90YJ2",
+            "name": "YT Adrii",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 1065
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
