@@ -102225,5 +102225,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260615T065911.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 42,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#YQG8GYQYJ",
+        "name": "Goopboy67",
+        "brawler": {
+          "id": 16000089,
+          "name": "MEEPLE",
+          "power": 11,
+          "trophies": 912
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YQG8GYQYJ",
+            "name": "Goopboy67",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 912
+            }
+          },
+          {
+            "tag": "#GL2P0Q2RG",
+            "name": "sereal killer",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 10,
+              "trophies": 470
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 794
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJGVUP",
+            "name": "ᕦ(ò_óˇ)ᕤ",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 690
+            }
+          },
+          {
+            "tag": "#GJQGP0",
+            "name": "W3NK3RZ",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 717
+            }
+          },
+          {
+            "tag": "#GJG0CL",
+            "name": "calabee",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 695
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
