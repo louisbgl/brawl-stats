@@ -264396,5 +264396,525 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260615T090141.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 198,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#PU8PGQYVY",
+        "name": "Lacky OG",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 401
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CGCC8PL20",
+            "name": "anıl reis",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 8,
+              "trophies": 875
+            }
+          },
+          {
+            "tag": "#YRPQR0R0P",
+            "name": "твоямать228",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 1361
+            }
+          },
+          {
+            "tag": "#PU8PGQYVY",
+            "name": "Lacky OG",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 401
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 9,
+              "trophies": 276
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 363
+            }
+          },
+          {
+            "tag": "#2RRYG9C8CQ",
+            "name": "tuncay_socar",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 1270
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260615T090633.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 104,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#PQ28YVCQC",
+            "name": "Хоп за яичко",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#PPU8C998L",
+            "name": "Freddy Fazbear",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#JQJC8YC8",
+            "name": "☆FC☆SEA",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#GVQYPVPVL",
+            "name": "try to hit.",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260615T090831.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 99,
+      "starPlayer": {
+        "tag": "#PQ28YVCQC",
+        "name": "Хоп за яичко",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 14
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PQ28YVCQC",
+            "name": "Хоп за яичко",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#PPU8C998L",
+            "name": "Freddy Fazbear",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#JQJC8YC8",
+            "name": "☆FC☆SEA",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#GVQYPVPVL",
+            "name": "try to hit.",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260615T091312.000Z",
+    "event": {
+      "id": 15000018,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Kaboom Canyon"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 121,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#800VRJCRV",
+            "name": "EXP_NOOB_EXP",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#Y09JYVR0C",
+            "name": "🧋|ᶠʳ⁸ⁱˢᵗ²ᵏ💥",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#2YLPGLVU9R",
+            "name": "🥸🤥🤖",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VPVP08QV",
+            "name": "え𝚅𝚊𝚗𝙻𝚊𝚏𝚏",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260615T091538.000Z",
+    "event": {
+      "id": 15000018,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Kaboom Canyon"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 128,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#800VRJCRV",
+            "name": "EXP_NOOB_EXP",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#Y09JYVR0C",
+            "name": "🧋|ᶠʳ⁸ⁱˢᵗ²ᵏ💥",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#2YLPGLVU9R",
+            "name": "🥸🤥🤖",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VPVP08QV",
+            "name": "え𝚅𝚊𝚗𝙻𝚊𝚏𝚏",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260615T091825.000Z",
+    "event": {
+      "id": 15000018,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Kaboom Canyon"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 147,
+      "starPlayer": {
+        "tag": "#2VPVP08QV",
+        "name": "え𝚅𝚊𝚗𝙻𝚊𝚏𝚏",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 11,
+          "trophies": 14
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#800VRJCRV",
+            "name": "EXP_NOOB_EXP",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#Y09JYVR0C",
+            "name": "🧋|ᶠʳ⁸ⁱˢᵗ²ᵏ💥",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#2YLPGLVU9R",
+            "name": "🥸🤥🤖",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VPVP08QV",
+            "name": "え𝚅𝚊𝚗𝙻𝚊𝚏𝚏",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
