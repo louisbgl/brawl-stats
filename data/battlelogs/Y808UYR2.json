@@ -84792,5 +84792,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260615T074326.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 193,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#2L92RC9GR0",
+        "name": "Piotr",
+        "brawler": {
+          "id": 16000059,
+          "name": "OTIS",
+          "power": 7,
+          "trophies": 31
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8QYVJ8CQC",
+            "name": "t0c1mm4ty",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 4,
+              "trophies": 127
+            }
+          },
+          {
+            "tag": "#2L92RC9GR0",
+            "name": "Piotr",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 7,
+              "trophies": 31
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 1,
+              "trophies": 15
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CGPR8",
+            "name": "meemaster",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 3,
+              "trophies": 47
+            }
+          },
+          {
+            "tag": "#CGGG0",
+            "name": "Kolben",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 5,
+              "trophies": 44
+            }
+          },
+          {
+            "tag": "#CGRUP",
+            "name": "Řízek",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 3,
+              "trophies": 67
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
