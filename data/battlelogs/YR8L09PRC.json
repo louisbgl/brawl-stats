@@ -216878,5 +216878,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260616T181808.000Z",
+    "event": {
+      "id": 15000306,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Dueling Beetles"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 94,
+      "starPlayer": {
+        "tag": "#8JLVQV92L",
+        "name": "[LP]ELKA",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y0Y2YV8VL",
+            "name": "вова🥥",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#8JLVQV92L",
+            "name": "[LP]ELKA",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#YQ0GGY0RL",
+            "name": "dz-turc🇩🇿🇹🇷",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 10,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GRC2CV8QQ",
+            "name": "FUT | Fentasy",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 10,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#RP22UYL0L",
+            "name": "mini_siela",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
