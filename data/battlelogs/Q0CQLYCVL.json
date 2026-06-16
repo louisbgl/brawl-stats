@@ -169720,5 +169720,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260616T142539.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 140,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#Q0PLQL0",
+        "name": "Nidal",
+        "brawler": {
+          "id": 16000044,
+          "name": "RUFFS",
+          "power": 11,
+          "trophies": 587
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QCGUQG9RJ",
+            "name": "Lexus",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 818
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 815
+            }
+          },
+          {
+            "tag": "#88CJR8ULR",
+            "name": "no name",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 755
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0PLQL0",
+            "name": "Nidal",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 11,
+              "trophies": 587
+            }
+          },
+          {
+            "tag": "#8QY8PQG8C",
+            "name": "E❤️ S💪",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 1423
+            }
+          },
+          {
+            "tag": "#229UPCR28C",
+            "name": "KLD|acuL",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1082
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
