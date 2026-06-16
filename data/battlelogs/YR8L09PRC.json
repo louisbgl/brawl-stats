@@ -216787,5 +216787,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260616T173409.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 208,
+      "starPlayer": {
+        "tag": "#2GY88YVR",
+        "name": "Mistralo",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2RUJL08CGP",
+            "name": "Gaming og 123",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#229UQJYRL8",
+            "name": "MR|Mysterious🎭",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GY88YVR",
+            "name": "Mistralo",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2VQPC9LVRP",
+            "name": "papaboss",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#8GJQUCGUQ",
+            "name": "нечай ☕",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
