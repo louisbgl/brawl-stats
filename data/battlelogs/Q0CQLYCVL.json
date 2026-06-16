@@ -169812,5 +169812,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260616T162800.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 41,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#U8PURR8",
+        "name": "HYPER_NIKITO4KA",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 573
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 811
+            }
+          },
+          {
+            "tag": "#U8PURR8",
+            "name": "HYPER_NIKITO4KA",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 573
+            }
+          },
+          {
+            "tag": "#20CVQ0GQQ",
+            "name": "P.Gloddy🧴",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 10,
+              "trophies": 1876
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ2GLP",
+            "name": "Obaley",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 1084
+            }
+          },
+          {
+            "tag": "#VQ8UJP",
+            "name": "zaidtu",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 9,
+              "trophies": 1050
+            }
+          },
+          {
+            "tag": "#VQ2UY8",
+            "name": "Fizzson",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 1083
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260616T163000.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 96,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#YRCGYGPV2",
+        "name": "𝓥𝓓𝓣|ばか",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 1715
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GC0CJ9QVR",
+            "name": "Amir",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 10,
+              "trophies": 469
+            }
+          },
+          {
+            "tag": "#YRCGYGPV2",
+            "name": "𝓥𝓓𝓣|ばか",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 1715
+            }
+          },
+          {
+            "tag": "#PYYRPJ9VJ",
+            "name": "Elias_DRXP07",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 8,
+              "trophies": 597
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LQL0UU88G",
+            "name": "☄️Sabit☄️",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 886
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 821
+            }
+          },
+          {
+            "tag": "#9L020QJG",
+            "name": "rxcfx",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 519
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
