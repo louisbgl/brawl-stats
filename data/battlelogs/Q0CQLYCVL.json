@@ -168435,5 +168435,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260616T101851.000Z",
+    "event": {
+      "id": 15000403,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Stardust Storm"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 91,
+      "starPlayer": {
+        "tag": "#20CUJUVCR",
+        "name": "𝐌𝐚𝐫𝐢𝐣𝐧",
+        "brawler": {
+          "id": 16000017,
+          "name": "TARA",
+          "power": 11,
+          "trophies": 1000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#20CUJUVCR",
+            "name": "𝐌𝐚𝐫𝐢𝐣𝐧",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#8QU9J988",
+            "name": "fr|ruben ;)",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1003
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RPY2VR0CC",
+            "name": "yulkashpulka",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1010
+            }
+          },
+          {
+            "tag": "#QUJP9VVJ0",
+            "name": "maximka",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 10,
+              "trophies": 84
+            }
+          },
+          {
+            "tag": "#JGPRU0YCJ",
+            "name": "anaquirant",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1148
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
