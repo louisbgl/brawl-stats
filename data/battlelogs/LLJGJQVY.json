@@ -316098,5 +316098,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260617T092743.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#P9Y0C09YV",
+        "name": "Cukryx_CZ",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 343
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 817
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 854
+            }
+          },
+          {
+            "tag": "#89RJGQCU",
+            "name": "Talahon",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 601
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P9Y0C09YV",
+            "name": "Cukryx_CZ",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 343
+            }
+          },
+          {
+            "tag": "#9RC020CYL",
+            "name": "Fanda29",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 611
+            }
+          },
+          {
+            "tag": "#G2VRYU0J",
+            "name": "艾Vreezq.",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 685
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260617T092909.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 52,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000097,
+          "name": "MINA",
+          "power": 11,
+          "trophies": 850
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QQ2LCVCJC",
+            "name": "le GAMER🎮🕹",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 959
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 813
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 850
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PYPCCJ",
+            "name": "TiTo_04._",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 829
+            }
+          },
+          {
+            "tag": "#2PYYLVJ",
+            "name": "Neakita",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 839
+            }
+          },
+          {
+            "tag": "#2PYPYPP",
+            "name": "Louis XIV",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 10,
+              "trophies": 903
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
