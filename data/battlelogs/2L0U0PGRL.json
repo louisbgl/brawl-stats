@@ -179078,5 +179078,214 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260617T225658.000Z",
+    "event": {
+      "id": 15001216,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Starfruit Supernova"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 8,
+      "trophyChange": -4,
+      "players": [
+        {
+          "tag": "#2VYUQRLPJ0",
+          "name": "mixa",
+          "brawler": {
+            "id": 16000000,
+            "name": "SHELLY",
+            "power": 11,
+            "trophies": 1421
+          }
+        },
+        {
+          "tag": "#908LC0QP8",
+          "name": "Solo💕Nardoo🦋",
+          "brawler": {
+            "id": 16000097,
+            "name": "MINA",
+            "power": 10,
+            "trophies": 1758
+          }
+        },
+        {
+          "tag": "#RQPG9GGGV",
+          "name": "мбапенис",
+          "brawler": {
+            "id": 16000060,
+            "name": "SAM",
+            "power": 11,
+            "trophies": 1948
+          }
+        },
+        {
+          "tag": "#P8V90R0UQ",
+          "name": "UA|OTCHIM",
+          "brawler": {
+            "id": 16000032,
+            "name": "MAX",
+            "power": 9,
+            "trophies": 797
+          }
+        },
+        {
+          "tag": "#2C82G0C289",
+          "name": "SELIM ELSONNY",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 971
+          }
+        },
+        {
+          "tag": "#9CLL9088L",
+          "name": "A. F. N",
+          "brawler": {
+            "id": 16000034,
+            "name": "JACKY",
+            "power": 10,
+            "trophies": 761
+          }
+        },
+        {
+          "tag": "#20YVCUP20",
+          "name": "ömer_ksz",
+          "brawler": {
+            "id": 16000076,
+            "name": "KIT",
+            "power": 11,
+            "trophies": 1596
+          }
+        },
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000023,
+            "name": "LEON",
+            "power": 11,
+            "trophies": 1007
+          }
+        },
+        {
+          "tag": "#9YPR0Q0CJ",
+          "name": "karinqwx",
+          "brawler": {
+            "id": 16000003,
+            "name": "BROCK",
+            "power": 11,
+            "trophies": 874
+          }
+        },
+        {
+          "tag": "#VYP000VJ",
+          "name": "benim123",
+          "brawler": {
+            "id": 16000011,
+            "name": "MORTIS",
+            "power": 11,
+            "trophies": 866
+          }
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260617T225834.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 54,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#GJGJR8JCJ",
+        "name": "TUP|MORTISGOD🥵",
+        "brawler": {
+          "id": 16000075,
+          "name": "MICO",
+          "power": 11,
+          "trophies": 776
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8VPPUJ8J9",
+            "name": "Nero",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 10,
+              "trophies": 816
+            }
+          },
+          {
+            "tag": "#28J9CR89L",
+            "name": "AS974",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 1400
+            }
+          },
+          {
+            "tag": "#GJGJR8JCJ",
+            "name": "TUP|MORTISGOD🥵",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 776
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 797
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 698
+            }
+          },
+          {
+            "tag": "#RP99U8RV",
+            "name": "wilf",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 9,
+              "trophies": 655
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

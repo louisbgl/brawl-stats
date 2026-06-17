@@ -319686,5 +319686,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260617T225834.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 54,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#GJGJR8JCJ",
+        "name": "TUP|MORTISGOD🥵",
+        "brawler": {
+          "id": 16000075,
+          "name": "MICO",
+          "power": 11,
+          "trophies": 776
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8VPPUJ8J9",
+            "name": "Nero",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 10,
+              "trophies": 816
+            }
+          },
+          {
+            "tag": "#28J9CR89L",
+            "name": "AS974",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 1400
+            }
+          },
+          {
+            "tag": "#GJGJR8JCJ",
+            "name": "TUP|MORTISGOD🥵",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 776
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 797
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 698
+            }
+          },
+          {
+            "tag": "#RP99U8RV",
+            "name": "wilf",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 9,
+              "trophies": 655
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
