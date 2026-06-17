@@ -106510,5 +106510,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260617T020319.000Z",
+    "event": {
+      "id": 15001248,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Slippery Showdown"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 168,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#2QJRLRVL2",
+        "name": "H4uu20ii$$",
+        "brawler": {
+          "id": 16000083,
+          "name": "CLANCY",
+          "power": 11,
+          "trophies": 1255
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JL8Y2LGVQ",
+            "name": "⚔️ やirͥαtͣeͫ⚔️",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 11,
+              "trophies": 945
+            }
+          },
+          {
+            "tag": "#JVGJRUPRJ",
+            "name": "nisa13",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 1424
+            }
+          },
+          {
+            "tag": "#RYU9PCUCP",
+            "name": "妥•ζ͜͡๛»zeus🤍",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 480
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VYV8PRGVU",
+            "name": "TAQ/HAREWS",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 10,
+              "trophies": 2034
+            }
+          },
+          {
+            "tag": "#2QJRLRVL2",
+            "name": "H4uu20ii$$",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1255
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 612
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
