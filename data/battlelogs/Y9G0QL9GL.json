@@ -109403,5 +109403,189 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260617T205552.000Z",
+    "event": {
+      "id": 15001249,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Arabesque"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 62,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#VQJ9UU",
+        "name": "Jack sparrow",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 837
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#UQJR0V0V",
+            "name": "sinsi ninja",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 547
+            }
+          },
+          {
+            "tag": "#2QJ22GQ0LJ",
+            "name": "yidom",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1072
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 833
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQJ9UU",
+            "name": "Jack sparrow",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 837
+            }
+          },
+          {
+            "tag": "#VQJ2PP",
+            "name": "Hadi Görek YTB",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 789
+            }
+          },
+          {
+            "tag": "#VQR89L",
+            "name": "Bell",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 857
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260617T205858.000Z",
+    "event": {
+      "id": 15001249,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Arabesque"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#89PQQVL0Q",
+        "name": "seebassv_",
+        "brawler": {
+          "id": 16000010,
+          "name": "EL PRIMO",
+          "power": 9,
+          "trophies": 971
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 832
+            }
+          },
+          {
+            "tag": "#89PQQVL0Q",
+            "name": "seebassv_",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 9,
+              "trophies": 971
+            }
+          },
+          {
+            "tag": "#9900GY2CU",
+            "name": "Леонид7⁷7",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 10,
+              "trophies": 879
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PPUGPG",
+            "name": "benji",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 871
+            }
+          },
+          {
+            "tag": "#2PPUVQJ",
+            "name": "Fizzey",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 851
+            }
+          },
+          {
+            "tag": "#2PPCCUP",
+            "name": "===HUGO===",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 894
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
