@@ -106326,5 +106326,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260617T015631.000Z",
+    "event": {
+      "id": 15001203,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Hyacinth House"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 97,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#2QUGUC90U9",
+        "name": "SGD Sigma",
+        "brawler": {
+          "id": 16000091,
+          "name": "LUMI",
+          "power": 11,
+          "trophies": 898
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YGRJ9R0V",
+            "name": "ᴮᴱᴿᴹᴼ⁾⁾⁾",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 3,
+              "trophies": 399
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 605
+            }
+          },
+          {
+            "tag": "#P80PG0QVL",
+            "name": "[D4C]TosTer",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 668
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YQ2Q9PLJY",
+            "name": "ly",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 9,
+              "trophies": 941
+            }
+          },
+          {
+            "tag": "#2QUGUC90U9",
+            "name": "SGD Sigma",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 898
+            }
+          },
+          {
+            "tag": "#P9V8RRVRV",
+            "name": "El Prinzessin",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 744
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260617T015930.000Z",
+    "event": {
+      "id": 15001248,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Slippery Showdown"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 146,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2CQYVQCYVU",
+        "name": "imparator",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 640
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 602
+            }
+          },
+          {
+            "tag": "#2CQYVQCYVU",
+            "name": "imparator",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 640
+            }
+          },
+          {
+            "tag": "#2GV2CVP0",
+            "name": "louis",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1387
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9RVCJ",
+            "name": "PomDraapi",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 829
+            }
+          },
+          {
+            "tag": "#2P9RRUU",
+            "name": "Yxnkee",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 890
+            }
+          },
+          {
+            "tag": "#2P9RQPP",
+            "name": "Fink",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 10,
+              "trophies": 875
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
