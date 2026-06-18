@@ -218072,5 +218072,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260618T171352.000Z",
+    "event": {
+      "id": 15000082,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Layer Cake"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 75,
+      "starPlayer": {
+        "tag": "#GPU92090G",
+        "name": "🇫🇷 | Tom_PLLX",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 1001
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P0JJ9JPQQ",
+            "name": "boysi",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 1026
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1088
+            }
+          },
+          {
+            "tag": "#9L2VQYRG",
+            "name": "bober ma klapek",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1436
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GPU92090G",
+            "name": "🇫🇷 | Tom_PLLX",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1001
+            }
+          },
+          {
+            "tag": "#2C9YCVRGPY",
+            "name": "🏀SR/sandriox13",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 2008
+            }
+          },
+          {
+            "tag": "#YPCYC0G28",
+            "name": "disok",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260618T172746.000Z",
+    "event": {
+      "id": 15000293,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Parallel Plays"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 81,
+      "starPlayer": {
+        "tag": "#2UR2QV0GPG",
+        "name": "user1982873",
+        "brawler": {
+          "id": 16000085,
+          "name": "KENJI",
+          "power": 11,
+          "trophies": 7
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YUQR00PQG",
+            "name": "théoweid",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2UR2QV0GPG",
+            "name": "user1982873",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PYLQPU",
+            "name": "Zoulou Chaing",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2PYYYRL",
+            "name": "Azrael",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2PYYRGP",
+            "name": "Ayzer",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
