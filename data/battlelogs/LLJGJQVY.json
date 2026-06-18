@@ -326602,5 +326602,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260618T222821.000Z",
+    "event": {
+      "id": 15000548,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Out in the Open"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 128,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000103,
+          "name": "NAJIA",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#8ULCG00GP",
+            "name": "嵐|Tempesta92•",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#LLCR8PPYV",
+            "name": "Vlad",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RPJRVRPY9",
+            "name": "do god",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 9,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#RP9JUQQG9",
+            "name": "misha1488",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 10,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#29LLUGVLR",
+            "name": "⬛️🐍|GX_GOBBO",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
