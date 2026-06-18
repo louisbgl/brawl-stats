@@ -219073,5 +219073,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260618T190109.000Z",
+    "event": {
+      "id": 15000011,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Undermine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 79,
+      "starPlayer": {
+        "tag": "#8P8V0Q88",
+        "name": "YT:AutoProfitGT",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UVJ908Y8Q",
+            "name": "спидран20к",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2UUC2V082L",
+            "name": "CODE10/80",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0V2LQGLP",
+            "name": "Muslera",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#9PJ090JUL",
+            "name": "??",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#8P8V0Q88",
+            "name": "YT:AutoProfitGT",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
