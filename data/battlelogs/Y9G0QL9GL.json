@@ -112104,5 +112104,189 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260618T123407.000Z",
+    "event": {
+      "id": 15000581,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Healthy Middle Ground"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 162,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2V998YUJGR",
+        "name": "Мифик",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 10,
+          "trophies": 1066
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V998YUJGR",
+            "name": "Мифик",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 1066
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 6,
+              "trophies": 461
+            }
+          },
+          {
+            "tag": "#RL2UJQPRU",
+            "name": "1st | 😎SAMU😎",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 823
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CQRGLP",
+            "name": "SneyArmy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 799
+            }
+          },
+          {
+            "tag": "#CQJCL0",
+            "name": "kenylol",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 788
+            }
+          },
+          {
+            "tag": "#CQJPUG",
+            "name": "Gabbytzuu.🖤",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 821
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260618T123631.000Z",
+    "event": {
+      "id": 15000054,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Canal Grande"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 85,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#Y9U9G89VC",
+        "name": "お尻|4gatq❈",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 10,
+          "trophies": 806
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 6,
+              "trophies": 471
+            }
+          },
+          {
+            "tag": "#V9JC29LJ",
+            "name": "maya",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 9,
+              "trophies": 448
+            }
+          },
+          {
+            "tag": "#Y9U9G89VC",
+            "name": "お尻|4gatq❈",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 10,
+              "trophies": 806
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9RUQL",
+            "name": "BranliSinge",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 5,
+              "trophies": 604
+            }
+          },
+          {
+            "tag": "#2P9JLY8",
+            "name": "Raizen",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 3,
+              "trophies": 642
+            }
+          },
+          {
+            "tag": "#2P9JJP0",
+            "name": "Shaoows",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 5,
+              "trophies": 561
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
