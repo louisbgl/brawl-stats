@@ -218982,5 +218982,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260618T185859.000Z",
+    "event": {
+      "id": 15000132,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Center Stage"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 32,
+      "starPlayer": {
+        "tag": "#2VGVPUGJ9P",
+        "name": "AnorLondo",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2VGVPUGJ9P",
+            "name": "AnorLondo",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#LVUQPCPP9",
+            "name": "MALAYA🌸",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PY9QQJ",
+            "name": "lu",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2PY8RC8",
+            "name": "edou64",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2PY9CLG",
+            "name": "Mouk🐷",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
