@@ -184276,5 +184276,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260618T072749.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 55,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#R98CYY2VU",
+        "name": "Basık poğaça",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 987
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R98CYY2VU",
+            "name": "Basık poğaça",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 987
+            }
+          },
+          {
+            "tag": "#PYPUJ9G88",
+            "name": "GX ROSARIO 012",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1045
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 972
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ0RYL",
+            "name": "◇Shady◇",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 9,
+              "trophies": 971
+            }
+          },
+          {
+            "tag": "#VQ0U00",
+            "name": "DoreXD",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1015
+            }
+          },
+          {
+            "tag": "#VQ20GG",
+            "name": "ardak2005",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 976
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
