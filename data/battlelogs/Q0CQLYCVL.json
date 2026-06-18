@@ -175878,5 +175878,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260618T231341.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 61,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000085,
+          "name": "KENJI",
+          "power": 11,
+          "trophies": 627
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2PV0U8CP09",
+            "name": "Eyzen ヤ",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 731
+            }
+          },
+          {
+            "tag": "#90UL9VJU",
+            "name": "Resuko🎭",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 11,
+              "trophies": 425
+            }
+          },
+          {
+            "tag": "#UCU8JUY2",
+            "name": "Le J'",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 9,
+              "trophies": 560
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GUPL0JUQ2",
+            "name": "skiador",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1382
+            }
+          },
+          {
+            "tag": "#2YU2YC0QU",
+            "name": "lasu cr4k 777",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1617
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 627
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
