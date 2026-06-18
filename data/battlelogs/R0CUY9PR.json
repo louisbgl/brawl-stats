@@ -100478,5 +100478,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260618T182640.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 21,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1490
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1490
+            }
+          },
+          {
+            "tag": "#89J0V2GLL",
+            "name": "tiafay",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1052
+            }
+          },
+          {
+            "tag": "#Y8CLGGGV8",
+            "name": "Catlady🇹🇷",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1593
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PP2U2J",
+            "name": "MEDAG",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1346
+            }
+          },
+          {
+            "tag": "#2PP28VJ",
+            "name": "MrPatate_",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 1355
+            }
+          },
+          {
+            "tag": "#2PP8YVL",
+            "name": "Aurel",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 1350
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260618T182854.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 97,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#22RYRC0R0",
+        "name": "TÆ |イ𝔂𝖓๏x🦦",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 1302
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QLL0UR0LL",
+            "name": "SK |W1FI💬",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1550
+            }
+          },
+          {
+            "tag": "#8GJ2UPCCY",
+            "name": "FaZe_Mario11",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1605
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1500
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22RYRC0R0",
+            "name": "TÆ |イ𝔂𝖓๏x🦦",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1302
+            }
+          },
+          {
+            "tag": "#8C0PR82J",
+            "name": "htt",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#9V080V9P2",
+            "name": "🌵cactus🌵",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1693
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
