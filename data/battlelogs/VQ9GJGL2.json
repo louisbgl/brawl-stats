@@ -95668,5 +95668,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260619T225622.000Z",
+    "event": {
+      "id": 15001053,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sidetrack"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 27,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#PYYRCPGUG",
+        "name": "4uDa",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 11,
+          "trophies": 947
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 925
+            }
+          },
+          {
+            "tag": "#PYYRCPGUG",
+            "name": "4uDa",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 947
+            }
+          },
+          {
+            "tag": "#J0PJ8PGC",
+            "name": "It's Relezz",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 11,
+              "trophies": 741
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9RVCJ",
+            "name": "PomDraapi",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 824
+            }
+          },
+          {
+            "tag": "#2P9J9JG",
+            "name": "HugoSensei83",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 902
+            }
+          },
+          {
+            "tag": "#2P9GVLG",
+            "name": "Daniel",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 852
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
