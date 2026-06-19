@@ -270794,5 +270794,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260619T112906.000Z",
+    "event": {
+      "id": 15000292,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Open Business"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 96,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#89CYPYC9V",
+        "name": "☽♤𝕕𝕒𝕣𝕜♧☾",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 1887
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1694
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 1058
+            }
+          },
+          {
+            "tag": "#PY9RL8JQG",
+            "name": "sk8🍓|my swag",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1554
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJGPUJ80J",
+            "name": "fluffy",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2008
+            }
+          },
+          {
+            "tag": "#89CYPYC9V",
+            "name": "☽♤𝕕𝕒𝕣𝕜♧☾",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1887
+            }
+          },
+          {
+            "tag": "#PQJPVV2JR",
+            "name": "POLO DU CRÈPE",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1750
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
