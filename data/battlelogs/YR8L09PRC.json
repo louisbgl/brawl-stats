@@ -223962,5 +223962,137 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260620T190321.000Z",
+    "event": {
+      "id": 15000645,
+      "mode": "deathmatch5v5",
+      "modeId": 31,
+      "map": "Slippery road"
+    },
+    "battle": {
+      "mode": "wipeout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 104,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 821
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C29GPR029",
+            "name": "викса",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 94
+            }
+          },
+          {
+            "tag": "#998YCCJGP",
+            "name": "ZeLOrd😴",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 10,
+              "trophies": 569
+            }
+          },
+          {
+            "tag": "#PYRPQ9P99",
+            "name": "помидорка",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 10,
+              "trophies": 523
+            }
+          },
+          {
+            "tag": "#2G9YR2JYLJ",
+            "name": "tokin_78",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 639
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 821
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9Y0YRC0UQ",
+            "name": "a1sior",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 490
+            }
+          },
+          {
+            "tag": "#8V2YP0L8Y",
+            "name": "cfel",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 322
+            }
+          },
+          {
+            "tag": "#GVV0J8RYV",
+            "name": "misia",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 404
+            }
+          },
+          {
+            "tag": "#YLQGYQR2",
+            "name": "Sjkilleryo",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 667
+            }
+          },
+          {
+            "tag": "#9QVU2Q9LR",
+            "name": "Zomowiec",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1010
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
