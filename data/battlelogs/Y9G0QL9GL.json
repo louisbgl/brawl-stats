@@ -114359,5 +114359,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260620T202750.000Z",
+    "event": {
+      "id": 15001222,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Cabin Fever"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 99,
+      "starPlayer": {
+        "tag": "#9U9G0RPV9",
+        "name": "g0$π•",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 747
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UVQUQRYC8",
+            "name": "Coscu2.0🫡",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 510
+            }
+          },
+          {
+            "tag": "#2R8LQG8GYJ",
+            "name": "Messi",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1982
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 636
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9C9PPG90P",
+            "name": "𐌄𝕴𝖘𝖒𝖆𝖎𝖑®",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 9,
+              "trophies": 964
+            }
+          },
+          {
+            "tag": "#9U9G0RPV9",
+            "name": "g0$π•",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 747
+            }
+          },
+          {
+            "tag": "#888YY0PVC",
+            "name": "Smg.",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 502
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
