@@ -85986,5 +85986,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260620T165800.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 115,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000051,
+          "name": "ASH",
+          "power": 9,
+          "trophies": 144
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 9,
+              "trophies": 144
+            }
+          },
+          {
+            "tag": "#2QUPLY89VL",
+            "name": "🇹🇷🇹🇷barış",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 3,
+              "trophies": 56
+            }
+          },
+          {
+            "tag": "#GRQJJY9JR",
+            "name": "S1r0ta",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 7,
+              "trophies": 43
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22UGU9L",
+            "name": "Joopie",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 6,
+              "trophies": 88
+            }
+          },
+          {
+            "tag": "#22UGPYJ",
+            "name": "Antero",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 5,
+              "trophies": 69
+            }
+          },
+          {
+            "tag": "#22UGQ0P",
+            "name": "'heinek''n'",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 7,
+              "trophies": 85
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
