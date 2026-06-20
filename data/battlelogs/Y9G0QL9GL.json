@@ -114450,5 +114450,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260620T203216.000Z",
+    "event": {
+      "id": 15000293,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Parallel Plays"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 51,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#2YUCLPR0Y8",
+        "name": "James",
+        "brawler": {
+          "id": 16000076,
+          "name": "KIT",
+          "power": 9,
+          "trophies": 864
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UUUPJVC",
+            "name": "MartinVAFC",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 9,
+              "trophies": 498
+            }
+          },
+          {
+            "tag": "#2YUCLPR0Y8",
+            "name": "James",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 9,
+              "trophies": 864
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 636
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PY9UJU",
+            "name": "Qrapouli",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 7,
+              "trophies": 620
+            }
+          },
+          {
+            "tag": "#2PYPLGG",
+            "name": "LeRaccoon",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 7,
+              "trophies": 725
+            }
+          },
+          {
+            "tag": "#2PYP2YL",
+            "name": "Mihauk_",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 7,
+              "trophies": 641
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260620T203451.000Z",
+    "event": {
+      "id": 15000548,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Out in the Open"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 60,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2QGGCPYQY9",
+        "name": "🌪️Splatoonko",
+        "brawler": {
+          "id": 16000059,
+          "name": "OTIS",
+          "power": 11,
+          "trophies": 403
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GRC2JGYV9",
+            "name": "武士 | kerchik 🫦",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 610
+            }
+          },
+          {
+            "tag": "#RP29UY0R",
+            "name": "|wookie karfi|",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 9,
+              "trophies": 785
+            }
+          },
+          {
+            "tag": "#2QGGCPYQY9",
+            "name": "🌪️Splatoonko",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 403
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CGRQJJ28R",
+            "name": "Сонька",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 10,
+              "trophies": 810
+            }
+          },
+          {
+            "tag": "#JUPJC9VRP",
+            "name": "∙🌾∙𝔽𝔯ēēչ𝘆∙",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 6,
+              "trophies": 251
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 6,
+              "trophies": 516
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
