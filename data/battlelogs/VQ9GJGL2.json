@@ -96678,5 +96678,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260620T143040.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 284,
+      "trophyChange": 22,
+      "starPlayer": {
+        "tag": "#20LPG82YC",
+        "name": "tonfils",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1348
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1114
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 886
+            }
+          },
+          {
+            "tag": "#822UVRYCC",
+            "name": "PatoJefe",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1131
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#20LPG82YC",
+            "name": "tonfils",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1348
+            }
+          },
+          {
+            "tag": "#28G8U2PVC",
+            "name": "El Primo",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1104
+            }
+          },
+          {
+            "tag": "#RQLYVC8Q9",
+            "name": "felix",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1022
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260620T143454.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 218,
+      "trophyChange": 23,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 908
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2PU8JY00C",
+            "name": "mampffred",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2023
+            }
+          },
+          {
+            "tag": "#GR280JJVY",
+            "name": "Selena",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 970
+            }
+          },
+          {
+            "tag": "#Y2J9G0JC",
+            "name": "M4rt",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 1815
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1134
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 908
+            }
+          },
+          {
+            "tag": "#90PQ09L8U",
+            "name": "Azuhqui",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 767
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
