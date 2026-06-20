@@ -88634,5 +88634,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260620T222956.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 211,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 597
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9YRCCCP0Y",
+            "name": "cherry",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 611
+            }
+          },
+          {
+            "tag": "#2LJ9JUV0GU",
+            "name": "Alexito6767",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 9,
+              "trophies": 165
+            }
+          },
+          {
+            "tag": "#2QLP8C0UG0",
+            "name": "🤫🤫🤯🤬😲😵😵",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1908
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#UY2Q0J2",
+            "name": "Pardo 15",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 585
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 597
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 809
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
