@@ -89824,5 +89824,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260621T214443.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 325,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#2UQR299CCV",
+        "name": "tilou",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 1615
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UQR299CCV",
+            "name": "tilou",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1615
+            }
+          },
+          {
+            "tag": "#900Q0LPJU",
+            "name": "Данияр",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 862
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 900
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y08YLURPC",
+            "name": "Nazeyyyo",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1105
+            }
+          },
+          {
+            "tag": "#2GQ0JLPVC9",
+            "name": "Lm12",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 8,
+              "trophies": 454
+            }
+          },
+          {
+            "tag": "#9GRVJLYCL",
+            "name": "libra510",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 635
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260621T215226.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 426,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000083,
+          "name": "CLANCY",
+          "power": 11,
+          "trophies": 918
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#809UCRRV0",
+            "name": "irmakK",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 804
+            }
+          },
+          {
+            "tag": "#2RUL2GPU82",
+            "name": "MATTIA",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 457
+            }
+          },
+          {
+            "tag": "#2U009R0229",
+            "name": "BLUE SKY",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 929
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 918
+            }
+          },
+          {
+            "tag": "#PPCLC0VQP",
+            "name": "ismachk",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 11,
+              "trophies": 672
+            }
+          },
+          {
+            "tag": "#8U0LCRPJU",
+            "name": "artl",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 9,
+              "trophies": 385
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
