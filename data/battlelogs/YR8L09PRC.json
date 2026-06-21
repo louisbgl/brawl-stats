@@ -225955,5 +225955,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260621T181054.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 119,
+      "starPlayer": {
+        "tag": "#2C0CPRJ028",
+        "name": "нурайка",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 1010
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 1340
+            }
+          },
+          {
+            "tag": "#LCRRR22LP",
+            "name": "Omar_DZ",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1038
+            }
+          },
+          {
+            "tag": "#2Q8Q8UPY89",
+            "name": "APM🇦🇲🇦🇲",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 1011
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8YYVL2UUL",
+            "name": "эмма;6",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 262
+            }
+          },
+          {
+            "tag": "#2QUJL8LQRY",
+            "name": "Juan",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1140
+            }
+          },
+          {
+            "tag": "#2C0CPRJ028",
+            "name": "нурайка",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1010
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

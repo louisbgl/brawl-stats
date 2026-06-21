@@ -115737,5 +115737,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260621T181354.000Z",
+    "event": {
+      "id": 15000004,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Snake Prairie"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 61,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#RY8RQJYQ",
+        "name": "The brawl king",
+        "brawler": {
+          "id": 16000034,
+          "name": "JACKY",
+          "power": 11,
+          "trophies": 864
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 769
+            }
+          },
+          {
+            "tag": "#2V2C92GRG0",
+            "name": "CLZlucas",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1498
+            }
+          },
+          {
+            "tag": "#YGJPY0PV2",
+            "name": "david",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1033
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VP0RLJVUV",
+            "name": "🥒 юрок огірок",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 8,
+              "trophies": 433
+            }
+          },
+          {
+            "tag": "#2R2GPU2UQY",
+            "name": "pro45",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 9,
+              "trophies": 735
+            }
+          },
+          {
+            "tag": "#RY8RQJYQ",
+            "name": "The brawl king",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 864
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
