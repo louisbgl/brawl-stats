@@ -100976,5 +100976,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260621T201302.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 99,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 11,
+          "trophies": 433
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 433
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1137
+            }
+          },
+          {
+            "tag": "#2CQ0RRUGL9",
+            "name": "DARK CHESTER",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2U92RQUYRR",
+            "name": "Ти пидор",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1017
+            }
+          },
+          {
+            "tag": "#2VU98QCU0V",
+            "name": "R-T SCATTANTE",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 7,
+              "trophies": 51
+            }
+          },
+          {
+            "tag": "#2V98YLCYCL",
+            "name": "ツIMP|MAHMUT",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 1180
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260621T201543.000Z",
+    "event": {
+      "id": 15000403,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Stardust Storm"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 100,
+      "starPlayer": {
+        "tag": "#GQ08CYYVP",
+        "name": "🫡 JB",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 1000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 433
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1646
+            }
+          },
+          {
+            "tag": "#8YCLP2RCJ",
+            "name": "L’H08901",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1005
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#28YJ0Q8G0L",
+            "name": "🇵🇱M@rko🇵🇱",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1005
+            }
+          },
+          {
+            "tag": "#VR9YJY2R8",
+            "name": "NNN077",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1231
+            }
+          },
+          {
+            "tag": "#GQ08CYYVP",
+            "name": "🫡 JB",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
