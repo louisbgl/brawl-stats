@@ -115186,5 +115186,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260621T152858.000Z",
+    "event": {
+      "id": 15000004,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Snake Prairie"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 60,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 724
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VY9J9VRUY",
+            "name": "Aydemi",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 1,
+              "trophies": 42
+            }
+          },
+          {
+            "tag": "#2VYCC89Y8",
+            "name": "卂乙丨乙卂",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 6,
+              "trophies": 512
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 724
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2882YL0",
+            "name": "klimov",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 4,
+              "trophies": 471
+            }
+          },
+          {
+            "tag": "#2882LJP",
+            "name": "sosy_jopy//:",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 5,
+              "trophies": 490
+            }
+          },
+          {
+            "tag": "#2882V9J",
+            "name": "神.kaito🪐",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 4,
+              "trophies": 502
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

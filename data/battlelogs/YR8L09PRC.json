@@ -224226,5 +224226,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260621T152503.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 148,
+      "starPlayer": {
+        "tag": "#R2VCLCPLR",
+        "name": "Ahilec⚜️",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1017
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LRP2Q0LCP",
+            "name": "CHINO",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 11,
+              "trophies": 1001
+            }
+          },
+          {
+            "tag": "#PP0GLRYJ",
+            "name": "crashfamac",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1002
+            }
+          },
+          {
+            "tag": "#8UL20VG9P",
+            "name": "DIEGO",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 2007
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R2VCLCPLR",
+            "name": "Ahilec⚜️",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1017
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1006
+            }
+          },
+          {
+            "tag": "#2LY2GVY9JU",
+            "name": "JDH_s",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260621T152713.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 66,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 1088
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98C8UUG08",
+            "name": "antikuffar93",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 415
+            }
+          },
+          {
+            "tag": "#8R8YGCJCG",
+            "name": "yukio",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 652
+            }
+          },
+          {
+            "tag": "#JGL82R88",
+            "name": "cfclvlvlöhçbblp",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 9,
+              "trophies": 299
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LCJ9VQVJC",
+            "name": "DMS|Nickiツ🤍",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1341
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1088
+            }
+          },
+          {
+            "tag": "#2RC2Q80YPP",
+            "name": "YT|Gamify’d",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1531
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
