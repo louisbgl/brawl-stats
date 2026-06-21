@@ -197907,5 +197907,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260621T175812.000Z",
+    "event": {
+      "id": 15001200,
+      "mode": "deathmatch",
+      "modeId": 25,
+      "map": "Hello Always Ends With a Goodbye"
+    },
+    "battle": {
+      "mode": "wipeout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 76,
+      "starPlayer": {
+        "tag": "#J0YLLYYV8",
+        "name": "Mystyy✌️",
+        "brawler": {
+          "id": 16000085,
+          "name": "KENJI",
+          "power": 11,
+          "trophies": 917
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#J0YLLYYV8",
+            "name": "Mystyy✌️",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 917
+            }
+          },
+          {
+            "tag": "#2L0J2UUQ9",
+            "name": "Tiger167",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 992
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 9,
+              "trophies": 639
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VG8VVL",
+            "name": "𝔟𝔞𝔩𝔢𝔫𝔠𝔦",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 861
+            }
+          },
+          {
+            "tag": "#VG8QL0",
+            "name": "TVIX ®",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 10,
+              "trophies": 872
+            }
+          },
+          {
+            "tag": "#VG888U",
+            "name": "Hasko",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 828
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
