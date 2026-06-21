@@ -115002,5 +115002,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260621T120142.000Z",
+    "event": {
+      "id": 15000004,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Snake Prairie"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 56,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#22V9QJ0",
+        "name": "Brawl Sun",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 9,
+          "trophies": 667
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V2RPGVRL",
+            "name": "нубик",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 9,
+              "trophies": 508
+            }
+          },
+          {
+            "tag": "#QYUVYCR0V",
+            "name": "припадочная",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 700
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 717
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22V9CGU",
+            "name": "jonkoe",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 8,
+              "trophies": 670
+            }
+          },
+          {
+            "tag": "#22VP09L",
+            "name": "Marnix",
+            "brawler": {
+              "id": 16000056,
+              "name": "EVE",
+              "power": 7,
+              "trophies": 690
+            }
+          },
+          {
+            "tag": "#22V9QJ0",
+            "name": "Brawl Sun",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 9,
+              "trophies": 667
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260621T120323.000Z",
+    "event": {
+      "id": 15000004,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Snake Prairie"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 65,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#2G2JC98CR",
+        "name": "puck",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 791
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 727
+            }
+          },
+          {
+            "tag": "#8JY8RQQ2P",
+            "name": "Ninja",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 10,
+              "trophies": 657
+            }
+          },
+          {
+            "tag": "#PYRLRV8C0",
+            "name": "Baymuffin|TR",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 666
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PGQLUJRPC",
+            "name": "LuLuLu",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 9,
+              "trophies": 729
+            }
+          },
+          {
+            "tag": "#2G2JC98CR",
+            "name": "puck",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 791
+            }
+          },
+          {
+            "tag": "#2VJ9RQRGQU",
+            "name": "אליה המלך",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1327
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
