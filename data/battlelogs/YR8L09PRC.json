@@ -226319,5 +226319,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260622T052605.000Z",
+    "event": {
+      "id": 15000082,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Layer Cake"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 81,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 1088
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8C0CCGRCC",
+            "name": "Арбузик",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1227
+            }
+          },
+          {
+            "tag": "#JJ8PQP89V",
+            "name": "Cube|number 1",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 855
+            }
+          },
+          {
+            "tag": "#Q092UYP00",
+            "name": "⛩️|$enz|⛩️",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 2050
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1088
+            }
+          },
+          {
+            "tag": "#PV8QRRLY0",
+            "name": "RIP_godzilla",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1005
+            }
+          },
+          {
+            "tag": "#2CV0QJUG0G",
+            "name": "Zeta|Loxy",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
