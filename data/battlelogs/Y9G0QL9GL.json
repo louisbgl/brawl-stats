@@ -115829,5 +115829,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260622T200756.000Z",
+    "event": {
+      "id": 15000054,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Canal Grande"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 86,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#GGVCJJ2V",
+        "name": "vaynlabiloute",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 500
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GGVCJJ2V",
+            "name": "vaynlabiloute",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 500
+            }
+          },
+          {
+            "tag": "#9YRVU0U0Y",
+            "name": "DUMANCIK",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 858
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 766
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9LQQ8",
+            "name": "Chapeau2paille",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 9,
+              "trophies": 746
+            }
+          },
+          {
+            "tag": "#2P9LGCL",
+            "name": "Nilespace",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 10,
+              "trophies": 734
+            }
+          },
+          {
+            "tag": "#2P9L9GP",
+            "name": "✨TiAS LoRD✨",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 719
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260622T201112.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 86,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#Y0UPLVRR",
+        "name": "crow-bro",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 661
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QL8UL9PGU",
+            "name": "~Aleks♤",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 10,
+              "trophies": 577
+            }
+          },
+          {
+            "tag": "#899C8VL2J",
+            "name": "big t",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 968
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 650
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8LV9GYYPU",
+            "name": "ndjd",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 824
+            }
+          },
+          {
+            "tag": "#R809V82LG",
+            "name": "giorhio011",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 525
+            }
+          },
+          {
+            "tag": "#Y0UPLVRR",
+            "name": "crow-bro",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 661
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
