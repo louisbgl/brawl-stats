@@ -183035,5 +183035,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260622T115619.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 33,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#YC098UYYR",
+        "name": "TT:izgii_4565",
+        "brawler": {
+          "id": 16000068,
+          "name": "MAISIE",
+          "power": 11,
+          "trophies": 507
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28Y98RVP0V",
+            "name": "nane piro",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 9,
+              "trophies": 533
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 726
+            }
+          },
+          {
+            "tag": "#YC098UYYR",
+            "name": "TT:izgii_4565",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 507
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VGL9RL",
+            "name": "KeremKosker",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 10,
+              "trophies": 526
+            }
+          },
+          {
+            "tag": "#VGQCUP",
+            "name": "Lucas ON",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 10,
+              "trophies": 642
+            }
+          },
+          {
+            "tag": "#VGQYPU",
+            "name": "ThEoDoRe MoSbY",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 625
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260622T115912.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 59,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#22Y0VVYL8L",
+        "name": "亗NixRageツ",
+        "brawler": {
+          "id": 16000069,
+          "name": "HANK",
+          "power": 9,
+          "trophies": 784
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2RLVUGCY2P",
+            "name": "mendel koskas",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 9,
+              "trophies": 1544
+            }
+          },
+          {
+            "tag": "#GRVCR2928",
+            "name": "SR.Ivanlord",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 10,
+              "trophies": 1446
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 736
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CJ00UVR22",
+            "name": "Nndiaxd",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 7,
+              "trophies": 812
+            }
+          },
+          {
+            "tag": "#22Y0VVYL8L",
+            "name": "亗NixRageツ",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 9,
+              "trophies": 784
+            }
+          },
+          {
+            "tag": "#RGG2YPV0U",
+            "name": "🔥|O B I T O|👺",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 9,
+              "trophies": 656
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
