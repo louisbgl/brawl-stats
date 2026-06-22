@@ -184505,5 +184505,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260622T155925.000Z",
+    "event": {
+      "id": 15000440,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flaring Phoenix"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 118,
+      "starPlayer": {
+        "tag": "#22CP8Y0CP",
+        "name": "Brawler",
+        "brawler": {
+          "id": 16000057,
+          "name": "JANET",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#22CP8Y0CP",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#GJ8U0UQ8Y",
+            "name": "Toune 1505",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GG0UYLV0G",
+            "name": "joshua",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#9RGCLCPRU",
+            "name": "GGL|Steel 🎭",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#GUQVCRQG2",
+            "name": "giorgos",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
