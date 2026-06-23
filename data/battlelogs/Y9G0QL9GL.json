@@ -116013,5 +116013,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260623T062521.000Z",
+    "event": {
+      "id": 15001201,
+      "mode": "deathmatch",
+      "modeId": 25,
+      "map": "Palette Hangout"
+    },
+    "battle": {
+      "mode": "wipeout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 100,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Q0R8CJG22",
+        "name": "SHH | ɢʟᴏᴡᴇ",
+        "brawler": {
+          "id": 16000091,
+          "name": "LUMI",
+          "power": 11,
+          "trophies": 677
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GG9PGGPGU",
+            "name": "йоу йоу",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 900
+            }
+          },
+          {
+            "tag": "#Q0R8CJG22",
+            "name": "SHH | ɢʟᴏᴡᴇ",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 677
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 647
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R8J8Y8",
+            "name": "Prime Limon🍋",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 755
+            }
+          },
+          {
+            "tag": "#R8RYUU",
+            "name": "zerO",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 766
+            }
+          },
+          {
+            "tag": "#R8JLP0",
+            "name": "Garou",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 746
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260623T062816.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 134,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#2RR0L2QVY9",
+        "name": "Spongebob",
+        "brawler": {
+          "id": 16000058,
+          "name": "BONNIE",
+          "power": 10,
+          "trophies": 434
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 662
+            }
+          },
+          {
+            "tag": "#2RR0L2QVY9",
+            "name": "Spongebob",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 10,
+              "trophies": 434
+            }
+          },
+          {
+            "tag": "#29VP9VRLU",
+            "name": "FanTomAs",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1697
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y92PYGGJL",
+            "name": "Huberthio 365",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 875
+            }
+          },
+          {
+            "tag": "#LPVCCCVCL",
+            "name": "толик95",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 9,
+              "trophies": 512
+            }
+          },
+          {
+            "tag": "#Q0L2PGL2Y",
+            "name": "szymon_parowka",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 902
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
