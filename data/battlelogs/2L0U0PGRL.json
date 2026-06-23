@@ -203463,5 +203463,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260623T103229.000Z",
+    "event": {
+      "id": 15001201,
+      "mode": "deathmatch",
+      "modeId": 25,
+      "map": "Palette Hangout"
+    },
+    "battle": {
+      "mode": "wipeout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 100,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 908
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LC9CVV8R2",
+            "name": "sidnei_04",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1915
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 908
+            }
+          },
+          {
+            "tag": "#2Y0ULY8RQ",
+            "name": "lior",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 792
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22UQR9J",
+            "name": "RoOFoOLi",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 1190
+            }
+          },
+          {
+            "tag": "#22UG0LU",
+            "name": "WimpieP",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1178
+            }
+          },
+          {
+            "tag": "#22UG92L",
+            "name": "†𝒲𝑅𝒜𝐼𝒯𝐻†",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1176
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260623T103820.000Z",
+    "event": {
+      "id": 15000022,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Hideout"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 95,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#G822Y28LR",
+        "name": "DSA|Raniko366",
+        "brawler": {
+          "id": 16000053,
+          "name": "LOLA",
+          "power": 11,
+          "trophies": 520
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPRP9J2Q",
+            "name": "Akino",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 10,
+              "trophies": 689
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 9,
+              "trophies": 856
+            }
+          },
+          {
+            "tag": "#G822Y28LR",
+            "name": "DSA|Raniko366",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 520
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G8YU2J",
+            "name": "Haniwa",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 710
+            }
+          },
+          {
+            "tag": "#G8Y8VJ",
+            "name": "Aquilotti",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 10,
+              "trophies": 746
+            }
+          },
+          {
+            "tag": "#G8PV0U",
+            "name": "AlbiOli",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 10,
+              "trophies": 699
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
