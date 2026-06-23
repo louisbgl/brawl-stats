@@ -341184,5 +341184,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260623T193244.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 150,
+      "starPlayer": {
+        "tag": "#V9YCG8GQ",
+        "name": "Alpha Kev",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 15
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#R2UL889G8",
+            "name": "Abdo🥀",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#GUUC2R9J2",
+            "name": "SmSm🥀",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 15
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#V9YCG8GQ",
+            "name": "Alpha Kev",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#LQVJL9LGP",
+            "name": "HowToWin👑",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#2CCR00CR2",
+            "name": "Nazrei",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 15
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
