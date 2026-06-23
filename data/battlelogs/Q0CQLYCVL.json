@@ -187158,5 +187158,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260623T142820.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 114,
+      "starPlayer": {
+        "tag": "#YJJ9CU0U0",
+        "name": "RCC🧸",
+        "brawler": {
+          "id": 16000103,
+          "name": "NAJIA",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P0RY00YJC",
+            "name": "kostinhoZASADY",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#LGUCVJ992",
+            "name": "Bl le pro",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YJJ9CU0U0",
+            "name": "RCC🧸",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#8GGL200UU",
+            "name": "Djenicc",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#8QYLG9JUV",
+            "name": "zi pi pi",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
