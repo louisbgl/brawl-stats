@@ -102343,5 +102343,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260623T131937.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 87,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#GLLJPRCU2",
+        "name": "ᵛˡᵃᵈ語",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 723
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#20U0Q82QY",
+            "name": "вик",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#GLLJPRCU2",
+            "name": "ᵛˡᵃᵈ語",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 723
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1085
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YP982Y8LU",
+            "name": "М_Э_Г",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1029
+            }
+          },
+          {
+            "tag": "#20GQ0RV0LC",
+            "name": "басбаскотакбас",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1403
+            }
+          },
+          {
+            "tag": "#8CR89PRJG",
+            "name": "Stash Brawler",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 10,
+              "trophies": 1159
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
