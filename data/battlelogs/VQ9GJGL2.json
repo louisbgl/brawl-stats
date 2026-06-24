@@ -104654,5 +104654,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260624T211411.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 190,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#9PYLU09GG",
+        "name": "*_*",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1748
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 576
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 940
+            }
+          },
+          {
+            "tag": "#9PYLU09GG",
+            "name": "*_*",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1748
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RYR2VRCVQ",
+            "name": "nadulka.aaa",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 673
+            }
+          },
+          {
+            "tag": "#8YCYR988C",
+            "name": "Stasiu401",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 9,
+              "trophies": 552
+            }
+          },
+          {
+            "tag": "#22U2Q9V2U",
+            "name": "*Got*TheKup 🌸",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 10,
+              "trophies": 813
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260624T212822.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 432,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#L0LP298L2",
+        "name": "dneki",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 2269
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQRP82QJ",
+            "name": "js834149",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 607
+            }
+          },
+          {
+            "tag": "#L0LP298L2",
+            "name": "dneki",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 2269
+            }
+          },
+          {
+            "tag": "#2PPJJU0L",
+            "name": "Ptaq",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 9,
+              "trophies": 768
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 593
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 955
+            }
+          },
+          {
+            "tag": "#2989PLL2YJ",
+            "name": "пет чіта",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2238
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
