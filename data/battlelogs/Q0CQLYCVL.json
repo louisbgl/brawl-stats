@@ -187613,5 +187613,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260624T115211.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 137,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#LCCVCGJY9",
+        "name": "Wery",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 652
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LCCVCGJY9",
+            "name": "Wery",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 652
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 437
+            }
+          },
+          {
+            "tag": "#LVP0UYJR8",
+            "name": "Code:Yuxy",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1708
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9QRLYYP0J",
+            "name": "Youssef1",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 295
+            }
+          },
+          {
+            "tag": "#20YV9QYLU",
+            "name": "Aqv|Memak💪⭐️",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1442
+            }
+          },
+          {
+            "tag": "#2C2RLRYUV",
+            "name": "Pr0pHeT",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1096
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

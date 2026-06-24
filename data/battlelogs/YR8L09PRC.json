@@ -236560,5 +236560,158 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260624T115311.000Z",
+    "event": {
+      "id": 15000295,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "No Excuses"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "friendly",
+      "result": "victory",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": -1,
+          "trophies": -1
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QRGQG8UPG",
+            "name": "samfobar",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260624T115600.000Z",
+    "event": {
+      "id": 15000295,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "No Excuses"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "friendly",
+      "result": "defeat",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#QRGQG8UPG",
+        "name": "samfobar",
+        "brawler": {
+          "id": 16000046,
+          "name": "BELLE",
+          "power": -1,
+          "trophies": -1
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QRGQG8UPG",
+            "name": "samfobar",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260624T115846.000Z",
+    "event": {
+      "id": 15000295,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "No Excuses"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "friendly",
+      "result": "defeat",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#QRGQG8UPG",
+        "name": "samfobar",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": -1,
+          "trophies": -1
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QRGQG8UPG",
+            "name": "samfobar",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
