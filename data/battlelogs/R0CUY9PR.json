@@ -103263,5 +103263,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260624T123148.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 125,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#2VLVLUUGJ",
+        "name": "etesech",
+        "brawler": {
+          "id": 16000023,
+          "name": "LEON",
+          "power": 11,
+          "trophies": 1033
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JRURP8Y8",
+            "name": "lil chinese boy",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 589
+            }
+          },
+          {
+            "tag": "#VQJLJRJ0",
+            "name": "Fusion Blitz",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 11,
+              "trophies": 646
+            }
+          },
+          {
+            "tag": "#GGY8J0YJ",
+            "name": "Aaran",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 756
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9GVCUG82V",
+            "name": "¡CrAcY×monkey!",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 11,
+              "trophies": 1038
+            }
+          },
+          {
+            "tag": "#2VLVLUUGJ",
+            "name": "etesech",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1033
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1114
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
