@@ -187889,5 +187889,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260624T165828.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 44,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#22LC098V8",
+        "name": "FCU|TIMIDI 8",
+        "brawler": {
+          "id": 16000085,
+          "name": "KENJI",
+          "power": 11,
+          "trophies": 1177
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28RUYPYVLC",
+            "name": "code: phisic",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 867
+            }
+          },
+          {
+            "tag": "#9J2PUJGP0",
+            "name": "HMB|defra",
+            "brawler": {
+              "id": 16000060,
+              "name": "SAM",
+              "power": 8,
+              "trophies": 445
+            }
+          },
+          {
+            "tag": "#PPVVVQPJ8",
+            "name": "20jsfc08",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 1323
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 456
+            }
+          },
+          {
+            "tag": "#22LC098V8",
+            "name": "FCU|TIMIDI 8",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1177
+            }
+          },
+          {
+            "tag": "#2PR208VRL",
+            "name": "wow",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 1568
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
