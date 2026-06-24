@@ -93042,5 +93042,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260624T213158.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 149,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#9YGCUJ8GU",
+        "name": "SK|Sese",
+        "brawler": {
+          "id": 16000106,
+          "name": "BOLT",
+          "power": 11,
+          "trophies": 1887
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 591
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 950
+            }
+          },
+          {
+            "tag": "#GYVRRG8JQ",
+            "name": "『武•𝙰ɾα͢ꜱнι🪐』",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 665
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22YGR2CJ0",
+            "name": "P1Tagora",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 714
+            }
+          },
+          {
+            "tag": "#V9UV00G0",
+            "name": "korniykom",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1321
+            }
+          },
+          {
+            "tag": "#9YGCUJ8GU",
+            "name": "SK|Sese",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 1887
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
