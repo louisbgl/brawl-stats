@@ -92490,5 +92490,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260624T062901.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 277,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2CQL0QGQR2",
+        "name": "Linne",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 468
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2P889QQP8",
+            "name": "BeaAboveAll",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 718
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 471
+            }
+          },
+          {
+            "tag": "#2V8JRRCYLG",
+            "name": "Zen1x",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1764
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CPPU08RPR",
+            "name": "nono le bosse",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 726
+            }
+          },
+          {
+            "tag": "#2CQL0QGQR2",
+            "name": "Linne",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 468
+            }
+          },
+          {
+            "tag": "#2G9RVRQLV8",
+            "name": "vdhjbbouff",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 444
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
