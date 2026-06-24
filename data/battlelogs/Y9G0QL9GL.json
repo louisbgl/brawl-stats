@@ -116289,5 +116289,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260624T170034.000Z",
+    "event": {
+      "id": 15001178,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Hyperspace"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#20QJPVCJR",
+        "name": "CHUVACHOK",
+        "brawler": {
+          "id": 16000013,
+          "name": "POCO",
+          "power": 11,
+          "trophies": 671
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LJLJR9R92",
+            "name": "ieco",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1112
+            }
+          },
+          {
+            "tag": "#Y9G0QL9GL",
+            "name": "JOEL | Bzzz…",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 685
+            }
+          },
+          {
+            "tag": "#L9G2JGG9Y",
+            "name": "wewe",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 820
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LJJP92QVC",
+            "name": "Raniz879",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 856
+            }
+          },
+          {
+            "tag": "#20QJPVCJR",
+            "name": "CHUVACHOK",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 671
+            }
+          },
+          {
+            "tag": "#8LPUC2LJ0",
+            "name": "savka28",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 494
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

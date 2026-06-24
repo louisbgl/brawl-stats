@@ -187981,5 +187981,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260624T170244.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 139,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#90YLUYG0G",
+        "name": "Ikerpb_07",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 11,
+          "trophies": 1284
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YL892RC0L",
+            "name": "TOMAR 753",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 630
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 468
+            }
+          },
+          {
+            "tag": "#LY8PCURQ0",
+            "name": "HMB/ALEXKURENAI",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 562
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LJ0VQPJU9",
+            "name": "ZETA|KUBA",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 7,
+              "trophies": 253
+            }
+          },
+          {
+            "tag": "#90YLUYG0G",
+            "name": "Ikerpb_07",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1284
+            }
+          },
+          {
+            "tag": "#9JY8Q0UQ0",
+            "name": "J power!",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 11,
+              "trophies": 282
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
