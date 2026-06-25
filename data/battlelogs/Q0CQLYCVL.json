@@ -189803,5 +189803,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260625T180057.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 150,
+      "starPlayer": {
+        "tag": "#R9RGQ99QL",
+        "name": "alonetodestroy",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P0Q0JY08R",
+            "name": "Amar",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#R9RGQ99QL",
+            "name": "alonetodestroy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2QP288V9YJ",
+            "name": "Voske70",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GGR89JURP",
+            "name": "DELUKENJI",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2YRUQGPV2Y",
+            "name": "dj piska",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
