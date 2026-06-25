@@ -189894,5 +189894,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260625T194752.000Z",
+    "event": {
+      "id": 15000300,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Ring of Fire"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 156,
+      "starPlayer": {
+        "tag": "#Q9Q2VR888",
+        "name": "🇬🇪nika🇬🇪",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q9Q2VR888",
+            "name": "🇬🇪nika🇬🇪",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#RJ9UYYUUY",
+            "name": "moon knight",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P8JQY0P0V",
+            "name": "Çınar",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#8JV0JQ02C",
+            "name": "Nerwusik",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#YY2JQGJU0",
+            "name": "Hatîce🎀",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
