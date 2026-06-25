@@ -93134,5 +93134,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260625T172537.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 216,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2PJYP99LQL",
+        "name": "Cnisn",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 875
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 589
+            }
+          },
+          {
+            "tag": "#2PJYP99LQL",
+            "name": "Cnisn",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 875
+            }
+          },
+          {
+            "tag": "#YY8VP829P",
+            "name": "мяу",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 655
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PPR800",
+            "name": "EME𝓛INE🎀",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 726
+            }
+          },
+          {
+            "tag": "#2PPQV0P",
+            "name": "Blanc",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 651
+            }
+          },
+          {
+            "tag": "#2PPQR2L",
+            "name": "G2X FenkYx",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 10,
+              "trophies": 716
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
