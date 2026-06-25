@@ -189530,5 +189530,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260625T090112.000Z",
+    "event": {
+      "id": 15000011,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Undermine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 106,
+      "starPlayer": {
+        "tag": "#208L022UJV",
+        "name": "LGD|godshadow👑",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#208L022UJV",
+            "name": "LGD|godshadow👑",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#QRC0QJV9U",
+            "name": "rare",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#9RUJQJ2LG",
+            "name": "Tiberiusius1212",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 9,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2RVCJVPLVP",
+            "name": "ZeTa|Ib;)",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#J2RUR98RP",
+            "name": "nutella🐶",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
