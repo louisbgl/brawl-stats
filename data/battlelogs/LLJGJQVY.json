@@ -343078,5 +343078,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260626T093118.000Z",
+    "event": {
+      "id": 15000011,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Undermine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 112,
+      "starPlayer": {
+        "tag": "#R2028CV",
+        "name": "koymanu🦦.",
+        "brawler": {
+          "id": 16000097,
+          "name": "MINA",
+          "power": 11,
+          "trophies": 15
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#R2028CV",
+            "name": "koymanu🦦.",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#P8R0YRJQQ",
+            "name": "Kristal🤍Janet",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 15
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UC0UPLUYY",
+            "name": "꧁☣NIGHTMARE☣꧂",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#2JJ0U0QGLQ",
+            "name": "☠️??☠️",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#PVRR0GJ0R",
+            "name": "Łêg ⁰⁷ ➢繁",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
