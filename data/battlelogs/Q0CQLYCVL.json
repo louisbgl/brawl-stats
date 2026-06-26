@@ -190534,5 +190534,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260626T195656.000Z",
+    "event": {
+      "id": 15000548,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Out in the Open"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "championshipChallenge",
+      "result": "victory",
+      "duration": 116,
+      "trophyChange": 1,
+      "starPlayer": {
+        "tag": "#2UGCL98GLR",
+        "name": "manu",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 300
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YG2R8R90C",
+            "name": "💎ˢᵃᵈ♡ᴀʟᴍᴀᴢɪᴋ💎",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 300
+            }
+          },
+          {
+            "tag": "#990RRGYRC",
+            "name": "Nameless 666",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 11,
+              "trophies": 300
+            }
+          },
+          {
+            "tag": "#LQRU22QCU",
+            "name": "yani",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 300
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22YRQ2U20",
+            "name": "Giobbi",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 301
+            }
+          },
+          {
+            "tag": "#2UGCL98GLR",
+            "name": "manu",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 300
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 303
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
