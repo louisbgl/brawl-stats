@@ -190626,5 +190626,279 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260626T200055.000Z",
+    "event": {
+      "id": 15000548,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Out in the Open"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "championshipChallenge",
+      "result": "defeat",
+      "duration": 151,
+      "starPlayer": {
+        "tag": "#2QG80R2J8",
+        "name": "narreky",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 402
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QG80R2J8",
+            "name": "narreky",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 402
+            }
+          },
+          {
+            "tag": "#L8LLU92JU",
+            "name": "sle1ter",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 402
+            }
+          },
+          {
+            "tag": "#GL0J2QYL0",
+            "name": "torino",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 402
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 403
+            }
+          },
+          {
+            "tag": "#2L2UV89CGR",
+            "name": "Asham",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 402
+            }
+          },
+          {
+            "tag": "#29V2GLQYP",
+            "name": "pole sin cool o",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 402
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260626T200247.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 59,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 796
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CJ8Y29V0Q",
+            "name": "YT|BEZSMERTNY",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1235
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 796
+            }
+          },
+          {
+            "tag": "#PP0ULGQ0G",
+            "name": "BS|SEMİH",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 8,
+              "trophies": 725
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GUVUV8",
+            "name": "Articuno23",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 947
+            }
+          },
+          {
+            "tag": "#GV0RYL",
+            "name": "Roman91",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 884
+            }
+          },
+          {
+            "tag": "#GV22UU",
+            "name": "matviienko",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 890
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260626T200725.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "draw",
+      "duration": 210,
+      "starPlayer": {
+        "tag": "#2LQVL8YYG",
+        "name": "M8L8TX",
+        "brawler": {
+          "id": 16000023,
+          "name": "LEON",
+          "power": 11,
+          "trophies": 976
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LQVL8YYG",
+            "name": "M8L8TX",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 976
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 806
+            }
+          },
+          {
+            "tag": "#QRRGCP0VQ",
+            "name": "🇬🇪DACHI🇬🇪",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 8,
+              "trophies": 1024
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2G9PJJU9Y9",
+            "name": "Abubacacayo",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 1009
+            }
+          },
+          {
+            "tag": "#2JC20LGG0U",
+            "name": "Kuiko",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 903
+            }
+          },
+          {
+            "tag": "#2L829RJ92V",
+            "name": "Marco pro",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1007
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
