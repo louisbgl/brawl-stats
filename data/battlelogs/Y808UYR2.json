@@ -93226,5 +93226,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260626T173305.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 337,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2P0PGU2CJ",
+        "name": "Liron",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 741
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8JY2GY8PU",
+            "name": "CROW",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 832
+            }
+          },
+          {
+            "tag": "#2CGUJRVYC0",
+            "name": "Sk Leogotty",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1184
+            }
+          },
+          {
+            "tag": "#2P0PGU2CJ",
+            "name": "Liron",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 741
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CQUQVG8LQ",
+            "name": "☠︎T҉h҉e҉ K҉i҉n҉",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 691
+            }
+          },
+          {
+            "tag": "#2QQCJRUCGY",
+            "name": "DomiFranci",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1069
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 604
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
