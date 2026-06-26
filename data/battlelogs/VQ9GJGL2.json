@@ -105482,5 +105482,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260626T230539.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 198,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2GRRC8RLGG",
+        "name": "ThomAhawk",
+        "brawler": {
+          "id": 16000106,
+          "name": "BOLT",
+          "power": 10,
+          "trophies": 1810
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 500
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 9,
+              "trophies": 621
+            }
+          },
+          {
+            "tag": "#28GJ8YP0CC",
+            "name": "ᵐᵒⁿʕ•ᴥ•ʔ",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 2484
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GRRC8RLGG",
+            "name": "ThomAhawk",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 10,
+              "trophies": 1810
+            }
+          },
+          {
+            "tag": "#2UU88VPCV0",
+            "name": "fut:renax",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 2040
+            }
+          },
+          {
+            "tag": "#20LCVP2Y2V",
+            "name": "Léo",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 646
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
