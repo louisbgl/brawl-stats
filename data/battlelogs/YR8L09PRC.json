@@ -240389,5 +240389,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260627T090530.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#GCVJYY0CP",
+        "name": "Ruffy🦋",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 742
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8G280RVUG",
+            "name": "Nensi☔️",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 10,
+              "trophies": 693
+            }
+          },
+          {
+            "tag": "#2CP22RU20R",
+            "name": "CR|Milán",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 9,
+              "trophies": 449
+            }
+          },
+          {
+            "tag": "#R20Y2YUYG",
+            "name": "Eloxpro",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1060
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GCVJYY0CP",
+            "name": "Ruffy🦋",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 742
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 10,
+              "trophies": 854
+            }
+          },
+          {
+            "tag": "#2PLCY90QV",
+            "name": "SpicyTray",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 833
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
