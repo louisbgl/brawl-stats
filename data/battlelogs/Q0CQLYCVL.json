@@ -191452,5 +191452,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260627T162604.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#89VJLCU2P",
+        "name": "⋆｡°✩мιℓℓу✩°｡⋆",
+        "brawler": {
+          "id": 16000091,
+          "name": "LUMI",
+          "power": 11,
+          "trophies": 836
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#89VJLCU2P",
+            "name": "⋆｡°✩мιℓℓу✩°｡⋆",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 836
+            }
+          },
+          {
+            "tag": "#PJ8U9YG88",
+            "name": "♤𝕋𝕘𝔓𝕚𝕤𝕚𝕥",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 925
+            }
+          },
+          {
+            "tag": "#9Q98V2RCU",
+            "name": "pierre",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1041
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RPRUU9RR9",
+            "name": "XErik",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 960
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 827
+            }
+          },
+          {
+            "tag": "#28QULLVP0",
+            "name": "Billoscarabillo",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 10,
+              "trophies": 992
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
