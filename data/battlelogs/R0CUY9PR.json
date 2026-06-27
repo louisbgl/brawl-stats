@@ -103907,5 +103907,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260627T155642.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 43,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#YC9VUU00R",
+        "name": "ͲͲϚ|çհąʍօ🎩",
+        "brawler": {
+          "id": 16000000,
+          "name": "SHELLY",
+          "power": 11,
+          "trophies": 1258
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1242
+            }
+          },
+          {
+            "tag": "#YC9VUU00R",
+            "name": "ͲͲϚ|çհąʍօ🎩",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1258
+            }
+          },
+          {
+            "tag": "#2PPCJG0",
+            "name": "Urukog",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 10,
+              "trophies": 1221
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PPUJV8",
+            "name": "kikiz",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 1222
+            }
+          },
+          {
+            "tag": "#2PPCQVL",
+            "name": "Lucas",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 10,
+              "trophies": 1236
+            }
+          },
+          {
+            "tag": "#2PPU92L",
+            "name": "Ezlazulie",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 1233
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260627T160005.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 122,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#L9VVRR28C",
+        "name": "İʙʀᴀʜɪᴍ🌗",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 1267
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L9VVRR28C",
+            "name": "İʙʀᴀʜɪᴍ🌗",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1267
+            }
+          },
+          {
+            "tag": "#YCLGY0J0R",
+            "name": "Águila Roja 🦅",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1386
+            }
+          },
+          {
+            "tag": "#G2JLYLJJL",
+            "name": "Ludwig",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1224
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2J0RVCRVLG",
+            "name": "luffy mini",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2168
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1252
+            }
+          },
+          {
+            "tag": "#228PLRCPC",
+            "name": "chrolli",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
