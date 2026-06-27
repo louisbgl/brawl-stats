@@ -346286,5 +346286,351 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260627T133036.000Z",
+    "event": {
+      "id": 15000293,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Parallel Plays"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 101,
+      "starPlayer": {
+        "tag": "#2Q8G8UG8J",
+        "name": "[ММА] НЕЗНАЙКА",
+        "brawler": {
+          "id": 16000103,
+          "name": "NAJIA",
+          "power": 11,
+          "trophies": 15
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Q8G8UG8J",
+            "name": "[ММА] НЕЗНАЙКА",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#9JVL2ULV",
+            "name": "ZencieX",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#82UU88VRY",
+            "name": "ZenciJR",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 15
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22L22QJQQ",
+            "name": "紅碟",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#GLY0VJ8C",
+            "name": "wilderrammel",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 15
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260627T133426.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 79,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#8VLYLCGY",
+            "name": "marti.pro",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#8CUCVYGLU",
+            "name": "KEREM VE ALPER",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 15
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#90LL82GYU",
+            "name": "𝑳𝒖𝒛𝒚❦",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#9UL9GYLP2",
+            "name": "Lozy🏴",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#LVVRPPPP8",
+            "name": "ELM |Syniox",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 15
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260627T133637.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 113,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#8VLYLCGY",
+            "name": "marti.pro",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#8CUCVYGLU",
+            "name": "KEREM VE ALPER",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 15
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#90LL82GYU",
+            "name": "𝑳𝒖𝒛𝒚❦",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#9UL9GYLP2",
+            "name": "Lozy🏴",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#LVVRPPPP8",
+            "name": "ELM |Syniox",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 15
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260627T133858.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 121,
+      "starPlayer": {
+        "tag": "#8CUCVYGLU",
+        "name": "KEREM VE ALPER",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 15
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8VLYLCGY",
+            "name": "marti.pro",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#8CUCVYGLU",
+            "name": "KEREM VE ALPER",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 15
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#90LL82GYU",
+            "name": "𝑳𝒖𝒛𝒚❦",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#9UL9GYLP2",
+            "name": "Lozy🏴",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 15
+            }
+          },
+          {
+            "tag": "#LVVRPPPP8",
+            "name": "ELM |Syniox",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 15
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
