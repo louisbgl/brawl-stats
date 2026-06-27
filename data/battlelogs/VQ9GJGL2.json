@@ -106126,5 +106126,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260627T130331.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 272,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#GCVLUGVCP",
+        "name": "Apex",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 1128
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GCVLUGVCP",
+            "name": "Apex",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1128
+            }
+          },
+          {
+            "tag": "#2CJ2LYJJQP",
+            "name": "Slava",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 567
+            }
+          },
+          {
+            "tag": "#YPJ8U2YRV",
+            "name": "将会有胜利",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 777
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YPVQCGYLC",
+            "name": "ＨＹＤＲＯＧＩＮＥ",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 667
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 159
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 9,
+              "trophies": 651
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
