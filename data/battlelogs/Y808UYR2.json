@@ -94328,5 +94328,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260627T172032.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 127,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2JLQ80V8CV",
+        "name": "warrior61ru",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 185
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 158
+            }
+          },
+          {
+            "tag": "#2JLQ80V8CV",
+            "name": "warrior61ru",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 185
+            }
+          },
+          {
+            "tag": "#28QLRRPGJQ",
+            "name": "Lucie",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 1,
+              "trophies": 246
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9CP2J",
+            "name": "teo",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 7,
+              "trophies": 195
+            }
+          },
+          {
+            "tag": "#2P9J8LP",
+            "name": "Vanessa",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 8,
+              "trophies": 191
+            }
+          },
+          {
+            "tag": "#2P9JLY8",
+            "name": "Raizen",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 8,
+              "trophies": 193
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260627T172546.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 273,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000051,
+          "name": "ASH",
+          "power": 11,
+          "trophies": 173
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 173
+            }
+          },
+          {
+            "tag": "#RCUJ92JY2",
+            "name": "Cleo1000000",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 201
+            }
+          },
+          {
+            "tag": "#GR2JRVJ0G",
+            "name": "MEZARCI3",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 10,
+              "trophies": 250
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PY8RC8",
+            "name": "edou64",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 219
+            }
+          },
+          {
+            "tag": "#2PY2RL0",
+            "name": "Patrick",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 9,
+              "trophies": 197
+            }
+          },
+          {
+            "tag": "#2PY2JJP",
+            "name": "Xafir",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 212
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
