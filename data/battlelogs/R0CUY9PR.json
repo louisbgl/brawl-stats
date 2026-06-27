@@ -104183,5 +104183,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260627T180910.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 151,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2UPQ8LCVLQ",
+        "name": "inoske boss",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 2040
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UPQ8LCVLQ",
+            "name": "inoske boss",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2040
+            }
+          },
+          {
+            "tag": "#L9QQYPYCL",
+            "name": "Arda Guler",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 810
+            }
+          },
+          {
+            "tag": "#2Q0VCQVU9R",
+            "name": "era",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1460
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P8CQY22V",
+            "name": "Dinograk",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 11,
+              "trophies": 806
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 904
+            }
+          },
+          {
+            "tag": "#GLPRQ2JLJ",
+            "name": "dentalinho",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 981
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
