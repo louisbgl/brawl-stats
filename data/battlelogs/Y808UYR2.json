@@ -96884,5 +96884,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260628T150638.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 181,
+      "trophyChange": 23,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000051,
+          "name": "ASH",
+          "power": 11,
+          "trophies": 306
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JLQ9CYRL",
+            "name": "Топтышка",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 8,
+              "trophies": 249
+            }
+          },
+          {
+            "tag": "#2VGLYYQQRR",
+            "name": "lili.liski",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 9,
+              "trophies": 614
+            }
+          },
+          {
+            "tag": "#2UJJYQPLYG",
+            "name": "ВСПЫШКА ГАВ",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 616
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CP2PRUP08",
+            "name": "TH|Abeleteeee",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 9,
+              "trophies": 540
+            }
+          },
+          {
+            "tag": "#2Q2VQ22PL8",
+            "name": "toto",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 828
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 306
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260628T152624.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 193,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2JP9JYU880",
+        "name": "DatGuy🇸🇰🔛🔝",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 720
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8QQY9CJCL",
+            "name": "htelite.",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 572
+            }
+          },
+          {
+            "tag": "#2VV2RU0P2",
+            "name": "Jasiek",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 7,
+              "trophies": 396
+            }
+          },
+          {
+            "tag": "#2JP9JYU880",
+            "name": "DatGuy🇸🇰🔛🔝",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 720
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 329
+            }
+          },
+          {
+            "tag": "#QJCQ88GGG",
+            "name": "la bro😈",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 11,
+              "trophies": 533
+            }
+          },
+          {
+            "tag": "#8RV09QLRV",
+            "name": "ympu",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 10,
+              "trophies": 943
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
