@@ -94604,5 +94604,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260628T092922.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 123,
+      "starPlayer": {
+        "tag": "#28JYRVU28",
+        "name": "riveraaa",
+        "brawler": {
+          "id": 16000094,
+          "name": "KAZE",
+          "power": 11,
+          "trophies": 6
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 6
+            }
+          },
+          {
+            "tag": "#220QLGG22L",
+            "name": "alte12",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#28JYRVU28",
+            "name": "riveraaa",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 6
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9YYCJ",
+            "name": "Starlord_Mcfly",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#2P9YGLP",
+            "name": "babouchsan",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 9,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#2P9L9GP",
+            "name": "✨TiAS LoRD✨",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 5
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
