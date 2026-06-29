@@ -97436,5 +97436,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260629T134606.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 237,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#9JLQVC9QY",
+        "name": "zarma",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 11,
+          "trophies": 904
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9RPPG9PYY",
+            "name": "NAthigo",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 609
+            }
+          },
+          {
+            "tag": "#GGQJ2JU2L",
+            "name": "imparator",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 9,
+              "trophies": 376
+            }
+          },
+          {
+            "tag": "#9JLQVC9QY",
+            "name": "zarma",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 904
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GG0VG89R9",
+            "name": "rfdgdfdvdvxvck",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 7,
+              "trophies": 261
+            }
+          },
+          {
+            "tag": "#2JV0CYR8U8",
+            "name": "C.R7",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1116
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 393
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
