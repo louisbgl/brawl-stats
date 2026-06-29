@@ -245131,5 +245131,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260629T200306.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 300,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#QJJVY0CGQ",
+        "name": "juju",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 1085
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9QUQ9G2V2",
+            "name": "icoooonnn",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2268
+            }
+          },
+          {
+            "tag": "#292RVCQQ2",
+            "name": "•PİXİ•",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 2180
+            }
+          },
+          {
+            "tag": "#QY2YG2J8",
+            "name": "Justin",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 1130
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 1010
+            }
+          },
+          {
+            "tag": "#QRGQG8UPG",
+            "name": "samfobar",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#QJJVY0CGQ",
+            "name": "juju",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1085
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
