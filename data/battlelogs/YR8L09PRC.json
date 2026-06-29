@@ -245039,5 +245039,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260629T195601.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 64,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#YVY0JU9V8",
+        "name": "🩷★𝒘𝒊𝒏𝒅★🩷",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 2000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2YCU2RPUQ",
+            "name": "¥My H0den¥",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1476
+            }
+          },
+          {
+            "tag": "#LPVP9LPUU",
+            "name": "♕♡⚘Åŀ𝐛𝖊𝖗ʈ⚘♡♕",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1402
+            }
+          },
+          {
+            "tag": "#GC89P98U",
+            "name": "Desqa",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1984
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 1390
+            }
+          },
+          {
+            "tag": "#QRGQG8UPG",
+            "name": "samfobar",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 2078
+            }
+          },
+          {
+            "tag": "#YVY0JU9V8",
+            "name": "🩷★𝒘𝒊𝒏𝒅★🩷",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
