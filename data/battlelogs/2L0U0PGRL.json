@@ -220094,5 +220094,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260629T151848.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 97,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#LCJPPJ02U",
+        "name": "bomber",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 1964
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000056,
+              "name": "EVE",
+              "power": 8,
+              "trophies": 485
+            }
+          },
+          {
+            "tag": "#YJGJ9JJYR",
+            "name": "/\\/\\urgi@",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 872
+            }
+          },
+          {
+            "tag": "#LCJPPJ02U",
+            "name": "bomber",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1964
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RGL9PVYGC",
+            "name": "BolecStolec",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 693
+            }
+          },
+          {
+            "tag": "#J8CP28JU2",
+            "name": "ASoyan",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 9,
+              "trophies": 651
+            }
+          },
+          {
+            "tag": "#8LPRQU02G",
+            "name": "Bloodthirsty",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 9,
+              "trophies": 385
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
