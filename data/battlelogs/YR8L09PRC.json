@@ -243494,5 +243494,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260629T073704.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#2JLJJPVYU",
+        "name": "RoBZim",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 678
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JRQVVQ8Y",
+            "name": "Paul🧙🏽‍♂️",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1171
+            }
+          },
+          {
+            "tag": "#RYYCCUVQR",
+            "name": "ヤdomi🕊️",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1082
+            }
+          },
+          {
+            "tag": "#QG0GYCCQQ",
+            "name": "rinxols",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1327
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PL8LRQUR2",
+            "name": "IMPMUHAMMED",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 965
+            }
+          },
+          {
+            "tag": "#2JLJJPVYU",
+            "name": "RoBZim",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 678
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 10,
+              "trophies": 867
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
