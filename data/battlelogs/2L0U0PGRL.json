@@ -220186,5 +220186,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260629T164840.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 117,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#22LR9UJVJ",
+        "name": "Kiraa",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 715
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PG2LP9C0",
+            "name": "Bariss",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 677
+            }
+          },
+          {
+            "tag": "#22LR9UJVJ",
+            "name": "Kiraa",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 715
+            }
+          },
+          {
+            "tag": "#9JLVLU08R",
+            "name": "TEP|clalipa",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 662
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QQ92J2Q",
+            "name": "PRC|TheWolf",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 10,
+              "trophies": 594
+            }
+          },
+          {
+            "tag": "#P2JJ9P2QC",
+            "name": "kolt",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 664
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 7,
+              "trophies": 480
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
