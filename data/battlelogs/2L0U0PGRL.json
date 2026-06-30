@@ -221289,5 +221289,214 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260630T122426.000Z",
+    "event": {
+      "id": 15001121,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Gated Community"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 3,
+      "trophyChange": 13,
+      "players": [
+        {
+          "tag": "#29JL88JJ0",
+          "name": "⛩|Justin🎋",
+          "brawler": {
+            "id": 16000002,
+            "name": "BULL",
+            "power": 11,
+            "trophies": 1118
+          }
+        },
+        {
+          "tag": "#2LURGUU92G",
+          "name": "Quekzie🍥",
+          "brawler": {
+            "id": 16000081,
+            "name": "LILY",
+            "power": 11,
+            "trophies": 1783
+          }
+        },
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000025,
+            "name": "CARL",
+            "power": 11,
+            "trophies": 975
+          }
+        },
+        {
+          "tag": "#2J99RCLUVY",
+          "name": "ölümsüz ☠️💀",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1278
+          }
+        },
+        {
+          "tag": "#2YJRRP2QU0",
+          "name": "Elox",
+          "brawler": {
+            "id": 16000104,
+            "name": "DAMIAN",
+            "power": 9,
+            "trophies": 1771
+          }
+        },
+        {
+          "tag": "#2VJ2LGG",
+          "name": "Buzzo-_-",
+          "brawler": {
+            "id": 16000008,
+            "name": "NITA",
+            "power": 11,
+            "trophies": 968
+          }
+        },
+        {
+          "tag": "#PGP20UYUJ",
+          "name": "LUCK",
+          "brawler": {
+            "id": 16000052,
+            "name": "MEG",
+            "power": 11,
+            "trophies": 759
+          }
+        },
+        {
+          "tag": "#2CJYG08JVY",
+          "name": "frutiknachile2",
+          "brawler": {
+            "id": 16000038,
+            "name": "SURGE",
+            "power": 11,
+            "trophies": 1767
+          }
+        },
+        {
+          "tag": "#22CCQJVCQ",
+          "name": "lll1956Mr.MSlll",
+          "brawler": {
+            "id": 16000063,
+            "name": "CHESTER",
+            "power": 10,
+            "trophies": 986
+          }
+        },
+        {
+          "tag": "#2CJ20L9YGC",
+          "name": "nina",
+          "brawler": {
+            "id": 16000039,
+            "name": "COLETTE",
+            "power": 11,
+            "trophies": 982
+          }
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260630T122643.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 114,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#PP89QQUC",
+        "name": "kaiz.",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 9,
+          "trophies": 946
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 988
+            }
+          },
+          {
+            "tag": "#PP89QQUC",
+            "name": "kaiz.",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 9,
+              "trophies": 946
+            }
+          },
+          {
+            "tag": "#2P0UG2PY8",
+            "name": "code : naistl",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1249
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#29CP0GLGJU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 10,
+              "trophies": 1040
+            }
+          },
+          {
+            "tag": "#2U9J9UV92J",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1065
+            }
+          },
+          {
+            "tag": "#2UUJVYLRV0",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 10,
+              "trophies": 1067
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
