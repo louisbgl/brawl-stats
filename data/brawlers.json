@@ -6612,6 +6612,120 @@
           "name": "BOUNCY BALL"
         }
       ]
+    },
+    {
+      "id": 16000107,
+      "name": "NORI",
+      "starPowers": [
+        {
+          "id": 23001295,
+          "name": "BIG HAUL"
+        },
+        {
+          "id": 23001296,
+          "name": "HIS MOTHER\u2019S SON"
+        }
+      ],
+      "hyperCharges": [],
+      "gears": [
+        {
+          "id": 62000000,
+          "name": "SPEED",
+          "level": 3
+        },
+        {
+          "id": 62000001,
+          "name": "HEALTH",
+          "level": 3
+        },
+        {
+          "id": 62000002,
+          "name": "DAMAGE",
+          "level": 3
+        },
+        {
+          "id": 62000003,
+          "name": "VISION",
+          "level": 3
+        },
+        {
+          "id": 62000004,
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000017,
+          "name": "GADGET COOLDOWN",
+          "level": 3
+        }
+      ],
+      "gadgets": [
+        {
+          "id": 23001297,
+          "name": "SUSHI SNACK"
+        },
+        {
+          "id": 23001298,
+          "name": "GONNA NEED A BIGGER NET"
+        }
+      ]
+    },
+    {
+      "id": 16000108,
+      "name": "WENDY",
+      "starPowers": [
+        {
+          "id": 23001318,
+          "name": "SLOWING SHIELD"
+        },
+        {
+          "id": 23001319,
+          "name": "SOLAR SHIELD"
+        }
+      ],
+      "hyperCharges": [],
+      "gears": [
+        {
+          "id": 62000000,
+          "name": "SPEED",
+          "level": 3
+        },
+        {
+          "id": 62000001,
+          "name": "HEALTH",
+          "level": 3
+        },
+        {
+          "id": 62000002,
+          "name": "DAMAGE",
+          "level": 3
+        },
+        {
+          "id": 62000003,
+          "name": "VISION",
+          "level": 3
+        },
+        {
+          "id": 62000004,
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000017,
+          "name": "GADGET COOLDOWN",
+          "level": 3
+        }
+      ],
+      "gadgets": [
+        {
+          "id": 23001320,
+          "name": "WIND-POWERED"
+        },
+        {
+          "id": 23001321,
+          "name": "GREEN GRENADE"
+        }
+      ]
     }
   ],
   "paging": {
