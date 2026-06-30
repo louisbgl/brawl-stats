@@ -50423,5 +50423,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260630T103020.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 135,
+      "starPlayer": {
+        "tag": "#JJ8P8URQC",
+        "name": "JOEL | Orbova",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 10,
+          "trophies": 758
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2RRQRVQP2Q",
+            "name": "c toi",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1388
+            }
+          },
+          {
+            "tag": "#2JU00LU8GR",
+            "name": "real madrid=",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 1028
+            }
+          },
+          {
+            "tag": "#RQ9GPRV2C",
+            "name": "🎀Leyla🌸",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 10,
+              "trophies": 898
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VPLCQJYR0",
+            "name": "Lola_:P",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 9,
+              "trophies": 138
+            }
+          },
+          {
+            "tag": "#2U9JJ08LL0",
+            "name": "star",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1022
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 758
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
