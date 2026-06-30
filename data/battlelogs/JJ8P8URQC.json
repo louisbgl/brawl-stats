@@ -51342,5 +51342,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260630T130247.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 170,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#GCVP22QUQ",
+        "name": "elskoo93",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 11,
+          "trophies": 1264
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2URG9GRQC0",
+            "name": "2-й бот",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1203
+            }
+          },
+          {
+            "tag": "#GCVP22QUQ",
+            "name": "elskoo93",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1264
+            }
+          },
+          {
+            "tag": "#VC829GV0",
+            "name": "Killer o",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 991
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 798
+            }
+          },
+          {
+            "tag": "#P09LQ2J9J",
+            "name": "秋|claire",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 8,
+              "trophies": 600
+            }
+          },
+          {
+            "tag": "#RGQL9RRRQ",
+            "name": "DanCoTru",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 913
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
