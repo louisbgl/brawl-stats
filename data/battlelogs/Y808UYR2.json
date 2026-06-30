@@ -97712,5 +97712,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260630T115844.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 121,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2CJPLRRL8P",
+        "name": "HUIMA HEMULI",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 11,
+          "trophies": 765
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YQQ0R2C20",
+            "name": "Gramuly",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 827
+            }
+          },
+          {
+            "tag": "#2R9P2RCLCC",
+            "name": "герман",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 630
+            }
+          },
+          {
+            "tag": "#2CJPLRRL8P",
+            "name": "HUIMA HEMULI",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 765
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QYJ9VU8G9",
+            "name": "🇦🇲ROMAN🇦🇲",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 4,
+              "trophies": 250
+            }
+          },
+          {
+            "tag": "#2V9UGULYU2",
+            "name": "danyal🤫",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 852
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 422
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
