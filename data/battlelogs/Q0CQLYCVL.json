@@ -201467,5 +201467,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260701T213029.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 62,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#PPQ2Q9QGV",
+        "name": "Rice🍚",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 1274
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 589
+            }
+          },
+          {
+            "tag": "#PPQ2Q9QGV",
+            "name": "Rice🍚",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1274
+            }
+          },
+          {
+            "tag": "#JJL9JJRPL",
+            "name": "DARKAT",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 976
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YJ9VU9R89",
+            "name": "сосо пш",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 951
+            }
+          },
+          {
+            "tag": "#2RJC29P8C",
+            "name": "Deklan",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 841
+            }
+          },
+          {
+            "tag": "#PQ89QJUC8",
+            "name": "дiкстiр морган",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 522
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260701T213229.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 93,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#R0UP9RY0V",
+        "name": "ZETA_DRAGUTIN",
+        "brawler": {
+          "id": 16000035,
+          "name": "GALE",
+          "power": 11,
+          "trophies": 525
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GCJQCQYQ9",
+            "name": "fang😈",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1386
+            }
+          },
+          {
+            "tag": "#280UUPLY8",
+            "name": "BlacK_roki",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 10,
+              "trophies": 626
+            }
+          },
+          {
+            "tag": "#R0UP9RY0V",
+            "name": "ZETA_DRAGUTIN",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 525
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJQ92L2RJ",
+            "name": "ZETA|Qwerty",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 9,
+              "trophies": 900
+            }
+          },
+          {
+            "tag": "#PR2CPP0C8",
+            "name": "samu",
+            "brawler": {
+              "id": 16000060,
+              "name": "SAM",
+              "power": 8,
+              "trophies": 476
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 600
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
