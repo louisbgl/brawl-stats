@@ -111083,5 +111083,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260701T110514.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 132,
+      "starPlayer": {
+        "tag": "#GGPY8QPQL",
+        "name": "SD/seui",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 921
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#J9Y9GY0J9",
+            "name": "İMP|~ÖYKÜ~",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 951
+            }
+          },
+          {
+            "tag": "#GCV0GGV2P",
+            "name": "𝑲𝒓𝒚𝒏𝒙Colt",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 10,
+              "trophies": 942
+            }
+          },
+          {
+            "tag": "#LYJVYG9Y2",
+            "name": "mortisiyok",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 813
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GGPY8QPQL",
+            "name": "SD/seui",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 921
+            }
+          },
+          {
+            "tag": "#9GQUJR88V",
+            "name": "LL|EDO |NITA",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 541
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 754
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
