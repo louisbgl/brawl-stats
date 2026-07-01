@@ -303726,5 +303726,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260701T085908.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 34,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 1070
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1070
+            }
+          },
+          {
+            "tag": "#R9YVUJJLP",
+            "name": "Марат Клубника",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1548
+            }
+          },
+          {
+            "tag": "#8QVY0YU2U",
+            "name": "最偉大的|Karatelツ",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1503
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PRRCVCCGV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1340
+            }
+          },
+          {
+            "tag": "#22UJ2L2VJJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1340
+            }
+          },
+          {
+            "tag": "#2P0QPVJCL2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1340
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
