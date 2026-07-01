@@ -201283,5 +201283,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260701T141725.000Z",
+    "event": {
+      "id": 15001269,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Under Pressure"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 91,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#P9088R0PP",
+        "name": "阴yang",
+        "brawler": {
+          "id": 16000064,
+          "name": "GRAY",
+          "power": 11,
+          "trophies": 904
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QQJVGR9Q8",
+            "name": "Apox",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 10,
+              "trophies": 482
+            }
+          },
+          {
+            "tag": "#P9088R0PP",
+            "name": "阴yang",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 904
+            }
+          },
+          {
+            "tag": "#PPJ0R0Y8P",
+            "name": "Hanniball",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 916
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V22RLVQQL",
+            "name": "Deniz el pro",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1332
+            }
+          },
+          {
+            "tag": "#9Y9VPCRLP",
+            "name": "kimt1m",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 8,
+              "trophies": 356
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 655
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260701T141912.000Z",
+    "event": {
+      "id": 15001269,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Under Pressure"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 69,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 579
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 579
+            }
+          },
+          {
+            "tag": "#PUL2RJUVU",
+            "name": "дошик",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 595
+            }
+          },
+          {
+            "tag": "#2L8R90QLJP",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 611
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RV08UGJC9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 10,
+              "trophies": 654
+            }
+          },
+          {
+            "tag": "#200YLCG02R",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 10,
+              "trophies": 577
+            }
+          },
+          {
+            "tag": "#2RYYJVUCVL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 638
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
