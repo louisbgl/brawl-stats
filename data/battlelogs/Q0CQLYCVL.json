@@ -201007,5 +201007,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260701T114922.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 177,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000083,
+          "name": "CLANCY",
+          "power": 11,
+          "trophies": 1007
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RYCUQC9CU",
+            "name": "NGM|MÍRA",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1348
+            }
+          },
+          {
+            "tag": "#2LU2QV90U",
+            "name": "ddaranoss",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 2453
+            }
+          },
+          {
+            "tag": "#2G2UUR0C29",
+            "name": "$_$!›DAVID‹!$_$",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1862
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1007
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1347
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1071
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
