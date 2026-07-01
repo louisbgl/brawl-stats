@@ -106299,5 +106299,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260701T195853.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 149,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 940
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JV2JG2922",
+            "name": "༄𝕹𝔬𝔯𝔪𝔞𝔩✿࿐",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1728
+            }
+          },
+          {
+            "tag": "#U9V8PLLLY",
+            "name": "tanflash",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 9,
+              "trophies": 683
+            }
+          },
+          {
+            "tag": "#RJV9LCUUL",
+            "name": "お | 𝐄𝐌𝐌𝐀🎀",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 986
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9J8QPCP92",
+            "name": "su",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1033
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 940
+            }
+          },
+          {
+            "tag": "#P90CJCRRG",
+            "name": "Kh_rs",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 924
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
