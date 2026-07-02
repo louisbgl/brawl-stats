@@ -69488,5 +69488,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260702T180230.000Z",
+    "event": {
+      "id": 15001276,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Jungle Top"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 96,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#GUP0RCGGC",
+        "name": "wh1t3black",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 818
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2PPGYPY29",
+            "name": "J_053x",
+            "brawler": {
+              "id": 16000066,
+              "name": "R-T",
+              "power": 9,
+              "trophies": 521
+            }
+          },
+          {
+            "tag": "#2ULR89RGQ",
+            "name": "Sangoku",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 9,
+              "trophies": 539
+            }
+          },
+          {
+            "tag": "#2V82JPC8L9",
+            "name": "GIORGIO_11",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GUP0RCGGC",
+            "name": "wh1t3black",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 818
+            }
+          },
+          {
+            "tag": "#2QYQUQR2U2",
+            "name": "GO100 000",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1029
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 11,
+              "trophies": 772
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260702T180415.000Z",
+    "event": {
+      "id": 15001276,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Jungle Top"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 79,
+      "starPlayer": {
+        "tag": "#2YGJQVJLY",
+        "name": "sharfsaly",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1014
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#J0292RQP",
+            "name": "🌸meowow🌸",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1026
+            }
+          },
+          {
+            "tag": "#2YGJQVJLY",
+            "name": "sharfsaly",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1014
+            }
+          },
+          {
+            "tag": "#22802RYR89",
+            "name": "aror",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 956
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LY0QUJ0GJ",
+            "name": "Eclipse",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 658
+            }
+          },
+          {
+            "tag": "#P9LCVCPU0",
+            "name": "good_wtr",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 9,
+              "trophies": 906
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 11,
+              "trophies": 785
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
