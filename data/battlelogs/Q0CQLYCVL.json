@@ -202972,5 +202972,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260702T160058.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#9LJ2R8C9U",
+        "name": "IRI",
+        "brawler": {
+          "id": 16000006,
+          "name": "BARLEY",
+          "power": 11,
+          "trophies": 641
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8GLJG02RV",
+            "name": "|怜RenJi}|",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 888
+            }
+          },
+          {
+            "tag": "#G89CL8R0Y",
+            "name": "TRB|Luca",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1019
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 595
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LC0YQPQRU",
+            "name": "🔥Legend🔥",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 824
+            }
+          },
+          {
+            "tag": "#9LJ2R8C9U",
+            "name": "IRI",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 641
+            }
+          },
+          {
+            "tag": "#2JJUG8QV0",
+            "name": "play_Raul",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 254
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
