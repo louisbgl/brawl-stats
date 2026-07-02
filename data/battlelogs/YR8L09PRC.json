@@ -250518,5 +250518,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260702T143154.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 1038
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1123
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1038
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1258
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GL9L82P9J",
+            "name": "THE 💀TOXIC",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 373
+            }
+          },
+          {
+            "tag": "#RGV0C0JQG",
+            "name": "BASTI _GHG",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 2060
+            }
+          },
+          {
+            "tag": "#Y9U2LYCPU",
+            "name": "Stitch",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1673
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
