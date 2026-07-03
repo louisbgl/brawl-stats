@@ -36,3 +36,10 @@ prelim_test.py
 
 # Local scripts
 merge-dev.sh
+
+# Testing folder (local experiments only)
+testing/
+
+# Temporary test files
+test_compression.py
+cleanup_plan.txt
