@@ -98987,5 +98987,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260703T073733.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 210,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000051,
+          "name": "ASH",
+          "power": 11,
+          "trophies": 420
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LQ9P8PG8Y",
+            "name": "I❤️bigthighs",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 718
+            }
+          },
+          {
+            "tag": "#28G2URY88",
+            "name": "W's|𝔽𝕝𝕒𝕤𝕙♧",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 473
+            }
+          },
+          {
+            "tag": "#2CPGYCPV8V",
+            "name": "HILPEÄ JAE-YONG",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1428
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1011
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 420
+            }
+          },
+          {
+            "tag": "#2L0CQY99QP",
+            "name": "Kral☠️🥇🥇☠️",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1240
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
