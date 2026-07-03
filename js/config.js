@@ -20,7 +20,6 @@ const GameConstants = {
     // Unreleased brawlers (in API but not yet available in-game)
     // These are excluded from collection stats and missing brawler calculations
     UNRELEASED_BRAWLERS: [
-        "BOLT",
     ],
 
     // Power point costs to upgrade each level
