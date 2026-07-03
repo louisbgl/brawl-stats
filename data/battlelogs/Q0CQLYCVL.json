@@ -208163,5 +208163,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260703T153300.000Z",
+    "event": {
+      "id": 15000502,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flowing Springs"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 166,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#9L28R990Q",
+        "name": "bfa",
+        "brawler": {
+          "id": 16000089,
+          "name": "MEEPLE",
+          "power": 7,
+          "trophies": 666
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QLLCYJGY8",
+            "name": "Jack Jack",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 682
+            }
+          },
+          {
+            "tag": "#QGPJRYJRG",
+            "name": "Matibicho🤫🧏",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 8,
+              "trophies": 886
+            }
+          },
+          {
+            "tag": "#P8CLYV2JU",
+            "name": "Tobias",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 541
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 9,
+              "trophies": 524
+            }
+          },
+          {
+            "tag": "#9L28R990Q",
+            "name": "bfa",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 7,
+              "trophies": 666
+            }
+          },
+          {
+            "tag": "#2L9PVULP0P",
+            "name": "Karam",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 570
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

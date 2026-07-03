@@ -229303,5 +229303,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260703T154152.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "friendly",
+      "result": "victory",
+      "duration": 203,
+      "starPlayer": {
+        "tag": "#QCR",
+        "name": "Bot 5",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": -1,
+          "trophies": -1
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8GQ",
+            "name": "Bot 1",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#9UC",
+            "name": "Bot 2",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#Y92",
+            "name": "Bot 3",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#LQY",
+            "name": "Bot 4",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#QCR",
+            "name": "Bot 5",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
