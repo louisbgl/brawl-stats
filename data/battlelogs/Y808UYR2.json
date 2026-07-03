@@ -100545,5 +100545,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260703T173341.000Z",
+    "event": {
+      "id": 15000022,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Hideout"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 106,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#20VCPLCQV9",
+            "name": "SELIMDZ68",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#92PUL0L2C",
+            "name": "Lis",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QJCUJYVCV",
+            "name": "Leo i Ivana❤️❤️",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#8QQ9982VU",
+            "name": "CM|Bezzos🩸",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#8CQ0Y00G2",
+            "name": "alec",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
