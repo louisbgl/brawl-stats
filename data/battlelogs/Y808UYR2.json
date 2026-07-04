@@ -101273,5 +101273,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260704T181324.000Z",
+    "event": {
+      "id": 15000137,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Pit Stop"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 140,
+      "starPlayer": {
+        "tag": "#2UCCY92RUG",
+        "name": "dhreeee",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UCCY92RUG",
+            "name": "dhreeee",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Y88UC9VPG",
+            "name": "Hypnos",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RL2J98YJU",
+            "name": "moon",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#9CVUR0YGR",
+            "name": "Mar10_neta",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2UVCGV22RL",
+            "name": "RT99",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
