@@ -101000,5 +101000,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260704T125831.000Z",
+    "event": {
+      "id": 15000072,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Bridge Too Far"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 119,
+      "starPlayer": {
+        "tag": "#2QQRPCYGQ8",
+        "name": "Dimos",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QQG90PQUG",
+            "name": "desty le pro",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#QG8QUJRCY",
+            "name": "VIP | uzbek💀",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2QQRPCYGQ8",
+            "name": "Dimos",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GQVG20YGG",
+            "name": "kupiłem traktor",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2J2LVC8YV2",
+            "name": "Tóthos",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 9,
+              "trophies": 11
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
