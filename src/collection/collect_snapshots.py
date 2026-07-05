@@ -6,11 +6,13 @@ Fetches data from API and saves to JSON files in data/ folder.
 
 import json
 import os
+import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from src.config import CLUBS, INDIVIDUAL_PLAYERS
 from src.api import fetch_club_data, fetch_player_data, get_club_members_tags, fetch_brawlers_reference
 from src.models import create_daily_snapshot
+from src.health import update_snapshot_status
 
 
 def main():
@@ -142,6 +144,19 @@ def main():
         print(f"Note: Existing data for {date_str} was overwritten with fresh data")
     print("=" * 60)
 
+    # Update health status
+    update_snapshot_status(success=True, date=date_str)
+
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        # Try to get date for health update (may not be set if early failure)
+        try:
+            from datetime import date
+            date_str = date.today().isoformat()
+            update_snapshot_status(success=False, date=date_str)
+        except:
+            pass
+        sys.exit(1)

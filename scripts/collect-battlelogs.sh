@@ -3,6 +3,11 @@
 export PATH="$HOME/.local/bin:$PATH"
 cd /home/ubuntu/brawl-stats
 
+# Load environment variables (for NTFY_TOPIC)
+if [ -f .env ]; then
+    export $(grep -v '^#' .env | xargs)
+fi
+
 echo "[$(date)] Starting battlelog collection..."
 
 # Backup directory for data when git operations fail
@@ -51,6 +56,12 @@ COLLECTION_EXIT=$?
 
 if [ $COLLECTION_EXIT -ne 0 ]; then
     echo "[$(date)] ✗ Battlelog collection failed with exit code $COLLECTION_EXIT"
+
+    # Send failure notification
+    if [ -n "$NTFY_TOPIC" ]; then
+        python scripts/ntfy_notify.py "$NTFY_TOPIC" battlelog-fail 2>/dev/null || true
+    fi
+
     exit 1
 fi
 

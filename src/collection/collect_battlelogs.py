@@ -6,10 +6,12 @@ Fetches battle logs for all tracked players and stores them in data/battlelogs/.
 Designed to run every hour to catch all battles before the API's 25-entry limit rotates.
 """
 
+import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from src.config import get_all_tracked_player_tags
 from src.battle_store import update, write_metadata
+from src.health import increment_battlelog_count
 
 
 def main():
@@ -66,6 +68,12 @@ def main():
     print(f"Total battles stored: {total_stored}")
     print("=" * 60)
 
+    # Update health counter
+    increment_battlelog_count()
+
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception:
+        sys.exit(1)
