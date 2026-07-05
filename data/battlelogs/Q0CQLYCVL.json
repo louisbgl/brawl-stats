@@ -215735,5 +215735,87 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260705T222858.000Z",
+    "event": {
+      "id": 15000440,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flaring Phoenix"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 120,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#2UCVP08GPR",
+            "name": "SEKIRO",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#JJVCRLQP",
+            "name": "Gims",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RPGQLPUJ",
+            "name": "mat4burras",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#9RQCR2PY",
+            "name": "Jamelal™️",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#YULRCPG0V",
+            "name": "liamivas",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
