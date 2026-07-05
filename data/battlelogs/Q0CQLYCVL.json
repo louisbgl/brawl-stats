@@ -215275,5 +215275,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260705T153058.000Z",
+    "event": {
+      "id": 15000082,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Layer Cake"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 84,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000081,
+          "name": "LILY",
+          "power": 11,
+          "trophies": 990
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#20JUGPGP0G",
+            "name": "carlaguay",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 514
+            }
+          },
+          {
+            "tag": "#8RCQJU2C8",
+            "name": "G3NA",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 511
+            }
+          },
+          {
+            "tag": "#GJPQ08VJ2",
+            "name": "Kallecr7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 9,
+              "trophies": 571
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJ0QRY89G",
+            "name": "Eros292💘",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 342
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 990
+            }
+          },
+          {
+            "tag": "#YVCG2LVGC",
+            "name": "h11",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 9,
+              "trophies": 546
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
