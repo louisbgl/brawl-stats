@@ -213428,5 +213428,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260705T020056.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 102,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#JV0U0Y9J",
+        "name": "π_DJIBRIL_π",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 538
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8V092CV0J",
+            "name": "ᴛɢ|♕ 𝕂𝕠𝕟𝕘 ♕",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 9,
+              "trophies": 433
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 861
+            }
+          },
+          {
+            "tag": "#2YY98PQ0VV",
+            "name": "SKØ | Nєтαиєℓ⚡",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 246
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2G8YYC29G",
+            "name": "TH|法律核心日三月歐鞥PAU",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 753
+            }
+          },
+          {
+            "tag": "#280VGVVUGL",
+            "name": "Omar gang",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1676
+            }
+          },
+          {
+            "tag": "#JV0U0Y9J",
+            "name": "π_DJIBRIL_π",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 538
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
