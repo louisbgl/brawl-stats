@@ -101729,5 +101729,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260705T112439.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 130,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 1467
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RYRPJPG9J",
+            "name": "Nocna Kreatura",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 859
+            }
+          },
+          {
+            "tag": "#RPLC0RRRL",
+            "name": "ALV|Master❤️‍🔥",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 917
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1467
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CLQRJ2LRJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 1077
+            }
+          },
+          {
+            "tag": "#2P0Y09GLPC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 10,
+              "trophies": 1076
+            }
+          },
+          {
+            "tag": "#2PLQV9Q0UJ",
+            "name": "@ofbrawl",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 11,
+              "trophies": 1082
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
