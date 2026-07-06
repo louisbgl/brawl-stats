@@ -216427,5 +216427,178 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260706T143305.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 101,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#28QJR88888",
+            "name": "SK KampfHuhn 🐓",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2JPYLGQ9UV",
+            "name": "Akaydercoole",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QJCLVGYUP",
+            "name": "Melvyn",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#QUG2RQVUL",
+            "name": "𝘓𝘦𝘯’𝘴 ヤ",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#20VVGCY8GU",
+            "name": "Zion",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260706T143520.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 115,
+      "starPlayer": {
+        "tag": "#QUG2RQVUL",
+        "name": "𝘓𝘦𝘯’𝘴 ヤ",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 13
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28QJR88888",
+            "name": "SK KampfHuhn 🐓",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2JPYLGQ9UV",
+            "name": "Akaydercoole",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QJCLVGYUP",
+            "name": "Melvyn",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#QUG2RQVUL",
+            "name": "𝘓𝘦𝘯’𝘴 ヤ",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#20VVGCY8GU",
+            "name": "Zion",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
