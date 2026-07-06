@@ -107453,5 +107453,122 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260706T150452.000Z",
+    "event": {
+      "id": 15000990,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Lilypond Grove"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 2,
+      "trophyChange": 10,
+      "players": [
+        {
+          "tag": "#2R0GY2QCP0",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000081,
+            "name": "LILY",
+            "power": 11,
+            "trophies": 218
+          }
+        },
+        {
+          "tag": "#R0CUY9PR",
+          "name": "JOEL | Sobsh",
+          "brawler": {
+            "id": 16000106,
+            "name": "BOLT",
+            "power": 11,
+            "trophies": 230
+          }
+        },
+        {
+          "tag": "#2U2V9CCLR2",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000067,
+            "name": "WILLOW",
+            "power": 11,
+            "trophies": 224
+          }
+        },
+        {
+          "tag": "#2JQC82CLR0",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 11,
+            "trophies": 239
+          }
+        },
+        {
+          "tag": "#2G0PLRYUGJ",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000064,
+            "name": "GRAY",
+            "power": 11,
+            "trophies": 239
+          }
+        },
+        {
+          "tag": "#2G9QL9RR0U",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000079,
+            "name": "ANGELO",
+            "power": 11,
+            "trophies": 233
+          }
+        },
+        {
+          "tag": "#2LLQL0QJLJ",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000003,
+            "name": "BROCK",
+            "power": 11,
+            "trophies": 219
+          }
+        },
+        {
+          "tag": "#2RVC2QPL0G",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000044,
+            "name": "RUFFS",
+            "power": 11,
+            "trophies": 219
+          }
+        },
+        {
+          "tag": "#2R8QJUCUV8",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000002,
+            "name": "BULL",
+            "power": 11,
+            "trophies": 220
+          }
+        },
+        {
+          "tag": "#2G0GVV22QU",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000103,
+            "name": "NAJIA",
+            "power": 10,
+            "trophies": 219
+          }
+        }
+      ]
+    }
   }
 ]
