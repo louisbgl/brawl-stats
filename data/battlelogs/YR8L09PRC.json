@@ -261946,5 +261946,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260706T082321.000Z",
+    "event": {
+      "id": 15000132,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Center Stage"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 54,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#2RVJP9P0G",
+        "name": "skill",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 1496
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2RVJP9P0G",
+            "name": "skill",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1496
+            }
+          },
+          {
+            "tag": "#YP8V2U2UY",
+            "name": "floatingdragon2",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1056
+            }
+          },
+          {
+            "tag": "#8PGGRPRVP",
+            "name": "ArdaG.",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1352
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R8UJ922CY",
+            "name": "ZETA/Undertaker",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1808
+            }
+          },
+          {
+            "tag": "#GRU0UURL8",
+            "name": "🍔burger 🍔",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1007
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1037
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260706T082530.000Z",
+    "event": {
+      "id": 15000132,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Center Stage"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 99,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2VP2VJR0L0",
+        "name": "Code:Muha🏆",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 1110
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1016
+            }
+          },
+          {
+            "tag": "#2VP2VJR0L0",
+            "name": "Code:Muha🏆",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1110
+            }
+          },
+          {
+            "tag": "#9PRCJYJPR",
+            "name": "SPR | Begotes⭐️",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1016
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VP0PLCJ9",
+            "name": "Maksim",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 857
+            }
+          },
+          {
+            "tag": "#LRVU8U20",
+            "name": "#Krüppi",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 787
+            }
+          },
+          {
+            "tag": "#YRCC8YPQG",
+            "name": "Fok",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
