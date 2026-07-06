@@ -104673,5 +104673,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260706T160426.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 283,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#9Y2JJ2VPL",
+        "name": "N2X",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 11,
+          "trophies": 578
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PYJCUU2PR",
+            "name": "KOKXSI|🪬",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 631
+            }
+          },
+          {
+            "tag": "#9Y2JJ2VPL",
+            "name": "N2X",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 578
+            }
+          },
+          {
+            "tag": "#YQ0GUCLYU",
+            "name": "jołmen",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 687
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V8QUP90U",
+            "name": "PB_Butterfly",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1260
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 226
+            }
+          },
+          {
+            "tag": "#22VU0P9JG0",
+            "name": "ALEVIN GUCU",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 305
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
