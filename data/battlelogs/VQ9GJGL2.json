@@ -114293,5 +114293,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260707T200408.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 234,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000013,
+          "name": "POCO",
+          "power": 11,
+          "trophies": 1142
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#992P0YG0J",
+            "name": "pezcaito",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 924
+            }
+          },
+          {
+            "tag": "#92CLGY989",
+            "name": "PHOENIXSOARES",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1072
+            }
+          },
+          {
+            "tag": "#2L2QVJ0UCG",
+            "name": "bumbulíus2.0",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 10,
+              "trophies": 870
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8YLGJVCCQ",
+            "name": "IQUbajnok",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 950
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1142
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 678
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
