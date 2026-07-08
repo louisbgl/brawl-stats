@@ -106053,5 +106053,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260708T094016.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 192,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#2LCP8CQQ0",
+        "name": "MOZGI_V_NOSKI",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1369
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C80Y98J",
+            "name": "1brA",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 919
+            }
+          },
+          {
+            "tag": "#L9RPJCYQJ",
+            "name": "HİLECİ777",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1094
+            }
+          },
+          {
+            "tag": "#YLCJQLQQJ",
+            "name": "trula.",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1070
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1196
+            }
+          },
+          {
+            "tag": "#2LCP8CQQ0",
+            "name": "MOZGI_V_NOSKI",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1369
+            }
+          },
+          {
+            "tag": "#8VCG92LPG",
+            "name": "FaZe|PLoLek",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 973
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
