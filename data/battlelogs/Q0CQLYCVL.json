@@ -221032,5 +221032,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260708T210432.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 128,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#LGP8CLVQ9",
+        "name": "mixa07",
+        "brawler": {
+          "id": 16000075,
+          "name": "MICO",
+          "power": 11,
+          "trophies": 742
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 776
+            }
+          },
+          {
+            "tag": "#8U020RQQ0",
+            "name": "desculpame",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1356
+            }
+          },
+          {
+            "tag": "#PJUY9UUUJ",
+            "name": "Noyeo",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 11,
+              "trophies": 500
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LGP8CLVQ9",
+            "name": "mixa07",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 742
+            }
+          },
+          {
+            "tag": "#RLVUGG8GC",
+            "name": "pemale",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 705
+            }
+          },
+          {
+            "tag": "#PC8QJ9YY9",
+            "name": "кусок мяса",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 9,
+              "trophies": 1299
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260708T212518.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 47,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#YPR8R2YG",
+        "name": "dødø",
+        "brawler": {
+          "id": 16000018,
+          "name": "DARRYL",
+          "power": 11,
+          "trophies": 660
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8VUV0CYQL",
+            "name": "LeoSem1",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#YPR8R2YG",
+            "name": "dødø",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 660
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 773
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GVJV82UCG",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 10,
+              "trophies": 839
+            }
+          },
+          {
+            "tag": "#2U28929RLR",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 10,
+              "trophies": 831
+            }
+          },
+          {
+            "tag": "#2YV2QV2RVG",
+            "name": ".GG.hıı",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 769
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
