@@ -227270,5 +227270,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260709T162458.000Z",
+    "event": {
+      "id": 15001023,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "In the Liminal"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 112,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#L8UP2CQP2",
+        "name": "сладость",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1536
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LQR89Q90Q",
+            "name": "lol",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 10,
+              "trophies": 877
+            }
+          },
+          {
+            "tag": "#L8UP2CQP2",
+            "name": "сладость",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1536
+            }
+          },
+          {
+            "tag": "#2GL8RL2C",
+            "name": "NA | Casian🇷🇴",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 674
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 683
+            }
+          },
+          {
+            "tag": "#2GR8YL02J2",
+            "name": "mo3255momo24",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 10,
+              "trophies": 858
+            }
+          },
+          {
+            "tag": "#2LYU2UPR9J",
+            "name": "Leo 1",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 9,
+              "trophies": 541
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260709T162739.000Z",
+    "event": {
+      "id": 15001023,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "In the Liminal"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 133,
+      "starPlayer": {
+        "tag": "#YRY0LQR0J",
+        "name": "ハニー 🍯",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 659
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#C2JPVQJ0",
+            "name": "alessandrenji",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 293
+            }
+          },
+          {
+            "tag": "#8Q0QLP2GP",
+            "name": "C4 BANKAI 🗿",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 986
+            }
+          },
+          {
+            "tag": "#R0YVUGJPP",
+            "name": "La Muerta",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 10,
+              "trophies": 992
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RP08JU0L",
+            "name": "Dumm",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 1021
+            }
+          },
+          {
+            "tag": "#YRY0LQR0J",
+            "name": "ハニー 🍯",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 659
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 693
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
