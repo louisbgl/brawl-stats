@@ -115673,5 +115673,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260709T115129.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 313,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#RP822JRJR",
+        "name": "louza64",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 954
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9CJ09Q222",
+            "name": "Mat00sh",
+            "brawler": {
+              "id": 16000060,
+              "name": "SAM",
+              "power": 11,
+              "trophies": 827
+            }
+          },
+          {
+            "tag": "#RP822JRJR",
+            "name": "louza64",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 954
+            }
+          },
+          {
+            "tag": "#8VG02CVCJ",
+            "name": "ALFONS MANIEK",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 10,
+              "trophies": 750
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 776
+            }
+          },
+          {
+            "tag": "#2R8GC8JC",
+            "name": "JIBI31",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 851
+            }
+          },
+          {
+            "tag": "#8PPGL0QL2",
+            "name": "tata niko poko",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1084
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260709T115710.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 288,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1199
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QJ029Q8GV",
+            "name": "hmb/lollomatte",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1105
+            }
+          },
+          {
+            "tag": "#2VR2YJV9UC",
+            "name": "Sofia🫰🏼",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1872
+            }
+          },
+          {
+            "tag": "#L0QLV2ULG",
+            "name": "ватрак2",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 846
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1199
+            }
+          },
+          {
+            "tag": "#9LJVGP8P8",
+            "name": "Phoenix 🔥",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 710
+            }
+          },
+          {
+            "tag": "#2PU0GP2P0R",
+            "name": "mimi03",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 855
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
