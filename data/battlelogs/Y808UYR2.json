@@ -106145,5 +106145,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260709T083904.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 287,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#CV2U9GG0",
+        "name": "Nymph",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 1377
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RRC29GYL",
+            "name": "Pantasia 🇫🇷",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1122
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1216
+            }
+          },
+          {
+            "tag": "#222P2URP0",
+            "name": "GaDkiYUtIoNoK",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1118
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8VCQLRUCR",
+            "name": "Lover",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1009
+            }
+          },
+          {
+            "tag": "#299CJRLRJ",
+            "name": "Rick_$anchez",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1097
+            }
+          },
+          {
+            "tag": "#CV2U9GG0",
+            "name": "Nymph",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1377
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
