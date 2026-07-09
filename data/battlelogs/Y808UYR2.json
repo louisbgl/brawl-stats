@@ -106329,5 +106329,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260709T121136.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 68,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 9,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2G8RUQ8Q2",
+            "name": "Fut|Drsse",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UY9UUVYQ9",
+            "name": "супер Мина.80",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#QPPYQCRGY",
+            "name": "HMB |Mattix",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#20YG099L9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 0
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
