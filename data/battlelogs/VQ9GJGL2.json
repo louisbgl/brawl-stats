@@ -115857,5 +115857,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260709T120423.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 335,
+      "trophyChange": 21,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1219
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98YLRYPYC",
+            "name": "Beniarrés 82",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 777
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1219
+            }
+          },
+          {
+            "tag": "#2LYJ2RUYY",
+            "name": "🇦🇱ALB🇦🇱 RB",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 657
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98CLGRCCQ",
+            "name": "Atlasᴷᴵᴸᴸᵞᴼᵁツ",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 781
+            }
+          },
+          {
+            "tag": "#QPRGL9RU",
+            "name": "_Ana_",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 898
+            }
+          },
+          {
+            "tag": "#PRJJG880",
+            "name": "elmiha",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 462
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260709T121136.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 68,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 9,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2G8RUQ8Q2",
+            "name": "Fut|Drsse",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UY9UUVYQ9",
+            "name": "супер Мина.80",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#QPPYQCRGY",
+            "name": "HMB |Mattix",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#20YG099L9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 0
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
