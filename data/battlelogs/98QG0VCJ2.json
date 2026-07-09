@@ -316416,5 +316416,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260709T100019.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 78,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#PY0U88C0R",
+        "name": "Артем квадробер",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1803
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#88V28JPRU",
+            "name": "BANANABREAD",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 1218
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 1278
+            }
+          },
+          {
+            "tag": "#282G2JYUPV",
+            "name": "Bs\\Tahys|King/",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1780
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YGCVJVLL2",
+            "name": "pikapaka🐷😱",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1484
+            }
+          },
+          {
+            "tag": "#Y9LC8CYRU",
+            "name": "TM|Incognito ﾀ",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1471
+            }
+          },
+          {
+            "tag": "#PY0U88C0R",
+            "name": "Артем квадробер",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1803
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260709T100214.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 67,
+      "trophyChange": 19,
+      "starPlayer": {
+        "tag": "#9P2VC0J8Q",
+        "name": "эльпоко",
+        "brawler": {
+          "id": 16000085,
+          "name": "KENJI",
+          "power": 10,
+          "trophies": 801
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9P2VC0J8Q",
+            "name": "эльпоко",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 10,
+              "trophies": 801
+            }
+          },
+          {
+            "tag": "#290C2992YY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1027
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 11,
+              "trophies": 1364
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RLCRPR9G0",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 8,
+              "trophies": 1068
+            }
+          },
+          {
+            "tag": "#2CYCGLLJR8",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 10,
+              "trophies": 1024
+            }
+          },
+          {
+            "tag": "#2RU00VJJQR",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 1062
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
