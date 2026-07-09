@@ -106237,5 +106237,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260709T104957.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 186,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#8PRVP0JRL",
+        "name": "DANIL KISEL",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 11,
+          "trophies": 1454
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RV9VY0P9",
+            "name": "Adjudenfer 🇫🇷",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 920
+            }
+          },
+          {
+            "tag": "#20VQRYPR9",
+            "name": "tosbik",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1265
+            }
+          },
+          {
+            "tag": "#L80RQU2LY",
+            "name": "🔥SVK/Samuel🔥",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1219
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1208
+            }
+          },
+          {
+            "tag": "#GVLP2800",
+            "name": "NO MERCY",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 1586
+            }
+          },
+          {
+            "tag": "#8PRVP0JRL",
+            "name": "DANIL KISEL",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1454
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
