@@ -116592,5 +116592,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260710T184825.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 128,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 786
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L2VUYCVCQ",
+            "name": "Zeynep♥️Eray",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 10,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#VCLR8VGCQ",
+            "name": "Wierto",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 378
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 786
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#29JUR0YPR0",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 9,
+              "trophies": 766
+            }
+          },
+          {
+            "tag": "#28JQVRRUUR",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 9,
+              "trophies": 776
+            }
+          },
+          {
+            "tag": "#2CQ82JLYGL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 9,
+              "trophies": 736
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260710T185409.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 314,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#2RLV9RJQ29",
+        "name": "HAFIZ /EYMEN",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 11,
+          "trophies": 1755
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#220GL9VG8U",
+            "name": "Nikes",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 604
+            }
+          },
+          {
+            "tag": "#2RLV9RJQ29",
+            "name": "HAFIZ /EYMEN",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1755
+            }
+          },
+          {
+            "tag": "#GGGLRJYP8",
+            "name": "aşık",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1157
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RCV9L8UUU",
+            "name": "USTA KENJİ",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 10,
+              "trophies": 904
+            }
+          },
+          {
+            "tag": "#JJU9VGQGY",
+            "name": "Popcorn",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 847
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 801
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
