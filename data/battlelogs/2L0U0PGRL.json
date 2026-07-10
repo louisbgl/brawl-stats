@@ -243517,5 +243517,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260710T094534.000Z",
+    "event": {
+      "id": 15000072,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Bridge Too Far"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 70,
+      "trophyChange": 19,
+      "starPlayer": {
+        "tag": "#2LQJJRLPQJ",
+        "name": "BL \\ AMIN 🌵",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 11,
+          "trophies": 1292
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0090RLQ8",
+            "name": "Clever Jr.",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 7,
+              "trophies": 316
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 604
+            }
+          },
+          {
+            "tag": "#2LQJJRLPQJ",
+            "name": "BL \\ AMIN 🌵",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1292
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CR2CPGQL2",
+            "name": "blliestan",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 8,
+              "trophies": 745
+            }
+          },
+          {
+            "tag": "#2U8RQQUL2Y",
+            "name": "SQUEAK BESAR",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 755
+            }
+          },
+          {
+            "tag": "#2QCV9L8QR9",
+            "name": "от",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 7,
+              "trophies": 726
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
