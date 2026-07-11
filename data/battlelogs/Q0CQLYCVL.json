@@ -232693,5 +232693,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260711T010540.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 131,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LUV8PG2PU",
+        "name": "🌖|𝖌𝖍𝖔𝖘𝖙🎋",
+        "brawler": {
+          "id": 16000010,
+          "name": "EL PRIMO",
+          "power": 10,
+          "trophies": 899
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q08LQCLQC",
+            "name": "⚠️MiguelPT⚠️",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 9,
+              "trophies": 1139
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 771
+            }
+          },
+          {
+            "tag": "#LUV8PG2PU",
+            "name": "🌖|𝖌𝖍𝖔𝖘𝖙🎋",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 10,
+              "trophies": 899
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#28JRPYV829",
+            "name": "RK|Rmz64 🇵🇸",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 804
+            }
+          },
+          {
+            "tag": "#JRP2GYUQ2",
+            "name": "navi|xXd",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 788
+            }
+          },
+          {
+            "tag": "#GYJLQGQY0",
+            "name": "Cacace",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1034
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
