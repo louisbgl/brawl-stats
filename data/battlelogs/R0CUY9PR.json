@@ -107570,5 +107570,97 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260711T005007.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 102,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#P0VYP98GU",
+        "name": "BP|Tvisty",
+        "brawler": {
+          "id": 16000086,
+          "name": "SHADE",
+          "power": 11,
+          "trophies": 1377
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#80L2LJ098",
+            "name": "💥{GG|Sharfik}",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 890
+            }
+          },
+          {
+            "tag": "#80QUJR9QV",
+            "name": "PaRaZit°•*⁀➷",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 9,
+              "trophies": 683
+            }
+          },
+          {
+            "tag": "#P0VYP98GU",
+            "name": "BP|Tvisty",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1377
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R2V9Y2U",
+            "name": "K12",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 593
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 1001
+            }
+          },
+          {
+            "tag": "#8JLY8JLP2",
+            "name": "чанки",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 11,
+              "trophies": 820
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
