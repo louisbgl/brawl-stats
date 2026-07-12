@@ -118156,5 +118156,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260712T073039.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 33,
+      "trophyChange": 22,
+      "starPlayer": {
+        "tag": "#9LY0RRUJY",
+        "name": "Sweez9🦋",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 1255
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 9,
+              "trophies": 210
+            }
+          },
+          {
+            "tag": "#GLPGV9YPU",
+            "name": "Hyra Jrs",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 403
+            }
+          },
+          {
+            "tag": "#9LY0RRUJY",
+            "name": "Sweez9🦋",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1255
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JV8JY8UL0",
+            "name": "alkan_",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 488
+            }
+          },
+          {
+            "tag": "#GL9PJGQ2J",
+            "name": "Led1359",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 355
+            }
+          },
+          {
+            "tag": "#2L2LJL0JG",
+            "name": "lapacik166",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 647
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
