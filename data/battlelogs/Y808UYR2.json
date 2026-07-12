@@ -107057,5 +107057,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260712T071352.000Z",
+    "event": {
+      "id": 15000137,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Pit Stop"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 87,
+      "starPlayer": {
+        "tag": "#8L8YC8G",
+        "name": "titou64",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VYGYUY8L8",
+            "name": "тамерлан",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2UVCJ2QY8P",
+            "name": "Laurens 67 pro",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#8L8YC8G",
+            "name": "titou64",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#28RVV0UGC",
+            "name": "Zoro",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#GCV98UR28",
+            "name": "josseborg",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
