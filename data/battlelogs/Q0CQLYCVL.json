@@ -239555,5 +239555,178 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260712T112412.000Z",
+    "event": {
+      "id": 15000306,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Dueling Beetles"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 88,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2C8GG9JL80",
+            "name": "Arspein",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#P888V8RCJ",
+            "name": "Deather24",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L9YC0JRU",
+            "name": "Boss",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2R28RY8Q0Q",
+            "name": "bazilikk",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#29L2UPPGC",
+            "name": "&#Maturbo$@",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260712T112620.000Z",
+    "event": {
+      "id": 15000306,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Dueling Beetles"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 108,
+      "starPlayer": {
+        "tag": "#2C8GG9JL80",
+        "name": "Arspein",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 11,
+          "trophies": 13
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2C8GG9JL80",
+            "name": "Arspein",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#P888V8RCJ",
+            "name": "Deather24",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L9YC0JRU",
+            "name": "Boss",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2R28RY8Q0Q",
+            "name": "bazilikk",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#29L2UPPGC",
+            "name": "&#Maturbo$@",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
