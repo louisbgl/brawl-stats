@@ -243507,5 +243507,178 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260712T175641.000Z",
+    "event": {
+      "id": 15000072,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Bridge Too Far"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 54,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#9RV88829V",
+            "name": "TH |LeNain",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#JGLYG2Y89",
+            "name": "NM|Kaboomja",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PJG0GUJP9",
+            "name": "Txred Kaaии いゆ",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#JRUU8RGL9",
+            "name": "PiroBabba",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#Y98CPPG9P",
+            "name": "𝙕𝙚𝙩𝙖🏀🧡",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260712T175811.000Z",
+    "event": {
+      "id": 15000072,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Bridge Too Far"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 71,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000075,
+          "name": "MICO",
+          "power": 11,
+          "trophies": 14
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9RV88829V",
+            "name": "TH |LeNain",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#JGLYG2Y89",
+            "name": "NM|Kaboomja",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PJG0GUJP9",
+            "name": "Txred Kaaии いゆ",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#JRUU8RGL9",
+            "name": "PiroBabba",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#Y98CPPG9P",
+            "name": "𝙕𝙚𝙩𝙖🏀🧡",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
