@@ -245243,5 +245243,97 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260712T093826.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 64,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#2GLRL929Q2",
+        "name": "ʀᴇxᴏ🎋🇵🇱",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 1376
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1040
+            }
+          },
+          {
+            "tag": "#2GLRL929Q2",
+            "name": "ʀᴇxᴏ🎋🇵🇱",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1376
+            }
+          },
+          {
+            "tag": "#9J800CGGG",
+            "name": "R💫",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 1296
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2R9J8PUGLY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1223
+            }
+          },
+          {
+            "tag": "#2LJQ2PJR2P",
+            "name": "Blackmonkey",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 9,
+              "trophies": 1208
+            }
+          },
+          {
+            "tag": "#2U88Q090YV",
+            "name": "WILLOW REAL",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1223
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
