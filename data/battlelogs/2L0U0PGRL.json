@@ -245886,5 +245886,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260713T153052.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 333,
+      "trophyChange": 23,
+      "starPlayer": {
+        "tag": "#2L8PGRLG",
+        "name": "keuslim",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 119
+            }
+          },
+          {
+            "tag": "#2L8PGRLG",
+            "name": "keuslim",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2JVLL8CL9J",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 10,
+              "trophies": 50
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22UJ2L2VJJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 10,
+              "trophies": 70
+            }
+          },
+          {
+            "tag": "#2L9QPGLRJ0",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 10,
+              "trophies": 67
+            }
+          },
+          {
+            "tag": "#2YVP0C2P29",
+            "name": "oli",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 11,
+              "trophies": 73
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
