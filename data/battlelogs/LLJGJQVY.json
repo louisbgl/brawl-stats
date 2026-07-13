@@ -388023,5 +388023,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260713T223006.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#288002QRY",
+        "name": "Adsfresser",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 11,
+          "trophies": 2014
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 1106
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 1061
+            }
+          },
+          {
+            "tag": "#2L2CPR29V0",
+            "name": "khairo63",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1178
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#288002QRY",
+            "name": "Adsfresser",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 2014
+            }
+          },
+          {
+            "tag": "#QG2PY0QCG",
+            "name": "NS | Oblivion🌑",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1426
+            }
+          },
+          {
+            "tag": "#9U8RJ08JG",
+            "name": "eleven",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
