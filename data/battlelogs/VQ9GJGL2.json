@@ -118708,5 +118708,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260714T143042.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 220,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#9J989V8R2",
+        "name": "Priv.Paula",
+        "brawler": {
+          "id": 16000046,
+          "name": "BELLE",
+          "power": 11,
+          "trophies": 889
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 858
+            }
+          },
+          {
+            "tag": "#QJY0L2J2C",
+            "name": "Desfok",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 8,
+              "trophies": 512
+            }
+          },
+          {
+            "tag": "#YU99GPGP8",
+            "name": "Kayra",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 11,
+              "trophies": 1050
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8PRULYPQ",
+            "name": "dark chief",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1329
+            }
+          },
+          {
+            "tag": "#LGQGVJ0Y8",
+            "name": "🇷🇺+🇺🇦=🇷🇺",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 940
+            }
+          },
+          {
+            "tag": "#9J989V8R2",
+            "name": "Priv.Paula",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 889
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260714T143425.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 198,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 853
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#U2LPJYPQ",
+            "name": "Bizon 🦬",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 477
+            }
+          },
+          {
+            "tag": "#2JU8GLLUUU",
+            "name": "Isakov 🦇",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 8,
+              "trophies": 571
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 853
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VGRCLRGPC",
+            "name": "Suarez",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 441
+            }
+          },
+          {
+            "tag": "#2CY0PVVUUY",
+            "name": "Ainara pro",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1277
+            }
+          },
+          {
+            "tag": "#L0YQRQ8C9",
+            "name": "Kawasaki 🐊✨",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 893
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
