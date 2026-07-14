@@ -118432,5 +118432,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260714T070035.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 117,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#V22P9R98",
+        "name": "$zumi",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1062
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 468
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 807
+            }
+          },
+          {
+            "tag": "#V22P9R98",
+            "name": "$zumi",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1062
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RLJLL9CLU",
+            "name": "MJXP30",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 563
+            }
+          },
+          {
+            "tag": "#YVGRP9P8V",
+            "name": "[ПОТ] ВЕЗУЧИЙ",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 569
+            }
+          },
+          {
+            "tag": "#290Q8CU8UQ",
+            "name": "ПУШ 50К",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 1038
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
