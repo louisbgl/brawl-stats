@@ -118892,5 +118892,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260714T193327.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 186,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 868
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GJVLQCU2Y",
+            "name": "Emimi LML",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 233
+            }
+          },
+          {
+            "tag": "#2YQ29YRPP",
+            "name": "Barca",
+            "brawler": {
+              "id": 16000090,
+              "name": "OLLIE",
+              "power": 11,
+              "trophies": 484
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 868
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LP2L2VG0U",
+            "name": "ALS☔|Sanea❤️|",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 688
+            }
+          },
+          {
+            "tag": "#8P9VQQRRQ",
+            "name": "PLAGUE",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 1009
+            }
+          },
+          {
+            "tag": "#2Q220GVVJ",
+            "name": "J3oJ3o4ka_POZDR",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 9,
+              "trophies": 601
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
