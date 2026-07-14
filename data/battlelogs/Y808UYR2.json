@@ -107148,5 +107148,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260714T065520.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 198,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#8VLU0PQPV",
+        "name": "Spawn",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 11,
+          "trophies": 956
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 455
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 796
+            }
+          },
+          {
+            "tag": "#2GURQYPPQ8",
+            "name": "Саматбекк",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 616
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8P2RQRUP",
+            "name": "Shoki.",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 325
+            }
+          },
+          {
+            "tag": "#2CPY2R8V0R",
+            "name": "MaX",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1628
+            }
+          },
+          {
+            "tag": "#8VLU0PQPV",
+            "name": "Spawn",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 956
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260714T065747.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 111,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2RUPPUGL",
+        "name": "zizou",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 786
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QQLJ0RCGQ",
+            "name": "zaza",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 484
+            }
+          },
+          {
+            "tag": "#R8JC9C9JJ",
+            "name": "Good men",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1001
+            }
+          },
+          {
+            "tag": "#28LY2JCUPJ",
+            "name": "רועי",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 532
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 453
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 792
+            }
+          },
+          {
+            "tag": "#2RUPPUGL",
+            "name": "zizou",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 786
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
