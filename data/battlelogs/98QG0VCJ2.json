@@ -317602,5 +317602,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260714T093643.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 198,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#J2V2PLJ98",
+        "name": "NPF|dontspek2me",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1621
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LY209Y0R9",
+            "name": "Сметанка",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1538
+            }
+          },
+          {
+            "tag": "#P8RLPYCP",
+            "name": "moon",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 1649
+            }
+          },
+          {
+            "tag": "#29ULL0R0L",
+            "name": "Monday",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 2501
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#J2V2PLJ98",
+            "name": "NPF|dontspek2me",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1621
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#LPRU99Y8V",
+            "name": "lurcix321",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1708
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260714T094144.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 93,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000029,
+          "name": "BEA",
+          "power": 11,
+          "trophies": 1270
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LRU28Q2VG",
+            "name": "3emka",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 2066
+            }
+          },
+          {
+            "tag": "#2G02JL29CJ",
+            "name": "HSN |aLİkE🌒",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1451
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 1270
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2Y2LJU0Q9Y",
+            "name": "ㅤㅤㅤㅤㅤㅤ",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 2365
+            }
+          },
+          {
+            "tag": "#9LQRVLU2V",
+            "name": "максон",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 2085
+            }
+          },
+          {
+            "tag": "#8PJJ0GRY",
+            "name": "Dilion",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1603
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
