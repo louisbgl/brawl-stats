@@ -257090,5 +257090,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260715T124607.000Z",
+    "event": {
+      "id": 15000293,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Parallel Plays"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 84,
+      "trophyChange": 19,
+      "starPlayer": {
+        "tag": "#Q0UP89RQL",
+        "name": "teo",
+        "brawler": {
+          "id": 16000021,
+          "name": "GENE",
+          "power": 11,
+          "trophies": 161
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0UP89RQL",
+            "name": "teo",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 11,
+              "trophies": 161
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 5,
+              "trophies": 172
+            }
+          },
+          {
+            "tag": "#8PR8YYYPV",
+            "name": "kerem kıral",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 10,
+              "trophies": 289
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CUGU9908V",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 9,
+              "trophies": 196
+            }
+          },
+          {
+            "tag": "#2QUUL0LRJC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 8,
+              "trophies": 203
+            }
+          },
+          {
+            "tag": "#2PULG99G0G",
+            "name": "floyzi is trans",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 7,
+              "trophies": 201
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
