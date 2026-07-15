@@ -109447,5 +109447,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260715T200332.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 309,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#L99QV9GJY",
+        "name": "Vino",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 11,
+          "trophies": 532
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 229
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 629
+            }
+          },
+          {
+            "tag": "#2JPG82LCGQ",
+            "name": "TURKELITE",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 9,
+              "trophies": 250
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2YUVYJUJJ0",
+            "name": "joud hani",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 8,
+              "trophies": 425
+            }
+          },
+          {
+            "tag": "#L99QV9GJY",
+            "name": "Vino",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 532
+            }
+          },
+          {
+            "tag": "#2LRQUC2R0P",
+            "name": "santana",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 747
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260715T200716.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 185,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2LQUUP99YQ",
+        "name": "Adrift",
+        "brawler": {
+          "id": 16000106,
+          "name": "BOLT",
+          "power": 11,
+          "trophies": 1428
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8RC2YPCLR",
+            "name": "Altermann",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1487
+            }
+          },
+          {
+            "tag": "#9JCCG89QC",
+            "name": "tomath",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 805
+            }
+          },
+          {
+            "tag": "#2LQUUP99YQ",
+            "name": "Adrift",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 1428
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 625
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 228
+            }
+          },
+          {
+            "tag": "#R9UJQJ2GG",
+            "name": "oodkkxna",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 525
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
