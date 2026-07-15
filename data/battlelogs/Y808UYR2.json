@@ -108987,5 +108987,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260715T163353.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 292,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#GLQG22Q90",
+        "name": "PRO_KİLLER",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1812
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GLQG22Q90",
+            "name": "PRO_KİLLER",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1812
+            }
+          },
+          {
+            "tag": "#J0JL9RCY9",
+            "name": "bielo",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1142
+            }
+          },
+          {
+            "tag": "#YU2LPJCUU",
+            "name": "Ajlan ajlan",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1802
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 565
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1262
+            }
+          },
+          {
+            "tag": "#LGUCV90QU",
+            "name": "MR.coin🇭🇺🗿",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 923
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
