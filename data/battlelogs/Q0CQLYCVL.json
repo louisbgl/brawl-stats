@@ -254422,5 +254422,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260714T233217.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 93,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#9VR8J8PQG",
+        "name": "LAYNN_100",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 9,
+          "trophies": 316
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 11,
+              "trophies": 186
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 5,
+              "trophies": 232
+            }
+          },
+          {
+            "tag": "#PUQ8JPRR",
+            "name": "Feungtdao",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 8,
+              "trophies": 183
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9VR8J8PQG",
+            "name": "LAYNN_100",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 9,
+              "trophies": 316
+            }
+          },
+          {
+            "tag": "#PVYP2020L",
+            "name": "euihyunsito 🎀",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 774
+            }
+          },
+          {
+            "tag": "#RRVJ90RQV",
+            "name": "G.MOX SEED",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 586
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
