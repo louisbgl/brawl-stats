@@ -107424,5 +107424,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260715T114120.000Z",
+    "event": {
+      "id": 15000082,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Layer Cake"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 87,
+      "starPlayer": {
+        "tag": "#LCJCJJVCL",
+        "name": "Destiny",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LCJCJJVCL",
+            "name": "Destiny",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#JJ0LCGU9G",
+            "name": "??##¶ouad",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#GJRC2R82R",
+            "name": "ASIR PRO",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G9JQJR9JL",
+            "name": "NZ|Peppi⛩️",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2YJJ0Y0V0",
+            "name": "TH|ASLAxd",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260715T115521.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 348,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 484
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GRCL0UQC0",
+            "name": "שונא את המשחק",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 726
+            }
+          },
+          {
+            "tag": "#28UU9C9R",
+            "name": "Wilamowitz",
+            "brawler": {
+              "id": 16000087,
+              "name": "JUJU",
+              "power": 10,
+              "trophies": 826
+            }
+          },
+          {
+            "tag": "#R2QCVLP0R",
+            "name": "MR_LIS",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 568
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 884
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 484
+            }
+          },
+          {
+            "tag": "#8UGUCCLQ9",
+            "name": "вольт",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 476
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
