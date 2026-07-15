@@ -107607,5 +107607,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260715T120100.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 261,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#P22QV2QPC",
+        "name": "Nexosse",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 9,
+          "trophies": 594
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 501
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 901
+            }
+          },
+          {
+            "tag": "#GGUPUJJ0P",
+            "name": "bobo",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 890
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ8J8U2VQ",
+            "name": "gentil crapaud",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 793
+            }
+          },
+          {
+            "tag": "#P22QV2QPC",
+            "name": "Nexosse",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 9,
+              "trophies": 594
+            }
+          },
+          {
+            "tag": "#LGPP0VU09",
+            "name": "EnzoFerrarì",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 10,
+              "trophies": 716
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260715T120606.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 235,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 499
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9RJU20RJ9",
+            "name": "[Max>🇺🇦",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 915
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 499
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 896
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2YY8V00URL",
+            "name": "Päddi",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 992
+            }
+          },
+          {
+            "tag": "#YCQ88VJ",
+            "name": "HMB|《Lоṛɛx》",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 919
+            }
+          },
+          {
+            "tag": "#2R0VL0VRLC",
+            "name": "123456789го",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1478
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
