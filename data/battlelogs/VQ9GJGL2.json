@@ -121100,5 +121100,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260715T205806.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 151,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 11,
+          "trophies": 1006
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1006
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 227
+            }
+          },
+          {
+            "tag": "#8RJJRQGJ9",
+            "name": "Crazy",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 1217
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VVLJRG8",
+            "name": "filipexgen",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 9,
+              "trophies": 385
+            }
+          },
+          {
+            "tag": "#G2LP2GL8P",
+            "name": "luzia",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 6,
+              "trophies": 292
+            }
+          },
+          {
+            "tag": "#GC0PRRQU8",
+            "name": "awrwow",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 313
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
