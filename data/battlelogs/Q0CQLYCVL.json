@@ -262538,5 +262538,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260716T122107.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 57,
+      "starPlayer": {
+        "tag": "#2CJGCRJL0J",
+        "name": "複|KAYTO™",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CJGCRJL0J",
+            "name": "複|KAYTO™",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#RVVUU2VU",
+            "name": "Asier",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9YVQLG8",
+            "name": "Petio 683",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2VL2CLP28V",
+            "name": "main kit",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2QGLU9R0Q9",
+            "name": "HMB|LORI",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
