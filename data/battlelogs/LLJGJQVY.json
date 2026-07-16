@@ -392715,5 +392715,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260716T112850.000Z",
+    "event": {
+      "id": 15001270,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Bustling Business"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 64,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#82L9UY08L",
+        "name": "TackGan🩸",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 2314
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P00G898PC",
+            "name": "PRG|G3ROY",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1910
+            }
+          },
+          {
+            "tag": "#PCVQJQC0V",
+            "name": "BJ@JAJA🤑🇵🇸",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2034
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1363
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#82L9UY08L",
+            "name": "TackGan🩸",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 2314
+            }
+          },
+          {
+            "tag": "#2Y0J9J2CJ",
+            "name": "cSp | Tio Willy",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1672
+            }
+          },
+          {
+            "tag": "#RQUJL8Y",
+            "name": "OuI AlejanD.Roh",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1925
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
