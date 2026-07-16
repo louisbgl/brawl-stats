@@ -263631,5 +263631,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260716T190021.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 111,
+      "starPlayer": {
+        "tag": "#2Q2QPC9UJ",
+        "name": "ZETA | Nikoś",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 9
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Q2QPC9UJ",
+            "name": "ZETA | Nikoś",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#22Y89Q0YJ",
+            "name": "ZETA|Juras💀",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#2CGGJCJGLG",
+            "name": "muzibbo",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8PGC8LQC2",
+            "name": "rén4x⚡️",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#PPY8QPL82",
+            "name": "Your mum",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260716T190340.000Z",
+    "event": {
+      "id": 15000300,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Ring of Fire"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 123,
+      "starPlayer": {
+        "tag": "#PG2JLYQV2",
+        "name": "Lionel",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 9
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L02RQP9Y8",
+            "name": "iAx",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#PG82UQP9",
+            "name": "BOT 1",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#PG2JLYQV2",
+            "name": "Lionel",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#2VGPVRCP9Y",
+            "name": "MangoluFuseTea",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#28YLG8VULP",
+            "name": "ACE|ReyyZax",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
