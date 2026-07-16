@@ -246488,5 +246488,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260716T110323.000Z",
+    "event": {
+      "id": 15000293,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Parallel Plays"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 57,
+      "starPlayer": {
+        "tag": "#VVGLY922",
+        "name": "Саша лучший бро",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 4
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GCLQC9CUC",
+            "name": "FbwxEnEs",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#VVGLY922",
+            "name": "Саша лучший бро",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 4
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QG2YR0QRP",
+            "name": "visvis",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 9,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#CV0P822Q9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2YU2Q92GCR",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 4
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
