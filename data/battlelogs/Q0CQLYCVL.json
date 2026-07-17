@@ -264089,5 +264089,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260717T003136.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 87,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 9,
+          "trophies": 539
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 539
+            }
+          },
+          {
+            "tag": "#2V0GY92J8L",
+            "name": "fintz6dou",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 9,
+              "trophies": 817
+            }
+          },
+          {
+            "tag": "#2UJPJGUCV9",
+            "name": "🌕Sunny»🐈",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 4,
+              "trophies": 464
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CJ2JVVQJ8",
+            "name": "Robinay",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 8,
+              "trophies": 548
+            }
+          },
+          {
+            "tag": "#2LJC0JP9GR",
+            "name": "...",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 6,
+              "trophies": 659
+            }
+          },
+          {
+            "tag": "#29URU8GPLG",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 6,
+              "trophies": 646
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260717T003354.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 112,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2V0V882P8J",
+        "name": "endii666",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 11,
+          "trophies": 1447
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V0V882P8J",
+            "name": "endii666",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1447
+            }
+          },
+          {
+            "tag": "#L2LP0JJVV",
+            "name": "スヴォ兵",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 10,
+              "trophies": 735
+            }
+          },
+          {
+            "tag": "#2URG0L0G2P",
+            "name": "Funky Fiona",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 8,
+              "trophies": 354
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V80LQ8UVV",
+            "name": "miri",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 7,
+              "trophies": 337
+            }
+          },
+          {
+            "tag": "#2PCV222C99",
+            "name": "Wuja",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 381
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 549
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
