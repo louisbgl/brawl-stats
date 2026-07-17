@@ -124411,5 +124411,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260717T121643.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 133,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#92CVVCURV",
+        "name": "Sunduvaç",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 847
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#828J289GQ",
+            "name": "tito jame 🤘🦙",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 805
+            }
+          },
+          {
+            "tag": "#R9LU0UUVY",
+            "name": "GEN|Mario_HF#21",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 8,
+              "trophies": 458
+            }
+          },
+          {
+            "tag": "#2PVVQC020",
+            "name": "Peugeot 206",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 10,
+              "trophies": 653
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 342
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 365
+            }
+          },
+          {
+            "tag": "#92CVVCURV",
+            "name": "Sunduvaç",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 847
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260717T122210.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 244,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#GPYV2JGP",
+        "name": "cosmin569",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 1749
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GRVUCCYL",
+            "name": "Egu",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 560
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 357
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 383
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RYLJ8UGQV",
+            "name": "🐙antibiotice🐙",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 746
+            }
+          },
+          {
+            "tag": "#GPYV2JGP",
+            "name": "cosmin569",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1749
+            }
+          },
+          {
+            "tag": "#Y80YVCY8V",
+            "name": "le con jr",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 965
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
