@@ -397086,5 +397086,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260717T144923.000Z",
+    "event": {
+      "id": 15001270,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Bustling Business"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 155,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#QCPV8LCYR",
+        "name": "Mini Pradet",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 1231
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GQU8P9RJP",
+            "name": "darck",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 9,
+              "trophies": 54
+            }
+          },
+          {
+            "tag": "#9P99VYRLC",
+            "name": "𝒮𝒲 | 𝐵𝓁𝓎🪐",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 8,
+              "trophies": 679
+            }
+          },
+          {
+            "tag": "#GRY2J9GRQ",
+            "name": "❥| 𝓜𝓪𝓻",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 1557
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 1007
+            }
+          },
+          {
+            "tag": "#8U92R9L8Q",
+            "name": "y.f. | 🥬",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 686
+            }
+          },
+          {
+            "tag": "#QCPV8LCYR",
+            "name": "Mini Pradet",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1231
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
