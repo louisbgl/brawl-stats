@@ -264819,5 +264819,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260717T202607.000Z",
+    "event": {
+      "id": 15001270,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Bustling Business"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 36,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#P82G298P",
+        "name": "Champion",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 9,
+          "trophies": 757
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JJJRU9Y0",
+            "name": "Slazyy",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1806
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 842
+            }
+          },
+          {
+            "tag": "#P82G298P",
+            "name": "Champion",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 9,
+              "trophies": 757
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22PCRUVYGR",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 9,
+              "trophies": 1125
+            }
+          },
+          {
+            "tag": "#2UVCPV9PYL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 10,
+              "trophies": 1099
+            }
+          },
+          {
+            "tag": "#2RG80PJQVY",
+            "name": "gg/tsmod",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 10,
+              "trophies": 1131
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260717T202848.000Z",
+    "event": {
+      "id": 15001270,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Bustling Business"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 121,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#88GY08G8J",
+        "name": "Aizen❤️‍🩹☠️",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1124
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8RC9UQ2JV",
+            "name": "⭐ ExPloRez ⭐",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 1040
+            }
+          },
+          {
+            "tag": "#88GY08G8J",
+            "name": "Aizen❤️‍🩹☠️",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1124
+            }
+          },
+          {
+            "tag": "#QGCGYY2U2",
+            "name": "TTM| Scooby",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 720
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 852
+            }
+          },
+          {
+            "tag": "#RUGGUYU0",
+            "name": "JJ|Brice2701🤫",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1021
+            }
+          },
+          {
+            "tag": "#PUP9C0L80",
+            "name": "¦Yarz¦",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 9,
+              "trophies": 1047
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
