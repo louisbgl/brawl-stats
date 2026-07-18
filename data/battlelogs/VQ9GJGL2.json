@@ -126616,5 +126616,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260718T160357.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 221,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#92PY0YGQG",
+        "name": "tomar753",
+        "brawler": {
+          "id": 16000013,
+          "name": "POCO",
+          "power": 11,
+          "trophies": 658
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 808
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 620
+            }
+          },
+          {
+            "tag": "#92PY0YGQG",
+            "name": "tomar753",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 658
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JGQPQCC0U",
+            "name": "matix",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1599
+            }
+          },
+          {
+            "tag": "#9UPJQJGJQ",
+            "name": "Tisha",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 973
+            }
+          },
+          {
+            "tag": "#2JP0Q9G9UC",
+            "name": "lk",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 2501
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
