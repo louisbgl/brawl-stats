@@ -126708,5 +126708,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260718T192916.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 354,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#9Y90GJ8RU",
+        "name": "Eldritch Shadow",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 1036
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9Y90GJ8RU",
+            "name": "Eldritch Shadow",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1036
+            }
+          },
+          {
+            "tag": "#2YG200PJYJ",
+            "name": "zhelka",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 242
+            }
+          },
+          {
+            "tag": "#2LVL9JCVQ",
+            "name": "kokkidilop77",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1069
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQPVQ0QR",
+            "name": "TR-S_M_T_",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 695
+            }
+          },
+          {
+            "tag": "#2JRJRL8CC",
+            "name": "George Floyd",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1057
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 636
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
