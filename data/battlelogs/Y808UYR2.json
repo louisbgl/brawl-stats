@@ -115236,5 +115236,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260719T105819.000Z",
+    "event": {
+      "id": 15000300,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Ring of Fire"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 68,
+      "starPlayer": {
+        "tag": "#28VPR8CPJV",
+        "name": "TTM|VittiPRO",
+        "brawler": {
+          "id": 16000095,
+          "name": "ALLI",
+          "power": 9,
+          "trophies": 4
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28VPR8CPJV",
+            "name": "TTM|VittiPRO",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 9,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 4
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RL8Q8RPV9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#29U92CPQGG",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 10,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2GPYC22YC9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 11,
+              "trophies": 4
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
