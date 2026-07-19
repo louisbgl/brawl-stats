@@ -126800,5 +126800,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260719T075823.000Z",
+    "event": {
+      "id": 15000306,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Dueling Beetles"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 149,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 1060
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8CLQ8UVY0",
+            "name": "шнишнашнапи",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1124
+            }
+          },
+          {
+            "tag": "#8JVLJRYUG",
+            "name": "Я.",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1671
+            }
+          },
+          {
+            "tag": "#28YCYG0LLC",
+            "name": "☆ツSlecrinx ツ",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1154
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 176
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1060
+            }
+          },
+          {
+            "tag": "#9JU0PCGVY",
+            "name": "kapizol",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1551
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
