@@ -270421,5 +270421,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260719T013304.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#2C2YCRUC28",
+        "name": "Ваня",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 9
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QUPYP9VYP",
+            "name": "бехаа",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#2C2YCRUC28",
+            "name": "Ваня",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LUYU8YUQP",
+            "name": "RyRy",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#299L8CUYQ",
+            "name": "Тlо берам",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#L2QYV2R0U",
+            "name": "BR | 𝚂1𝚎𝚣𝚣",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
