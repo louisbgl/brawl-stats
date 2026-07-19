@@ -286906,5 +286906,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260719T135919.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 66,
+      "starPlayer": {
+        "tag": "#PPLGPYPU9",
+        "name": "anishenko",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1091
+            }
+          },
+          {
+            "tag": "#RGL9RL0V",
+            "name": "QLS|TOPER⛓",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1186
+            }
+          },
+          {
+            "tag": "#PPLGPYPU9",
+            "name": "anishenko",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UPG8LUU8R",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 10,
+              "trophies": 765
+            }
+          },
+          {
+            "tag": "#JGL0Q0JQU",
+            "name": "zer0_bot",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 753
+            }
+          },
+          {
+            "tag": "#2QG80LGYCY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 748
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
