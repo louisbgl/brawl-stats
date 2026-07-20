@@ -130466,5 +130466,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260720T190215.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 173,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#880LR2YVP",
+        "name": "Cylia",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 1330
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9QPRRQ2Y0",
+            "name": "CFC1905",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 450
+            }
+          },
+          {
+            "tag": "#20LCY2RPYU",
+            "name": "erayy",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 811
+            }
+          },
+          {
+            "tag": "#2CU2R29L2L",
+            "name": "TOXIC Ū BOY",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 9,
+              "trophies": 342
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QGLGYV9CP",
+            "name": "yunus49",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 391
+            }
+          },
+          {
+            "tag": "#880LR2YVP",
+            "name": "Cylia",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1330
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 329
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
