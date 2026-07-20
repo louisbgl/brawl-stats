@@ -130558,5 +130558,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260720T210138.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 205,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 9,
+          "trophies": 345
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 345
+            }
+          },
+          {
+            "tag": "#GJ0VRURCG",
+            "name": "sioli_vite",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1671
+            }
+          },
+          {
+            "tag": "#2UPLG0CCPG",
+            "name": "Madjidov_71",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 480
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RQRYV99CV",
+            "name": "TALİSCA",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 503
+            }
+          },
+          {
+            "tag": "#2C00888PVL",
+            "name": "חנן גטה",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 2019
+            }
+          },
+          {
+            "tag": "#82LP9Q92R",
+            "name": "チキ| Linux ⚔️",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 546
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260720T210621.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 236,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#GJ0VRURCG",
+        "name": "sioli_vite",
+        "brawler": {
+          "id": 16000085,
+          "name": "KENJI",
+          "power": 11,
+          "trophies": 1687
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UPLQL002G",
+            "name": "xande balboa",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 555
+            }
+          },
+          {
+            "tag": "#PVU8U99JL",
+            "name": "《KEBABÜL》",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 479
+            }
+          },
+          {
+            "tag": "#2U20JUYG",
+            "name": "<c8>илай</c>",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 9,
+              "trophies": 1444
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LP2PCJ992",
+            "name": "йцукеен",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 9,
+              "trophies": 1032
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 362
+            }
+          },
+          {
+            "tag": "#GJ0VRURCG",
+            "name": "sioli_vite",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1687
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
