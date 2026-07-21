@@ -116798,5 +116798,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260721T201110.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 259,
+      "trophyChange": -11,
+      "starPlayer": {
+        "tag": "#2GGULGJRY8",
+        "name": "spra79",
+        "brawler": {
+          "id": 16000006,
+          "name": "BARLEY",
+          "power": 11,
+          "trophies": 1157
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L8RVUY8RJ",
+            "name": "Demfa",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 8,
+              "trophies": 1009
+            }
+          },
+          {
+            "tag": "#2GGULGJRY8",
+            "name": "spra79",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 1157
+            }
+          },
+          {
+            "tag": "#2QLGC9J02V",
+            "name": "Laryuto",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 2085
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1526
+            }
+          },
+          {
+            "tag": "#9YJLVLCP2",
+            "name": "legia 4/94",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1177
+            }
+          },
+          {
+            "tag": "#R9PLCJYCU",
+            "name": "ashamed2exist",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 793
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
