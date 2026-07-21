@@ -130742,5 +130742,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260721T210209.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 241,
+      "trophyChange": 19,
+      "starPlayer": {
+        "tag": "#P0LUJC99R",
+        "name": "Ded",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 660
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 380
+            }
+          },
+          {
+            "tag": "#QVVPGRY0U",
+            "name": "şeytan 👹",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 359
+            }
+          },
+          {
+            "tag": "#GCJ0PUGG",
+            "name": "sildo",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 10,
+              "trophies": 388
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P0LUJC99R",
+            "name": "Ded",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 660
+            }
+          },
+          {
+            "tag": "#2QLL8VY0QJ",
+            "name": "baykus",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1280
+            }
+          },
+          {
+            "tag": "#Q8PQ0UU2J",
+            "name": "Kase",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 6,
+              "trophies": 243
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
