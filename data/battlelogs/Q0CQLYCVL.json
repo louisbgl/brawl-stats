@@ -280352,5 +280352,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260721T143030.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 166,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2GL9QV08C",
+        "name": "Adam82",
+        "brawler": {
+          "id": 16000097,
+          "name": "MINA",
+          "power": 11,
+          "trophies": 751
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UV9GG8LR",
+            "name": "GTX | Space",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 623
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 415
+            }
+          },
+          {
+            "tag": "#9G88QLQV9",
+            "name": "kasssylaaa",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 9,
+              "trophies": 570
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GL9QV08C",
+            "name": "Adam82",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 751
+            }
+          },
+          {
+            "tag": "#2J9JGV89R",
+            "name": "Nipsteri",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 845
+            }
+          },
+          {
+            "tag": "#2CPCLVPJUJ",
+            "name": "V1D30ST4R",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 9,
+              "trophies": 576
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260721T143235.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 81,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000096,
+          "name": "TRUNK",
+          "power": 9,
+          "trophies": 374
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CQG8Q00Q0",
+            "name": "SK|rg rufy",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 1253
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 9,
+              "trophies": 374
+            }
+          },
+          {
+            "tag": "#VC2YR8CV",
+            "name": "gigistefan",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 597
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q9VCRYYUG",
+            "name": "B1g⌀Vitα§⁷",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 649
+            }
+          },
+          {
+            "tag": "#2JP8RC9J8",
+            "name": "NAVI | Kr1stal",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 10,
+              "trophies": 1279
+            }
+          },
+          {
+            "tag": "#PYV8JPJQQ",
+            "name": "star night",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 754
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
