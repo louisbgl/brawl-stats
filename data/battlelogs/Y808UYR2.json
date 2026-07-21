@@ -116614,5 +116614,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260721T081004.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 245,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 1509
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28J8YC808",
+            "name": "Sequoia",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 660
+            }
+          },
+          {
+            "tag": "#8V8VVR29",
+            "name": "ChiefJesse",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 798
+            }
+          },
+          {
+            "tag": "#PPJVPP8RP",
+            "name": "アマンダ💮",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 10,
+              "trophies": 828
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJLY0Y0RJ",
+            "name": "Ether_",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1580
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1509
+            }
+          },
+          {
+            "tag": "#2P2P2RJ8C",
+            "name": "ikstlan",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 1961
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260721T081728.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 329,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#22PR0PPUC",
+        "name": "ThunderHawk🇵🇱",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 847
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UUQL908L9",
+            "name": "janek",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1163
+            }
+          },
+          {
+            "tag": "#GRRC99LUR",
+            "name": "spocony paweł",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 759
+            }
+          },
+          {
+            "tag": "#22PR0PPUC",
+            "name": "ThunderHawk🇵🇱",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 847
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 283
+            }
+          },
+          {
+            "tag": "#88RJ0CRPC",
+            "name": "Tomato",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 1517
+            }
+          },
+          {
+            "tag": "#2GRY0LY2CY",
+            "name": "Rocky",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 309
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
