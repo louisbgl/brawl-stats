@@ -130834,5 +130834,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260722T070824.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 322,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#Y2JCLUYCC",
+        "name": "🇹🇷TRS-ÖLÜMCÜL",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 9,
+          "trophies": 835
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 399
+            }
+          },
+          {
+            "tag": "#Y9Q0P9GJ",
+            "name": "duminjo",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 410
+            }
+          },
+          {
+            "tag": "#RJ89RPQ82",
+            "name": "Daniel CR7",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 875
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y2JCLUYCC",
+            "name": "🇹🇷TRS-ÖLÜMCÜL",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 9,
+              "trophies": 835
+            }
+          },
+          {
+            "tag": "#LR8U202VJ",
+            "name": "Ais",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 9,
+              "trophies": 365
+            }
+          },
+          {
+            "tag": "#2UC8UQR88R",
+            "name": "killerboy67",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1015
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
