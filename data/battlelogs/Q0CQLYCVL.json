@@ -284734,5 +284734,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260722T222243.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 52,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#Y0J9P80PV",
+        "name": "Magic",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 380
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PU9YV298V",
+            "name": "GptSaPu",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 943
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 294
+            }
+          },
+          {
+            "tag": "#QQCRPR2GC",
+            "name": "Skensy7",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 1,
+              "trophies": 501
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y0J9P80PV",
+            "name": "Magic",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 380
+            }
+          },
+          {
+            "tag": "#Q0G9V90GL",
+            "name": "Reg",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 563
+            }
+          },
+          {
+            "tag": "#LLCCQQRY9",
+            "name": "szhamushh¿🤍",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 780
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
