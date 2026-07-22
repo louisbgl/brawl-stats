@@ -130926,5 +130926,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260722T162043.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 138,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2V9C2Y8YYV",
+        "name": "GENE (NIEDLICH)",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 957
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V9C2Y8YYV",
+            "name": "GENE (NIEDLICH)",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 957
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 397
+            }
+          },
+          {
+            "tag": "#8QUR2PJ2C",
+            "name": "™Efendi™",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 11,
+              "trophies": 371
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JC8G9PCC9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 637
+            }
+          },
+          {
+            "tag": "#2JQG20G9CL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 645
+            }
+          },
+          {
+            "tag": "#RGV9PLGG2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 552
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
