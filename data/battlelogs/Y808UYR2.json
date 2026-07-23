@@ -118546,5 +118546,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260723T214034.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 241,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#2QU0G2PR9P",
+        "name": "🤟🤟🇹🇷🇹🇷",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 9,
+          "trophies": 341
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UCLCJPLLG",
+            "name": "Punisher",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1806
+            }
+          },
+          {
+            "tag": "#2QLVG2VYJC",
+            "name": "100",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 621
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 962
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QU0G2PR9P",
+            "name": "🤟🤟🇹🇷🇹🇷",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 9,
+              "trophies": 341
+            }
+          },
+          {
+            "tag": "#2CYYPJV228",
+            "name": "Eu mesma",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1588
+            }
+          },
+          {
+            "tag": "#220L2VGYL8",
+            "name": "ghost🤍👻",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 9,
+              "trophies": 299
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
