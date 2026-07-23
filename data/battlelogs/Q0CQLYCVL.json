@@ -286479,5 +286479,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260723T173204.000Z",
+    "event": {
+      "id": 15000850,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Super Center"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 183,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#VYQ9QLYJ",
+        "name": "Spaik",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 566
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LUVY0CGLG",
+            "name": "Rzm64",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1416
+            }
+          },
+          {
+            "tag": "#2UYGLQJQL2",
+            "name": "😎{≤vortexX≥}😎",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1503
+            }
+          },
+          {
+            "tag": "#JJ9RCV2CR",
+            "name": "ch_sk",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1405
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RGPCU9PQV",
+            "name": "ramos",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 10,
+              "trophies": 612
+            }
+          },
+          {
+            "tag": "#VYQ9QLYJ",
+            "name": "Spaik",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 566
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 5,
+              "trophies": 274
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
