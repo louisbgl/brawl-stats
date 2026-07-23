@@ -131110,5 +131110,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260723T012810.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 386,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2U0QGQJ0CC",
+        "name": "HypnoTadpole",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 1120
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QL2P8PG8G",
+            "name": "babl",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 306
+            }
+          },
+          {
+            "tag": "#2JV90R2GQ8",
+            "name": "IV|Батырдың",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 8,
+              "trophies": 337
+            }
+          },
+          {
+            "tag": "#2U0QGQJ0CC",
+            "name": "HypnoTadpole",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1120
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GR8YVJ89Y",
+            "name": "Поляша",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1614
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 428
+            }
+          },
+          {
+            "tag": "#2CYU0U0L98",
+            "name": "MaSharipov🤠",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 429
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
