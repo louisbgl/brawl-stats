@@ -287031,5 +287031,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260723T195956.000Z",
+    "event": {
+      "id": 15001271,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Deadlock"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 30,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#2Y9PJQL0P",
+        "name": "DoNaTiK IOS",
+        "brawler": {
+          "id": 16000077,
+          "name": "LARRY & LAWRIE",
+          "power": 11,
+          "trophies": 144
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QJVQ9VCVL",
+            "name": "JULES LE PRO 🤟",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 6,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2Y9PJQL0P",
+            "name": "DoNaTiK IOS",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 144
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 4,
+              "trophies": 52
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CCCPC2CR2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 6,
+              "trophies": 68
+            }
+          },
+          {
+            "tag": "#2RJ9YRCUYL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 7,
+              "trophies": 67
+            }
+          },
+          {
+            "tag": "#2R8RL0JQ0P",
+            "name": "gg/tsmod",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 6,
+              "trophies": 64
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
