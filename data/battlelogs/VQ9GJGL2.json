@@ -132214,5 +132214,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260723T193934.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 185,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 939
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CQJYPQ2UY",
+            "name": "FUT |Onixx",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1083
+            }
+          },
+          {
+            "tag": "#RPVJ9V0GC",
+            "name": "ˢᵒˡᵒ🧸ⱽⁱⁿᵗⁱᵏ🩸",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1022
+            }
+          },
+          {
+            "tag": "#2QRY0JP20V",
+            "name": "Mantı",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 959
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 939
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 758
+            }
+          },
+          {
+            "tag": "#2LLJGQ2GYV",
+            "name": "JACKFTO",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 2014
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
