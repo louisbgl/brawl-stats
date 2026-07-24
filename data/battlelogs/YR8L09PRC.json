@@ -291670,5 +291670,137 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260724T094900.000Z",
+    "event": {
+      "id": 15000919,
+      "mode": "brawlBall5V5",
+      "modeId": 32,
+      "map": "Stockpile Stadium"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 108,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#QJU9C8JUG",
+        "name": "jc",
+        "brawler": {
+          "id": 16000106,
+          "name": "BOLT",
+          "power": 11,
+          "trophies": 2067
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L0CGRP8Y8",
+            "name": "pollito🇬🇹🇬🇹",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1422
+            }
+          },
+          {
+            "tag": "#JYC9Y2U9",
+            "name": "ThePeakHomeland",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 11,
+              "trophies": 1041
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1227
+            }
+          },
+          {
+            "tag": "#9CGJGCLVV",
+            "name": "Clean Brawler",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 1192
+            }
+          },
+          {
+            "tag": "#PJRGQL8JL",
+            "name": "free",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1833
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QQPRY2CP0",
+            "name": "pro",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 1088
+            }
+          },
+          {
+            "tag": "#QJU9C8JUG",
+            "name": "jc",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 2067
+            }
+          },
+          {
+            "tag": "#G0GJLQCGL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 2066
+            }
+          },
+          {
+            "tag": "#G8JQRQRU",
+            "name": "★™흣A₭T\\Johnn흣™★",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 2047
+            }
+          },
+          {
+            "tag": "#88P99UVC9",
+            "name": "trxplorde",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 2040
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
