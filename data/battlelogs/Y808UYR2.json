@@ -118638,5 +118638,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260724T094919.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 237,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#LL9RPC0V",
+        "name": "Archer",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 659
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R2R2UUP0V",
+            "name": "malyiğit",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1001
+            }
+          },
+          {
+            "tag": "#LL9RPC0V",
+            "name": "Archer",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 659
+            }
+          },
+          {
+            "tag": "#Q9UUGYCRV",
+            "name": "Cirrus",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 8,
+              "trophies": 413
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QCCC9GYLV",
+            "name": "Martina",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 802
+            }
+          },
+          {
+            "tag": "#2PCR0JYV2Q",
+            "name": "z.one21",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 335
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 957
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
