@@ -405444,5 +405444,137 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260725T112759.000Z",
+    "event": {
+      "id": 15000919,
+      "mode": "brawlBall5V5",
+      "modeId": 32,
+      "map": "Stockpile Stadium"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 110,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#8Q8P2PJR",
+        "name": "Tomoko",
+        "brawler": {
+          "id": 16000013,
+          "name": "POCO",
+          "power": 11,
+          "trophies": 533
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GYGCJ090R",
+            "name": "mat_is13",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 531
+            }
+          },
+          {
+            "tag": "#GCU9L0C88",
+            "name": "FUT|Lᴇᴠɪシ⛩️🥀",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 9,
+              "trophies": 515
+            }
+          },
+          {
+            "tag": "#8Q8P2PJR",
+            "name": "Tomoko",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 533
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 274
+            }
+          },
+          {
+            "tag": "#2YUQ20R009",
+            "name": "сатори",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 518
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJJC2R2JG",
+            "name": "Xinfinity",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 789
+            }
+          },
+          {
+            "tag": "#PG09P8J82",
+            "name": "Mad\\\\man¥¥",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 9,
+              "trophies": 828
+            }
+          },
+          {
+            "tag": "#UG2GPJJUG",
+            "name": "Spekzez",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1338
+            }
+          },
+          {
+            "tag": "#LPUJYYU90",
+            "name": "uu",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 1402
+            }
+          },
+          {
+            "tag": "#Q0UURYRR8",
+            "name": "🌪️Ťøřñæðø",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 10,
+              "trophies": 1012
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
