@@ -108030,5 +108030,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260725T054039.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 28,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#Y0U2RL90L",
+        "name": "MAKHARA_44",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 2076
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8JQP2LPL9",
+            "name": "тимоша нагибоша",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 1951
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1491
+            }
+          },
+          {
+            "tag": "#2GGUG9R2CC",
+            "name": "~🖤𝓔𝓭𝓰𝓪𝓻🖤",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1599
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2U9CL9PGLU",
+            "name": "Zuxoo🧛‍♂️",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2032
+            }
+          },
+          {
+            "tag": "#Y0U2RL90L",
+            "name": "MAKHARA_44",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 2076
+            }
+          },
+          {
+            "tag": "#GLLV0RC2",
+            "name": "A̷L̷P̷E̷R̷💥",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2008
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
