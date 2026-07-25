@@ -288770,5 +288770,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260725T011651.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 71,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#PQ888JR2R",
+        "name": "𝐗𝐒|𝐃𝐚𝐧𝐧𝐲",
+        "brawler": {
+          "id": 16000094,
+          "name": "KAZE",
+          "power": 11,
+          "trophies": 472
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JLUVYQPP",
+            "name": "Alecantera05",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 813
+            }
+          },
+          {
+            "tag": "#22PVVJCVC",
+            "name": "bot 7",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 1066
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 322
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PQ888JR2R",
+            "name": "𝐗𝐒|𝐃𝐚𝐧𝐧𝐲",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 472
+            }
+          },
+          {
+            "tag": "#YVYRLC2L0",
+            "name": "Teddy",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 906
+            }
+          },
+          {
+            "tag": "#2RR0RLPYC",
+            "name": "E Erajher",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 855
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260725T011909.000Z",
+    "event": {
+      "id": 15000019,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Safe Zone"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 68,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000075,
+          "name": "MICO",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#J0GC80YR0",
+            "name": "Y2A_0",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#UGGG9U90",
+            "name": "MrPapa",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2UL0CVCPJU",
+            "name": "7w0Fckk",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 10,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GUQYQPPJ9",
+            "name": "smtarhan",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2J0RUUQC2Q",
+            "name": "Finn",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 9,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
