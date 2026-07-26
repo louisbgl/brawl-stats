@@ -295449,5 +295449,96 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260726T152755.000Z",
+    "event": {
+      "id": 15000292,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Open Business"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 147,
+      "starPlayer": {
+        "tag": "#2L98PPLQUL",
+        "name": "cheeckycakeジ",
+        "brawler": {
+          "id": 16000029,
+          "name": "BEA",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L98PPLQUL",
+            "name": "cheeckycakeジ",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#8Q8CGVGQJ",
+            "name": "UnoReversеCard",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2RUYLQUYUC",
+            "name": "ŞHARK7× yağızkr",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JVGP8Y2CY",
+            "name": "Ben",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#GPJ92VGQL",
+            "name": "Gitano",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
