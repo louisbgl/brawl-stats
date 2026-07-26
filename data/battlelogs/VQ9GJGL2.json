@@ -133502,5 +133502,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260726T163151.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 162,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#CQL2GGC8",
+        "name": "Brawler",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1184
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LRY9G0YL9",
+            "name": "Mutedcry",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1231
+            }
+          },
+          {
+            "tag": "#2Q0UPCRJVY",
+            "name": "NEXARION",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1326
+            }
+          },
+          {
+            "tag": "#CQL2GGC8",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1184
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JQQUCLG92",
+            "name": "NUMA",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1194
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 436
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1170
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260726T163731.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 304,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 1163
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YPVYLRU0",
+            "name": "sosi",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 1020
+            }
+          },
+          {
+            "tag": "#9C92JYGJ8",
+            "name": "67Ангет aНнюсь",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1080
+            }
+          },
+          {
+            "tag": "#Y9PQCR90Q",
+            "name": "Ramo",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 2469
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 434
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1163
+            }
+          },
+          {
+            "tag": "#Y0QL00P",
+            "name": "MicSchTV",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1479
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
