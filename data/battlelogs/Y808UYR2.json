@@ -120202,5 +120202,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260727T214442.000Z",
+    "event": {
+      "id": 15000022,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Hideout"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#LG29G0PV",
+        "name": "[LP]L1ker",
+        "brawler": {
+          "id": 16000013,
+          "name": "POCO",
+          "power": 11,
+          "trophies": 4
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LV2JLJ00P",
+            "name": "VR_Phantom",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#LG29G0PV",
+            "name": "[LP]L1ker",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 4
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UPGUPUUGP",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2LLCUUVQYL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2G9LCR2G0R",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 4
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
