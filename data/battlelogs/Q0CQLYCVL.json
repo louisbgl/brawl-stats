@@ -299809,5 +299809,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260728T225827.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 64,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 11,
+          "trophies": 860
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RR0PGRLU",
+            "name": "TOMMY",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 926
+            }
+          },
+          {
+            "tag": "#2LUGU9Y0VR",
+            "name": "Code:Rl",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 584
+            }
+          },
+          {
+            "tag": "#28G8YRQVJJ",
+            "name": "{8}",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 6,
+              "trophies": 393
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QRJ2YQ9RQ",
+            "name": "godeviolent",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 266
+            }
+          },
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 704
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 860
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
