@@ -299901,5 +299901,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260728T230048.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 56,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000071,
+          "name": "DOUG",
+          "power": 11,
+          "trophies": 317
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QRJ2YQ9RQ",
+            "name": "godeviolent",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 9,
+              "trophies": 144
+            }
+          },
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 121
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 317
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L9QPGLRJ0",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 189
+            }
+          },
+          {
+            "tag": "#2CGU2999RJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 10,
+              "trophies": 188
+            }
+          },
+          {
+            "tag": "#2RVC2QPL0G",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 200
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260728T230250.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 46,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#22VR0C0GJ",
+        "name": "aarondi",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 11,
+          "trophies": 704
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#22VR0C0GJ",
+            "name": "aarondi",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 704
+            }
+          },
+          {
+            "tag": "#PGJ90VUQC",
+            "name": "SLC|Elox",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 7,
+              "trophies": 213
+            }
+          },
+          {
+            "tag": "#8PC808V8",
+            "name": "ivansitoo7V7",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 866
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QRJ2YQ9RQ",
+            "name": "godeviolent",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 9,
+              "trophies": 154
+            }
+          },
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 221
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 327
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
