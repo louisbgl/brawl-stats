@@ -258419,5 +258419,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260728T082722.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 64,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#QQRPY8CC9",
+        "name": "FUT|SPICE",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1678
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 9,
+              "trophies": 951
+            }
+          },
+          {
+            "tag": "#QQRPY8CC9",
+            "name": "FUT|SPICE",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1678
+            }
+          },
+          {
+            "tag": "#28Q2YPRLU9",
+            "name": "gokuprime",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1059
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#80LPVLJP9",
+            "name": "MEL",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1670
+            }
+          },
+          {
+            "tag": "#YJGYV8PLJ",
+            "name": "〆|ζ͜Eyúpp¹⁰",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1509
+            }
+          },
+          {
+            "tag": "#8UY8LQUGY",
+            "name": "YT_--MARK",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1156
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
