@@ -120293,5 +120293,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260728T125902.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 203,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000106,
+          "name": "BOLT",
+          "power": 11,
+          "trophies": 449
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GU9QUU9P",
+            "name": "бандiт_4",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 883
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 449
+            }
+          },
+          {
+            "tag": "#2J0VPJPUCJ",
+            "name": "H_3Y😁",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 371
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UPCCCYYCQ",
+            "name": "ENES YT",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 735
+            }
+          },
+          {
+            "tag": "#2P0L28RP28",
+            "name": "Yunus",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 383
+            }
+          },
+          {
+            "tag": "#2U8GQ9Y09G",
+            "name": "tob",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 222
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
