@@ -258603,5 +258603,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260729T191941.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 143,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#9JGVYJ2LG",
+        "name": "B00M SANTA",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 11,
+          "trophies": 1208
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y0Y20RP2",
+            "name": "StupidMan",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 884
+            }
+          },
+          {
+            "tag": "#LC9U0G0RL",
+            "name": "ZUMITOKiйɠツ❤S",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 10,
+              "trophies": 905
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 9,
+              "trophies": 987
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#288LRV9J0U",
+            "name": "×LAtT*gg",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1254
+            }
+          },
+          {
+            "tag": "#9JV99YGY8",
+            "name": "🇦🇷《MESSİ》🇦🇷",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1203
+            }
+          },
+          {
+            "tag": "#9JGVYJ2LG",
+            "name": "B00M SANTA",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1208
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
