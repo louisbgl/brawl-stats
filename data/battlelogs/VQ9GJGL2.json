@@ -134974,5 +134974,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260729T125602.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 202,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#YRGYVRVG",
+        "name": "chiripis",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 2261
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JGVRVV8Y2",
+            "name": "Eslem",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 2176
+            }
+          },
+          {
+            "tag": "#292UU9PCJL",
+            "name": "♟|𝕸𝖆𝖒𝖟𝖎𝖐™",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1067
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1187
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8PJ0GY2VC",
+            "name": "👑RADAR👑",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1272
+            }
+          },
+          {
+            "tag": "#YRGYVRVG",
+            "name": "chiripis",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 2261
+            }
+          },
+          {
+            "tag": "#209ULVJLV",
+            "name": "DarK✌MK",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 2613
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
