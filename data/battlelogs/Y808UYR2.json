@@ -121213,5 +121213,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260730T174800.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 178,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#9PPU89U2P",
+        "name": "Wonder🌊",
+        "brawler": {
+          "id": 16000098,
+          "name": "ZIGGY",
+          "power": 11,
+          "trophies": 677
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LR2C9C9PJ",
+            "name": "Anne Kaplan",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 1093
+            }
+          },
+          {
+            "tag": "#9PPU89U2P",
+            "name": "Wonder🌊",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 677
+            }
+          },
+          {
+            "tag": "#8PCGCJ2CC",
+            "name": "Jayde'n rap",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 941
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PVYJY98C2",
+            "name": "babapiro",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 8,
+              "trophies": 212
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1009
+            }
+          },
+          {
+            "tag": "#2URV9LPQ2C",
+            "name": "MuzluKuki",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 9,
+              "trophies": 1124
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
