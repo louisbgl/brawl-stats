@@ -301916,5 +301916,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260731T185818.000Z",
+    "event": {
+      "id": 15001270,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Bustling Business"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 107,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2UVVV0PJLP",
+        "name": "SK|DASH",
+        "brawler": {
+          "id": 16000000,
+          "name": "SHELLY",
+          "power": 11,
+          "trophies": 1627
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RLYUC9992",
+            "name": "LB|Greened",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 1845
+            }
+          },
+          {
+            "tag": "#2QRC2PQL29",
+            "name": "kamil",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 6,
+              "trophies": 442
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 873
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UVVV0PJLP",
+            "name": "SK|DASH",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1627
+            }
+          },
+          {
+            "tag": "#2G8Y0CCP88",
+            "name": "LL|oirambrot",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 10,
+              "trophies": 1132
+            }
+          },
+          {
+            "tag": "#2PGRJU8",
+            "name": "daldal_ushel",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1555
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
