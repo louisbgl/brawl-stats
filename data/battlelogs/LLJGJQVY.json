@@ -420971,5 +420971,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260731T224358.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 130,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1033
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1033
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 11,
+              "trophies": 1069
+            }
+          },
+          {
+            "tag": "#QPPCUYLR9",
+            "name": "Pain",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1728
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YGL8PP89P",
+            "name": "MiSS💫",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1060
+            }
+          },
+          {
+            "tag": "#28GR0VJJ2J",
+            "name": "𝕿𝖔𝖔 𝖇𝖆𝖉",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 11,
+              "trophies": 340
+            }
+          },
+          {
+            "tag": "#RLV92PU29",
+            "name": "Gangster",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1034
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
