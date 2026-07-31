@@ -135250,5 +135250,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260731T130801.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 414,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 9,
+          "trophies": 601
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 601
+            }
+          },
+          {
+            "tag": "#2VGPCQRYVG",
+            "name": "qwertzuiopasdfg",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 754
+            }
+          },
+          {
+            "tag": "#2GRCQQGRCQ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 734
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V2U8RP92J",
+            "name": "vicleo e fra",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 9,
+              "trophies": 714
+            }
+          },
+          {
+            "tag": "#2Q0802VV9J",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 9,
+              "trophies": 705
+            }
+          },
+          {
+            "tag": "#U99J2V9YC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 9,
+              "trophies": 719
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
