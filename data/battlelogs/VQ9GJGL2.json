@@ -135710,5 +135710,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260731T153506.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 288,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#Y8CQ2GYGV",
+        "name": "fpv",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 11,
+          "trophies": 1335
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QUG8GGV8V",
+            "name": "TTM | Super",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 399
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 572
+            }
+          },
+          {
+            "tag": "#Y8CQ2GYGV",
+            "name": "fpv",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1335
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9PRUVQGLR",
+            "name": "sunshine ✨",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 507
+            }
+          },
+          {
+            "tag": "#GL00YL2UU",
+            "name": "john",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 908
+            }
+          },
+          {
+            "tag": "#28CURCGYQ0",
+            "name": "çikolata adam",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1025
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
