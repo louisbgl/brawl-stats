@@ -121857,5 +121857,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260801T075531.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 142,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 869
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V2JJ0JY9",
+            "name": "karandasha",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 2037
+            }
+          },
+          {
+            "tag": "#9U2UL22QQ",
+            "name": "~✨Leon✨~",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 967
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 869
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CVG0090V",
+            "name": "PotDeChambre",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 229
+            }
+          },
+          {
+            "tag": "#Y80UVV98L",
+            "name": "fish122",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 817
+            }
+          },
+          {
+            "tag": "#2UR80GC9LG",
+            "name": "XOXO _ON LIV MO",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 2017
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
