@@ -122501,5 +122501,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260801T170440.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 148,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1088
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1088
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 657
+            }
+          },
+          {
+            "tag": "#QUVU20UG",
+            "name": "SKAR",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LVYV0G2LG",
+            "name": "под мефом",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 836
+            }
+          },
+          {
+            "tag": "#2VGUJVUCGR",
+            "name": "Rico",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1057
+            }
+          },
+          {
+            "tag": "#2QLYP2YVUU",
+            "name": "NAVI l пельмень",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 353
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
