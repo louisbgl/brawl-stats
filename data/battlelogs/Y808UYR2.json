@@ -122961,5 +122961,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260801T213020.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 176,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#282UPQPPUQ",
+        "name": "помидорчик",
+        "brawler": {
+          "id": 16000106,
+          "name": "BOLT",
+          "power": 9,
+          "trophies": 731
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YLJLGP98",
+            "name": "Bryyyy_06",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 1348
+            }
+          },
+          {
+            "tag": "#2QCUC999PG",
+            "name": "AinzOoalGown",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 10,
+              "trophies": 602
+            }
+          },
+          {
+            "tag": "#20RJV0GJPQ",
+            "name": "MMAAXX",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 853
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1137
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 705
+            }
+          },
+          {
+            "tag": "#282UPQPPUQ",
+            "name": "помидорчик",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 9,
+              "trophies": 731
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260801T213544.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 280,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1153
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#92Y9C2YQR",
+            "name": "Володя",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1673
+            }
+          },
+          {
+            "tag": "#2YUJRQJ8JP",
+            "name": "PCM",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 8,
+              "trophies": 262
+            }
+          },
+          {
+            "tag": "#GVJVY2L0Y",
+            "name": "Ibon June🔥",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1263
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 721
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1153
+            }
+          },
+          {
+            "tag": "#QYRUJ0J",
+            "name": "Carla",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 9,
+              "trophies": 388
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
