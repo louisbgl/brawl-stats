@@ -335520,5 +335520,168 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260801T082530.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 68,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#89J9P9QUL",
+        "name": "ENSAR",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 1600
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RYY8QCRY0",
+            "name": "FUT | Rex",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1618
+            }
+          },
+          {
+            "tag": "#89J9P9QUL",
+            "name": "ENSAR",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1600
+            }
+          },
+          {
+            "tag": "#YLL0CGJGQ",
+            "name": "🖤",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8QVCRVUC0",
+            "name": "yasoman",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1515
+            }
+          },
+          {
+            "tag": "#GLV2QVLRC",
+            "name": "爪卂卄爪ㄖㄩᗪƊ",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1035
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1212
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260801T082816.000Z",
+    "event": {
+      "id": 15000463,
+      "mode": "tagTeam",
+      "modeId": 24,
+      "map": "Warrior's Way"
+    },
+    "battle": {
+      "mode": "duels",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 115,
+      "players": [
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawlers": [
+            {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1205,
+              "trophyChange": 8
+            },
+            {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 11,
+              "trophies": 948,
+              "trophyChange": 8
+            },
+            {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 698,
+              "trophyChange": 8
+            }
+          ]
+        },
+        {
+          "tag": "#U0J2LPU9Q",
+          "name": "Brawler",
+          "brawlers": [
+            {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 11,
+              "trophies": 1188,
+              "trophyChange": -6
+            },
+            {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 1187,
+              "trophyChange": 0
+            },
+            {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1172,
+              "trophyChange": 0
+            }
+          ]
+        }
+      ]
+    }
   }
 ]

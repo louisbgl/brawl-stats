@@ -121949,5 +121949,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260801T080019.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 247,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#VQC0P2JC",
+        "name": "geo***",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1082
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQC0P2JC",
+            "name": "geo***",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1082
+            }
+          },
+          {
+            "tag": "#298LCGY8YR",
+            "name": "prime?xenoz",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 403
+            }
+          },
+          {
+            "tag": "#20YCUQQ8Y9",
+            "name": "Играя Очком",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 947
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 887
+            }
+          },
+          {
+            "tag": "#2Y2U9LP82C",
+            "name": "Kenic",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 795
+            }
+          },
+          {
+            "tag": "#9LG80VY80",
+            "name": "Maxim",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 435
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
