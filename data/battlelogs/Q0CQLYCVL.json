@@ -303747,5 +303747,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260802T154712.000Z",
+    "event": {
+      "id": 15000292,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Open Business"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 83,
+      "starPlayer": {
+        "tag": "#R9LCYJJQ",
+        "name": "Ronaldo 7",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LQPG8GPJP",
+            "name": "Skeletor",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#R9LCYJJQ",
+            "name": "Ronaldo 7",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LCR2UCL9V",
+            "name": "enyan",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 10,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2UUQCYVQU9",
+            "name": "asexual",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2RLP809JGR",
+            "name": "SK | rzm64",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
