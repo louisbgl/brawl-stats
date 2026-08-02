@@ -137758,5 +137758,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260802T211841.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 256,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#QQRL92CVQ",
+        "name": "Toji🖤",
+        "brawler": {
+          "id": 16000085,
+          "name": "KENJI",
+          "power": 11,
+          "trophies": 773
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8RVPJQJGC",
+            "name": "Blue Whale",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 7,
+              "trophies": 449
+            }
+          },
+          {
+            "tag": "#CCU0822L",
+            "name": "Elvin_cbl",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 10,
+              "trophies": 648
+            }
+          },
+          {
+            "tag": "#QQRL92CVQ",
+            "name": "Toji🖤",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 773
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V8QYLQUQ0",
+            "name": "L77kas",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1891
+            }
+          },
+          {
+            "tag": "#800J9822LL",
+            "name": "Madin",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 1456
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 809
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
