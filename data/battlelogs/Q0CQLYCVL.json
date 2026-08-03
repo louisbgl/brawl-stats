@@ -307766,5 +307766,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260803T125950.000Z",
+    "event": {
+      "id": 15000072,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Bridge Too Far"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 47,
+      "starPlayer": {
+        "tag": "#2VPQP9PGCR",
+        "name": "nosni",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#LR0GULC2U",
+            "name": "sidley кчау",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2VPQP9PGCR",
+            "name": "nosni",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y8V22JPCL",
+            "name": "Maximus_Pr1me",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2U9CL228PV",
+            "name": "M8|Ronaldinho🗿",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 10,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2UJUQ8RYRG",
+            "name": "matthieulegoat",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
