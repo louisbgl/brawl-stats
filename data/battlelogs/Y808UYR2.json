@@ -125352,5 +125352,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260803T173144.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 239,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#2LUJV9URGP",
+        "name": "fabich",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 962
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 623
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1390
+            }
+          },
+          {
+            "tag": "#22V9228RRG",
+            "name": "code:300#",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 9,
+              "trophies": 526
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JGJ20CL8P",
+            "name": "عباس سيف",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 927
+            }
+          },
+          {
+            "tag": "#2LUJV9URGP",
+            "name": "fabich",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 962
+            }
+          },
+          {
+            "tag": "#2LRUG9J08",
+            "name": "Capra",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1029
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260803T173638.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 253,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1380
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8VL0P880",
+            "name": "betameche0",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 2081
+            }
+          },
+          {
+            "tag": "#LLGJ28PUR",
+            "name": "|•DENY$A•|🔮|•",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 871
+            }
+          },
+          {
+            "tag": "#RJVJR02VL",
+            "name": "123",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 9,
+              "trophies": 384
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GQ8JY2U8Q",
+            "name": "🏵Ṭšųĝųmı🏵",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1312
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 619
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1380
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
