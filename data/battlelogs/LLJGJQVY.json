@@ -425441,5 +425441,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260804T085742.000Z",
+    "event": {
+      "id": 15001167,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Singed Earth"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 111,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 1236
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q982JRQUP",
+            "name": "AR/Denox",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1594
+            }
+          },
+          {
+            "tag": "#2YUYRC9P09",
+            "name": "MinGit",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2487
+            }
+          },
+          {
+            "tag": "#R8V8UR222",
+            "name": "CP|Hyra Hacker",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1852
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1236
+            }
+          },
+          {
+            "tag": "#2QCVGU09PR",
+            "name": "Tls214",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2040
+            }
+          },
+          {
+            "tag": "#89PCQ0PLU",
+            "name": "🌨️SnowyFlake❄️",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1273
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
