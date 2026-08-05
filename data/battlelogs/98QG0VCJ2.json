@@ -356668,5 +356668,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260805T105934.000Z",
+    "event": {
+      "id": 15001167,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Singed Earth"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 45,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 1316
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PQ8UU29VG",
+            "name": "Kasper",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1789
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 1274
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1316
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#90VR8U0P",
+            "name": "karkówka 123",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1345
+            }
+          },
+          {
+            "tag": "#2LQL0V0YGL",
+            "name": "schabowy🥶😮‍💨",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 1783
+            }
+          },
+          {
+            "tag": "#JCYRLJQ9",
+            "name": "txlted флавер<3",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
