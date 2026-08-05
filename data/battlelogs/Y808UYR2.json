@@ -126364,5 +126364,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260805T081332.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 254,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#2URG8R2VC2",
+        "name": "Kit kat",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 2001
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1458
+            }
+          },
+          {
+            "tag": "#2RUQCG008G",
+            "name": "AnemicznyMax",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 8,
+              "trophies": 447
+            }
+          },
+          {
+            "tag": "#RJ8CVVL8C",
+            "name": "koko",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 9,
+              "trophies": 613
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C0LJPL0P0",
+            "name": "Mr.Spike",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 658
+            }
+          },
+          {
+            "tag": "#2LCV2UY8JG",
+            "name": "ɆⱫɆⱤ₲Ɇ₵̧ɆⱤ",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 422
+            }
+          },
+          {
+            "tag": "#2URG8R2VC2",
+            "name": "Kit kat",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 2001
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
