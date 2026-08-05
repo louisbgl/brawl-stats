@@ -126456,5 +126456,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260805T091019.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 128,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1475
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#V2LLQQU2V",
+            "name": "Celio",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 456
+            }
+          },
+          {
+            "tag": "#Y9CC88Q9V",
+            "name": "𝐊𝐫𝐢𝐞𝐱𝐞𝐬",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 1071
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1475
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VC9YGP0L",
+            "name": "Amir_Savior",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 797
+            }
+          },
+          {
+            "tag": "#2U9R82YCGR",
+            "name": "lizaf1moz",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 667
+            }
+          },
+          {
+            "tag": "#2VYR2V2Y20",
+            "name": "ʕ⁠っ⁠•⁠ᴥ⁠•⁠ʔ⁠っ",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 2319
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
