@@ -320099,5 +320099,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260806T170210.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 60,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000013,
+          "name": "POCO",
+          "power": 11,
+          "trophies": 325
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UC99R9RJ9",
+            "name": "Садовник",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 551
+            }
+          },
+          {
+            "tag": "#QU0Q8L0J0",
+            "name": "&vog/",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 257
+            }
+          },
+          {
+            "tag": "#LVR9VV0JP",
+            "name": "MEGASUS3000",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 325
+            }
+          },
+          {
+            "tag": "#28892CC9JQ",
+            "name": "tonicanelloni",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 300
+            }
+          },
+          {
+            "tag": "#QLYCJ8L",
+            "name": "MN170",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 383
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260806T170456.000Z",
+    "event": {
+      "id": 15000003,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Crystal Clearing"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 92,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 11,
+          "trophies": 604
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LUJLPL89Y",
+            "name": "VictoireBk",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 508
+            }
+          },
+          {
+            "tag": "#Y8QJ98CQ",
+            "name": "Bot9🤖👹",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1042
+            }
+          },
+          {
+            "tag": "#P98PGG8VY",
+            "name": "чикибамбони",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 771
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CRLLQJP2R",
+            "name": "дашк",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1019
+            }
+          },
+          {
+            "tag": "#2CCU8C9LL2",
+            "name": "Bellimone",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1008
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 604
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
