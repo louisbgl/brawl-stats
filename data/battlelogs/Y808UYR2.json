@@ -127652,5 +127652,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260806T090143.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 284,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1709
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1709
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1566
+            }
+          },
+          {
+            "tag": "#8GLYJ0PG8",
+            "name": "🦅GERİLLA🦅",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1084
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#90VUQP9CJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 864
+            }
+          },
+          {
+            "tag": "#2LU8JU8L0J",
+            "name": "Maleys",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1028
+            }
+          },
+          {
+            "tag": "#8R8YPCUQ9",
+            "name": "FIL",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1335
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
