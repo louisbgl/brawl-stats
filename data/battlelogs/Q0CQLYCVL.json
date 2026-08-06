@@ -321840,5 +321840,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260806T223420.000Z",
+    "event": {
+      "id": 15001057,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Playmaker"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 111,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000069,
+          "name": "HANK",
+          "power": 9,
+          "trophies": 330
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G8UUL0G0Y",
+            "name": "avocado",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 8,
+              "trophies": 402
+            }
+          },
+          {
+            "tag": "#2G0JJGVCJ9",
+            "name": "KENJI_PRO🎴",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 641
+            }
+          },
+          {
+            "tag": "#JP0UGYVG",
+            "name": "Lirom",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 7,
+              "trophies": 568
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9QJVP2J8",
+            "name": "×丂れ工ㄗモ×",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1020
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 9,
+              "trophies": 330
+            }
+          },
+          {
+            "tag": "#G0CU0CLY2",
+            "name": "lvbel_c5👑",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 554
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
