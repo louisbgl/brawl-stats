@@ -319917,5 +319917,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260806T151920.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 139,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 1001
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#29080VRVYJ",
+            "name": "⛩souhaib⛩⚡️",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#2QGVPGJ0JL",
+            "name": "Mr. PI",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1013
+            }
+          },
+          {
+            "tag": "#92VGQ98P9",
+            "name": "¥|Ixn_soder|¥",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1001
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CG0QJPPL9",
+            "name": "tanaş 27🇹🇷",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1040
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1001
+            }
+          },
+          {
+            "tag": "#Y00Q9UYY2",
+            "name": "Кент",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1062
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260806T152427.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 1006
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1006
+            }
+          },
+          {
+            "tag": "#2RPGU0VLCC",
+            "name": "Musca te mușcă",
+            "brawler": {
+              "id": 16000060,
+              "name": "SAM",
+              "power": 11,
+              "trophies": 424
+            }
+          },
+          {
+            "tag": "#2QR2R9RUC0",
+            "name": "Aleks",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 420
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VVUJ8GJG",
+            "name": "🔥Do Do🔥",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 502
+            }
+          },
+          {
+            "tag": "#88JYLG0P",
+            "name": "💥ABDELLATEF💥",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 657
+            }
+          },
+          {
+            "tag": "#JQCQG8PVY",
+            "name": "TTM | ₭łⱠⱠɆⱤ🔪",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1001
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
