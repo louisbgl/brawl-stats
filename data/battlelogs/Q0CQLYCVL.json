@@ -331955,5 +331955,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260808T142936.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 60,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000058,
+          "name": "BONNIE",
+          "power": 4,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#802UGQQ2LP",
+            "name": "eric zemour",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 5,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2QRJ2YQ9RQ",
+            "name": "godeviolent",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 1,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 4,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LCJ8JU9VR",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 2,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#2JCJUCJUG9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 3,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#2G28U8JU2V",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 4,
+              "trophies": 5
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
