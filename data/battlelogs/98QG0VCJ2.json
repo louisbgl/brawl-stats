@@ -362369,5 +362369,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260808T112753.000Z",
+    "event": {
+      "id": 15001090,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Afterparty"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 103,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#9PCJ9C8",
+        "name": "ruby⛧",
+        "brawler": {
+          "id": 16000052,
+          "name": "MEG",
+          "power": 11,
+          "trophies": 1149
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9PCJ9C8",
+            "name": "ruby⛧",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 1149
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1067
+            }
+          },
+          {
+            "tag": "#P0R8L0GJV",
+            "name": "赢得|Bobbycar",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 1298
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJQR2LV8V",
+            "name": "🇨🇳中国|M神🐒",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1118
+            }
+          },
+          {
+            "tag": "#2VYCRQY288",
+            "name": "أيوب",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1331
+            }
+          },
+          {
+            "tag": "#PLUYRV220",
+            "name": "محمد",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1239
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
