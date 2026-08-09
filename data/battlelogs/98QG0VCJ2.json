@@ -365120,5 +365120,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260809T093015.000Z",
+    "event": {
+      "id": 15001090,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Afterparty"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 102,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2U290RJG",
+        "name": "habdula",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 1340
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2U290RJG",
+            "name": "habdula",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1340
+            }
+          },
+          {
+            "tag": "#2GPQ2U8UY",
+            "name": "Turćin",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1271
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 1182
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RC2L8C8RV",
+            "name": "İMPARATOR-YTB",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 2439
+            }
+          },
+          {
+            "tag": "#YV82CL09U",
+            "name": "MiR_/Perchik°×°",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1954
+            }
+          },
+          {
+            "tag": "#YQ0CGG9LV",
+            "name": "⭐STARGHOST⭐",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1654
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260809T093206.000Z",
+    "event": {
+      "id": 15001090,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Afterparty"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 82,
+      "starPlayer": {
+        "tag": "#92LV0JRJ2",
+        "name": "SLS|ᴸᵘᵛSonya💖",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 1210
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G8JUGVRLR",
+            "name": "TTM|FrancePPo🏆",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2222
+            }
+          },
+          {
+            "tag": "#9QLR00VP8",
+            "name": "Elber galar@",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1636
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 1192
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8JPGQUYJ",
+            "name": "Hug",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1438
+            }
+          },
+          {
+            "tag": "#92LV0JRJ2",
+            "name": "SLS|ᴸᵘᵛSonya💖",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1210
+            }
+          },
+          {
+            "tag": "#QUVG2CRL",
+            "name": "Attractive",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1265
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
