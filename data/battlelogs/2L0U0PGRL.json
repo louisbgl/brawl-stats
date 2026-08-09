@@ -279047,5 +279047,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260809T163239.000Z",
+    "event": {
+      "id": 15001090,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Afterparty"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 128,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#2JYR82R8GR",
+        "name": "Brawler",
+        "brawler": {
+          "id": 16000031,
+          "name": "MR. P",
+          "power": 11,
+          "trophies": 1066
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#229G2RRLQ",
+            "name": "☢️Nova I KinG☢️",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 844
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1128
+            }
+          },
+          {
+            "tag": "#2C09J20ULY",
+            "name": "İNP.Mürsəl 🇦🇿",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1241
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JYR82R8GR",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 1066
+            }
+          },
+          {
+            "tag": "#2QU90U88JR",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 10,
+              "trophies": 1065
+            }
+          },
+          {
+            "tag": "#22PL00YCRP",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 1065
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
