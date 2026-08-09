@@ -133356,5 +133356,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260809T123159.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 146,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#GRPCGGUG",
+        "name": "Mayister74YT",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 1320
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GRPCGGUG",
+            "name": "Mayister74YT",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1320
+            }
+          },
+          {
+            "tag": "#GVLVLVUVC",
+            "name": "plejer",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 984
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98V88PJQ9",
+            "name": "r3dwvix",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 9,
+              "trophies": 315
+            }
+          },
+          {
+            "tag": "#Y9Q28GLQG",
+            "name": "🌚БОГ🌝",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 9,
+              "trophies": 269
+            }
+          },
+          {
+            "tag": "#2LGJVRG9C8",
+            "name": "Linus",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 437
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
