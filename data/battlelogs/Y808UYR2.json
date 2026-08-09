@@ -132896,5 +132896,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260809T112155.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 274,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#2VVJ20VQRR",
+        "name": "vervy",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 1890
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9G29UUQGG",
+            "name": "Harry Potter",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 645
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2005
+            }
+          },
+          {
+            "tag": "#2UY9R9UP0",
+            "name": "Velasks_10 yt",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 10,
+              "trophies": 862
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QLQYQ0VJR",
+            "name": "Charming Chapli",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 868
+            }
+          },
+          {
+            "tag": "#2RJQ2YV208",
+            "name": "💗Love💗💗",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1426
+            }
+          },
+          {
+            "tag": "#2VVJ20VQRR",
+            "name": "vervy",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1890
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
