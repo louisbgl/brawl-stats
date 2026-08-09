@@ -133448,5 +133448,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260809T211909.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 211,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#R2YJ8RJPV",
+        "name": "leniel",
+        "brawler": {
+          "id": 16000031,
+          "name": "MR. P",
+          "power": 11,
+          "trophies": 355
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 918
+            }
+          },
+          {
+            "tag": "#R2YJ8RJPV",
+            "name": "leniel",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 355
+            }
+          },
+          {
+            "tag": "#2U2U9YUJLG",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000066,
+              "name": "R-T",
+              "power": 10,
+              "trophies": 659
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2Q8L9CP0LJ",
+            "name": "Jelly",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 10,
+              "trophies": 622
+            }
+          },
+          {
+            "tag": "#2U9RUV0002",
+            "name": "NLK/NAKI✨YT",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 697
+            }
+          },
+          {
+            "tag": "#22C2RYYVRV",
+            "name": "TG: @gene_bsmod",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 640
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
