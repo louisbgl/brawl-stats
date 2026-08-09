@@ -333603,5 +333603,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260809T105825.000Z",
+    "event": {
+      "id": 15001248,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Slippery Showdown"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 52,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#2L98UJRC02",
+        "name": "панпирс",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1051
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#CVLVQRLP",
+            "name": "SERGO...",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 7,
+              "trophies": 666
+            }
+          },
+          {
+            "tag": "#2L98UJRC02",
+            "name": "панпирс",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1051
+            }
+          },
+          {
+            "tag": "#2U90P09R0V",
+            "name": "спидран 50к",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 10,
+              "trophies": 1020
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 9,
+              "trophies": 221
+            }
+          },
+          {
+            "tag": "#YJQ9YU89G",
+            "name": "[MS]nikto",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 9,
+              "trophies": 474
+            }
+          },
+          {
+            "tag": "#VV2UL0QY",
+            "name": "Fredock",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 620
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
