@@ -367736,5 +367736,178 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260810T171602.000Z",
+    "event": {
+      "id": 15000019,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Safe Zone"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 150,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#8YRQR222G",
+            "name": "Jacek903",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2URQU9P0P8",
+            "name": "𝓲𝓷𝓿𝓲𝓼𝓫🎶",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#PQQ2LYLL0",
+            "name": "SouL ☄️",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2CCQPUPPJC",
+            "name": "kral ☪️",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#LG9CG2RRV",
+            "name": "LH44🇬🇧",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260810T171851.000Z",
+    "event": {
+      "id": 15000019,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Safe Zone"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 150,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 13
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8YRQR222G",
+            "name": "Jacek903",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2URQU9P0P8",
+            "name": "𝓲𝓷𝓿𝓲𝓼𝓫🎶",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#PQQ2LYLL0",
+            "name": "SouL ☄️",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#2CCQPUPPJC",
+            "name": "kral ☪️",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#LG9CG2RRV",
+            "name": "LH44🇬🇧",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
