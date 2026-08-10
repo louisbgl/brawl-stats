@@ -365303,5 +365303,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260810T105707.000Z",
+    "event": {
+      "id": 15000343,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Rustic Arcade"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 109,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000032,
+          "name": "MAX",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UJYCV2UR0",
+            "name": "osabeznosa67",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2C998U0JUJ",
+            "name": "okak",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#J0022G0LC",
+            "name": "Pro",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GQCQGYGGG",
+            "name": "ZETA|arinnaks홈",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#L90C02JJQ",
+            "name": "fightvision_x",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260810T105920.000Z",
+    "event": {
+      "id": 15000306,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Dueling Beetles"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 65,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VQVVUV8YU",
+            "name": "буся",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 9,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2QUGVLJ8J9",
+            "name": "підар",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 10,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#2UY0028YPL",
+            "name": "Enes kral",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#UR8L09G0",
+            "name": "xyena",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#CGGRL2P0J",
+            "name": "nono30",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 11
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
