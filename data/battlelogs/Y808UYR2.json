@@ -136361,5 +136361,103 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260811T101306.000Z",
+    "event": {
+      "id": 15001254,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "BOSS TECH TARA"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#UGL02LG0",
+          "name": "gopeto20",
+          "brawler": {
+            "id": 16000022,
+            "name": "TICK",
+            "power": 11,
+            "trophies": 657
+          }
+        },
+        {
+          "tag": "#Y808UYR2",
+          "name": "JOEL|MissANG3ll",
+          "brawler": {
+            "id": 16000016,
+            "name": "PAM",
+            "power": 11,
+            "trophies": 689
+          }
+        },
+        {
+          "tag": "#2G02LQQQUP",
+          "name": "sebastiano",
+          "brawler": {
+            "id": 16000107,
+            "name": "NORI",
+            "power": 9,
+            "trophies": 618
+          }
+        }
+      ],
+      "level": {
+        "name": "Hard",
+        "id": 1
+      }
+    }
+  },
+  {
+    "battleTime": "20260811T101822.000Z",
+    "event": {
+      "id": 15001254,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "BOSS TECH TARA"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#Y808UYR2",
+          "name": "JOEL|MissANG3ll",
+          "brawler": {
+            "id": 16000016,
+            "name": "PAM",
+            "power": 11,
+            "trophies": 689
+          }
+        },
+        {
+          "tag": "#R9QRCGUYC",
+          "name": "Богдан228",
+          "brawler": {
+            "id": 16000032,
+            "name": "MAX",
+            "power": 11,
+            "trophies": 695
+          }
+        },
+        {
+          "tag": "#RVLCL9292",
+          "name": "ушлепок",
+          "brawler": {
+            "id": 16000005,
+            "name": "SPIKE",
+            "power": 11,
+            "trophies": 693
+          }
+        }
+      ],
+      "level": {
+        "name": "Expert",
+        "id": 2
+      }
+    }
   }
 ]
