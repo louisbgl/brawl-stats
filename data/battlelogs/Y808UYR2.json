@@ -136459,5 +136459,103 @@
         "id": 2
       }
     }
+  },
+  {
+    "battleTime": "20260811T124554.000Z",
+    "event": {
+      "id": 15001254,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "BOSS TECH TARA"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#2Q28RJULL0",
+          "name": "Amadeo",
+          "brawler": {
+            "id": 16000101,
+            "name": "GLOWY",
+            "power": 11,
+            "trophies": 517
+          }
+        },
+        {
+          "tag": "#Y808UYR2",
+          "name": "JOEL|MissANG3ll",
+          "brawler": {
+            "id": 16000085,
+            "name": "KENJI",
+            "power": 11,
+            "trophies": 503
+          }
+        },
+        {
+          "tag": "#2CYQLYRQQL",
+          "name": "V|Lawy",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 7,
+            "trophies": 500
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
+  },
+  {
+    "battleTime": "20260811T125246.000Z",
+    "event": {
+      "id": 15001254,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "BOSS TECH TARA"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#28QPLQLGGU",
+          "name": "Die.pang.amar",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 660
+          }
+        },
+        {
+          "tag": "#UGCPJV09",
+          "name": "pietro",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 688
+          }
+        },
+        {
+          "tag": "#Y808UYR2",
+          "name": "JOEL|MissANG3ll",
+          "brawler": {
+            "id": 16000016,
+            "name": "PAM",
+            "power": 11,
+            "trophies": 689
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
   }
 ]
