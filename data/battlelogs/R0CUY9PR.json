@@ -109593,5 +109593,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260812T041228.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 135,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2C0JUCRLLY",
+        "name": "Brawler",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 232
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 229
+            }
+          },
+          {
+            "tag": "#2U8G0RCPRV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 242
+            }
+          },
+          {
+            "tag": "#2C0JUCRLLY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 232
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GPVCQCLYQ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 10,
+              "trophies": 222
+            }
+          },
+          {
+            "tag": "#2LGJ2PCYUC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 11,
+              "trophies": 219
+            }
+          },
+          {
+            "tag": "#CLVL8Y9RP",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 10,
+              "trophies": 240
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
