@@ -339274,5 +339274,178 @@
         "id": 7
       }
     }
+  },
+  {
+    "battleTime": "20260813T005535.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 112,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#20QCUVQC28",
+            "name": "Tikwas",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#299U9V8YY",
+            "name": "FUT|THIAGO🦅",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P8UCGQY8",
+            "name": "janja bla",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#PP0CVPJ88",
+            "name": "Xander panda",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#9G2G0UP2R",
+            "name": "anjoo92",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260813T005753.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#299U9V8YY",
+        "name": "FUT|THIAGO🦅",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 13
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#20QCUVQC28",
+            "name": "Tikwas",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#299U9V8YY",
+            "name": "FUT|THIAGO🦅",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 13
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P8UCGQY8",
+            "name": "janja bla",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#PP0CVPJ88",
+            "name": "Xander panda",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#9G2G0UP2R",
+            "name": "anjoo92",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
