@@ -372902,5 +372902,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260813T102501.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 62,
+      "starPlayer": {
+        "tag": "#PQ00VGUVU",
+        "name": "TL|Tim_LiP🥶",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 1075
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LCRLJJYQ0",
+            "name": "𝓯𝓻𝓮𝓪𝓴𝔂",
+            "brawler": {
+              "id": 16000066,
+              "name": "R-T",
+              "power": 11,
+              "trophies": 1072
+            }
+          },
+          {
+            "tag": "#98VQ8JPY9",
+            "name": "BigBlackC",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1496
+            }
+          },
+          {
+            "tag": "#PPGC9J9V9",
+            "name": "epic lander yt",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1013
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1657
+            }
+          },
+          {
+            "tag": "#PQ00VGUVU",
+            "name": "TL|Tim_LiP🥶",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1075
+            }
+          },
+          {
+            "tag": "#2V9YGLPCC8",
+            "name": "Jerome",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
