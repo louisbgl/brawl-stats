@@ -341732,5 +341732,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260813T133248.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 109,
+      "starPlayer": {
+        "tag": "#LPJ8PLG8J",
+        "name": "v1ktorryieg",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 2025
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 219
+            }
+          },
+          {
+            "tag": "#2V2L20CRU",
+            "name": "seesallcolors",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 10,
+              "trophies": 510
+            }
+          },
+          {
+            "tag": "#9PYP2PLVP",
+            "name": "michelangelo",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1004
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RGRPLURQ2",
+            "name": "shanderking",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#P98U9UGL",
+            "name": "sahana",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1114
+            }
+          },
+          {
+            "tag": "#LPJ8PLG8J",
+            "name": "v1ktorryieg",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 2025
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260813T133544.000Z",
+    "event": {
+      "id": 15000403,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Stardust Storm"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 130,
+      "starPlayer": {
+        "tag": "#2J0UYLR0U",
+        "name": "Meco Melnabo🥵",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1312
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P2GY28UGL",
+            "name": "LOLE ICH BIN",
+            "brawler": {
+              "id": 16000087,
+              "name": "JUJU",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#PPQV9CUUU",
+            "name": "👑けV3n0mッ💫⚡",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 2023
+            }
+          },
+          {
+            "tag": "#2CP0PP20CQ",
+            "name": "spider🕷️🕸️",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2J0UYLR0U",
+            "name": "Meco Melnabo🥵",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1312
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1001
+            }
+          },
+          {
+            "tag": "#288QRPGRRV",
+            "name": "DENJI KUN",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
