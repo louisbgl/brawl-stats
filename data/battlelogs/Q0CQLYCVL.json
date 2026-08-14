@@ -342551,5 +342551,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260814T135754.000Z",
+    "event": {
+      "id": 15000429,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Deep End"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 82,
+      "starPlayer": {
+        "tag": "#2YJCURYL",
+        "name": "wxrtim",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 11,
+          "trophies": 662
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2YJCURYL",
+            "name": "wxrtim",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 662
+            }
+          },
+          {
+            "tag": "#2QCYLQC9GY",
+            "name": "cro fighter",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#PQQ89JPJG",
+            "name": "♤A~N~T~O♤",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1015
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2Y9UV0CYR0",
+            "name": "BabaPiro",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1350
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 219
+            }
+          },
+          {
+            "tag": "#2GRY280VYG",
+            "name": "ddfd |BS 🇺🇦",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 392
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
