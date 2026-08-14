@@ -136557,5 +136557,96 @@
         "id": 3
       }
     }
+  },
+  {
+    "battleTime": "20260814T115544.000Z",
+    "event": {
+      "id": 15000851,
+      "mode": "airHockey",
+      "modeId": 45,
+      "map": "Slippery Slap"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "starPlayer": {
+        "tag": "#2JR8U9U08",
+        "name": "tot",
+        "brawler": {
+          "id": 16000085,
+          "name": "KENJI",
+          "power": 11,
+          "trophies": 1206
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YYVQCP9YC",
+            "name": "Mpansi_007",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1018
+            }
+          },
+          {
+            "tag": "#2QQ22RURQ0",
+            "name": "LUCAS DE",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 600
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LPVVU8RYJ",
+            "name": "чья-то тян",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1571
+            }
+          },
+          {
+            "tag": "#2UYUR82CGR",
+            "name": "hippygirl☮️",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 9,
+              "trophies": 1225
+            }
+          },
+          {
+            "tag": "#2JR8U9U08",
+            "name": "tot",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1206
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
