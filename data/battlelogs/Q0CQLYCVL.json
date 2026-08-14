@@ -347317,5 +347317,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260814T203058.000Z",
+    "event": {
+      "id": 15001270,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Bustling Business"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 63,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#280VCVQVLU",
+        "name": "TH|Ángel👺",
+        "brawler": {
+          "id": 16000051,
+          "name": "ASH",
+          "power": 11,
+          "trophies": 739
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QRJ2YQ9RQ",
+            "name": "godeviolent",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 543
+            }
+          },
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 741
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 752
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GGQ8PC0GY",
+            "name": "Goku光輝",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1384
+            }
+          },
+          {
+            "tag": "#2G98GVJV2P",
+            "name": "Krot",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 11,
+              "trophies": 890
+            }
+          },
+          {
+            "tag": "#280VCVQVLU",
+            "name": "TH|Ángel👺",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 739
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
