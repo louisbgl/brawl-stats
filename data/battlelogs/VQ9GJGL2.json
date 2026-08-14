@@ -149257,5 +149257,214 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260814T184955.000Z",
+    "event": {
+      "id": 15001087,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Truth"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 3,
+      "trophyChange": 10,
+      "players": [
+        {
+          "tag": "#2U2G2VC009",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000031,
+            "name": "MR. P",
+            "power": 2,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#2LVJ2Y2V9U",
+          "name": "Adem Boss",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 3,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#VQ9GJGL2",
+          "name": "JOEL | OrDos_",
+          "brawler": {
+            "id": 16000100,
+            "name": "GIGI",
+            "power": 1,
+            "trophies": 0
+          }
+        },
+        {
+          "tag": "#2JV8LYV08Q",
+          "name": "LOPESM9",
+          "brawler": {
+            "id": 16000051,
+            "name": "ASH",
+            "power": 3,
+            "trophies": 15
+          }
+        },
+        {
+          "tag": "#2R2900RYRG",
+          "name": "gg/tsmod",
+          "brawler": {
+            "id": 16000059,
+            "name": "OTIS",
+            "power": 4,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#28LUJ92LVV",
+          "name": "nuray14",
+          "brawler": {
+            "id": 16000020,
+            "name": "FRANK",
+            "power": 2,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#29PCLCU0UU",
+          "name": "тг-geoxantes",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 2,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#2QLLV9RQ88",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000000,
+            "name": "SHELLY",
+            "power": 3,
+            "trophies": 11
+          }
+        },
+        {
+          "tag": "#2J0UVJP8U0",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000003,
+            "name": "BROCK",
+            "power": 3,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#2YU99RVPU2",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 2,
+            "trophies": 15
+          }
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260814T185043.000Z",
+    "event": {
+      "id": 15001270,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Bustling Business"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 54,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LLR902VRR",
+        "name": "Lukimba",
+        "brawler": {
+          "id": 16000076,
+          "name": "KIT",
+          "power": 11,
+          "trophies": 2008
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 960
+            }
+          },
+          {
+            "tag": "#28U09U8UR",
+            "name": "TT BebyBand",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#LLR902VRR",
+            "name": "Lukimba",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 2008
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VPQ2JLVRV",
+            "name": "kdkwwowokz",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 25
+            }
+          },
+          {
+            "tag": "#L890LL9LC",
+            "name": "MITICK",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1272
+            }
+          },
+          {
+            "tag": "#2CYV29RUJ0",
+            "name": "BLUE",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 10,
+              "trophies": 745
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
