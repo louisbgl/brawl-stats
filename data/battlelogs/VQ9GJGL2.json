@@ -149466,5 +149466,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260815T091457.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 194,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#RRV88YCQV",
+        "name": "Rozik",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 10,
+          "trophies": 799
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VLLJG20CY",
+            "name": "kiul",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 4,
+              "trophies": 681
+            }
+          },
+          {
+            "tag": "#RRV88YCQV",
+            "name": "Rozik",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 10,
+              "trophies": 799
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 688
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UU8RUG2QG",
+            "name": "Kral Egemen",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#2YGLC982RP",
+            "name": "PRO",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 880
+            }
+          },
+          {
+            "tag": "#2CPG2YV99L",
+            "name": "Tzag",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 618
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
