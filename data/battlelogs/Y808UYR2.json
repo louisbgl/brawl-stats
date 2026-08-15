@@ -136648,5 +136648,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260815T211627.000Z",
+    "event": {
+      "id": 15000429,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Deep End"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 174,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 11,
+          "trophies": 728
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 728
+            }
+          },
+          {
+            "tag": "#RC92UPJUJ",
+            "name": "1rom",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1151
+            }
+          },
+          {
+            "tag": "#U20GJPP0Q",
+            "name": "_tilted_",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1008
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GJ0U99JJJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 928
+            }
+          },
+          {
+            "tag": "#2J20U89GU8",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 10,
+              "trophies": 972
+            }
+          },
+          {
+            "tag": "#2R9LUQQ2LP",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 974
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
