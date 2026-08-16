@@ -136923,5 +136923,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260816T223024.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 238,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#LPPQ8LUL8",
+        "name": "SK | Mega Multi",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1300
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q2JVJL8P8",
+            "name": "coco",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 726
+            }
+          },
+          {
+            "tag": "#2PLPUUQYQ",
+            "name": "tcolombianstyle",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 888
+            }
+          },
+          {
+            "tag": "#LPPQ8LUL8",
+            "name": "SK | Mega Multi",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1300
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1322
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1021
+            }
+          },
+          {
+            "tag": "#2GYRLR90YC",
+            "name": "yujinn/",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 797
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260816T223510.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 238,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 1015
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VUJYU8QUL",
+            "name": "splendidexim",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 2495
+            }
+          },
+          {
+            "tag": "#JGVLPQ8UR",
+            "name": "22ana",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1405
+            }
+          },
+          {
+            "tag": "#8YJ2RJPLU",
+            "name": "🔱 PasQuaLoo",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 928
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1015
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1228
+            }
+          },
+          {
+            "tag": "#2QP9PVJUU8",
+            "name": "🇮🇶TAHA ALIAN",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1538
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
