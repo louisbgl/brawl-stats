@@ -152410,5 +152410,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260817T090314.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 232,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#222UVLL0R",
+        "name": "cipri224",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 757
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 767
+            }
+          },
+          {
+            "tag": "#2UU9VYJRJV",
+            "name": "TITOV-JR🙌",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 10,
+              "trophies": 1643
+            }
+          },
+          {
+            "tag": "#LV2VYGUCQ",
+            "name": "mattiscry",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 999
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#222UVLL0R",
+            "name": "cipri224",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 757
+            }
+          },
+          {
+            "tag": "#YU0GRCQ9Y",
+            "name": "cros",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 1047
+            }
+          },
+          {
+            "tag": "#QQ9LJYGP2",
+            "name": "zino",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1601
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
