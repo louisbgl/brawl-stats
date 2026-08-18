@@ -359981,5 +359981,103 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260818T222617.000Z",
+    "event": {
+      "id": 15001256,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "CYBERBOSS BROCK"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2QRJ2YQ9RQ",
+          "name": "godeviolent",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 521
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 309
+          }
+        },
+        {
+          "tag": "#P0J8200V9",
+          "name": "Hasspeu",
+          "brawler": {
+            "id": 16000103,
+            "name": "NAJIA",
+            "power": 11,
+            "trophies": 485
+          }
+        }
+      ],
+      "level": {
+        "name": "Hard",
+        "id": 1
+      }
+    }
+  },
+  {
+    "battleTime": "20260818T222932.000Z",
+    "event": {
+      "id": 15001256,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "CYBERBOSS BROCK"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2QRJ2YQ9RQ",
+          "name": "godeviolent",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 521
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 309
+          }
+        },
+        {
+          "tag": "#LU9U9RP2C",
+          "name": "🔥Kai🌪️",
+          "brawler": {
+            "id": 16000102,
+            "name": "SIRIUS",
+            "power": 7,
+            "trophies": 556
+          }
+        }
+      ],
+      "level": {
+        "name": "Expert",
+        "id": 2
+      }
+    }
   }
 ]
