@@ -323306,5 +323306,1115 @@
         "id": 6
       }
     }
+  },
+  {
+    "battleTime": "20260819T150037.000Z",
+    "event": {
+      "id": 15001256,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "CYBERBOSS BROCK"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 2018
+          }
+        },
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000099,
+            "name": "PIERCE",
+            "power": 11,
+            "trophies": 1197
+          }
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 2000
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible II",
+        "id": 6
+      }
+    }
+  },
+  {
+    "battleTime": "20260819T150311.000Z",
+    "event": {
+      "id": 15001256,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "CYBERBOSS BROCK"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 2018
+          }
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 2000
+          }
+        },
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000008,
+            "name": "NITA",
+            "power": 11,
+            "trophies": 1224
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible III",
+        "id": 7
+      }
+    }
+  },
+  {
+    "battleTime": "20260819T150630.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 60,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000078,
+          "name": "MELODIE",
+          "power": 11,
+          "trophies": 1474
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1225
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1474
+            }
+          },
+          {
+            "tag": "#G0V0VYVQC",
+            "name": "Oruam",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 1498
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#20YPP0YC02",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 10,
+              "trophies": 1371
+            }
+          },
+          {
+            "tag": "#2JULCY9GL2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 10,
+              "trophies": 1376
+            }
+          },
+          {
+            "tag": "#2C0UQU88PL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 1372
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260819T150846.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 75,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#LLC2L0V2L",
+        "name": "Mr.Glaz-",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 2398
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1484
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1235
+            }
+          },
+          {
+            "tag": "#8LP0V00PR",
+            "name": "DAMSHIK",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G0G8QUU9",
+            "name": "𝔻𝕛𝟚𝕓𝕚",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 2008
+            }
+          },
+          {
+            "tag": "#20V2P2CR9",
+            "name": "𝕰𝖈𝖍𝖔𝖎𝖓𝖌༆",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#LLC2L0V2L",
+            "name": "Mr.Glaz-",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2398
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260819T151051.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 85,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#QQ0VCCUQ0",
+        "name": "Квин Би 🐝",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 1790
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1228
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1476
+            }
+          },
+          {
+            "tag": "#QQ0VCCUQ0",
+            "name": "Квин Би 🐝",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1790
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8U9LYLQ0V",
+            "name": "derki",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1586
+            }
+          },
+          {
+            "tag": "#LP89JLLR",
+            "name": "olimpia❤️",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1610
+            }
+          },
+          {
+            "tag": "#GJ0UQJV0P",
+            "name": "Гоняю на Берри",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 2065
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260819T151224.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 45,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#2CQVRPGVR9",
+        "name": "ПУШ 500К🇷🇺",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 2591
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LGPJLP00L",
+            "name": "Lostretzo7",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1138
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1266
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RJJYLUG0R",
+            "name": "mooni💤良い",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 2470
+            }
+          },
+          {
+            "tag": "#8QVPUYPLL",
+            "name": "Мистер X",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 10,
+              "trophies": 1889
+            }
+          },
+          {
+            "tag": "#2CQVRPGVR9",
+            "name": "ПУШ 500К🇷🇺",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 2591
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260819T151347.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 58,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#2LL8GUQPUY",
+        "name": "🐐GOAT🐐",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 2174
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9R2Y0CCJG",
+            "name": "TTM | Samu",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1445
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1132
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1259
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UGPUCURQ8",
+            "name": "AsiM OyUnDa",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 2180
+            }
+          },
+          {
+            "tag": "#P00CLVGJP",
+            "name": "⛩️𝙵𝚕𝚒𝚡𝚣 🜲",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 1633
+            }
+          },
+          {
+            "tag": "#2LL8GUQPUY",
+            "name": "🐐GOAT🐐",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2174
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260819T151720.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 1325
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#20V2YJUPC",
+            "name": "[4IK]PharaoN🔫",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 2032
+            }
+          },
+          {
+            "tag": "#L9QQRL8YR",
+            "name": "ﾁ𝘳ᴏ~𝗡𝖎𝔱ค 🩵",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2108
+            }
+          },
+          {
+            "tag": "#LL899GQJU",
+            "name": "cola",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1766
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1325
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1010
+            }
+          },
+          {
+            "tag": "#CUL0VJPGG",
+            "name": "HANTER🌀⚡¹²",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 2023
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260819T151947.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 89,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#9C02JU2C9",
+        "name": "Oomrin",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 1574
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9C02JU2C9",
+            "name": "Oomrin",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1574
+            }
+          },
+          {
+            "tag": "#GV0JPC0C8",
+            "name": "DW|Prime.",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1817
+            }
+          },
+          {
+            "tag": "#2L2V9UV9PY",
+            "name": "wesinator",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1256
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1335
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1089
+            }
+          },
+          {
+            "tag": "#90V8VUQPV",
+            "name": "AE|Mr.mexico🌹",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260819T152149.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 95,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#2UJ9VP2RR",
+        "name": "Girifon",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 1948
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1327
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1084
+            }
+          },
+          {
+            "tag": "#9V9VQQCRP",
+            "name": "golem",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1825
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#U8GGYVGR",
+            "name": "MyLeg!",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1496
+            }
+          },
+          {
+            "tag": "#YVU8LLYYG",
+            "name": "Albako",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1530
+            }
+          },
+          {
+            "tag": "#2UJ9VP2RR",
+            "name": "Girifon",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1948
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260819T152446.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2C0VV8UVU",
+        "name": "W!xiL",
+        "brawler": {
+          "id": 16000045,
+          "name": "STU",
+          "power": 11,
+          "trophies": 1781
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C0VV8UVU",
+            "name": "W!xiL",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 1781
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1079
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1319
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9JRLJ0QJ8",
+            "name": "Lord of Death",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 1117
+            }
+          },
+          {
+            "tag": "#G29P2RLR",
+            "name": "Sr.Vernetti",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1407
+            }
+          },
+          {
+            "tag": "#2QRYGPU98G",
+            "name": "kgz|Mortis",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2012
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260819T152754.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 109,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 11,
+          "trophies": 1125
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1329
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 1125
+            }
+          },
+          {
+            "tag": "#Q9CC2GYJ8",
+            "name": "yoshi kil ☠️👻",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1286
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LRGLR28R9",
+            "name": "FUT/ˢᴸ4ᵁᴳᴴᵀ3ᴿ",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1607
+            }
+          },
+          {
+            "tag": "#QJ2UCL8VP",
+            "name": "GOAT|R-T",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1153
+            }
+          },
+          {
+            "tag": "#GQ88ULVYL",
+            "name": "Nickebo",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 2080
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260819T152943.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 81,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 11,
+          "trophies": 1135
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1340
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 1135
+            }
+          },
+          {
+            "tag": "#LQ0CJUPR",
+            "name": "MustaElite⚡",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2020
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9LPVLG2VJ",
+            "name": "ｔｓｋ|ｍａｈｍｏｕｄ",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1262
+            }
+          },
+          {
+            "tag": "#8P0Y90PLV",
+            "name": "2️⃣7️⃣",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1769
+            }
+          },
+          {
+            "tag": "#2YVYYY00J",
+            "name": "❥|C̸a̸s̸☔️🍀",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1505
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
