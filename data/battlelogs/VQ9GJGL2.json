@@ -154986,5 +154986,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260819T201813.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 334,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2LGCGQY2",
+        "name": "dj arbuz",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 938
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 80
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 703
+            }
+          },
+          {
+            "tag": "#2CY9C8GVLQ",
+            "name": "athena",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1132
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GRG2PUUJY",
+            "name": "Golden Goose",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 341
+            }
+          },
+          {
+            "tag": "#2LGCGQY2",
+            "name": "dj arbuz",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 938
+            }
+          },
+          {
+            "tag": "#2UU8VYYLUJ",
+            "name": "TowarzyszJózefa",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 914
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
