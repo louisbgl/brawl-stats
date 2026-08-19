@@ -300803,5 +300803,103 @@
         "id": 6
       }
     }
+  },
+  {
+    "battleTime": "20260819T150037.000Z",
+    "event": {
+      "id": 15001256,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "CYBERBOSS BROCK"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 2018
+          }
+        },
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000099,
+            "name": "PIERCE",
+            "power": 11,
+            "trophies": 1197
+          }
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 2000
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible II",
+        "id": 6
+      }
+    }
+  },
+  {
+    "battleTime": "20260819T150311.000Z",
+    "event": {
+      "id": 15001256,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "CYBERBOSS BROCK"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 2018
+          }
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 2000
+          }
+        },
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000008,
+            "name": "NITA",
+            "power": 11,
+            "trophies": 1224
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible III",
+        "id": 7
+      }
+    }
   }
 ]
