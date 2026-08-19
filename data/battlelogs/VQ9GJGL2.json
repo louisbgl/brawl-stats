@@ -155262,5 +155262,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260819T220407.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 443,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2LG8RJQP0",
+        "name": "Neo",
+        "brawler": {
+          "id": 16000108,
+          "name": "WENDY",
+          "power": 11,
+          "trophies": 482
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9YCGLRV29",
+            "name": "Philippe",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1524
+            }
+          },
+          {
+            "tag": "#QGGY0U0P",
+            "name": "mmK",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 455
+            }
+          },
+          {
+            "tag": "#PQRY9QVV0",
+            "name": "spidkar",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 819
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 710
+            }
+          },
+          {
+            "tag": "#2RCLLLVQV8",
+            "name": "cobraa",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 9,
+              "trophies": 232
+            }
+          },
+          {
+            "tag": "#2LG8RJQP0",
+            "name": "Neo",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 482
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
