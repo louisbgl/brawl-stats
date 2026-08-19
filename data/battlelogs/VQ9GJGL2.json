@@ -155078,5 +155078,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260819T214850.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 401,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 9,
+          "trophies": 699
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V8LQCGY9C",
+            "name": "Enger",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 981
+            }
+          },
+          {
+            "tag": "#2UY80CGRVV",
+            "name": "gevşek çorap",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 10,
+              "trophies": 93
+            }
+          },
+          {
+            "tag": "#2CJVLCYYGY",
+            "name": "Kapaksız Camel",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 10,
+              "trophies": 516
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 699
+            }
+          },
+          {
+            "tag": "#VRRUVPLRP",
+            "name": "zadymiarakarola",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 368
+            }
+          },
+          {
+            "tag": "#RRV09YQ9R",
+            "name": "ZadymiarzKarol",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1124
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260819T215605.000Z",
+    "event": {
+      "id": 15000993,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Kaiju Lake"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 365,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2JP2VLQLG0",
+        "name": "Sarto",
+        "brawler": {
+          "id": 16000108,
+          "name": "WENDY",
+          "power": 11,
+          "trophies": 2243
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9VGJP8P0Q",
+            "name": "Boaz. Z 🤫",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 737
+            }
+          },
+          {
+            "tag": "#2JP2VLQLG0",
+            "name": "Sarto",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 2243
+            }
+          },
+          {
+            "tag": "#G8U2QVVGU",
+            "name": "keyzen bonnici",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 870
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2038
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 714
+            }
+          },
+          {
+            "tag": "#YJV9C0GQY",
+            "name": "Fran",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 2418
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
