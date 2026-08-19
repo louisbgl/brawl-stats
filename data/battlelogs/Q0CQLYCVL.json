@@ -360366,5 +360366,236 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260819T124159.000Z",
+    "event": {
+      "id": 15000082,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Layer Cake"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 78,
+      "starPlayer": {
+        "tag": "#8GYRJPYJP",
+        "name": "Yolos",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 10,
+          "trophies": 811
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28J0VQJ9VC",
+            "name": "44丨kkwizy",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 2008
+            }
+          },
+          {
+            "tag": "#YY2CP2PCV",
+            "name": "𝐜𝐥𝐨.𝐝🦀🌺",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 48
+            }
+          },
+          {
+            "tag": "#282PRVPQ9",
+            "name": "67 no te quiere",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1466
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1007
+            }
+          },
+          {
+            "tag": "#8GYRJPYJP",
+            "name": "Yolos",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 10,
+              "trophies": 811
+            }
+          },
+          {
+            "tag": "#2R2QG0VC20",
+            "name": "spick_st",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1007
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260819T124547.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 103,
+      "starPlayer": {
+        "tag": "#2QUG800G8L",
+        "name": "ev",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 11,
+          "trophies": 1162
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V2YYLVCVL",
+            "name": "._.",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 502
+            }
+          },
+          {
+            "tag": "#RYLVRQCU0",
+            "name": "Nice Ben BVB",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1256
+            }
+          },
+          {
+            "tag": "#2QUG800G8L",
+            "name": "ev",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1162
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UJQJUP9U2",
+            "name": "Baklanch1k",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 384
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 444
+            }
+          },
+          {
+            "tag": "#YUQPG88L9",
+            "name": "まRaph27🔥",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 1158
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260819T125032.000Z",
+    "event": {
+      "id": 15001256,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "CYBERBOSS BROCK"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 309
+          }
+        },
+        {
+          "tag": "#2C2P9LL2RJ",
+          "name": "варвара",
+          "brawler": {
+            "id": 16000008,
+            "name": "NITA",
+            "power": 6,
+            "trophies": 307
+          }
+        },
+        {
+          "tag": "#2UC8VGG92Q",
+          "name": "𝓐𝓵𝓼𝓾☆",
+          "brawler": {
+            "id": 16000040,
+            "name": "AMBER",
+            "power": 11,
+            "trophies": 334
+          }
+        }
+      ],
+      "level": {
+        "name": "Expert",
+        "id": 2
+      }
+    }
   }
 ]
