@@ -138946,5 +138946,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260820T092734.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 81,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000024,
+          "name": "ROSA",
+          "power": 11,
+          "trophies": 4
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#20UV0PJRRJ",
+            "name": "[NAVI]CRACKEN",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 4
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UGQJV00VC",
+            "name": "הלל המלך❤️",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 10,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2QLYQVLC8J",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2VPP0Q2R0G",
+            "name": "Gla2tap",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 4
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260820T093012.000Z",
+    "event": {
+      "id": 15000343,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Rustic Arcade"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 108,
+      "starPlayer": {
+        "tag": "#RPQV2988P",
+        "name": "Кароль Кланов05",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 4
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2Y2LLVP8J2",
+            "name": "X7 AHMATOV",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 5
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RPQV2988P",
+            "name": "Кароль Кланов05",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2UY8G29J9C",
+            "name": "PiDaracka😍🫶",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2G8JC9PLY0",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 4
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
