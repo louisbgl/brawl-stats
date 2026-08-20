@@ -139492,5 +139492,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260820T114028.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 98,
+      "starPlayer": {
+        "tag": "#2UUJYY8YCV",
+        "name": "BRAWL STARS",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 9,
+          "trophies": 6
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V8QQULRPC",
+            "name": "Marcos",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 6
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 6
+            }
+          },
+          {
+            "tag": "#2UUJYY8YCV",
+            "name": "BRAWL STARS",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 6
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2G2CV0G9QJ",
+            "name": "Schwarze_Gurke",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 6
+            }
+          },
+          {
+            "tag": "#PJ0PCLYUG",
+            "name": "Txsty🪽Wxnse?",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 6
+            }
+          },
+          {
+            "tag": "#2GGPVV2U09",
+            "name": "Boruto🥶🥶🥶",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 6
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
