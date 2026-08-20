@@ -142313,5 +142313,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260820T220327.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 117,
+      "starPlayer": {
+        "tag": "#9029CGJ2Q",
+        "name": "ali",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 11,
+          "trophies": 9
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9029CGJ2Q",
+            "name": "ali",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#22RPY8CUP",
+            "name": "👍👍👍",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#9920808CC",
+            "name": "rayane_",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PJ9UY0RC",
+            "name": "can",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 10,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#LYRG0V8GL",
+            "name": "idk?",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260820T220622.000Z",
+    "event": {
+      "id": 15000440,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flaring Phoenix"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 98,
+      "starPlayer": {
+        "tag": "#2LVLQCG2C",
+        "name": "V4mp",
+        "brawler": {
+          "id": 16000071,
+          "name": "DOUG",
+          "power": 11,
+          "trophies": 9
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28R88RYLJP",
+            "name": "lorn",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#2LVLQCG2C",
+            "name": "V4mp",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#2J9VLJJ8V2",
+            "name": "JOJO le M",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#89VP9UR2R",
+            "name": "[420]Per Spow",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#2UU0VP20UV",
+            "name": "TPM|ANGXL12",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
