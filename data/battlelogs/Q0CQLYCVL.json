@@ -362270,5 +362270,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260820T133106.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 75,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 309
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2G2Y009LJ9",
+            "name": "Mister BINCHE",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 1010
+            }
+          },
+          {
+            "tag": "#9Q080CGVR",
+            "name": "sasuke",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 10,
+              "trophies": 781
+            }
+          },
+          {
+            "tag": "#R82JLVVQU",
+            "name": "JOVAN🇷🇸",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 10,
+              "trophies": 500
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LCPPYGJQ9",
+            "name": "FRP | Mokla",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 558
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 309
+            }
+          },
+          {
+            "tag": "#G8QYJ9LJP",
+            "name": "QinZet",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1367
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
