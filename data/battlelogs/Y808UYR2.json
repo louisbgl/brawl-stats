@@ -143223,5 +143223,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260821T090117.000Z",
+    "event": {
+      "id": 15000306,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Dueling Beetles"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 110,
+      "starPlayer": {
+        "tag": "#GUUV2VG9Y",
+        "name": "ECP|Swing",
+        "brawler": {
+          "id": 16000045,
+          "name": "STU",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GCVC9UGVJ",
+            "name": "NEON",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YLP9C8YG0",
+            "name": "⛩️|悳Jajo🥀",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2ULV2CYLY",
+            "name": "あ.mxzryus🦦",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#GUUV2VG9Y",
+            "name": "ECP|Swing",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
