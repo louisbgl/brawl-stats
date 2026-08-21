@@ -142495,5 +142495,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260821T082552.000Z",
+    "event": {
+      "id": 15000072,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Bridge Too Far"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 75,
+      "starPlayer": {
+        "tag": "#2JR99VUJ2V",
+        "name": "Brawler",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 11,
+          "trophies": 7
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VRVGLYYRV",
+            "name": "AD👾❤️‍🩹👅🐶🏡",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 10,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#2V2CCJ9VR2",
+            "name": "Sultan",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2R20QLVJ80",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 10,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2GVCRYVP92",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 10,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2JR99VUJ2V",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
