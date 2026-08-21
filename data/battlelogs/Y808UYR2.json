@@ -144319,5 +144319,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260821T152941.000Z",
+    "event": {
+      "id": 15000137,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Pit Stop"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 150,
+      "starPlayer": {
+        "tag": "#Y22Y9VRJP",
+        "name": "Moro℘",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y22Y9VRJP",
+            "name": "Moro℘",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2CY908UYPL",
+            "name": "FUT SİNS JONİ",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2LJQLQ82GY",
+            "name": "panayiotis",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V2GLY28V0",
+            "name": "FREE|DEVIL♠️",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#8QQRURUJL",
+            "name": "Aita🌺💗",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

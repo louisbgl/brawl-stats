@@ -368088,5 +368088,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260821T150259.000Z",
+    "event": {
+      "id": 15001099,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Photic Doom"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#QVJ0LVYG",
+        "name": "Vitaminchik",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 991
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QVJ0LVYG",
+            "name": "Vitaminchik",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 991
+            }
+          },
+          {
+            "tag": "#802080VQ8L",
+            "name": "ALEXANDRU 666",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 304
+            }
+          },
+          {
+            "tag": "#2CQRLV00P8",
+            "name": "sergiu666",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1010
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VP9YC902J",
+            "name": "Noetc",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 543
+            }
+          },
+          {
+            "tag": "#U22VYPCLP",
+            "name": "MILA",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 447
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 360
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
