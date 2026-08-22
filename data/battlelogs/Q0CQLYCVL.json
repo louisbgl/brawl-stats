@@ -370354,5 +370354,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260822T175422.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 91,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 261
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UU22PGUUU",
+            "name": "imparator Fatih",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1125
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 261
+            }
+          },
+          {
+            "tag": "#J0QG0P0G8",
+            "name": "natural",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1337
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VQ89YJV08",
+            "name": "absolute cinema",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 10,
+              "trophies": 125
+            }
+          },
+          {
+            "tag": "#PR82CPCP2",
+            "name": "Аня",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1185
+            }
+          },
+          {
+            "tag": "#GCYUG9LJ0",
+            "name": "Aze|Ҟモれ乙Øツ🖤",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 1238
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
