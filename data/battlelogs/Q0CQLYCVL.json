@@ -370445,5 +370445,54 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260822T202751.000Z",
+    "event": {
+      "id": 15001263,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "NANO NORI"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000065,
+            "name": "MANDY",
+            "power": 11,
+            "trophies": 261
+          }
+        },
+        {
+          "tag": "#2RLCQQ2JLP",
+          "name": "HIOPAG🫣",
+          "brawler": {
+            "id": 16000003,
+            "name": "BROCK",
+            "power": 10,
+            "trophies": 285
+          }
+        },
+        {
+          "tag": "#2Q8C2UP9RG",
+          "name": "yomilajalo",
+          "brawler": {
+            "id": 16000069,
+            "name": "HANK",
+            "power": 8,
+            "trophies": 258
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
   }
 ]
