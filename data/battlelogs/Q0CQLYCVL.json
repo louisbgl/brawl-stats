@@ -370263,5 +370263,96 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260822T164630.000Z",
+    "event": {
+      "id": 15000886,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Safe(r) Zone"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 94,
+      "starPlayer": {
+        "tag": "#20GP9P99G",
+        "name": "ворон",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 7
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G8V88UU82",
+            "name": "ֆտէճճէ🍑🔥",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2QV002CGG8",
+            "name": "AK|mopsgaming",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2UGGV09VC8",
+            "name": "zhanik",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8YVY299QJ",
+            "name": "фан юань",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#20GP9P99G",
+            "name": "ворон",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
