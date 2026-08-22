@@ -162013,5 +162013,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260822T172332.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 192,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#P092VCJ29",
+        "name": "Roynex✨",
+        "brawler": {
+          "id": 16000013,
+          "name": "POCO",
+          "power": 8,
+          "trophies": 295
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P092VCJ29",
+            "name": "Roynex✨",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 8,
+              "trophies": 295
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 9,
+              "trophies": 191
+            }
+          },
+          {
+            "tag": "#2QUCJ2VYLU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 8,
+              "trophies": 238
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C0P0P0L9U",
+            "name": "kieł",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 8,
+              "trophies": 252
+            }
+          },
+          {
+            "tag": "#2P9YJ8PYUU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 8,
+              "trophies": 239
+            }
+          },
+          {
+            "tag": "#2QYPVJYQCP",
+            "name": "@modstars1",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 240
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
