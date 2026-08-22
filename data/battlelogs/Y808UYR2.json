@@ -145789,5 +145789,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260822T222734.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 244,
+      "trophyChange": 22,
+      "starPlayer": {
+        "tag": "#R92CPQ0P",
+        "name": "XCastle",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 572
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R92CPQ0P",
+            "name": "XCastle",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 572
+            }
+          },
+          {
+            "tag": "#2RGV8PRL9",
+            "name": "亗 Taco 🕊️",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 697
+            }
+          },
+          {
+            "tag": "#9QRU9VVPV",
+            "name": "Tatawine",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 503
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1082
+            }
+          },
+          {
+            "tag": "#2GVPCJLV0R",
+            "name": "idk",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1224
+            }
+          },
+          {
+            "tag": "#C2J9YCYQ",
+            "name": "ingebrigt",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 442
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
