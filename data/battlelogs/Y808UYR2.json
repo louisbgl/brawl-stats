@@ -145697,5 +145697,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260822T200017.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 354,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#2UYLLJY0JQ",
+        "name": "игорь725",
+        "brawler": {
+          "id": 16000034,
+          "name": "JACKY",
+          "power": 9,
+          "trophies": 512
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 9,
+              "trophies": 231
+            }
+          },
+          {
+            "tag": "#2VQG9QYQRY",
+            "name": "mili77",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2012
+            }
+          },
+          {
+            "tag": "#2U9V2292G9",
+            "name": "sajaHruba",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 11,
+              "trophies": 591
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UYLLJY0JQ",
+            "name": "игорь725",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 9,
+              "trophies": 512
+            }
+          },
+          {
+            "tag": "#2Q2LYURQ2V",
+            "name": "ralfjepro67",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 283
+            }
+          },
+          {
+            "tag": "#2CR9CRVG8P",
+            "name": "🍒Lara🍒",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 8,
+              "trophies": 269
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
