@@ -374032,5 +374032,103 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260823T225536.000Z",
+    "event": {
+      "id": 15001263,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "NANO NORI"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2VUC0GYVYR",
+          "name": "Ssggv",
+          "brawler": {
+            "id": 16000000,
+            "name": "SHELLY",
+            "power": 11,
+            "trophies": 868
+          }
+        },
+        {
+          "tag": "#2QRJ2YQ9RQ",
+          "name": "godeviolent",
+          "brawler": {
+            "id": 16000039,
+            "name": "COLETTE",
+            "power": 9,
+            "trophies": 336
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000026,
+            "name": "BIBI",
+            "power": 11,
+            "trophies": 858
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible IV",
+        "id": 8
+      }
+    }
+  },
+  {
+    "battleTime": "20260823T225743.000Z",
+    "event": {
+      "id": 15001263,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "NANO NORI"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#2QRJ2YQ9RQ",
+          "name": "godeviolent",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 521
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000011,
+            "name": "MORTIS",
+            "power": 11,
+            "trophies": 749
+          }
+        },
+        {
+          "tag": "#99VJPRY08",
+          "name": "★彡Dãrk☯Mage彡★",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 785
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible IV",
+        "id": 8
+      }
+    }
   }
 ]
