@@ -373941,5 +373941,96 @@
         "id": 8
       }
     }
+  },
+  {
+    "battleTime": "20260823T171857.000Z",
+    "event": {
+      "id": 15000343,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Rustic Arcade"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 112,
+      "starPlayer": {
+        "tag": "#22CJ8989L",
+        "name": "𑣲jeudi",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9YR92L2JG",
+            "name": "🌑Silver_Wolf🐺",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2GQ88UQGLL",
+            "name": "Sinan",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#22CJ8989L",
+            "name": "𑣲jeudi",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#222LGQUQCP",
+            "name": "(TR)YpYp",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2L8Y2L0L00",
+            "name": "Gio伝説",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
