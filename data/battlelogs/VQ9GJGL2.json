@@ -162657,5 +162657,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260824T125311.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 192,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#P898RYUPL",
+        "name": ":)",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 1300
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QC22J2CUY",
+            "name": "CR",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 9,
+              "trophies": 294
+            }
+          },
+          {
+            "tag": "#2YPYCUR9CU",
+            "name": "MUGIWARA",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 5,
+              "trophies": 241
+            }
+          },
+          {
+            "tag": "#GJV8GVRYJ",
+            "name": "#qwxmen200k👾👾",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 968
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L2R29J8GC",
+            "name": "💀💀💀☠️",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 721
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 733
+            }
+          },
+          {
+            "tag": "#P898RYUPL",
+            "name": ":)",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1300
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
