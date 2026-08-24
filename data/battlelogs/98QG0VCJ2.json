@@ -424789,5 +424789,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260824T132756.000Z",
+    "event": {
+      "id": 15001021,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Spiraling Out"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 73,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#YQGPQQVCQ",
+        "name": "Itachi",
+        "brawler": {
+          "id": 16000097,
+          "name": "MINA",
+          "power": 11,
+          "trophies": 2531
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8YJ2JC0C8",
+            "name": "ツ𝐀𝐊𝐇’𝟏𝟕𝐙埉",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 2619
+            }
+          },
+          {
+            "tag": "#YQGPQQVCQ",
+            "name": "Itachi",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 2531
+            }
+          },
+          {
+            "tag": "#2YC9LJJ0P",
+            "name": "fortickal",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 2778
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8GLJ8VPYJ",
+            "name": "[NAVI]CONTEX",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 2006
+            }
+          },
+          {
+            "tag": "#G8UL0GR9C",
+            "name": "TTM|Danek",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 2006
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 1880
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
