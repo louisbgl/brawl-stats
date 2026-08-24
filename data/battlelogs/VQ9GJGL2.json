@@ -162749,5 +162749,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260824T131557.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 96,
+      "starPlayer": {
+        "tag": "#YLCY928R0",
+        "name": "Fxed瞎的💚",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V9YPUY0R2",
+            "name": "Шаман",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2C9YPUUYC0",
+            "name": "Мизулина",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LPQ2YCP8Q",
+            "name": "SxS:Ḥæŋdərsəŋ🩵",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#YLCY928R0",
+            "name": "Fxed瞎的💚",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2LG99YP0R8",
+            "name": "Hakan GS",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
