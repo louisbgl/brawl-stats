@@ -146437,5 +146437,96 @@
         "id": 4
       }
     }
+  },
+  {
+    "battleTime": "20260824T111419.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 78,
+      "starPlayer": {
+        "tag": "#2LCY989VQJ",
+        "name": "FUT|BULUT",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JVQV0C80C",
+            "name": "JLB/Prime",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#GLVVG90V9",
+            "name": "Héctor_bllb",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LCY989VQJ",
+            "name": "FUT|BULUT",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#L98LLV9VU",
+            "name": "unión soviética",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2QRYLGCPJJ",
+            "name": "metehann",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 10,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
