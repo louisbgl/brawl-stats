@@ -1,8 +1,13 @@
 # V2 Rebuild Specification
 
 **Branch:** `v2`
-**Status:** In Development (August 2026)
+**Status:** Phase 1 Complete, Phase 2 Starting (August 2026)
 **Goal:** Fix load times (20s → <3s), reduce repo bloat, maintain clean architecture
+
+**Progress:**
+- ✅ Phase 1: Compression (complete)
+- 🚧 Phase 2: Aggregation (next)
+- ⏸️ Phase 3: Frontend (deferred)
 
 ---
 
@@ -116,14 +121,19 @@ python scripts/inspect_compressed.py data/raw/snapshots/2026-08-25.json.gz
 
 ### Deliverables
 
-- [ ] `src/collection/collect_snapshots_v2.py`
-- [ ] `src/collection/collect_battlelogs_v2.py`
-- [ ] `src/aggregation/compression.py` (shared utilities)
-- [ ] `scripts/migrate_to_compressed.py`
-- [ ] `scripts/inspect_compressed.py` (debugging tool)
-- [ ] All 164 snapshots compressed on v2 branch
-- [ ] All 11 battlelogs compressed on v2 branch
-- [ ] Integrity tests pass (100% match after decompress)
+- ✅ `src/collection/collect_snapshots_v2.py`
+- ✅ `src/collection/collect_battlelogs_v2.py`
+- ✅ `src/collection/battle_store_v2.py`
+- ✅ `src/aggregation/compression.py` (shared utilities)
+- ✅ `scripts/migrate_to_compressed.py`
+- ✅ `scripts/inspect_compressed.py` (debugging tool)
+- ✅ `.github/workflows/compress-raw.yml` (auto-compress on main)
+- ✅ 166 snapshots compressed (9.6 MB)
+- ✅ 11 battlelogs compressed (4.1 MB)
+- ✅ Integrity tests pass (100% match after decompress)
+- ✅ Total: 13.7 MB compressed (was ~100+ MB)
+
+**Status:** Complete (4 commits pushed to v2 branch)
 
 ---
 
