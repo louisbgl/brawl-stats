@@ -317,21 +317,16 @@
 
 ### Section 6: Brawler Performance
 
-**Data source:** `data/aggregated/players/{TAG}/battle-stats.json` → `brawler_performance`
+**Data source:** `data/aggregated/players/{TAG}/battle-stats.json` → `brawler_stats`
 
-**Fields:**
-- `highest_winrate[]` - Top 5 brawlers by win rate
-  - `{brawler, winrate}` where winrate = 0.0-1.0
-- `most_played[]` - Top 5 brawlers by games played
-  - `{brawler, games}`
-- `highest_trophies[]` - Top 5 brawlers by trophy count
-  - `{brawler, trophies}`
-- `most_mvps[]` - Top 5 brawlers by MVP count
-  - `{brawler, mvp_count}`
+**UI derives top 5:**
+- Highest win rate: Sort `brawler_stats` by `winrate` desc, take 5
+- Most played: Sort by `games` desc, take 5
+- Highest trophies: Get from `brawlers.json`, sort by `trophies` desc, take 5
+- Most MVPs: Sort `brawler_stats` by `mvp_count` desc, take 5
 
 **Notes:**
-- 4 separate arrays, each with top 5 brawlers
-- From battlelog data (except trophies from snapshot)
+- No separate aggregation needed (frontend extracts from full list)
 
 ---
 
@@ -465,8 +460,6 @@
 ```json
 {
   "version": 1,
-  "tag": "2L0U0PGRL",
-  "name": "Louis",
 
   "current": {
     "trophies": 35420,
@@ -502,8 +495,6 @@
 ```json
 {
   "version": 1,
-  "tag": "2L0U0PGRL",
-  "name": "Louis",
 
   "data": [
     {"date": "2026-03-14", "trophies": 32100},
@@ -518,8 +509,6 @@
 ```json
 {
   "version": 1,
-  "tag": "2L0U0PGRL",
-  "name": "Louis",
 
   "mode_distribution": [
     {"mode": "gemGrab", "games": 350, "percentage": 28.0},
@@ -543,29 +532,6 @@
       "brawler": "CROW",
       "mvp_count": 45
     }
-  },
-
-  "brawler_performance": {
-    "highest_winrate": [
-      {"brawler": "CROW", "winrate": 0.72},
-      {"brawler": "SPIKE", "winrate": 0.68},
-      ...
-    ],
-    "most_played": [
-      {"brawler": "SHELLY", "games": 150},
-      {"brawler": "COLT", "games": 120},
-      ...
-    ],
-    "highest_trophies": [
-      {"brawler": "CROW", "trophies": 1793},
-      {"brawler": "SPIKE", "trophies": 1650},
-      ...
-    ],
-    "most_mvps": [
-      {"brawler": "CROW", "mvp_count": 45},
-      {"brawler": "SPIKE", "mvp_count": 38},
-      ...
-    ]
   },
 
   "brawler_stats": [
@@ -599,8 +565,6 @@
 ```json
 {
   "version": 1,
-  "tag": "2L0U0PGRL",
-  "name": "Louis",
 
   "brawlers": [
     {
@@ -627,9 +591,13 @@
 **Size estimates:**
 - `stats.json`: ~2 KB
 - `timeline.json`: ~5 KB
-- `battle-stats.json`: ~15 KB
+- `battle-stats.json`: ~12 KB (reduced, no brawler_performance duplication)
 - `brawlers.json`: ~25 KB
-- **Total per player:** ~47 KB
+- **Total per player:** ~44 KB
+
+**Notes:**
+- `tag`/`name` removed from all player files (derive from `indexes/players.json`)
+- `brawler_performance` removed (frontend extracts top 5 from `brawler_stats`)
 
 ---
 
