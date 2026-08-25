@@ -16,7 +16,16 @@ def create_brawler_snapshot(brawler_data: dict) -> dict:
 
 
 def create_player_snapshot(player_data: dict) -> dict:
-    """Store raw API player data + add timestamp."""
+    """Store raw API player data + add timestamp + normalize brawler nulls."""
+    # Normalize null arrays in brawler data (API sometimes returns null instead of [])
+    for brawler in player_data.get('brawlers', []):
+        if brawler.get('gadgets') is None:
+            brawler['gadgets'] = []
+        if brawler.get('starPowers') is None:
+            brawler['starPowers'] = []
+        if brawler.get('gears') is None:
+            brawler['gears'] = []
+
     return {
         **player_data,
         'timestamp': datetime.now(ZoneInfo("Europe/Paris")).isoformat(),
