@@ -633,5 +633,28 @@
 
 ---
 
+---
+
+## Achievements Tab
+
+**Status:** TBD - Not yet specified
+
+**Notes:**
+- Achievement generation script currently broken (suspected API change)
+- Needs investigation before defining aggregation contract
+
+---
+
+## Battles Tab
+
+**Status:** TBD - Not yet specified
+
+---
+
 **Last Updated:** 2026-08-25
-**Status:** Overview Tab complete, Player Stats Tab complete (12 sections)
+**Status:**
+- ✅ Overview Tab complete
+- ✅ Player Stats Tab complete (12 sections)
+- ❌ Timelines Tab removed (not planned)
+- 🔴 Achievements Tab TBD (generation script broken)
+- ⏸️ Battles Tab TBD
