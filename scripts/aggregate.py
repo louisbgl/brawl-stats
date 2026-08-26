@@ -51,15 +51,22 @@ class Validator:
 
         if 'quick_stats' in data:
             qs = data['quick_stats']
-            required_stats = ['total_players', 'total_trophies', 'avg_trophies', 'total_3v3_wins', 'total_brawlers_owned']
+            required_stats = ['total_members', 'total_trophies', 'total_battles', 'avg_winrate', 'fav_mode']
             for stat in required_stats:
                 if stat not in qs:
                     self.errors.append(f"quick_stats missing '{stat}'")
 
         if 'trophy_timeline' in data and len(data['trophy_timeline']) > 0:
             first = data['trophy_timeline'][0]
-            if 'date' not in first or 'total_trophies' not in first:
-                self.errors.append("trophy_timeline entries missing required fields")
+            if 'date' not in first or 'players' not in first:
+                self.errors.append("trophy_timeline entries missing required fields (need 'date' and 'players')")
+
+        if 'leaderboards' in data:
+            lb = data['leaderboards']
+            required_lbs = ['trophies', 'ranked_best', 'winrate', 'total_battles', 'maxed_brawlers', 'brawlers_1k']
+            for lb_name in required_lbs:
+                if lb_name not in lb:
+                    self.errors.append(f"leaderboards missing '{lb_name}'")
 
         print(f"✓ Club summary: {len(data.get('trophy_timeline', []))} timeline points")
         return len(self.errors) == 0
@@ -478,20 +485,55 @@ class Aggregator:
         latest = self._load_latest_snapshot()
         players = self._get_all_players(latest)
 
+        # Load all battlelogs for club-wide stats
+        print("  Loading battlelogs for quick stats...")
+        all_player_battles = {}
+        total_battles_count = 0
+        total_wins = 0
+        mode_counts = Counter()
+
+        for player in players:
+            tag = player['tag']
+            battles = self._load_battlelog(tag)
+            all_player_battles[tag] = battles
+
+            for battle in battles:
+                total_battles_count += 1
+
+                # Count wins
+                battle_data = battle.get('battle', {})
+                result = battle_data.get('result')
+                trophy_change = battle_data.get('trophyChange', 0)
+
+                # Infer result from trophy change if missing
+                if not result:
+                    if trophy_change > 0:
+                        result = 'victory'
+                    elif trophy_change < 0:
+                        result = 'defeat'
+
+                if result == 'victory':
+                    total_wins += 1
+
+                # Count mode
+                mode = battle.get('event', {}).get('mode')
+                if mode:
+                    mode_counts[mode] += 1
+
         # Quick stats
         total_trophies = sum(p.get('trophies', 0) for p in players)
-        total_3v3 = sum(p.get('3vs3Victories', 0) for p in players)
-        total_brawlers = sum(len(p.get('brawlers', [])) for p in players)
+        avg_winrate = (total_wins / total_battles_count) if total_battles_count > 0 else 0.0
+        fav_mode = mode_counts.most_common(1)[0][0] if mode_counts else None
 
         quick_stats = {
-            'total_players': len(players),
+            'total_members': len(players),
             'total_trophies': total_trophies,
-            'avg_trophies': int(total_trophies / len(players)) if players else 0,
-            'total_3v3_wins': total_3v3,
-            'total_brawlers_owned': total_brawlers
+            'total_battles': total_battles_count,
+            'avg_winrate': round(avg_winrate, 3),
+            'fav_mode': fav_mode
         }
 
-        # Trophy timeline - all snapshot dates
+        # Trophy timeline - per-player trophies map
         print("  Building trophy timeline...")
         timeline = []
         snapshot_files = self._get_all_snapshot_files()
@@ -501,16 +543,18 @@ class Aggregator:
             snapshot = load_compressed(snap_file)
             players_snap = self._get_all_players(snapshot)
 
-            total = sum(p.get('trophies', 0) for p in players_snap)
+            players_map = {}
+            for p in players_snap:
+                players_map[p['tag']] = p.get('trophies', 0)
+
             timeline.append({
                 'date': date,
-                'total_trophies': total,
-                'player_count': len(players_snap)
+                'players': players_map
             })
 
-        # Leaderboards (using latest snapshot)
+        # Leaderboards (using latest snapshot + battlelogs)
         print("  Calculating leaderboards...")
-        leaderboards = self._calculate_leaderboards(players)
+        leaderboards = self._calculate_leaderboards(players, all_player_battles)
 
         summary = {
             'version': 1,
@@ -523,8 +567,8 @@ class Aggregator:
         self.validator.validate_club_summary(summary)
         return summary
 
-    def _calculate_leaderboards(self, players: List[Dict]) -> Dict:
-        """Calculate all leaderboards from player list"""
+    def _calculate_leaderboards(self, players: List[Dict], all_player_battles: Dict[str, List]) -> Dict:
+        """Calculate all leaderboards from player list + battlelogs"""
 
         # Helper: sort with tiebreak by name
         def sort_players(players_list, key_func, reverse=True):
@@ -532,76 +576,116 @@ class Aggregator:
                          key=lambda p: (key_func(p), p['name']),
                          reverse=reverse)
 
-        # Trophies
-        trophies_lb = sort_players(players, lambda p: p.get('trophies', 0))
-
-        # 3v3 Wins
-        wins_lb = sort_players(players, lambda p: p.get('3vs3Victories', 0))
-
-        # Solo Wins
-        solo_lb = sort_players(players, lambda p: p.get('soloVictories', 0))
-
-        # Duo Wins
-        duo_lb = sort_players(players, lambda p: p.get('duoVictories', 0))
-
-        # Brawlers Owned
-        brawlers_lb = sort_players(players, lambda p: len(p.get('brawlers', [])))
-
-        # Total Prestiges
-        def total_prestiges(p):
-            total = 0
-            for b in p.get('brawlers', []):
-                trophies = b.get('trophies', 0)
-                if trophies >= 1000:
-                    total += trophies // 1000
-            return total
-
-        prestiges_lb = sort_players(players, total_prestiges)
-
-        # Highest Brawler Trophies
-        def highest_brawler_trophies(p):
-            brawlers = p.get('brawlers', [])
-            if not brawlers:
-                return 0
-            return max(b.get('trophies', 0) for b in brawlers)
-
-        highest_lb = sort_players(players, highest_brawler_trophies)
-
-        # Conditional leaderboards (2k+, 3k+)
-        players_2k = [p for p in players if any(b.get('trophies', 0) >= 2000 for b in p.get('brawlers', []))]
-        players_3k = [p for p in players if any(b.get('trophies', 0) >= 3000 for b in p.get('brawlers', []))]
-
-        def count_2k_brawlers(p):
-            return sum(1 for b in p.get('brawlers', []) if b.get('trophies', 0) >= 2000)
-
-        def count_3k_brawlers(p):
-            return sum(1 for b in p.get('brawlers', []) if b.get('trophies', 0) >= 3000)
-
-        brawlers_2k_lb = sort_players(players_2k, count_2k_brawlers) if players_2k else []
-        brawlers_3k_lb = sort_players(players_3k, count_3k_brawlers) if players_3k else []
-
-        # Format leaderboards (top 10 with rank)
+        # Helper: format leaderboard (tag + name + value, no rank)
         def format_lb(players_list, value_key):
             return [
                 {
-                    'rank': i + 1,
                     'tag': p['tag'],
+                    'name': p['name'],
                     'value': value_key(p)
                 }
-                for i, p in enumerate(players_list[:10])
+                for p in players_list
             ]
 
-        return {
+        # Helper: check if brawler is maxed (P11 + 2 gadgets + 2 SPs + 1 HC)
+        def is_maxed(brawler: Dict) -> bool:
+            gadgets = self._extract_item_ids(brawler.get('gadgets'))
+            sps = self._extract_item_ids(brawler.get('starPowers'))
+            hcs = self._extract_item_ids(brawler.get('hyperCharges'))
+            return (
+                brawler.get('power') == 11 and
+                len(gadgets) >= 2 and
+                len(sps) >= 2 and
+                len(hcs) >= 1
+            )
+
+        # 1. Trophies
+        trophies_lb = sort_players(players, lambda p: p.get('trophies', 0))
+
+        # 2. Ranked Best Rank (lower = better)
+        ranked_lb = sort_players(
+            players,
+            lambda p: p.get('highestAllTimeRankedRank', 999),
+            reverse=False  # Ascending - rank 1 is best
+        )
+
+        # 3. Win Rate (from battlelogs)
+        player_winrates = []
+        for p in players:
+            tag = p['tag']
+            battles = all_player_battles.get(tag, [])
+            if not battles:
+                continue
+
+            wins = 0
+            total = 0
+            for battle in battles:
+                total += 1
+                battle_data = battle.get('battle', {})
+                result = battle_data.get('result')
+                trophy_change = battle_data.get('trophyChange', 0)
+
+                if not result:
+                    if trophy_change > 0:
+                        result = 'victory'
+                    elif trophy_change < 0:
+                        result = 'defeat'
+
+                if result == 'victory':
+                    wins += 1
+
+            if total > 0:
+                player_winrates.append((p, wins / total))
+
+        winrate_lb = sorted(player_winrates, key=lambda x: (x[1], x[0]['name']), reverse=True)
+
+        # 4. Total Battles (from battlelogs)
+        battles_lb = sort_players(
+            players,
+            lambda p: len(all_player_battles.get(p['tag'], []))
+        )
+
+        # 5. Maxed Brawlers
+        def count_maxed(p):
+            return sum(1 for b in p.get('brawlers', []) if is_maxed(b))
+
+        maxed_lb = sort_players(players, count_maxed)
+
+        # 6. Brawlers 1000+ Trophies
+        def count_1k(p):
+            return sum(1 for b in p.get('brawlers', []) if b.get('trophies', 0) >= 1000)
+
+        brawlers_1k_lb = sort_players(players, count_1k)
+
+        # Dynamic leaderboards (2k+, 3k+) - only if threshold met
+        def count_2k(p):
+            return sum(1 for b in p.get('brawlers', []) if b.get('trophies', 0) >= 2000)
+
+        def count_3k(p):
+            return sum(1 for b in p.get('brawlers', []) if b.get('trophies', 0) >= 3000)
+
+        players_2k = [p for p in players if count_2k(p) > 0]
+        players_3k = [p for p in players if count_3k(p) > 0]
+
+        leaderboards = {
             'trophies': format_lb(trophies_lb, lambda p: p.get('trophies', 0)),
-            'wins_3v3': format_lb(wins_lb, lambda p: p.get('3vs3Victories', 0)),
-            'wins_solo': format_lb(solo_lb, lambda p: p.get('soloVictories', 0)),
-            'wins_duo': format_lb(duo_lb, lambda p: p.get('duoVictories', 0)),
-            'brawlers_owned': format_lb(brawlers_lb, lambda p: len(p.get('brawlers', []))),
-            'total_prestiges': format_lb(prestiges_lb, total_prestiges),
-            'highest_brawler': format_lb(highest_lb, highest_brawler_trophies),
-            'brawlers_2k_plus': format_lb(brawlers_2k_lb, count_2k_brawlers),
-            'brawlers_3k_plus': format_lb(brawlers_3k_lb, count_3k_brawlers)
+            'ranked_best': format_lb(ranked_lb, lambda p: p.get('highestAllTimeRankedRank', 999)),
+            'winrate': [{'tag': p[0]['tag'], 'name': p[0]['name'], 'value': round(p[1], 3)} for p in winrate_lb],
+            'total_battles': format_lb(battles_lb, lambda p: len(all_player_battles.get(p['tag'], []))),
+            'maxed_brawlers': format_lb(maxed_lb, count_maxed),
+            'brawlers_1k': format_lb(brawlers_1k_lb, count_1k)
         }
+
+        # Add dynamic leaderboards if threshold met
+        if players_2k:
+            brawlers_2k_lb = sort_players(players_2k, count_2k)
+            leaderboards['brawlers_2k'] = format_lb(brawlers_2k_lb, count_2k)
+
+        if players_3k:
+            brawlers_3k_lb = sort_players(players_3k, count_3k)
+            leaderboards['brawlers_3k'] = format_lb(brawlers_3k_lb, count_3k)
+
+        return leaderboards
 
     def generate_player_stats(self, tag: str, latest_snapshot: Dict) -> Dict:
         """Generate players/{TAG}/stats.json"""
@@ -1036,17 +1120,83 @@ class Aggregator:
             self._save_json(segments['older'], battles_dir / "older.json")
             print(f"  ✓ older.json: {len(segments['older'])} battles")
 
+    def generate_metadata(self) -> Dict:
+        """Generate metadata.json - global data like freshness indicators"""
+        print("\n📊 Generating metadata...")
+
+        snapshot_files = self._get_all_snapshot_files()
+
+        # First snapshot date
+        first_snapshot_date = snapshot_files[0].name.replace('.json.gz', '')
+
+        # Load collection metadata from raw/metadata/latest.json
+        latest_meta_path = self.raw_dir / "metadata" / "latest.json"
+        snapshot_timestamp = None
+        if latest_meta_path.exists():
+            with open(latest_meta_path) as f:
+                latest_meta = json.load(f)
+                snapshot_timestamp = latest_meta.get('timestamp')
+
+        # Fallback: use latest snapshot date at midnight
+        if not snapshot_timestamp:
+            latest_snapshot_date = snapshot_files[-1].name.replace('.json.gz', '')
+            snapshot_timestamp = datetime.strptime(latest_snapshot_date, '%Y-%m-%d').replace(tzinfo=timezone.utc).isoformat()
+
+        # Load battlelogs/_last_updated.json for battlelog timestamp
+        battlelog_meta_path = Path('data/battlelogs/_last_updated.json')
+        battlelog_timestamp = None
+        if battlelog_meta_path.exists():
+            with open(battlelog_meta_path) as f:
+                battlelog_meta = json.load(f)
+                battlelog_timestamp = battlelog_meta.get('last_collection')
+
+        # Fallback: scan battlelogs for most recent battle
+        if not battlelog_timestamp:
+            latest = self._load_latest_snapshot()
+            players = self._get_all_players(latest)
+            latest_battle_time = None
+            for player in players:
+                battles = self._load_battlelog(player['tag'])
+                if battles:
+                    battle_time_str = battles[-1].get('battleTime', '')
+                    if battle_time_str:
+                        try:
+                            battle_time = datetime.strptime(battle_time_str, '%Y%m%dT%H%M%S.%fZ').replace(tzinfo=timezone.utc)
+                            if latest_battle_time is None or battle_time > latest_battle_time:
+                                latest_battle_time = battle_time
+                        except:
+                            pass
+            if latest_battle_time:
+                battlelog_timestamp = latest_battle_time.isoformat().replace('+00:00', 'Z')
+
+        metadata = {
+            'version': 1,
+            'generated_at': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
+            'tracking_since': first_snapshot_date,
+            'data_freshness': {
+                'snapshot': snapshot_timestamp,
+                'battlelog': battlelog_timestamp
+            }
+        }
+
+        print(f"✓ Metadata: tracking since {first_snapshot_date}")
+        return metadata
+
     def generate_all(self):
         """Main entry point - generate all aggregated files"""
         print("=" * 60)
         print("AGGREGATING DATA")
         print("=" * 60)
 
-        # 1. Player index
+        # 1. Metadata (global header data)
+        metadata = self.generate_metadata()
+        self._save_json(metadata, self.agg_dir / "metadata.json")
+
+        # 2. Player index
         player_index = self.build_player_index()
         self._save_json(player_index, self.agg_dir / "indexes" / "players.json")
 
-        # 2. Club summary
+        # 3. Club summary
         club_summary = self.generate_club_summary(player_index)
         self._save_json(club_summary, self.agg_dir / "club-summary.json")
 

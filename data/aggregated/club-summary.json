@@ -1,1242 +1,2922 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T12:57:02.642140Z",
+  "generated_at": "2026-08-26T14:38:38.738085Z",
   "quick_stats": {
-    "total_players": 11,
+    "total_members": 11,
     "total_trophies": 741966,
-    "avg_trophies": 67451,
-    "total_3v3_wins": 98415,
-    "total_brawlers_owned": 1057
+    "total_battles": 28930,
+    "avg_winrate": 0.684,
+    "fav_mode": "brawlBall"
   },
   "trophy_timeline": [
     {
       "date": "2026-03-14",
-      "total_trophies": 369191,
-      "player_count": 7
+      "players": {
+        "#98QG0VCJ2": 102255,
+        "#LLJGJQVY": 91234,
+        "#2L0U0PGRL": 53532,
+        "#YR8L09PRC": 43265,
+        "#VQ9GJGL2": 43083,
+        "#JJ8P8URQC": 20260,
+        "#Y808UYR2": 15562
+      }
     },
     {
       "date": "2026-03-15",
-      "total_trophies": 369191,
-      "player_count": 7
+      "players": {
+        "#98QG0VCJ2": 102255,
+        "#LLJGJQVY": 91234,
+        "#2L0U0PGRL": 53532,
+        "#YR8L09PRC": 43265,
+        "#VQ9GJGL2": 43083,
+        "#JJ8P8URQC": 20260,
+        "#Y808UYR2": 15562
+      }
     },
     {
       "date": "2026-03-16",
-      "total_trophies": 370372,
-      "player_count": 7
+      "players": {
+        "#98QG0VCJ2": 102255,
+        "#LLJGJQVY": 91578,
+        "#2L0U0PGRL": 53926,
+        "#YR8L09PRC": 43616,
+        "#VQ9GJGL2": 43083,
+        "#JJ8P8URQC": 20260,
+        "#Y808UYR2": 15654
+      }
     },
     {
       "date": "2026-03-17",
-      "total_trophies": 371915,
-      "player_count": 7
+      "players": {
+        "#98QG0VCJ2": 102516,
+        "#LLJGJQVY": 92041,
+        "#2L0U0PGRL": 54320,
+        "#YR8L09PRC": 43893,
+        "#VQ9GJGL2": 43219,
+        "#JJ8P8URQC": 20260,
+        "#Y808UYR2": 15666
+      }
     },
     {
       "date": "2026-03-18",
-      "total_trophies": 433566,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 102516,
+        "#LLJGJQVY": 92131,
+        "#2L0U0PGRL": 54320,
+        "#YR8L09PRC": 43893,
+        "#VQ9GJGL2": 43256,
+        "#JJ8P8URQC": 20260,
+        "#Y808UYR2": 16076,
+        "#2LGCLLPU2": 31090,
+        "#Q0CQLYCVL": 30024
+      }
     },
     {
       "date": "2026-03-19",
-      "total_trophies": 433995,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 102516,
+        "#LLJGJQVY": 92131,
+        "#2L0U0PGRL": 54356,
+        "#YR8L09PRC": 43932,
+        "#VQ9GJGL2": 43256,
+        "#JJ8P8URQC": 20260,
+        "#Y808UYR2": 16335,
+        "#2LGCLLPU2": 31116,
+        "#Q0CQLYCVL": 30093
+      }
     },
     {
       "date": "2026-03-20",
-      "total_trophies": 434689,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 102659,
+        "#LLJGJQVY": 92131,
+        "#2L0U0PGRL": 54393,
+        "#YR8L09PRC": 43932,
+        "#VQ9GJGL2": 43256,
+        "#JJ8P8URQC": 20323,
+        "#Y808UYR2": 16330,
+        "#2LGCLLPU2": 31416,
+        "#Q0CQLYCVL": 30249
+      }
     },
     {
       "date": "2026-03-21",
-      "total_trophies": 435390,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 102664,
+        "#LLJGJQVY": 92149,
+        "#2L0U0PGRL": 54393,
+        "#YR8L09PRC": 43932,
+        "#VQ9GJGL2": 43267,
+        "#JJ8P8URQC": 20440,
+        "#Y808UYR2": 16420,
+        "#2LGCLLPU2": 31609,
+        "#Q0CQLYCVL": 30516
+      }
     },
     {
       "date": "2026-03-22",
-      "total_trophies": 435986,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 102725,
+        "#LLJGJQVY": 92208,
+        "#2L0U0PGRL": 54393,
+        "#YR8L09PRC": 43932,
+        "#VQ9GJGL2": 43267,
+        "#JJ8P8URQC": 20440,
+        "#Y808UYR2": 16627,
+        "#2LGCLLPU2": 31858,
+        "#Q0CQLYCVL": 30536
+      }
     },
     {
       "date": "2026-03-23",
-      "total_trophies": 436357,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 102725,
+        "#LLJGJQVY": 92212,
+        "#2L0U0PGRL": 54393,
+        "#YR8L09PRC": 44034,
+        "#VQ9GJGL2": 43267,
+        "#JJ8P8URQC": 20440,
+        "#Y808UYR2": 16842,
+        "#2LGCLLPU2": 31908,
+        "#Q0CQLYCVL": 30536
+      }
     },
     {
       "date": "2026-03-24",
-      "total_trophies": 437741,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 103189,
+        "#LLJGJQVY": 92509,
+        "#2L0U0PGRL": 54395,
+        "#YR8L09PRC": 44034,
+        "#VQ9GJGL2": 43351,
+        "#JJ8P8URQC": 20538,
+        "#Y808UYR2": 16842,
+        "#2LGCLLPU2": 32180,
+        "#Q0CQLYCVL": 30703
+      }
     },
     {
       "date": "2026-03-25",
-      "total_trophies": 439012,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 103429,
+        "#LLJGJQVY": 92749,
+        "#2L0U0PGRL": 54697,
+        "#YR8L09PRC": 44342,
+        "#VQ9GJGL2": 43396,
+        "#JJ8P8URQC": 20600,
+        "#Y808UYR2": 16842,
+        "#2LGCLLPU2": 32218,
+        "#Q0CQLYCVL": 30739
+      }
     },
     {
       "date": "2026-03-26",
-      "total_trophies": 441964,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 103860,
+        "#LLJGJQVY": 93835,
+        "#2L0U0PGRL": 54925,
+        "#YR8L09PRC": 44556,
+        "#VQ9GJGL2": 43645,
+        "#JJ8P8URQC": 21183,
+        "#Y808UYR2": 16877,
+        "#2LGCLLPU2": 32286,
+        "#Q0CQLYCVL": 30797
+      }
     },
     {
       "date": "2026-03-27",
-      "total_trophies": 443733,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 104311,
+        "#LLJGJQVY": 94334,
+        "#2L0U0PGRL": 54959,
+        "#YR8L09PRC": 44661,
+        "#VQ9GJGL2": 43645,
+        "#JJ8P8URQC": 21566,
+        "#Y808UYR2": 16877,
+        "#2LGCLLPU2": 32466,
+        "#Q0CQLYCVL": 30914
+      }
     },
     {
       "date": "2026-03-28",
-      "total_trophies": 444440,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 104311,
+        "#LLJGJQVY": 94368,
+        "#2L0U0PGRL": 55129,
+        "#YR8L09PRC": 44744,
+        "#VQ9GJGL2": 43645,
+        "#JJ8P8URQC": 21965,
+        "#Y808UYR2": 16877,
+        "#2LGCLLPU2": 32487,
+        "#Q0CQLYCVL": 30914
+      }
     },
     {
       "date": "2026-03-29",
-      "total_trophies": 445362,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 104976,
+        "#LLJGJQVY": 94368,
+        "#2L0U0PGRL": 55140,
+        "#YR8L09PRC": 44744,
+        "#VQ9GJGL2": 43645,
+        "#JJ8P8URQC": 21971,
+        "#Y808UYR2": 16877,
+        "#2LGCLLPU2": 32711,
+        "#Q0CQLYCVL": 30930
+      }
     },
     {
       "date": "2026-03-30",
-      "total_trophies": 446036,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 105271,
+        "#LLJGJQVY": 94642,
+        "#2L0U0PGRL": 55227,
+        "#YR8L09PRC": 44744,
+        "#VQ9GJGL2": 43671,
+        "#JJ8P8URQC": 21971,
+        "#Y808UYR2": 16877,
+        "#2LGCLLPU2": 32703,
+        "#Q0CQLYCVL": 30930
+      }
     },
     {
       "date": "2026-03-31",
-      "total_trophies": 448689,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 106022,
+        "#LLJGJQVY": 95136,
+        "#2L0U0PGRL": 55573,
+        "#YR8L09PRC": 44981,
+        "#VQ9GJGL2": 44351,
+        "#JJ8P8URQC": 21971,
+        "#Y808UYR2": 16877,
+        "#2LGCLLPU2": 32789,
+        "#Q0CQLYCVL": 30989
+      }
     },
     {
       "date": "2026-04-01",
-      "total_trophies": 451727,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 106585,
+        "#LLJGJQVY": 95584,
+        "#2L0U0PGRL": 56136,
+        "#YR8L09PRC": 45050,
+        "#VQ9GJGL2": 44654,
+        "#JJ8P8URQC": 22069,
+        "#Y808UYR2": 17182,
+        "#2LGCLLPU2": 33282,
+        "#Q0CQLYCVL": 31185
+      }
     },
     {
       "date": "2026-04-02",
-      "total_trophies": 451727,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 106585,
+        "#LLJGJQVY": 95584,
+        "#2L0U0PGRL": 56136,
+        "#YR8L09PRC": 45050,
+        "#VQ9GJGL2": 44654,
+        "#JJ8P8URQC": 22069,
+        "#Y808UYR2": 17182,
+        "#2LGCLLPU2": 33282,
+        "#Q0CQLYCVL": 31185
+      }
     },
     {
       "date": "2026-04-03",
-      "total_trophies": 456172,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 108170,
+        "#LLJGJQVY": 97129,
+        "#2L0U0PGRL": 56858,
+        "#YR8L09PRC": 45295,
+        "#VQ9GJGL2": 44695,
+        "#JJ8P8URQC": 22136,
+        "#Y808UYR2": 17241,
+        "#2LGCLLPU2": 33305,
+        "#Q0CQLYCVL": 31343
+      }
     },
     {
       "date": "2026-04-04",
-      "total_trophies": 456172,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 108170,
+        "#LLJGJQVY": 97129,
+        "#2L0U0PGRL": 56858,
+        "#YR8L09PRC": 45295,
+        "#VQ9GJGL2": 44695,
+        "#JJ8P8URQC": 22136,
+        "#Y808UYR2": 17241,
+        "#2LGCLLPU2": 33305,
+        "#Q0CQLYCVL": 31343
+      }
     },
     {
       "date": "2026-04-05",
-      "total_trophies": 457640,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 108213,
+        "#LLJGJQVY": 97129,
+        "#2L0U0PGRL": 57367,
+        "#YR8L09PRC": 45821,
+        "#VQ9GJGL2": 44679,
+        "#JJ8P8URQC": 22531,
+        "#Y808UYR2": 17231,
+        "#2LGCLLPU2": 33305,
+        "#Q0CQLYCVL": 31364
+      }
     },
     {
       "date": "2026-04-06",
-      "total_trophies": 459565,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 108213,
+        "#LLJGJQVY": 97139,
+        "#2L0U0PGRL": 58201,
+        "#YR8L09PRC": 46703,
+        "#VQ9GJGL2": 44679,
+        "#JJ8P8URQC": 22730,
+        "#Y808UYR2": 17231,
+        "#2LGCLLPU2": 33305,
+        "#Q0CQLYCVL": 31364
+      }
     },
     {
       "date": "2026-04-07",
-      "total_trophies": 461031,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 108213,
+        "#LLJGJQVY": 97139,
+        "#2L0U0PGRL": 58710,
+        "#YR8L09PRC": 47179,
+        "#VQ9GJGL2": 44679,
+        "#JJ8P8URQC": 23121,
+        "#Y808UYR2": 17231,
+        "#2LGCLLPU2": 33395,
+        "#Q0CQLYCVL": 31364
+      }
     },
     {
       "date": "2026-04-08",
-      "total_trophies": 469197,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 109140,
+        "#LLJGJQVY": 100017,
+        "#2L0U0PGRL": 59953,
+        "#YR8L09PRC": 48822,
+        "#VQ9GJGL2": 44793,
+        "#JJ8P8URQC": 23444,
+        "#Y808UYR2": 17384,
+        "#2LGCLLPU2": 33990,
+        "#Q0CQLYCVL": 31654
+      }
     },
     {
       "date": "2026-04-09",
-      "total_trophies": 469197,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 109140,
+        "#LLJGJQVY": 100017,
+        "#2L0U0PGRL": 59953,
+        "#YR8L09PRC": 48822,
+        "#VQ9GJGL2": 44793,
+        "#JJ8P8URQC": 23444,
+        "#Y808UYR2": 17384,
+        "#2LGCLLPU2": 33990,
+        "#Q0CQLYCVL": 31654
+      }
     },
     {
       "date": "2026-04-10",
-      "total_trophies": 469207,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 109150,
+        "#LLJGJQVY": 100017,
+        "#2L0U0PGRL": 59953,
+        "#YR8L09PRC": 48822,
+        "#VQ9GJGL2": 44793,
+        "#JJ8P8URQC": 23444,
+        "#Y808UYR2": 17384,
+        "#2LGCLLPU2": 33990,
+        "#Q0CQLYCVL": 31654
+      }
     },
     {
       "date": "2026-04-11",
-      "total_trophies": 470094,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 109337,
+        "#LLJGJQVY": 100086,
+        "#2L0U0PGRL": 60071,
+        "#YR8L09PRC": 48959,
+        "#VQ9GJGL2": 44859,
+        "#JJ8P8URQC": 23444,
+        "#Y808UYR2": 17384,
+        "#2LGCLLPU2": 34167,
+        "#Q0CQLYCVL": 31787
+      }
     },
     {
       "date": "2026-04-12",
-      "total_trophies": 470750,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 109337,
+        "#LLJGJQVY": 100086,
+        "#2L0U0PGRL": 60263,
+        "#YR8L09PRC": 49188,
+        "#VQ9GJGL2": 44859,
+        "#JJ8P8URQC": 23499,
+        "#Y808UYR2": 17384,
+        "#2LGCLLPU2": 34257,
+        "#Q0CQLYCVL": 31877
+      }
     },
     {
       "date": "2026-04-13",
-      "total_trophies": 471839,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 109553,
+        "#LLJGJQVY": 100281,
+        "#2L0U0PGRL": 60489,
+        "#YR8L09PRC": 49406,
+        "#VQ9GJGL2": 44917,
+        "#JJ8P8URQC": 23499,
+        "#Y808UYR2": 17384,
+        "#2LGCLLPU2": 34380,
+        "#Q0CQLYCVL": 31930
+      }
     },
     {
       "date": "2026-04-14",
-      "total_trophies": 473734,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 110336,
+        "#LLJGJQVY": 100586,
+        "#2L0U0PGRL": 60639,
+        "#YR8L09PRC": 49499,
+        "#VQ9GJGL2": 44917,
+        "#JJ8P8URQC": 23507,
+        "#Y808UYR2": 17437,
+        "#2LGCLLPU2": 34831,
+        "#Q0CQLYCVL": 31982
+      }
     },
     {
       "date": "2026-04-15",
-      "total_trophies": 474525,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 110334,
+        "#LLJGJQVY": 100595,
+        "#2L0U0PGRL": 60800,
+        "#YR8L09PRC": 49652,
+        "#VQ9GJGL2": 44980,
+        "#JJ8P8URQC": 23507,
+        "#Y808UYR2": 17437,
+        "#2LGCLLPU2": 35182,
+        "#Q0CQLYCVL": 32038
+      }
     },
     {
       "date": "2026-04-16",
-      "total_trophies": 475620,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 110716,
+        "#LLJGJQVY": 100724,
+        "#2L0U0PGRL": 60845,
+        "#YR8L09PRC": 49742,
+        "#VQ9GJGL2": 45006,
+        "#JJ8P8URQC": 23507,
+        "#Y808UYR2": 17437,
+        "#2LGCLLPU2": 35538,
+        "#Q0CQLYCVL": 32105
+      }
     },
     {
       "date": "2026-04-17",
-      "total_trophies": 477978,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 111018,
+        "#LLJGJQVY": 101025,
+        "#2L0U0PGRL": 60915,
+        "#YR8L09PRC": 49878,
+        "#VQ9GJGL2": 45472,
+        "#JJ8P8URQC": 23507,
+        "#Y808UYR2": 18027,
+        "#2LGCLLPU2": 35617,
+        "#Q0CQLYCVL": 32519
+      }
     },
     {
       "date": "2026-04-18",
-      "total_trophies": 477978,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 111018,
+        "#LLJGJQVY": 101025,
+        "#2L0U0PGRL": 60915,
+        "#YR8L09PRC": 49878,
+        "#VQ9GJGL2": 45472,
+        "#JJ8P8URQC": 23507,
+        "#Y808UYR2": 18027,
+        "#2LGCLLPU2": 35617,
+        "#Q0CQLYCVL": 32519
+      }
     },
     {
       "date": "2026-04-19",
-      "total_trophies": 477978,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 111018,
+        "#LLJGJQVY": 101025,
+        "#2L0U0PGRL": 60915,
+        "#YR8L09PRC": 49878,
+        "#VQ9GJGL2": 45472,
+        "#JJ8P8URQC": 23507,
+        "#Y808UYR2": 18027,
+        "#2LGCLLPU2": 35617,
+        "#Q0CQLYCVL": 32519
+      }
     },
     {
       "date": "2026-04-20",
-      "total_trophies": 477978,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 111018,
+        "#LLJGJQVY": 101025,
+        "#2L0U0PGRL": 60915,
+        "#YR8L09PRC": 49878,
+        "#VQ9GJGL2": 45472,
+        "#JJ8P8URQC": 23507,
+        "#Y808UYR2": 18027,
+        "#2LGCLLPU2": 35617,
+        "#Q0CQLYCVL": 32519
+      }
     },
     {
       "date": "2026-04-21",
-      "total_trophies": 484343,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 112603,
+        "#LLJGJQVY": 102919,
+        "#2L0U0PGRL": 61187,
+        "#YR8L09PRC": 51059,
+        "#VQ9GJGL2": 46256,
+        "#JJ8P8URQC": 23595,
+        "#Y808UYR2": 18140,
+        "#2LGCLLPU2": 35824,
+        "#Q0CQLYCVL": 32760
+      }
     },
     {
       "date": "2026-04-22",
-      "total_trophies": 484343,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 112603,
+        "#LLJGJQVY": 102919,
+        "#2L0U0PGRL": 61187,
+        "#YR8L09PRC": 51059,
+        "#VQ9GJGL2": 46256,
+        "#JJ8P8URQC": 23595,
+        "#Y808UYR2": 18140,
+        "#2LGCLLPU2": 35824,
+        "#Q0CQLYCVL": 32760
+      }
     },
     {
       "date": "2026-04-23",
-      "total_trophies": 485922,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 113155,
+        "#LLJGJQVY": 103196,
+        "#2L0U0PGRL": 61225,
+        "#YR8L09PRC": 51127,
+        "#VQ9GJGL2": 46487,
+        "#JJ8P8URQC": 23595,
+        "#Y808UYR2": 18171,
+        "#2LGCLLPU2": 35965,
+        "#Q0CQLYCVL": 33001
+      }
     },
     {
       "date": "2026-04-24",
-      "total_trophies": 487463,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 113765,
+        "#LLJGJQVY": 103628,
+        "#2L0U0PGRL": 61225,
+        "#YR8L09PRC": 51395,
+        "#VQ9GJGL2": 46582,
+        "#JJ8P8URQC": 23595,
+        "#Y808UYR2": 18227,
+        "#2LGCLLPU2": 35965,
+        "#Q0CQLYCVL": 33081
+      }
     },
     {
       "date": "2026-04-25",
-      "total_trophies": 489535,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 114088,
+        "#LLJGJQVY": 104464,
+        "#2L0U0PGRL": 61235,
+        "#YR8L09PRC": 51999,
+        "#VQ9GJGL2": 46582,
+        "#JJ8P8URQC": 23595,
+        "#Y808UYR2": 18253,
+        "#2LGCLLPU2": 36212,
+        "#Q0CQLYCVL": 33107
+      }
     },
     {
       "date": "2026-04-26",
-      "total_trophies": 495394,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 116763,
+        "#LLJGJQVY": 107015,
+        "#2L0U0PGRL": 61235,
+        "#YR8L09PRC": 52195,
+        "#VQ9GJGL2": 46650,
+        "#JJ8P8URQC": 23595,
+        "#Y808UYR2": 18280,
+        "#2LGCLLPU2": 36297,
+        "#Q0CQLYCVL": 33364
+      }
     },
     {
       "date": "2026-04-27",
-      "total_trophies": 496736,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 116972,
+        "#LLJGJQVY": 107379,
+        "#2L0U0PGRL": 61235,
+        "#YR8L09PRC": 52195,
+        "#VQ9GJGL2": 46659,
+        "#JJ8P8URQC": 23603,
+        "#Y808UYR2": 18280,
+        "#2LGCLLPU2": 36696,
+        "#Q0CQLYCVL": 33717
+      }
     },
     {
       "date": "2026-04-28",
-      "total_trophies": 497042,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 117052,
+        "#LLJGJQVY": 107379,
+        "#2L0U0PGRL": 61235,
+        "#YR8L09PRC": 52262,
+        "#VQ9GJGL2": 46670,
+        "#JJ8P8URQC": 23603,
+        "#Y808UYR2": 18365,
+        "#2LGCLLPU2": 36722,
+        "#Q0CQLYCVL": 33754
+      }
     },
     {
       "date": "2026-04-29",
-      "total_trophies": 497181,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 117086,
+        "#LLJGJQVY": 107414,
+        "#2L0U0PGRL": 61235,
+        "#YR8L09PRC": 52279,
+        "#VQ9GJGL2": 46670,
+        "#JJ8P8URQC": 23603,
+        "#Y808UYR2": 18365,
+        "#2LGCLLPU2": 36722,
+        "#Q0CQLYCVL": 33807
+      }
     },
     {
       "date": "2026-04-30",
-      "total_trophies": 497807,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 117164,
+        "#LLJGJQVY": 107439,
+        "#2L0U0PGRL": 61235,
+        "#YR8L09PRC": 52279,
+        "#VQ9GJGL2": 46670,
+        "#JJ8P8URQC": 23603,
+        "#Y808UYR2": 18872,
+        "#2LGCLLPU2": 36722,
+        "#Q0CQLYCVL": 33823
+      }
     },
     {
       "date": "2026-05-01",
-      "total_trophies": 498609,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 117478,
+        "#LLJGJQVY": 107553,
+        "#2L0U0PGRL": 61235,
+        "#YR8L09PRC": 52289,
+        "#VQ9GJGL2": 46670,
+        "#JJ8P8URQC": 23603,
+        "#Y808UYR2": 18980,
+        "#2LGCLLPU2": 36722,
+        "#Q0CQLYCVL": 34079
+      }
     },
     {
       "date": "2026-05-02",
-      "total_trophies": 499319,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 117546,
+        "#LLJGJQVY": 107895,
+        "#2L0U0PGRL": 61235,
+        "#YR8L09PRC": 52314,
+        "#VQ9GJGL2": 46666,
+        "#JJ8P8URQC": 23603,
+        "#Y808UYR2": 19005,
+        "#2LGCLLPU2": 36812,
+        "#Q0CQLYCVL": 34243
+      }
     },
     {
       "date": "2026-05-03",
-      "total_trophies": 500756,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 117900,
+        "#LLJGJQVY": 108359,
+        "#2L0U0PGRL": 61235,
+        "#YR8L09PRC": 52367,
+        "#VQ9GJGL2": 46736,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 19219,
+        "#2LGCLLPU2": 36930,
+        "#Q0CQLYCVL": 34260
+      }
     },
     {
       "date": "2026-05-04",
-      "total_trophies": 503447,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 119026,
+        "#LLJGJQVY": 109616,
+        "#2L0U0PGRL": 61274,
+        "#YR8L09PRC": 52417,
+        "#VQ9GJGL2": 46736,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 19219,
+        "#2LGCLLPU2": 37149,
+        "#Q0CQLYCVL": 34260
+      }
     },
     {
       "date": "2026-05-05",
-      "total_trophies": 504850,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 119407,
+        "#LLJGJQVY": 110016,
+        "#2L0U0PGRL": 61375,
+        "#YR8L09PRC": 52428,
+        "#VQ9GJGL2": 47075,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 19219,
+        "#2LGCLLPU2": 37227,
+        "#Q0CQLYCVL": 34353
+      }
     },
     {
       "date": "2026-05-06",
-      "total_trophies": 505593,
-      "player_count": 9
+      "players": {
+        "#98QG0VCJ2": 119407,
+        "#LLJGJQVY": 110233,
+        "#2L0U0PGRL": 61601,
+        "#YR8L09PRC": 52544,
+        "#VQ9GJGL2": 47075,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 19254,
+        "#2LGCLLPU2": 37232,
+        "#Q0CQLYCVL": 34497
+      }
     },
     {
       "date": "2026-05-07",
-      "total_trophies": 531189,
-      "player_count": 10
+      "players": {
+        "#98QG0VCJ2": 119618,
+        "#LLJGJQVY": 110551,
+        "#2L0U0PGRL": 61713,
+        "#YR8L09PRC": 52664,
+        "#VQ9GJGL2": 47144,
+        "#Y9G0QL9GL": 24478,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 19476,
+        "#2LGCLLPU2": 37250,
+        "#Q0CQLYCVL": 34545
+      }
     },
     {
       "date": "2026-05-08",
-      "total_trophies": 532560,
-      "player_count": 10
+      "players": {
+        "#98QG0VCJ2": 119904,
+        "#LLJGJQVY": 110902,
+        "#2L0U0PGRL": 61827,
+        "#YR8L09PRC": 52892,
+        "#VQ9GJGL2": 47154,
+        "#Y9G0QL9GL": 24622,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 19690,
+        "#2LGCLLPU2": 37250,
+        "#Q0CQLYCVL": 34569
+      }
     },
     {
       "date": "2026-05-09",
-      "total_trophies": 533972,
-      "player_count": 10
+      "players": {
+        "#98QG0VCJ2": 119904,
+        "#LLJGJQVY": 110997,
+        "#2L0U0PGRL": 61955,
+        "#YR8L09PRC": 52967,
+        "#VQ9GJGL2": 47323,
+        "#Y9G0QL9GL": 25108,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 19898,
+        "#2LGCLLPU2": 37250,
+        "#Q0CQLYCVL": 34820
+      }
     },
     {
       "date": "2026-05-10",
-      "total_trophies": 534729,
-      "player_count": 10
+      "players": {
+        "#98QG0VCJ2": 120002,
+        "#LLJGJQVY": 110997,
+        "#2L0U0PGRL": 61955,
+        "#YR8L09PRC": 53052,
+        "#VQ9GJGL2": 47323,
+        "#Y9G0QL9GL": 25454,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 20126,
+        "#2LGCLLPU2": 37250,
+        "#Q0CQLYCVL": 34820
+      }
     },
     {
       "date": "2026-05-11",
-      "total_trophies": 536859,
-      "player_count": 10
+      "players": {
+        "#98QG0VCJ2": 120082,
+        "#LLJGJQVY": 111046,
+        "#2L0U0PGRL": 62506,
+        "#YR8L09PRC": 53637,
+        "#VQ9GJGL2": 47343,
+        "#Y9G0QL9GL": 25781,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 20370,
+        "#2LGCLLPU2": 37250,
+        "#Q0CQLYCVL": 35094
+      }
     },
     {
       "date": "2026-05-12",
-      "total_trophies": 537299,
-      "player_count": 10
+      "players": {
+        "#98QG0VCJ2": 120096,
+        "#LLJGJQVY": 111046,
+        "#2L0U0PGRL": 62506,
+        "#YR8L09PRC": 53691,
+        "#VQ9GJGL2": 47343,
+        "#Y9G0QL9GL": 25999,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 20420,
+        "#2LGCLLPU2": 37250,
+        "#Q0CQLYCVL": 35198
+      }
     },
     {
       "date": "2026-05-13",
-      "total_trophies": 538274,
-      "player_count": 10
+      "players": {
+        "#98QG0VCJ2": 120453,
+        "#LLJGJQVY": 111264,
+        "#2L0U0PGRL": 62506,
+        "#YR8L09PRC": 53900,
+        "#VQ9GJGL2": 47343,
+        "#Y9G0QL9GL": 26041,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 20546,
+        "#2LGCLLPU2": 37250,
+        "#Q0CQLYCVL": 35221
+      }
     },
     {
       "date": "2026-05-14",
-      "total_trophies": 636814,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 120754,
+        "#LLJGJQVY": 111618,
+        "#R0CUY9PR": 97196,
+        "#2L0U0PGRL": 62538,
+        "#YR8L09PRC": 53934,
+        "#VQ9GJGL2": 47392,
+        "#Y9G0QL9GL": 26041,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 20546,
+        "#2LGCLLPU2": 37250,
+        "#Q0CQLYCVL": 35795
+      }
     },
     {
       "date": "2026-05-15",
-      "total_trophies": 638484,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 120880,
+        "#LLJGJQVY": 111746,
+        "#R0CUY9PR": 97391,
+        "#2L0U0PGRL": 62538,
+        "#YR8L09PRC": 54088,
+        "#VQ9GJGL2": 47392,
+        "#Y9G0QL9GL": 26041,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 20612,
+        "#2LGCLLPU2": 37624,
+        "#Q0CQLYCVL": 36422
+      }
     },
     {
       "date": "2026-05-16",
-      "total_trophies": 639248,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 120878,
+        "#LLJGJQVY": 112042,
+        "#R0CUY9PR": 97398,
+        "#2L0U0PGRL": 62538,
+        "#YR8L09PRC": 54118,
+        "#VQ9GJGL2": 47392,
+        "#Y9G0QL9GL": 26104,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 20608,
+        "#2LGCLLPU2": 37624,
+        "#Q0CQLYCVL": 36796
+      }
     },
     {
       "date": "2026-05-17",
-      "total_trophies": 640258,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 120878,
+        "#LLJGJQVY": 112042,
+        "#R0CUY9PR": 97461,
+        "#2L0U0PGRL": 62538,
+        "#YR8L09PRC": 54225,
+        "#VQ9GJGL2": 47392,
+        "#Y9G0QL9GL": 26521,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 20608,
+        "#2LGCLLPU2": 37945,
+        "#Q0CQLYCVL": 36898
+      }
     },
     {
       "date": "2026-05-18",
-      "total_trophies": 641260,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 120878,
+        "#LLJGJQVY": 112242,
+        "#R0CUY9PR": 97606,
+        "#2L0U0PGRL": 62538,
+        "#YR8L09PRC": 54225,
+        "#VQ9GJGL2": 47392,
+        "#Y9G0QL9GL": 26967,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 20701,
+        "#2LGCLLPU2": 38063,
+        "#Q0CQLYCVL": 36898
+      }
     },
     {
       "date": "2026-05-19",
-      "total_trophies": 641635,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 120864,
+        "#LLJGJQVY": 112246,
+        "#R0CUY9PR": 97621,
+        "#2L0U0PGRL": 62688,
+        "#YR8L09PRC": 54225,
+        "#VQ9GJGL2": 47392,
+        "#Y9G0QL9GL": 26975,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 20813,
+        "#2LGCLLPU2": 38073,
+        "#Q0CQLYCVL": 36988
+      }
     },
     {
       "date": "2026-05-20",
-      "total_trophies": 642080,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 120864,
+        "#LLJGJQVY": 112246,
+        "#R0CUY9PR": 97662,
+        "#2L0U0PGRL": 62795,
+        "#YR8L09PRC": 54249,
+        "#VQ9GJGL2": 47392,
+        "#Y9G0QL9GL": 26975,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21090,
+        "#2LGCLLPU2": 38048,
+        "#Q0CQLYCVL": 37009
+      }
     },
     {
       "date": "2026-05-21",
-      "total_trophies": 642918,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 120908,
+        "#LLJGJQVY": 112365,
+        "#R0CUY9PR": 97791,
+        "#2L0U0PGRL": 62901,
+        "#YR8L09PRC": 54359,
+        "#VQ9GJGL2": 47392,
+        "#Y9G0QL9GL": 26985,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21234,
+        "#2LGCLLPU2": 38099,
+        "#Q0CQLYCVL": 37134
+      }
     },
     {
       "date": "2026-05-22",
-      "total_trophies": 643872,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121101,
+        "#LLJGJQVY": 112594,
+        "#R0CUY9PR": 97786,
+        "#2L0U0PGRL": 62924,
+        "#YR8L09PRC": 54386,
+        "#VQ9GJGL2": 47695,
+        "#Y9G0QL9GL": 27180,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21234,
+        "#2LGCLLPU2": 38099,
+        "#Q0CQLYCVL": 37123
+      }
     },
     {
       "date": "2026-05-23",
-      "total_trophies": 645406,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121101,
+        "#LLJGJQVY": 112643,
+        "#R0CUY9PR": 98487,
+        "#2L0U0PGRL": 63198,
+        "#YR8L09PRC": 54716,
+        "#VQ9GJGL2": 47730,
+        "#Y9G0QL9GL": 27325,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21234,
+        "#2LGCLLPU2": 38099,
+        "#Q0CQLYCVL": 37123
+      }
     },
     {
       "date": "2026-05-24",
-      "total_trophies": 647063,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121101,
+        "#LLJGJQVY": 112702,
+        "#R0CUY9PR": 99062,
+        "#2L0U0PGRL": 63198,
+        "#YR8L09PRC": 54774,
+        "#VQ9GJGL2": 48012,
+        "#Y9G0QL9GL": 27774,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21453,
+        "#2LGCLLPU2": 38099,
+        "#Q0CQLYCVL": 37138
+      }
     },
     {
       "date": "2026-05-25",
-      "total_trophies": 647893,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121101,
+        "#LLJGJQVY": 112702,
+        "#R0CUY9PR": 99091,
+        "#2L0U0PGRL": 63198,
+        "#YR8L09PRC": 54807,
+        "#VQ9GJGL2": 48023,
+        "#Y9G0QL9GL": 28338,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21463,
+        "#2LGCLLPU2": 38135,
+        "#Q0CQLYCVL": 37285
+      }
     },
     {
       "date": "2026-05-26",
-      "total_trophies": 648510,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121197,
+        "#LLJGJQVY": 112798,
+        "#R0CUY9PR": 99276,
+        "#2L0U0PGRL": 63231,
+        "#YR8L09PRC": 54914,
+        "#VQ9GJGL2": 48054,
+        "#Y9G0QL9GL": 28413,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21473,
+        "#2LGCLLPU2": 38119,
+        "#Q0CQLYCVL": 37285
+      }
     },
     {
       "date": "2026-05-27",
-      "total_trophies": 648836,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121197,
+        "#LLJGJQVY": 112802,
+        "#R0CUY9PR": 99441,
+        "#2L0U0PGRL": 63288,
+        "#YR8L09PRC": 54946,
+        "#VQ9GJGL2": 48054,
+        "#Y9G0QL9GL": 28481,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21473,
+        "#2LGCLLPU2": 38119,
+        "#Q0CQLYCVL": 37285
+      }
     },
     {
       "date": "2026-05-28",
-      "total_trophies": 649808,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121268,
+        "#LLJGJQVY": 113119,
+        "#R0CUY9PR": 99573,
+        "#2L0U0PGRL": 63288,
+        "#YR8L09PRC": 54946,
+        "#VQ9GJGL2": 48145,
+        "#Y9G0QL9GL": 28842,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21473,
+        "#2LGCLLPU2": 38119,
+        "#Q0CQLYCVL": 37285
+      }
     },
     {
       "date": "2026-05-29",
-      "total_trophies": 650480,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121262,
+        "#LLJGJQVY": 113233,
+        "#R0CUY9PR": 99635,
+        "#2L0U0PGRL": 63288,
+        "#YR8L09PRC": 55090,
+        "#VQ9GJGL2": 48286,
+        "#Y9G0QL9GL": 28953,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21569,
+        "#2LGCLLPU2": 38119,
+        "#Q0CQLYCVL": 37295
+      }
     },
     {
       "date": "2026-05-30",
-      "total_trophies": 650893,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121358,
+        "#LLJGJQVY": 113265,
+        "#R0CUY9PR": 99656,
+        "#2L0U0PGRL": 63288,
+        "#YR8L09PRC": 55090,
+        "#VQ9GJGL2": 48286,
+        "#Y9G0QL9GL": 29158,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21569,
+        "#2LGCLLPU2": 38135,
+        "#Q0CQLYCVL": 37338
+      }
     },
     {
       "date": "2026-05-31",
-      "total_trophies": 652655,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121598,
+        "#LLJGJQVY": 113530,
+        "#R0CUY9PR": 100143,
+        "#2L0U0PGRL": 63430,
+        "#YR8L09PRC": 55278,
+        "#VQ9GJGL2": 48280,
+        "#Y9G0QL9GL": 29587,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21564,
+        "#2LGCLLPU2": 38157,
+        "#Q0CQLYCVL": 37338
+      }
     },
     {
       "date": "2026-06-01",
-      "total_trophies": 653330,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121721,
+        "#LLJGJQVY": 113526,
+        "#R0CUY9PR": 100170,
+        "#2L0U0PGRL": 63585,
+        "#YR8L09PRC": 55278,
+        "#VQ9GJGL2": 48280,
+        "#Y9G0QL9GL": 29921,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21574,
+        "#2LGCLLPU2": 38157,
+        "#Q0CQLYCVL": 37368
+      }
     },
     {
       "date": "2026-06-02",
-      "total_trophies": 653707,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121721,
+        "#LLJGJQVY": 113556,
+        "#R0CUY9PR": 100150,
+        "#2L0U0PGRL": 63665,
+        "#YR8L09PRC": 55365,
+        "#VQ9GJGL2": 48280,
+        "#Y9G0QL9GL": 30009,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21625,
+        "#2LGCLLPU2": 38157,
+        "#Q0CQLYCVL": 37429
+      }
     },
     {
       "date": "2026-06-03",
-      "total_trophies": 654453,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121721,
+        "#LLJGJQVY": 113643,
+        "#R0CUY9PR": 100144,
+        "#2L0U0PGRL": 63851,
+        "#YR8L09PRC": 55482,
+        "#VQ9GJGL2": 48407,
+        "#Y9G0QL9GL": 30055,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21695,
+        "#2LGCLLPU2": 38157,
+        "#Q0CQLYCVL": 37548
+      }
     },
     {
       "date": "2026-06-04",
-      "total_trophies": 655199,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121721,
+        "#LLJGJQVY": 113637,
+        "#R0CUY9PR": 100401,
+        "#2L0U0PGRL": 64123,
+        "#YR8L09PRC": 55546,
+        "#VQ9GJGL2": 48558,
+        "#Y9G0QL9GL": 30055,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21698,
+        "#2LGCLLPU2": 38157,
+        "#Q0CQLYCVL": 37553
+      }
     },
     {
       "date": "2026-06-05",
-      "total_trophies": 656163,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 121794,
+        "#LLJGJQVY": 113657,
+        "#R0CUY9PR": 100681,
+        "#2L0U0PGRL": 64420,
+        "#YR8L09PRC": 55564,
+        "#VQ9GJGL2": 48609,
+        "#Y9G0QL9GL": 30124,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21749,
+        "#2LGCLLPU2": 38157,
+        "#Q0CQLYCVL": 37658
+      }
     },
     {
       "date": "2026-06-06",
-      "total_trophies": 658383,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 122184,
+        "#LLJGJQVY": 114139,
+        "#R0CUY9PR": 100980,
+        "#2L0U0PGRL": 64697,
+        "#YR8L09PRC": 55714,
+        "#VQ9GJGL2": 48664,
+        "#Y9G0QL9GL": 30205,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 21834,
+        "#2LGCLLPU2": 38157,
+        "#Q0CQLYCVL": 38059
+      }
     },
     {
       "date": "2026-06-07",
-      "total_trophies": 660047,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 122184,
+        "#LLJGJQVY": 114305,
+        "#R0CUY9PR": 101170,
+        "#2L0U0PGRL": 64973,
+        "#YR8L09PRC": 55832,
+        "#VQ9GJGL2": 48877,
+        "#Y9G0QL9GL": 30435,
+        "#JJ8P8URQC": 23750,
+        "#Y808UYR2": 22027,
+        "#2LGCLLPU2": 38163,
+        "#Q0CQLYCVL": 38331
+      }
     },
     {
       "date": "2026-06-08",
-      "total_trophies": 661928,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 122227,
+        "#LLJGJQVY": 114710,
+        "#R0CUY9PR": 101214,
+        "#2L0U0PGRL": 65621,
+        "#YR8L09PRC": 56177,
+        "#VQ9GJGL2": 48971,
+        "#Y9G0QL9GL": 30480,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 22105,
+        "#2LGCLLPU2": 38163,
+        "#Q0CQLYCVL": 38384
+      }
     },
     {
       "date": "2026-06-09",
-      "total_trophies": 663481,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 122355,
+        "#LLJGJQVY": 115158,
+        "#R0CUY9PR": 101214,
+        "#2L0U0PGRL": 65960,
+        "#YR8L09PRC": 56525,
+        "#VQ9GJGL2": 49059,
+        "#Y9G0QL9GL": 30523,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 22157,
+        "#2LGCLLPU2": 38200,
+        "#Q0CQLYCVL": 38454
+      }
     },
     {
       "date": "2026-06-10",
-      "total_trophies": 664028,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 122355,
+        "#LLJGJQVY": 115158,
+        "#R0CUY9PR": 101471,
+        "#2L0U0PGRL": 65995,
+        "#YR8L09PRC": 56545,
+        "#VQ9GJGL2": 49127,
+        "#Y9G0QL9GL": 30584,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 22174,
+        "#2LGCLLPU2": 38200,
+        "#Q0CQLYCVL": 38543
+      }
     },
     {
       "date": "2026-06-11",
-      "total_trophies": 664756,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 122355,
+        "#LLJGJQVY": 115158,
+        "#R0CUY9PR": 101515,
+        "#2L0U0PGRL": 66043,
+        "#YR8L09PRC": 56758,
+        "#VQ9GJGL2": 49147,
+        "#Y9G0QL9GL": 30667,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 22179,
+        "#2LGCLLPU2": 38200,
+        "#Q0CQLYCVL": 38858
+      }
     },
     {
       "date": "2026-06-12",
-      "total_trophies": 665777,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 122355,
+        "#LLJGJQVY": 115158,
+        "#R0CUY9PR": 101521,
+        "#2L0U0PGRL": 66043,
+        "#YR8L09PRC": 57152,
+        "#VQ9GJGL2": 49253,
+        "#Y9G0QL9GL": 30692,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 22288,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 39216
+      }
     },
     {
       "date": "2026-06-13",
-      "total_trophies": 666468,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 122355,
+        "#LLJGJQVY": 115193,
+        "#R0CUY9PR": 101564,
+        "#2L0U0PGRL": 66241,
+        "#YR8L09PRC": 57185,
+        "#VQ9GJGL2": 49253,
+        "#Y9G0QL9GL": 30835,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 22298,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 39445
+      }
     },
     {
       "date": "2026-06-14",
-      "total_trophies": 668574,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 122386,
+        "#LLJGJQVY": 115532,
+        "#R0CUY9PR": 101629,
+        "#2L0U0PGRL": 66660,
+        "#YR8L09PRC": 57602,
+        "#VQ9GJGL2": 49272,
+        "#Y9G0QL9GL": 31022,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 22371,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 40001
+      }
     },
     {
       "date": "2026-06-15",
-      "total_trophies": 670698,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 122386,
+        "#LLJGJQVY": 115921,
+        "#R0CUY9PR": 101655,
+        "#2L0U0PGRL": 66991,
+        "#YR8L09PRC": 58193,
+        "#VQ9GJGL2": 49272,
+        "#Y9G0QL9GL": 31343,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 22553,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 40285
+      }
     },
     {
       "date": "2026-06-16",
-      "total_trophies": 673100,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 123069,
+        "#LLJGJQVY": 116573,
+        "#R0CUY9PR": 101665,
+        "#2L0U0PGRL": 67000,
+        "#YR8L09PRC": 58193,
+        "#VQ9GJGL2": 49272,
+        "#Y9G0QL9GL": 31620,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 22569,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 41040
+      }
     },
     {
       "date": "2026-06-17",
-      "total_trophies": 673299,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 123069,
+        "#LLJGJQVY": 116573,
+        "#R0CUY9PR": 101672,
+        "#2L0U0PGRL": 67047,
+        "#YR8L09PRC": 58243,
+        "#VQ9GJGL2": 49272,
+        "#Y9G0QL9GL": 31680,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 22569,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 41075
+      }
     },
     {
       "date": "2026-06-18",
-      "total_trophies": 674627,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 123069,
+        "#LLJGJQVY": 116932,
+        "#R0CUY9PR": 101672,
+        "#2L0U0PGRL": 67144,
+        "#YR8L09PRC": 58325,
+        "#VQ9GJGL2": 49420,
+        "#Y9G0QL9GL": 32043,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 22569,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 41354
+      }
     },
     {
       "date": "2026-06-19",
-      "total_trophies": 675724,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 123160,
+        "#LLJGJQVY": 117242,
+        "#R0CUY9PR": 101872,
+        "#2L0U0PGRL": 67429,
+        "#YR8L09PRC": 58325,
+        "#VQ9GJGL2": 49420,
+        "#Y9G0QL9GL": 32223,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 22569,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 41385
+      }
     },
     {
       "date": "2026-06-20",
-      "total_trophies": 676026,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 123219,
+        "#LLJGJQVY": 117303,
+        "#R0CUY9PR": 101872,
+        "#2L0U0PGRL": 67429,
+        "#YR8L09PRC": 58325,
+        "#VQ9GJGL2": 49430,
+        "#Y9G0QL9GL": 32334,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 22569,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 41446
+      }
     },
     {
       "date": "2026-06-21",
-      "total_trophies": 678031,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 123219,
+        "#LLJGJQVY": 117420,
+        "#R0CUY9PR": 101872,
+        "#2L0U0PGRL": 67910,
+        "#YR8L09PRC": 58495,
+        "#VQ9GJGL2": 49922,
+        "#Y9G0QL9GL": 32346,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 23098,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 41650
+      }
     },
     {
       "date": "2026-06-22",
-      "total_trophies": 678802,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 123219,
+        "#LLJGJQVY": 117420,
+        "#R0CUY9PR": 101872,
+        "#2L0U0PGRL": 68430,
+        "#YR8L09PRC": 58512,
+        "#VQ9GJGL2": 49922,
+        "#Y9G0QL9GL": 32434,
+        "#JJ8P8URQC": 23876,
+        "#Y808UYR2": 23116,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 41778
+      }
     },
     {
       "date": "2026-06-23",
-      "total_trophies": 679679,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 123219,
+        "#LLJGJQVY": 117421,
+        "#R0CUY9PR": 101893,
+        "#2L0U0PGRL": 68686,
+        "#YR8L09PRC": 58564,
+        "#VQ9GJGL2": 50159,
+        "#Y9G0QL9GL": 32441,
+        "#JJ8P8URQC": 23893,
+        "#Y808UYR2": 23337,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 41843
+      }
     },
     {
       "date": "2026-06-24",
-      "total_trophies": 681120,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 123207,
+        "#LLJGJQVY": 117424,
+        "#R0CUY9PR": 101915,
+        "#2L0U0PGRL": 69461,
+        "#YR8L09PRC": 59133,
+        "#VQ9GJGL2": 50153,
+        "#Y9G0QL9GL": 32467,
+        "#JJ8P8URQC": 23893,
+        "#Y808UYR2": 23324,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 41920
+      }
     },
     {
       "date": "2026-06-25",
-      "total_trophies": 681484,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 123207,
+        "#LLJGJQVY": 117424,
+        "#R0CUY9PR": 101942,
+        "#2L0U0PGRL": 69594,
+        "#YR8L09PRC": 59225,
+        "#VQ9GJGL2": 50158,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 23893,
+        "#Y808UYR2": 23364,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 41978
+      }
     },
     {
       "date": "2026-06-26",
-      "total_trophies": 681835,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 123426,
+        "#LLJGJQVY": 117424,
+        "#R0CUY9PR": 101942,
+        "#2L0U0PGRL": 69603,
+        "#YR8L09PRC": 59267,
+        "#VQ9GJGL2": 50224,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 23893,
+        "#Y808UYR2": 23379,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 41978
+      }
     },
     {
       "date": "2026-06-27",
-      "total_trophies": 683244,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 124265,
+        "#LLJGJQVY": 117661,
+        "#R0CUY9PR": 101942,
+        "#2L0U0PGRL": 69629,
+        "#YR8L09PRC": 59514,
+        "#VQ9GJGL2": 50251,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 23893,
+        "#Y808UYR2": 23402,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 41988
+      }
     },
     {
       "date": "2026-06-28",
-      "total_trophies": 683973,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 124474,
+        "#LLJGJQVY": 117840,
+        "#R0CUY9PR": 101925,
+        "#2L0U0PGRL": 69820,
+        "#YR8L09PRC": 59527,
+        "#VQ9GJGL2": 50281,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 23893,
+        "#Y808UYR2": 23476,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 42038
+      }
     },
     {
       "date": "2026-06-29",
-      "total_trophies": 684458,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 124474,
+        "#LLJGJQVY": 117840,
+        "#R0CUY9PR": 101925,
+        "#2L0U0PGRL": 69936,
+        "#YR8L09PRC": 59527,
+        "#VQ9GJGL2": 50281,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 23893,
+        "#Y808UYR2": 23680,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 42203
+      }
     },
     {
       "date": "2026-06-30",
-      "total_trophies": 686404,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 125161,
+        "#LLJGJQVY": 117836,
+        "#R0CUY9PR": 101957,
+        "#2L0U0PGRL": 70045,
+        "#YR8L09PRC": 59565,
+        "#VQ9GJGL2": 50885,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 23893,
+        "#Y808UYR2": 23678,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 42685
+      }
     },
     {
       "date": "2026-07-01",
-      "total_trophies": 687747,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 125393,
+        "#LLJGJQVY": 117989,
+        "#R0CUY9PR": 102016,
+        "#2L0U0PGRL": 70334,
+        "#YR8L09PRC": 59565,
+        "#VQ9GJGL2": 50885,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 24458,
+        "#Y808UYR2": 23707,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 42701
+      }
     },
     {
       "date": "2026-07-02",
-      "total_trophies": 689316,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 125800,
+        "#LLJGJQVY": 118294,
+        "#R0CUY9PR": 102072,
+        "#2L0U0PGRL": 70521,
+        "#YR8L09PRC": 59584,
+        "#VQ9GJGL2": 50885,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 25011,
+        "#Y808UYR2": 23707,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 42743
+      }
     },
     {
       "date": "2026-07-03",
-      "total_trophies": 691283,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126287,
+        "#LLJGJQVY": 118536,
+        "#R0CUY9PR": 102119,
+        "#2L0U0PGRL": 70757,
+        "#YR8L09PRC": 59901,
+        "#VQ9GJGL2": 50885,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 25558,
+        "#Y808UYR2": 23707,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 42834
+      }
     },
     {
       "date": "2026-07-04",
-      "total_trophies": 693021,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126367,
+        "#LLJGJQVY": 118555,
+        "#R0CUY9PR": 102119,
+        "#2L0U0PGRL": 70866,
+        "#YR8L09PRC": 59967,
+        "#VQ9GJGL2": 51001,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 26235,
+        "#Y808UYR2": 23798,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 43414
+      }
     },
     {
       "date": "2026-07-05",
-      "total_trophies": 693943,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126367,
+        "#LLJGJQVY": 118863,
+        "#R0CUY9PR": 102119,
+        "#2L0U0PGRL": 71151,
+        "#YR8L09PRC": 60177,
+        "#VQ9GJGL2": 51016,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 26235,
+        "#Y808UYR2": 23788,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 43528
+      }
     },
     {
       "date": "2026-07-06",
-      "total_trophies": 696502,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126466,
+        "#LLJGJQVY": 118911,
+        "#R0CUY9PR": 102119,
+        "#2L0U0PGRL": 71749,
+        "#YR8L09PRC": 61411,
+        "#VQ9GJGL2": 51065,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 26512,
+        "#Y808UYR2": 23843,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 43727
+      }
     },
     {
       "date": "2026-07-07",
-      "total_trophies": 698183,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126581,
+        "#LLJGJQVY": 119291,
+        "#R0CUY9PR": 102129,
+        "#2L0U0PGRL": 71934,
+        "#YR8L09PRC": 61825,
+        "#VQ9GJGL2": 51111,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 26512,
+        "#Y808UYR2": 24284,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 43817
+      }
     },
     {
       "date": "2026-07-08",
-      "total_trophies": 698820,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126669,
+        "#LLJGJQVY": 119358,
+        "#R0CUY9PR": 102129,
+        "#2L0U0PGRL": 72062,
+        "#YR8L09PRC": 61894,
+        "#VQ9GJGL2": 51248,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 26512,
+        "#Y808UYR2": 24376,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 43873
+      }
     },
     {
       "date": "2026-07-09",
-      "total_trophies": 699089,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126669,
+        "#LLJGJQVY": 119358,
+        "#R0CUY9PR": 102129,
+        "#2L0U0PGRL": 72114,
+        "#YR8L09PRC": 61894,
+        "#VQ9GJGL2": 51304,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 26512,
+        "#Y808UYR2": 24396,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 44014
+      }
     },
     {
       "date": "2026-07-10",
-      "total_trophies": 699610,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126731,
+        "#LLJGJQVY": 119410,
+        "#R0CUY9PR": 102129,
+        "#2L0U0PGRL": 72178,
+        "#YR8L09PRC": 61876,
+        "#VQ9GJGL2": 51341,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 26512,
+        "#Y808UYR2": 24380,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 44354
+      }
     },
     {
       "date": "2026-07-11",
-      "total_trophies": 700896,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126731,
+        "#LLJGJQVY": 119876,
+        "#R0CUY9PR": 102129,
+        "#2L0U0PGRL": 72255,
+        "#YR8L09PRC": 62427,
+        "#VQ9GJGL2": 51365,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 26512,
+        "#Y808UYR2": 24380,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 44522
+      }
     },
     {
       "date": "2026-07-12",
-      "total_trophies": 701979,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126731,
+        "#LLJGJQVY": 119876,
+        "#R0CUY9PR": 102183,
+        "#2L0U0PGRL": 72294,
+        "#YR8L09PRC": 62422,
+        "#VQ9GJGL2": 51365,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 27011,
+        "#Y808UYR2": 24380,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 45018
+      }
     },
     {
       "date": "2026-07-13",
-      "total_trophies": 702513,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126731,
+        "#LLJGJQVY": 119876,
+        "#R0CUY9PR": 102183,
+        "#2L0U0PGRL": 72308,
+        "#YR8L09PRC": 62454,
+        "#VQ9GJGL2": 51696,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 27153,
+        "#Y808UYR2": 24380,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 45033
+      }
     },
     {
       "date": "2026-07-14",
-      "total_trophies": 702999,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126731,
+        "#LLJGJQVY": 120119,
+        "#R0CUY9PR": 102183,
+        "#2L0U0PGRL": 72396,
+        "#YR8L09PRC": 62609,
+        "#VQ9GJGL2": 51696,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 27153,
+        "#Y808UYR2": 24380,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 45033
+      }
     },
     {
       "date": "2026-07-15",
-      "total_trophies": 704560,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126756,
+        "#LLJGJQVY": 120324,
+        "#R0CUY9PR": 102183,
+        "#2L0U0PGRL": 72396,
+        "#YR8L09PRC": 62810,
+        "#VQ9GJGL2": 51784,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 27566,
+        "#Y808UYR2": 24409,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 45633
+      }
     },
     {
       "date": "2026-07-16",
-      "total_trophies": 705650,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126756,
+        "#LLJGJQVY": 120324,
+        "#R0CUY9PR": 102183,
+        "#2L0U0PGRL": 72463,
+        "#YR8L09PRC": 62810,
+        "#VQ9GJGL2": 52058,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 27566,
+        "#Y808UYR2": 24692,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 46099
+      }
     },
     {
       "date": "2026-07-17",
-      "total_trophies": 706696,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126861,
+        "#LLJGJQVY": 120386,
+        "#R0CUY9PR": 102183,
+        "#2L0U0PGRL": 72463,
+        "#YR8L09PRC": 62810,
+        "#VQ9GJGL2": 52247,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 27698,
+        "#Y808UYR2": 24896,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 46453
+      }
     },
     {
       "date": "2026-07-18",
-      "total_trophies": 706987,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126861,
+        "#LLJGJQVY": 120400,
+        "#R0CUY9PR": 102183,
+        "#2L0U0PGRL": 72463,
+        "#YR8L09PRC": 62843,
+        "#VQ9GJGL2": 52263,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 27769,
+        "#Y808UYR2": 24909,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 46597
+      }
     },
     {
       "date": "2026-07-19",
-      "total_trophies": 708181,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126884,
+        "#LLJGJQVY": 120484,
+        "#R0CUY9PR": 102183,
+        "#2L0U0PGRL": 72583,
+        "#YR8L09PRC": 62893,
+        "#VQ9GJGL2": 52500,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 27945,
+        "#Y808UYR2": 25089,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 46921
+      }
     },
     {
       "date": "2026-07-20",
-      "total_trophies": 709134,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126884,
+        "#LLJGJQVY": 120674,
+        "#R0CUY9PR": 102183,
+        "#2L0U0PGRL": 72727,
+        "#YR8L09PRC": 62939,
+        "#VQ9GJGL2": 52682,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28055,
+        "#Y808UYR2": 25149,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 47142
+      }
     },
     {
       "date": "2026-07-21",
-      "total_trophies": 710000,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126964,
+        "#LLJGJQVY": 120674,
+        "#R0CUY9PR": 102183,
+        "#2L0U0PGRL": 72751,
+        "#YR8L09PRC": 62939,
+        "#VQ9GJGL2": 52928,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28128,
+        "#Y808UYR2": 25180,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 47554
+      }
     },
     {
       "date": "2026-07-22",
-      "total_trophies": 710271,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 126964,
+        "#LLJGJQVY": 120674,
+        "#R0CUY9PR": 102183,
+        "#2L0U0PGRL": 72770,
+        "#YR8L09PRC": 62939,
+        "#VQ9GJGL2": 52947,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28128,
+        "#Y808UYR2": 25185,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 47782
+      }
     },
     {
       "date": "2026-07-23",
-      "total_trophies": 711169,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 127176,
+        "#LLJGJQVY": 120807,
+        "#R0CUY9PR": 102183,
+        "#2L0U0PGRL": 72770,
+        "#YR8L09PRC": 63068,
+        "#VQ9GJGL2": 52976,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28128,
+        "#Y808UYR2": 25225,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 48137
+      }
     },
     {
       "date": "2026-07-24",
-      "total_trophies": 711916,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 127178,
+        "#LLJGJQVY": 120812,
+        "#R0CUY9PR": 102183,
+        "#2L0U0PGRL": 72776,
+        "#YR8L09PRC": 63078,
+        "#VQ9GJGL2": 53148,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28128,
+        "#Y808UYR2": 25398,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 48516
+      }
     },
     {
       "date": "2026-07-25",
-      "total_trophies": 712611,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 127178,
+        "#LLJGJQVY": 120812,
+        "#R0CUY9PR": 102183,
+        "#2L0U0PGRL": 72835,
+        "#YR8L09PRC": 63089,
+        "#VQ9GJGL2": 53148,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28758,
+        "#Y808UYR2": 25393,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 48516
+      }
     },
     {
       "date": "2026-07-26",
-      "total_trophies": 713327,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 127178,
+        "#LLJGJQVY": 120913,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 72856,
+        "#YR8L09PRC": 63129,
+        "#VQ9GJGL2": 53157,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28916,
+        "#Y808UYR2": 25385,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 48919
+      }
     },
     {
       "date": "2026-07-27",
-      "total_trophies": 713916,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 127178,
+        "#LLJGJQVY": 120909,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 72886,
+        "#YR8L09PRC": 63216,
+        "#VQ9GJGL2": 53221,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28916,
+        "#Y808UYR2": 25454,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 49262
+      }
     },
     {
       "date": "2026-07-28",
-      "total_trophies": 714281,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 127178,
+        "#LLJGJQVY": 121067,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 73025,
+        "#YR8L09PRC": 63216,
+        "#VQ9GJGL2": 53221,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 25454,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 49319
+      }
     },
     {
       "date": "2026-07-29",
-      "total_trophies": 715362,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 127206,
+        "#LLJGJQVY": 121540,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 73061,
+        "#YR8L09PRC": 63619,
+        "#VQ9GJGL2": 53312,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 25500,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 49323
+      }
     },
     {
       "date": "2026-07-30",
-      "total_trophies": 715549,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 127416,
+        "#LLJGJQVY": 121540,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 73057,
+        "#YR8L09PRC": 63619,
+        "#VQ9GJGL2": 53295,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 25498,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 49323
+      }
     },
     {
       "date": "2026-07-31",
-      "total_trophies": 716122,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 127780,
+        "#LLJGJQVY": 121624,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 73128,
+        "#YR8L09PRC": 63619,
+        "#VQ9GJGL2": 53295,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 25538,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 49337
+      }
     },
     {
       "date": "2026-08-01",
-      "total_trophies": 716979,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 128367,
+        "#LLJGJQVY": 121657,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 73217,
+        "#YR8L09PRC": 63619,
+        "#VQ9GJGL2": 53399,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 25586,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 49333
+      }
     },
     {
       "date": "2026-08-02",
-      "total_trophies": 720255,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 130920,
+        "#LLJGJQVY": 121657,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 73276,
+        "#YR8L09PRC": 63783,
+        "#VQ9GJGL2": 53556,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 25761,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 49501
+      }
     },
     {
       "date": "2026-08-03",
-      "total_trophies": 720754,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 131120,
+        "#LLJGJQVY": 121657,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 73276,
+        "#YR8L09PRC": 63783,
+        "#VQ9GJGL2": 53622,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 25814,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 49681
+      }
     },
     {
       "date": "2026-08-04",
-      "total_trophies": 722050,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 131120,
+        "#LLJGJQVY": 121660,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 73271,
+        "#YR8L09PRC": 63783,
+        "#VQ9GJGL2": 53899,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 25964,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 50552
+      }
     },
     {
       "date": "2026-08-05",
-      "total_trophies": 722985,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 131120,
+        "#LLJGJQVY": 122134,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 73409,
+        "#YR8L09PRC": 63960,
+        "#VQ9GJGL2": 53972,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 26037,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 50552
+      }
     },
     {
       "date": "2026-08-06",
-      "total_trophies": 723707,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 131392,
+        "#LLJGJQVY": 122468,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 73433,
+        "#YR8L09PRC": 63960,
+        "#VQ9GJGL2": 53990,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 26111,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 50552
+      }
     },
     {
       "date": "2026-08-07",
-      "total_trophies": 725210,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 131398,
+        "#LLJGJQVY": 122759,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 73758,
+        "#YR8L09PRC": 64320,
+        "#VQ9GJGL2": 54243,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 26299,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 50632
+      }
     },
     {
       "date": "2026-08-08",
-      "total_trophies": 726313,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 131419,
+        "#LLJGJQVY": 122967,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 73847,
+        "#YR8L09PRC": 64588,
+        "#VQ9GJGL2": 54298,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 26320,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 51073
+      }
     },
     {
       "date": "2026-08-09",
-      "total_trophies": 727605,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 131535,
+        "#LLJGJQVY": 122979,
+        "#R0CUY9PR": 102175,
+        "#2L0U0PGRL": 73880,
+        "#YR8L09PRC": 64588,
+        "#VQ9GJGL2": 54690,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 26703,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 51429
+      }
     },
     {
       "date": "2026-08-10",
-      "total_trophies": 728444,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 131545,
+        "#LLJGJQVY": 123214,
+        "#R0CUY9PR": 102404,
+        "#2L0U0PGRL": 74037,
+        "#YR8L09PRC": 64588,
+        "#VQ9GJGL2": 54738,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 26761,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 51531
+      }
     },
     {
       "date": "2026-08-11",
-      "total_trophies": 728728,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 131591,
+        "#LLJGJQVY": 123256,
+        "#R0CUY9PR": 102404,
+        "#2L0U0PGRL": 74057,
+        "#YR8L09PRC": 64588,
+        "#VQ9GJGL2": 54738,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 26916,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 51552
+      }
     },
     {
       "date": "2026-08-12",
-      "total_trophies": 729873,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 131912,
+        "#LLJGJQVY": 123665,
+        "#R0CUY9PR": 102404,
+        "#2L0U0PGRL": 74395,
+        "#YR8L09PRC": 64588,
+        "#VQ9GJGL2": 54738,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28927,
+        "#Y808UYR2": 26916,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 51629
+      }
     },
     {
       "date": "2026-08-13",
-      "total_trophies": 730197,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 131912,
+        "#LLJGJQVY": 123640,
+        "#R0CUY9PR": 102414,
+        "#2L0U0PGRL": 74655,
+        "#YR8L09PRC": 64614,
+        "#VQ9GJGL2": 54738,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28959,
+        "#Y808UYR2": 26916,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 51650
+      }
     },
     {
       "date": "2026-08-14",
-      "total_trophies": 730219,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 131912,
+        "#LLJGJQVY": 123640,
+        "#R0CUY9PR": 102414,
+        "#2L0U0PGRL": 74667,
+        "#YR8L09PRC": 64624,
+        "#VQ9GJGL2": 54738,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28959,
+        "#Y808UYR2": 26916,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 51650
+      }
     },
     {
       "date": "2026-08-15",
-      "total_trophies": 730699,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 132157,
+        "#LLJGJQVY": 123640,
+        "#R0CUY9PR": 102414,
+        "#2L0U0PGRL": 74715,
+        "#YR8L09PRC": 64624,
+        "#VQ9GJGL2": 54781,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 28959,
+        "#Y808UYR2": 26916,
+        "#2LGCLLPU2": 38223,
+        "#Q0CQLYCVL": 51794
+      }
     },
     {
       "date": "2026-08-16",
-      "total_trophies": 730957,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 132157,
+        "#LLJGJQVY": 123700,
+        "#R0CUY9PR": 102414,
+        "#2L0U0PGRL": 74831,
+        "#YR8L09PRC": 64624,
+        "#VQ9GJGL2": 54796,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 29008,
+        "#Y808UYR2": 26916,
+        "#2LGCLLPU2": 38241,
+        "#Q0CQLYCVL": 51794
+      }
     },
     {
       "date": "2026-08-17",
-      "total_trophies": 733126,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 132971,
+        "#LLJGJQVY": 124169,
+        "#R0CUY9PR": 102414,
+        "#2L0U0PGRL": 75156,
+        "#YR8L09PRC": 64737,
+        "#VQ9GJGL2": 54948,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 29008,
+        "#Y808UYR2": 26952,
+        "#2LGCLLPU2": 38241,
+        "#Q0CQLYCVL": 52054
+      }
     },
     {
       "date": "2026-08-18",
-      "total_trophies": 734144,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 133172,
+        "#LLJGJQVY": 124675,
+        "#R0CUY9PR": 102414,
+        "#2L0U0PGRL": 75192,
+        "#YR8L09PRC": 64836,
+        "#VQ9GJGL2": 55124,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 29008,
+        "#Y808UYR2": 26952,
+        "#2LGCLLPU2": 38241,
+        "#Q0CQLYCVL": 52054
+      }
     },
     {
       "date": "2026-08-19",
-      "total_trophies": 735655,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 133985,
+        "#LLJGJQVY": 124916,
+        "#R0CUY9PR": 102414,
+        "#2L0U0PGRL": 75192,
+        "#YR8L09PRC": 64875,
+        "#VQ9GJGL2": 55409,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 29008,
+        "#Y808UYR2": 27073,
+        "#2LGCLLPU2": 38241,
+        "#Q0CQLYCVL": 52066
+      }
     },
     {
       "date": "2026-08-20",
-      "total_trophies": 736134,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 134203,
+        "#LLJGJQVY": 125002,
+        "#R0CUY9PR": 102414,
+        "#2L0U0PGRL": 75230,
+        "#YR8L09PRC": 64980,
+        "#VQ9GJGL2": 55412,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 29008,
+        "#Y808UYR2": 27075,
+        "#2LGCLLPU2": 38241,
+        "#Q0CQLYCVL": 52093
+      }
     },
     {
       "date": "2026-08-21",
-      "total_trophies": 736987,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 134373,
+        "#LLJGJQVY": 125326,
+        "#R0CUY9PR": 102414,
+        "#2L0U0PGRL": 75255,
+        "#YR8L09PRC": 65254,
+        "#VQ9GJGL2": 55412,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 29008,
+        "#Y808UYR2": 27075,
+        "#2LGCLLPU2": 38241,
+        "#Q0CQLYCVL": 52153
+      }
     },
     {
       "date": "2026-08-22",
-      "total_trophies": 737649,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 134727,
+        "#LLJGJQVY": 125367,
+        "#R0CUY9PR": 102414,
+        "#2L0U0PGRL": 75255,
+        "#YR8L09PRC": 65254,
+        "#VQ9GJGL2": 55421,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 29008,
+        "#Y808UYR2": 27108,
+        "#2LGCLLPU2": 38241,
+        "#Q0CQLYCVL": 52378
+      }
     },
     {
       "date": "2026-08-23",
-      "total_trophies": 738804,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 135349,
+        "#LLJGJQVY": 125367,
+        "#R0CUY9PR": 102414,
+        "#2L0U0PGRL": 75255,
+        "#YR8L09PRC": 65254,
+        "#VQ9GJGL2": 55638,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 29008,
+        "#Y808UYR2": 27323,
+        "#2LGCLLPU2": 38241,
+        "#Q0CQLYCVL": 52479
+      }
     },
     {
       "date": "2026-08-24",
-      "total_trophies": 739840,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 136205,
+        "#LLJGJQVY": 125413,
+        "#R0CUY9PR": 102414,
+        "#2L0U0PGRL": 75301,
+        "#YR8L09PRC": 65254,
+        "#VQ9GJGL2": 55665,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 29008,
+        "#Y808UYR2": 27323,
+        "#2LGCLLPU2": 38241,
+        "#Q0CQLYCVL": 52540
+      }
     },
     {
       "date": "2026-08-25",
-      "total_trophies": 741287,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 136521,
+        "#LLJGJQVY": 125920,
+        "#R0CUY9PR": 102414,
+        "#2L0U0PGRL": 75462,
+        "#YR8L09PRC": 65292,
+        "#VQ9GJGL2": 55724,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 29008,
+        "#Y808UYR2": 27371,
+        "#2LGCLLPU2": 38241,
+        "#Q0CQLYCVL": 52858
+      }
     },
     {
       "date": "2026-08-26",
-      "total_trophies": 741966,
-      "player_count": 11
+      "players": {
+        "#98QG0VCJ2": 136517,
+        "#LLJGJQVY": 126437,
+        "#R0CUY9PR": 102414,
+        "#2L0U0PGRL": 75462,
+        "#YR8L09PRC": 65292,
+        "#VQ9GJGL2": 55724,
+        "#Y9G0QL9GL": 32476,
+        "#JJ8P8URQC": 29081,
+        "#Y808UYR2": 27371,
+        "#2LGCLLPU2": 38241,
+        "#Q0CQLYCVL": 52951
+      }
     }
   ],
   "leaderboards": {
     "trophies": [
       {
-        "rank": 1,
         "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
         "value": 136517
       },
       {
-        "rank": 2,
         "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
         "value": 126437
       },
       {
-        "rank": 3,
         "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
         "value": 102414
       },
       {
-        "rank": 4,
         "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
         "value": 75462
       },
       {
-        "rank": 5,
         "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
         "value": 65292
       },
       {
-        "rank": 6,
         "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
         "value": 55724
       },
       {
-        "rank": 7,
         "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
         "value": 52951
       },
       {
-        "rank": 8,
         "tag": "#2LGCLLPU2",
+        "name": "El Cactus",
         "value": 38241
       },
       {
-        "rank": 9,
         "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
         "value": 32476
       },
       {
-        "rank": 10,
         "tag": "#JJ8P8URQC",
+        "name": "JOEL | Orbova",
         "value": 29081
-      }
-    ],
-    "wins_3v3": [
-      {
-        "rank": 1,
-        "tag": "#LLJGJQVY",
-        "value": 24506
       },
       {
-        "rank": 2,
-        "tag": "#98QG0VCJ2",
-        "value": 23003
-      },
-      {
-        "rank": 3,
-        "tag": "#R0CUY9PR",
-        "value": 10839
-      },
-      {
-        "rank": 4,
-        "tag": "#YR8L09PRC",
-        "value": 7885
-      },
-      {
-        "rank": 5,
-        "tag": "#2L0U0PGRL",
-        "value": 7802
-      },
-      {
-        "rank": 6,
-        "tag": "#Q0CQLYCVL",
-        "value": 6866
-      },
-      {
-        "rank": 7,
-        "tag": "#VQ9GJGL2",
-        "value": 5882
-      },
-      {
-        "rank": 8,
         "tag": "#Y808UYR2",
-        "value": 3403
-      },
-      {
-        "rank": 9,
-        "tag": "#Y9G0QL9GL",
-        "value": 3383
-      },
-      {
-        "rank": 10,
-        "tag": "#2LGCLLPU2",
-        "value": 3046
+        "name": "JOEL|MissANG3ll",
+        "value": 27371
       }
     ],
-    "wins_solo": [
+    "ranked_best": [
       {
-        "rank": 1,
-        "tag": "#98QG0VCJ2",
-        "value": 1930
-      },
-      {
-        "rank": 2,
-        "tag": "#R0CUY9PR",
-        "value": 1561
-      },
-      {
-        "rank": 3,
-        "tag": "#2L0U0PGRL",
-        "value": 1417
-      },
-      {
-        "rank": 4,
-        "tag": "#2LGCLLPU2",
-        "value": 1253
-      },
-      {
-        "rank": 5,
-        "tag": "#YR8L09PRC",
-        "value": 1022
-      },
-      {
-        "rank": 6,
-        "tag": "#LLJGJQVY",
-        "value": 948
-      },
-      {
-        "rank": 7,
-        "tag": "#Q0CQLYCVL",
-        "value": 639
-      },
-      {
-        "rank": 8,
         "tag": "#JJ8P8URQC",
-        "value": 430
+        "name": "JOEL | Orbova",
+        "value": 4
       },
       {
-        "rank": 9,
-        "tag": "#VQ9GJGL2",
-        "value": 389
-      },
-      {
-        "rank": 10,
-        "tag": "#Y9G0QL9GL",
-        "value": 360
-      }
-    ],
-    "wins_duo": [
-      {
-        "rank": 1,
-        "tag": "#98QG0VCJ2",
-        "value": 1748
-      },
-      {
-        "rank": 2,
-        "tag": "#YR8L09PRC",
-        "value": 1494
-      },
-      {
-        "rank": 3,
-        "tag": "#LLJGJQVY",
-        "value": 1440
-      },
-      {
-        "rank": 4,
-        "tag": "#R0CUY9PR",
-        "value": 1167
-      },
-      {
-        "rank": 5,
-        "tag": "#Q0CQLYCVL",
-        "value": 1069
-      },
-      {
-        "rank": 6,
-        "tag": "#2L0U0PGRL",
-        "value": 1038
-      },
-      {
-        "rank": 7,
-        "tag": "#Y9G0QL9GL",
-        "value": 820
-      },
-      {
-        "rank": 8,
         "tag": "#2LGCLLPU2",
-        "value": 748
+        "name": "El Cactus",
+        "value": 11
       },
       {
-        "rank": 9,
-        "tag": "#Y808UYR2",
-        "value": 298
-      },
-      {
-        "rank": 10,
-        "tag": "#VQ9GJGL2",
-        "value": 253
-      }
-    ],
-    "brawlers_owned": [
-      {
-        "rank": 1,
-        "tag": "#98QG0VCJ2",
-        "value": 106
-      },
-      {
-        "rank": 2,
-        "tag": "#LLJGJQVY",
-        "value": 106
-      },
-      {
-        "rank": 3,
-        "tag": "#R0CUY9PR",
-        "value": 105
-      },
-      {
-        "rank": 4,
-        "tag": "#VQ9GJGL2",
-        "value": 105
-      },
-      {
-        "rank": 5,
-        "tag": "#Q0CQLYCVL",
-        "value": 105
-      },
-      {
-        "rank": 6,
-        "tag": "#YR8L09PRC",
-        "value": 105
-      },
-      {
-        "rank": 7,
-        "tag": "#2L0U0PGRL",
-        "value": 105
-      },
-      {
-        "rank": 8,
-        "tag": "#Y808UYR2",
-        "value": 101
-      },
-      {
-        "rank": 9,
         "tag": "#Y9G0QL9GL",
-        "value": 88
+        "name": "JOEL | Bzzz…",
+        "value": 13
       },
       {
-        "rank": 10,
-        "tag": "#2LGCLLPU2",
-        "value": 74
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "value": 13
+      },
+      {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "value": 13
+      },
+      {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "value": 13
+      },
+      {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "value": 13
+      },
+      {
+        "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
+        "value": 15
+      },
+      {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "value": 16
+      },
+      {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "value": 16
+      },
+      {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "value": 16
       }
     ],
-    "total_prestiges": [
+    "winrate": [
       {
-        "rank": 1,
         "tag": "#98QG0VCJ2",
-        "value": 117
+        "name": "JOEL | køkønut",
+        "value": 0.74
       },
       {
-        "rank": 2,
-        "tag": "#LLJGJQVY",
-        "value": 112
-      },
-      {
-        "rank": 3,
-        "tag": "#R0CUY9PR",
-        "value": 89
-      },
-      {
-        "rank": 4,
-        "tag": "#YR8L09PRC",
-        "value": 41
-      },
-      {
-        "rank": 5,
         "tag": "#2L0U0PGRL",
-        "value": 38
+        "name": "JOEL | FREEED🐸",
+        "value": 0.709
       },
       {
-        "rank": 6,
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "value": 0.699
+      },
+      {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "value": 0.682
+      },
+      {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "value": 0.682
+      },
+      {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "value": 0.681
+      },
+      {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "value": 0.679
+      },
+      {
         "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "value": 0.644
+      },
+      {
+        "tag": "#JJ8P8URQC",
+        "name": "JOEL | Orbova",
+        "value": 0.64
+      },
+      {
+        "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
+        "value": 0.61
+      },
+      {
+        "tag": "#2LGCLLPU2",
+        "name": "El Cactus",
+        "value": 0.599
+      }
+    ],
+    "total_battles": [
+      {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "value": 5382
+      },
+      {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "value": 4769
+      },
+      {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "value": 4059
+      },
+      {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "value": 3408
+      },
+      {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "value": 3083
+      },
+      {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "value": 1776
+      },
+      {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "value": 1591
+      },
+      {
+        "tag": "#2LGCLLPU2",
+        "name": "El Cactus",
+        "value": 1349
+      },
+      {
+        "tag": "#JJ8P8URQC",
+        "name": "JOEL | Orbova",
+        "value": 1294
+      },
+      {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "value": 1163
+      },
+      {
+        "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
+        "value": 1056
+      }
+    ],
+    "maxed_brawlers": [
+      {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "value": 104
+      },
+      {
+        "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
+        "value": 104
+      },
+      {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "value": 100
+      },
+      {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "value": 37
+      },
+      {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "value": 35
+      },
+      {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "value": 35
+      },
+      {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
         "value": 25
       },
       {
-        "rank": 7,
         "tag": "#VQ9GJGL2",
-        "value": 22
+        "name": "JOEL | OrDos_",
+        "value": 14
       },
       {
-        "rank": 8,
         "tag": "#Y9G0QL9GL",
-        "value": 17
-      },
-      {
-        "rank": 9,
-        "tag": "#JJ8P8URQC",
-        "value": 11
-      },
-      {
-        "rank": 10,
-        "tag": "#2LGCLLPU2",
-        "value": 11
-      }
-    ],
-    "highest_brawler": [
-      {
-        "rank": 1,
-        "tag": "#98QG0VCJ2",
-        "value": 2415
-      },
-      {
-        "rank": 2,
-        "tag": "#LLJGJQVY",
-        "value": 2170
-      },
-      {
-        "rank": 3,
-        "tag": "#2LGCLLPU2",
-        "value": 2072
-      },
-      {
-        "rank": 4,
-        "tag": "#Y808UYR2",
-        "value": 2038
-      },
-      {
-        "rank": 5,
-        "tag": "#R0CUY9PR",
-        "value": 2019
-      },
-      {
-        "rank": 6,
-        "tag": "#YR8L09PRC",
-        "value": 2018
-      },
-      {
-        "rank": 7,
-        "tag": "#VQ9GJGL2",
-        "value": 1825
-      },
-      {
-        "rank": 8,
-        "tag": "#2L0U0PGRL",
-        "value": 1633
-      },
-      {
-        "rank": 9,
-        "tag": "#Q0CQLYCVL",
-        "value": 1099
-      },
-      {
-        "rank": 10,
-        "tag": "#JJ8P8URQC",
-        "value": 1029
-      }
-    ],
-    "brawlers_2k_plus": [
-      {
-        "rank": 1,
-        "tag": "#98QG0VCJ2",
-        "value": 11
-      },
-      {
-        "rank": 2,
-        "tag": "#LLJGJQVY",
+        "name": "JOEL | Bzzz…",
         "value": 8
       },
       {
-        "rank": 3,
-        "tag": "#R0CUY9PR",
-        "value": 2
-      },
-      {
-        "rank": 4,
-        "tag": "#YR8L09PRC",
-        "value": 2
-      },
-      {
-        "rank": 5,
         "tag": "#2LGCLLPU2",
-        "value": 2
+        "name": "El Cactus",
+        "value": 4
       },
       {
-        "rank": 6,
-        "tag": "#Y808UYR2",
-        "value": 1
+        "tag": "#JJ8P8URQC",
+        "name": "JOEL | Orbova",
+        "value": 0
       }
     ],
-    "brawlers_3k_plus": []
+    "brawlers_1k": [
+      {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "value": 106
+      },
+      {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "value": 104
+      },
+      {
+        "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
+        "value": 87
+      },
+      {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "value": 39
+      },
+      {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "value": 38
+      },
+      {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "value": 25
+      },
+      {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "value": 22
+      },
+      {
+        "tag": "#Y9G0QL9GL",
+        "name": "JOEL | Bzzz…",
+        "value": 17
+      },
+      {
+        "tag": "#JJ8P8URQC",
+        "name": "JOEL | Orbova",
+        "value": 11
+      },
+      {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "value": 9
+      },
+      {
+        "tag": "#2LGCLLPU2",
+        "name": "El Cactus",
+        "value": 9
+      }
+    ],
+    "brawlers_2k": [
+      {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "value": 11
+      },
+      {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "value": 8
+      },
+      {
+        "tag": "#R0CUY9PR",
+        "name": "JOEL | Sobsh",
+        "value": 2
+      },
+      {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "value": 2
+      },
+      {
+        "tag": "#2LGCLLPU2",
+        "name": "El Cactus",
+        "value": 2
+      },
+      {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "value": 1
+      }
+    ]
   }
 }
