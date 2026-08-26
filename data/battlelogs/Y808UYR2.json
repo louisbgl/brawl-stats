@@ -147261,5 +147261,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260826T120217.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 245,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000083,
+          "name": "CLANCY",
+          "power": 11,
+          "trophies": 1128
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JLGQU8URC",
+            "name": "YT|REALMUSPİKO",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 197
+            }
+          },
+          {
+            "tag": "#GR2RCPLPP",
+            "name": "Sultanyekta",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 608
+            }
+          },
+          {
+            "tag": "#PQYUQGVUU",
+            "name": "oscoooour 🇱🇰",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 831
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1128
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 808
+            }
+          },
+          {
+            "tag": "#82Y0VPQP8",
+            "name": "-Madalin-YT-",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1084
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260826T121046.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 477,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#2CP2UCR8V",
+        "name": "lafema",
+        "brawler": {
+          "id": 16000013,
+          "name": "POCO",
+          "power": 11,
+          "trophies": 1030
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#22QGCL8P2",
+            "name": "zippi",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 610
+            }
+          },
+          {
+            "tag": "#2CP2UCR8V",
+            "name": "lafema",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1030
+            }
+          },
+          {
+            "tag": "#2QQUYVRJY8",
+            "name": "Yamtar40",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 791
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#82Y0VPQP8",
+            "name": "-Madalin-YT-",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1100
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1144
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 825
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
