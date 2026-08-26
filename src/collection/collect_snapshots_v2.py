@@ -11,10 +11,10 @@ import os
 import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from src.config import CLUBS, INDIVIDUAL_PLAYERS
-from src.api import fetch_club_data, fetch_player_data, get_club_members_tags, fetch_brawlers_reference
-from src.models import create_daily_snapshot
-from src.health import update_snapshot_status
+from src.collection.config import CLUBS, INDIVIDUAL_PLAYERS
+from src.collection.api import fetch_club_data, fetch_player_data, get_club_members_tags, fetch_brawlers_reference
+from src.collection.models import create_daily_snapshot
+from src.collection.health import update_snapshot_status
 from src.aggregation.compression import save_compressed, get_compressed_size, get_compression_ratio
 
 

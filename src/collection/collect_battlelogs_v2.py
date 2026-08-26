@@ -9,9 +9,9 @@ This is the v2 variant - DO NOT deploy to VM until v2 merge complete.
 import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from src.config import get_all_tracked_player_tags
+from src.collection.config import get_all_tracked_player_tags
 from src.collection.battle_store_v2 import update, write_metadata
-from src.health import increment_battlelog_count
+from src.collection.health import increment_battlelog_count
 
 
 def main():

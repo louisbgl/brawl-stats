@@ -11,7 +11,7 @@ Deduplication key: battleTime (a player can only be in one battle at a time).
 import json
 from pathlib import Path
 from datetime import datetime, timezone
-from src.api import api_call
+from src.collection.api import api_call
 from src.aggregation.compression import save_compressed, load_compressed
 
 STORE_DIR = Path(__file__).parent.parent.parent / "data" / "raw" / "battlelogs"
