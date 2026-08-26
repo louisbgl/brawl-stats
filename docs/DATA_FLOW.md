@@ -605,24 +605,146 @@
 
 ## Achievements Tab
 
-**Status:** TBD - Not yet specified
+**Summary:** Timeline of player milestones (new brawlers, prestige levels, maxed brawlers, items unlocked, trophy milestones). Filterable by player, date range, and achievement type.
 
-**Notes:**
-- Achievement generation script currently broken (suspected API change)
-- Needs investigation before defining aggregation contract
+### Data Source
+
+**File:** `data/achievements.json` (copied as-is from raw data, no transformation)
+
+**Size:** ~150 KB (3747 achievements as of Aug 2026)
+
+**Structure:** Array of achievement objects
+```json
+{
+  "date": "2026-08-14",
+  "player_tag": "#98QG0VCJ2",
+  "player_name": "JOEL | køkønut",
+  "type": "new_brawler",
+  "brawler": "WENDY",
+  "item_name": null,  // For gadget/star_power/hypercharge
+  "item_id": null,
+  "prestige_level": null,  // For prestige/first_prestige_level
+  "milestone_value": null  // For trophy_milestone/total_prestiges
+}
+```
+
+### Filters (Client-Side)
+
+1. **Player Dropdown:** All players + "All Players" option
+2. **Date Range:** All time / Last 7 days / Last 30 days
+3. **Type Checkboxes (9 types):**
+   - Trophy Milestones (🏅)
+   - First Prestige Levels (⭐)
+   - Total Prestiges (💎)
+   - Prestige (🏆)
+   - Maxed Brawlers (👑)
+   - New Brawlers (🎮)
+   - Hypercharges (icon)
+   - Star Powers (icon)
+   - Gadgets (icon)
+
+### Display
+
+- Grouped by date (newest first)
+- Each achievement shows: icon + player name + description
+- Count of filtered achievements in header
+- Achievements description examples:
+  - "Unlocked WENDY"
+  - "Maxed out NORI"
+  - "Got gadget WIND-POWERED for WENDY"
+  - "Reached prestige 2 with COLT"
+  - "Reached 30k trophies"
+
+**Aggregation Strategy:** Send entire `achievements.json` unchanged. No pre-filtering or bucketing—users need access to all achievements for flexible filtering.
 
 ---
 
 ## Battles Tab
 
-**Status:** TBD - Not yet specified
+**Summary:** Paginated battle feed with filters. Starts with last 7 days, loads more in 7-day increments. Deduplicates shared battles (multiple tracked players in same match).
+
+### Data Source
+
+**Files:** `data/aggregated/battles/*.json` (5 files total)
+
+**Structure:** 7-day segments + older catchall
+```
+data/aggregated/battles/
+  recent.json              # Last 7 days (auto-loaded, ~30-50 KB)
+  2026-08-12_2026-08-18.json  # Previous week
+  2026-08-05_2026-08-11.json  # Week before that
+  2026-07-29_2026-08-04.json  # 4th week back
+  older.json               # Everything beyond 4 weeks (lazy-load)
+```
+
+**File Format:** Array of deduplicated battle entries
+```json
+{
+  "battleTime": "20260826T134521.000Z",
+  "event": {
+    "id": 15000123,
+    "mode": "brawlBall",
+    "map": "Sneaky Fields"
+  },
+  "battle": {
+    "type": "ranked",
+    "result": "victory",
+    "trophyChange": 8,
+    "teams": [
+      [
+        {"tag": "#LLJGJQVY", "name": "JOEL | Escorte", "brawler": {"name": "NAJIA", "power": 11, "trophies": 1234}},
+        {"tag": "#98QG0VCJ2", "name": "JOEL | køkønut", "brawler": {"name": "COLT", "power": 11, "trophies": 2143}},
+        {"tag": "#EXTERNAL1", ...}
+      ],
+      [...opponent team...]
+    ]
+  }
+}
+```
+
+### Deduplication Logic
+
+- **Shared battle key:** `${battleTime}|${event.id}`
+- If multiple tracked players in same battle, keep one entry (all player data already in `teams[]`)
+- Frontend calculates coPlayers on render by checking which tracked players appear in battle
+
+### Filters (Client-Side)
+
+1. **Player Dropdown:** All players + "All Players" (with deduplication for shared games)
+2. **Mode Dropdown:** All modes (dynamically detected from loaded battles)
+3. **Type Dropdown:** All / Ladder (ranked) / Competitive Ranked (soloRanked) / Friendly / Events
+4. **Result Dropdown:** All / Wins / Losses / Draws
+
+### Display & Pagination
+
+**Initial Load:**
+- Fetch `recent.json` (last 7 days)
+- Show battles grouped by day (newest first)
+- Display: timestamp, mode badge, player brawler, result badge, trophy change, coPlayers (if any)
+
+**Load More:**
+- Button: "Load 7 More Days" → fetch next segment
+- Button: "Load All" → fetch remaining segments in parallel
+- Date range label updates: "Last 7 Days" → "08/12 - 08/26 (14 days)" → "All Battles"
+
+**Aggregation Strategy:**
+- Merge all player battlelogs into single timeline
+- Deduplicate shared battles
+- Segment chronologically (4 recent weeks + older catchall)
+- No coPlayers array (frontend calculates from `teams[]`)
+
+**Size Estimates:**
+- Recent 7 days: ~30-50 KB (most active week)
+- Each 7-day segment: ~20-40 KB
+- Older.json: ~1-2 MB (months of history)
+- Total initial load: 30-50 KB (vs 4 MB for full battlelogs)
 
 ---
 
-**Last Updated:** 2026-08-25
+**Last Updated:** 2026-08-26
 **Status:**
 - ✅ Overview Tab complete
 - ✅ Player Stats Tab complete (12 sections)
 - ❌ Timelines Tab removed (not planned)
-- 🔴 Achievements Tab TBD (generation script broken)
-- ⏸️ Battles Tab TBD
+- ✅ Achievements Tab complete (pass-through, no aggregation)
+- ✅ Battles Tab complete (deduplicated 7-day segments)
