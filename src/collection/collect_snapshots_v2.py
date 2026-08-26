@@ -116,14 +116,11 @@ def main():
     # Write compressed dated file (overwrites if exists)
     save_compressed(snapshot_dict, output_file)
 
-    # Write/update latest.json as uncompressed (quick access for debugging)
-    with open(latest_file, 'w') as f:
-        json.dump(snapshot_dict, f, indent=2)
-
-    # Write metadata file for auto-refresh detection
-    metadata_file = os.path.join(snapshots_dir, "_last_updated.json")
+    # Write metadata file (timestamp of collection)
+    metadata_file = os.path.join(metadata_dir, "snapshots.json")
     metadata = {
         "last_collection": datetime.now(ZoneInfo('UTC')).isoformat(),
+        "timestamp": snapshot_dict['timestamp'],
         "date": date_str,
         "total_players": sum(len(club['members']) for club in daily_snapshot['clubs']) + len(daily_snapshot['individual_players'])
     }

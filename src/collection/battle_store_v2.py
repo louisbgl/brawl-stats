@@ -15,7 +15,8 @@ from src.api import api_call
 from src.aggregation.compression import save_compressed, load_compressed
 
 STORE_DIR = Path(__file__).parent.parent.parent / "data" / "raw" / "battlelogs"
-METADATA_FILE = STORE_DIR / "_last_updated.json"
+METADATA_DIR = Path(__file__).parent.parent.parent / "data" / "raw" / "metadata"
+METADATA_FILE = METADATA_DIR / "battlelogs.json"
 
 
 def _tag_to_filename(tag: str) -> Path:
@@ -64,7 +65,7 @@ def write_metadata(total_players: int, total_new_battles: int):
     Write metadata file with timestamp of last collection run.
     This file is always updated to ensure git commits happen every run.
     """
-    STORE_DIR.mkdir(parents=True, exist_ok=True)
+    METADATA_DIR.mkdir(parents=True, exist_ok=True)
     metadata = {
         "last_collection": datetime.now(timezone.utc).isoformat(),
         "players_checked": total_players,

@@ -1129,21 +1129,21 @@ class Aggregator:
         # First snapshot date
         first_snapshot_date = snapshot_files[0].name.replace('.json.gz', '')
 
-        # Load collection metadata from raw/metadata/latest.json
-        latest_meta_path = self.raw_dir / "metadata" / "latest.json"
+        # Load collection metadata from raw/metadata/snapshots.json
+        snapshot_meta_path = self.raw_dir / "metadata" / "snapshots.json"
         snapshot_timestamp = None
-        if latest_meta_path.exists():
-            with open(latest_meta_path) as f:
-                latest_meta = json.load(f)
-                snapshot_timestamp = latest_meta.get('timestamp')
+        if snapshot_meta_path.exists():
+            with open(snapshot_meta_path) as f:
+                snapshot_meta = json.load(f)
+                snapshot_timestamp = snapshot_meta.get('timestamp')
 
         # Fallback: use latest snapshot date at midnight
         if not snapshot_timestamp:
             latest_snapshot_date = snapshot_files[-1].name.replace('.json.gz', '')
             snapshot_timestamp = datetime.strptime(latest_snapshot_date, '%Y-%m-%d').replace(tzinfo=timezone.utc).isoformat()
 
-        # Load battlelogs/_last_updated.json for battlelog timestamp
-        battlelog_meta_path = Path('data/battlelogs/_last_updated.json')
+        # Load metadata/battlelogs.json for battlelog timestamp
+        battlelog_meta_path = self.raw_dir / "metadata" / "battlelogs.json"
         battlelog_timestamp = None
         if battlelog_meta_path.exists():
             with open(battlelog_meta_path) as f:
