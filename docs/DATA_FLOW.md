@@ -670,11 +670,11 @@
 **Structure:** 7-day segments + older catchall
 ```
 data/aggregated/battles/
-  recent.json              # Last 7 days (auto-loaded, ~30-50 KB)
-  2026-08-12_2026-08-18.json  # Previous week
-  2026-08-05_2026-08-11.json  # Week before that
-  2026-07-29_2026-08-04.json  # 4th week back
-  older.json               # Everything beyond 4 weeks (lazy-load)
+  recent.json   # Last 7 days (auto-loaded)
+  week-2.json   # 8-14 days ago
+  week-3.json   # 15-21 days ago
+  week-4.json   # 22-28 days ago
+  older.json    # 29+ days ago (lazy-load)
 ```
 
 **File Format:** Array of deduplicated battle entries

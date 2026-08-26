@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Dict, List, Set, Any, Optional
 from datetime import datetime, timezone
 from collections import defaultdict, Counter
+from dataclasses import dataclass, asdict
 import sys
 
 # Add project root to path
@@ -87,6 +88,283 @@ class Validator:
             print("\n✅ All validations passed")
 
         return len(self.errors) == 0
+
+
+@dataclass
+class Achievement:
+    """Represents a single achievement milestone"""
+    date: str  # YYYY-MM-DD
+    player_tag: str
+    player_name: str
+    type: str  # achievement type
+    brawler: Optional[str] = None
+    item_name: Optional[str] = None
+    item_id: Optional[int] = None
+    prestige_level: Optional[int] = None
+    milestone_value: Optional[int] = None
+
+    def to_dict(self):
+        """Convert to dict, excluding None values"""
+        return {k: v for k, v in asdict(self).items() if v is not None}
+
+
+class AchievementHelper:
+    """Helper for generating achievements from snapshot comparisons"""
+
+    def __init__(self, brawlers_ref: Dict):
+        self.brawlers_ref = brawlers_ref
+        self.achievements: List[Achievement] = []
+        self.achievement_keys: Set[str] = set()
+
+    def _extract_item_ids(self, items: any) -> Set[int]:
+        """Extract item IDs from either format: [id1, id2] or [{id, name}, ...]"""
+        if not items:
+            return set()
+        if isinstance(items, list) and len(items) > 0:
+            if isinstance(items[0], dict):
+                return {item['id'] for item in items}
+            else:
+                return set(items)
+        return set()
+
+    def _get_item_name(self, item_id: int, item_type: str) -> Optional[str]:
+        """Resolve item name from ID using brawlers.json"""
+        for brawler_data in self.brawlers_ref.get('items', []):
+            if item_type == 'gadget':
+                for gadget in brawler_data.get('gadgets', []):
+                    if gadget['id'] == item_id:
+                        return gadget['name']
+            elif item_type == 'star_power':
+                for sp in brawler_data.get('starPowers', []):
+                    if sp['id'] == item_id:
+                        return sp['name']
+            elif item_type == 'hypercharge':
+                for hc in brawler_data.get('hyperCharges', []):
+                    if hc['id'] == item_id:
+                        return hc.get('name', 'Hypercharge')
+        return None
+
+    def _is_brawler_maxed(self, brawler: Dict) -> bool:
+        """Check if brawler is fully maxed (P11 + 2 gadgets + 2 star powers + hypercharge)"""
+        gadgets = self._extract_item_ids(brawler.get('gadgets') or brawler.get('gadget_ids'))
+        sps = self._extract_item_ids(brawler.get('starPowers') or brawler.get('star_power_ids'))
+        hcs = self._extract_item_ids(brawler.get('hyperCharges') or brawler.get('hyper_charge_ids'))
+
+        return (
+            brawler.get('power') == 11 and
+            len(gadgets) >= 2 and
+            len(sps) >= 2 and
+            len(hcs) >= 1
+        )
+
+    def _get_prestige_level(self, trophies: int) -> int:
+        """Calculate prestige level from trophy count"""
+        if trophies < 1000:
+            return 0
+        return trophies // 1000
+
+    def _create_achievement_key(self, achievement: Achievement) -> str:
+        """Create unique key for deduplication"""
+        key_parts = [achievement.player_tag, achievement.type]
+        if achievement.brawler is not None:
+            key_parts.append(achievement.brawler)
+        if achievement.item_id is not None:
+            key_parts.append(str(achievement.item_id))
+        if achievement.prestige_level is not None:
+            key_parts.append(str(achievement.prestige_level))
+        if achievement.milestone_value is not None:
+            key_parts.append(str(achievement.milestone_value))
+        return "|".join(key_parts)
+
+    def _add_achievement(self, achievement: Achievement) -> bool:
+        """Add achievement if doesn't exist. Returns True if added."""
+        key = self._create_achievement_key(achievement)
+        if key in self.achievement_keys:
+            return False
+        self.achievement_keys.add(key)
+        self.achievements.append(achievement)
+        return True
+
+    def _get_all_players(self, snapshot: Dict) -> List[Dict]:
+        """Extract all players from snapshot"""
+        players = []
+        for club in snapshot.get('clubs', []):
+            players.extend(club.get('members', []))
+        players.extend(snapshot.get('individual_players', []))
+        return players
+
+    def compare_snapshots(self, date: str, prev_snapshot: Dict, curr_snapshot: Dict) -> int:
+        """Compare two snapshots and detect achievements. Returns count of new achievements found."""
+        prev_players = {p['tag']: p for p in self._get_all_players(prev_snapshot)}
+        curr_players = {p['tag']: p for p in self._get_all_players(curr_snapshot)}
+
+        new_count = 0
+
+        for tag, curr_player in curr_players.items():
+            prev_player = prev_players.get(tag)
+            if not prev_player:
+                continue
+
+            player_name = curr_player['name']
+
+            # Build brawler lookups
+            prev_brawlers = {b['name']: b for b in prev_player.get('brawlers', [])}
+            curr_brawlers = {b['name']: b for b in curr_player.get('brawlers', [])}
+
+            # Detect new brawlers
+            new_brawler_names = set(curr_brawlers.keys()) - set(prev_brawlers.keys())
+            for brawler_name in new_brawler_names:
+                if self._add_achievement(Achievement(
+                    date=date,
+                    player_tag=tag,
+                    player_name=player_name,
+                    type="new_brawler",
+                    brawler=brawler_name
+                )):
+                    new_count += 1
+
+            # Compare existing brawlers
+            for brawler_name, curr_brawler in curr_brawlers.items():
+                prev_brawler = prev_brawlers.get(brawler_name)
+
+                # Check if became maxed (only for existing brawlers)
+                if prev_brawler:
+                    if not self._is_brawler_maxed(prev_brawler) and self._is_brawler_maxed(curr_brawler):
+                        if self._add_achievement(Achievement(
+                            date=date,
+                            player_tag=tag,
+                            player_name=player_name,
+                            type="maxed_brawler",
+                            brawler=brawler_name
+                        )):
+                            new_count += 1
+
+                # Check new items (including on new brawlers)
+                prev_gadgets = self._extract_item_ids(prev_brawler.get('gadgets') or prev_brawler.get('gadget_ids')) if prev_brawler else set()
+                curr_gadgets = self._extract_item_ids(curr_brawler.get('gadgets') or curr_brawler.get('gadget_ids'))
+                for gadget_id in curr_gadgets - prev_gadgets:
+                    item_name = self._get_item_name(gadget_id, 'gadget')
+                    if self._add_achievement(Achievement(
+                        date=date,
+                        player_tag=tag,
+                        player_name=player_name,
+                        type="gadget",
+                        brawler=brawler_name,
+                        item_name=item_name,
+                        item_id=gadget_id
+                    )):
+                        new_count += 1
+
+                prev_sps = self._extract_item_ids(prev_brawler.get('starPowers') or prev_brawler.get('star_power_ids')) if prev_brawler else set()
+                curr_sps = self._extract_item_ids(curr_brawler.get('starPowers') or curr_brawler.get('star_power_ids'))
+                for sp_id in curr_sps - prev_sps:
+                    item_name = self._get_item_name(sp_id, 'star_power')
+                    if self._add_achievement(Achievement(
+                        date=date,
+                        player_tag=tag,
+                        player_name=player_name,
+                        type="star_power",
+                        brawler=brawler_name,
+                        item_name=item_name,
+                        item_id=sp_id
+                    )):
+                        new_count += 1
+
+                prev_hcs = self._extract_item_ids(prev_brawler.get('hyperCharges') or prev_brawler.get('hyper_charge_ids')) if prev_brawler else set()
+                curr_hcs = self._extract_item_ids(curr_brawler.get('hyperCharges') or curr_brawler.get('hyper_charge_ids'))
+                for hc_id in curr_hcs - prev_hcs:
+                    item_name = self._get_item_name(hc_id, 'hypercharge')
+                    if self._add_achievement(Achievement(
+                        date=date,
+                        player_tag=tag,
+                        player_name=player_name,
+                        type="hypercharge",
+                        brawler=brawler_name,
+                        item_name=item_name,
+                        item_id=hc_id
+                    )):
+                        new_count += 1
+
+                # Prestige milestones (only for existing brawlers)
+                if prev_brawler:
+                    prev_prestige = self._get_prestige_level(prev_brawler.get('trophies', 0))
+                    curr_prestige = self._get_prestige_level(curr_brawler.get('trophies', 0))
+
+                    for prestige_level in range(prev_prestige + 1, curr_prestige + 1):
+                        if self._add_achievement(Achievement(
+                            date=date,
+                            player_tag=tag,
+                            player_name=player_name,
+                            type="prestige",
+                            brawler=brawler_name,
+                            prestige_level=prestige_level
+                        )):
+                            new_count += 1
+
+            # Account-level achievements
+
+            # Trophy milestones (every 10k)
+            prev_trophies = prev_player.get('trophies', 0)
+            curr_trophies = curr_player.get('trophies', 0)
+            prev_milestone = (prev_trophies // 10000) * 10000
+            curr_milestone = (curr_trophies // 10000) * 10000
+
+            for milestone in range(prev_milestone + 10000, curr_milestone + 10000, 10000):
+                if milestone > 0:
+                    if self._add_achievement(Achievement(
+                        date=date,
+                        player_tag=tag,
+                        player_name=player_name,
+                        type="trophy_milestone",
+                        milestone_value=milestone
+                    )):
+                        new_count += 1
+
+            # First prestige level achievements (P2, P3, P4, P5+)
+            prev_prestige_counts = {}
+            curr_prestige_counts = {}
+
+            for brawler in prev_player.get('brawlers', []):
+                prestige = self._get_prestige_level(brawler.get('trophies', 0))
+                if prestige > 0:
+                    prev_prestige_counts[prestige] = prev_prestige_counts.get(prestige, 0) + 1
+
+            for brawler in curr_player.get('brawlers', []):
+                prestige = self._get_prestige_level(brawler.get('trophies', 0))
+                if prestige > 0:
+                    curr_prestige_counts[prestige] = curr_prestige_counts.get(prestige, 0) + 1
+
+            # Check for first time reaching each prestige level (P2+)
+            for prestige_level in range(2, 8):  # P2 through P7
+                if curr_prestige_counts.get(prestige_level, 0) > 0 and prev_prestige_counts.get(prestige_level, 0) == 0:
+                    if self._add_achievement(Achievement(
+                        date=date,
+                        player_tag=tag,
+                        player_name=player_name,
+                        type="first_prestige_level",
+                        prestige_level=prestige_level
+                    )):
+                        new_count += 1
+
+            # Total prestige milestones (every 10 prestiges)
+            prev_total_prestiges = sum(self._get_prestige_level(b.get('trophies', 0)) for b in prev_player.get('brawlers', []))
+            curr_total_prestiges = sum(self._get_prestige_level(b.get('trophies', 0)) for b in curr_player.get('brawlers', []))
+
+            prev_prestige_milestone = (prev_total_prestiges // 10) * 10
+            curr_prestige_milestone = (curr_total_prestiges // 10) * 10
+
+            for milestone in range(prev_prestige_milestone + 10, curr_prestige_milestone + 10, 10):
+                if milestone > 0:
+                    if self._add_achievement(Achievement(
+                        date=date,
+                        player_tag=tag,
+                        player_name=player_name,
+                        type="total_prestiges",
+                        milestone_value=milestone
+                    )):
+                        new_count += 1
+
+        return new_count
 
 
 class Aggregator:
@@ -620,6 +898,144 @@ class Aggregator:
 
         return {'brawlers': brawlers_data}
 
+    def generate_achievements(self):
+        """Generate achievements by comparing compressed snapshots"""
+        print("\n📊 Generating achievements...")
+
+        # Get all compressed snapshots sorted by date
+        snapshot_files = self._get_all_snapshot_files()
+
+        if len(snapshot_files) < 2:
+            print("  ⚠️  Need at least 2 snapshots to compare")
+            return False
+
+        print(f"  Found {len(snapshot_files)} snapshots")
+
+        # Initialize helper
+        helper = AchievementHelper(self.brawlers_ref)
+
+        # Compare consecutive snapshots
+        total_new = 0
+        for i in range(1, len(snapshot_files)):
+            prev_date = snapshot_files[i - 1].name.replace('.json.gz', '')
+            curr_date = snapshot_files[i].name.replace('.json.gz', '')
+
+            prev_snapshot = load_compressed(snapshot_files[i - 1])
+            curr_snapshot = load_compressed(snapshot_files[i])
+
+            if not prev_snapshot or not curr_snapshot:
+                continue
+
+            # Generate achievements for this date pair
+            count = helper.compare_snapshots(prev_date, prev_snapshot, curr_snapshot)
+            total_new += count
+
+        # Save to aggregated output
+        dest = self.agg_dir / "achievements.json"
+        achievements_data = [a.to_dict() for a in helper.achievements]
+        achievements_data.sort(key=lambda x: x['date'])
+
+        with open(dest, 'w', encoding='utf-8') as f:
+            json.dump(achievements_data, f, indent=2, ensure_ascii=False)
+
+        size_kb = dest.stat().st_size / 1024
+        print(f"  ✓ Generated {len(achievements_data)} achievements ({size_kb:.1f} KB)")
+        return True
+
+    def generate_battles(self):
+        """Generate deduplicated 7-day battle segments"""
+        print("\n📊 Generating battle segments...")
+
+        # Build player index from latest snapshot
+        snapshot = self._load_latest_snapshot()
+        player_index = {p['tag']: p['name'] for p in self._get_all_players(snapshot)}
+
+        # Collect all battles from all players
+        all_battles = []
+
+        for tag in player_index.keys():
+            battles = self._load_battlelog(tag)
+            all_battles.extend(battles)
+
+        print(f"  Loaded {len(all_battles)} total battles from {len(player_index)} players")
+
+        # Deduplicate by battleTime + event.id
+        seen_keys = {}
+        deduplicated = []
+
+        for battle in all_battles:
+            battle_time = battle.get('battleTime')
+            event_id = battle.get('event', {}).get('id')
+
+            if not battle_time or not event_id:
+                continue
+
+            key = f"{battle_time}|{event_id}"
+
+            if key not in seen_keys:
+                seen_keys[key] = True
+                deduplicated.append(battle)
+
+        print(f"  Deduplicated: {len(all_battles)} → {len(deduplicated)} battles ({len(all_battles) - len(deduplicated)} removed)")
+
+        # Sort by battleTime descending (newest first)
+        deduplicated.sort(key=lambda b: b.get('battleTime', ''), reverse=True)
+
+        # Segment into 7-day buckets
+        from datetime import timedelta
+
+        now = datetime.now(timezone.utc)
+        segments = {
+            'recent': [],  # Last 7 days
+            'week2': [],   # 8-14 days ago
+            'week3': [],   # 15-21 days ago
+            'week4': [],   # 22-28 days ago
+            'older': []    # 29+ days ago
+        }
+
+        for battle in deduplicated:
+            battle_time_str = battle.get('battleTime', '')
+            try:
+                # Parse API timestamp: "20260826T134521.000Z"
+                battle_time = datetime.strptime(battle_time_str, '%Y%m%dT%H%M%S.%fZ').replace(tzinfo=timezone.utc)
+                days_ago = (now - battle_time).days
+
+                if days_ago < 7:
+                    segments['recent'].append(battle)
+                elif days_ago < 14:
+                    segments['week2'].append(battle)
+                elif days_ago < 21:
+                    segments['week3'].append(battle)
+                elif days_ago < 28:
+                    segments['week4'].append(battle)
+                else:
+                    segments['older'].append(battle)
+            except:
+                # If parsing fails, put in older
+                segments['older'].append(battle)
+
+        # Save segments with predictable filenames
+        battles_dir = self.agg_dir / "battles"
+
+        self._save_json(segments['recent'], battles_dir / "recent.json")
+        print(f"  ✓ recent.json: {len(segments['recent'])} battles")
+
+        if segments['week2']:
+            self._save_json(segments['week2'], battles_dir / "week-2.json")
+            print(f"  ✓ week-2.json: {len(segments['week2'])} battles")
+
+        if segments['week3']:
+            self._save_json(segments['week3'], battles_dir / "week-3.json")
+            print(f"  ✓ week-3.json: {len(segments['week3'])} battles")
+
+        if segments['week4']:
+            self._save_json(segments['week4'], battles_dir / "week-4.json")
+            print(f"  ✓ week-4.json: {len(segments['week4'])} battles")
+
+        if segments['older']:
+            self._save_json(segments['older'], battles_dir / "older.json")
+            print(f"  ✓ older.json: {len(segments['older'])} battles")
+
     def generate_all(self):
         """Main entry point - generate all aggregated files"""
         print("=" * 60)
@@ -661,6 +1077,12 @@ class Aggregator:
 
             if i % 5 == 0:
                 print(f"  Progress: {i}/{len(player_index)}")
+
+        # 4. Achievements (generated from snapshots)
+        self.generate_achievements()
+
+        # 5. Battles (deduplicated segments)
+        self.generate_battles()
 
         # Validation report
         print("\n" + "=" * 60)
