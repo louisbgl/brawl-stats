@@ -163481,5 +163481,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260826T115716.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 254,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#2UVC82VVVG",
+        "name": "henpig",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 1661
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PQ0LUY2P8",
+            "name": "meriivess",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 10,
+              "trophies": 755
+            }
+          },
+          {
+            "tag": "#CJLP2RJ",
+            "name": "Meni",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 9,
+              "trophies": 917
+            }
+          },
+          {
+            "tag": "#2Q0CURGRCC",
+            "name": "Pierce",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 10,
+              "trophies": 522
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1113
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 792
+            }
+          },
+          {
+            "tag": "#2UVC82VVVG",
+            "name": "henpig",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1661
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
