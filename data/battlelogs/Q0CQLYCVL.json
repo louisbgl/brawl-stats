@@ -383085,5 +383085,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260826T103213.000Z",
+    "event": {
+      "id": 15001173,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Konnakol"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 113,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#2V00V0UY9G",
+        "name": "хакер666",
+        "brawler": {
+          "id": 16000058,
+          "name": "BONNIE",
+          "power": 11,
+          "trophies": 1159
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V00V0UY9G",
+            "name": "хакер666",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 11,
+              "trophies": 1159
+            }
+          },
+          {
+            "tag": "#2UJ288PQUL",
+            "name": "читерша777",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 10,
+              "trophies": 1621
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 446
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P2JVGUPGY",
+            "name": "hdkut",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 740
+            }
+          },
+          {
+            "tag": "#9U0JR80PC",
+            "name": "быстрый матрас",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 870
+            }
+          },
+          {
+            "tag": "#LLP9GQJP9",
+            "name": "nev",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 897
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260826T103456.000Z",
+    "event": {
+      "id": 15001173,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Konnakol"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 140,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#90YY2PRCL",
+        "name": "васька про",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 1958
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9CJUJ0V09",
+            "name": "Alejandro",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 9,
+              "trophies": 348
+            }
+          },
+          {
+            "tag": "#L9J2PYU92",
+            "name": "дед",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 919
+            }
+          },
+          {
+            "tag": "#90YY2PRCL",
+            "name": "васька про",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1958
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V00V0UY9G",
+            "name": "хакер666",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 11,
+              "trophies": 1172
+            }
+          },
+          {
+            "tag": "#2UJ288PQUL",
+            "name": "читерша777",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 10,
+              "trophies": 1634
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 459
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
