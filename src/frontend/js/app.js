@@ -18,19 +18,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         // 4. Update global header data (freshness, tracking since)
         updateHeaderData();
 
-        // 5. Render default tab (Overview)
-        if (typeof OverviewManager !== 'undefined') {
-            OverviewManager.render();
+        // 5. Setup tab navigation with routing
+        setupTabNavigation();
+
+        // 6. Initialize router (handles initial tab render)
+        if (typeof Router !== 'undefined') {
+            Router.init();
         }
 
-        // 5. Background data loads (optional for v2 - achievements)
-        DataLoader.loadAchievements().then((achievements) => {
-            console.log('Background achievements load complete:', achievements.length, 'events');
-            // Could update achievement count here if needed
-        });
-
-        // 6. Setup tab navigation
-        setupTabNavigation();
+        // 7. Background data loads (optional for v2 - achievements)
+        DataLoader.loadAchievements();
 
     } catch (error) {
         console.error('Failed to initialize app:', error);
@@ -85,42 +82,12 @@ function getTimeAgo(isoTimestamp) {
 
 function setupTabNavigation() {
     const tabs = document.querySelectorAll('.tab');
-    const tabContents = document.querySelectorAll('.tab-content');
 
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
-            // Remove active class from all tabs and contents
-            tabs.forEach(t => t.classList.remove('active'));
-            tabContents.forEach(tc => tc.classList.remove('active'));
-
-            // Add active class to clicked tab
-            tab.classList.add('active');
-
-            // Show corresponding content
             const tabName = tab.dataset.tab;
-            const content = document.getElementById(tabName);
-            if (content) {
-                content.classList.add('active');
-            }
-
-            // Trigger tab-specific loading
-            switch(tabName) {
-                case 'overview':
-                    if (typeof OverviewManager !== 'undefined') {
-                        OverviewManager.render();
-                    }
-                    break;
-                case 'player':
-                    console.log('Players tab - not implemented yet');
-                    break;
-                case 'achievements':
-                    if (typeof AchievementsManager !== 'undefined') {
-                        AchievementsManager.render();
-                    }
-                    break;
-                case 'battles':
-                    console.log('Battles tab - not implemented yet');
-                    break;
+            if (typeof Router !== 'undefined') {
+                Router.updateURL(tabName);
             }
         });
     });

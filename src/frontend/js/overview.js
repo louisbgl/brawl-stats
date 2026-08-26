@@ -14,8 +14,6 @@ const OverviewManager = {
             return;
         }
 
-        console.log('Rendering Overview tab with data:', clubSummary);
-
         this.renderStatCards(clubSummary);
         this.renderChartPlaceholders();
     },
@@ -47,8 +45,6 @@ const OverviewManager = {
         this.updateStatCard('fav-mode', {
             value: stats.fav_mode
         });
-
-        console.log('Stat cards updated from quick_stats:', stats);
     },
 
     /**

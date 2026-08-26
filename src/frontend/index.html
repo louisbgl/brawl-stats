@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="src/frontend/css/base.css">
     <link rel="stylesheet" href="src/frontend/css/overview.css">
     <link rel="stylesheet" href="src/frontend/css/achievements.css">
+    <link rel="stylesheet" href="src/frontend/css/battles.css">
 </head>
 <body>
     <!-- Loading Overlay -->
@@ -100,9 +101,8 @@
 
         <!-- Tab: Battles -->
         <div id="battles" class="tab-content">
-            <div class="wip-notice">
-                <h3>Battles</h3>
-                <p class="text-secondary">Paginated battle feed with mode/result filters</p>
+            <div id="battlesContainer">
+                <div class="loading">Loading battles...</div>
             </div>
         </div>
     </div>
@@ -110,6 +110,8 @@
     <script src="src/frontend/js/data.js"></script>
     <script src="src/frontend/js/overview.js"></script>
     <script src="src/frontend/js/achievements.js"></script>
+    <script src="src/frontend/js/battles.js"></script>
+    <script src="src/frontend/js/router.js"></script>
     <script src="src/frontend/js/app.js"></script>
 </body>
 </html>

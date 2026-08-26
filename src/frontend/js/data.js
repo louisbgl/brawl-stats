@@ -32,11 +32,6 @@ const DataLoader = {
             this.cache.playerIndex = playerIndex;
             this.cache.brawlers = brawlers;
 
-            console.log('✓ Critical data loaded:', {
-                metadata: metadata,
-                playerIndex: playerIndex,
-                brawlers: brawlers
-            });
 
             return { metadata, playerIndex, brawlers };
         } catch (error) {
@@ -60,9 +55,7 @@ const DataLoader = {
             return this.cache.clubSummary;
         }
 
-        console.log('Loading club-summary.json...');
         this.cache.clubSummary = await fetch('data/aggregated/club-summary.json').then(r => r.json());
-        console.log('✓ Club summary loaded');
 
         return this.cache.clubSummary;
     },
@@ -120,17 +113,12 @@ const DataLoader = {
      */
     async loadBattleSegment(segment) {
         if (this.cache.battles[segment]) {
-            console.log(`✓ Battle segment ${segment} (from cache):`, this.cache.battles[segment].length, 'battles');
             return this.cache.battles[segment];
         }
-
-        console.log(`Loading battle segment: ${segment}...`);
 
         try {
             const battles = await fetch(`data/aggregated/battles/${segment}.json`).then(r => r.json());
             this.cache.battles[segment] = battles;
-
-            console.log(`✓ Battle segment ${segment} loaded:`, battles.length, 'battles');
 
             return battles;
         } catch (error) {
@@ -165,17 +153,12 @@ const DataLoader = {
      */
     async loadAchievements() {
         if (this.cache.achievements) {
-            console.log('✓ Achievements (from cache):', this.cache.achievements.length, 'events');
             return this.cache.achievements;
         }
-
-        console.log('Loading achievements...');
 
         try {
             const achievements = await fetch('data/aggregated/achievements.json').then(r => r.json());
             this.cache.achievements = achievements;
-
-            console.log('✓ Achievements loaded:', achievements.length, 'events');
 
             return achievements;
         } catch (error) {

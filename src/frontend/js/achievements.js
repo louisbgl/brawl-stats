@@ -12,7 +12,7 @@ const AchievementsManager = {
         dateRange: 'all'
     },
 
-    async render() {
+    async render(urlFilters = []) {
         const achievements = await DataLoader.loadAchievements();
         if (!achievements) {
             console.error('Cannot render Achievements: achievements.json not loaded');
@@ -20,6 +20,31 @@ const AchievementsManager = {
         }
 
         this.achievements = achievements;
+
+        // Parse URL filters: [player, dateRange, types]
+        if (urlFilters.length > 0) {
+            this.currentFilters.player = urlFilters[0] || 'all';
+            this.currentFilters.dateRange = urlFilters[1] || 'all';
+
+            if (urlFilters[2]) {
+                if (urlFilters[2] === 'none') {
+                    this.currentFilters.types = new Set();
+                } else {
+                    const typesList = urlFilters[2].split(',').filter(t => t);
+                    this.currentFilters.types = new Set(typesList);
+                }
+            } else {
+                this.currentFilters.types = new Set(['new_brawler', 'maxed_brawler', 'gadget', 'star_power', 'hypercharge', 'prestige', 'trophy_milestone', 'first_prestige_level', 'total_prestiges']);
+            }
+        } else {
+            // Reset to defaults
+            this.currentFilters = {
+                player: 'all',
+                types: new Set(['new_brawler', 'maxed_brawler', 'gadget', 'star_power', 'hypercharge', 'prestige', 'trophy_milestone', 'first_prestige_level', 'total_prestiges']),
+                dateRange: 'all'
+            };
+        }
+
         this.applyFilters();
         this.renderHTML();
         this.setupFilterHandlers();
@@ -236,6 +261,14 @@ const AchievementsManager = {
         }
     },
 
+    updateURL() {
+        const types = this.currentFilters.types.size > 0
+            ? Array.from(this.currentFilters.types).join(',')
+            : 'none';
+        const url = `achievements/${this.currentFilters.player}/${this.currentFilters.dateRange}/${types}`;
+        window.location.hash = url;
+    },
+
     setupFilterHandlers() {
         // Player filter
         const playerFilter = document.getElementById('playerFilter');
@@ -243,6 +276,7 @@ const AchievementsManager = {
             playerFilter.addEventListener('change', (e) => {
                 this.currentFilters.player = e.target.value;
                 this.applyFilters();
+                this.updateURL();
                 this.renderHTML();
                 this.setupFilterHandlers();
             });
@@ -254,6 +288,7 @@ const AchievementsManager = {
             dateFilter.addEventListener('change', (e) => {
                 this.currentFilters.dateRange = e.target.value;
                 this.applyFilters();
+                this.updateURL();
                 this.renderHTML();
                 this.setupFilterHandlers();
             });
@@ -265,6 +300,7 @@ const AchievementsManager = {
             selectAllBtn.addEventListener('click', () => {
                 this.currentFilters.types = new Set(['new_brawler', 'maxed_brawler', 'gadget', 'star_power', 'hypercharge', 'prestige', 'trophy_milestone', 'first_prestige_level', 'total_prestiges']);
                 this.applyFilters();
+                this.updateURL();
                 this.renderHTML();
                 this.setupFilterHandlers();
             });
@@ -276,6 +312,7 @@ const AchievementsManager = {
             deselectAllBtn.addEventListener('click', () => {
                 this.currentFilters.types.clear();
                 this.applyFilters();
+                this.updateURL();
                 this.renderHTML();
                 this.setupFilterHandlers();
             });
@@ -292,6 +329,7 @@ const AchievementsManager = {
                     this.currentFilters.types.delete(type);
                 }
                 this.applyFilters();
+                this.updateURL();
                 this.renderHTML();
                 this.setupFilterHandlers();
             });

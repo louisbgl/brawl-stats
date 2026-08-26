@@ -1,0 +1,193 @@
+/* Battles tab - battle feed and filters */
+
+.battle-feed {
+    padding: 20px 0;
+}
+
+.battle-feed h3 {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.battles-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+/* ===== BATTLE CARDS ===== */
+.battle-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    transition: var(--transition);
+}
+
+.battle-card:hover {
+    background: var(--bg-card);
+    border-color: var(--accent-purple);
+}
+
+.battle-card.battle-win {
+    border-left: 3px solid var(--accent-green);
+}
+
+.battle-card.battle-loss {
+    border-left: 3px solid var(--accent-pink);
+}
+
+.battle-card.battle-draw {
+    border-left: 3px solid var(--text-muted);
+}
+
+.battle-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.battle-mode {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.battle-mode-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.battle-map {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.battle-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.battle-time {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.battle-result {
+    font-size: 1.2rem;
+}
+
+.battle-trophy {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.battle-trophy.positive {
+    color: var(--accent-green);
+}
+
+.battle-trophy.negative {
+    color: var(--accent-pink);
+}
+
+/* ===== BATTLE DETAILS ===== */
+.battle-teams {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.battle-team {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.team-separator {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    padding: 0 8px;
+}
+
+.battle-players {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 8px;
+}
+
+.battle-player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 10px;
+    background: var(--bg-primary);
+    border-radius: 6px;
+}
+
+.player-name {
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.player-brawler {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* ===== LOAD MORE ===== */
+.load-more {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.load-more-btn {
+    padding: 12px 32px;
+    background: var(--accent-purple);
+    border: none;
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.load-more-btn:hover {
+    background: #b060ed;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .battle-header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .battle-meta {
+        align-self: flex-start;
+    }
+
+    .battle-teams {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .team-separator {
+        align-self: center;
+    }
+
+    .battle-players {
+        grid-template-columns: 1fr;
+    }
+}
