@@ -1,0 +1,239 @@
+/* Base styles - layout, variables, header, tabs */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Background colors - purple-tinted dark (Brawl Stars inspired) */
+    --bg-primary: #0d0a15;
+    --bg-secondary: #1a1625;
+    --bg-card: #25203a;
+
+    /* Text colors */
+    --text-primary: #f0f0f5;
+    --text-secondary: #a8a8b8;
+    --text-muted: #6e6e7e;
+
+    /* Accent colors - vibrant Brawl Stars palette */
+    --accent-yellow: #ffcc00;
+    --accent-purple: #9d4edd;
+    --accent-cyan: #00d4ff;
+    --accent-pink: #ff3366;
+    --accent-green: #00ff88;
+
+    /* UI elements */
+    --border: #3a3450;
+    --shadow: rgba(0, 0, 0, 0.4);
+
+    /* Transitions */
+    --transition: all 0.2s ease;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ===== HEADER ===== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 10px 0;
+}
+
+.header-left h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+    letter-spacing: -0.5px;
+}
+
+.subtitle {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.freshness {
+    text-align: right;
+}
+
+.freshness-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+    font-size: 0.85rem;
+}
+
+.freshness-label {
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.freshness-value {
+    color: #6bb8db;
+    font-weight: 600;
+}
+
+/* ===== TABS ===== */
+.tabs {
+    display: flex;
+    gap: 8px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid var(--border);
+}
+
+.tab {
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 8px 8px 0 0;
+    transition: var(--transition);
+    position: relative;
+}
+
+.tab::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: transparent;
+    transition: var(--transition);
+}
+
+.tab:hover {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.tab.active {
+    color: var(--accent-yellow);
+    background: rgba(255, 204, 0, 0.1);
+}
+
+.tab.active::after {
+    background: var(--accent-yellow);
+}
+
+/* ===== TAB CONTENT ===== */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* ===== CARDS ===== */
+.card {
+    background: var(--bg-card);
+    border-radius: 12px;
+    padding: 28px;
+    margin-bottom: 24px;
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+.card h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+/* ===== LOADING & PLACEHOLDERS ===== */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: var(--text-secondary);
+}
+
+.placeholder {
+    padding: 80px 20px;
+    text-align: center;
+    background: var(--bg-secondary);
+    border: 2px dashed var(--border);
+    border-radius: 8px;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.wip-notice {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.wip-notice h3 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: var(--accent-purple);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .header-left h1 {
+        font-size: 1.75rem;
+    }
+
+    .freshness {
+        text-align: left;
+    }
+
+    .tabs {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .tab {
+        white-space: nowrap;
+    }
+}

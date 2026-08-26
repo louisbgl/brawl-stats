@@ -3,52 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brawl Stats - Work in Progress</title>
+    <title>Brawl Stats - JOEL Club</title>
     <link rel="icon" type="image/png" href="favicon.png">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            color: white;
-        }
-
-        .container {
-            text-align: center;
-            padding: 2rem;
-        }
-
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-
-        p {
-            font-size: 1.25rem;
-            opacity: 0.9;
-        }
-
-        .icon {
-            font-size: 5rem;
-            margin-bottom: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="src/frontend/css/base.css">
+    <link rel="stylesheet" href="src/frontend/css/overview.css">
+    <link rel="stylesheet" href="src/frontend/css/achievements.css">
 </head>
 <body>
-    <div class="container">
-        <div class="icon">🚧</div>
-        <h1>Work in Progress</h1>
-        <p>v2 rebuild in progress</p>
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading data...</div>
     </div>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <h1>Brawl Stats</h1>
+                <p class="subtitle" id="tracking-since">Tracking since...</p>
+            </div>
+            <div class="header-right">
+                <div class="freshness">
+                    <div class="freshness-item">
+                        <span class="freshness-label">Snapshots:</span>
+                        <span class="freshness-value" id="snapshot-freshness">—</span>
+                    </div>
+                    <div class="freshness-item">
+                        <span class="freshness-label">Battlelogs:</span>
+                        <span class="freshness-value" id="battlelog-freshness">—</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <nav class="tabs">
+            <button class="tab active" data-tab="overview">Overview</button>
+            <button class="tab" data-tab="player">Players</button>
+            <button class="tab" data-tab="achievements">Achievements</button>
+            <button class="tab" data-tab="battles">Battles</button>
+        </nav>
+
+        <!-- Tab: Club Overview -->
+        <div id="overview" class="tab-content active">
+            <div class="stats-row">
+                <div class="stat-card accent-yellow" data-stat="total-members">
+                    <div class="stat-label">Tracked Players</div>
+                    <div class="stat-value">—</div>
+                </div>
+
+                <div class="stat-card accent-purple" data-stat="total-trophies">
+                    <div class="stat-label">Total Trophies</div>
+                    <div class="stat-value">—</div>
+                </div>
+
+                <div class="stat-card accent-cyan" data-stat="total-battles">
+                    <div class="stat-label">Recorded Games</div>
+                    <div class="stat-value">—</div>
+                </div>
+
+                <div class="stat-card accent-pink" data-stat="avg-winrate">
+                    <div class="stat-label">Win Rate</div>
+                    <div class="stat-value">—</div>
+                </div>
+
+                <div class="stat-card accent-green" data-stat="fav-mode">
+                    <div class="stat-label">Favorite Mode</div>
+                    <div class="stat-value">—</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Trophy Progression</h2>
+                <div class="placeholder">Chart placeholder</div>
+            </div>
+
+            <div class="card">
+                <h2>Club Leaderboard</h2>
+                <div class="placeholder">Table placeholder</div>
+            </div>
+        </div>
+
+        <!-- Tab: Player Stats -->
+        <div id="player" class="tab-content">
+            <div class="wip-notice">
+                <h3>Player Stats</h3>
+                <p class="text-secondary">Detailed per-player analytics, brawler breakdown, battle performance</p>
+            </div>
+        </div>
+
+        <!-- Tab: Achievements -->
+        <div id="achievements" class="tab-content">
+            <div id="achievementsContainer">
+                <div class="loading">Loading achievements...</div>
+            </div>
+        </div>
+
+        <!-- Tab: Battles -->
+        <div id="battles" class="tab-content">
+            <div class="wip-notice">
+                <h3>Battles</h3>
+                <p class="text-secondary">Paginated battle feed with mode/result filters</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/frontend/js/data.js"></script>
+    <script src="src/frontend/js/overview.js"></script>
+    <script src="src/frontend/js/achievements.js"></script>
+    <script src="src/frontend/js/app.js"></script>
 </body>
 </html>
