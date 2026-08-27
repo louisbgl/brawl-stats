@@ -60,6 +60,8 @@ const BattlesManager = {
             const segmentBattles = DataLoader.cache.battles[segment] || [];
             segmentBattles.forEach(battle => {
                 allBattles.push(battle);
+                // Check if expanded view implemented for this battle
+                BattleDetailRenderer.checkImplementation(battle);
             });
         });
 
@@ -240,6 +242,7 @@ const BattlesManager = {
         return `
             <div class="load-more">
                 <button id="loadMoreBattles" class="load-more-btn">Load Older Battles</button>
+                <button id="loadAllBattles" class="load-more-btn load-all-btn">Load All</button>
             </div>
         `;
     },
@@ -275,6 +278,7 @@ const BattlesManager = {
         const mapName = battle.map || '';
         const battleType = battle.type || '';
         const timeAgo = this.getTimeAgo(battle.battleTime);
+        const duration = battle.duration;
 
         // Determine result class from first tracked player
         let resultClass = 'battle-draw';
@@ -317,6 +321,10 @@ const BattlesManager = {
             return `<span class="battle-type-badge ${badgeClass}">${typeBadge}</span>`;
         })() : '';
 
+        // Format duration
+        const durationText = GameConfig.formatDuration(duration);
+        const durationHTML = durationText ? `<span class="battle-duration">${durationText}</span>` : '';
+
         return `
             <div class="battle-card-compact ${resultClass}" data-battle-id="${idx}">
                 <div class="battle-players-wrapper">
@@ -327,6 +335,7 @@ const BattlesManager = {
                 </div>
                 <div class="battle-info-center">
                     <span class="mode-name">${GameConfig.getModeName(mode)}</span>
+                    ${durationHTML}
                     <span class="map-name">${mapName}</span>
                 </div>
                 <div class="battle-meta-right">
@@ -359,57 +368,7 @@ const BattlesManager = {
     },
 
     generateBattleDetails(battle) {
-        const mode = battle.mode || 'Unknown';
-        const players = battle.players || [];
-        if (players.length === 0) return '';
-
-        // Supported modes for expanded view
-        const isSupported = GameConfig.is3v3Mode(mode);
-
-        // Check if team mode
-        const hasTeams = players.some(p => p.team !== undefined && p.team !== null);
-
-        if (hasTeams && isSupported) {
-            // Group by team
-            const teams = {};
-            players.forEach(p => {
-                const teamNum = p.team || 0;
-                if (!teams[teamNum]) teams[teamNum] = [];
-                teams[teamNum].push(p);
-            });
-
-            return `
-                <div class="battle-teams">
-                    ${Object.entries(teams).map(([teamNum, teamPlayers]) => `
-                        <div class="battle-team">
-                            ${teamPlayers.map(p => `
-                                <div class="battle-player">
-                                    <span class="player-name">${p.name}</span>
-                                    <span class="player-brawler">${p.brawler} P${p.power}</span>
-                                </div>
-                            `).join('')}
-                        </div>
-                    `).join('<div class="team-separator">VS</div>')}
-                </div>
-            `;
-        }
-
-        // Unsupported modes - warn once and show basic view
-        if (!isSupported && !this.warnedModes.has(`expanded-${mode}`)) {
-            console.warn(`Expanded view for mode '${mode}' not implemented`);
-            this.warnedModes.add(`expanded-${mode}`);
-        }
-
-        return `
-            <div class="battle-players">
-                ${players.map(p => `
-                    <div class="battle-player">
-                        <span class="player-name">${p.name}</span>
-                        <span class="player-brawler">${p.brawler} P${p.power}</span>
-                    </div>
-                `).join('')}
-            </div>
-        `;
+        return BattleDetailRenderer.render(battle, this.warnedModes);
     },
 
     getModeName(mode) {
@@ -443,6 +402,22 @@ const BattlesManager = {
             this.renderHTML();
             this.setupEventHandlers();
         }
+    },
+
+    async loadAllBattles() {
+        const segmentOrder = ['recent', 'week-2', 'week-3', 'week-4', 'older'];
+
+        // Load all remaining segments
+        for (const segment of segmentOrder) {
+            if (!this.segmentsLoaded.includes(segment)) {
+                await this.loadSegment(segment);
+            }
+        }
+
+        this.loadBattlesFromSegments();
+        this.applyFilters();
+        this.renderHTML();
+        this.setupEventHandlers();
     },
 
     updateURL() {
@@ -502,6 +477,14 @@ const BattlesManager = {
         if (loadMoreBtn) {
             loadMoreBtn.addEventListener('click', () => {
                 this.loadMoreBattles();
+            });
+        }
+
+        // Load all handler
+        const loadAllBtn = document.getElementById('loadAllBattles');
+        if (loadAllBtn) {
+            loadAllBtn.addEventListener('click', () => {
+                this.loadAllBattles();
             });
         }
 
