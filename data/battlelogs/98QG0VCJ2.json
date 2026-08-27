@@ -439114,5 +439114,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260827T080213.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "draw",
+      "duration": 211,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 1422
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1422
+            }
+          },
+          {
+            "tag": "#80YGQCV9",
+            "name": "aku ankaa",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1641
+            }
+          },
+          {
+            "tag": "#2UG0GV2QL",
+            "name": "bot_twoja stara",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 1894
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QUUGGR8RC",
+            "name": "Morti😈👿94",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 2006
+            }
+          },
+          {
+            "tag": "#2YQC9C92J0",
+            "name": "FUT |Lemuslim",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2031
+            }
+          },
+          {
+            "tag": "#R2JPRPP0Y",
+            "name": "Карась🤌",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 1501
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
