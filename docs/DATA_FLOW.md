@@ -661,83 +661,122 @@
 
 ## Battles Tab
 
-**Summary:** Paginated battle feed with filters. Starts with last 7 days, loads more in 7-day increments. Deduplicates shared battles (multiple tracked players in same match).
+**Summary:** Paginated battle feed with filters. Shows all battles with tracked players. Automatically merged when multiple tracked players in same match.
 
 ### Data Source
 
-**Files:** `data/aggregated/battles/*.json` (5 files total)
+**Files:** 7-day segments in `data/aggregated/battles/`
+- `recent.json` - Last 7 days (~800KB)
+- `week-2.json` - 8-14 days ago (~600KB)
+- `week-3.json` - 15-21 days ago (~500KB)
+- `week-4.json` - 22-28 days ago (~400KB)
+- `older.json` - 29+ days ago (~5MB+)
 
-**Structure:** 7-day segments + older catchall
-```
-data/aggregated/battles/
-  recent.json   # Last 7 days (auto-loaded)
-  week-2.json   # 8-14 days ago
-  week-3.json   # 15-21 days ago
-  week-4.json   # 22-28 days ago
-  older.json    # 29+ days ago (lazy-load)
-```
+**Structure:** Flat array of deduplicated battles with player-centric format
 
-**File Format:** Array of deduplicated battle entries
+**File Format:** Array of battle objects
 ```json
 {
   "battleTime": "20260826T134521.000Z",
-  "event": {
-    "id": 15000123,
-    "mode": "brawlBall",
-    "map": "Sneaky Fields"
-  },
-  "battle": {
-    "type": "ranked",
-    "result": "victory",
-    "trophyChange": 8,
-    "teams": [
-      [
-        {"tag": "#LLJGJQVY", "name": "JOEL | Escorte", "brawler": {"name": "NAJIA", "power": 11, "trophies": 1234}},
-        {"tag": "#98QG0VCJ2", "name": "JOEL | køkønut", "brawler": {"name": "COLT", "power": 11, "trophies": 2143}},
-        {"tag": "#EXTERNAL1", ...}
-      ],
-      [...opponent team...]
-    ]
-  }
+  "mode": "brawlBall",
+  "map": "Sneaky Fields",
+  "type": "ranked",
+  "players": [
+    {
+      "tag": "#98QG0VCJ2",
+      "name": "JOEL | køkønut",
+      "brawler": "COLT",
+      "power": 11,
+      "trophies": 2143,
+      "trophyChange": 8,         // non-null = tracked player
+      "result": "victory",
+      "team": 0
+    },
+    {
+      "tag": "#LLJGJQVY",
+      "name": "JOEL | Escorte",
+      "brawler": "NAJIA",
+      "power": 11,
+      "trophies": 1234,
+      "trophyChange": 8,         // non-null = tracked player
+      "result": "victory",
+      "team": 0
+    },
+    {
+      "tag": "#EXTERNAL1",
+      "name": "Random Player",
+      "brawler": "SHELLY",
+      "power": 9,
+      "trophies": 500,
+      "trophyChange": null,      // null = not tracked
+      "result": "victory",
+      "team": 0
+    },
+    // ... 3 opponents on team: 1
+  ]
 }
 ```
 
-### Deduplication Logic
+**Duels/tagTeam modes:** Tracked players include `brawlers` array
+```json
+{
+  "tag": "#98QG0VCJ2",
+  "name": "JOEL | køkønut",
+  "brawler": "MEEPLE",           // primary (first used)
+  "power": 11,
+  "trophies": 1025,
+  "brawlers": [                  // all 3 brawlers
+    {"name": "MEEPLE", "power": 11, "trophies": 1025, "trophyChange": 6},
+    {"name": "CHARLIE", "power": 11, "trophies": 1065, "trophyChange": 6},
+    {"name": "SIRIUS", "power": 11, "trophies": 1167, "trophyChange": 4}
+  ],
+  "trophyChange": 16,            // sum of all 3
+  "result": "victory",
+  "team": 0
+}
+```
 
-- **Shared battle key:** `${battleTime}|${event.id}`
-- If multiple tracked players in same battle, keep one entry (all player data already in `teams[]`)
-- Frontend calculates coPlayers on render by checking which tracked players appear in battle
+### Deduplication & Merging
+
+- **Dedup key:** `(battleTime, mode)`
+- When multiple tracked players in same battle, data merged into single battle entry
+- Each tracked player gets individual `trophyChange` from their battlelog
+- Non-tracked players: `trophyChange = null` (detection via `!== null`)
+- Special cases (API missing trophy data): tracked player gets `trophyChange = 0`
 
 ### Filters (Client-Side)
 
-1. **Player Dropdown:** All players + "All Players" (with deduplication for shared games)
-2. **Mode Dropdown:** All modes (dynamically detected from loaded battles)
-3. **Type Dropdown:** All / Ladder (ranked) / Competitive Ranked (soloRanked) / Friendly / Events
-4. **Result Dropdown:** All / Wins / Losses / Draws
+1. **Player Filter:** Show battles where specific tracked player participated
+2. **Mode Filter:** Filter by game mode (brawlBall, gemGrab, etc.)
+3. **Result Filter:** Win / Loss / Draw (based on tracked player's result)
 
-### Display & Pagination
+### Display
 
-**Initial Load:**
-- Fetch `recent.json` (last 7 days)
-- Show battles grouped by day (newest first)
-- Display: timestamp, mode badge, player brawler, result badge, trophy change, coPlayers (if any)
+- Battles grouped by date (newest first)
+- Compact cards showing:
+  - Tracked players who participated (name + brawler + trophyChange)
+  - Game mode (centered)
+  - Time ago + expand arrow
+- Color-coded by result: green (win), red (loss), grey (draw)
+- Click to expand full battle details
 
-**Load More:**
-- Button: "Load 7 More Days" → fetch next segment
-- Button: "Load All" → fetch remaining segments in parallel
-- Date range label updates: "Last 7 Days" → "08/12 - 08/26 (14 days)" → "All Battles"
+### Data Loading Strategy
 
-**Aggregation Strategy:**
-- Merge all player battlelogs into single timeline
-- Deduplicate shared battles
-- Segment chronologically (4 recent weeks + older catchall)
-- No coPlayers array (frontend calculates from `teams[]`)
+**Implementation:** 7-day segmented loading
 
-**Size Estimates:**
-- Recent 7 days: ~30-50 KB (most active week)
-- Each 7-day segment: ~20-40 KB
-- Older.json: ~1-2 MB (months of history)
-- Total initial load: 30-50 KB (vs 4 MB for full battlelogs)
+1. Frontend loads `recent.json` on tab open (~800KB)
+2. Older segments loaded on-demand when user scrolls or filters
+3. Segments cached in memory for session duration
+
+**Benefits:**
+- Initial load fast (~800KB vs 39MB)
+- Most users only view recent battles
+- Historical data available when needed
+
+**Size Breakdown:**
+- Total: ~39MB across all segments, 21,626 battles
+- Average: ~1.8KB per battle
+- Tracked player entries: 29,041 (24,122 with real trophy data, 4,919 placeholders)
 
 ---
 
