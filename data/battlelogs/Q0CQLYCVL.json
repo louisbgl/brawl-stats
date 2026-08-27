@@ -389239,5 +389239,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260827T220148.000Z",
+    "event": {
+      "id": 15001173,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Konnakol"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 117,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000069,
+          "name": "HANK",
+          "power": 11,
+          "trophies": 724
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2YRCCR2UU",
+            "name": "peka",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 7,
+              "trophies": 418
+            }
+          },
+          {
+            "tag": "#PC82PVGG0",
+            "name": "blackblood__",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 4,
+              "trophies": 309
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 11,
+              "trophies": 724
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UGRYQPJGC",
+            "name": "sevgi",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 10,
+              "trophies": 126
+            }
+          },
+          {
+            "tag": "#2LUR00C29P",
+            "name": "Savaşçı",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 358
+            }
+          },
+          {
+            "tag": "#2Y90Q002UR",
+            "name": "Murat YT",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 463
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
