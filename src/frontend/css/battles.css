@@ -120,13 +120,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 8px;
 }
 
 .battle-info-center .mode-name {
     font-size: 0.95rem;
     font-weight: 600;
     color: var(--text-primary);
+}
+
+.battle-info-center .battle-duration {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    font-weight: 500;
 }
 
 .battle-info-center .map-name {
@@ -226,26 +232,29 @@
 }
 
 /* ===== BATTLE DETAILS ===== */
+.battle-details {
+    padding: 12px 16px;
+    border-top: 1px solid var(--border);
+    background: inherit;
+}
+
 .battle-teams {
     display: flex;
     align-items: center;
-    gap: 16px;
-    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
 }
 
 .battle-team {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    flex: 1;
-    min-width: 200px;
+    gap: 6px;
 }
 
 .team-separator {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-weight: 700;
     color: var(--text-muted);
-    padding: 0 8px;
 }
 
 .battle-players {
@@ -274,9 +283,31 @@
     color: var(--text-secondary);
 }
 
+/* Unhandled battle view */
+.battle-details-unhandled {
+    padding: 16px 0;
+}
+
+.unhandled-separator {
+    height: 1px;
+    background: var(--border);
+    margin-bottom: 16px;
+}
+
+.unhandled-message {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    padding: 12px;
+    background: var(--bg-secondary);
+    border-radius: 6px;
+    border-left: 3px solid var(--accent-purple);
+}
+
 /* ===== LOAD MORE ===== */
 .load-more {
-    text-align: center;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
     padding: 30px 0;
 }
 
@@ -295,6 +326,14 @@
 .load-more-btn:hover {
     background: #b060ed;
     transform: translateY(-2px);
+}
+
+.load-all-btn {
+    background: var(--accent-cyan);
+}
+
+.load-all-btn:hover {
+    background: #60b0ed;
 }
 
 @media (max-width: 768px) {
