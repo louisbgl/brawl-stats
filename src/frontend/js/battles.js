@@ -1,6 +1,8 @@
 /**
  * BattlesManager - Renders the Battles tab (v2)
  * Displays battle feed with segment loading and filters
+ *
+ * Dependencies: common.js (GameConfig)
  */
 
 const BattlesManager = {
@@ -9,9 +11,11 @@ const BattlesManager = {
     currentFilters: {
         player: 'all',
         mode: 'all',
-        result: 'all' // 'all', 'win', 'loss', 'draw'
+        result: 'all', // 'all', 'win', 'loss', 'draw'
+        type: 'all' // 'all', 'ranked', 'soloRanked', 'friendly', 'challenge'
     },
     segmentsLoaded: [],
+    warnedModes: new Set(), // Track warned modes to only warn once
 
     async render(urlFilters = []) {
         // Parse URL filters: [player, mode, result]
@@ -24,7 +28,8 @@ const BattlesManager = {
             this.currentFilters = {
                 player: 'all',
                 mode: 'all',
-                result: 'all'
+                result: 'all',
+                type: 'all'
             };
         }
 
@@ -81,16 +86,19 @@ const BattlesManager = {
         // Filter by mode
         if (this.currentFilters.mode !== 'all') {
             filtered = filtered.filter(battle => {
-                const mode = battle.event?.mode || battle.battle?.mode || 'unknown';
+                const mode = battle.mode || 'unknown';
                 return mode.toLowerCase() === this.currentFilters.mode.toLowerCase();
             });
         }
 
-        // Filter by result
+        // Filter by result (check tracked players only)
         if (this.currentFilters.result !== 'all') {
             filtered = filtered.filter(battle => {
-                if (!battle.battle) return false;
-                const result = battle.battle.result;
+                const trackedPlayers = (battle.players || []).filter(p => p.trophyChange !== null);
+                if (trackedPlayers.length === 0) return false;
+
+                // Use first tracked player's result
+                const result = trackedPlayers[0].result;
                 if (this.currentFilters.result === 'win') return result === 'victory';
                 if (this.currentFilters.result === 'loss') return result === 'defeat';
                 if (this.currentFilters.result === 'draw') return result === 'draw';
@@ -98,23 +106,20 @@ const BattlesManager = {
             });
         }
 
+        // Filter by game type
+        if (this.currentFilters.type !== 'all') {
+            filtered = filtered.filter(battle => {
+                const type = battle.type || '';
+                return type === this.currentFilters.type;
+            });
+        }
+
         this.filteredBattles = filtered;
     },
 
     battleIncludesPlayer(battle, playerTag) {
-        if (!battle.battle) return false;
-
-        // Check teams array
-        const teams = battle.battle.teams || [];
-        for (const team of teams) {
-            if (team.some(p => p.tag === playerTag)) {
-                return true;
-            }
-        }
-
-        // Check players array (for modes without teams)
-        const players = battle.battle.players || [];
-        return players.some(p => p.tag === playerTag);
+        const players = battle.players || [];
+        return players.some(p => p.tag === playerTag && p.trophyChange !== null);
     },
 
     renderHTML() {
@@ -136,11 +141,11 @@ const BattlesManager = {
         // Get unique modes
         const modes = new Set();
         this.battles.forEach(battle => {
-            const mode = battle.event?.mode || battle.battle?.mode;
+            const mode = battle.mode;
             if (mode) modes.add(mode);
         });
         const modeOptions = Array.from(modes).sort().map(mode =>
-            `<option value="${mode}" ${this.currentFilters.mode === mode ? 'selected' : ''}>${this.getModeName(mode)}</option>`
+            `<option value="${mode}" ${this.currentFilters.mode === mode ? 'selected' : ''}>${GameConfig.getModeName(mode)}</option>`
         ).join('');
 
         return `
@@ -164,6 +169,18 @@ const BattlesManager = {
                     </div>
 
                     <div class="filter-group">
+                        <label for="battleTypeFilter">Game Type</label>
+                        <select id="battleTypeFilter" class="filter-select">
+                            <option value="all" ${this.currentFilters.type === 'all' ? 'selected' : ''}>All Types</option>
+                            <option value="ranked" ${this.currentFilters.type === 'ranked' ? 'selected' : ''}>Ladder</option>
+                            <option value="soloRanked" ${this.currentFilters.type === 'soloRanked' ? 'selected' : ''}>Ranked</option>
+                            <option value="friendly" ${this.currentFilters.type === 'friendly' ? 'selected' : ''}>Friendly</option>
+                            <option value="challenge" ${this.currentFilters.type === 'challenge' ? 'selected' : ''}>Challenge</option>
+                            <option value="championshipChallenge" ${this.currentFilters.type === 'championshipChallenge' ? 'selected' : ''}>Championship</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
                         <label for="battleResultFilter">Result</label>
                         <select id="battleResultFilter" class="filter-select">
                             <option value="all" ${this.currentFilters.result === 'all' ? 'selected' : ''}>All Results</option>
@@ -178,11 +195,14 @@ const BattlesManager = {
     },
 
     generateFeedHTML() {
+        const loadMoreHTML = this.generateLoadMoreHTML();
+
         if (this.filteredBattles.length === 0) {
             return `
                 <div class="battle-feed">
                     <h3>Battle Feed</h3>
                     <div class="no-data">No battles found with current filters</div>
+                    ${loadMoreHTML}
                 </div>
             `;
         }
@@ -198,8 +218,6 @@ const BattlesManager = {
                 </div>
             </div>
         `).join('');
-
-        const loadMoreHTML = this.generateLoadMoreHTML();
 
         return `
             <div class="battle-feed">
@@ -251,56 +269,123 @@ const BattlesManager = {
     },
 
     generateBattleCard(battle, idx) {
-        const mode = battle.event?.mode || battle.battle?.mode || 'Unknown';
-        const map = battle.event?.map || 'Unknown Map';
-        const result = battle.battle?.result || 'unknown';
-        const trophyChange = battle.battle?.trophyChange;
-        const duration = battle.battle?.duration;
+        const mode = battle.mode || 'Unknown';
+        const players = battle.players || [];
+        const trackedPlayers = players.filter(p => p.trophyChange !== null);
+        const mapName = battle.map || '';
+        const battleType = battle.type || '';
+        const timeAgo = this.getTimeAgo(battle.battleTime);
 
-        // Parse battleTime: 20260825T125953.000Z
-        const bt = battle.battleTime;
-        const hour = bt.substring(9, 11);
-        const minute = bt.substring(11, 13);
-        const timeStr = `${hour}:${minute}`;
+        // Determine result class from first tracked player
+        let resultClass = 'battle-draw';
+        if (trackedPlayers.length > 0) {
+            const result = trackedPlayers[0].result;
+            if (result === 'victory') {
+                resultClass = 'battle-win';
+            } else if (result === 'defeat') {
+                resultClass = 'battle-loss';
+            }
+        }
 
-        const resultClass = result === 'victory' ? 'battle-win' : result === 'defeat' ? 'battle-loss' : 'battle-draw';
-        const resultIcon = result === 'victory' ? '✅' : result === 'defeat' ? '❌' : '➖';
-        const trophyText = trophyChange !== undefined ? (trophyChange > 0 ? `+${trophyChange}` : `${trophyChange}`) : '';
+        const isLadder = GameConfig.isLadderBattle(battleType);
+        const typeBadge = GameConfig.getBattleTypeBadge(battleType);
+
+        // Build player-brawler pairs for tracked players
+        const playerPairs = trackedPlayers.map(p => {
+            let rightContent = '';
+
+            if (isLadder) {
+                // Show trophy change for ladder battles
+                const trophyText = p.trophyChange > 0 ? `+${p.trophyChange}` : `${p.trophyChange}`;
+                const trophyClass = p.trophyChange > 0 ? 'positive' : 'negative';
+                rightContent = `<span class="battle-trophy ${trophyClass}">${trophyText}</span>`;
+            }
+
+            return `
+                <div class="battle-player-pair">
+                    <span class="player-name">${p.name}</span>
+                    <span class="player-brawler">${p.brawler}</span>
+                    ${rightContent}
+                </div>
+            `;
+        }).join('');
+
+        // Badge for non-ladder - vertically centered next to player area
+        const badgeHTML = !isLadder && typeBadge ? (() => {
+            const badgeClass = battleType === 'soloRanked' ? 'badge-ranked' :
+                               battleType === 'friendly' ? 'badge-friendly' : 'badge-challenge';
+            return `<span class="battle-type-badge ${badgeClass}">${typeBadge}</span>`;
+        })() : '';
 
         return `
-            <div class="battle-card ${resultClass}">
-                <div class="battle-header">
-                    <div class="battle-mode">
-                        <span class="battle-mode-name">${this.getModeName(mode)}</span>
-                        <span class="battle-map">${map}</span>
+            <div class="battle-card-compact ${resultClass}" data-battle-id="${idx}">
+                <div class="battle-players-wrapper">
+                    <div class="battle-players-left">
+                        ${playerPairs}
                     </div>
-                    <div class="battle-meta">
-                        <span class="battle-time">${timeStr}</span>
-                        <span class="battle-result">${resultIcon}</span>
-                        ${trophyText ? `<span class="battle-trophy ${trophyChange > 0 ? 'positive' : 'negative'}">${trophyText}🏆</span>` : ''}
-                    </div>
+                    ${badgeHTML}
                 </div>
-                ${this.generateBattleDetails(battle)}
+                <div class="battle-info-center">
+                    <span class="mode-name">${GameConfig.getModeName(mode)}</span>
+                    <span class="map-name">${mapName}</span>
+                </div>
+                <div class="battle-meta-right">
+                    <span class="time-ago">${timeAgo}</span>
+                    <span class="expand-icon">▼</span>
+                </div>
             </div>
         `;
     },
 
+    getTimeAgo(battleTime) {
+        // Parse battleTime: 20260825T125953.000Z
+        const year = parseInt(battleTime.substring(0, 4));
+        const month = parseInt(battleTime.substring(4, 6)) - 1;
+        const day = parseInt(battleTime.substring(6, 8));
+        const hour = parseInt(battleTime.substring(9, 11));
+        const minute = parseInt(battleTime.substring(11, 13));
+        const second = parseInt(battleTime.substring(13, 15));
+
+        const battleDate = new Date(year, month, day, hour, minute, second);
+        const now = new Date();
+        const diffMs = now - battleDate;
+        const diffMins = Math.floor(diffMs / 60000);
+        const diffHours = Math.floor(diffMins / 60);
+        const diffDays = Math.floor(diffHours / 24);
+
+        if (diffMins < 60) return `${diffMins}m ago`;
+        if (diffHours < 24) return `${diffHours}h ago`;
+        return `${diffDays}d ago`;
+    },
+
     generateBattleDetails(battle) {
-        if (!battle.battle) return '';
+        const mode = battle.mode || 'Unknown';
+        const players = battle.players || [];
+        if (players.length === 0) return '';
 
-        const teams = battle.battle.teams || [];
-        const players = battle.battle.players || [];
+        // Supported modes for expanded view
+        const isSupported = GameConfig.is3v3Mode(mode);
 
-        // Team-based modes
-        if (teams.length > 0) {
+        // Check if team mode
+        const hasTeams = players.some(p => p.team !== undefined && p.team !== null);
+
+        if (hasTeams && isSupported) {
+            // Group by team
+            const teams = {};
+            players.forEach(p => {
+                const teamNum = p.team || 0;
+                if (!teams[teamNum]) teams[teamNum] = [];
+                teams[teamNum].push(p);
+            });
+
             return `
                 <div class="battle-teams">
-                    ${teams.map((team, idx) => `
+                    ${Object.entries(teams).map(([teamNum, teamPlayers]) => `
                         <div class="battle-team">
-                            ${team.map(p => `
+                            ${teamPlayers.map(p => `
                                 <div class="battle-player">
                                     <span class="player-name">${p.name}</span>
-                                    <span class="player-brawler">${p.brawler?.name || '?'} P${p.brawler?.power || '?'}</span>
+                                    <span class="player-brawler">${p.brawler} P${p.power}</span>
                                 </div>
                             `).join('')}
                         </div>
@@ -309,21 +394,22 @@ const BattlesManager = {
             `;
         }
 
-        // Non-team modes (showdown, etc)
-        if (players.length > 0) {
-            return `
-                <div class="battle-players">
-                    ${players.map(p => `
-                        <div class="battle-player">
-                            <span class="player-name">${p.name}</span>
-                            <span class="player-brawler">${p.brawler?.name || '?'} P${p.brawler?.power || '?'}</span>
-                        </div>
-                    `).join('')}
-                </div>
-            `;
+        // Unsupported modes - warn once and show basic view
+        if (!isSupported && !this.warnedModes.has(`expanded-${mode}`)) {
+            console.warn(`Expanded view for mode '${mode}' not implemented`);
+            this.warnedModes.add(`expanded-${mode}`);
         }
 
-        return '';
+        return `
+            <div class="battle-players">
+                ${players.map(p => `
+                    <div class="battle-player">
+                        <span class="player-name">${p.name}</span>
+                        <span class="player-brawler">${p.brawler} P${p.power}</span>
+                    </div>
+                `).join('')}
+            </div>
+        `;
     },
 
     getModeName(mode) {
@@ -369,6 +455,7 @@ const BattlesManager = {
         const playerFilter = document.getElementById('battlePlayerFilter');
         const modeFilter = document.getElementById('battleModeFilter');
         const resultFilter = document.getElementById('battleResultFilter');
+        const typeFilter = document.getElementById('battleTypeFilter');
 
         if (playerFilter) {
             playerFilter.addEventListener('change', (e) => {
@@ -400,6 +487,16 @@ const BattlesManager = {
             });
         }
 
+        if (typeFilter) {
+            typeFilter.addEventListener('change', (e) => {
+                this.currentFilters.type = e.target.value;
+                this.applyFilters();
+                this.updateURL();
+                this.renderHTML();
+                this.setupEventHandlers();
+            });
+        }
+
         // Load more handler
         const loadMoreBtn = document.getElementById('loadMoreBattles');
         if (loadMoreBtn) {
@@ -407,5 +504,33 @@ const BattlesManager = {
                 this.loadMoreBattles();
             });
         }
+
+        // Battle card click handlers
+        const battleCards = document.querySelectorAll('.battle-card-compact');
+        battleCards.forEach(card => {
+            card.addEventListener('click', () => {
+                const battleId = card.dataset.battleId;
+                this.toggleBattleExpanded(battleId, card);
+            });
+        });
+    },
+
+    toggleBattleExpanded(battleId, cardElement) {
+        const battle = this.filteredBattles[battleId];
+        if (!battle) return;
+
+        // Check if already expanded
+        const existingDetails = cardElement.nextElementSibling;
+        if (existingDetails && existingDetails.classList.contains('battle-details')) {
+            existingDetails.remove();
+            return;
+        }
+
+        // Generate and insert details
+        const detailsHTML = this.generateBattleDetails(battle);
+        const detailsDiv = document.createElement('div');
+        detailsDiv.className = 'battle-details';
+        detailsDiv.innerHTML = detailsHTML;
+        cardElement.after(detailsDiv);
     }
 };
