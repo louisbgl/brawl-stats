@@ -74,6 +74,7 @@ def generate_battle_segments(
                     "mode": mode,
                     "map": map_name,
                     "type": battle_type,
+                    "duration": battle_raw.get("battle", {}).get("duration"),
                     "players": players
                 }
 
