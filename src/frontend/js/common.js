@@ -77,6 +77,14 @@ const GameConfig = {
         return this.PRESTIGE_COLORS[level] || '#888888';
     },
 
+    // Helper: Format duration in seconds to MM:SS
+    formatDuration(seconds) {
+        if (!seconds && seconds !== 0) return null;
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        return `${mins}:${secs.toString().padStart(2, '0')}`;
+    },
+
     // Battle types
     BATTLE_TYPES: {
         LADDER: 'ranked',           // Trophy-based (shows trophy change)
