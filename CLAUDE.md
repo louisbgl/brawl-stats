@@ -2,6 +2,37 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Git Commit Guidelines
+
+**CRITICAL - Follow these rules for ALL commits:**
+
+1. **NEVER add Co-Authored-By lines** - No co-author attribution in commits
+2. **Small, focused commits** - Each commit should do ONE thing
+3. **Concise commit messages** - Brief subject line, minimal body if needed
+4. **No emoji or special formatting** - Plain text only
+
+Example of a GOOD commit:
+```
+Add battle deduplication logic
+
+Deduplicate battles by (battleTime, mode) key.
+```
+
+Example of a BAD commit:
+```
+Refactor entire aggregation pipeline with multiple modules and features
+
+- Extract battle_flattening.py
+- Add battles.py
+- Refactor club_stats.py
+- Update player_stats.py
+- Fix achievement dates
+... (20 more bullet points)
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>
+```
+
 ## Project Overview
 
 Brawl Stars Club Tracker: An automated statistics tracking system for Brawl Stars club members with daily data collection via GitHub Actions and an interactive web dashboard. Data is collected at midnight CET and visualized using vanilla JavaScript with Chart.js.
