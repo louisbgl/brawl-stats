@@ -153,7 +153,7 @@
     padding-left: 40px;
 }
 
-.date-group::before {
+.achievement-feed .date-group::before {
     content: '';
     position: absolute;
     left: 19px;
@@ -164,7 +164,7 @@
     background-size: 2px 8px;
 }
 
-.date-group:first-child::before {
+.achievement-feed .date-group:first-child::before {
     top: 30px;
 }
 
@@ -245,7 +245,7 @@
         padding-left: 30px;
     }
 
-    .date-group::before {
+    .achievement-feed .date-group::before {
         left: 14px;
     }
 

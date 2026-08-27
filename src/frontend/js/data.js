@@ -20,8 +20,6 @@ const DataLoader = {
      */
     async init() {
         try {
-            console.log('Fetching critical data (v2)...');
-
             const [metadata, playerIndex, brawlers] = await Promise.all([
                 fetch('data/aggregated/metadata.json').then(r => r.json()),
                 fetch('data/aggregated/indexes/players.json').then(r => r.json()),
@@ -31,7 +29,6 @@ const DataLoader = {
             this.cache.metadata = metadata;
             this.cache.playerIndex = playerIndex;
             this.cache.brawlers = brawlers;
-
 
             return { metadata, playerIndex, brawlers };
         } catch (error) {
