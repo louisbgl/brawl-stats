@@ -2,6 +2,22 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Working with Frontend Code
+
+**When making JS/HTML/CSS changes:**
+
+1. **No commentary between edits** - User can't review/help with frontend changes in real-time
+2. **Execute edits directly** - Make all necessary changes without explaining each step
+3. **Summarize at end** - State what should be working after all changes complete
+4. **Ask first if ambiguous** - When logic unclear or request confusing, clarify before starting
+
+**Example:**
+```
+User: "badges should be next to brawler name"
+Bad: "I'll edit battles.js to move badge... Now I'll update CSS... Let me fix positioning..."
+Good: [Makes all edits] "Badge now positioned inline with brawler name, vertically centered when multiple players."
+```
+
 ## Git Commit Guidelines
 
 **CRITICAL - Follow these rules for ALL commits:**
