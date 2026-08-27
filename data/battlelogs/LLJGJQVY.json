@@ -517272,5 +517272,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260827T003239.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#8LQ2P2PQ9",
+        "name": "Elemntary_Sir",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 707
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2YLQRUPCL",
+            "name": "FrostyJack",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#28QYCUVPR0",
+            "name": "daddyclause🎅",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 985
+            }
+          },
+          {
+            "tag": "#8CGRQ9LRR",
+            "name": "fl1ks",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 543
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8LQ2P2PQ9",
+            "name": "Elemntary_Sir",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 707
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 989
+            }
+          },
+          {
+            "tag": "#2UQLCP8CY9",
+            "name": "ytdprime-ezking",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 2087
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260827T003521.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 125,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#P0QUVCY9U",
+        "name": "_DIO_",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 835
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QVL2J20Y",
+            "name": "Никитс",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 808
+            }
+          },
+          {
+            "tag": "#P0QUVCY9U",
+            "name": "_DIO_",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 835
+            }
+          },
+          {
+            "tag": "#GV9GQRUV",
+            "name": "JOHAN_Leibert",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 10,
+              "trophies": 1061
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8LQ2P2PQ9",
+            "name": "Elemntary_Sir",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 721
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 1009
+            }
+          },
+          {
+            "tag": "#RYPQLP2G0",
+            "name": "HaVoC",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 1238
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
