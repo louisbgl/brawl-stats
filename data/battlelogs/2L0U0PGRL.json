@@ -305123,5 +305123,96 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260827T212539.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 109,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 11,
+          "trophies": 7
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9QRR29G2C",
+            "name": "GÖKTUĞVEBABASI",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2LJ89QQUP8",
+            "name": "Le petit chou",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#YUUPVRU2Y",
+            "name": "GUILHERME",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P9QCR09LJ",
+            "name": "КᏦᴀrи",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#8RQJUPRR8",
+            "name": "Doruk",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
