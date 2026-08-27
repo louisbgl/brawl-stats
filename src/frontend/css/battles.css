@@ -329,11 +329,11 @@
 }
 
 .load-all-btn {
-    background: var(--accent-cyan);
+    background: #9050c8;
 }
 
 .load-all-btn:hover {
-    background: #60b0ed;
+    background: #7040a8;
 }
 
 @media (max-width: 768px) {
