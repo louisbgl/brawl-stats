@@ -18,30 +18,159 @@
     margin-bottom: 20px;
 }
 
-/* ===== BATTLE CARDS ===== */
+/* ===== BATTLE CARDS COMPACT ===== */
+.battle-card-compact {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.battle-card-compact:hover {
+    background: var(--bg-card);
+    transform: translateX(2px);
+}
+
+.battle-card-compact.battle-win {
+    background: rgba(0, 255, 136, 0.08);
+    border: 1px solid rgba(0, 255, 136, 0.2);
+}
+
+.battle-card-compact.battle-loss {
+    background: rgba(255, 51, 102, 0.08);
+    border: 1px solid rgba(255, 51, 102, 0.2);
+}
+
+.battle-card-compact.battle-draw {
+    background: rgba(110, 110, 126, 0.08);
+    border: 1px solid rgba(110, 110, 126, 0.2);
+}
+
+.battle-players-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.battle-players-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.battle-player-pair {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.battle-player-pair .player-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    min-width: 120px;
+}
+
+.battle-player-pair .player-brawler {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.battle-player-pair .battle-trophy {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.battle-player-pair .battle-trophy.positive {
+    color: var(--accent-green);
+}
+
+.battle-player-pair .battle-trophy.negative {
+    color: var(--accent-pink);
+}
+
+.battle-players-wrapper .battle-type-badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.battle-players-wrapper .battle-type-badge.badge-ranked {
+    background: rgba(147, 112, 219, 0.3);
+    color: #9370DB;
+}
+
+.battle-players-wrapper .battle-type-badge.badge-friendly {
+    background: rgba(52, 152, 219, 0.3);
+    color: #3498DB;
+}
+
+.battle-players-wrapper .battle-type-badge.badge-challenge {
+    background: rgba(241, 196, 15, 0.3);
+    color: #F1C40F;
+}
+
+.battle-info-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.battle-info-center .mode-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.battle-info-center .map-name {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    opacity: 0.7;
+}
+
+.battle-meta-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.battle-meta-right .expand-icon {
+    color: var(--text-primary);
+}
+
+.battle-meta-right .time-ago {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    min-width: 60px;
+    text-align: right;
+}
+
+.battle-meta-right .expand-icon {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.battle-wip .wip-text {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+/* OLD BATTLE CARDS (keeping for backwards compat, can remove later) */
 .battle-card {
     background: var(--bg-secondary);
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 16px;
     transition: var(--transition);
-}
-
-.battle-card:hover {
-    background: var(--bg-card);
-    border-color: var(--accent-purple);
-}
-
-.battle-card.battle-win {
-    border-left: 3px solid var(--accent-green);
-}
-
-.battle-card.battle-loss {
-    border-left: 3px solid var(--accent-pink);
-}
-
-.battle-card.battle-draw {
-    border-left: 3px solid var(--text-muted);
+    display: none; /* Hide old cards */
 }
 
 .battle-header {
