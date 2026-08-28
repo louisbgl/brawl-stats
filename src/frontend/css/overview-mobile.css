@@ -35,40 +35,48 @@
     }
 
     .lb-podium-rank-1 {
-        height: 190px;
-    }
-
-    .lb-podium-rank-2 {
         height: 160px;
     }
 
-    .lb-podium-rank-3 {
+    .lb-podium-rank-2 {
         height: 130px;
     }
 
+    .lb-podium-rank-3 {
+        height: 110px;
+    }
+
     .lb-podium-player {
-        font-size: 0.85rem;
+        font-size: 0.7rem;
+        line-height: 1.2;
+        hyphens: auto;
     }
 
     .lb-podium-value {
-        font-size: 1.05rem;
+        font-size: 0.85rem;
+        word-break: break-word;
     }
 
     .lb-rest-item {
-        padding: 10px 12px;
+        padding: 8px 10px;
+        gap: 8px;
     }
 
     .lb-rest-rank {
-        flex: 0 0 30px;
-        font-size: 0.85rem;
+        flex: 0 0 28px;
+        font-size: 0.75rem;
     }
 
     .lb-rest-player {
-        font-size: 0.85rem;
+        font-size: 0.8rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
     .lb-rest-value {
-        font-size: 0.95rem;
+        font-size: 0.85rem;
+        flex-shrink: 0;
     }
 
     /* Trophy progression chart */
@@ -86,5 +94,31 @@
 
     .chart-container {
         height: 300px !important;
+    }
+
+    /* Leaderboard category controls */
+    .leaderboard-container > div[style*="margin-bottom"] {
+        margin-bottom: 8px !important;
+    }
+
+    .lb-category-controls {
+        padding: 6px;
+        gap: 4px;
+        max-width: 100%;
+    }
+
+    .lb-category-btn {
+        padding: 6px 8px;
+        font-size: 0.6rem;
+        letter-spacing: 0.3px;
+    }
+
+    /* Leaderboard title */
+    .card h2 {
+        font-size: 1.3rem;
+    }
+
+    .lb-podium-display {
+        margin-top: 6px;
     }
 }

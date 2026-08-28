@@ -74,7 +74,11 @@ const GameConfig = {
 
     // Helper: Get prestige color
     getPrestigeColor(level) {
-        return this.PRESTIGE_COLORS[level] || '#888888';
+        if (level === 0) return this.PRESTIGE_COLORS[0];
+        if (level === 1) return this.PRESTIGE_COLORS[1];
+        if (level === 2) return this.PRESTIGE_COLORS[2];
+        if (level >= 3) return this.PRESTIGE_COLORS[3]; // 3+ all yellow
+        return '#888888';
     },
 
     // Helper: Format duration in seconds to MM:SS

@@ -88,7 +88,7 @@ const OverviewLeaderboard = {
             const actualRank = visualIdx === 1 ? 1 : visualIdx === 0 ? 2 : 3;
             const formattedValue = GameConfig.formatLeaderboardValue(category, player.value);
 
-            // Get value color for ranked_best
+            // Get value color
             let valueStyle = '';
             if (category === 'ranked_best') {
                 const color = GameConfig.getRankColor(player.value);
@@ -97,6 +97,14 @@ const OverviewLeaderboard = {
                 } else {
                     valueStyle = `style="color: ${color};"`;
                 }
+            } else if (category === 'brawlers_1k') {
+                const color = GameConfig.getPrestigeColor(1); // Purple
+                valueStyle = `style="color: ${color};"`;
+            } else if (category === 'brawlers_2k') {
+                const color = GameConfig.getPrestigeColor(2); // Red
+                valueStyle = `style="color: ${color};"`;
+            } else if (category === 'trophies') {
+                valueStyle = `style="color: var(--accent-yellow);"`;
             }
 
             return `
@@ -123,6 +131,14 @@ const OverviewLeaderboard = {
                         } else {
                             valueStyle = `style="color: ${color};"`;
                         }
+                    } else if (category === 'brawlers_1k') {
+                        const color = GameConfig.getPrestigeColor(1); // Purple
+                        valueStyle = `style="color: ${color};"`;
+                    } else if (category === 'brawlers_2k') {
+                        const color = GameConfig.getPrestigeColor(2); // Red
+                        valueStyle = `style="color: ${color};"`;
+                    } else if (category === 'trophies') {
+                        valueStyle = `style="color: var(--accent-yellow);"`;
                     }
 
                     return `
