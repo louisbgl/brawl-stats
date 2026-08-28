@@ -92,9 +92,8 @@ const OverviewManager = {
             value: `${(stats.avg_winrate * 100).toFixed(1)}%`
         });
 
-        // TODO: Add mode name prettifier/formatter (use GameConstants or similar)
         this.updateStatCard('fav-mode', {
-            value: stats.fav_mode
+            value: GameConfig.getModeName(stats.fav_mode)
         });
     },
 
