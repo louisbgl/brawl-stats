@@ -210,18 +210,29 @@ const OverviewManager = {
     },
 
     updateURL() {
+        const isDefaultTimeRange = this.currentTimeRange === 30;
+        const isDefaultLeaderboard = this.currentLeaderboardCategory === 'trophies';
+        const hasHiddenPlayers = this.hiddenPlayers.size > 0;
+
+        // If everything is default, just show "overview"
+        if (isDefaultTimeRange && isDefaultLeaderboard && !hasHiddenPlayers) {
+            this.skipNextRender = true;
+            window.location.hash = 'overview';
+            return;
+        }
+
         const rangeParam = this.currentTimeRange === null ? 'all' : this.currentTimeRange;
-        const hiddenParam = this.hiddenPlayers.size > 0 ? Array.from(this.hiddenPlayers).join(',') : '';
+        const hiddenParam = hasHiddenPlayers ? Array.from(this.hiddenPlayers).join(',') : '';
 
         let url = `overview/${rangeParam}`;
         if (hiddenParam) {
             url += `/${hiddenParam}`;
-        } else if (this.currentLeaderboardCategory !== 'trophies') {
+        } else if (!isDefaultLeaderboard) {
             // Need to preserve leaderboard category even if no hidden players
             url += `/`;
         }
 
-        if (this.currentLeaderboardCategory !== 'trophies') {
+        if (!isDefaultLeaderboard) {
             url += `/${this.currentLeaderboardCategory}`;
         }
 

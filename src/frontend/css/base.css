@@ -212,6 +212,19 @@ header {
     color: var(--accent-purple);
 }
 
+/* ===== WIP BANNER ===== */
+.wip-banner {
+    background: rgba(255, 204, 0, 0.15);
+    border: 2px solid var(--accent-yellow);
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--accent-yellow);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
 /* ===== FOOTER ===== */
 footer {
     margin-top: 60px;
