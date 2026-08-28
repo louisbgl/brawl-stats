@@ -136,15 +136,14 @@ const OverviewManager = {
         const chartCard = document.querySelector('#overview .card:nth-of-type(2)');
         if (!chartCard) return;
 
-        // Replace placeholder with time range controls + chart container
         chartCard.innerHTML = `
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-                <h2>Trophy Progression</h2>
+            <h2 style="text-align: center; margin-bottom: 16px;">Trophy Progression</h2>
+            <div style="text-align: center; margin-bottom: 20px;">
                 <div class="time-range-controls">
-                    <button class="time-range-btn ${this.currentTimeRange === 7 ? 'active' : ''}" data-days="7">7D</button>
-                    <button class="time-range-btn ${this.currentTimeRange === 30 ? 'active' : ''}" data-days="30">30D</button>
-                    <button class="time-range-btn ${this.currentTimeRange === 90 ? 'active' : ''}" data-days="90">90D</button>
-                    <button class="time-range-btn ${this.currentTimeRange === null ? 'active' : ''}" data-days="all">All</button>
+                    <button class="time-range-btn ${this.currentTimeRange === 7 ? 'active' : ''}" data-days="7">7 Days</button>
+                    <button class="time-range-btn ${this.currentTimeRange === 30 ? 'active' : ''}" data-days="30">30 Days</button>
+                    <button class="time-range-btn ${this.currentTimeRange === 90 ? 'active' : ''}" data-days="90">90 Days</button>
+                    <button class="time-range-btn ${this.currentTimeRange === null ? 'active' : ''}" data-days="all">All Time</button>
                 </div>
             </div>
             <div class="chart-container" style="position: relative; height: 400px;"></div>

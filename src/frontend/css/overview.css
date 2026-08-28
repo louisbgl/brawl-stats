@@ -78,32 +78,43 @@
 
 /* Time range filter buttons */
 .time-range-controls {
-    display: flex;
-    gap: 8px;
+    display: inline-flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
+    border: 1px solid var(--border);
 }
 
 .time-range-btn {
-    padding: 6px 16px;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 6px;
+    padding: 8px 14px;
+    background: transparent;
+    border: 2px solid transparent;
+    border-radius: 8px;
     color: var(--text-secondary);
-    font-size: 0.85rem;
-    font-weight: 600;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     cursor: pointer;
-    transition: var(--transition);
+    transition: all 0.2s;
+    position: relative;
 }
 
 .time-range-btn:hover {
-    background: var(--bg-card);
     color: var(--text-primary);
     border-color: var(--accent-purple);
+    background: rgba(157, 78, 221, 0.1);
+    transform: translateY(-2px);
 }
 
 .time-range-btn.active {
     background: var(--accent-purple);
     color: var(--text-primary);
     border-color: var(--accent-purple);
+    box-shadow: 0 4px 12px rgba(157, 78, 221, 0.3);
 }
 
 /* Leaderboard category controls */

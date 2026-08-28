@@ -70,13 +70,18 @@ const OverviewCharts = {
                     mode: 'index',
                     intersect: false
                 },
+                layout: {
+                    padding: {
+                        bottom: 10
+                    }
+                },
                 plugins: {
                     legend: {
                         display: true,
                         position: 'bottom',
                         labels: {
                             color: '#e0e0e0',
-                            padding: 16,
+                            padding: 20,
                             usePointStyle: true,
                             boxHeight: 8
                         },
