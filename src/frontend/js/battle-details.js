@@ -13,8 +13,8 @@ const BattleDetailRenderer = {
         const type = battle.type || 'unknown';
         const combo = `${mode}+${type}`;
 
-        // Only team battles have renderer implemented
-        const hasRenderer = GameConfig.isTeamMode(mode);
+        // No renderers implemented yet
+        const hasRenderer = false;
 
         // Warn once per unhandled combo
         if (!hasRenderer && !this.warnedCombos.has(combo)) {
@@ -28,28 +28,8 @@ const BattleDetailRenderer = {
     render(battle, warnedModes) {
         const mode = battle.mode || 'unknown';
         const type = battle.type || 'unknown';
-        const players = battle.players || [];
 
-        if (players.length === 0) return '';
-
-        // Route to appropriate renderer
-        if (GameConfig.isTeamMode(mode)) {
-            return this.renderTeamBattle(battle, mode, type);
-        }
-
-        if (GameConfig.isShowdownMode(mode)) {
-            return this.renderShowdownBattle(battle, mode, type);
-        }
-
-        if (mode === 'duels') {
-            return this.renderDuelsBattle(battle, mode, type);
-        }
-
-        if (mode === 'lastStand' || mode === 'megaBoss') {
-            return this.renderPvEBattle(battle, mode, type);
-        }
-
-        // Unknown mode
+        // All expanded views not implemented yet
         return this.renderUnhandled(mode, type);
     },
 
