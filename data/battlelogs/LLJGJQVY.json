@@ -522883,5 +522883,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260828T095935.000Z",
+    "event": {
+      "id": 15001173,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Konnakol"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 79,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#LQYRQC02R",
+        "name": "кискис",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 2011
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LQYRQC02R",
+            "name": "кискис",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 2011
+            }
+          },
+          {
+            "tag": "#2LLG20PLUY",
+            "name": "§1",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 524
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 1214
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UV9GVCCU2",
+            "name": "может я",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 2065
+            }
+          },
+          {
+            "tag": "#JJVUL0UVJ",
+            "name": "化|magnesium",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 10,
+              "trophies": 456
+            }
+          },
+          {
+            "tag": "#J8JYRUQJV",
+            "name": "Hift",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 9,
+              "trophies": 689
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
