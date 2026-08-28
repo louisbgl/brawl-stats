@@ -1,9 +1,14 @@
 /**
  * OverviewManager - Renders the Overview tab (v2)
  * Shows club stats from aggregated data
+ *
+ * Dependencies: overview-charts.js, common.js
  */
 
 const OverviewManager = {
+    currentChart: null,
+    currentTimeRange: 30,
+
     /**
      * Render the Overview tab with real data
      */
@@ -15,7 +20,8 @@ const OverviewManager = {
         }
 
         this.renderStatCards(clubSummary);
-        this.renderChartPlaceholders();
+        this.renderTrophyChart(clubSummary);
+        this.renderLeaderboardPlaceholder();
     },
 
     /**
@@ -62,18 +68,55 @@ const OverviewManager = {
     },
 
     /**
-     * Show chart loading placeholders
+     * Render trophy progression chart
      */
-    renderChartPlaceholders() {
-        const trophyChart = document.querySelector('#overview .card:nth-of-type(2) .placeholder');
-        const leaderboardChart = document.querySelector('#overview .card:nth-of-type(3) .placeholder');
+    renderTrophyChart(clubSummary) {
+        const chartCard = document.querySelector('#overview .card:nth-of-type(2)');
+        if (!chartCard) return;
 
-        if (trophyChart) {
-            trophyChart.textContent = 'Charts not implemented yet - historical data loading in background';
+        // Replace placeholder with time range controls + chart container
+        chartCard.innerHTML = `
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                <h2>Trophy Progression</h2>
+                <div class="time-range-controls">
+                    <button class="time-range-btn ${this.currentTimeRange === 7 ? 'active' : ''}" data-days="7">7D</button>
+                    <button class="time-range-btn ${this.currentTimeRange === 30 ? 'active' : ''}" data-days="30">30D</button>
+                    <button class="time-range-btn ${this.currentTimeRange === 90 ? 'active' : ''}" data-days="90">90D</button>
+                    <button class="time-range-btn ${this.currentTimeRange === null ? 'active' : ''}" data-days="all">All</button>
+                </div>
+            </div>
+            <div class="chart-container" style="position: relative; height: 400px;"></div>
+        `;
+
+        const chartContainer = chartCard.querySelector('.chart-container');
+
+        // Render chart
+        if (this.currentChart) {
+            this.currentChart.destroy();
         }
+        this.currentChart = OverviewCharts.renderTrophyTimeline(
+            chartContainer,
+            clubSummary.trophy_timeline,
+            this.currentTimeRange
+        );
 
-        if (leaderboardChart) {
-            leaderboardChart.textContent = 'Leaderboard not implemented yet';
+        // Setup time range button handlers
+        chartCard.querySelectorAll('.time-range-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const days = btn.dataset.days === 'all' ? null : parseInt(btn.dataset.days);
+                this.currentTimeRange = days;
+                this.renderTrophyChart(clubSummary);
+            });
+        });
+    },
+
+    /**
+     * Show leaderboard placeholder
+     */
+    renderLeaderboardPlaceholder() {
+        const leaderboardCard = document.querySelector('#overview .card:nth-of-type(3) .placeholder');
+        if (leaderboardCard) {
+            leaderboardCard.textContent = 'Leaderboard not implemented yet';
         }
     }
 };
