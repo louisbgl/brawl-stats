@@ -212,6 +212,42 @@ header {
     color: var(--accent-purple);
 }
 
+/* ===== FOOTER ===== */
+footer {
+    margin-top: 60px;
+    padding: 30px 0;
+    border-top: 2px solid var(--border);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.footer-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}
+
+.footer-content a {
+    color: var(--accent-purple);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.footer-content a:hover {
+    color: var(--accent-yellow);
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
     header {
@@ -262,5 +298,10 @@ header {
         text-overflow: ellipsis;
         flex: 1;
         min-width: 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 8px;
     }
 }
