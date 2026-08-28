@@ -70,4 +70,21 @@
     .lb-rest-value {
         font-size: 0.95rem;
     }
+
+    /* Trophy progression chart */
+    .time-range-controls {
+        padding: 6px;
+        gap: 4px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .time-range-btn {
+        padding: 6px 10px;
+        font-size: 0.65rem;
+    }
+
+    .chart-container {
+        height: 300px !important;
+    }
 }

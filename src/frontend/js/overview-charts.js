@@ -18,6 +18,9 @@ const OverviewCharts = {
         const canvas = container.querySelector('canvas');
         const ctx = canvas.getContext('2d');
 
+        // Detect mobile
+        const isMobile = window.innerWidth <= 768;
+
         // Filter timeline by date range
         const filteredData = days
             ? timelineData.slice(-days)
@@ -81,9 +84,12 @@ const OverviewCharts = {
                         position: 'bottom',
                         labels: {
                             color: '#e0e0e0',
-                            padding: 20,
+                            padding: isMobile ? 8 : 20,
                             usePointStyle: true,
-                            boxHeight: 8
+                            boxHeight: isMobile ? 6 : 8,
+                            font: {
+                                size: isMobile ? 9 : 12
+                            }
                         },
                         onClick: (e, legendItem, legend) => {
                             // Default Chart.js behavior
@@ -127,7 +133,11 @@ const OverviewCharts = {
                         ticks: {
                             color: '#8a8a9a',
                             maxRotation: 45,
-                            minRotation: 45
+                            minRotation: 45,
+                            font: {
+                                size: isMobile ? 8 : 11
+                            },
+                            maxTicksLimit: isMobile ? 6 : undefined
                         }
                     },
                     y: {
@@ -138,7 +148,11 @@ const OverviewCharts = {
                         },
                         ticks: {
                             color: '#8a8a9a',
-                            callback: (value) => value.toLocaleString()
+                            callback: (value) => value.toLocaleString(),
+                            font: {
+                                size: isMobile ? 8 : 11
+                            },
+                            maxTicksLimit: isMobile ? 5 : undefined
                         }
                     }
                 }
