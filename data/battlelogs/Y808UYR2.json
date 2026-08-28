@@ -148365,5 +148365,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260828T100331.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 228,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#PGUV8G22Q",
+        "name": "idlmm",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 567
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1368
+            }
+          },
+          {
+            "tag": "#YVV0LVU0",
+            "name": "UA | Vasilich",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 10,
+              "trophies": 974
+            }
+          },
+          {
+            "tag": "#PGUV8G22Q",
+            "name": "idlmm",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 567
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#U90GJVPGG",
+            "name": "César abes",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 661
+            }
+          },
+          {
+            "tag": "#LL0QJJJ",
+            "name": "Ol",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 832
+            }
+          },
+          {
+            "tag": "#LUQ9PUUJC",
+            "name": "SBR|BAMISCHIJF",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 891
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
