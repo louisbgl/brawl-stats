@@ -14,12 +14,40 @@ const OverviewLeaderboard = {
      * @returns {void}
      */
     render(container, leaderboards, activeCategory = 'trophies', onCategoryChange) {
-        const categories = Object.keys(GameConfig.LEADERBOARD_CATEGORIES);
+        // Extract brawlers_Xk categories and ensure gaps filled
+        const brawlerTiers = Object.keys(leaderboards)
+            .filter(k => k.startsWith('brawlers_') && k.endsWith('k'))
+            .map(k => parseInt(k.replace('brawlers_', '').replace('k', '')))
+            .filter(n => !isNaN(n))
+            .sort((a, b) => a - b);
+
+        // Safety: fill gaps (if 3k exists but 2k missing, add empty 2k)
+        if (brawlerTiers.length > 0) {
+            const max = Math.max(...brawlerTiers);
+            for (let i = 1; i <= max; i++) {
+                if (!brawlerTiers.includes(i)) {
+                    leaderboards[`brawlers_${i}k`] = [];
+                    brawlerTiers.push(i);
+                }
+            }
+            brawlerTiers.sort((a, b) => a - b);
+        }
+
+        // Build full category list: base categories + dynamic brawlers_Xk
+        const baseCategories = Object.keys(GameConfig.LEADERBOARD_CATEGORIES);
+        const brawlerCategories = brawlerTiers.map(tier => `brawlers_${tier}k`);
+        const categories = [...baseCategories, ...brawlerCategories];
 
         // Build category filter buttons
         const categoryButtons = categories.map(cat => {
             const isActive = cat === activeCategory;
-            const label = GameConfig.LEADERBOARD_CATEGORIES[cat];
+            let label;
+            if (cat.startsWith('brawlers_')) {
+                const tier = parseInt(cat.replace('brawlers_', '').replace('k', ''));
+                label = GameConfig.getPrestigeTierLabel(tier);
+            } else {
+                label = GameConfig.LEADERBOARD_CATEGORIES[cat];
+            }
             return `<button class="lb-category-btn ${isActive ? 'active' : ''}" data-category="${cat}">${label}</button>`;
         }).join('');
 
@@ -83,9 +111,18 @@ const OverviewLeaderboard = {
         ];
 
         const podiumHTML = podiumOrder.map((player, visualIdx) => {
-            if (!player) return '<div class="lb-podium-empty"></div>';
-
             const actualRank = visualIdx === 1 ? 1 : visualIdx === 0 ? 2 : 3;
+
+            if (!player) {
+                return `
+                    <div class="lb-podium-place lb-podium-rank-${actualRank}" style="opacity: 0.3;">
+                        <div class="lb-podium-rank">#${actualRank}</div>
+                        <div class="lb-podium-player">—</div>
+                        <div class="lb-podium-value">—</div>
+                    </div>
+                `;
+            }
+
             const formattedValue = GameConfig.formatLeaderboardValue(category, player.value);
 
             // Get value color
@@ -97,11 +134,9 @@ const OverviewLeaderboard = {
                 } else {
                     valueStyle = `style="color: ${color};"`;
                 }
-            } else if (category === 'brawlers_1k') {
-                const color = GameConfig.getPrestigeColor(1); // Purple
-                valueStyle = `style="color: ${color};"`;
-            } else if (category === 'brawlers_2k') {
-                const color = GameConfig.getPrestigeColor(2); // Red
+            } else if (category.startsWith('brawlers_') && category.endsWith('k')) {
+                const tier = parseInt(category.replace('brawlers_', '').replace('k', ''));
+                const color = GameConfig.getPrestigeColor(tier);
                 valueStyle = `style="color: ${color};"`;
             } else if (category === 'trophies') {
                 valueStyle = `style="color: var(--accent-yellow);"`;
@@ -131,11 +166,9 @@ const OverviewLeaderboard = {
                         } else {
                             valueStyle = `style="color: ${color};"`;
                         }
-                    } else if (category === 'brawlers_1k') {
-                        const color = GameConfig.getPrestigeColor(1); // Purple
-                        valueStyle = `style="color: ${color};"`;
-                    } else if (category === 'brawlers_2k') {
-                        const color = GameConfig.getPrestigeColor(2); // Red
+                    } else if (category.startsWith('brawlers_') && category.endsWith('k')) {
+                        const tier = parseInt(category.replace('brawlers_', '').replace('k', ''));
+                        const color = GameConfig.getPrestigeColor(tier);
                         valueStyle = `style="color: ${color};"`;
                     } else if (category === 'trophies') {
                         valueStyle = `style="color: var(--accent-yellow);"`;

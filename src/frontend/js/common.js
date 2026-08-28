@@ -138,15 +138,18 @@ const GameConfig = {
         return null; // Ladder battles don't get a badge
     },
 
-    // Leaderboard categories
+    // Leaderboard categories (base categories, brawlers_Xk generated dynamically)
     LEADERBOARD_CATEGORIES: {
         'trophies': 'Trophies',
         'ranked_best': 'Best Rank',
         'winrate': 'Win Rate',
         'total_battles': 'Total Battles',
-        'maxed_brawlers': 'Maxed Brawlers',
-        'brawlers_1k': 'Brawlers 1K+',
-        'brawlers_2k': 'Brawlers 2K+'
+        'maxed_brawlers': 'Maxed Brawlers'
+    },
+
+    // Helper: Get prestige tier label (1 → "Brawler 1k+", 2 → "Brawler 2k+", etc.)
+    getPrestigeTierLabel(tier) {
+        return `Brawler ${tier}k+`;
     },
 
     // Helper: Format leaderboard value based on category
