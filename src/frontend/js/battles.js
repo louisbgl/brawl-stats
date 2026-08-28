@@ -19,18 +19,17 @@ const BattlesManager = {
 
     async render(urlFilters = []) {
         // Parse URL filters: [player, mode, result]
-        if (urlFilters.length > 0) {
+        // URL params override localStorage
+        if (urlFilters.length > 0 && urlFilters[0]) {
             this.currentFilters.player = urlFilters[0] || 'all';
             this.currentFilters.mode = urlFilters[1] || 'all';
             this.currentFilters.result = urlFilters[2] || 'all';
+
+            // Save to localStorage
+            this.saveState();
         } else {
-            // Reset to defaults
-            this.currentFilters = {
-                player: 'all',
-                mode: 'all',
-                result: 'all',
-                type: 'all'
-            };
+            // No URL params - load from localStorage
+            this.loadState();
         }
 
         // Reset to recent segment only
@@ -42,6 +41,11 @@ const BattlesManager = {
         this.applyFilters();
         this.renderHTML();
         this.setupEventHandlers();
+
+        // Update URL after render if loaded from localStorage
+        if (!(urlFilters.length > 0 && urlFilters[0])) {
+            this.updateURL();
+        }
     },
 
     async loadSegment(segment) {
@@ -420,6 +424,25 @@ const BattlesManager = {
         this.setupEventHandlers();
     },
 
+    saveState() {
+        localStorage.setItem('battles.player', this.currentFilters.player);
+        localStorage.setItem('battles.mode', this.currentFilters.mode);
+        localStorage.setItem('battles.result', this.currentFilters.result);
+        localStorage.setItem('battles.type', this.currentFilters.type);
+    },
+
+    loadState() {
+        const savedPlayer = localStorage.getItem('battles.player');
+        const savedMode = localStorage.getItem('battles.mode');
+        const savedResult = localStorage.getItem('battles.result');
+        const savedType = localStorage.getItem('battles.type');
+
+        if (savedPlayer) this.currentFilters.player = savedPlayer;
+        if (savedMode) this.currentFilters.mode = savedMode;
+        if (savedResult) this.currentFilters.result = savedResult;
+        if (savedType) this.currentFilters.type = savedType;
+    },
+
     updateURL() {
         const url = `battles/${this.currentFilters.player}/${this.currentFilters.mode}/${this.currentFilters.result}`;
         window.location.hash = url;
@@ -436,6 +459,7 @@ const BattlesManager = {
             playerFilter.addEventListener('change', (e) => {
                 this.currentFilters.player = e.target.value;
                 this.applyFilters();
+                this.saveState();
                 this.updateURL();
                 this.renderHTML();
                 this.setupEventHandlers();
@@ -446,6 +470,7 @@ const BattlesManager = {
             modeFilter.addEventListener('change', (e) => {
                 this.currentFilters.mode = e.target.value;
                 this.applyFilters();
+                this.saveState();
                 this.updateURL();
                 this.renderHTML();
                 this.setupEventHandlers();
@@ -456,6 +481,7 @@ const BattlesManager = {
             resultFilter.addEventListener('change', (e) => {
                 this.currentFilters.result = e.target.value;
                 this.applyFilters();
+                this.saveState();
                 this.updateURL();
                 this.renderHTML();
                 this.setupEventHandlers();
@@ -466,6 +492,7 @@ const BattlesManager = {
             typeFilter.addEventListener('change', (e) => {
                 this.currentFilters.type = e.target.value;
                 this.applyFilters();
+                this.saveState();
                 this.updateURL();
                 this.renderHTML();
                 this.setupEventHandlers();

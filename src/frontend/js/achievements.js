@@ -22,7 +22,8 @@ const AchievementsManager = {
         this.achievements = achievements;
 
         // Parse URL filters: [player, dateRange, types]
-        if (urlFilters.length > 0) {
+        // URL params override localStorage
+        if (urlFilters.length > 0 && urlFilters[0]) {
             this.currentFilters.player = urlFilters[0] || 'all';
             this.currentFilters.dateRange = urlFilters[1] || 'all';
 
@@ -36,13 +37,13 @@ const AchievementsManager = {
             } else {
                 this.currentFilters.types = new Set(['new_brawler', 'maxed_brawler', 'gadget', 'star_power', 'hypercharge', 'prestige', 'trophy_milestone', 'first_prestige_level', 'total_prestiges']);
             }
+
+            // Save to localStorage
+            this.saveState();
         } else {
-            // Reset to defaults
-            this.currentFilters = {
-                player: 'all',
-                types: new Set(['new_brawler', 'maxed_brawler', 'gadget', 'star_power', 'hypercharge', 'prestige', 'trophy_milestone', 'first_prestige_level', 'total_prestiges']),
-                dateRange: 'all'
-            };
+            // No URL params - load from localStorage
+            this.loadState();
+            this.updateURL(); // Sync URL with localStorage
         }
 
         this.applyFilters();
@@ -261,6 +262,35 @@ const AchievementsManager = {
         }
     },
 
+    saveState() {
+        localStorage.setItem('achievements.player', this.currentFilters.player);
+        localStorage.setItem('achievements.dateRange', this.currentFilters.dateRange);
+        localStorage.setItem('achievements.types', JSON.stringify(Array.from(this.currentFilters.types)));
+    },
+
+    loadState() {
+        const savedPlayer = localStorage.getItem('achievements.player');
+        const savedDateRange = localStorage.getItem('achievements.dateRange');
+        const savedTypes = localStorage.getItem('achievements.types');
+
+        if (savedPlayer) {
+            this.currentFilters.player = savedPlayer;
+        }
+
+        if (savedDateRange) {
+            this.currentFilters.dateRange = savedDateRange;
+        }
+
+        if (savedTypes) {
+            try {
+                const typesArray = JSON.parse(savedTypes);
+                this.currentFilters.types = new Set(typesArray);
+            } catch (e) {
+                this.currentFilters.types = new Set(['new_brawler', 'maxed_brawler', 'gadget', 'star_power', 'hypercharge', 'prestige', 'trophy_milestone', 'first_prestige_level', 'total_prestiges']);
+            }
+        }
+    },
+
     updateURL() {
         const types = this.currentFilters.types.size > 0
             ? Array.from(this.currentFilters.types).join(',')
@@ -276,6 +306,7 @@ const AchievementsManager = {
             playerFilter.addEventListener('change', (e) => {
                 this.currentFilters.player = e.target.value;
                 this.applyFilters();
+                this.saveState();
                 this.updateURL();
                 this.renderHTML();
                 this.setupFilterHandlers();
@@ -288,6 +319,7 @@ const AchievementsManager = {
             dateFilter.addEventListener('change', (e) => {
                 this.currentFilters.dateRange = e.target.value;
                 this.applyFilters();
+                this.saveState();
                 this.updateURL();
                 this.renderHTML();
                 this.setupFilterHandlers();
@@ -300,6 +332,7 @@ const AchievementsManager = {
             selectAllBtn.addEventListener('click', () => {
                 this.currentFilters.types = new Set(['new_brawler', 'maxed_brawler', 'gadget', 'star_power', 'hypercharge', 'prestige', 'trophy_milestone', 'first_prestige_level', 'total_prestiges']);
                 this.applyFilters();
+                this.saveState();
                 this.updateURL();
                 this.renderHTML();
                 this.setupFilterHandlers();
@@ -312,6 +345,7 @@ const AchievementsManager = {
             deselectAllBtn.addEventListener('click', () => {
                 this.currentFilters.types.clear();
                 this.applyFilters();
+                this.saveState();
                 this.updateURL();
                 this.renderHTML();
                 this.setupFilterHandlers();
@@ -329,6 +363,7 @@ const AchievementsManager = {
                     this.currentFilters.types.delete(type);
                 }
                 this.applyFilters();
+                this.saveState();
                 this.updateURL();
                 this.renderHTML();
                 this.setupFilterHandlers();
