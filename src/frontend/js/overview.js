@@ -9,18 +9,26 @@ const OverviewManager = {
     currentChart: null,
     currentTimeRange: 30,
     hiddenPlayers: new Set(), // Track hidden player tags
+    currentLeaderboardCategory: 'trophies', // Track active leaderboard category
+    skipNextRender: false, // Flag to prevent re-render on programmatic URL updates
 
     /**
      * Render the Overview tab with real data
      */
     async render(urlFilters = []) {
+        // Skip render if programmatic URL update
+        if (this.skipNextRender) {
+            this.skipNextRender = false;
+            return;
+        }
+
         const clubSummary = await DataLoader.getClubSummary();
         if (!clubSummary) {
             console.error('Cannot render Overview: club-summary.json not loaded');
             return;
         }
 
-        // Parse URL filters first, fallback to localStorage
+        // Parse URL filters: [timeRange, hiddenPlayers, leaderboardCategory]
         if (urlFilters.length > 0 && urlFilters[0]) {
             // URL has params - use them
             const rangeParam = urlFilters[0];
@@ -33,6 +41,10 @@ const OverviewManager = {
                 this.hiddenPlayers = new Set();
             }
 
+            if (urlFilters[2]) {
+                this.currentLeaderboardCategory = urlFilters[2] || 'trophies';
+            }
+
             // Save to localStorage
             this.saveState();
         } else {
@@ -43,17 +55,19 @@ const OverviewManager = {
 
         this.renderStatCards(clubSummary);
         this.renderTrophyChart(clubSummary);
-        this.renderLeaderboardPlaceholder();
+        this.renderLeaderboard(clubSummary);
     },
 
     saveState() {
         localStorage.setItem('overview.timeRange', this.currentTimeRange === null ? 'all' : this.currentTimeRange.toString());
         localStorage.setItem('overview.hiddenPlayers', JSON.stringify(Array.from(this.hiddenPlayers)));
+        localStorage.setItem('overview.leaderboardCategory', this.currentLeaderboardCategory);
     },
 
     loadState() {
         const savedRange = localStorage.getItem('overview.timeRange');
         const savedHidden = localStorage.getItem('overview.hiddenPlayers');
+        const savedCategory = localStorage.getItem('overview.leaderboardCategory');
 
         if (savedRange) {
             this.currentTimeRange = savedRange === 'all' ? null : parseInt(savedRange);
@@ -66,6 +80,10 @@ const OverviewManager = {
             } catch (e) {
                 this.hiddenPlayers = new Set();
             }
+        }
+
+        if (savedCategory) {
+            this.currentLeaderboardCategory = savedCategory;
         }
     },
 
@@ -195,17 +213,53 @@ const OverviewManager = {
     updateURL() {
         const rangeParam = this.currentTimeRange === null ? 'all' : this.currentTimeRange;
         const hiddenParam = this.hiddenPlayers.size > 0 ? Array.from(this.hiddenPlayers).join(',') : '';
-        const url = hiddenParam ? `overview/${rangeParam}/${hiddenParam}` : `overview/${rangeParam}`;
+
+        let url = `overview/${rangeParam}`;
+        if (hiddenParam) {
+            url += `/${hiddenParam}`;
+        } else if (this.currentLeaderboardCategory !== 'trophies') {
+            // Need to preserve leaderboard category even if no hidden players
+            url += `/`;
+        }
+
+        if (this.currentLeaderboardCategory !== 'trophies') {
+            url += `/${this.currentLeaderboardCategory}`;
+        }
+
+        // Set flag to skip next render (programmatic update)
+        this.skipNextRender = true;
         window.location.hash = url;
     },
 
     /**
-     * Show leaderboard placeholder
+     * Render club leaderboard
      */
-    renderLeaderboardPlaceholder() {
-        const leaderboardCard = document.querySelector('#overview .card:nth-of-type(3) .placeholder');
-        if (leaderboardCard) {
-            leaderboardCard.textContent = 'Leaderboard not implemented yet';
+    renderLeaderboard(clubSummary) {
+        const leaderboardCard = document.querySelector('#overview .card:nth-of-type(3)');
+        if (!leaderboardCard) return;
+
+        // Remove placeholder, keep h2
+        const placeholder = leaderboardCard.querySelector('.placeholder');
+        if (placeholder) placeholder.remove();
+
+        // Create container for leaderboard
+        let container = leaderboardCard.querySelector('.leaderboard-container');
+        if (!container) {
+            container = document.createElement('div');
+            container.className = 'leaderboard-container';
+            leaderboardCard.appendChild(container);
+
+            // Initial render only
+            OverviewLeaderboard.render(
+                container,
+                clubSummary.leaderboards,
+                this.currentLeaderboardCategory,
+                (category) => {
+                    this.currentLeaderboardCategory = category;
+                    this.saveState();
+                    this.updateURL();
+                }
+            );
         }
     }
 };

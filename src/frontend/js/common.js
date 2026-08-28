@@ -132,5 +132,107 @@ const GameConfig = {
         if (type === this.BATTLE_TYPES.FRIENDLY) return 'FRIENDLY';
         if (this.BATTLE_TYPES.CHALLENGE.includes(type)) return 'CHALLENGE';
         return null; // Ladder battles don't get a badge
+    },
+
+    // Leaderboard categories
+    LEADERBOARD_CATEGORIES: {
+        'trophies': 'Trophies',
+        'ranked_best': 'Best Rank',
+        'winrate': 'Win Rate',
+        'total_battles': 'Total Battles',
+        'maxed_brawlers': 'Maxed Brawlers',
+        'brawlers_1k': 'Brawlers 1K+',
+        'brawlers_2k': 'Brawlers 2K+'
+    },
+
+    // Helper: Format leaderboard value based on category
+    formatLeaderboardValue(category, value) {
+        if (value === null || value === undefined) return '—';
+
+        switch(category) {
+            case 'trophies':
+            case 'total_battles':
+            case 'maxed_brawlers':
+            case 'brawlers_1k':
+            case 'brawlers_2k':
+                return value.toLocaleString();
+            case 'winrate':
+                return `${(value * 100).toFixed(1)}%`;
+            case 'ranked_best':
+                return this.formatRank(value);
+            default:
+                return value.toString();
+        }
+    },
+
+    // Rank tier colors
+    RANK_COLORS: {
+        'Bronze': '#CD7F32',      // Brown
+        'Silver': '#C0C0C0',      // Silver
+        'Gold': '#FFD700',        // Gold
+        'Diamond': '#B9F2FF',     // Light cyan/diamond blue
+        'Mythic': '#9370DB',      // Purple
+        'Legendary': '#FF4444',   // Red
+        'Master': '#FFA500',      // Orange-yellow
+        'Pro': 'linear-gradient(90deg, #FFD700, #7FFF00)' // Yellow to green fade
+    },
+
+    // Helper: Get color for rank tier
+    getRankColor(rankNum) {
+        if (!rankNum || rankNum < 1) return '#888888';
+
+        const tiers = [
+            { name: 'Bronze', count: 3 },
+            { name: 'Silver', count: 3 },
+            { name: 'Gold', count: 3 },
+            { name: 'Diamond', count: 3 },
+            { name: 'Mythic', count: 3 },
+            { name: 'Legendary', count: 3 },
+            { name: 'Master', count: 3 },
+        ];
+
+        let current = 1;
+        for (const tier of tiers) {
+            if (rankNum < current + tier.count) {
+                return this.RANK_COLORS[tier.name];
+            }
+            current += tier.count;
+        }
+
+        return this.RANK_COLORS['Pro'];
+    },
+
+    // Helper: Convert rank number to rank name (Bronze I, Silver II, etc.)
+    formatRank(rankNum) {
+        if (!rankNum || rankNum < 1) return '—';
+
+        const tiers = [
+            { name: 'Bronze', count: 3 },    // 1-3
+            { name: 'Silver', count: 3 },    // 4-6
+            { name: 'Gold', count: 3 },      // 7-9
+            { name: 'Diamond', count: 3 },   // 10-12
+            { name: 'Mythic', count: 3 },    // 13-15
+            { name: 'Legendary', count: 3 }, // 16-18
+            { name: 'Master', count: 3 },    // 19-21
+        ];
+
+        let rankName;
+        let current = 1;
+        for (const tier of tiers) {
+            if (rankNum < current + tier.count) {
+                const offset = rankNum - current;
+                const roman = ['I', 'II', 'III'][offset];
+                rankName = `${tier.name} ${roman}`;
+                break;
+            }
+            current += tier.count;
+        }
+
+        // Rank 22+ = Pro
+        if (!rankName) {
+            rankName = 'Pro';
+        }
+
+        return rankName;
     }
 };
