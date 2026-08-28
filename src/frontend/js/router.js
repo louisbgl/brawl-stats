@@ -44,7 +44,7 @@ const Router = {
         switch(tabName) {
             case 'overview':
                 if (typeof OverviewManager !== 'undefined') {
-                    OverviewManager.render();
+                    OverviewManager.render(filters);
                 }
                 break;
             case 'player':

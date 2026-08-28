@@ -79,6 +79,19 @@ const OverviewCharts = {
                             padding: 16,
                             usePointStyle: true,
                             boxHeight: 8
+                        },
+                        onClick: (e, legendItem, legend) => {
+                            // Default Chart.js behavior
+                            const index = legendItem.datasetIndex;
+                            const chart = legend.chart;
+                            const meta = chart.getDatasetMeta(index);
+                            meta.hidden = !meta.hidden;
+                            chart.update();
+
+                            // Trigger custom callback if provided
+                            if (chart.options.onLegendClick) {
+                                chart.options.onLegendClick(chart);
+                            }
                         }
                     },
                     tooltip: {
