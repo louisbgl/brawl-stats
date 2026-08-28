@@ -13,10 +13,10 @@
       "win_rate": 68.3
     },
     "brawlBall": {
-      "wins": 1128,
-      "losses": 544,
-      "total": 1684,
-      "win_rate": 67.0
+      "wins": 1142,
+      "losses": 547,
+      "total": 1701,
+      "win_rate": 67.1
     },
     "gemGrab": {
       "wins": 47,
@@ -231,6 +231,14 @@
       "avg_trophy_change": 2.87
     },
     {
+      "brawler": "FRANK",
+      "wins": 43,
+      "losses": 26,
+      "total": 69,
+      "win_rate": 62.3,
+      "avg_trophy_change": 6.12
+    },
+    {
       "brawler": "BONNIE",
       "wins": 50,
       "losses": 16,
@@ -253,14 +261,6 @@
       "total": 66,
       "win_rate": 57.6,
       "avg_trophy_change": 6.88
-    },
-    {
-      "brawler": "FRANK",
-      "wins": 41,
-      "losses": 25,
-      "total": 66,
-      "win_rate": 62.1,
-      "avg_trophy_change": 6.15
     },
     {
       "brawler": "CARL",
@@ -383,6 +383,14 @@
       "avg_trophy_change": 6.81
     },
     {
+      "brawler": "KENJI",
+      "wins": 21,
+      "losses": 12,
+      "total": 35,
+      "win_rate": 60.0,
+      "avg_trophy_change": 7.03
+    },
+    {
       "brawler": "MAX",
       "wins": 10,
       "losses": 21,
@@ -421,14 +429,6 @@
       "total": 26,
       "win_rate": 7.7,
       "avg_trophy_change": 16.35
-    },
-    {
-      "brawler": "KENJI",
-      "wins": 9,
-      "losses": 10,
-      "total": 21,
-      "win_rate": 42.9,
-      "avg_trophy_change": 4.33
     },
     {
       "brawler": "SIRIUS",
@@ -801,6 +801,12 @@
       "win_rate": 85.7
     },
     {
+      "teammate_tag": "#8LQ2P2PQ9",
+      "games": 17,
+      "wins": 14,
+      "win_rate": 82.4
+    },
+    {
       "teammate_tag": "#Y808UYR2",
       "games": 16,
       "wins": 13,
@@ -820,21 +826,15 @@
     },
     {
       "teammate_tag": "#LLJGJQVY",
-      "games": 1291,
-      "wins": 669,
-      "win_rate": 51.8
+      "games": 1308,
+      "wins": 683,
+      "win_rate": 52.2
     },
     {
       "teammate_tag": "#2L0U0PGRL",
       "games": 1272,
       "wins": 614,
       "win_rate": 48.3
-    },
-    {
-      "teammate_tag": "#2V2VJYQP9L",
-      "games": 11,
-      "wins": 1,
-      "win_rate": 9.1
     }
   ]
 }
