@@ -76,6 +76,36 @@
     margin-bottom: 6px;
 }
 
+/* Time range filter buttons */
+.time-range-controls {
+    display: flex;
+    gap: 8px;
+}
+
+.time-range-btn {
+    padding: 6px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.time-range-btn:hover {
+    background: var(--bg-card);
+    color: var(--text-primary);
+    border-color: var(--accent-purple);
+}
+
+.time-range-btn.active {
+    background: var(--accent-purple);
+    color: var(--text-primary);
+    border-color: var(--accent-purple);
+}
+
 @media (max-width: 768px) {
     .stats-row {
         grid-template-columns: 1fr;
