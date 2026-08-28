@@ -85,6 +85,34 @@ const GameConfig = {
         return `${mins}:${secs.toString().padStart(2, '0')}`;
     },
 
+    // Chart color pool for players without preset colors
+    CHART_COLOR_POOL: [
+        '#c770ed', // Purple
+        '#70c7ed', // Cyan
+        '#edc770', // Yellow
+        '#ed7070', // Red
+        '#70ed8f', // Green
+        '#8fed70', // Lime
+        '#ed8f70', // Orange
+        '#708fed', // Blue
+        '#c7ed70', // Yellow-green
+    ],
+
+    // Preset colors for specific players (tag → color)
+    PLAYER_COLORS: {
+        '#LLJGJQVY': '#ed70c7' // Pink - Escorte
+    },
+
+    // Helper: Get chart color for player
+    getPlayerChartColor(tag) {
+        if (this.PLAYER_COLORS[tag]) {
+            return this.PLAYER_COLORS[tag];
+        }
+        // Hash tag to consistent pool index
+        const hash = tag.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+        return this.CHART_COLOR_POOL[hash % this.CHART_COLOR_POOL.length];
+    },
+
     // Battle types
     BATTLE_TYPES: {
         LADDER: 'ranked',           // Trophy-based (shows trophy change)
