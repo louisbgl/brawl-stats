@@ -118,14 +118,72 @@ const PlayerStatsManager = {
 
         content.innerHTML = '<div class="loading">Loading player stats...</div>';
 
-        // TODO: Load player data from data/aggregated/players/{TAG}/stats.json
-        // For now, WIP banner
-        const playerIndex = DataLoader.getPlayerIndex();
-        const playerName = playerIndex[tag]?.name || tag;
+        try {
+            // Load player data (strip # from tag for file paths)
+            const tagClean = tag.replace('#', '');
+            const [statsData, clubSummary, brawlersData] = await Promise.all([
+                fetch(`data/aggregated/players/${tagClean}/stats.json`).then(r => r.json()),
+                DataLoader.getClubSummary(),
+                fetch('data/aggregated/brawlers.json').then(r => r.json())
+            ]);
+
+            // Get best rank from club summary leaderboard
+            const bestRankEntry = clubSummary.leaderboards.ranked_best.find(p => p.tag === tag);
+            const bestRank = bestRankEntry?.value || null;
+
+            // Render stats
+            this.renderQuickStats(statsData, bestRank, clubSummary, tag, brawlersData.items.length);
+        } catch (error) {
+            console.error('Failed to load player stats:', error);
+            content.innerHTML = '<div class="error">Failed to load player stats</div>';
+        }
+    },
+
+    /**
+     * Render quick stats cards
+     */
+    renderQuickStats(statsData, bestRank, clubSummary, tag, totalBrawlers) {
+        const content = document.querySelector('.player-stats-content');
+        if (!content) return;
+
+        const stats = statsData.quick_stats;
+        const totalWins = stats.wins_3v3 + stats.wins_solo + stats.wins_duo;
+
+        // Get player name and color
+        const playerEntry = clubSummary.leaderboards.trophies.find(p => p.tag === tag);
+        const playerName = playerEntry?.name || tag;
+        const playerColor = GameConfig.getPlayerChartColor(tag);
 
         content.innerHTML = `
-            <div class="wip-banner">
-                🚧 Work in Progress - Player stats for ${playerName} coming soon
+            <div style="text-align: center; margin-bottom: 40px; font-size: 2.5rem; font-weight: 700; line-height: 1;">
+                <span style="color: ${playerColor}">${playerName}</span>
+                <span style="color: var(--text-muted); font-size: 1.2rem; font-weight: 500; margin-left: 12px; vertical-align: middle;">(${tag})</span>
+            </div>
+
+            <div class="stats-row">
+                <div class="stat-card accent-yellow-alt">
+                    <div class="stat-label">Trophies</div>
+                    <div class="stat-value">${GameConfig.formatTrophyColored(stats.trophies)}</div>
+                    <div class="stat-subtext">Best: ${GameConfig.formatTrophyColored(stats.highest_trophies)}</div>
+                </div>
+
+                <div class="stat-card accent-purple-alt">
+                    <div class="stat-label">Best Rank</div>
+                    <div class="stat-value">${GameConfig.formatRankColored(bestRank)}</div>
+                    <div class="stat-subtext">Highest All-Time</div>
+                </div>
+
+                <div class="stat-card accent-cyan-alt">
+                    <div class="stat-label">Total Wins</div>
+                    <div class="stat-value">${totalWins.toLocaleString()}</div>
+                    <div class="stat-subtext">3v3 + Solo + Duo</div>
+                </div>
+
+                <div class="stat-card accent-pink-alt">
+                    <div class="stat-label">Brawlers</div>
+                    <div class="stat-value">${stats.brawlers_owned}/${totalBrawlers}</div>
+                    <div class="stat-subtext">${((stats.brawlers_owned / totalBrawlers) * 100).toFixed(0)}% collected</div>
+                </div>
             </div>
         `;
     }

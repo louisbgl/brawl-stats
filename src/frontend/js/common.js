@@ -209,6 +209,19 @@ const GameConfig = {
         return this.RANK_COLORS['Pro'];
     },
 
+    // Helper: Format rank with color HTML
+    formatRankColored(rankNum) {
+        if (!rankNum || rankNum < 1) return '—';
+        const rankText = this.formatRank(rankNum);
+        const color = this.getRankColor(rankNum);
+        return `<span style="color: ${color}">${rankText}</span>`;
+    },
+
+    // Helper: Format trophy count with yellow color
+    formatTrophyColored(trophyCount) {
+        return `<span style="color: var(--accent-yellow)">${trophyCount.toLocaleString()}</span>`;
+    },
+
     // Helper: Convert rank number to rank name (Bronze I, Silver II, etc.)
     formatRank(rankNum) {
         if (!rankNum || rankNum < 1) return '—';

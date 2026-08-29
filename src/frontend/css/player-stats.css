@@ -57,6 +57,33 @@
     min-height: 40vh;
 }
 
+/* Alternate accent positions for player stat cards */
+.stat-card.accent-yellow-alt::after {
+    background: var(--accent-yellow);
+    top: -40px;
+    right: -40px;
+}
+
+.stat-card.accent-purple-alt::after {
+    background: var(--accent-purple);
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.stat-card.accent-cyan-alt::after {
+    background: var(--accent-cyan);
+    bottom: -40px;
+    left: -40px;
+}
+
+.stat-card.accent-pink-alt::after {
+    background: var(--accent-pink);
+    top: 50%;
+    right: -60px;
+    transform: translateY(-50%);
+}
+
 /* ===== MOBILE ===== */
 @media (max-width: 768px) {
     .player-selector {
