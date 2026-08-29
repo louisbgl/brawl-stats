@@ -10,13 +10,12 @@ const OverviewManager = {
     currentTimeRange: 30,
     hiddenPlayers: new Set(), // Track hidden player tags
     currentLeaderboardCategory: 'trophies', // Track active leaderboard category
-    skipNextRender: false, // Flag to prevent re-render on programmatic URL updates
+    skipNextRender: false, // Skip re-render when we update URL programmatically
 
     /**
      * Render the Overview tab with real data
      */
     async render(urlFilters = []) {
-        // Skip render if programmatic URL update
         if (this.skipNextRender) {
             this.skipNextRender = false;
             return;
@@ -133,7 +132,7 @@ const OverviewManager = {
      * Render trophy progression chart
      */
     renderTrophyChart(clubSummary) {
-        const chartCard = document.querySelector('#overview .card:nth-of-type(2)');
+        const chartCard = document.querySelector('#tab-overview .card:nth-of-type(2)');
         if (!chartCard) return;
 
         chartCard.innerHTML = `
@@ -214,38 +213,36 @@ const OverviewManager = {
         const isDefaultLeaderboard = this.currentLeaderboardCategory === 'trophies';
         const hasHiddenPlayers = this.hiddenPlayers.size > 0;
 
-        // If everything is default, just show "overview"
+        // Build target URL
+        let targetURL;
         if (isDefaultTimeRange && isDefaultLeaderboard && !hasHiddenPlayers) {
-            this.skipNextRender = true;
-            window.location.hash = 'overview';
-            return;
+            targetURL = 'overview';
+        } else {
+            const rangeParam = this.currentTimeRange === null ? 'all' : this.currentTimeRange;
+            const hiddenParam = hasHiddenPlayers ? Array.from(this.hiddenPlayers).join(',') : '';
+
+            targetURL = `overview/${rangeParam}`;
+            if (hiddenParam) {
+                targetURL += `/${hiddenParam}`;
+            } else if (!isDefaultLeaderboard) {
+                targetURL += `/`;
+            }
+
+            if (!isDefaultLeaderboard) {
+                targetURL += `/${this.currentLeaderboardCategory}`;
+            }
         }
 
-        const rangeParam = this.currentTimeRange === null ? 'all' : this.currentTimeRange;
-        const hiddenParam = hasHiddenPlayers ? Array.from(this.hiddenPlayers).join(',') : '';
-
-        let url = `overview/${rangeParam}`;
-        if (hiddenParam) {
-            url += `/${hiddenParam}`;
-        } else if (!isDefaultLeaderboard) {
-            // Need to preserve leaderboard category even if no hidden players
-            url += `/`;
-        }
-
-        if (!isDefaultLeaderboard) {
-            url += `/${this.currentLeaderboardCategory}`;
-        }
-
-        // Set flag to skip next render (programmatic update)
+        // Skip re-render on hash change (we already updated UI)
         this.skipNextRender = true;
-        window.location.hash = url;
+        window.location.hash = targetURL;
     },
 
     /**
      * Render club leaderboard
      */
     renderLeaderboard(clubSummary) {
-        const leaderboardCard = document.querySelector('#overview .card:nth-of-type(3)');
+        const leaderboardCard = document.querySelector('#tab-overview .card:nth-of-type(3)');
         if (!leaderboardCard) return;
 
         // Remove placeholder, keep h2

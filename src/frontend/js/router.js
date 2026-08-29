@@ -20,9 +20,6 @@ const Router = {
         const filters = parts.slice(1); // Everything after tab name
 
         this.switchToTab(tab, filters);
-
-        // Scroll to top to prevent browser auto-scroll to #id
-        window.scrollTo(0, 0);
     },
 
     switchToTab(tabName, filters = []) {
@@ -32,7 +29,7 @@ const Router = {
 
         // Add active class to target tab
         const tabButton = document.querySelector(`[data-tab="${tabName}"]`);
-        const tabContent = document.getElementById(tabName);
+        const tabContent = document.getElementById(`tab-${tabName}`);
 
         if (tabButton && tabContent) {
             tabButton.classList.add('active');
