@@ -2,6 +2,8 @@
 
 One-time procedure to replace main branch with v2 architecture.
 
+**Note**: For routine data syncing from main to v2, use `scripts/sync_from_main.py` instead (see below).
+
 ## Overview
 
 **What changes**:
@@ -14,6 +16,27 @@ One-time procedure to replace main branch with v2 architecture.
 - Data collection branches (`data-snapshots`, `data-battlelogs`) still used by VM
 - Frontend already uses v2 paths, no changes needed
 - Oracle VM collection schedule unchanged
+
+## Routine Data Syncing (Before Promotion)
+
+While v2 is still a separate branch, use the automated sync tool to pull new data from main:
+
+```bash
+# Preview what would sync
+python scripts/sync_from_main.py --dry-run
+
+# Actually sync data
+python scripts/sync_from_main.py --execute
+```
+
+The tool automatically:
+- Detects new snapshots and updated battlelogs
+- Extracts and compresses files from main
+- Updates metadata timestamps
+- Regenerates aggregated data
+- Reports what changed
+
+This keeps v2 branch up-to-date with main's data collection without manual file copying.
 
 ## Prerequisites
 
