@@ -81,8 +81,19 @@ class MainSyncTool:
             self._report_errors()
             return False
 
-        # TODO: Phase 4-5
-        print("\n[Phase 4-5] Not yet implemented")
+        # Phase 4: Aggregation
+        aggregation_success = False
+        if not self.dry_run:
+            print("\n[Phase 4] Regenerating aggregated data...")
+            aggregation_success = self.run_aggregation()
+            if not aggregation_success:
+                self._report_errors()
+                print("\n⚠ Data synced but aggregation failed. Fix errors and re-run aggregate.py")
+        else:
+            print("\n[Phase 4] Aggregation skipped (dry-run)")
+
+        # Phase 5: Final Report
+        self.print_final_report(diff, aggregation_success)
 
         return True
 
@@ -507,6 +518,92 @@ class MainSyncTool:
             print(f"  ⚠ Temp directory preserved for debugging: {self.temp_dir}")
 
         return all_success
+
+    def run_aggregation(self) -> bool:
+        """Phase 4: Run aggregate.py to regenerate aggregated data"""
+        try:
+            result = subprocess.run(
+                ['uv', 'run', 'python', 'scripts/aggregate.py'],
+                cwd=self.root,
+                check=True,
+                capture_output=False  # Show output in real-time
+            )
+            print("  ✓ Aggregation complete")
+            return True
+        except subprocess.CalledProcessError as e:
+            self.errors.append(f"Aggregation failed with exit code {e.returncode}")
+            return False
+        except Exception as e:
+            self.errors.append(f"Failed to run aggregation: {e}")
+            return False
+
+    def print_final_report(self, diff: FileDiff, aggregation_success: bool):
+        """Phase 5: Print final summary report"""
+        import json
+
+        print("\n" + "=" * 60)
+        print("SYNC COMPLETE" if not self.dry_run else "SYNC PREVIEW")
+        print("=" * 60)
+
+        # Summary
+        print("\nSummary:")
+        if diff.new_snapshots:
+            date_range = f"{diff.new_snapshots[0]}" if len(diff.new_snapshots) == 1 else f"{diff.new_snapshots[0]} → {diff.new_snapshots[-1]}"
+            print(f"  ✓ {len(diff.new_snapshots)} new snapshot(s) ({date_range})")
+
+        if diff.new_battlelogs:
+            print(f"  ✓ {len(diff.new_battlelogs)} new player(s): {', '.join(diff.new_battlelogs)}")
+
+        if diff.updated_battlelogs:
+            print(f"  ✓ {len(diff.updated_battlelogs)} battlelog(s) updated")
+
+        print(f"  ✓ Metadata timestamps updated")
+
+        if not self.dry_run and aggregation_success:
+            # Show aggregated data stats
+            try:
+                meta_path = self.root / "data" / "aggregated" / "metadata.json"
+                if meta_path.exists():
+                    with open(meta_path) as f:
+                        meta = json.load(f)
+                        total_battles = meta.get('total_battles', 'unknown')
+                        total_snapshots = meta.get('total_snapshots', 'unknown')
+                        print(f"  ✓ Aggregated data regenerated ({total_snapshots} snapshots, {total_battles} battles)")
+            except:
+                pass
+        elif self.dry_run:
+            print(f"  • Aggregation skipped (dry-run)")
+
+        # Data freshness
+        print("\nData Freshness:")
+        try:
+            snap_meta_path = self.root / "data" / "raw" / "metadata" / "snapshots.json"
+            battle_meta_path = self.root / "data" / "raw" / "metadata" / "battlelogs.json"
+
+            if snap_meta_path.exists():
+                with open(snap_meta_path) as f:
+                    snap_meta = json.load(f)
+                    last_coll = snap_meta.get('last_collection', 'unknown')
+                    print(f"  Snapshots:  {last_coll}")
+
+            if battle_meta_path.exists():
+                with open(battle_meta_path) as f:
+                    battle_meta = json.load(f)
+                    last_coll = battle_meta.get('last_collection', 'unknown')
+                    print(f"  Battlelogs: {last_coll}")
+        except:
+            pass
+
+        # Next steps
+        print("\nNext Steps:")
+        if self.dry_run:
+            print("  Run with --execute to apply these changes")
+        else:
+            changed_files = len(diff.new_snapshots) + len(diff.new_battlelogs) + len(diff.updated_battlelogs) + 2  # +2 for metadata
+            print(f"  git add data/")
+            print(f"  git commit -m \"Sync data from main ({changed_files} files updated)\"")
+
+        print()
 
     def _report_discovery(self, diff: FileDiff):
         """Print discovery results"""
