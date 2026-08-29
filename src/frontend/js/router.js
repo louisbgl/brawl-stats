@@ -20,6 +20,9 @@ const Router = {
         const filters = parts.slice(1); // Everything after tab name
 
         this.switchToTab(tab, filters);
+
+        // Scroll to top to prevent browser auto-scroll to #id
+        window.scrollTo(0, 0);
     },
 
     switchToTab(tabName, filters = []) {
