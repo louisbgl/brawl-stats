@@ -40,14 +40,20 @@
   - `players` (object) - Map of `{tag: trophies}`
 
 **UI:**
-- Default: Show last 30 entries only
-- Toggle: "Show All" displays full array
-- Frontend slices array based on toggle state
+- Time range buttons: 7 Days, 30 Days, 90 Days, All Time
+- Default: 30 days
+- Frontend slices array based on selected range
+- Player visibility toggleable via chart legend (persisted in URL)
+
+**URL State:**
+- Format: `#overview/{timeRange}/{hiddenPlayers}/{leaderboardCategory}`
+- Example: `#overview/90/TAG1,TAG2/winrate`
+- Defaults omitted: `#overview` (30 days, all players, trophies leaderboard)
 
 **Notes:**
-- Send full history array (166+ days)
-- Frontend filters to last 30 by default
-- No duplication (single array)
+- Aggregation sends full history array (169+ days)
+- Frontend filters client-side
+- Hidden players tracked in URL for sharing/bookmarking
 
 ---
 
@@ -193,8 +199,9 @@
 - Frontend can check version, handle backwards compatibility
 
 **Generation frequency:**
-- On v2 branch: Manual (run `python src/aggregation/aggregate.py`)
-- After merge: GitHub Actions on every data push to main
+- On v2 branch: Manual (run `python scripts/aggregate.py`)
+- After merge to main: Runs during VM snapshot collection (daily 23:00 UTC)
+- GitHub Actions: Re-runs if aggregated files missing/corrupted
 
 ---
 
