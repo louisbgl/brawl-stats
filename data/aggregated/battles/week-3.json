@@ -1,5 +1,74 @@
 [
   {
+    "battleTime": "20260815T173559.000Z",
+    "mode": "bounty",
+    "map": "Shooting Star",
+    "type": "ranked",
+    "duration": 90,
+    "players": [
+      {
+        "tag": "#Q2RUUYPQL",
+        "name": "ішу дру з засул",
+        "brawler": "PENNY",
+        "power": 9,
+        "trophies": 370,
+        "trophyChange": null,
+        "result": "defeat",
+        "team": 0
+      },
+      {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": "NAJIA",
+        "power": 11,
+        "trophies": 351,
+        "trophyChange": 0,
+        "result": "defeat",
+        "team": 0
+      },
+      {
+        "tag": "#2VJVPCV0L2",
+        "name": "🇦🇱ALBANIA JR",
+        "brawler": "RICO",
+        "power": 11,
+        "trophies": 1153,
+        "trophyChange": null,
+        "result": "defeat",
+        "team": 0
+      },
+      {
+        "tag": "#9V8UC2LRJ",
+        "name": "yaR | vit",
+        "brawler": "PIPER",
+        "power": 9,
+        "trophies": 574,
+        "trophyChange": null,
+        "result": "victory",
+        "team": 1
+      },
+      {
+        "tag": "#2V22CR9LLP",
+        "name": "IP|nutria14",
+        "brawler": "WENDY",
+        "power": 11,
+        "trophies": 0,
+        "trophyChange": null,
+        "result": "victory",
+        "team": 1
+      },
+      {
+        "tag": "#2JQQJ2RQ9R",
+        "name": "ロガボア586",
+        "brawler": "NORI",
+        "power": 9,
+        "trophies": 283,
+        "trophyChange": null,
+        "result": "victory",
+        "team": 1
+      }
+    ]
+  },
+  {
     "battleTime": "20260815T155634.000Z",
     "mode": "brawlBall",
     "map": "Super Beach",
@@ -1174,75 +1243,6 @@
   },
   {
     "battleTime": "20260815T152421.000Z",
-    "mode": "knockout",
-    "map": "Deep End",
-    "type": "ranked",
-    "duration": 105,
-    "players": [
-      {
-        "tag": "#9URLCVPGC",
-        "name": "Andreas🇬🇷🇨🇾",
-        "brawler": "BEA",
-        "power": 11,
-        "trophies": 1634,
-        "trophyChange": null,
-        "result": "defeat",
-        "team": 0
-      },
-      {
-        "tag": "#Q2CCLG002",
-        "name": "Gary garito",
-        "brawler": "MANDY",
-        "power": 11,
-        "trophies": 1048,
-        "trophyChange": null,
-        "result": "defeat",
-        "team": 0
-      },
-      {
-        "tag": "#GC90GJYYL",
-        "name": "bucha",
-        "brawler": "PIPER",
-        "power": 11,
-        "trophies": 2012,
-        "trophyChange": null,
-        "result": "defeat",
-        "team": 0
-      },
-      {
-        "tag": "#98QG0VCJ2",
-        "name": "JOEL | køkønut",
-        "brawler": "PIERCE",
-        "power": 11,
-        "trophies": 2009,
-        "trophyChange": 0,
-        "result": "victory",
-        "team": 1
-      },
-      {
-        "tag": "#9CV0GLYCR",
-        "name": "X_xTabletkax_X",
-        "brawler": "FANG",
-        "power": 11,
-        "trophies": 1019,
-        "trophyChange": null,
-        "result": "victory",
-        "team": 1
-      },
-      {
-        "tag": "#JRJQP8RYQ",
-        "name": "девочка загадка",
-        "brawler": "PIPER",
-        "power": 11,
-        "trophies": 1036,
-        "trophyChange": null,
-        "result": "victory",
-        "team": 1
-      }
-    ]
-  },
-  {
-    "battleTime": "20260815T152421.000Z",
     "mode": "hotZone",
     "map": "Danger Zone",
     "type": "ranked",
@@ -1306,6 +1306,75 @@
         "trophies": 1027,
         "trophyChange": null,
         "result": "defeat",
+        "team": 1
+      }
+    ]
+  },
+  {
+    "battleTime": "20260815T152421.000Z",
+    "mode": "knockout",
+    "map": "Deep End",
+    "type": "ranked",
+    "duration": 105,
+    "players": [
+      {
+        "tag": "#9URLCVPGC",
+        "name": "Andreas🇬🇷🇨🇾",
+        "brawler": "BEA",
+        "power": 11,
+        "trophies": 1634,
+        "trophyChange": null,
+        "result": "defeat",
+        "team": 0
+      },
+      {
+        "tag": "#Q2CCLG002",
+        "name": "Gary garito",
+        "brawler": "MANDY",
+        "power": 11,
+        "trophies": 1048,
+        "trophyChange": null,
+        "result": "defeat",
+        "team": 0
+      },
+      {
+        "tag": "#GC90GJYYL",
+        "name": "bucha",
+        "brawler": "PIPER",
+        "power": 11,
+        "trophies": 2012,
+        "trophyChange": null,
+        "result": "defeat",
+        "team": 0
+      },
+      {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": "PIERCE",
+        "power": 11,
+        "trophies": 2009,
+        "trophyChange": 0,
+        "result": "victory",
+        "team": 1
+      },
+      {
+        "tag": "#9CV0GLYCR",
+        "name": "X_xTabletkax_X",
+        "brawler": "FANG",
+        "power": 11,
+        "trophies": 1019,
+        "trophyChange": null,
+        "result": "victory",
+        "team": 1
+      },
+      {
+        "tag": "#JRJQP8RYQ",
+        "name": "девочка загадка",
+        "brawler": "PIPER",
+        "power": 11,
+        "trophies": 1036,
+        "trophyChange": null,
+        "result": "victory",
         "team": 1
       }
     ]
