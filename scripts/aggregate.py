@@ -222,7 +222,7 @@ class Aggregator:
         if snapshot_meta_path.exists():
             with open(snapshot_meta_path) as f:
                 snapshot_meta = json.load(f)
-                snapshot_timestamp = snapshot_meta.get('timestamp')
+                snapshot_timestamp = snapshot_meta.get('last_collection')
 
         # Fallback: use latest snapshot date at midnight
         if not snapshot_timestamp:
