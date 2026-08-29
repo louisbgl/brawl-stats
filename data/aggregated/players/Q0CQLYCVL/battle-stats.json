@@ -1,28 +1,28 @@
 {
   "performance_stats": {
     "knockout": {
-      "wins": 354,
-      "losses": 181,
-      "total": 535,
-      "win_rate": 66.2
+      "wins": 360,
+      "losses": 191,
+      "total": 551,
+      "win_rate": 65.3
     },
     "brawlBall": {
-      "wins": 1215,
-      "losses": 684,
-      "total": 1907,
-      "win_rate": 63.7
+      "wins": 1220,
+      "losses": 690,
+      "total": 1918,
+      "win_rate": 63.6
     },
     "hotZone": {
-      "wins": 244,
-      "losses": 156,
-      "total": 400,
-      "win_rate": 61.0
+      "wins": 268,
+      "losses": 164,
+      "total": 432,
+      "win_rate": 62.0
     },
     "bounty": {
-      "wins": 194,
-      "losses": 107,
-      "total": 301,
-      "win_rate": 64.5
+      "wins": 199,
+      "losses": 110,
+      "total": 309,
+      "win_rate": 64.4
     },
     "brawlBall5V5": {
       "wins": 6,
@@ -43,10 +43,10 @@
       "win_rate": 62.5
     },
     "gemGrab": {
-      "wins": 163,
-      "losses": 96,
-      "total": 259,
-      "win_rate": 62.9
+      "wins": 166,
+      "losses": 100,
+      "total": 266,
+      "win_rate": 62.4
     },
     "megaBoss": {
       "wins": 49,
@@ -73,10 +73,10 @@
       "win_rate": 66.7
     },
     "heist": {
-      "wins": 139,
-      "losses": 80,
-      "total": 219,
-      "win_rate": 63.5
+      "wins": 142,
+      "losses": 88,
+      "total": 230,
+      "win_rate": 61.7
     },
     "brawlBall2v2": {
       "wins": 5,
@@ -106,35 +106,43 @@
   "brawler_stats": [
     {
       "brawler": "LILY",
-      "wins": 103,
-      "losses": 58,
-      "total": 182,
-      "win_rate": 56.6,
-      "avg_trophy_change": 3.9
+      "wins": 104,
+      "losses": 60,
+      "total": 185,
+      "win_rate": 56.2,
+      "avg_trophy_change": 3.83
     },
     {
       "brawler": "FANG",
-      "wins": 87,
+      "wins": 89,
       "losses": 56,
-      "total": 143,
-      "win_rate": 60.8,
-      "avg_trophy_change": 6.03
+      "total": 145,
+      "win_rate": 61.4,
+      "avg_trophy_change": 5.95
     },
     {
       "brawler": "BROCK",
-      "wins": 72,
+      "wins": 73,
       "losses": 55,
-      "total": 139,
-      "win_rate": 51.8,
-      "avg_trophy_change": 3.04
+      "total": 140,
+      "win_rate": 52.1,
+      "avg_trophy_change": 3.01
     },
     {
       "brawler": "NORI",
-      "wins": 59,
+      "wins": 60,
       "losses": 28,
-      "total": 139,
-      "win_rate": 42.4,
-      "avg_trophy_change": 7.32
+      "total": 140,
+      "win_rate": 42.9,
+      "avg_trophy_change": 7.27
+    },
+    {
+      "brawler": "MICO",
+      "wins": 68,
+      "losses": 41,
+      "total": 136,
+      "win_rate": 50.0,
+      "avg_trophy_change": 2.77
     },
     {
       "brawler": "DAMIAN",
@@ -153,20 +161,12 @@
       "avg_trophy_change": 2.74
     },
     {
-      "brawler": "MICO",
-      "wins": 65,
-      "losses": 36,
-      "total": 128,
-      "win_rate": 50.8,
-      "avg_trophy_change": 2.95
-    },
-    {
       "brawler": "SQUEAK",
       "wins": 71,
-      "losses": 42,
-      "total": 123,
-      "win_rate": 57.7,
-      "avg_trophy_change": 4.24
+      "losses": 43,
+      "total": 124,
+      "win_rate": 57.3,
+      "avg_trophy_change": 4.21
     },
     {
       "brawler": "DYNAMIKE",
@@ -179,58 +179,58 @@
     {
       "brawler": "COLETTE",
       "wins": 59,
-      "losses": 53,
-      "total": 113,
-      "win_rate": 52.2,
-      "avg_trophy_change": 4.58
+      "losses": 54,
+      "total": 114,
+      "win_rate": 51.8,
+      "avg_trophy_change": 4.54
     },
     {
       "brawler": "CARL",
-      "wins": 69,
+      "wins": 72,
       "losses": 37,
-      "total": 106,
-      "win_rate": 65.1,
-      "avg_trophy_change": 6.7
+      "total": 109,
+      "win_rate": 66.1,
+      "avg_trophy_change": 6.51
     },
     {
       "brawler": "BO",
-      "wins": 69,
-      "losses": 36,
-      "total": 105,
+      "wins": 71,
+      "losses": 37,
+      "total": 108,
       "win_rate": 65.7,
       "avg_trophy_change": 0.0
     },
     {
       "brawler": "HANK",
       "wins": 63,
-      "losses": 28,
-      "total": 91,
-      "win_rate": 69.2,
-      "avg_trophy_change": 7.98
+      "losses": 29,
+      "total": 92,
+      "win_rate": 68.5,
+      "avg_trophy_change": 7.89
+    },
+    {
+      "brawler": "TICK",
+      "wins": 57,
+      "losses": 29,
+      "total": 87,
+      "win_rate": 65.5,
+      "avg_trophy_change": 3.91
     },
     {
       "brawler": "COLT",
       "wins": 47,
-      "losses": 25,
-      "total": 85,
-      "win_rate": 55.3,
-      "avg_trophy_change": 4.84
+      "losses": 26,
+      "total": 86,
+      "win_rate": 54.7,
+      "avg_trophy_change": 4.78
     },
     {
       "brawler": "CLANCY",
       "wins": 63,
-      "losses": 20,
-      "total": 84,
-      "win_rate": 75.0,
-      "avg_trophy_change": 12.23
-    },
-    {
-      "brawler": "TICK",
-      "wins": 53,
-      "losses": 29,
-      "total": 83,
-      "win_rate": 63.9,
-      "avg_trophy_change": 4.1
+      "losses": 22,
+      "total": 86,
+      "win_rate": 73.3,
+      "avg_trophy_change": 11.94
     },
     {
       "brawler": "BARLEY",
@@ -249,36 +249,60 @@
       "avg_trophy_change": 3.52
     },
     {
-      "brawler": "CROW",
-      "wins": 39,
-      "losses": 33,
-      "total": 73,
-      "win_rate": 53.4,
-      "avg_trophy_change": 3.93
+      "brawler": "MANDY",
+      "wins": 47,
+      "losses": 24,
+      "total": 75,
+      "win_rate": 62.7,
+      "avg_trophy_change": 5.03
     },
     {
-      "brawler": "MANDY",
-      "wins": 46,
-      "losses": 22,
-      "total": 72,
-      "win_rate": 63.9,
-      "avg_trophy_change": 5.24
+      "brawler": "CROW",
+      "wins": 40,
+      "losses": 33,
+      "total": 74,
+      "win_rate": 54.1,
+      "avg_trophy_change": 3.88
     },
     {
       "brawler": "BIBI",
       "wins": 43,
-      "losses": 27,
-      "total": 71,
-      "win_rate": 60.6,
-      "avg_trophy_change": 5.86
+      "losses": 28,
+      "total": 72,
+      "win_rate": 59.7,
+      "avg_trophy_change": 5.78
     },
     {
       "brawler": "BULL",
       "wins": 47,
-      "losses": 23,
-      "total": 70,
-      "win_rate": 67.1,
-      "avg_trophy_change": 6.01
+      "losses": 24,
+      "total": 71,
+      "win_rate": 66.2,
+      "avg_trophy_change": 5.93
+    },
+    {
+      "brawler": "GALE",
+      "wins": 40,
+      "losses": 28,
+      "total": 71,
+      "win_rate": 56.3,
+      "avg_trophy_change": 4.82
+    },
+    {
+      "brawler": "GROM",
+      "wins": 48,
+      "losses": 22,
+      "total": 71,
+      "win_rate": 67.6,
+      "avg_trophy_change": 7.37
+    },
+    {
+      "brawler": "8-BIT",
+      "wins": 46,
+      "losses": 25,
+      "total": 71,
+      "win_rate": 64.8,
+      "avg_trophy_change": 7.52
     },
     {
       "brawler": "KENJI",
@@ -289,36 +313,12 @@
       "avg_trophy_change": 6.0
     },
     {
-      "brawler": "8-BIT",
-      "wins": 46,
-      "losses": 24,
-      "total": 70,
-      "win_rate": 65.7,
-      "avg_trophy_change": 7.63
-    },
-    {
       "brawler": "PIERCE",
       "wins": 27,
-      "losses": 22,
-      "total": 69,
-      "win_rate": 39.1,
-      "avg_trophy_change": 6.52
-    },
-    {
-      "brawler": "GALE",
-      "wins": 38,
-      "losses": 27,
-      "total": 68,
-      "win_rate": 55.9,
-      "avg_trophy_change": 5.03
-    },
-    {
-      "brawler": "GROM",
-      "wins": 45,
-      "losses": 19,
-      "total": 65,
-      "win_rate": 69.2,
-      "avg_trophy_change": 7.51
+      "losses": 23,
+      "total": 70,
+      "win_rate": 38.6,
+      "avg_trophy_change": 6.4
     },
     {
       "brawler": "MAISIE",
@@ -329,6 +329,14 @@
       "avg_trophy_change": 4.98
     },
     {
+      "brawler": "STARR NOVA",
+      "wins": 31,
+      "losses": 17,
+      "total": 62,
+      "win_rate": 50.0,
+      "avg_trophy_change": 7.18
+    },
+    {
       "brawler": "SPIKE",
       "wins": 33,
       "losses": 27,
@@ -337,20 +345,20 @@
       "avg_trophy_change": 4.51
     },
     {
-      "brawler": "STARR NOVA",
-      "wins": 31,
+      "brawler": "JESSIE",
+      "wins": 45,
       "losses": 16,
       "total": 61,
-      "win_rate": 50.8,
-      "avg_trophy_change": 7.3
+      "win_rate": 73.8,
+      "avg_trophy_change": 4.93
     },
     {
       "brawler": "EDGAR",
       "wins": 28,
-      "losses": 21,
-      "total": 56,
-      "win_rate": 50.0,
-      "avg_trophy_change": 3.14
+      "losses": 22,
+      "total": 57,
+      "win_rate": 49.1,
+      "avg_trophy_change": 3.09
     },
     {
       "brawler": "WILLOW",
@@ -361,36 +369,36 @@
       "avg_trophy_change": 7.51
     },
     {
-      "brawler": "JESSIE",
-      "wins": 35,
-      "losses": 16,
-      "total": 51,
-      "win_rate": 68.6,
-      "avg_trophy_change": 3.33
-    },
-    {
       "brawler": "NAJIA",
       "wins": 31,
-      "losses": 15,
-      "total": 50,
-      "win_rate": 62.0,
-      "avg_trophy_change": 8.06
+      "losses": 16,
+      "total": 51,
+      "win_rate": 60.8,
+      "avg_trophy_change": 7.9
     },
     {
       "brawler": "SURGE",
       "wins": 26,
-      "losses": 21,
-      "total": 49,
-      "win_rate": 53.1,
-      "avg_trophy_change": 4.53
+      "losses": 22,
+      "total": 50,
+      "win_rate": 52.0,
+      "avg_trophy_change": 4.44
     },
     {
       "brawler": "DOUG",
-      "wins": 26,
-      "losses": 13,
-      "total": 48,
-      "win_rate": 54.2,
-      "avg_trophy_change": 7.19
+      "wins": 27,
+      "losses": 14,
+      "total": 50,
+      "win_rate": 54.0,
+      "avg_trophy_change": 7.08
+    },
+    {
+      "brawler": "SIRIUS",
+      "wins": 36,
+      "losses": 14,
+      "total": 50,
+      "win_rate": 72.0,
+      "avg_trophy_change": 9.0
     },
     {
       "brawler": "OTIS",
@@ -401,28 +409,28 @@
       "avg_trophy_change": 6.48
     },
     {
-      "brawler": "SIRIUS",
-      "wins": 33,
-      "losses": 13,
+      "brawler": "BEA",
+      "wins": 25,
+      "losses": 18,
       "total": 46,
-      "win_rate": 71.7,
-      "avg_trophy_change": 8.5
+      "win_rate": 54.3,
+      "avg_trophy_change": 2.46
     },
     {
-      "brawler": "BEA",
-      "wins": 24,
-      "losses": 17,
-      "total": 44,
-      "win_rate": 54.5,
-      "avg_trophy_change": 2.61
+      "brawler": "GENE",
+      "wins": 26,
+      "losses": 15,
+      "total": 45,
+      "win_rate": 57.8,
+      "avg_trophy_change": 3.71
     },
     {
       "brawler": "EMZ",
-      "wins": 27,
+      "wins": 28,
       "losses": 11,
-      "total": 43,
-      "win_rate": 62.8,
-      "avg_trophy_change": 6.07
+      "total": 44,
+      "win_rate": 63.6,
+      "avg_trophy_change": 5.93
     },
     {
       "brawler": "PIPER",
@@ -431,14 +439,6 @@
       "total": 42,
       "win_rate": 47.6,
       "avg_trophy_change": 3.81
-    },
-    {
-      "brawler": "GENE",
-      "wins": 24,
-      "losses": 14,
-      "total": 42,
-      "win_rate": 57.1,
-      "avg_trophy_change": 3.0
     },
     {
       "brawler": "TRUNK",
@@ -451,10 +451,18 @@
     {
       "brawler": "GRAY",
       "wins": 17,
-      "losses": 14,
-      "total": 37,
-      "win_rate": 45.9,
-      "avg_trophy_change": 4.03
+      "losses": 15,
+      "total": 38,
+      "win_rate": 44.7,
+      "avg_trophy_change": 3.92
+    },
+    {
+      "brawler": "SHELLY",
+      "wins": 12,
+      "losses": 8,
+      "total": 36,
+      "win_rate": 33.3,
+      "avg_trophy_change": 5.25
     },
     {
       "brawler": "CHESTER",
@@ -481,12 +489,12 @@
       "avg_trophy_change": 5.23
     },
     {
-      "brawler": "SHELLY",
-      "wins": 11,
-      "losses": 8,
-      "total": 35,
-      "win_rate": 31.4,
-      "avg_trophy_change": 5.4
+      "brawler": "PENNY",
+      "wins": 19,
+      "losses": 9,
+      "total": 33,
+      "win_rate": 57.6,
+      "avg_trophy_change": 5.48
     },
     {
       "brawler": "LOU",
@@ -497,6 +505,14 @@
       "avg_trophy_change": 5.28
     },
     {
+      "brawler": "MORTIS",
+      "wins": 15,
+      "losses": 16,
+      "total": 32,
+      "win_rate": 46.9,
+      "avg_trophy_change": 2.19
+    },
+    {
       "brawler": "BUZZ",
       "wins": 18,
       "losses": 12,
@@ -505,28 +521,12 @@
       "avg_trophy_change": 4.35
     },
     {
-      "brawler": "MORTIS",
-      "wins": 15,
-      "losses": 14,
-      "total": 30,
-      "win_rate": 50.0,
-      "avg_trophy_change": 2.33
-    },
-    {
       "brawler": "LARRY & LAWRIE",
       "wins": 19,
       "losses": 11,
       "total": 30,
       "win_rate": 63.3,
       "avg_trophy_change": 5.67
-    },
-    {
-      "brawler": "PENNY",
-      "wins": 18,
-      "losses": 7,
-      "total": 30,
-      "win_rate": 60.0,
-      "avg_trophy_change": 6.1
     },
     {
       "brawler": "BERRY",
@@ -569,28 +569,28 @@
       "avg_trophy_change": 13.22
     },
     {
+      "brawler": "EL PRIMO",
+      "wins": 13,
+      "losses": 4,
+      "total": 17,
+      "win_rate": 76.5,
+      "avg_trophy_change": 0.0
+    },
+    {
+      "brawler": "STU",
+      "wins": 5,
+      "losses": 8,
+      "total": 17,
+      "win_rate": 29.4,
+      "avg_trophy_change": 3.41
+    },
+    {
       "brawler": "LEON",
       "wins": 14,
       "losses": 1,
       "total": 16,
       "win_rate": 87.5,
       "avg_trophy_change": 14.5
-    },
-    {
-      "brawler": "EL PRIMO",
-      "wins": 12,
-      "losses": 4,
-      "total": 16,
-      "win_rate": 75.0,
-      "avg_trophy_change": 0.0
-    },
-    {
-      "brawler": "STU",
-      "wins": 5,
-      "losses": 6,
-      "total": 15,
-      "win_rate": 33.3,
-      "avg_trophy_change": 4.13
     },
     {
       "brawler": "GIGI",
@@ -729,20 +729,20 @@
       "avg_trophy_change": 7.67
     },
     {
+      "brawler": "ZIGGY",
+      "wins": 4,
+      "losses": 1,
+      "total": 6,
+      "win_rate": 66.7,
+      "avg_trophy_change": 9.67
+    },
+    {
       "brawler": "BYRON",
       "wins": 3,
       "losses": 1,
       "total": 6,
       "win_rate": 50.0,
       "avg_trophy_change": 3.33
-    },
-    {
-      "brawler": "ZIGGY",
-      "wins": 3,
-      "losses": 1,
-      "total": 5,
-      "win_rate": 60.0,
-      "avg_trophy_change": 11.6
     },
     {
       "brawler": "POCO",
