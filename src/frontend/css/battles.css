@@ -272,7 +272,7 @@
     border-radius: 6px;
 }
 
-.player-name {
+#tab-battles .player-name {
     font-size: 0.9rem;
     color: var(--text-primary);
     font-weight: 600;

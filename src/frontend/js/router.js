@@ -48,7 +48,9 @@ const Router = {
                 }
                 break;
             case 'player':
-                console.log('Players tab - not implemented yet');
+                if (typeof PlayerStatsManager !== 'undefined') {
+                    PlayerStatsManager.render(filters);
+                }
                 break;
             case 'achievements':
                 if (typeof AchievementsManager !== 'undefined') {

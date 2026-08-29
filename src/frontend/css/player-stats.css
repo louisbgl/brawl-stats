@@ -1,0 +1,70 @@
+/* Player Stats Tab - player selector and stats display */
+
+/* ===== PLAYER SELECTOR ===== */
+.player-selector {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.player-btn {
+    padding: 10px 18px;
+    background: var(--bg-card);
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.player-btn:hover {
+    border-color: var(--player-color);
+    transform: translateY(-2px);
+}
+
+.player-btn.active {
+    background: var(--accent-purple);
+    border-color: var(--accent-purple);
+    box-shadow: 0 4px 12px rgba(157, 78, 221, 0.3);
+}
+
+.player-name {
+    color: var(--player-color);
+}
+
+.player-btn.active .player-name {
+    color: white;
+}
+
+.player-trophy {
+    color: var(--accent-yellow);
+    opacity: 0.7;
+    margin-left: 8px;
+    font-size: 0.8rem;
+}
+
+.player-btn.active .player-trophy {
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 1;
+}
+
+/* ===== PLAYER STATS CONTENT ===== */
+.player-stats-content {
+    min-height: 40vh;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+    .player-selector {
+        gap: 6px;
+    }
+
+    .player-btn {
+        padding: 7px 12px;
+        font-size: 0.8rem;
+    }
+}

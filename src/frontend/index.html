@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="src/frontend/css/base.css">
     <link rel="stylesheet" href="src/frontend/css/overview.css">
     <link rel="stylesheet" href="src/frontend/css/overview-mobile.css">
+    <link rel="stylesheet" href="src/frontend/css/player-stats.css">
     <link rel="stylesheet" href="src/frontend/css/achievements.css">
     <link rel="stylesheet" href="src/frontend/css/battles.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
@@ -88,9 +89,12 @@
 
         <!-- Tab: Player Stats -->
         <div id="tab-player" class="tab-content">
-            <div class="wip-notice">
-                <h3>Player Stats</h3>
-                <p class="text-secondary">Detailed per-player analytics, brawler breakdown, battle performance</p>
+            <div class="player-selector" style="margin-top: 40px;">
+                <!-- Populated by JS -->
+            </div>
+
+            <div class="player-stats-content">
+                <!-- Populated by JS -->
             </div>
         </div>
 
@@ -124,6 +128,7 @@
     <script src="src/frontend/js/overview-charts.js"></script>
     <script src="src/frontend/js/overview-lb.js"></script>
     <script src="src/frontend/js/overview.js"></script>
+    <script src="src/frontend/js/player-stats.js"></script>
     <script src="src/frontend/js/achievements.js"></script>
     <script src="src/frontend/js/battle-details.js"></script>
     <script src="src/frontend/js/battles.js"></script>
