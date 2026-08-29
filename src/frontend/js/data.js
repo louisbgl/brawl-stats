@@ -23,7 +23,7 @@ const DataLoader = {
             const [metadata, playerIndex, brawlers] = await Promise.all([
                 fetch('data/aggregated/metadata.json').then(r => r.json()),
                 fetch('data/aggregated/indexes/players.json').then(r => r.json()),
-                fetch('data/raw/metadata/brawlers.json').then(r => r.json())
+                fetch('data/aggregated/brawlers.json').then(r => r.json())
             ]);
 
             this.cache.metadata = metadata;

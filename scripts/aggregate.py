@@ -323,7 +323,17 @@ class Aggregator:
         metadata = self.generate_metadata()
         self._save_json(metadata, self.agg_dir / "metadata.json")
 
-        # 2. Player index
+        # 2. Copy brawlers reference to aggregated (frontend single source)
+        brawlers_src = self.raw_dir / "metadata" / "brawlers.json"
+        brawlers_dst = self.agg_dir / "brawlers.json"
+        if brawlers_src.exists():
+            import shutil
+            shutil.copy2(brawlers_src, brawlers_dst)
+            print(f"Copied brawlers.json to aggregated ({brawlers_src.stat().st_size / 1024:.1f} KB)")
+        else:
+            print(f"Warning: brawlers.json not found at {brawlers_src}")
+
+        # 3. Player index
         player_index = self.build_player_index()
         self._save_json(player_index, self.agg_dir / "indexes" / "players.json")
 
