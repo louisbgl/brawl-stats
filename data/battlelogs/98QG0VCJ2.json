@@ -452256,5 +452256,310 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260829T125352.000Z",
+    "event": {
+      "id": 15000463,
+      "mode": "tagTeam",
+      "modeId": 24,
+      "map": "Warrior's Way"
+    },
+    "battle": {
+      "mode": "duels",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 105,
+      "players": [
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawlers": [
+            {
+              "id": 16000066,
+              "name": "R-T",
+              "power": 11,
+              "trophies": 1005,
+              "trophyChange": 5
+            },
+            {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1013,
+              "trophyChange": 4
+            },
+            {
+              "id": 16000060,
+              "name": "SAM",
+              "power": 11,
+              "trophies": 1025,
+              "trophyChange": 4
+            }
+          ]
+        },
+        {
+          "tag": "#890YULV98",
+          "name": "AQM|Santana™️",
+          "brawlers": [
+            {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1123,
+              "trophyChange": -2
+            },
+            {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1117,
+              "trophyChange": -2
+            },
+            {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 1169,
+              "trophyChange": -2
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260829T125642.000Z",
+    "event": {
+      "id": 15000463,
+      "mode": "tagTeam",
+      "modeId": 24,
+      "map": "Warrior's Way"
+    },
+    "battle": {
+      "mode": "duels",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 110,
+      "players": [
+        {
+          "tag": "#222VP8GR28",
+          "name": "⛩MØRTISᴷⁱˡˡᵧₒᵤ",
+          "brawlers": [
+            {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1560,
+              "trophyChange": 4
+            },
+            {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 10,
+              "trophies": 247,
+              "trophyChange": 4
+            },
+            {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1246,
+              "trophyChange": 4
+            }
+          ]
+        },
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawlers": [
+            {
+              "id": 16000066,
+              "name": "R-T",
+              "power": 11,
+              "trophies": 1010,
+              "trophyChange": -2
+            },
+            {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1017,
+              "trophyChange": -2
+            },
+            {
+              "id": 16000060,
+              "name": "SAM",
+              "power": 11,
+              "trophies": 1029,
+              "trophyChange": -2
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260829T125847.000Z",
+    "event": {
+      "id": 15000463,
+      "mode": "tagTeam",
+      "modeId": 24,
+      "map": "Warrior's Way"
+    },
+    "battle": {
+      "mode": "duels",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 56,
+      "players": [
+        {
+          "tag": "#2R9J99GRU",
+          "name": "Барсик",
+          "brawlers": [
+            {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1162,
+              "trophyChange": 6
+            },
+            {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1326,
+              "trophyChange": 6
+            },
+            {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1222,
+              "trophyChange": 6
+            }
+          ]
+        },
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawlers": [
+            {
+              "id": 16000066,
+              "name": "R-T",
+              "power": 11,
+              "trophies": 1008,
+              "trophyChange": -2
+            },
+            {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1015,
+              "trophyChange": -2
+            },
+            {
+              "id": 16000060,
+              "name": "SAM",
+              "power": 11,
+              "trophies": 1027,
+              "trophyChange": -2
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260829T130000.000Z",
+    "event": {
+      "id": 15001168,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Nutmeg"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 38,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#GLVCLGY",
+        "name": "F2F|Wuevito",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 1935
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LQLU0RQQ",
+            "name": "NSB|NelcaLover❤",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 1523
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000060,
+              "name": "SAM",
+              "power": 11,
+              "trophies": 1025
+            }
+          },
+          {
+            "tag": "#GLVCLGY",
+            "name": "F2F|Wuevito",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1935
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C9P99UP0U",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1460
+            }
+          },
+          {
+            "tag": "#2YV0PVGVJ0",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1458
+            }
+          },
+          {
+            "tag": "#2CG8YQ82JQ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 10,
+              "trophies": 1467
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
