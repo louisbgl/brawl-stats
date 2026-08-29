@@ -404718,5 +404718,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260829T231648.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 76,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000000,
+          "name": "SHELLY",
+          "power": 11,
+          "trophies": 850
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 850
+            }
+          },
+          {
+            "tag": "#2G2VUJPJUR",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 869
+            }
+          },
+          {
+            "tag": "#2RQVLVPLVV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 10,
+              "trophies": 881
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QRPQGLUQJ",
+            "name": "lalo",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 829
+            }
+          },
+          {
+            "tag": "#J029VQYGR",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000056,
+              "name": "EVE",
+              "power": 11,
+              "trophies": 851
+            }
+          },
+          {
+            "tag": "#2CPLJPVP8Q",
+            "name": "Naicki🦋",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 809
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260829T231915.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 120,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#2VYL8GRG9U",
+        "name": "Kuroi",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 11,
+          "trophies": 2016
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 860
+            }
+          },
+          {
+            "tag": "#P9P2P0982",
+            "name": "cristo_dio",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1833
+            }
+          },
+          {
+            "tag": "#2VYL8GRG9U",
+            "name": "Kuroi",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 2016
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#88LPCRJPJ",
+            "name": "Gaby 😎",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 571
+            }
+          },
+          {
+            "tag": "#Y8GG29CLV",
+            "name": "Deadpool TNT",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 900
+            }
+          },
+          {
+            "tag": "#GJU28CRPJ",
+            "name": "lubie frytki",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 936
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
