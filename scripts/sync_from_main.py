@@ -245,7 +245,7 @@ class MainSyncTool:
 
         all_safe = True
 
-        # 1. Git state clean
+        # 1. Git state clean (allow if only sync script modified)
         print("  Checking git state...")
         try:
             result = subprocess.run(
@@ -256,8 +256,13 @@ class MainSyncTool:
                 text=True
             )
             if result.stdout.strip():
-                self.errors.append("Git working directory has uncommitted changes")
-                all_safe = False
+                # Check if only this script modified
+                lines = [l.strip() for l in result.stdout.strip().split('\n') if l.strip()]
+                if len(lines) == 1 and 'scripts/sync_from_main.py' in lines[0]:
+                    print("    ✓ Git state clean (ignoring sync script itself)")
+                else:
+                    self.errors.append("Git working directory has uncommitted changes")
+                    all_safe = False
             else:
                 print("    ✓ Git state clean")
         except subprocess.CalledProcessError as e:
@@ -317,12 +322,12 @@ class MainSyncTool:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         self.temp_dir = Path(f"/tmp/brawl-sync-{timestamp}")
         try:
-            if not self.dry_run:
-                self.temp_dir.mkdir(parents=True, exist_ok=True)
-                # Test write
-                test_file = self.temp_dir / "test"
-                test_file.write_text("test")
-                test_file.unlink()
+            # Always create temp dir (needed for dry-run extraction too)
+            self.temp_dir.mkdir(parents=True, exist_ok=True)
+            # Test write
+            test_file = self.temp_dir / "test"
+            test_file.write_text("test")
+            test_file.unlink()
             print(f"    ✓ Temp dir: {self.temp_dir}")
         except Exception as e:
             self.errors.append(f"Cannot create temp directory: {e}")
@@ -490,14 +495,15 @@ class MainSyncTool:
         except Exception as e:
             self.warnings.append(f"Could not update battlelog metadata: {e}")
 
-        # 4. Cleanup temp dir on success
-        if all_success and not self.dry_run:
+        # 4. Cleanup temp dir
+        if all_success:
             try:
                 shutil.rmtree(self.temp_dir)
-                print(f"  ✓ Cleaned up temp directory")
+                if not self.dry_run:
+                    print(f"  ✓ Cleaned up temp directory")
             except Exception as e:
                 self.warnings.append(f"Could not cleanup temp dir: {e}")
-        elif not all_success:
+        else:
             print(f"  ⚠ Temp directory preserved for debugging: {self.temp_dir}")
 
         return all_success
