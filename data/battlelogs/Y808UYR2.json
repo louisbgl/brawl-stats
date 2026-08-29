@@ -148917,5 +148917,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260829T202433.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 310,
+      "trophyChange": -12,
+      "starPlayer": {
+        "tag": "#L8PR00RL",
+        "name": "ALPEREN R.I.P",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 872
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98PG2UPPJ",
+            "name": "sifauuu",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 725
+            }
+          },
+          {
+            "tag": "#LL8QYGYRR",
+            "name": "arezki",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 10,
+              "trophies": 893
+            }
+          },
+          {
+            "tag": "#L8PR00RL",
+            "name": "ALPEREN R.I.P",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 872
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2050
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 1058
+            }
+          },
+          {
+            "tag": "#LCGRJ8RVQ",
+            "name": "Blümchen🌸🌺",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1063
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
