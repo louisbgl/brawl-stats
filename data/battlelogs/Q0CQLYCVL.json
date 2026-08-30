@@ -406461,5 +406461,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260830T153030.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 79,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#9GCYGCQR",
+        "name": "almaslayer",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 912
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2G0UVC22GU",
+            "name": "Denis ivincibil",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 2258
+            }
+          },
+          {
+            "tag": "#RPQLYCL9Q",
+            "name": "MMC|Marius",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1942
+            }
+          },
+          {
+            "tag": "#9GCYGCQR",
+            "name": "almaslayer",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 912
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QRJ2YQ9RQ",
+            "name": "godeviolent",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 342
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 667
+            }
+          },
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 973
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
