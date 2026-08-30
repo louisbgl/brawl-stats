@@ -305214,5 +305214,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260830T140430.000Z",
+    "event": {
+      "id": 15000548,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Out in the Open"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 96,
+      "starPlayer": {
+        "tag": "#229CRRP2VQ",
+        "name": "🫧 Ferxxo 🔥🌿",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 7
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2V9P9V08RC",
+            "name": "jose pesado🫣",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 9,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#229CRRP2VQ",
+            "name": "🫧 Ferxxo 🔥🌿",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V89YQ9PYV",
+            "name": "אביב המלך",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2R99PURV2Q",
+            "name": "Falqués",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#PLYY2RPY",
+            "name": "baionetas",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
