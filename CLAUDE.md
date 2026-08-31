@@ -84,166 +84,76 @@ cp .env.example .env
 
 ## Architecture
 
-### Data Flow
-1. **Collection (Python)**: `collect_data.py` fetches data from Brawl Stars API (or proxy) and generates daily JSON snapshots
-2. **Storage**: Data stored as `data/YYYY-MM-DD.json` files + `data/latest.json` + `data/brawlers.json` reference
-3. **Automation**: GitHub Actions workflow runs daily, commits new data, triggers GitHub Pages deployment
-4. **Visualization (JavaScript)**: Frontend loads historical JSONs and renders interactive charts
+**⚠️ V2 NOT YET DEPLOYED:** This branch prepares architecture replacement for main. Current production (main branch) runs v1. VM still uses v1 collection scripts. See `docs/V2_PROMOTION.md` for deployment procedure.
+
+### Data Flow (V2 Architecture)
+
+```
+Collection → Raw Storage (compressed) → Data Branches → Aggregation → Frontend
+   (VM)         data/raw/*.gz              (merge to main)  (GitHub Actions)  data/aggregated/*.json
+```
+
+1. **Collection**: VM runs `collect_snapshots_v2.py` (daily) and `collect_battlelogs_v2.py` (every 30min)
+2. **Raw Storage**: Compressed gzip files in `data/raw/snapshots/*.json.gz` and `data/raw/battlelogs/*.json.gz`
+3. **Data Branches**: Collection pushes to `data-snapshots` or `data-battlelogs` branches, then merges to main (same strategy as v1)
+4. **Aggregation**: GitHub Actions detects `data/raw/**` changes → runs `scripts/aggregate.py` → generates `data/aggregated/**/*.json`
+5. **Frontend**: Loads only aggregated JSONs (club-summary, player stats, achievements, battles)
+
+**Why two-tier storage?**
+- Raw = complete API responses, compressed (~93% size reduction), historical record
+- Aggregated = frontend-optimized, pre-computed stats, fast loading
+- Separation allows changing frontend requirements without re-collecting data
+
+**v1 vs v2:**
+- **v1** (main): Uncompressed `data/snapshots/*.json`, frontend reads raw snapshots directly
+- **v2** (this branch): Compressed `data/raw/**/*.gz`, frontend reads aggregated JSONs only
+- **Incompatible**: v1 and v2 frontends cannot mix (different data structures)
+
+---
 
 ### Python Backend (Data Collection)
 
-**Key Modules:**
-- `src/api.py`: API client for Brawl Stars API with caching for brawlers reference data. `api_call(endpoint)` auto-encodes `#` in tags.
-- `src/models.py`: Dataclasses for daily snapshots (DailySnapshot, ClubSnapshot, PlayerSnapshot, BrawlerSnapshot)
-- `src/battle_models.py`: Dataclasses for battle log tracking (BattleEntry, BattlePlayer, BattleBrawler, PlayerBattleLog). Contains comprehensive documentation of ALL 15 event.mode values and 4 battle.type values found in battle logs. Battle types: (1) ranked=Ladder/trophy system with trophyChange, (2) soloRanked=Competitive ELO-based ranked (no trophies, brawlers at 1-16 trophies), (3) friendly=casual matches, (4) null=special events/PvE. Includes helper methods: `is_team_mode()`, `is_showdown_mode()`, `is_duels_mode()`, `is_pve_mode()`. Key mode types: (1) Team 3v3: standard modes with teams[] and 3 players, (2) Team 5v5: brawlBall5V5/wipeout5V5 with 5 players per team, (3) Showdown: battle royale with rank placement, (4) Duels: 1v1 where each player uses 3 brawlers with individual trophyChange, (5) PvE: lastStand with no trophyChange.
-- `src/battle_store.py`: Persistent storage for battle logs. Saves raw API items to `data/battlelogs/{TAG}.json`, deduped by `battleTime`. Use `update(tag)` to fetch and persist new battles, `load_raw(tag)` to read them back.
-- `src/config.py`: Configuration including API credentials, club/player tags, and game constants
-- `collect_data.py`: Main entry point that orchestrates daily data collection
-- `test_api.py`: Interactive API playground (not part of data collection). Key functions: `call(endpoint)`, `pretty(data)`, `keys(data)` (schema analysis), `print_battles(data)`, `print_stored_battles(tag)`, `update_all_battlelogs()`, `all_player_tags()`.
+**See `docs/DATA_COLLECTION.md` for complete details.**
 
-**API Configuration:**
-- Supports both direct API access (requires `BRAWL_STARS_API_TOKEN`) and proxy mode (requires `BRAWL_STARS_PROXY_URL`)
-- Proxy is a Flask app (`proxy/main.py`) that provides static IP for GitHub Actions
-- Environment variables loaded from `.env` file via python-dotenv
-
-**Data Models Philosophy:**
-- Python stores **complete raw API responses** (as of May 2026 refactor - previously stored minimal data)
-- `src/models.py`: Simple functions that add metadata (timestamp, date) to raw API data
-- JavaScript uses **compatibility layer** (Proxy) to support both snake_case (old) and camelCase (new API) field names
-- Future-proof: Any new API fields automatically available without code changes
-- All analysis and lookups happen in JavaScript using `brawlers.json` reference data
-
-**Data Migration (April 2026):**
-- Migrated 54 historical snapshot files from filtered format to raw API format
-- `migrate_snapshots.py`: Converted snake_case → camelCase, reconstructed full item objects from IDs
-- Backwards compatible: old code still works via Proxy-based field mapping
+**Key points:**
+- Collection scripts: `src/collection/collect_snapshots_v2.py` (daily), `collect_battlelogs_v2.py` (every 30min)
+- Stores complete API responses, compressed with gzip (~93% reduction)
+- Raw data at `data/raw/**/*.gz`, aggregated at `data/aggregated/**/*.json`
+- Aggregation via `scripts/aggregate.py` (see `docs/DATA_FLOW.md` for schema)
+- Design principle: Collection NEVER fails due to git - raw data always saved first
 
 ### JavaScript Frontend (Visualization)
 
-**Architecture Philosophy:**
-This frontend is designed for AI-assisted development ("vibecoding"). All common patterns are extracted into shared helpers to minimize duplication and make the codebase easy to understand and modify.
+**See `docs/V2_FRONTEND.md` for complete architecture details.**
 
-**Core Modules (Load Order Matters):**
+**Key gotchas when working with frontend:**
 
-1. **`js/config.js`** - Game constants and utilities
-   - `GameConstants`: All Brawl Stars game mechanics (upgrade costs, prestige threshold, item costs, color palettes, mode names/colors)
-     - `MODE_COLORS`: Color mapping for all game modes (heist, wipeout, lastStand, etc.)
-     - `MODE_NAMES`: Human-readable display names (e.g., 'brawlBall' → 'Brawl Ball')
-     - `MODE_CATEGORIES`: Modes organized by type (team, showdown, pve)
-     - `getModeName(mode)`: Get display name for a mode (use this instead of raw mode strings)
-     - `getModeColor(mode)`: Get color for a mode (use this instead of direct MODE_COLORS access)
-   - `Utils`: Date/time parsing and formatting utilities
-   - Load first - required by all other modules
+**URL state management:**
+- Use `window.history.replaceState(null, '', '#...')` to update URL without re-render
+- NEVER use `window.location.hash = '...'` while on same tab (causes scroll to top)
+- Always validate URL params against current data (player could have left club)
 
-2. **`js/helpers.js`** - Shared helper functions (single source of truth)
-   - `BattlelogHelpers`: Battle data extraction (player lookup, teammates, win/loss detection, brawler stats calculation, trophy timeline construction)
-     - `getPlayerBrawlerFromBattle(battle, playerTag)` - Returns single brawler OR array (for duels mode)
-     - `getTrophyChange(battle, playerTag)` - Gets trophy change for any mode (handles duels summing, lastStand zero, etc.)
-     - `isWin(battle, playerTag)` / `isLoss(battle, playerTag)` - **ALWAYS pass playerTag** for duels support
-     - `getBattleResult(battle, playerTag)` - Returns 'win'/'loss'/'draw'
-     - `calculateBrawlerStats(playerTag, battles)` - Handles duels mode (multiple brawlers per battle)
-   - `ChartHelpers`: Chart.js factories (common chart configs, dataset creation, animations, timestamp formatting)
-   - `ViewHelpers`: HTML generation (stat boxes, filter selects, time formatting, item badges)
-   - `CalculationHelpers`: Shared calculations (maxed brawler check, prestige level, upgrade costs)
-   - Load second - used by all visualization modules
+**Display formatting:**
+- ALWAYS use `GameConfig.getModeName(mode)` - never show raw strings like `"brawlBall"`
+- ALWAYS use `GameConfig.formatRank()`, `formatRankColored()` for ranks
+- ALWAYS use `GameConfig.formatTrophyColored()` for trophies
+- Check `src/frontend/js/common.js` before implementing any formatting
 
-3. **`js/data.js`** - Unified data loading and caching (single source of truth)
-   - `DataManager`: Manages ALL data sources - snapshots, battlelogs, achievements, brawlers
-   - **Lazy loading**: Critical data (latest.json, brawlers.json) loads immediately, others load in background
-   - **Ensure methods**: `ensureHistoricalLoaded()`, `ensureBattlelogsLoaded()`, `ensureAchievementsLoaded()`
-   - **Player queries**: `getAllPlayers()`, `getPlayer()`, `findPlayerInSnapshot()`
-   - **Battlelog queries**: `getBattlesForPlayer()`, `getAllBattles()`, `getTotalBattleCount()`
-   - **Compatibility layer**: Transparent snake_case → camelCase field mapping via Proxy (supports old code)
+**State persistence:**
+- Save to BOTH localStorage AND URL on every change
+- URL takes precedence, localStorage is fallback
+- Validate both sources (data changes between sessions)
 
-4. **`js/battlelog-data.js`** - Thin wrapper for backwards compatibility
-   - `BattlelogDataManager`: Delegates all operations to DataManager
-   - Exists only for backwards compat - new code should use DataManager directly
-   - Provides same API as before (ensureLoaded(), getBattlesForPlayer(), etc.)
+**Chart.js:**
+- Always destroy before re-rendering: `if (chart) chart.destroy();`
+- Save/restore hidden dataset state (player visibility toggles)
+- Use `update('none')` for immediate updates without animation
 
-5. **`js/battlelog-analytics.js`** - Battle analytics
-   - `BattlelogAnalytics`: Win rate calculations, activity metrics, streaks, mode stats
-   - Higher-level analytics built on `BattlelogHelpers`
-
-**Visualization Modules:**
-
-6. **`js/charts.js`** - Club-wide timeline charts
-   - `ChartsManager`: Trophy timeline, wins by mode, collection, maxed brawlers, prestige, activity, mode popularity
-   - Uses `ChartHelpers` for all chart creation
-
-7. **`js/player-charts.js`** - Per-player charts
-   - `PlayerChartsManager`: Prestige distribution, power distribution, trophy timeline, mode distribution, activity heatmap
-   - Uses `ChartHelpers.createBarWithLabelsAnimation()` for value labels
-
-8. **`js/player-stats.js`** - Individual player analysis
-   - `PlayerStatsManager`: Detailed stats display, brawler breakdown, battle stats rankings
-   - Uses `CalculationHelpers.calculateUpgradeCosts()` and `BattlelogHelpers.calculateBrawlerStats()`
-
-9. **`js/achievements.js`** - Achievement timeline
-   - `AchievementsManager`: Displays player milestones (new brawlers, prestige levels, trophy milestones)
-
-10. **`js/battles.js`** - Battle feed
-    - `BattlesManager`: Paginated battle log viewer with filters
-    - Uses `BattlelogHelpers` for all battle data extraction
-
-11. **`js/router.js`** - URL routing
-    - `Router`: Hash-based routing for tabs and deep linking
-
-12. **`js/app.js`** - Application initialization
-    - Sets up tabs, loads initial data, handles player selection
-
-**Key Design Patterns:**
-
-- **No Code Duplication**: All chart configs, battle lookups, calculations, and date formatting use shared helpers
-- **Single Source of Truth**: Game constants in `GameConstants`, colors in `COLOR_PALETTE`, all costs centralized
-- **Explicit Dependencies**: Each file has a header comment listing what it depends on
-- **Lazy Loading**: Battle logs and historical data load on-demand to optimize initial page load
-- **Stateless Helpers**: All helper functions are pure (no side effects) for predictability
-
-**Common Tasks for AI:**
-
-When adding a new chart:
-1. Use `ChartHelpers.createLineDataset()` or `ChartHelpers.getCommonLineOptions()`
-2. Reference `GameConstants.COLOR_PALETTE` for colors
-
-When analyzing battles:
-1. **ALWAYS** use `BattlelogHelpers.getTrophyChange(battle, playerTag)` for trophy changes (handles duels mode)
-2. **ALWAYS** pass `playerTag` to `isWin(battle, playerTag)` / `isLoss(battle, playerTag)` (required for duels)
-3. Use `BattlelogHelpers.getPlayerBrawlerFromBattle(battle, playerTag)` - may return single brawler OR array (duels)
-4. Use `BattlelogHelpers.calculateBrawlerStats(playerTag, battles)` for win rates (handles all modes including duels)
-5. **NEVER** directly access `battle.battle.trophyChange` - always use `getTrophyChange()` helper
-
-When calculating costs:
-1. Use `CalculationHelpers.calculateUpgradeCosts()` for account/brawler upgrade costs
-2. Reference `GameConstants.POWER_POINT_COSTS`, `COIN_COSTS`, `ITEM_COSTS`
-
-When formatting dates:
-1. Use `Utils.parseBattleTime()` to parse API battle timestamps
-2. Use `ViewHelpers.formatTimeAgo()` for relative times ("5m ago")
-3. Use `Utils.formatDayLabel()` for date headers
-
-When displaying game modes:
-1. **ALWAYS** use `GameConstants.getModeName(mode)` for display text (never show raw mode strings like "brawlBall")
-2. **ALWAYS** use `GameConstants.getModeColor(mode)` for mode-specific colors (consistent colors across UI)
-3. Use `GameConstants.MODE_CATEGORIES` to filter or group modes by type (team/showdown/pve)
-
-**Supported Game Modes (May 2026):**
-- **Team 3v3**: gemGrab, brawlBall, bounty, heist, hotZone, knockout, siege, wipeout, brawlArena, airHockey, tagTeam
-- **Team 5v5**: brawlBall5V5, wipeout5V5, knockout5V5, deathmatch5v5
-- **Showdown**: soloShowdown, duoShowdown, trioShowdown
-- **Special**: duels, lastStand, megaBoss
-- **Battle Types**: ranked (ladder), soloRanked (competitive), friendly, challenge (events)
-
-**Tab Features:**
-- **Club Overview**: Trophy timeline + quick stats for all members
-- **Player Stats**:
-  - Prestige/power distribution charts
-  - Per-brawler breakdown with missing items (owned + unowned brawlers shown)
-  - Account Worth card tracks coin/power point costs for full account progression
-  - Brawler Battle Stats with pagination (top 10 shown, expandable)
-  - Trophy progression timeline with date range filters
-- **Timelines**: Historical progression (trophies, wins, collection, maxed brawlers, prestige, activity, mode popularity)
-- **Achievements**: Player milestone timeline with filters
-- **Battles**: Paginated battle feed with player/mode/result filters, expanded views for all battle types
+**Module load order:**
+- `common.js` first (GameConfig used everywhere)
+- `data.js` second (DataLoader)
+- Tab modules third
+- `router.js` and `app.js` last
 
 ### Data Collection & Automation Pipeline
 
@@ -264,15 +174,15 @@ Data collection is automated using a multi-layered approach combining Oracle Clo
    - If git lock unavailable → data saved locally on VM (manual recovery possible)
    - Scripts use 10-second lock timeout (not 5 minutes) to avoid blocking data collection
 
-2. **Folder Structure Reorganization**
-   - Moved all daily snapshots: `data/YYYY-MM-DD.json` → `data/snapshots/YYYY-MM-DD.json`
-   - Kept battlelogs: `data/battlelogs/*.json`
-   - Root `data/` only contains: `latest.json`, `brawlers.json`, `achievements.json`
-   - **Benefit:** Clear file ownership prevents merge conflicts
+2. **Folder Structure (V2)**
+   - Raw data (compressed): `data/raw/snapshots/*.gz`, `data/raw/battlelogs/*.gz`
+   - Aggregated data: `data/aggregated/**/*.json` (frontend-optimized)
+   - Clear separation: raw vs derived, snapshots vs battlelogs
+   - **Benefit:** File ownership prevents merge conflicts
 
 3. **Branch File Ownership (Zero Overlap)**
-   - `data-snapshots` branch: ONLY tracks `data/snapshots/`, `data/latest.json`, `data/brawlers.json`
-   - `data-battlelogs` branch: ONLY tracks `data/battlelogs/`
+   - `data-snapshots` branch: ONLY tracks `data/raw/snapshots/`
+   - `data-battlelogs` branch: ONLY tracks `data/raw/battlelogs/`
    - Branches never merge FROM main (no sync step that causes conflicts)
    - **Benefit:** Merge conflicts physically impossible when files don't overlap
 
@@ -284,20 +194,21 @@ Data collection is automated using a multi-layered approach combining Oracle Clo
 
 5. **Automatic Conflict Resolution**
    - If merge conflict occurs (rare now): auto-resolve by file ownership
-   - Snapshots merge: keep all `data/snapshots/` files, preserve main's battlelogs
-   - Battlelogs merge: keep all `data/battlelogs/` files, preserve main's snapshots
+   - Snapshots merge: keep all `data/raw/snapshots/`, preserve main's battlelogs
+   - Battlelogs merge: keep all `data/raw/battlelogs/`, preserve main's snapshots
    - **Benefit:** No manual intervention required
 
 **Recovery Procedure (if data stuck on branches):**
 ```bash
 # Snapshots stuck
 git fetch origin data-snapshots:data-snapshots
-git checkout origin/data-snapshots -- data/snapshots/YYYY-MM-DD.json
-git commit -m "Recover snapshot from data-snapshots branch"
+git checkout origin/data-snapshots -- data/raw/snapshots/YYYY-MM-DD.json.gz
+git checkout origin/data-snapshots -- data/aggregated/
+git commit -m "Recover snapshot + aggregated from data-snapshots branch"
 
 # Battlelogs stuck
 git fetch origin data-battlelogs:data-battlelogs
-git checkout origin/data-battlelogs -- data/battlelogs/
+git checkout origin/data-battlelogs -- data/raw/battlelogs/
 git commit -m "Recover battlelogs from data-battlelogs branch"
 ```
 
@@ -319,33 +230,35 @@ git commit -m "Recover battlelogs from data-battlelogs branch"
 
 The Oracle Cloud VM at `129.151.245.132` runs two automated collection tasks via cron (see `docs/ORACLE_CLOUD_VM.md` for details):
 
-**Daily Profile Snapshots:**
+**Daily Profile Snapshots (v2):**
 - **Schedule**: 23:00 UTC daily (midnight CET winter / 1am CEST summer)
-- **Script**: `/home/ubuntu/collect-snapshots.sh`
+- **Script**: `/home/ubuntu/collect-snapshots.sh` (will be updated on v2 deployment)
 - **Workflow**:
   1. **Try to acquire git lock** (10s timeout)
   2. If locked → checkout `data-snapshots` branch, pull latest
-  3. **Run `collect_data.py`** (player profiles, trophies, brawlers) - **ALWAYS RUNS**
-  4. Save to `data/snapshots/YYYY-MM-DD.json` and `data/latest.json`
-  5. If locked → commit ONLY snapshot files, push to `data-snapshots` branch
+  3. **Run `collect_snapshots_v2.py`** (player profiles, trophies, brawlers) - **ALWAYS RUNS**
+  4. Save to `data/raw/snapshots/YYYY-MM-DD.json.gz` (compressed)
+  5. If locked → commit raw snapshots, push to `data-snapshots` branch
   6. If locked → merge to `main` with auto-conflict resolution
   7. If NO lock → data saved locally, manual push needed
 - **Logs**: `/home/ubuntu/collect-snapshots.log`
 - **Resilience**: Data collection NEVER fails due to git. Worst case: data on VM disk
+- **Note**: VM does NOT run aggregation. GitHub Actions handles that after merge to main.
 
-**Battlelog Collection:**
+**Battlelog Collection (v2):**
 - **Schedule**: Every 30 minutes
-- **Script**: `/home/ubuntu/collect-battlelogs.sh`
+- **Script**: `/home/ubuntu/collect-battlelogs.sh` (will be updated on v2 deployment)
 - **Workflow**:
   1. **Try to acquire git lock** (10s timeout)
   2. If locked → checkout `data-battlelogs` branch, pull latest
-  3. **Run `collect_battlelogs.py`** (recent battle history) - **ALWAYS RUNS**
-  4. Save to `data/battlelogs/{TAG}.json` (one file per player)
-  5. If locked → commit ONLY battlelog files, push to `data-battlelogs` branch
+  3. **Run `collect_battlelogs_v2.py`** (recent battle history) - **ALWAYS RUNS**
+  4. Save to `data/raw/battlelogs/{TAG}.json.gz` (compressed, one file per player)
+  5. If locked → commit battlelog files, push to `data-battlelogs` branch
   6. If locked → merge to `main` with auto-conflict resolution
   7. If NO lock → data saved locally, manual push needed
 - **Logs**: `/home/ubuntu/collect-battlelogs.log`
 - **Resilience**: Data collection NEVER fails due to git. Worst case: data on VM disk
+- **Note**: Triggers aggregation on main (GitHub Actions detects data/raw changes)
 
 **Why separate branches with zero file overlap?**
 - **Merge conflicts physically impossible** when files don't overlap
@@ -380,95 +293,36 @@ The scripts can fail to commit data when git lock is unavailable, but the files 
 - Or: git operations should NEVER run cleanup commands that delete uncommitted data files
 - Or: retry logic to commit the data when lock becomes available
 
-#### 2. GitHub Actions - Post-Processing & Deployment
+#### 2. GitHub Actions - Aggregation & Deployment
 
-**Achievement Generation** (`.github/workflows/generate-achievements.yml`):
-- **Trigger**: Every push to `main` (after data collection merges)
-- **What it does**:
-  1. Analyzes all historical snapshots in `data/`
-  2. Detects player milestones (new brawlers, prestige levels, trophy milestones)
-  3. Generates `data/achievements.json`
-  4. Commits back to `main`
-- **Why post-push?** Achievements require full history analysis, too expensive for VM
+**Aggregation** (v2, to be created):
+- Runs `scripts/aggregate.py` when `data/raw/**` changes
+- Generates `data/aggregated/**/*.json` (frontend-optimized data)
+- Current v1 workflow broken on v2 branch (references missing file)
 
-**GitHub Pages Deployment** (`.github/workflows/deploy-pages.yml`):
-- **Trigger**: Push to `main` that changes frontend code (not `data/**`)
-- **Ignores**: Changes to `data/**`, `docs/**`, `*.md`
-- **What it does**: Deploys entire repo to GitHub Pages at https://louisbgl.github.io/brawl-stats/
-- **Why conditional?** Data updates don't require redeploying the site
+**GitHub Pages**:
+- Deploys on frontend code changes (ignores `data/**`)
 
-#### 3. Manual Collection (Backup/Testing)
+#### 3. Manual Collection
 
-Can manually trigger any collection:
+See `docs/ORACLE_CLOUD_VM.md` for SSH commands and troubleshooting.
 
-```bash
-# From Oracle VM (SSH)
-ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 '/home/ubuntu/collect-snapshots.sh'
-ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 '/home/ubuntu/collect-battlelogs.sh'
+## Quick Reference
 
-# From GitHub Actions (workflow_dispatch)
-# Go to Actions tab → Select workflow → Run workflow
-```
+### Adding Tracked Players
 
-#### Complete Data Flow
-
-```
-Every 30 min:
-  Oracle VM (cron) → collect_battlelogs.py → data-battlelogs branch → merge to main
-                                                                            ↓
-                                                                    GitHub Actions
-                                                                            ↓
-                                                              generate_achievements.py
-                                                                            ↓
-                                                                 achievements.json → main
-
-Daily at 23:00 UTC:
-  Oracle VM (cron) → collect_data.py → data-snapshots branch → merge to main
-                                                                      ↓
-                                                              GitHub Actions
-                                                                      ↓
-                                                        generate_achievements.py
-                                                                      ↓
-                                                           achievements.json → main
-
-On frontend code change:
-  Push to main → GitHub Actions → Deploy to GitHub Pages
-```
-
-## Important Implementation Details
-
-### Adding Clubs or Players
-Edit `src/config.py`:
+Edit `src/collection/config.py`:
 ```python
-CLUBS = [
-    {"name": "Club Name", "tag": "#XXXXXXX"},
-]
-
-INDIVIDUAL_PLAYERS = [
-    {"name": "Player Name", "tag": "#XXXXXXX"},
-]
+CLUBS = [{"name": "Club Name", "tag": "#XXXXXXX"}]
+INDIVIDUAL_PLAYERS = [{"name": "Player Name", "tag": "#XXXXXXX"}]
 ```
 
-### Battle Log Storage
+### Data Structure
 
-Battle logs are stored separately from daily snapshots, in `data/battlelogs/{TAG}.json` (one file per player). Each file is a JSON list of raw API battle items sorted oldest → newest by `battleTime`. This format is intentionally raw so the data survives model changes.
+**Raw** (`data/raw/**/*.gz`): Complete API responses, compressed
+**Aggregated** (`data/aggregated/**/*.json`): Frontend-optimized derived data
 
-To update all tracked players' battle logs manually:
-```python
-# in test_api.py playground
-update_all_battlelogs()
-```
-
-Battle log data models live in `src/battle_models.py`. The `won` field on `BattleEntry` is inferred from `trophy_change` (positive = win, negative = loss, zero = undetermined/friendly). This is a simplification that can be refined later.
-
-### Data Snapshot Format
-- Each snapshot contains: `date`, `timestamp`, `clubs[]`, `individual_players[]`
-- Players include: tag, name, trophies, victories (3v3/solo/duo), exp_level, brawlers[]
-- Brawlers store: name, power, trophies, rank, and only IDs for gadgets/star powers/hypercharges/gears/prestige
-- Frontend resolves item names by looking up IDs in `brawlers.json`
-
-### Historical Data Loading
-JavaScript loads all daily snapshots from `data/YYYY-MM-DD.json` starting from hardcoded start date (2026-03-14) in `js/data.js:22`. Update this date if you need to change the historical range.
+See `docs/DATA_FLOW.md` for complete aggregated schema.
 
 
 ## Technology Stack
@@ -492,7 +346,10 @@ DO NOT create:
 - General how-to guides (put in this file or code comments)
 
 ### Current Documentation
-- **`CLAUDE.md`** (this file): Complete project reference for AI-assisted development
-- **`README.md`**: Project overview and quickstart for humans
-- **`docs/FRONTEND_SPEC.md`**: Frontend feature specifications and design
-- **`docs/ORACLE_CLOUD_VM.md`**: Oracle Cloud VM management (SSH, services, cron jobs, troubleshooting)
+- **`CLAUDE.md`** (this file): Project overview, key gotchas, how to work in this codebase
+- **`README.md`**: Project overview for humans
+- **`docs/DATA_COLLECTION.md`**: Python backend architecture, collection scripts, modules, data philosophy
+- **`docs/V2_FRONTEND.md`**: Frontend architecture, tab specs, patterns, common mistakes
+- **`docs/DATA_FLOW.md`**: Aggregated data schema (what frontend expects from aggregation)
+- **`docs/V2_PROMOTION.md`**: v1→v2 deployment procedure
+- **`docs/ORACLE_CLOUD_VM.md`**: VM management, SSH access, cron jobs, troubleshooting

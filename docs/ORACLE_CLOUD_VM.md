@@ -2,7 +2,9 @@
 
 ## IMPORTANT: Save This Information!
 
-This document contains all the critical information you need to access and manage your Oracle Cloud VM that hosts the Brawl Stars API proxy.
+This document contains all the critical information you need to access and manage your Oracle Cloud VM that runs automated data collection.
+
+**⚠️ Current Status**: VM runs v1 collection scripts. V2 scripts ready but not deployed. See "V2 Deployment" section below.
 
 ---
 
@@ -44,30 +46,32 @@ The VM runs automated data collection tasks via cron:
 ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'crontab -l'
 ```
 
-#### Daily Profile Snapshots
+#### Daily Profile Snapshots (v1 - Current)
 - **Schedule**: Every day at 23:00 UTC (midnight CET winter / 1am CEST summer)
 - **Script**: `/home/ubuntu/collect-snapshots.sh`
 - **Branch**: `data-snapshots` (auto-merges to `main`)
 - **What it does**:
-  1. Collects player profile data (trophies, brawlers, power levels)
-  2. Saves to `data/YYYY-MM-DD.json`
-  3. Commits to `data-snapshots` branch
-  4. Auto-merges to `main`
+  1. Calls `collect_data.py` (v1 script)
+  2. Collects player profile data (trophies, brawlers, power levels)
+  3. Saves to `data/snapshots/YYYY-MM-DD.json` (uncompressed)
+  4. Commits to `data-snapshots` branch
+  5. Auto-merges to `main`
 
 **View snapshot collection logs**:
 ```bash
 ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'tail -100 /home/ubuntu/collect-snapshots.log'
 ```
 
-#### Battlelog Collection
+#### Battlelog Collection (v1 - Current)
 - **Schedule**: Every 30 minutes
 - **Script**: `/home/ubuntu/collect-battlelogs.sh`
 - **Branch**: `data-battlelogs` (auto-merges to `main`)
 - **What it does**:
-  1. Collects recent battle history for all tracked players
-  2. Saves to `data/battlelogs/{TAG}.json`
-  3. Commits to `data-battlelogs` branch
-  4. Auto-merges to `main`
+  1. Calls `collect_battlelogs.py` (v1 script)
+  2. Collects recent battle history for all tracked players
+  3. Saves to `data/battlelogs/{TAG}.json` (uncompressed)
+  4. Commits to `data-battlelogs` branch
+  5. Auto-merges to `main`
 
 **View battlelog collection logs**:
 ```bash
@@ -207,6 +211,64 @@ ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 '/home/ubuntu/c
 # View cron schedule
 ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'crontab -l'
 
-# Check if data collection is working
-ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'ls -lth /home/ubuntu/brawl-stats/data/*.json | head -5'
+# Check if data collection is working (v1)
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'ls -lth /home/ubuntu/brawl-stats/data/snapshots/*.json | head -5'
+
+# Check if data collection is working (v2, after deployment)
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'ls -lth /home/ubuntu/brawl-stats/data/raw/snapshots/*.gz | head -5'
+```
+
+---
+
+## V2 Deployment (Pending)
+
+**Status**: v2 collection scripts ready on `v2` branch, not yet deployed to main.
+
+**What changes**: Compression added (~93% size reduction), paths changed
+
+**When deployed**, update collection scripts on VM:
+
+### 1. Update Shell Scripts
+
+**Edit `/home/ubuntu/collect-snapshots.sh`**:
+```bash
+# Change:  uv run python collect_data.py
+# To:      uv run python src/collection/collect_snapshots_v2.py
+```
+
+**Edit `/home/ubuntu/collect-battlelogs.sh`**:
+```bash
+# Change:  uv run python collect_battlelogs.py
+# To:      uv run python src/collection/collect_battlelogs_v2.py
+```
+
+### 2. Pull Latest Code
+
+```bash
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 << 'EOF'
+cd /home/ubuntu/brawl-stats
+git fetch origin
+git checkout main
+git pull origin main
+EOF
+```
+
+### 3. Verify
+
+**Check v2 scripts exist**:
+```bash
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'ls -la /home/ubuntu/brawl-stats/src/collection/*_v2.py'
+```
+
+**Manually test v2 collection**:
+```bash
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 '/home/ubuntu/collect-snapshots.sh'
+```
+
+**Check compressed output**:
+```bash
+ssh -i ~/Downloads/ssh-key-2026-03-14.key ubuntu@129.151.245.132 'ls -lh /home/ubuntu/brawl-stats/data/raw/snapshots/*.gz | tail -1'
+```
+
+**See full deployment procedure**: `docs/V2_PROMOTION.md`
 ```
