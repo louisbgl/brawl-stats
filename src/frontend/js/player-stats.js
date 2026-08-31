@@ -11,6 +11,22 @@ const PlayerStatsManager = {
     currentChart: null,
 
     /**
+     * Validate player tag exists in club
+     */
+    isValidPlayerTag(tag, clubSummary) {
+        if (!tag) return false;
+        return clubSummary.leaderboards.trophies.some(entry => entry.tag === tag);
+    },
+
+    /**
+     * Validate time range is allowed value
+     */
+    isValidTimeRange(range) {
+        if (range === null || range === 'all') return true;
+        return [7, 30, 90].includes(parseInt(range));
+    },
+
+    /**
      * Render the Player Stats tab
      *
      * Note: Uses club-summary for player list + trophies instead of player index
@@ -28,15 +44,60 @@ const PlayerStatsManager = {
         let tagFromURL = urlFilters[0];
         let timeRangeFromURL = urlFilters[1] ? (urlFilters[1] === 'all' ? null : parseInt(urlFilters[1])) : undefined;
 
-        // If no URL tag, try localStorage
-        if (!tagFromURL) {
-            tagFromURL = localStorage.getItem('playerStats.selectedTag');
+        // Validate player tag from URL
+        if (tagFromURL && !this.isValidPlayerTag(tagFromURL, clubSummary)) {
+            console.warn(`Invalid player tag in URL: ${tagFromURL}`);
+            localStorage.removeItem('playerStats.selectedTag');
+            this.selectedPlayerTag = null;
+
+            // Render empty state
+            this.renderPlayerSelector(clubSummary, null);
+            const content = document.querySelector('.player-stats-content');
+            if (content) {
+                content.innerHTML = '<p style="text-align: center; color: var(--text-secondary); margin-top: 40px;">Select a player to view detailed stats</p>';
+            }
+
+            // Clean URL without triggering router (use replaceState to avoid loop)
+            window.history.replaceState(null, '', '#player');
+            return;
         }
 
-        // If no URL time range, try localStorage (default 30 days)
+        // If no valid URL tag, try localStorage
+        if (!tagFromURL) {
+            tagFromURL = localStorage.getItem('playerStats.selectedTag');
+            // Validate localStorage tag too
+            if (tagFromURL && !this.isValidPlayerTag(tagFromURL, clubSummary)) {
+                console.warn(`Invalid player tag in localStorage: ${tagFromURL}`);
+                localStorage.removeItem('playerStats.selectedTag');
+                tagFromURL = null;
+                this.selectedPlayerTag = null;
+            }
+        }
+
+        // Validate time range from URL
+        if (timeRangeFromURL !== undefined && !this.isValidTimeRange(timeRangeFromURL)) {
+            console.warn(`Invalid time range in URL: ${timeRangeFromURL}`);
+            localStorage.removeItem('playerStats.timeRange');
+            timeRangeFromURL = undefined; // Fall through to default
+
+            // Clean URL to remove invalid time range
+            if (tagFromURL) {
+                window.history.replaceState(null, '', `#player/${tagFromURL}`);
+            }
+        }
+
+        // If no valid URL time range, try localStorage (default 30 days)
         if (timeRangeFromURL === undefined) {
             const stored = localStorage.getItem('playerStats.timeRange');
-            this.currentTimelineRange = stored ? (stored === 'all' ? null : parseInt(stored)) : 30;
+            if (stored && this.isValidTimeRange(stored)) {
+                this.currentTimelineRange = stored === 'all' ? null : parseInt(stored);
+            } else {
+                if (stored) {
+                    console.warn(`Invalid time range in localStorage: ${stored}`);
+                    localStorage.removeItem('playerStats.timeRange');
+                }
+                this.currentTimelineRange = 30; // Default
+            }
         } else {
             this.currentTimelineRange = timeRangeFromURL;
         }
@@ -47,6 +108,12 @@ const PlayerStatsManager = {
         // If player selected, load their stats
         if (this.selectedPlayerTag) {
             await this.loadPlayerStats(this.selectedPlayerTag);
+        } else {
+            // Show empty state when no player selected
+            const content = document.querySelector('.player-stats-content');
+            if (content) {
+                content.innerHTML = '<p style="text-align: center; color: var(--text-secondary); margin-top: 40px;">Select a player to view detailed stats</p>';
+            }
         }
     },
 
@@ -98,6 +165,10 @@ const PlayerStatsManager = {
         // Toggle off if clicking active player
         if (this.selectedPlayerTag === tag) {
             this.selectedPlayerTag = null;
+
+            // Clear localStorage when deselecting
+            localStorage.removeItem('playerStats.selectedTag');
+
             window.location.hash = 'player';
 
             document.querySelectorAll('.player-btn').forEach(btn => {
