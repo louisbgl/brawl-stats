@@ -91,7 +91,6 @@ const GameConfig = {
 
     // Chart color pool for players without preset colors
     CHART_COLOR_POOL: [
-        '#c770ed', // Purple
         '#70c7ed', // Cyan
         '#edc770', // Yellow
         '#ed7070', // Red
@@ -104,7 +103,8 @@ const GameConfig = {
 
     // Preset colors for specific players (tag → color)
     PLAYER_COLORS: {
-        '#LLJGJQVY': '#ed70c7' // Pink - Escorte
+        '#LLJGJQVY': '#ed70c7', // Pink - Escorte
+        '#YR8L09PRC': '#c770ed'  // Purple - JOEL | Mommy
     },
 
     // Helper: Get chart color for player
