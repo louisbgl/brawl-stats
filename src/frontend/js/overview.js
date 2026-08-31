@@ -11,6 +11,7 @@ const OverviewManager = {
     hiddenPlayers: new Set(), // Track hidden player tags
     currentLeaderboardCategory: 'trophies', // Track active leaderboard category
     skipNextRender: false, // Skip re-render when we update URL programmatically
+    forceResetChart: false, // Force full chart reset (don't save hidden state)
 
     /**
      * Validate time range is allowed value
@@ -18,6 +19,22 @@ const OverviewManager = {
     isValidTimeRange(range) {
         if (range === null || range === 'all') return true;
         return [7, 30, 90].includes(parseInt(range));
+    },
+
+    /**
+     * Validate player tag exists in club
+     */
+    isValidPlayerTag(tag, clubSummary) {
+        if (!tag) return false;
+        return clubSummary.leaderboards.trophies.some(entry => entry.tag === tag);
+    },
+
+    /**
+     * Validate leaderboard category exists
+     */
+    isValidLeaderboardCategory(category, clubSummary) {
+        if (!category) return false;
+        return clubSummary.leaderboards.hasOwnProperty(category);
     },
 
     /**
@@ -55,19 +72,47 @@ const OverviewManager = {
 
             this.currentTimeRange = rangeParam === 'all' ? null : parseInt(rangeParam);
 
+            // Validate hidden player tags
+            let urlWasInvalid = false;
             if (urlFilters[1]) {
                 const hiddenTags = urlFilters[1].split(',').filter(t => t);
-                this.hiddenPlayers = new Set(hiddenTags);
+                const invalidTags = hiddenTags.filter(tag => !this.isValidPlayerTag(tag, clubSummary));
+
+                if (invalidTags.length > 0) {
+                    console.warn(`Invalid player tags in URL - resetting to show all: ${invalidTags.join(', ')}`);
+                    this.hiddenPlayers = new Set(); // Reset to default (show all)
+                    this.forceResetChart = true; // Force full chart reset
+                    urlWasInvalid = true;
+                } else {
+                    this.hiddenPlayers = new Set(hiddenTags);
+                }
             } else {
                 this.hiddenPlayers = new Set();
             }
 
+            // Validate leaderboard category
             if (urlFilters[2]) {
-                this.currentLeaderboardCategory = urlFilters[2] || 'trophies';
+                const category = urlFilters[2];
+                if (this.isValidLeaderboardCategory(category, clubSummary)) {
+                    this.currentLeaderboardCategory = category;
+                } else {
+                    console.warn(`Invalid leaderboard category in URL: ${category}`);
+                    this.currentLeaderboardCategory = 'trophies';
+                    urlWasInvalid = true;
+                }
+            } else {
+                this.currentLeaderboardCategory = 'trophies';
             }
 
-            // Save to localStorage
+            // Save to localStorage (will save cleaned values)
             this.saveState();
+
+            // Update URL if we cleaned invalid values
+            if (urlWasInvalid) {
+                // Use replaceState to update URL without triggering router
+                window.history.replaceState(null, '', '#' + this.buildURL());
+                // Continue to render with cleaned values (don't return)
+            }
         } else {
             // No URL params - load from localStorage
             this.loadState();
@@ -77,6 +122,23 @@ const OverviewManager = {
                 console.warn(`Invalid time range in localStorage: ${this.currentTimeRange}`);
                 localStorage.removeItem('overview.timeRange');
                 this.currentTimeRange = 30; // Force default
+            }
+
+            // Validate hidden player tags
+            const invalidTags = Array.from(this.hiddenPlayers).filter(tag => !this.isValidPlayerTag(tag, clubSummary));
+
+            if (invalidTags.length > 0) {
+                console.warn(`Invalid player tags in localStorage - resetting to show all: ${invalidTags.join(', ')}`);
+                this.hiddenPlayers = new Set(); // Reset to default (show all)
+                this.forceResetChart = true; // Force full chart reset
+                localStorage.removeItem('overview.hiddenPlayers');
+            }
+
+            // Validate leaderboard category
+            if (!this.isValidLeaderboardCategory(this.currentLeaderboardCategory, clubSummary)) {
+                console.warn(`Invalid leaderboard category in localStorage: ${this.currentLeaderboardCategory}`);
+                localStorage.removeItem('overview.leaderboardCategory');
+                this.currentLeaderboardCategory = 'trophies';
             }
 
             this.updateURL(); // Sync URL with localStorage
@@ -180,18 +242,21 @@ const OverviewManager = {
 
         const chartContainer = chartCard.querySelector('.chart-container');
 
-        // Save current hidden state before destroying
+        // Save current hidden state before destroying (unless forcing reset)
         if (this.currentChart) {
-            this.currentChart.data.datasets.forEach((dataset, idx) => {
-                const meta = this.currentChart.getDatasetMeta(idx);
-                if (meta.hidden) {
-                    // Find player tag by dataset label
-                    const playerIndex = DataLoader.getPlayerIndex();
-                    const tag = Object.keys(playerIndex).find(t => playerIndex[t].name === dataset.label);
-                    if (tag) this.hiddenPlayers.add(tag);
-                }
-            });
+            if (!this.forceResetChart) {
+                this.currentChart.data.datasets.forEach((dataset, idx) => {
+                    const meta = this.currentChart.getDatasetMeta(idx);
+                    if (meta.hidden) {
+                        // Find player tag by dataset label
+                        const playerIndex = DataLoader.getPlayerIndex();
+                        const tag = Object.keys(playerIndex).find(t => playerIndex[t].name === dataset.label);
+                        if (tag) this.hiddenPlayers.add(tag);
+                    }
+                });
+            }
             this.currentChart.destroy();
+            this.forceResetChart = false; // Reset flag
         }
 
         // Render chart
@@ -201,16 +266,16 @@ const OverviewManager = {
             this.currentTimeRange
         );
 
-        // Restore hidden state
+        // Restore hidden state by toggling dataset visibility
         const playerIndex = DataLoader.getPlayerIndex();
         this.currentChart.data.datasets.forEach((dataset, idx) => {
             const tag = Object.keys(playerIndex).find(t => playerIndex[t].name === dataset.label);
-            if (tag && this.hiddenPlayers.has(tag)) {
-                const meta = this.currentChart.getDatasetMeta(idx);
-                meta.hidden = true;
-            }
+            const shouldBeHidden = tag && this.hiddenPlayers.has(tag);
+
+            // Use Chart.js setDatasetVisibility API
+            this.currentChart.setDatasetVisibility(idx, !shouldBeHidden);
         });
-        this.currentChart.update();
+        this.currentChart.update('none'); // Force immediate update without animation
 
         // Setup time range button handlers
         chartCard.querySelectorAll('.time-range-btn').forEach(btn => {
@@ -238,34 +303,37 @@ const OverviewManager = {
         };
     },
 
-    updateURL() {
+    buildURL() {
         const isDefaultTimeRange = this.currentTimeRange === 30;
         const isDefaultLeaderboard = this.currentLeaderboardCategory === 'trophies';
         const hasHiddenPlayers = this.hiddenPlayers.size > 0;
 
         // Build target URL
-        let targetURL;
         if (isDefaultTimeRange && isDefaultLeaderboard && !hasHiddenPlayers) {
-            targetURL = 'overview';
-        } else {
-            const rangeParam = this.currentTimeRange === null ? 'all' : this.currentTimeRange;
-            const hiddenParam = hasHiddenPlayers ? Array.from(this.hiddenPlayers).join(',') : '';
-
-            targetURL = `overview/${rangeParam}`;
-            if (hiddenParam) {
-                targetURL += `/${hiddenParam}`;
-            } else if (!isDefaultLeaderboard) {
-                targetURL += `/`;
-            }
-
-            if (!isDefaultLeaderboard) {
-                targetURL += `/${this.currentLeaderboardCategory}`;
-            }
+            return 'overview';
         }
 
+        const rangeParam = this.currentTimeRange === null ? 'all' : this.currentTimeRange;
+        const hiddenParam = hasHiddenPlayers ? Array.from(this.hiddenPlayers).join(',') : '';
+
+        let targetURL = `overview/${rangeParam}`;
+        if (hiddenParam) {
+            targetURL += `/${hiddenParam}`;
+        } else if (!isDefaultLeaderboard) {
+            targetURL += `/`;
+        }
+
+        if (!isDefaultLeaderboard) {
+            targetURL += `/${this.currentLeaderboardCategory}`;
+        }
+
+        return targetURL;
+    },
+
+    updateURL() {
         // Skip re-render on hash change (we already updated UI)
         this.skipNextRender = true;
-        window.location.hash = targetURL;
+        window.location.hash = this.buildURL();
     },
 
     /**
@@ -279,24 +347,24 @@ const OverviewManager = {
         const placeholder = leaderboardCard.querySelector('.placeholder');
         if (placeholder) placeholder.remove();
 
-        // Create container for leaderboard
+        // Create or re-use container for leaderboard
         let container = leaderboardCard.querySelector('.leaderboard-container');
         if (!container) {
             container = document.createElement('div');
             container.className = 'leaderboard-container';
             leaderboardCard.appendChild(container);
-
-            // Initial render only
-            OverviewLeaderboard.render(
-                container,
-                clubSummary.leaderboards,
-                this.currentLeaderboardCategory,
-                (category) => {
-                    this.currentLeaderboardCategory = category;
-                    this.saveState();
-                    this.updateURL();
-                }
-            );
         }
+
+        // Always render with current category
+        OverviewLeaderboard.render(
+            container,
+            clubSummary.leaderboards,
+            this.currentLeaderboardCategory,
+            (category) => {
+                this.currentLeaderboardCategory = category;
+                this.saveState();
+                this.updateURL();
+            }
+        );
     }
 };
