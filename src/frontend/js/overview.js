@@ -13,6 +13,14 @@ const OverviewManager = {
     skipNextRender: false, // Skip re-render when we update URL programmatically
 
     /**
+     * Validate time range is allowed value
+     */
+    isValidTimeRange(range) {
+        if (range === null || range === 'all') return true;
+        return [7, 30, 90].includes(parseInt(range));
+    },
+
+    /**
      * Render the Overview tab with real data
      */
     async render(urlFilters = []) {
@@ -29,9 +37,23 @@ const OverviewManager = {
 
         // Parse URL filters: [timeRange, hiddenPlayers, leaderboardCategory]
         if (urlFilters.length > 0 && urlFilters[0]) {
-            // URL has params - use them
+            // URL has params - validate time range
             const rangeParam = urlFilters[0];
-            this.currentTimeRange = rangeParam === 'all' ? null : parseInt(rangeParam) || 30;
+
+            if (!this.isValidTimeRange(rangeParam)) {
+                console.warn(`Invalid time range in URL: ${rangeParam}`);
+                localStorage.removeItem('overview.timeRange');
+                // Load other state from localStorage, use default time range
+                this.loadState();
+                this.currentTimeRange = 30; // Force default
+                this.updateURL(); // Clean URL
+                this.renderStatCards(clubSummary);
+                this.renderTrophyChart(clubSummary);
+                this.renderLeaderboard(clubSummary);
+                return;
+            }
+
+            this.currentTimeRange = rangeParam === 'all' ? null : parseInt(rangeParam);
 
             if (urlFilters[1]) {
                 const hiddenTags = urlFilters[1].split(',').filter(t => t);
@@ -49,6 +71,14 @@ const OverviewManager = {
         } else {
             // No URL params - load from localStorage
             this.loadState();
+
+            // Validate loaded time range
+            if (!this.isValidTimeRange(this.currentTimeRange)) {
+                console.warn(`Invalid time range in localStorage: ${this.currentTimeRange}`);
+                localStorage.removeItem('overview.timeRange');
+                this.currentTimeRange = 30; // Force default
+            }
+
             this.updateURL(); // Sync URL with localStorage
         }
 
