@@ -345,9 +345,9 @@ const PlayerStatsManager = {
                 // Save to localStorage
                 localStorage.setItem('playerStats.timeRange', btn.dataset.days);
 
-                // Update URL
+                // Update URL without triggering router
                 const rangeStr = days === null ? 'all' : days.toString();
-                window.location.hash = `player/${this.selectedPlayerTag}/${rangeStr}`;
+                window.history.replaceState(null, '', `#player/${this.selectedPlayerTag}/${rangeStr}`);
 
                 // Update button states
                 content.querySelectorAll('.time-range-btn').forEach(b => b.classList.remove('active'));
