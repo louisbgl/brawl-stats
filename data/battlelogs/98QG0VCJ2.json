@@ -461016,5 +461016,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260831T120043.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 31,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#2UVLGPGJQ0",
+        "name": "o0lucn1ćx",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 2461
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QJLVQJC8U",
+            "name": "kdvdvd",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1591
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1829
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UVLGPGJQ0",
+            "name": "o0lucn1ćx",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2461
+            }
+          },
+          {
+            "tag": "#Y9QPYJQQQ",
+            "name": "Reiz あ",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 838
+            }
+          },
+          {
+            "tag": "#2QRRUJUC8L",
+            "name": "HK|Imran",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 1764
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
