@@ -151296,5 +151296,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260831T155344.000Z",
+    "event": {
+      "id": 15000996,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Arena of Glory"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 193,
+      "starPlayer": {
+        "tag": "#2J8YU0QVLQ",
+        "name": "德J̣̌PxØ§m⁴ж斯曼是最",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1521
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2J8YU0QVLQ",
+            "name": "德J̣̌PxØ§m⁴ж斯曼是最",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1521
+            }
+          },
+          {
+            "tag": "#299L9LJLP",
+            "name": "ZB|TANUxx",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 2212
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 845
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#V9QPPVJR",
+            "name": "🤯𝖙𝖌𝖆🤠",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 338
+            }
+          },
+          {
+            "tag": "#2RQLCPJJY9",
+            "name": "чёрный лев",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 541
+            }
+          },
+          {
+            "tag": "#P8PRJPJ20",
+            "name": "GÉDÉ",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 871
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
