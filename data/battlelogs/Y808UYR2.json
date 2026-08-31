@@ -150655,5 +150655,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260831T100951.000Z",
+    "event": {
+      "id": 15000082,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Layer Cake"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 60,
+      "starPlayer": {
+        "tag": "#2V0VG80CPC",
+        "name": "Огурчик Про!",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#J8GLGRCQ2",
+            "name": "Monarch",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#20UV02YG2P",
+            "name": "brawlslaw",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R0YC8G8VP",
+            "name": "hadi mok1",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2YQJR0YC8J",
+            "name": "h aaaaaaaaaans",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2V0VG80CPC",
+            "name": "Огурчик Про!",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260831T101215.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 72,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000013,
+          "name": "POCO",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#YCPR9PGJ",
+            "name": "Raffaele",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2UGLUQU9UQ",
+            "name": "maboi1",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PU2GGPYJG",
+            "name": "Nefelim",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2VPL089G8R",
+            "name": "SK | Chorus",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2LV0229999",
+            "name": "あ|𝙇𝙚𝙤ツ",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
