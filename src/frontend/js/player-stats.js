@@ -240,6 +240,9 @@ const PlayerStatsManager = {
                     window.history.replaceState(null, '', `#player/${tag}/${rangeStr}`);
                 }
             );
+
+            // Render battle performance stats after timeline
+            this.renderBattlePerformance(statsData);
         } catch (error) {
             console.error('Failed to load player stats:', error);
             content.innerHTML = '<div class="error">Failed to load player stats</div>';
@@ -293,5 +296,66 @@ const PlayerStatsManager = {
                 </div>
             </div>
         `;
+    },
+
+    /**
+     * Render battle performance stats (called after timeline)
+     */
+    renderBattlePerformance(statsData) {
+        const content = document.querySelector('.player-stats-content');
+        if (!content) return;
+
+        const stats = statsData.quick_stats;
+
+        // Format battle stats (with fallback for missing data)
+        const overallWinrate = stats.overall_winrate !== undefined ? (stats.overall_winrate * 100).toFixed(1) : 'N/A';
+        const mvpCount = stats.mvp_count !== undefined ? stats.mvp_count.toLocaleString() : 'N/A';
+        const mvpRate = stats.mvp_rate !== undefined ? (stats.mvp_rate * 100).toFixed(1) : 'N/A';
+
+        // Append battle performance section
+        const section = document.createElement('div');
+        section.style.marginTop = '60px';
+        section.innerHTML = `
+            <h2 style="text-align: center; margin-bottom: 24px;">Battle Performance</h2>
+            <div class="stats-row battle-performance-grid">
+                <div class="stat-card accent-green-alt">
+                    <div class="stat-label">3v3 Wins</div>
+                    <div class="stat-value">${stats.wins_3v3.toLocaleString()}</div>
+                    <div class="stat-subtext">Team Victories</div>
+                </div>
+
+                <div class="stat-card accent-blue-alt">
+                    <div class="stat-label">Solo Wins</div>
+                    <div class="stat-value">${stats.wins_solo.toLocaleString()}</div>
+                    <div class="stat-subtext">Showdown Solo</div>
+                </div>
+
+                <div class="stat-card accent-cyan-alt">
+                    <div class="stat-label">Duo Wins</div>
+                    <div class="stat-value">${stats.wins_duo.toLocaleString()}</div>
+                    <div class="stat-subtext">Showdown Duo</div>
+                </div>
+
+                <div class="stat-card accent-purple-alt">
+                    <div class="stat-label">Overall Win Rate</div>
+                    <div class="stat-value">${overallWinrate}%</div>
+                    <div class="stat-subtext">${stats.total_battles?.toLocaleString() || 'N/A'} total battles</div>
+                </div>
+
+                <div class="stat-card accent-yellow-alt">
+                    <div class="stat-label">MVP Count</div>
+                    <div class="stat-value">${mvpCount}</div>
+                    <div class="stat-subtext">Star Player</div>
+                </div>
+
+                <div class="stat-card accent-pink-alt">
+                    <div class="stat-label">MVP Rate</div>
+                    <div class="stat-value">${mvpRate}%</div>
+                    <div class="stat-subtext">Of all battles</div>
+                </div>
+            </div>
+        `;
+
+        content.appendChild(section);
     }
 };

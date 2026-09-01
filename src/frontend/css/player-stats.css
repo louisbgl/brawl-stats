@@ -84,6 +84,25 @@
     transform: translateY(-50%);
 }
 
+/* Additional accent colors for battle performance */
+.stat-card.accent-green-alt::after {
+    background: var(--accent-green);
+    top: -40px;
+    left: -40px;
+}
+
+.stat-card.accent-blue-alt::after {
+    background: var(--accent-blue);
+    bottom: -40px;
+    right: -40px;
+}
+
+/* ===== BATTLE PERFORMANCE GRID ===== */
+.battle-performance-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
 /* ===== MOBILE ===== */
 @media (max-width: 768px) {
     .player-selector {
@@ -93,5 +112,9 @@
     .player-btn {
         padding: 7px 12px;
         font-size: 0.8rem;
+    }
+
+    .battle-performance-grid {
+        grid-template-columns: 1fr;
     }
 }
