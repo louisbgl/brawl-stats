@@ -132947,5 +132947,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260901T192056.000Z",
+    "event": {
+      "id": 15001056,
+      "mode": "deathmatch",
+      "modeId": 25,
+      "map": "Time Flies"
+    },
+    "battle": {
+      "mode": "wipeout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 78,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2QQCLYJP0V",
+        "name": "karam",
+        "brawler": {
+          "id": 16000018,
+          "name": "DARRYL",
+          "power": 11,
+          "trophies": 386
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QQCLYJP0V",
+            "name": "karam",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 386
+            }
+          },
+          {
+            "tag": "#2LPJVV909Q",
+            "name": "talal",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 704
+            }
+          },
+          {
+            "tag": "#2JLC8C0QJ8",
+            "name": "CR7",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1136
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LP2G82LQP",
+            "name": "огузок",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 11,
+              "trophies": 530
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 549
+            }
+          },
+          {
+            "tag": "#VJCY29QQ2",
+            "name": "Proctor",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 9,
+              "trophies": 460
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
