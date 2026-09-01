@@ -8,6 +8,7 @@
 const OverviewManager = {
     currentChart: null,
     currentTimeRange: 30,
+    showGains: false, // Toggle between absolute trophies and gains from baseline
     hiddenPlayers: new Set(), // Track hidden player tags
     currentLeaderboardCategory: 'trophies', // Track active leaderboard category
     skipNextRender: false, // Skip re-render when we update URL programmatically
@@ -52,7 +53,7 @@ const OverviewManager = {
             return;
         }
 
-        // Parse URL filters: [timeRange, hiddenPlayers, leaderboardCategory]
+        // Parse URL filters: [timeRange, showGains, hiddenPlayers, leaderboardCategory]
         if (urlFilters.length > 0 && urlFilters[0]) {
             // URL has params - validate time range
             const rangeParam = urlFilters[0];
@@ -72,10 +73,17 @@ const OverviewManager = {
 
             this.currentTimeRange = rangeParam === 'all' ? null : parseInt(rangeParam);
 
-            // Validate hidden player tags
-            let urlWasInvalid = false;
+            // Parse showGains toggle (position 1, right after timeRange)
             if (urlFilters[1]) {
-                const hiddenTags = urlFilters[1].split(',').filter(t => t);
+                this.showGains = urlFilters[1] === 'gains';
+            } else {
+                this.showGains = false;
+            }
+
+            // Validate hidden player tags (now position 2)
+            let urlWasInvalid = false;
+            if (urlFilters[2]) {
+                const hiddenTags = urlFilters[2].split(',').filter(t => t);
                 const invalidTags = hiddenTags.filter(tag => !this.isValidPlayerTag(tag, clubSummary));
 
                 if (invalidTags.length > 0) {
@@ -90,9 +98,9 @@ const OverviewManager = {
                 this.hiddenPlayers = new Set();
             }
 
-            // Validate leaderboard category
-            if (urlFilters[2]) {
-                const category = urlFilters[2];
+            // Validate leaderboard category (now position 3)
+            if (urlFilters[3]) {
+                const category = urlFilters[3];
                 if (this.isValidLeaderboardCategory(category, clubSummary)) {
                     this.currentLeaderboardCategory = category;
                 } else {
@@ -153,12 +161,14 @@ const OverviewManager = {
         localStorage.setItem('overview.timeRange', this.currentTimeRange === null ? 'all' : this.currentTimeRange.toString());
         localStorage.setItem('overview.hiddenPlayers', JSON.stringify(Array.from(this.hiddenPlayers)));
         localStorage.setItem('overview.leaderboardCategory', this.currentLeaderboardCategory);
+        localStorage.setItem('overview.showGains', this.showGains.toString());
     },
 
     loadState() {
         const savedRange = localStorage.getItem('overview.timeRange');
         const savedHidden = localStorage.getItem('overview.hiddenPlayers');
         const savedCategory = localStorage.getItem('overview.leaderboardCategory');
+        const savedShowGains = localStorage.getItem('overview.showGains');
 
         if (savedRange) {
             this.currentTimeRange = savedRange === 'all' ? null : parseInt(savedRange);
@@ -175,6 +185,10 @@ const OverviewManager = {
 
         if (savedCategory) {
             this.currentLeaderboardCategory = savedCategory;
+        }
+
+        if (savedShowGains) {
+            this.showGains = savedShowGains === 'true';
         }
     },
 
@@ -229,12 +243,16 @@ const OverviewManager = {
 
         chartCard.innerHTML = `
             <h2 style="text-align: center; margin-bottom: 16px;">Trophy Progression</h2>
-            <div style="text-align: center; margin-bottom: 20px;">
+            <div style="text-align: center; margin-bottom: 20px; display: flex; gap: 20px; justify-content: center; align-items: center;">
                 <div class="time-range-controls">
                     <button class="time-range-btn ${this.currentTimeRange === 7 ? 'active' : ''}" data-days="7">7 Days</button>
                     <button class="time-range-btn ${this.currentTimeRange === 30 ? 'active' : ''}" data-days="30">30 Days</button>
                     <button class="time-range-btn ${this.currentTimeRange === 90 ? 'active' : ''}" data-days="90">90 Days</button>
                     <button class="time-range-btn ${this.currentTimeRange === null ? 'active' : ''}" data-days="all">All Time</button>
+                </div>
+                <div class="time-range-controls">
+                    <button class="time-range-btn ${!this.showGains ? 'active' : ''}" data-mode="absolute">Total</button>
+                    <button class="time-range-btn ${this.showGains ? 'active' : ''}" data-mode="gains">Gains</button>
                 </div>
             </div>
             <div class="chart-container" style="position: relative; height: 400px;"></div>
@@ -263,7 +281,8 @@ const OverviewManager = {
         this.currentChart = OverviewCharts.renderTrophyTimeline(
             chartContainer,
             clubSummary.trophy_timeline,
-            this.currentTimeRange
+            this.currentTimeRange,
+            this.showGains
         );
 
         // Restore hidden state by toggling dataset visibility
@@ -278,10 +297,20 @@ const OverviewManager = {
         this.currentChart.update('none'); // Force immediate update without animation
 
         // Setup time range button handlers
-        chartCard.querySelectorAll('.time-range-btn').forEach(btn => {
+        chartCard.querySelectorAll('.time-range-btn[data-days]').forEach(btn => {
             btn.addEventListener('click', () => {
                 const days = btn.dataset.days === 'all' ? null : parseInt(btn.dataset.days);
                 this.currentTimeRange = days;
+                this.updateURL();
+                this.renderTrophyChart(clubSummary);
+            });
+        });
+
+        // Setup mode toggle button handlers
+        chartCard.querySelectorAll('.time-range-btn[data-mode]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                this.showGains = btn.dataset.mode === 'gains';
+                this.saveState();
                 this.updateURL();
                 this.renderTrophyChart(clubSummary);
             });
@@ -305,24 +334,34 @@ const OverviewManager = {
 
     buildURL() {
         const isDefaultTimeRange = this.currentTimeRange === 30;
+        const isDefaultShowGains = !this.showGains;
         const isDefaultLeaderboard = this.currentLeaderboardCategory === 'trophies';
         const hasHiddenPlayers = this.hiddenPlayers.size > 0;
 
-        // Build target URL
-        if (isDefaultTimeRange && isDefaultLeaderboard && !hasHiddenPlayers) {
+        // Build target URL: overview/[timeRange]/[showGains]/[hiddenPlayers]/[leaderboardCategory]
+        if (isDefaultTimeRange && isDefaultShowGains && isDefaultLeaderboard && !hasHiddenPlayers) {
             return 'overview';
         }
 
         const rangeParam = this.currentTimeRange === null ? 'all' : this.currentTimeRange;
+        const showGainsParam = this.showGains ? 'gains' : '';
         const hiddenParam = hasHiddenPlayers ? Array.from(this.hiddenPlayers).join(',') : '';
 
         let targetURL = `overview/${rangeParam}`;
+
+        // Add showGains param (position 1)
+        if (showGainsParam || hiddenParam || !isDefaultLeaderboard) {
+            targetURL += `/${showGainsParam}`;
+        }
+
+        // Add hiddenPlayers param (position 2)
         if (hiddenParam) {
             targetURL += `/${hiddenParam}`;
         } else if (!isDefaultLeaderboard) {
             targetURL += `/`;
         }
 
+        // Add leaderboardCategory param (position 3)
         if (!isDefaultLeaderboard) {
             targetURL += `/${this.currentLeaderboardCategory}`;
         }

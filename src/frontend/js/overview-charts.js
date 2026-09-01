@@ -10,9 +10,10 @@ const OverviewCharts = {
      * @param {HTMLElement} container - Container element for chart
      * @param {Array} timelineData - Array of {date, players: {tag: trophies}}
      * @param {number} days - Number of days to show (7, 30, 90, or null for all)
+     * @param {boolean} showGains - Show gains from baseline instead of absolute trophies
      * @returns {Chart} Chart.js instance
      */
-    renderTrophyTimeline(container, timelineData, days = 30) {
+    renderTrophyTimeline(container, timelineData, days = 30, showGains = false) {
         // Clear container
         container.innerHTML = '<canvas id="trophyTimelineChart"></canvas>';
         const canvas = container.querySelector('canvas');
@@ -43,7 +44,18 @@ const OverviewCharts = {
             const playerName = playerIndex[tag]?.name || tag;
             const color = GameConfig.getPlayerChartColor(tag);
 
-            const data = filteredData.map(point => point.players[tag] || null);
+            const rawData = filteredData.map(point => point.players[tag] || null);
+
+            // Transform data if showing gains
+            let data;
+            if (showGains) {
+                // Find first non-null value as baseline
+                const baseline = rawData.find(val => val !== null) || 0;
+                // Calculate gains from baseline
+                data = rawData.map(val => val !== null ? val - baseline : null);
+            } else {
+                data = rawData;
+            }
 
             return {
                 label: playerName,
@@ -113,13 +125,22 @@ const OverviewCharts = {
                         borderWidth: 1,
                         padding: 12,
                         displayColors: true,
+                        itemSort: (a, b) => {
+                            // Sort by value descending (highest first)
+                            return b.parsed.y - a.parsed.y;
+                        },
                         callbacks: {
                             title: (items) => {
                                 return items[0].label; // Date
                             },
                             label: (context) => {
                                 const value = context.parsed.y;
-                                return `${context.dataset.label}: ${value.toLocaleString()}`;
+                                if (showGains) {
+                                    const sign = value >= 0 ? '+' : '';
+                                    return `${context.dataset.label}: ${sign}${value.toLocaleString()}`;
+                                } else {
+                                    return `${context.dataset.label}: ${value.toLocaleString()}`;
+                                }
                             }
                         }
                     }
@@ -141,14 +162,20 @@ const OverviewCharts = {
                         }
                     },
                     y: {
-                        beginAtZero: false,
+                        beginAtZero: showGains, // Start at 0 for gains mode
                         grid: {
                             color: '#2a2a4a',
                             drawBorder: false
                         },
                         ticks: {
                             color: '#8a8a9a',
-                            callback: (value) => value.toLocaleString(),
+                            callback: (value) => {
+                                if (showGains) {
+                                    const sign = value > 0 ? '+' : '';
+                                    return sign + value.toLocaleString();
+                                }
+                                return value.toLocaleString();
+                            },
                             font: {
                                 size: isMobile ? 8 : 11
                             },
