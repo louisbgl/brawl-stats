@@ -117,4 +117,29 @@
     .battle-performance-grid {
         grid-template-columns: 1fr;
     }
+
+    /* Trophy progression controls - stack vertically on mobile */
+    .player-stats-content .card > div[style*="position: relative"] {
+        flex-direction: column !important;
+        gap: 16px !important;
+        min-height: auto !important;
+    }
+
+    .player-stats-content .card .time-range-controls {
+        position: static !important;
+        transform: none !important;
+        left: auto !important;
+    }
+
+    /* Brawler filter button specifically - prevent stretching (last time-range-controls) */
+    .player-stats-content .card .time-range-controls:last-of-type {
+        width: fit-content !important;
+        align-self: center;
+        display: inline-flex !important;
+        grid-template-columns: unset !important;
+    }
+
+    .player-stats-content .card .gain-value {
+        order: -1; /* Trophy gain first */
+    }
 }
