@@ -461108,5 +461108,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260901T104013.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 47,
+      "starPlayer": {
+        "tag": "#998Y022P0",
+        "name": "Stiv.",
+        "brawler": {
+          "id": 16000010,
+          "name": "EL PRIMO",
+          "power": 11,
+          "trophies": 1638
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98VJJV8RG",
+            "name": "TopGorilla15501",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#9Y0RVY8V9",
+            "name": "Sítr",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1898
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1819
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#998Y022P0",
+            "name": "Stiv.",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1638
+            }
+          },
+          {
+            "tag": "#2GJG2QGLU",
+            "name": "Kris.",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1447
+            }
+          },
+          {
+            "tag": "#P2R2L0CCJ",
+            "name": "Syf🐡",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 825
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260901T110006.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 49,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 1288
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1079
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1288
+            }
+          },
+          {
+            "tag": "#2U9VPGQRR",
+            "name": "TTM | DAPO",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1308
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJ8QP0P82",
+            "name": "Z͜͡𝚎𝚢𝚗𝚎𝚙❦",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1061
+            }
+          },
+          {
+            "tag": "#2UQJU0QG0",
+            "name": "戈𝐌𝐎𝐑𝐓𝐈𝐒|難",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1677
+            }
+          },
+          {
+            "tag": "#PR0RGL22J",
+            "name": "Shadow Fiend",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1750
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
