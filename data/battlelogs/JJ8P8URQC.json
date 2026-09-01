@@ -129075,5 +129075,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260901T133438.000Z",
+    "event": {
+      "id": 15001127,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Chivalry"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 36,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#G2R88C80P",
+        "name": "Nero",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 376
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G2R88C80P",
+            "name": "Nero",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 376
+            }
+          },
+          {
+            "tag": "#GVC9C8QUR",
+            "name": "mat_lev2002",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 392
+            }
+          },
+          {
+            "tag": "#Q8UURJ9GJ",
+            "name": "EveryED",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 671
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CG0QR02JY",
+            "name": "MOE FIABLE",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 646
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 9,
+              "trophies": 361
+            }
+          },
+          {
+            "tag": "#2V0RCVLYP2",
+            "name": "роза тупая",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2055
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
