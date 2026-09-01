@@ -9,7 +9,7 @@ from typing import Dict, List, Any
 from collections import defaultdict, Counter
 
 
-def generate_player_stats(tag: str, latest_snapshot: Dict, get_all_players_func, extract_item_ids_func) -> Dict:
+def generate_player_stats(tag: str, latest_snapshot: Dict, get_all_players_func, extract_item_ids_func, battlelog_loader=None) -> Dict:
     """Generate players/{TAG}/stats.json"""
     players = get_all_players_func(latest_snapshot)
     player = next((p for p in players if p['tag'] == tag), None)
@@ -29,6 +29,36 @@ def generate_player_stats(tag: str, latest_snapshot: Dict, get_all_players_func,
         'wins_duo': player.get('duoVictories', 0),
         'brawlers_owned': len(brawlers)
     }
+
+    # Battle stats from battlelogs (overall WR, MVP count, MVP rate)
+    if battlelog_loader:
+        battles = battlelog_loader(tag)
+        total_battles = len(battles)
+        wins = 0
+        mvp_count = 0
+
+        for battle in battles:
+            battle_data = battle.get('battle', {})
+
+            # Count wins
+            result = battle_data.get('result')
+            trophy_change = battle_data.get('trophyChange', 0)
+            if not result:
+                # Fallback: infer from trophy change
+                if trophy_change > 0:
+                    result = 'victory'
+            if result == 'victory':
+                wins += 1
+
+            # Count MVPs (star player)
+            star_player = battle_data.get('starPlayer')
+            if star_player and star_player.get('tag') == tag:
+                mvp_count += 1
+
+        quick_stats['total_battles'] = total_battles
+        quick_stats['overall_winrate'] = round(wins / total_battles, 3) if total_battles > 0 else 0
+        quick_stats['mvp_count'] = mvp_count
+        quick_stats['mvp_rate'] = round(mvp_count / total_battles, 3) if total_battles > 0 else 0
 
     # Prestige distribution
     prestige_dist = Counter()

@@ -4650,6 +4650,75 @@
   },
   {
     "battleTime": "20260831T105148.000Z",
+    "mode": "brawlArena",
+    "map": "The Smackdome",
+    "type": "ranked",
+    "duration": 186,
+    "players": [
+      {
+        "tag": "#R22J2VV98",
+        "name": "egor",
+        "brawler": "8-BIT",
+        "power": 11,
+        "trophies": 1076,
+        "trophyChange": null,
+        "result": "victory",
+        "team": 0
+      },
+      {
+        "tag": "#PY2CPJJJ8",
+        "name": "Melek09",
+        "brawler": "BULL",
+        "power": 8,
+        "trophies": 500,
+        "trophyChange": null,
+        "result": "victory",
+        "team": 0
+      },
+      {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": "CROW",
+        "power": 11,
+        "trophies": 835,
+        "trophyChange": 15,
+        "result": "victory",
+        "team": 0
+      },
+      {
+        "tag": "#2YGC0P0QUY",
+        "name": "реал мадрид",
+        "brawler": "RICO",
+        "power": 11,
+        "trophies": 646,
+        "trophyChange": null,
+        "result": "defeat",
+        "team": 1
+      },
+      {
+        "tag": "#2RUV8LPQQY",
+        "name": "Doug die Wurst",
+        "brawler": "STU",
+        "power": 11,
+        "trophies": 1030,
+        "trophyChange": null,
+        "result": "defeat",
+        "team": 1
+      },
+      {
+        "tag": "#L2JYJ8QPQ",
+        "name": "İMP[AHMETCAN]☠️",
+        "brawler": "MEG",
+        "power": 10,
+        "trophies": 863,
+        "trophyChange": null,
+        "result": "defeat",
+        "team": 1
+      }
+    ]
+  },
+  {
+    "battleTime": "20260831T105148.000Z",
     "mode": "soloShowdown",
     "map": "Skull Creek",
     "type": "ranked",
@@ -4754,75 +4823,6 @@
         "trophyChange": null,
         "result": null,
         "team": null
-      }
-    ]
-  },
-  {
-    "battleTime": "20260831T105148.000Z",
-    "mode": "brawlArena",
-    "map": "The Smackdome",
-    "type": "ranked",
-    "duration": 186,
-    "players": [
-      {
-        "tag": "#R22J2VV98",
-        "name": "egor",
-        "brawler": "8-BIT",
-        "power": 11,
-        "trophies": 1076,
-        "trophyChange": null,
-        "result": "victory",
-        "team": 0
-      },
-      {
-        "tag": "#PY2CPJJJ8",
-        "name": "Melek09",
-        "brawler": "BULL",
-        "power": 8,
-        "trophies": 500,
-        "trophyChange": null,
-        "result": "victory",
-        "team": 0
-      },
-      {
-        "tag": "#Y808UYR2",
-        "name": "JOEL|MissANG3ll",
-        "brawler": "CROW",
-        "power": 11,
-        "trophies": 835,
-        "trophyChange": 15,
-        "result": "victory",
-        "team": 0
-      },
-      {
-        "tag": "#2YGC0P0QUY",
-        "name": "реал мадрид",
-        "brawler": "RICO",
-        "power": 11,
-        "trophies": 646,
-        "trophyChange": null,
-        "result": "defeat",
-        "team": 1
-      },
-      {
-        "tag": "#2RUV8LPQQY",
-        "name": "Doug die Wurst",
-        "brawler": "STU",
-        "power": 11,
-        "trophies": 1030,
-        "trophyChange": null,
-        "result": "defeat",
-        "team": 1
-      },
-      {
-        "tag": "#L2JYJ8QPQ",
-        "name": "İMP[AHMETCAN]☠️",
-        "brawler": "MEG",
-        "power": 10,
-        "trophies": 863,
-        "trophyChange": null,
-        "result": "defeat",
-        "team": 1
       }
     ]
   },

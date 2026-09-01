@@ -358,7 +358,7 @@ class Aggregator:
             player_dir = self.agg_dir / "players" / tag_clean
 
             # stats.json
-            stats = generate_player_stats(tag, latest, self._get_all_players, self._extract_item_ids)
+            stats = generate_player_stats(tag, latest, self._get_all_players, self._extract_item_ids, self._load_battlelog)
             if stats:
                 self.validator.validate_player_stats(tag, stats)
                 self._save_json(stats, player_dir / "stats.json")
