@@ -1,16 +1,16 @@
 {
   "performance_stats": {
     "knockout": {
-      "wins": 478,
-      "losses": 269,
-      "total": 747,
-      "win_rate": 64.0
+      "wins": 486,
+      "losses": 272,
+      "total": 758,
+      "win_rate": 64.1
     },
     "soloShowdown": {
-      "wins": 153,
+      "wins": 159,
       "losses": 63,
-      "total": 222,
-      "win_rate": 68.9
+      "total": 229,
+      "win_rate": 69.4
     },
     "bounty": {
       "wins": 71,
@@ -31,10 +31,10 @@
       "win_rate": 57.8
     },
     "brawlBall": {
-      "wins": 40,
-      "losses": 28,
-      "total": 68,
-      "win_rate": 58.8
+      "wins": 46,
+      "losses": 31,
+      "total": 77,
+      "win_rate": 59.7
     },
     "duoShowdown": {
       "wins": 20,
@@ -235,6 +235,14 @@
       "avg_trophy_change": 11.12
     },
     {
+      "brawler": "SQUEAK",
+      "wins": 16,
+      "losses": 7,
+      "total": 33,
+      "win_rate": 48.5,
+      "avg_trophy_change": 10.12
+    },
+    {
       "brawler": "SURGE",
       "wins": 7,
       "losses": 5,
@@ -329,14 +337,6 @@
       "total": 6,
       "win_rate": 83.3,
       "avg_trophy_change": 10.0
-    },
-    {
-      "brawler": "SQUEAK",
-      "wins": 2,
-      "losses": 1,
-      "total": 6,
-      "win_rate": 33.3,
-      "avg_trophy_change": 10.17
     },
     {
       "brawler": "GENE",
