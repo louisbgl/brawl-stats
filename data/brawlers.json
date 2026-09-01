@@ -326,7 +326,7 @@
         },
         {
           "id": 23000409,
-          "name": "BOUNCY CASTLE"
+          "name": "MULTIBALL"
         }
       ]
     },
@@ -3370,7 +3370,7 @@
         },
         {
           "id": 23000489,
-          "name": "TOOLBOX"
+          "name": "REPURPOSE"
         }
       ]
     },
@@ -3891,7 +3891,7 @@
         },
         {
           "id": 23000514,
-          "name": "SOUL SWITCHER"
+          "name": "KNOCKBACK SPIRIT"
         }
       ]
     },
@@ -6633,7 +6633,7 @@
         },
         {
           "id": 23001296,
-          "name": "HIS MOTHER\u2019S SON"
+          "name": "HIS MOTHER'S SON"
         }
       ],
       "hyperCharges": [],
@@ -6734,6 +6734,120 @@
         {
           "id": 23001321,
           "name": "GREEN GRENADE"
+        }
+      ]
+    },
+    {
+      "id": 16000109,
+      "name": "COSMO",
+      "starPowers": [
+        {
+          "id": 23001442,
+          "name": "PRECESSION"
+        },
+        {
+          "id": 23001443,
+          "name": "AMMO ATTRACTOR"
+        }
+      ],
+      "hyperCharges": [],
+      "gears": [
+        {
+          "id": 62000000,
+          "name": "SPEED",
+          "level": 3
+        },
+        {
+          "id": 62000001,
+          "name": "HEALTH",
+          "level": 3
+        },
+        {
+          "id": 62000002,
+          "name": "DAMAGE",
+          "level": 3
+        },
+        {
+          "id": 62000003,
+          "name": "VISION",
+          "level": 3
+        },
+        {
+          "id": 62000004,
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000017,
+          "name": "GADGET COOLDOWN",
+          "level": 3
+        }
+      ],
+      "gadgets": [
+        {
+          "id": 23001444,
+          "name": "PLANETARY PUSHBACK"
+        },
+        {
+          "id": 23001445,
+          "name": "TELESCOPE TRAP"
+        }
+      ]
+    },
+    {
+      "id": 16000110,
+      "name": "VINCE",
+      "starPowers": [
+        {
+          "id": 23001450,
+          "name": "COME TO PAPA"
+        },
+        {
+          "id": 23001451,
+          "name": "BUG BANDAGE"
+        }
+      ],
+      "hyperCharges": [],
+      "gears": [
+        {
+          "id": 62000000,
+          "name": "SPEED",
+          "level": 3
+        },
+        {
+          "id": 62000001,
+          "name": "HEALTH",
+          "level": 3
+        },
+        {
+          "id": 62000002,
+          "name": "DAMAGE",
+          "level": 3
+        },
+        {
+          "id": 62000003,
+          "name": "VISION",
+          "level": 3
+        },
+        {
+          "id": 62000004,
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000017,
+          "name": "GADGET COOLDOWN",
+          "level": 3
+        }
+      ],
+      "gadgets": [
+        {
+          "id": 23001452,
+          "name": "HOT COFFEE"
+        },
+        {
+          "id": 23001453,
+          "name": "METAMOTHOSIS"
         }
       ]
     }
