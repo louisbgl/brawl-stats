@@ -134208,5 +134208,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260902T112800.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 103,
+      "trophyChange": 8,
+      "starPlayer": {
+        "tag": "#2LGCLLPU2",
+        "name": "El Cactus",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 2080
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2RU09CJ2VQ",
+            "name": "Niklas🥀⚽️",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 2426
+            }
+          },
+          {
+            "tag": "#G0CU89UQ9",
+            "name": "TERMINATOR",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 1281
+            }
+          },
+          {
+            "tag": "#22YULUY2P0",
+            "name": "Thundermad ⚡",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2052
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 2080
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 335
+            }
+          },
+          {
+            "tag": "#2VYYQ2J8U",
+            "name": "karpati",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1375
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
