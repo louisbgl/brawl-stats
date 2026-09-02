@@ -415721,5 +415721,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260902T090119.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 77,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#2RQGRR2PLQ",
+        "name": "Enzitoune🪵",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1223
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 9,
+              "trophies": 322
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 708
+            }
+          },
+          {
+            "tag": "#9VRPGU9G2",
+            "name": "🥀🌹Dziki😼💋",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 895
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JLPV02QJV",
+            "name": "TheMastermind😎",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 1296
+            }
+          },
+          {
+            "tag": "#2RQGRR2PLQ",
+            "name": "Enzitoune🪵",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1223
+            }
+          },
+          {
+            "tag": "#2C2VY8UYLQ",
+            "name": "younes goat🇩🇿",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 10,
+              "trophies": 524
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260902T090453.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 172,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#PQJG8Q28Y",
+        "name": "lakas",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 1598
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 7,
+              "trophies": 225
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 864
+            }
+          },
+          {
+            "tag": "#LGGUYLJP2",
+            "name": "Rudy",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1267
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22QUU9PL8",
+            "name": "𝐸𝒹𝒾𝓉𝐹𝒶𝓃",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 8,
+              "trophies": 685
+            }
+          },
+          {
+            "tag": "#PQJG8Q28Y",
+            "name": "lakas",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1598
+            }
+          },
+          {
+            "tag": "#PL8R8Q0RV",
+            "name": "🙀🇬🇪",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 813
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
