@@ -422337,5 +422337,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260902T222736.000Z",
+    "event": {
+      "id": 15000292,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Open Business"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 136,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#V2CPVYPP",
+            "name": "Alvaro1010",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#8VQQ2QL0Q",
+            "name": "SAVE🇵🇸🇺🇦",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CY80YGY8V",
+            "name": "MOAD.SB",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#Y0C888CCQ",
+            "name": "sqfyaaa",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#LVR2JL9PY",
+            "name": "🦈 𝓛𝔂𝓪𝓶 |悲哀",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
