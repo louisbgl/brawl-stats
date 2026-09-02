@@ -166967,5 +166967,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260902T120259.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 268,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#2JQQPPRP",
+        "name": "S1m0n",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 1105
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1374
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1209
+            }
+          },
+          {
+            "tag": "#QYRPPJJU8",
+            "name": "pablo",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 2007
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JQQPPRP",
+            "name": "S1m0n",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1105
+            }
+          },
+          {
+            "tag": "#YJVL0CL22",
+            "name": "BS|SAMIR",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 1391
+            }
+          },
+          {
+            "tag": "#80JY0CRJ",
+            "name": "I_HATE_NOOBS",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1419
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260902T120827.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 282,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2JRCQPJJCL",
+        "name": "TR|¹³¹....✓™",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1713
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G00LJQ2LQ",
+            "name": "koalala2",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1376
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1201
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1364
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JRCQPJJCL",
+            "name": "TR|¹³¹....✓™",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1713
+            }
+          },
+          {
+            "tag": "#2CVGJQC9J",
+            "name": "GaidenFocus",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1088
+            }
+          },
+          {
+            "tag": "#P0CG9QYPY",
+            "name": "Karla",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1692
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
