@@ -422683,5 +422683,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260903T070714.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 99,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#2Y2J0898Y0",
+        "name": "VİCDAN BABAPRO",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 7,
+          "trophies": 393
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 752
+            }
+          },
+          {
+            "tag": "#2Y2J0898Y0",
+            "name": "VİCDAN BABAPRO",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 7,
+              "trophies": 393
+            }
+          },
+          {
+            "tag": "#2PGUVCUG9R",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 9,
+              "trophies": 550
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2U2V9CCLR2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 8,
+              "trophies": 622
+            }
+          },
+          {
+            "tag": "#29YQ2UQP22",
+            "name": "тг-bladebots_bs",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 579
+            }
+          },
+          {
+            "tag": "#2QRPQGLUQJ",
+            "name": "lalo",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 10,
+              "trophies": 573
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260903T070917.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 83,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000006,
+          "name": "BARLEY",
+          "power": 11,
+          "trophies": 749
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y8P2YPR",
+            "name": "wwestra",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1046
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 749
+            }
+          },
+          {
+            "tag": "#2UPULQ2GRV",
+            "name": "SÜRATLİ ROSA",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 9,
+              "trophies": 812
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#29P8Q8RQGG",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 10,
+              "trophies": 890
+            }
+          },
+          {
+            "tag": "#2C8PP0Y292",
+            "name": "なす",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 900
+            }
+          },
+          {
+            "tag": "#UCY0C2Y0Q",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 9,
+              "trophies": 828
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
