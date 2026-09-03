@@ -488976,5 +488976,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260903T090012.000Z",
+    "event": {
+      "id": 15001331,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pump It Up"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 117,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 1408
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1408
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1282
+            }
+          },
+          {
+            "tag": "#PYQLLYG",
+            "name": "AUTOFIREJAMBO🫩",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YRY80VRLC",
+            "name": "ᴳᵒᵈ彡S̸Ħ₳D̸Ø₩Duo",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1372
+            }
+          },
+          {
+            "tag": "#PJ08PGP9U",
+            "name": "Dior Sauvage",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 1652
+            }
+          },
+          {
+            "tag": "#8VPJ2GJL9",
+            "name": "sucuklukurabiye",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2028
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
