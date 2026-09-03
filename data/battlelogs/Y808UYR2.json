@@ -153500,5 +153500,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260903T075614.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 211,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000106,
+          "name": "BOLT",
+          "power": 11,
+          "trophies": 496
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GQURPYCQU",
+            "name": "миха",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 380
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 496
+            }
+          },
+          {
+            "tag": "#2UY0Q2PGLC",
+            "name": "UKALA COLETTE k",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 4,
+              "trophies": 532
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UCJQVR9LQ",
+            "name": "@talebrawl",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 9,
+              "trophies": 485
+            }
+          },
+          {
+            "tag": "#2L9YG8LUUQ",
+            "name": "ty",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 7,
+              "trophies": 448
+            }
+          },
+          {
+            "tag": "#2RYL92UCYG",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 8,
+              "trophies": 491
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
