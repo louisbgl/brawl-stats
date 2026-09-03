@@ -422867,5 +422867,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260903T094010.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 95,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#8PGV8GGV8",
+        "name": "Foskito prime",
+        "brawler": {
+          "id": 16000071,
+          "name": "DOUG",
+          "power": 11,
+          "trophies": 327
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8PGV8GGV8",
+            "name": "Foskito prime",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 327
+            }
+          },
+          {
+            "tag": "#2LQPL9RL0V",
+            "name": "༺𝑟𝑜𝑐𝑜₄₂₀",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 667
+            }
+          },
+          {
+            "tag": "#2QYVPLGJ0P",
+            "name": "MARKELTXO YT",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 5,
+              "trophies": 333
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 9,
+              "trophies": 694
+            }
+          },
+          {
+            "tag": "#9J29CJQ9",
+            "name": "Mingyu112",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 452
+            }
+          },
+          {
+            "tag": "#8VG88G8G",
+            "name": "Омич",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 6,
+              "trophies": 265
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
