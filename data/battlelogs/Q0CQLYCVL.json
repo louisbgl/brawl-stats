@@ -440538,5 +440538,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260904T113036.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 40,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#L0UQG8Y88",
+        "name": "LesTwinz",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 989
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JUGJRR0R",
+            "name": "zuupo’s boss",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 246
+            }
+          },
+          {
+            "tag": "#9UCVLC9L2",
+            "name": "Джесси Пинкман",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 9,
+              "trophies": 405
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 999
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L0UQG8Y88",
+            "name": "LesTwinz",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 989
+            }
+          },
+          {
+            "tag": "#9UYP9VJ2V",
+            "name": "¥@~!$",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 10,
+              "trophies": 773
+            }
+          },
+          {
+            "tag": "#2YUJR89UPY",
+            "name": "ROBIN 053",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 797
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260904T113203.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 60,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000086,
+          "name": "SHADE",
+          "power": 11,
+          "trophies": 995
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#22Q2Y9GYQ",
+            "name": "lamineyamall",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 751
+            }
+          },
+          {
+            "tag": "#9YRUQUURL",
+            "name": "niñotorpedo",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 96
+            }
+          },
+          {
+            "tag": "#9CUPYJ9YR",
+            "name": "MIHAI_16",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 11,
+              "trophies": 557
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 995
+            }
+          },
+          {
+            "tag": "#UR8JRC9R8",
+            "name": "elit/maj🇵🇸",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 804
+            }
+          },
+          {
+            "tag": "#9GULGGVJL",
+            "name": "sihem",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 10,
+              "trophies": 656
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
