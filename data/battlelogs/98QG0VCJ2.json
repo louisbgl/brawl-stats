@@ -501118,5 +501118,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260904T082809.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 88,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000010,
+          "name": "EL PRIMO",
+          "power": 11,
+          "trophies": 1215
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#808CVJJPP",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 2011
+            }
+          },
+          {
+            "tag": "#2YVGPGQG",
+            "name": "hQd|xYonionM个🐣",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2016
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1215
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R9CPVUJP0",
+            "name": "福|𝓝𝓸𝔁𝓲❦シ",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1197
+            }
+          },
+          {
+            "tag": "#2RVLRGG282",
+            "name": "iMP/babaproCool",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#L8P28J8LJ",
+            "name": "Francy 💎",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 1135
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
