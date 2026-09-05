@@ -31,8 +31,8 @@ async function init() {
         // PHASE 3: Initialize router (handles URL-based navigation)
         Router.init();
 
-        // PHASE 4: Start auto-refresh polling (after initial data load)
-        // AutoRefreshManager.init(); // Disabled - causes issues with data compatibility layer
+        // PHASE 4: Start auto-refresh (timestamp updates)
+        await AutoRefreshManager.init();
 
     } catch (error) {
         console.error('Failed to initialize:', error);
@@ -58,27 +58,46 @@ function startBackgroundLoading() {
         ChartsManager.createTrophyTimeline();
     });
 
-    BattlelogDataManager.init().then(() => {
+    BattlelogDataManager.ensureLoaded().then(() => {
         // Update overview stats with battlelog metrics now that data is available
         displayClubQuickStats();
         displayClubLeaderboards();
         // Update battlelog timestamp in header
         updateLastUpdatedDisplay();
+        // Render battles timeline
+        ChartsManager.createBattlesTimeline();
     });
 }
 
 function updateLastUpdatedDisplay() {
-    // Display snapshot timestamp
+    // Display snapshot timestamp with relative time
     const snapshotTime = new Date(DataManager.latestData.timestamp);
+    const snapshotAgo = ViewHelpers.formatTimeAgo(snapshotTime);
     document.getElementById('snapshotUpdate').textContent =
-        `Snapshots: ${snapshotTime.toLocaleString()}`;
+        `Snapshots: ${snapshotAgo}`;
 
     // Display battlelog timestamp if loaded
-    const battlelogTime = BattlelogDataManager.getLastCollectionTime();
     const battlelogEl = document.getElementById('battlelogUpdate');
+
+    // Try metadata first, fallback to most recent battle
+    let battlelogTime = BattlelogDataManager.getLastCollectionTime();
+
+    if (!battlelogTime && BattlelogDataManager.isLoaded) {
+        // Fallback: find most recent battle across all players
+        const allBattles = BattlelogDataManager.getAllBattles();
+        if (allBattles.length > 0) {
+            const mostRecent = allBattles.reduce((latest, b) => {
+                const bTime = Utils.parseBattleTime(b.battleTime);
+                return bTime > latest ? bTime : latest;
+            }, new Date(0));
+            battlelogTime = mostRecent.toISOString();
+        }
+    }
+
     if (battlelogTime) {
         const battlelogDate = new Date(battlelogTime);
-        battlelogEl.textContent = `Battlelogs: ${battlelogDate.toLocaleString()}`;
+        const battlelogAgo = ViewHelpers.formatTimeAgo(battlelogDate);
+        battlelogEl.textContent = `Battlelogs: ${battlelogAgo}`;
     } else {
         battlelogEl.textContent = 'Battlelogs: Loading...';
     }
@@ -97,7 +116,7 @@ function populatePlayerSelect() {
     DataManager.getAllPlayers().forEach((player, idx) => {
         const option = document.createElement('option');
         option.value = JSON.stringify({ clubIndex: player.clubIndex, playerIndex: player.playerIndex });
-        option.textContent = `${player.name} (${player.tag})`;
+        option.textContent = `${DataManager.getPlayerName(player.tag)} (${player.tag})`;
         select.appendChild(option);
     });
 
@@ -243,7 +262,7 @@ function displayClubLeaderboards() {
     // === TOTAL BATTLES LEADERBOARD ===
     const battlesRanking = players
         .map(p => ({
-            name: p.name,
+            name: DataManager.getPlayerName(p.tag),
             value: BattlelogDataManager.getPlayerBattleCount(p.tag),
             formattedValue: BattlelogDataManager.getPlayerBattleCount(p.tag).toLocaleString()
         }))
@@ -256,7 +275,7 @@ function displayClubLeaderboards() {
             const wr = BattlelogAnalytics.getWinRate(p.tag);
 
             return {
-                name: p.name,
+                name: DataManager.getPlayerName(p.tag),
                 value: wr.winRate,
                 formattedValue: battleCount < 20 ? `${wr.winRate.toFixed(1)}%*` : `${wr.winRate.toFixed(1)}%`
             };
@@ -268,7 +287,7 @@ function displayClubLeaderboards() {
         .map(p => {
             const starPlayerCount = BattlelogAnalytics.getStarPlayerCount(p.tag);
             return {
-                name: p.name,
+                name: DataManager.getPlayerName(p.tag),
                 value: starPlayerCount,
                 formattedValue: starPlayerCount.toString()
             };
@@ -278,7 +297,7 @@ function displayClubLeaderboards() {
     // === MAXED BRAWLERS LEADERBOARD ===
     const maxedRanking = players
         .map(p => ({
-            name: p.name,
+            name: DataManager.getPlayerName(p.tag),
             value: p.brawlers.filter(b => CalculationHelpers.isMaxedBrawler(b)).length,
             formattedValue: p.brawlers.filter(b => CalculationHelpers.isMaxedBrawler(b)).length.toString()
         }))
@@ -306,7 +325,7 @@ function displayClubLeaderboards() {
                 }).length;
 
                 return {
-                    name: p.name,
+                    name: DataManager.getPlayerName(p.tag),
                     value: count,
                     formattedValue: count.toString()
                 };
@@ -320,7 +339,7 @@ function displayClubLeaderboards() {
 
         prestigeLeaderboards.push(
             ViewHelpers.createPodiumLeaderboard(
-                `Prestige ${level} (${level * 1000}+ trophies)`,
+                `Prestige ${level} (${level * 1000} - ${level * 1000 + 999} trophies)`,
                 emoji,
                 ranking,
                 accentColor

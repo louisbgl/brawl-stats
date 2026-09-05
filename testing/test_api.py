@@ -225,6 +225,12 @@ def update_all_battlelogs():
         new, total = update(tag)
         print(f"  {tag}  +{new} new  ({total} total)")
 
+def get_brawlers_json_as_dict():
+    """Fetch brawlers.json, returns dict with brawler name as key"""
+    response = call("brawlers")
+    if not response or "items" not in response:
+        return {}
+    return {b["name"]: b for b in response["items"]}
 
 # ── snapshot comparison ───────────────────────────────────────────────────
 
@@ -421,15 +427,236 @@ def discover_all_fields():
         print(f"  Unique club fields: {len(all_club_fields)}")
     print(f"{'='*60}\n")
 
+def has_buffies(brawler):
+    """Check if a brawler has buffies, and which ones."""
+    buffies = []
+    if brawler.get("buffies"):
+        if brawler["buffies"].get("gadget"):
+            buffies.append("gadget")
+        if brawler["buffies"].get("starPower"):
+            buffies.append("starPower")
+        if brawler["buffies"].get("hyperCharge"):
+            buffies.append("hyperCharge")
+    return buffies
+
+def get_list_of_brawlers_with_buffies(player_data):
+    """Return a list of brawlers that have buffies, along with which buffies they have."""
+    brawlers_with_buffies = []
+    for brawler in player_data.get("brawlers", []):
+        buffies = has_buffies(brawler)
+        if buffies:
+            brawlers_with_buffies.append((brawler["name"], buffies))
+    return brawlers_with_buffies
+
+def print_cross_table_brawlers_buffies(player_data):
+    """Print a cross-table of brawlers vs buffies for a player."""
+    buffied_list = get_list_of_brawlers_with_buffies(player_data)
+    if not buffied_list:
+        print("No brawlers with buffies found.")
+        return
+    
+    yes_emoji = "✅"
+    no_emoji = "❌"
+    
+    print(f"\n{'Brawler':10} | {'Gadget Buffie'} | {'Star Power Buffie'} | {'Hyper Charge Buffie'}")
+    print(f"{'-'*10}-+-{'-'*13}-+-{'-'*17}-+-{'-'*19}")
+    for brawler_name, buffies in buffied_list:
+        gadget_buffie = yes_emoji if "gadget" in buffies else no_emoji
+        star_power_buffie = yes_emoji if "starPower" in buffies else no_emoji
+        hyper_charge_buffie = yes_emoji if "hyperCharge" in buffies else no_emoji
+        print(f"{brawler_name:10} | {gadget_buffie:^12} | {star_power_buffie:^16} | {hyper_charge_buffie:^19}")
+
+def print_player_brawlers_buffies(player_tag: str):
+    """Fetch player data and print their brawlers with buffies."""
+    player_data = call(f"players/{player_tag}")
+    if not player_data:
+        print(f"Failed to fetch data for player {player_tag}")
+        return
+    print_cross_table_brawlers_buffies(player_data)
+
+def get_name_and_tags_from_global_leaderboard():
+    """Fetch global leaderboard and return list of (name, tag) tuples."""
+    data = call("rankings/global/players")
+    if not data or "items" not in data:
+        print("Failed to fetch global leaderboard")
+        return []
+    return [(item["name"], item["tag"]) for item in data["items"]]
+
+def get_ranked_rank_for_player_tag(tag):
+    """Fetch the ranked rank + associated name for a player given their tag."""
+    data = call(f"players/{tag}")
+    if not data:
+        print(f"Failed to fetch data for player {tag}")
+        return None
+    rank = data.get("rankedRank")
+    rank_name = data.get("rankedRankName")
+    return (rank, rank_name) if rank is not None and rank_name is not None else None
+
+# ── ranked tags store ─────────────────────────────────────────────────────────
+
+RANKED_TAGS_PATH = Path(__file__).parent.parent / "data" / "ranked" / "tags.json"
+
+def _load_ranked_tags() -> dict:
+    """Load tags.json → dict keyed by tag."""
+    if not RANKED_TAGS_PATH.exists() or RANKED_TAGS_PATH.stat().st_size == 0:
+        return {}
+    return json.loads(RANKED_TAGS_PATH.read_text())
+
+def _save_ranked_tags(tags: dict):
+    RANKED_TAGS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    RANKED_TAGS_PATH.write_text(json.dumps(tags, indent=2, ensure_ascii=False))
+
+def add_ranked_tag(tag: str, name: str = None, source: str = "manual"):
+    """Add single tag. Fetches name from API if not provided."""
+    tags = _load_ranked_tags()
+    if tag in tags:
+        print(f"{tag} already in tags ({tags[tag]['name']})")
+        return
+    if name is None:
+        data = call(f"players/{tag}")
+        name = data.get("name", "?") if data else "?"
+    tags[tag] = {"name": name, "source": source, "added": datetime.now().strftime("%Y-%m-%d")}
+    _save_ranked_tags(tags)
+    print(f"Added {tag} ({name})")
+
+def remove_ranked_tag(tag: str):
+    """Remove tag from tags.json."""
+    tags = _load_ranked_tags()
+    if tag not in tags:
+        print(f"{tag} not in tags")
+        return
+    name = tags.pop(tag)["name"]
+    _save_ranked_tags(tags)
+    print(f"Removed {tag} ({name})")
+
+def get_ranked_tags() -> dict:
+    """Return dict of ranked tags keyed by tag."""
+    return _load_ranked_tags()
+
+def  get_tags_count() -> int:
+    """Return count of ranked tags."""
+    return len(_load_ranked_tags())
+
+def list_ranked_tags():
+    """Print all tags currently in tags.json."""
+    tags = _load_ranked_tags()
+    if not tags:
+        print("tags.json empty")
+        return
+    print(f"{len(tags)} ranked tags:")
+    for tag, info in sorted(tags.items(), key=lambda x: x[1]["name"]):
+        print(f"  {tag:14}  {info['name']:20}  source={info['source']}  added={info['added']}")
+
+def add_tags_from_leaderboard():
+    """Add all global leaderboard players to tags.json (skips existing)."""
+    leaderboard = get_name_and_tags_from_global_leaderboard()
+    tags = _load_ranked_tags()
+    added = 0
+    for name, tag in leaderboard:
+        if tag in tags:
+            continue
+        tags[tag] = {
+            "name": name,
+            "source": "leaderboard",
+            "added": datetime.now().strftime("%Y-%m-%d"),
+        }
+        print(f"  + {tag:14}  {name}")
+        added += 1
+    _save_ranked_tags(tags)
+    print(f"Done. +{added} new  ({len(tags)} total)")
+
+def count_ranked_tags_by_rank():
+    """Fetch current rank for all tags and print a breakdown by rank name."""
+    tags = _load_ranked_tags()
+    if not tags:
+        print("tags.json empty")
+        return
+    counts = {}
+    failed = 0
+    for tag, info in tags.items():
+        rank, rank_name = get_ranked_rank_for_player_tag(tag)
+        if rank is None:
+            failed += 1
+            continue
+        key = f"{rank:02d}  {rank_name}"
+        counts[key] = counts.get(key, 0) + 1
+    print(f"\nRank distribution ({len(tags)} tags):")
+    for key in sorted(counts, reverse=True):
+        print(f"  {key:30}  {counts[key]:4}")
+    if failed:
+        print(f"  (fetch failed: {failed})")
+
+def purge_non_pro():
+    """Remove all tags with rankedRank < 22 (Pro) from tags.json."""
+    tags = _load_ranked_tags()
+    to_remove = []
+    for tag, info in tags.items():
+        rank, _ = get_ranked_rank_for_player_tag(tag)
+        if rank is None or rank < 22:
+            to_remove.append((tag, info["name"], rank))
+    for tag, name, rank in to_remove:
+        del tags[tag]
+        print(f"  removed {tag:14}  {name:20}  rank={rank}")
+    _save_ranked_tags(tags)
+    print(f"Purged {len(to_remove)}  ({len(tags)} remain)")
+
+def _series_key(battle: dict) -> tuple:
+    """Stable key for a BO3 series: event id + frozenset of all 6 player tags."""
+    event_id = battle.get("event", {}).get("id")
+    teams = battle.get("battle", {}).get("teams", [])
+    players = frozenset(p["tag"] for team in teams for p in team)
+    return (event_id, players)
+
+def get_all_ranked_battles_from_battlelog(tag: str):
+    """Fetch battle log for a ranked player, return one entry per BO3 series (newest game of each)."""
+    data = call(f"players/{tag}/battlelog")
+    if not data or "items" not in data:
+        print(f"Failed to fetch battle log for {tag}")
+        return []
+    ranked_battles = [b for b in data["items"] if b.get("battle", {}).get("type") == "soloRanked"]
+
+    # Group into BO3 series: same event + same 6 players = same series
+    seen = {}
+    for b in ranked_battles:
+        key = _series_key(b)
+        if key not in seen:
+            seen[key] = {"battle": b, "count": 1}
+        else:
+            seen[key]["count"] += 1
+
+    series = list(seen.values())
+    print(f"{len(series)} ranked series found for {tag} ({len(ranked_battles)} individual games)")
+    return series
+
+def pretty_ranked_game_summary(series):
+    """Print a clean summary of a ranked BO3 series."""
+    battle_data = series["battle"]
+    battle = battle_data.get("battle", {})
+    event = battle_data.get("event", {})
+    mode = event.get("mode", "UNKNOWN")
+    map = event.get("map", "UNKNOWN")
+    team1 = battle.get("teams", [])[0]
+    team2 = battle.get("teams", [])[1]
+
+    print(f"{map} ({mode}):")
+    left_names  = [p["brawler"]["name"] for p in team1]
+    right_names = [p["brawler"]["name"] for p in team2]
+    left_w  = max(len(n) for n in left_names)
+    right_w = max(len(n) for n in right_names)
+    for l, r in zip(left_names, right_names):
+        print(f"{l:<{left_w}}  |  {r:<{right_w}}")
 
 # ── main ──────────────────────────────────────────────────────────────────────
 
 def main():
     ESCORTE = "#LLJGJQVY"
+    KOKONUT = "#98QG0VCJ2"
+    GAB = "#R0CUY9PR"
+    MATHYS = "#2LGCLLPU2"
     FRED = "#2L0U0PGRL"
+    NEILSEN = "#Q0CQLYCVL"
 
-    compare_snapshot(ESCORTE)
-
+    print(f"tags.json currently has {get_tags_count()} ranked tags")
 
 if __name__ == "__main__":
     main()

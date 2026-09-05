@@ -17,7 +17,7 @@ const ChartsManager = {
             });
 
             return ChartHelpers.createLineDataset(
-                player.name,
+                DataManager.getPlayerName(player.tag),
                 trophyData,
                 GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
             );
@@ -56,7 +56,7 @@ const ChartsManager = {
                     });
 
                     return ChartHelpers.createLineDataset(
-                        player.name,
+                        DataManager.getPlayerName(player.tag),
                         trophyData,
                         GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
                     );
@@ -83,7 +83,7 @@ const ChartsManager = {
                 // Only include if player has this brawler
                 if (trophyData.some(t => t !== null)) {
                     return ChartHelpers.createLineDataset(
-                        player.name,
+                        DataManager.getPlayerName(player.tag),
                         trophyData,
                         GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length],
                         { spanGaps: true }
@@ -130,7 +130,7 @@ const ChartsManager = {
             if (!battles || battles.length === 0) return null;
 
             return {
-                label: player.name,
+                label: DataManager.getPlayerName(player.tag),
                 data: battles.map(b => ({ x: b.timestamp, y: b.trophies })),
                 borderColor: GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length],
                 backgroundColor: GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length] + '20',
@@ -166,6 +166,60 @@ const ChartsManager = {
         });
     },
 
+    createBattlesTimeline() {
+        const ctx = document.getElementById('battlesTimelineChart')?.getContext('2d');
+        if (!ctx) return;
+
+        const players = DataManager.getAllPlayers();
+
+        // Build a sorted list of unique dates from all battle timestamps
+        const dateSet = new Set();
+        players.forEach(player => {
+            DataManager.getBattlesForPlayer(player.tag).forEach(battle => {
+                const d = Utils.parseBattleTime(battle.battleTime);
+                if (d) dateSet.add(d.toISOString().slice(0, 10));
+            });
+        });
+        const dates = [...dateSet].sort();
+        if (dates.length === 0) return;
+
+        const datasets = players.map((player, idx) => {
+            const battles = DataManager.getBattlesForPlayer(player.tag);
+
+            // Count battles per date
+            const countByDate = {};
+            battles.forEach(battle => {
+                const d = Utils.parseBattleTime(battle.battleTime);
+                if (!d) return;
+                const key = d.toISOString().slice(0, 10);
+                countByDate[key] = (countByDate[key] || 0) + 1;
+            });
+
+            // Cumulative sum — null until first battle date for this player
+            const firstDate = dates.find(d => countByDate[d]);
+            let cumulative = 0;
+            let started = false;
+            const data = dates.map(date => {
+                if (!started && date < firstDate) return null;
+                started = true;
+                cumulative += countByDate[date] || 0;
+                return cumulative;
+            });
+
+            return ChartHelpers.createLineDataset(
+                DataManager.getPlayerName(player.tag),
+                data,
+                GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
+            );
+        });
+
+        this.charts.battlesTimeline = new Chart(ctx, {
+            type: 'line',
+            data: { labels: dates, datasets },
+            options: ChartHelpers.getCommonLineOptions('Battles')
+        });
+    },
+
     createWinsTimeline(gamemode = '') {
         if (this.charts.wins) {
             this.charts.wins.destroy();
@@ -187,7 +241,7 @@ const ChartsManager = {
                 });
 
                 return ChartHelpers.createLineDataset(
-                    player.name,
+                    DataManager.getPlayerName(player.tag),
                     data,
                     GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
                 );
@@ -219,7 +273,7 @@ const ChartsManager = {
             });
 
             return ChartHelpers.createLineDataset(
-                player.name,
+                DataManager.getPlayerName(player.tag),
                 data,
                 GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length],
                 { pointRadius: 3, pointHoverRadius: 5 }
@@ -238,7 +292,7 @@ const ChartsManager = {
             });
 
             return ChartHelpers.createLineDataset(
-                player.name,
+                DataManager.getPlayerName(player.tag),
                 data,
                 GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
             );
@@ -264,7 +318,7 @@ const ChartsManager = {
             });
 
             return ChartHelpers.createLineDataset(
-                player.name,
+                DataManager.getPlayerName(player.tag),
                 data,
                 GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
             );
@@ -290,7 +344,7 @@ const ChartsManager = {
             });
 
             return ChartHelpers.createLineDataset(
-                player.name,
+                DataManager.getPlayerName(player.tag),
                 data,
                 GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length]
             );
@@ -351,7 +405,7 @@ const ChartsManager = {
             const data = dates.map(date => playerDailyGames[player.tag][date] || 0);
 
             return {
-                label: player.name,
+                label: DataManager.getPlayerName(player.tag),
                 data: data,
                 backgroundColor: GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length] + '80',
                 borderColor: GameConstants.COLOR_PALETTE[idx % GameConstants.COLOR_PALETTE.length],

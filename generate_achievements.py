@@ -46,6 +46,19 @@ class AchievementGenerator:
         with open(brawlers_file, 'r', encoding='utf-8') as f:
             return json.load(f)
 
+    def _extract_item_ids(self, items: any) -> Set[int]:
+        """Extract item IDs from either format: [id1, id2] or [{id, name}, ...]"""
+        if not items:
+            return set()
+        if isinstance(items, list) and len(items) > 0:
+            if isinstance(items[0], dict):
+                # Objects format: [{id: 123, name: "..."}, ...]
+                return {item['id'] for item in items}
+            else:
+                # IDs format: [123, 456]
+                return set(items)
+        return set()
+
     def _get_item_name(self, item_id: int, item_type: str) -> Optional[str]:
         """Resolve item name from ID using brawlers.json"""
         for brawler_data in self.brawlers_ref.get('items', []):
@@ -86,11 +99,15 @@ class AchievementGenerator:
 
     def _is_brawler_maxed(self, brawler: Dict) -> bool:
         """Check if a brawler is fully maxed (P11 + 2 gadgets + 2 star powers + hypercharge)"""
+        gadgets = self._extract_item_ids(brawler.get('gadgets') or brawler.get('gadget_ids'))
+        sps = self._extract_item_ids(brawler.get('starPowers') or brawler.get('star_power_ids'))
+        hcs = self._extract_item_ids(brawler.get('hyperCharges') or brawler.get('hyper_charge_ids'))
+
         return (
             brawler.get('power') == 11 and
-            len(brawler.get('gadget_ids', [])) >= 2 and
-            len(brawler.get('star_power_ids', [])) >= 2 and
-            len(brawler.get('hyper_charge_ids', [])) >= 1
+            len(gadgets) >= 2 and
+            len(sps) >= 2 and
+            len(hcs) >= 1
         )
 
     def _get_prestige_level(self, trophies: int) -> int:
@@ -155,24 +172,24 @@ class AchievementGenerator:
             # Compare existing brawlers
             for brawler_name, curr_brawler in curr_brawlers.items():
                 prev_brawler = prev_brawlers.get(brawler_name)
-                if not prev_brawler:
-                    continue  # Already handled as new brawler
 
-                # Check if brawler became maxed
-                if not self._is_brawler_maxed(prev_brawler) and self._is_brawler_maxed(curr_brawler):
-                    achievement = Achievement(
-                        date=date,
-                        player_tag=tag,
-                        player_name=player_name,
-                        type="maxed_brawler",
-                        brawler=brawler_name
-                    )
-                    if self._add_achievement(achievement):
-                        new_achievements.append(achievement)
+                # Only check maxed/prestige for existing brawlers (not new ones)
+                if prev_brawler:
+                    # Check if brawler became maxed
+                    if not self._is_brawler_maxed(prev_brawler) and self._is_brawler_maxed(curr_brawler):
+                        achievement = Achievement(
+                            date=date,
+                            player_tag=tag,
+                            player_name=player_name,
+                            type="maxed_brawler",
+                            brawler=brawler_name
+                        )
+                        if self._add_achievement(achievement):
+                            new_achievements.append(achievement)
 
-                # Check for new gadgets
-                prev_gadgets = set(prev_brawler.get('gadget_ids', []))
-                curr_gadgets = set(curr_brawler.get('gadget_ids', []))
+                # Check for new gadgets (including on new brawlers)
+                prev_gadgets = self._extract_item_ids(prev_brawler.get('gadgets') or prev_brawler.get('gadget_ids')) if prev_brawler else set()
+                curr_gadgets = self._extract_item_ids(curr_brawler.get('gadgets') or curr_brawler.get('gadget_ids'))
                 new_gadgets = curr_gadgets - prev_gadgets
                 for gadget_id in new_gadgets:
                     item_name = self._get_item_name(gadget_id, 'gadget')
@@ -189,8 +206,8 @@ class AchievementGenerator:
                         new_achievements.append(achievement)
 
                 # Check for new star powers
-                prev_sps = set(prev_brawler.get('star_power_ids', []))
-                curr_sps = set(curr_brawler.get('star_power_ids', []))
+                prev_sps = self._extract_item_ids(prev_brawler.get('starPowers') or prev_brawler.get('star_power_ids')) if prev_brawler else set()
+                curr_sps = self._extract_item_ids(curr_brawler.get('starPowers') or curr_brawler.get('star_power_ids'))
                 new_sps = curr_sps - prev_sps
                 for sp_id in new_sps:
                     item_name = self._get_item_name(sp_id, 'star_power')
@@ -207,8 +224,8 @@ class AchievementGenerator:
                         new_achievements.append(achievement)
 
                 # Check for new hypercharges
-                prev_hcs = set(prev_brawler.get('hyper_charge_ids', []))
-                curr_hcs = set(curr_brawler.get('hyper_charge_ids', []))
+                prev_hcs = self._extract_item_ids(prev_brawler.get('hyperCharges') or prev_brawler.get('hyper_charge_ids')) if prev_brawler else set()
+                curr_hcs = self._extract_item_ids(curr_brawler.get('hyperCharges') or curr_brawler.get('hyper_charge_ids'))
                 new_hcs = curr_hcs - prev_hcs
                 for hc_id in new_hcs:
                     item_name = self._get_item_name(hc_id, 'hypercharge')
@@ -224,22 +241,23 @@ class AchievementGenerator:
                     if self._add_achievement(achievement):
                         new_achievements.append(achievement)
 
-                # Check for prestige milestones
-                prev_prestige = self._get_prestige_level(prev_brawler.get('trophies', 0))
-                curr_prestige = self._get_prestige_level(curr_brawler.get('trophies', 0))
+                # Check for prestige milestones (only for existing brawlers)
+                if prev_brawler:
+                    prev_prestige = self._get_prestige_level(prev_brawler.get('trophies', 0))
+                    curr_prestige = self._get_prestige_level(curr_brawler.get('trophies', 0))
 
-                # Award achievement for each prestige level crossed
-                for prestige_level in range(prev_prestige + 1, curr_prestige + 1):
-                    achievement = Achievement(
-                        date=date,
-                        player_tag=tag,
-                        player_name=player_name,
-                        type="prestige",
-                        brawler=brawler_name,
-                        prestige_level=prestige_level
-                    )
-                    if self._add_achievement(achievement):
-                        new_achievements.append(achievement)
+                    # Award achievement for each prestige level crossed
+                    for prestige_level in range(prev_prestige + 1, curr_prestige + 1):
+                        achievement = Achievement(
+                            date=date,
+                            player_tag=tag,
+                            player_name=player_name,
+                            type="prestige",
+                            brawler=brawler_name,
+                            prestige_level=prestige_level
+                        )
+                        if self._add_achievement(achievement):
+                            new_achievements.append(achievement)
 
             # Check for trophy milestones (every 10k)
             prev_trophies = prev_player.get('trophies', 0)

@@ -888,9 +888,12 @@ const CalculationHelpers = {
             }
         });
 
-        // Calculate for missing brawlers
+        // Calculate for missing brawlers (exclude unreleased)
         const ownedNames = ownedBrawlers.map(b => b.name);
-        const missingBrawlers = allBrawlersRef
+        const releasedBrawlers = allBrawlersRef.filter(b =>
+            !GameConstants.UNRELEASED_BRAWLERS.includes(b.name)
+        );
+        const missingBrawlers = releasedBrawlers
             .map(b => b.name)
             .filter(name => !ownedNames.includes(name));
 

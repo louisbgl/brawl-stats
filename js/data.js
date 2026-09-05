@@ -59,6 +59,7 @@ const DataManager = {
     achievementsData: [],
     battlelogsCache: new Map(), // tag -> battle items array
     battlelogsMetadata: null,
+    playerNameCache: new Map(), // tag -> latest name
     loadingPromises: {
         historical: null,
         achievements: null,
@@ -143,7 +144,24 @@ const DataManager = {
     async loadLatest() {
         const response = await fetch('data/latest.json');
         this.latestData = await response.json();
+        this.buildPlayerNameCache();
         return this.latestData;
+    },
+
+    buildPlayerNameCache() {
+        this.playerNameCache.clear();
+        this.latestData.clubs.forEach(club => {
+            club.members.forEach(player => {
+                this.playerNameCache.set(player.tag, player.name);
+            });
+        });
+        (this.latestData.individual_players || []).forEach(player => {
+            this.playerNameCache.set(player.tag, player.name);
+        });
+    },
+
+    getPlayerName(tag) {
+        return this.playerNameCache.get(tag) || 'Unknown';
     },
 
     async loadHistorical() {
@@ -272,6 +290,13 @@ const DataManager = {
         return this.brawlersData.items.map(b => b.name).sort();
     },
 
+    // Get all released brawlers (excludes unreleased)
+    getReleasedBrawlers() {
+        return this.brawlersData.items.filter(b =>
+            !GameConstants.UNRELEASED_BRAWLERS.includes(b.name)
+        );
+    },
+
     // Battlelog loading methods
     async loadBattlelogs() {
         const players = this.getAllPlayers();
@@ -305,9 +330,11 @@ const DataManager = {
             const response = await fetch('data/battlelogs/_last_updated.json');
             if (response.ok) {
                 this.battlelogsMetadata = await response.json();
+            } else {
+                console.warn('[Data] Battlelog metadata not found (HTTP ' + response.status + ')');
             }
         } catch (error) {
-            console.warn('No battlelog metadata found');
+            console.warn('[Data] Failed to load battlelog metadata:', error);
         }
     },
 

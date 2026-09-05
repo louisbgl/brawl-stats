@@ -1,6 +1,12 @@
 // Configuration constants and utility functions for the frontend
 
 // ============================================================================
+// DASHBOARD OWNER
+// ============================================================================
+// Tag of the dashboard owner — used to show "with [you]" perspective in battle feed
+const OWNER_TAG = '#LLJGJQVY';
+
+// ============================================================================
 // GAME CONSTANTS - Brawl Stars game mechanics and costs
 // ============================================================================
 
@@ -9,6 +15,11 @@ const GameConstants = {
     BUFFIED_BRAWLERS: [
         "NITA", "CROW", "BULL", "BO", "BIBI", "LEON",
         "SHELLY", "COLT", "SPIKE", "EMZ", "FRANK", "MORTIS"
+    ],
+
+    // Unreleased brawlers (in API but not yet available in-game)
+    // These are excluded from collection stats and missing brawler calculations
+    UNRELEASED_BRAWLERS: [
     ],
 
     // Power point costs to upgrade each level
@@ -62,12 +73,21 @@ const GameConstants = {
     // Color palette for charts (shared across all visualizations)
     COLOR_PALETTE: [
         '#4a9eff', // Blue
-        '#9d4edd', // Purple
-        '#06d6a0', // Green
-        '#ff9f1c', // Orange
         '#ef476f', // Red
+        '#06d6a0', // Green
+        '#ffd60a', // Yellow
+        '#9d4edd', // Purple
+        '#ff9f1c', // Orange
         '#118ab2', // Teal
-        '#ffd60a'  // Yellow
+        '#f72585', // Pink
+        '#43aa8b', // Sage
+        '#f94144', // Coral
+        '#90e0ef', // Sky
+        '#c77dff', // Lavender
+        '#ffb703', // Amber
+        '#52b788', // Mint
+        '#e76f51', // Burnt orange
+        '#a8dadc', // Pale cyan
     ],
 
     // Prestige level colors for prestige chart
@@ -97,6 +117,7 @@ const GameConstants = {
         'brawlArena': '#a855f7',
         'airHockey': '#22d3ee',
         'tagTeam': '#f59e0b',
+        'basketBrawl': '#ff6b35',
         // Team 5v5 modes
         'brawlBall5V5': '#6bb6ff',
         'wipeout5V5': '#ff5964',
@@ -128,6 +149,7 @@ const GameConstants = {
         'brawlArena': 'Brawl Arena',
         'airHockey': 'Air Hockey',
         'tagTeam': 'Tag Team',
+        'basketBrawl': 'Basket Brawl',
         // Team 5v5 modes
         'brawlBall5V5': 'Brawl Ball 5v5',
         'wipeout5V5': 'Wipeout 5v5',
@@ -147,7 +169,7 @@ const GameConstants = {
 
     // Game mode categories
     MODE_CATEGORIES: {
-        team: ['gemGrab', 'brawlBall', 'bounty', 'heist', 'hotZone', 'knockout', 'siege', 'wipeout', 'brawlArena', 'airHockey', 'tagTeam'],
+        team: ['gemGrab', 'brawlBall', 'bounty', 'heist', 'hotZone', 'knockout', 'siege', 'wipeout', 'brawlArena', 'airHockey', 'tagTeam', 'basketBrawl'],
         team5v5: ['brawlBall5V5', 'wipeout5V5', 'knockout5V5', 'deathmatch5v5'],
         showdown: ['soloShowdown', 'duoShowdown', 'trioShowdown'],
         duels: ['duels'],
