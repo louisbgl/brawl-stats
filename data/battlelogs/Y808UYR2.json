@@ -155156,5 +155156,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260905T185345.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 136,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 1670
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8GUCRV0GJ",
+            "name": "Dark ghost",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1429
+            }
+          },
+          {
+            "tag": "#20CV0LGG0",
+            "name": "ميهوگ",
+            "brawler": {
+              "id": 16000066,
+              "name": "R-T",
+              "power": 11,
+              "trophies": 777
+            }
+          },
+          {
+            "tag": "#2QLJJ980PP",
+            "name": "Чика я",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 735
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1670
+            }
+          },
+          {
+            "tag": "#2QLJG0GGUJ",
+            "name": "StrikeBall",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1942
+            }
+          },
+          {
+            "tag": "#2VV8VCUUJ",
+            "name": "Johny2016",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 2144
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260905T185913.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 300,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#8YQPQ2JU",
+        "name": "DarkWorgen",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 9,
+          "trophies": 811
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8YQPQ2JU",
+            "name": "DarkWorgen",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 811
+            }
+          },
+          {
+            "tag": "#C9RYULLP",
+            "name": "Mixakep",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 969
+            }
+          },
+          {
+            "tag": "#G9VCCP8JV",
+            "name": "the god of war",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 2012
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QLJG0GGUJ",
+            "name": "StrikeBall",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1957
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1686
+            }
+          },
+          {
+            "tag": "#2VV8VCUUJ",
+            "name": "Johny2016",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 2156
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

@@ -362269,5 +362269,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260905T185742.000Z",
+    "event": {
+      "id": 15000548,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Out in the Open"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 124,
+      "starPlayer": {
+        "tag": "#2UYGJ20QQQ",
+        "name": "alan",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2JCRRPQV9Y",
+            "name": "KÜÇÜK CLANCYfr",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2VGC2PVLPP",
+            "name": "SUDE ❤‍🔥",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8VPQJVPLG",
+            "name": "Ируль_Писюль",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2UYGJ20QQQ",
+            "name": "alan",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2UU8RV90VC",
+            "name": "bisci",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 10,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
