@@ -456951,5 +456951,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260905T132612.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 40,
+      "starPlayer": {
+        "tag": "#RU8CLJRRJ",
+        "name": "DEXTER",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 712
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2ULUY0C89G",
+            "name": "ГЕЙМЕР СПРАУТ",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 8,
+              "trophies": 397
+            }
+          },
+          {
+            "tag": "#RU8CLJRRJ",
+            "name": "DEXTER",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 712
+            }
+          },
+          {
+            "tag": "#2V99VULVG2",
+            "name": "imp carry",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1665
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GQ9J00CU8",
+            "name": "Prestij",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 9,
+              "trophies": 831
+            }
+          },
+          {
+            "tag": "#2V2R88QVR2",
+            "name": "YNE | Musti",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1200
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 436
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
