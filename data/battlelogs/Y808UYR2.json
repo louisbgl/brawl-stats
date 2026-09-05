@@ -155340,5 +155340,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260905T190414.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 265,
+      "trophyChange": -11,
+      "starPlayer": {
+        "tag": "#PUGGL0CY9",
+        "name": "cemre",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 2068
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QLJG0GGUJ",
+            "name": "StrikeBall",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1973
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1703
+            }
+          },
+          {
+            "tag": "#2VV8VCUUJ",
+            "name": "Johny2016",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 2168
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PUGGL0CY9",
+            "name": "cemre",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2068
+            }
+          },
+          {
+            "tag": "#G9J989JU",
+            "name": "RegardeMesYeux",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 1007
+            }
+          },
+          {
+            "tag": "#2288L99V00",
+            "name": "Damon/Cats",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1004
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
