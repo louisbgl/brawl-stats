@@ -67,6 +67,10 @@ INDIVIDUAL_PLAYERS = [
     {
         "name": "Nielsen",
         "tag": "#Q0CQLYCVL",
+    },
+    {
+        "name": "spiky",
+        "tag": "#PPYVYGRGV",
     }
 ]
 
