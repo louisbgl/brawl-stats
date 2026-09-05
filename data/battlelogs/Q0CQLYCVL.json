@@ -453761,5 +453761,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260904T233140.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 91,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#GGG0QV2J2",
+        "name": "D1ff1Cultツ",
+        "brawler": {
+          "id": 16000059,
+          "name": "OTIS",
+          "power": 11,
+          "trophies": 1738
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GGG0QV2J2",
+            "name": "D1ff1Cultツ",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 1738
+            }
+          },
+          {
+            "tag": "#P9GULVYGG",
+            "name": "bruh",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 591
+            }
+          },
+          {
+            "tag": "#LJ9YQULY0",
+            "name": "YT: MultiRusso",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1162
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#220LU2L9J",
+            "name": "Estow.",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 9,
+              "trophies": 804
+            }
+          },
+          {
+            "tag": "#28CLJGGC2",
+            "name": "double bing💥💥",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 2022
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 863
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260904T233406.000Z",
+    "event": {
+      "id": 15001018,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Double Decker"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 110,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2LVG8Y9VQP",
+        "name": "Brawler",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 10,
+          "trophies": 994
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 859
+            }
+          },
+          {
+            "tag": "#LY9RPJ2R",
+            "name": "LK|HANIF_P",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 1112
+            }
+          },
+          {
+            "tag": "#2UGQJV00VC",
+            "name": "הלל המלך❤️",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 10,
+              "trophies": 996
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CC9GVPP2U",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 9,
+              "trophies": 1002
+            }
+          },
+          {
+            "tag": "#2JP09JYLCC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 9,
+              "trophies": 988
+            }
+          },
+          {
+            "tag": "#2LVG8Y9VQP",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 994
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
