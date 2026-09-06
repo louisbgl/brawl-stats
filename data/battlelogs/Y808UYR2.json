@@ -156352,5 +156352,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260906T192816.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 261,
+      "starPlayer": {
+        "tag": "#RPGLVRC0U",
+        "name": "hox",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 308
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RPGLVRC0U",
+            "name": "hox",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 308
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 956
+            }
+          },
+          {
+            "tag": "#2VLYVVU9V9",
+            "name": "整潔波可",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 10,
+              "trophies": 624
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#29C0C98G8G",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 642
+            }
+          },
+          {
+            "tag": "#2GV8LJQRYP",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 10,
+              "trophies": 599
+            }
+          },
+          {
+            "tag": "#2RY80PP29L",
+            "name": "samllexx 。を",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 675
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
