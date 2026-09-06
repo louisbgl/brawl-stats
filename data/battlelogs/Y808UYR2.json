@@ -156443,5 +156443,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260906T193428.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 138,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2C0QPJ29G",
+        "name": "Vadik",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 10,
+          "trophies": 709
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C0QPJ29G",
+            "name": "Vadik",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 10,
+              "trophies": 709
+            }
+          },
+          {
+            "tag": "#G28PJJPCR",
+            "name": "dark09shadow",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 9,
+              "trophies": 316
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 956
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RP9QPCR8V",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 9,
+              "trophies": 691
+            }
+          },
+          {
+            "tag": "#2G9QQRQCUQ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 9,
+              "trophies": 616
+            }
+          },
+          {
+            "tag": "#2GPULVY0QP",
+            "name": "Eda nur",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 10,
+              "trophies": 603
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
