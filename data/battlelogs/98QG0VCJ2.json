@@ -531655,5 +531655,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260906T100041.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 86,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 1170
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1185
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1170
+            }
+          },
+          {
+            "tag": "#VJCGGYYL",
+            "name": "Despacito",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1432
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RUG80P98V",
+            "name": "sleid",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1673
+            }
+          },
+          {
+            "tag": "#PC09YCGCY",
+            "name": "GR|ŦhaÑøSツ",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1295
+            }
+          },
+          {
+            "tag": "#V9VVVG2CR",
+            "name": "Juaniichi",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1678
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260906T100338.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 1181
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LJJQLR9PV",
+            "name": "TL|LeMuel",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1341
+            }
+          },
+          {
+            "tag": "#PV9YJGJ8",
+            "name": "貓王多特",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 1228
+            }
+          },
+          {
+            "tag": "#89YQ0C0J",
+            "name": "ECL | KrakN",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1370
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1195
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1181
+            }
+          },
+          {
+            "tag": "#CY0GJUQ9",
+            "name": "ℬ𝑒𝓇𝓃𝑜𝒽⚜️🦦",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1422
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
