@@ -156168,5 +156168,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260906T120440.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 380,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#PLC9C9L9L",
+        "name": "123md",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 496
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q2PLP882C",
+            "name": "teobabapro",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 593
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 966
+            }
+          },
+          {
+            "tag": "#J0GP0YLLV",
+            "name": "moza",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 9,
+              "trophies": 680
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2YL8UPGR8",
+            "name": "edusik",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 561
+            }
+          },
+          {
+            "tag": "#P89LQG9RU",
+            "name": "<<Ertuğrul >>",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 1021
+            }
+          },
+          {
+            "tag": "#PLC9C9L9L",
+            "name": "123md",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 496
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260906T121009.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 300,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#28V8Y2V0U",
+        "name": "FiFgo7",
+        "brawler": {
+          "id": 16000006,
+          "name": "BARLEY",
+          "power": 11,
+          "trophies": 503
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VGJY2C0PP",
+            "name": "Maineballur",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 2460
+            }
+          },
+          {
+            "tag": "#9RUY9VL9",
+            "name": "GX Andrea",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 11,
+              "trophies": 544
+            }
+          },
+          {
+            "tag": "#2RC0PUUVV0",
+            "name": "Pantelis",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 10,
+              "trophies": 581
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V9R9JY0",
+            "name": "RaianeNews",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 812
+            }
+          },
+          {
+            "tag": "#28V8Y2V0U",
+            "name": "FiFgo7",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 503
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 961
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
