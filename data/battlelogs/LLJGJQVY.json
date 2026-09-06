@@ -599021,5 +599021,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260906T090100.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 185,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#J8J9YRYLY",
+        "name": "I HATE RANKED🥀",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 2274
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#J8J9YRYLY",
+            "name": "I HATE RANKED🥀",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 2274
+            }
+          },
+          {
+            "tag": "#9Q0UC8CRJ",
+            "name": "Zangetsu",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1632
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C9G2GPVQQ",
+            "name": "ldj91",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2008
+            }
+          },
+          {
+            "tag": "#C8JVUGVQ",
+            "name": "1989uzb.zooty",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 2008
+            }
+          },
+          {
+            "tag": "#28L9YUY82",
+            "name": "MSG|Zeno",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2063
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
