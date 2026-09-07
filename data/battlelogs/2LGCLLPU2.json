@@ -141420,5 +141420,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260907T132836.000Z",
+    "event": {
+      "id": 15001021,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Spiraling Out"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 63,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#GGCP0RYQ",
+        "name": "NC|Jo$eph",
+        "brawler": {
+          "id": 16000052,
+          "name": "MEG",
+          "power": 11,
+          "trophies": 1863
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LQUUPJC8U",
+            "name": "не",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1174
+            }
+          },
+          {
+            "tag": "#2LGCLLPU2",
+            "name": "El Cactus",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 2052
+            }
+          },
+          {
+            "tag": "#PGQJL8PV2",
+            "name": "leon",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1159
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#220L0P02JJ",
+            "name": "SQUEAK",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1722
+            }
+          },
+          {
+            "tag": "#LQRV2YP9U",
+            "name": "Rori ky",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 1391
+            }
+          },
+          {
+            "tag": "#GGCP0RYQ",
+            "name": "NC|Jo$eph",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 1863
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
