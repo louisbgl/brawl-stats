@@ -167703,5 +167703,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260907T090637.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 134,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#8CYPURYUV",
+        "name": "boiler",
+        "brawler": {
+          "id": 16000053,
+          "name": "LOLA",
+          "power": 11,
+          "trophies": 708
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LCUYQURPP",
+            "name": "gen",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1076
+            }
+          },
+          {
+            "tag": "#8CYPURYUV",
+            "name": "boiler",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 708
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 799
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2YCU8YGCY8",
+            "name": "тг: xtxyyzxds",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 859
+            }
+          },
+          {
+            "tag": "#22P9YUPRLG",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 9,
+              "trophies": 879
+            }
+          },
+          {
+            "tag": "#2GVJYVYJJC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 9,
+              "trophies": 865
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
