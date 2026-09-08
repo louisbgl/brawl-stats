@@ -602789,5 +602789,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260908T135447.000Z",
+    "event": {
+      "id": 15001323,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Triple Threat"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 131,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 887
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YGGGGVYR",
+            "name": "narik102",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 9,
+              "trophies": 376
+            }
+          },
+          {
+            "tag": "#PPQJ0P890",
+            "name": "Fangame",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 8,
+              "trophies": 538
+            }
+          },
+          {
+            "tag": "#G2CQQ20",
+            "name": "ErBossDelPoppin",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 8,
+              "trophies": 425
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 887
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 873
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1006
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260908T135715.000Z",
+    "event": {
+      "id": 15001323,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Triple Threat"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 112,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 903
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 903
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 889
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1022
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UQJ8YRY",
+            "name": "Krad",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 1804
+            }
+          },
+          {
+            "tag": "#LQVVV98GL",
+            "name": "Бездарь",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 482
+            }
+          },
+          {
+            "tag": "#CVJ8U9GY",
+            "name": "Mosiu.YT",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 10,
+              "trophies": 258
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
