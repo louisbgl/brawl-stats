@@ -488313,5 +488313,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260908T132516.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 128,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#8QL9L8VU0",
+        "name": "GaMMa",
+        "brawler": {
+          "id": 16000032,
+          "name": "MAX",
+          "power": 11,
+          "trophies": 945
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GCC2UQP80",
+            "name": "Gon",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 497
+            }
+          },
+          {
+            "tag": "#VL99CUGYY",
+            "name": "BG",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1003
+            }
+          },
+          {
+            "tag": "#8QL9L8VU0",
+            "name": "GaMMa",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 945
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#889YG20UC",
+            "name": "Yas1n3",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 9,
+              "trophies": 741
+            }
+          },
+          {
+            "tag": "#2UVQGJQU9",
+            "name": "Janko",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 536
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 9,
+              "trophies": 579
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260908T132909.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "draw",
+      "duration": 210,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000017,
+          "name": "TARA",
+          "power": 9,
+          "trophies": 577
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q9Y8JCQUP",
+            "name": "Тёма",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 8,
+              "trophies": 309
+            }
+          },
+          {
+            "tag": "#9QPYPCR88",
+            "name": "ueban669",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 9,
+              "trophies": 428
+            }
+          },
+          {
+            "tag": "#8RVJUG009",
+            "name": "ZXC_ПОПКА_ZXC",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 787
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LQ9Q9UQRL",
+            "name": "NGU|Nuke 🧊",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 9,
+              "trophies": 836
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 9,
+              "trophies": 577
+            }
+          },
+          {
+            "tag": "#22098LJQUY",
+            "name": "Hasan_mantu<3",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 522
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
