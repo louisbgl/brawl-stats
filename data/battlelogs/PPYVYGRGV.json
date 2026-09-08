@@ -6060,5 +6060,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260908T183536.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 152,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#PPYVYGRGV",
+        "name": "spiky",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 857
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 857
+            }
+          },
+          {
+            "tag": "#2J2YYVL8G",
+            "name": "𝓑𝓪𝓻𝓻𝓲𝓵🛢️",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 7,
+              "trophies": 810
+            }
+          },
+          {
+            "tag": "#8VJ8UYLL2",
+            "name": "LCDLC|Felox",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 668
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VCPP9LUL8",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 784
+            }
+          },
+          {
+            "tag": "#UQPLYR2V2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 10,
+              "trophies": 747
+            }
+          },
+          {
+            "tag": "#2CUY8R9RR9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 746
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260908T183854.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 138,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#88UL2JVJQ",
+        "name": "7zZ3R0",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 963
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 867
+            }
+          },
+          {
+            "tag": "#88UL2JVJQ",
+            "name": "7zZ3R0",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 963
+            }
+          },
+          {
+            "tag": "#PPQL9YRQR",
+            "name": "pio",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 9,
+              "trophies": 607
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QVYJCLVC2",
+            "name": "fanis",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 892
+            }
+          },
+          {
+            "tag": "#QVYU92PQ",
+            "name": "tugi",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 563
+            }
+          },
+          {
+            "tag": "#2JL2GP8V9P",
+            "name": "Hyra",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 8,
+              "trophies": 603
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
