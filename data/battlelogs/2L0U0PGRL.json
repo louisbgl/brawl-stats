@@ -308322,5 +308322,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260908T140213.000Z",
+    "event": {
+      "id": 15001323,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Triple Threat"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 361,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 312
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JYPC28PLP",
+            "name": "Rengoku",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 788
+            }
+          },
+          {
+            "tag": "#YGVUYLL2Q",
+            "name": "Balanka",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 571
+            }
+          },
+          {
+            "tag": "#P9YRPVQRL",
+            "name": "beyaznur",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 865
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RV9U09JV",
+            "name": "Aaron",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 8,
+              "trophies": 248
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 312
+            }
+          },
+          {
+            "tag": "#YQGQ9V28P",
+            "name": "Blarcsi",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 8,
+              "trophies": 260
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
