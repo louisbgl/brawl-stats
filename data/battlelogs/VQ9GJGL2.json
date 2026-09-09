@@ -172836,5 +172836,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260909T083458.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 480,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#2V02JJG0V8",
+        "name": "PEARL FIABLE",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 804
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LU2QJ2RGL",
+            "name": "失った",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 10,
+              "trophies": 631
+            }
+          },
+          {
+            "tag": "#2JGUCR892J",
+            "name": "Тимофеевич",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 240
+            }
+          },
+          {
+            "tag": "#2V02JJG0V8",
+            "name": "PEARL FIABLE",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 804
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#202C2CV9J",
+            "name": "Дятел",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 571
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 938
+            }
+          },
+          {
+            "tag": "#2VG0JQVULL",
+            "name": "TomGruz",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 10,
+              "trophies": 771
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
