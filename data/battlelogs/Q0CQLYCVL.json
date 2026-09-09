@@ -491787,5 +491787,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260909T075150.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "draw",
+      "duration": 210,
+      "starPlayer": {
+        "tag": "#2LCL02R2V9",
+        "name": "HMB|type",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 510
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Q2P9VVCYV",
+            "name": "Нурали 🇰🇬",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 9,
+              "trophies": 879
+            }
+          },
+          {
+            "tag": "#2QRVYRC0GP",
+            "name": "sakairo",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 11,
+              "trophies": 767
+            }
+          },
+          {
+            "tag": "#8Q28Q0RP0",
+            "name": "juroj",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 11,
+              "trophies": 229
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LCL02R2V9",
+            "name": "HMB|type",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 510
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 7,
+              "trophies": 268
+            }
+          },
+          {
+            "tag": "#2Y8UQUC0L",
+            "name": "ALPHASAN",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 652
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
