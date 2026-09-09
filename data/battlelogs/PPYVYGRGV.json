@@ -6244,5 +6244,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260909T062541.000Z",
+    "event": {
+      "id": 15000022,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Hideout"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 60,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#8VPLU0Q9Q",
+        "name": "HEX | Matematik",
+        "brawler": {
+          "id": 16000032,
+          "name": "MAX",
+          "power": 11,
+          "trophies": 1336
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 878
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1408
+            }
+          },
+          {
+            "tag": "#8VPLU0Q9Q",
+            "name": "HEX | Matematik",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 1336
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GJY0YR02Q",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1195
+            }
+          },
+          {
+            "tag": "#2VY9YYVCLU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 1195
+            }
+          },
+          {
+            "tag": "#2JULCY9GL2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1196
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260909T062800.000Z",
+    "event": {
+      "id": 15000022,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Hideout"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 104,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#JG2YQRRCP",
+        "name": "SK |Zitachi",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 11,
+          "trophies": 2012
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Q9L8V00GV",
+            "name": "frostX",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 1837
+            }
+          },
+          {
+            "tag": "#JG2YQRRCP",
+            "name": "SK |Zitachi",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 2012
+            }
+          },
+          {
+            "tag": "#Y9VQJ0UYC",
+            "name": "[LP] RAFIC",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 2040
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 890
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1418
+            }
+          },
+          {
+            "tag": "#RPY2QGUJ0",
+            "name": "Maqgodd🐦‍🔥",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1872
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
