@@ -7256,5 +7256,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260909T111136.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 101,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#2RJ9PLLYY9",
+        "name": "just bro",
+        "brawler": {
+          "id": 16000086,
+          "name": "SHADE",
+          "power": 11,
+          "trophies": 564
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR99G2Y2V",
+            "name": "MAURO ICARDI",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 508
+            }
+          },
+          {
+            "tag": "#L080YRUJY",
+            "name": "CAN",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 336
+            }
+          },
+          {
+            "tag": "#2RJ9PLLYY9",
+            "name": "just bro",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 564
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PQUUCJP2Q",
+            "name": "💲TOXIC💲",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 8,
+              "trophies": 224
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 6,
+              "trophies": 253
+            }
+          },
+          {
+            "tag": "#2RCL2QJ9PL",
+            "name": "傘İsmayılovdu🖤",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 8,
+              "trophies": 346
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
