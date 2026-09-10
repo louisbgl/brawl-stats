@@ -497155,5 +497155,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260910T120107.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 457,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#GUC8Q0Q",
+        "name": "As de Pique",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 762
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RY99V8R2Q",
+            "name": "Biowarexx",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#GUC8Q0Q",
+            "name": "As de Pique",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 762
+            }
+          },
+          {
+            "tag": "#GC89RCG2",
+            "name": "sparstorm",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1191
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PRUL8CC",
+            "name": "HT | Fash1on",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1124
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 781
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 957
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
