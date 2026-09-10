@@ -174216,5 +174216,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260910T092334.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 480,
+      "trophyChange": -12,
+      "starPlayer": {
+        "tag": "#CVQC9PU",
+        "name": "Hope",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 1351
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28JYQRPLC0",
+            "name": "💣MommyRiRi💣",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1105
+            }
+          },
+          {
+            "tag": "#QV00L08UG",
+            "name": "Partykoeni",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 1062
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1832
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CVQC9PU",
+            "name": "Hope",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1351
+            }
+          },
+          {
+            "tag": "#L0LP9L9PC",
+            "name": "Hyra",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1041
+            }
+          },
+          {
+            "tag": "#Q0C88GL0R",
+            "name": "Freak",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1214
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
