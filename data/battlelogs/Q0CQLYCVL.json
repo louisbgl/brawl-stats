@@ -498940,5 +498940,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260910T223634.000Z",
+    "event": {
+      "id": 15001269,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Under Pressure"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 64,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#2YJPRQGQC8",
+        "name": "uni",
+        "brawler": {
+          "id": 16000044,
+          "name": "RUFFS",
+          "power": 11,
+          "trophies": 637
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GQV88CPG2",
+            "name": "FUT|TOBY",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 811
+            }
+          },
+          {
+            "tag": "#2YJPRQGQC8",
+            "name": "uni",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 11,
+              "trophies": 637
+            }
+          },
+          {
+            "tag": "#80C88Y282",
+            "name": "MASTER KITTY",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 374
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P8Q2YGRGL",
+            "name": "CanTurNed",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 578
+            }
+          },
+          {
+            "tag": "#QQCY22GJ2",
+            "name": "tøkyø hate",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 808
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 9,
+              "trophies": 276
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260910T223958.000Z",
+    "event": {
+      "id": 15001269,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Under Pressure"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 134,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#28JJGQ0QVU",
+        "name": "tg bladebots_bs",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 10,
+          "trophies": 279
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 9,
+              "trophies": 275
+            }
+          },
+          {
+            "tag": "#28JJGQ0QVU",
+            "name": "tg bladebots_bs",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 279
+            }
+          },
+          {
+            "tag": "#2U82GVJ8L2",
+            "name": "aysun",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 10,
+              "trophies": 272
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#29URU8GPLG",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 10,
+              "trophies": 278
+            }
+          },
+          {
+            "tag": "#2C8YU9CYQG",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 10,
+              "trophies": 264
+            }
+          },
+          {
+            "tag": "#2CJYURRG2U",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 8,
+              "trophies": 287
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
