@@ -142073,5 +142073,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260910T080226.000Z",
+    "event": {
+      "id": 15001276,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Jungle Top"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 64,
+      "starPlayer": {
+        "tag": "#8URL8LLGG",
+        "name": "###",
+        "brawler": {
+          "id": 16000108,
+          "name": "WENDY",
+          "power": 11,
+          "trophies": 1386
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 9,
+              "trophies": 506
+            }
+          },
+          {
+            "tag": "#2J0U9G09U8",
+            "name": "Отшельник GgWp",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1093
+            }
+          },
+          {
+            "tag": "#RV288VQVC",
+            "name": "Elina",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 579
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JRGUP9VVY",
+            "name": "ilaydaa",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 943
+            }
+          },
+          {
+            "tag": "#VLQPCGU8Q",
+            "name": "chuckooner 🤤",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 1196
+            }
+          },
+          {
+            "tag": "#8URL8LLGG",
+            "name": "###",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 1386
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
