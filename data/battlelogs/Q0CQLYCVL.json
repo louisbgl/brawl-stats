@@ -495510,5 +495510,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260910T085808.000Z",
+    "event": {
+      "id": 15000082,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Layer Cake"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 74,
+      "starPlayer": {
+        "tag": "#P8J0G888Y",
+        "name": "︻デ═一",
+        "brawler": {
+          "id": 16000109,
+          "name": "COSMO",
+          "power": 11,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1066
+            }
+          },
+          {
+            "tag": "#RJL8RPG9U",
+            "name": "Proluk",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1301
+            }
+          },
+          {
+            "tag": "#2LLCRVQ9LP",
+            "name": "ReXGuN87",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1021
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UP8CC02GC",
+            "name": "06_LOVE",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 9,
+              "trophies": 255
+            }
+          },
+          {
+            "tag": "#P8J0G888Y",
+            "name": "︻デ═一",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#LVY2YYY",
+            "name": "Kyri",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 350
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
