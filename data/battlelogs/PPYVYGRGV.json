@@ -8577,5 +8577,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260910T183025.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 82,
+      "starPlayer": {
+        "tag": "#PPYVYGRGV",
+        "name": "spiky",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 1145
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1145
+            }
+          },
+          {
+            "tag": "#2RYGC8J0U8",
+            "name": "pulcinella",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2UY2YCRCLQ",
+            "name": "çılgın",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1281
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UR02R2GP0",
+            "name": "дон дон",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 10,
+              "trophies": 370
+            }
+          },
+          {
+            "tag": "#2VG0G0VGC2",
+            "name": "☃️kefobabarp31",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 9,
+              "trophies": 730
+            }
+          },
+          {
+            "tag": "#2LQ0Q20YJ9",
+            "name": "LAMINE YAMAL",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 1011
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
