@@ -8486,5 +8486,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260910T182813.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 77,
+      "starPlayer": {
+        "tag": "#2UVVCY9VP2",
+        "name": "manda69",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 1198
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UVVCY9VP2",
+            "name": "manda69",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1198
+            }
+          },
+          {
+            "tag": "#JUY0CPU0J",
+            "name": "jkbj",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 10,
+              "trophies": 351
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2ULUVGVY0L",
+            "name": "sahsa_34",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 611
+            }
+          },
+          {
+            "tag": "#2VQ0G2YQRQ",
+            "name": "Fra Zito",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#Q2UC8PJC",
+            "name": "xixi",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 10,
+              "trophies": 476
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
