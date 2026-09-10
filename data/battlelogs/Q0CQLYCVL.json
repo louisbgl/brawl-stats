@@ -496603,5 +496603,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260910T112419.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 472,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#GC22QJGCL",
+        "name": "Бодя",
+        "brawler": {
+          "id": 16000042,
+          "name": "BYRON",
+          "power": 11,
+          "trophies": 1939
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 676
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 852
+            }
+          },
+          {
+            "tag": "#2C0QUPL2G2",
+            "name": "ahmetkral🇹🇷",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1160
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GC22QJGCL",
+            "name": "Бодя",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1939
+            }
+          },
+          {
+            "tag": "#2QYV9JYRC0",
+            "name": "Harun",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1043
+            }
+          },
+          {
+            "tag": "#2CYCJ2V9YC",
+            "name": "ŠØŁØḾkÂ",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 11,
+              "trophies": 321
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260910T112854.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 205,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 867
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YVUVG80PC",
+            "name": "JOMA",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1114
+            }
+          },
+          {
+            "tag": "#28VP0J9L9Q",
+            "name": "quent1",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 870
+            }
+          },
+          {
+            "tag": "#L9JRRLU88",
+            "name": "dariina",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 2016
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 691
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 867
+            }
+          },
+          {
+            "tag": "#2VPPPGPYYQ",
+            "name": "Schulz",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 2304
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
