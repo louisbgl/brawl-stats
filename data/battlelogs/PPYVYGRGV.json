@@ -8668,5 +8668,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260910T213745.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 167,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#2QJY0228GJ",
+        "name": "Pablo",
+        "brawler": {
+          "id": 16000044,
+          "name": "RUFFS",
+          "power": 11,
+          "trophies": 890
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#90V9R0GU",
+            "name": "El amo2",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 790
+            }
+          },
+          {
+            "tag": "#20Q8CL0RY",
+            "name": "Tibidiche",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 744
+            }
+          },
+          {
+            "tag": "#2RU922JGL",
+            "name": "ZENZEİ_",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 9,
+              "trophies": 711
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1145
+            }
+          },
+          {
+            "tag": "#88LVPU0YL",
+            "name": "GIM//ÆON",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 958
+            }
+          },
+          {
+            "tag": "#2QJY0228GJ",
+            "name": "Pablo",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 11,
+              "trophies": 890
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
