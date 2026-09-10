@@ -497431,5 +497431,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260910T160911.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 193,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 684
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UVRR9LUV2",
+            "name": "сотрудник тцк",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 9,
+              "trophies": 1344
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 684
+            }
+          },
+          {
+            "tag": "#GQJCURJJ9",
+            "name": "Кіт",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 751
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CJLL8QRY0",
+            "name": "snijn",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1069
+            }
+          },
+          {
+            "tag": "#2RQ9YLUYCV",
+            "name": "SUPER SAKO🦴",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 400
+            }
+          },
+          {
+            "tag": "#RY9GPJJVL",
+            "name": "svetlna",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 9,
+              "trophies": 510
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
