@@ -363283,5 +363283,189 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260910T094448.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 65,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#Y0R0P09PY",
+        "name": "İlkimincc",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 1044
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y0R0P09PY",
+            "name": "İlkimincc",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1044
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1198
+            }
+          },
+          {
+            "tag": "#98VRR2PC8",
+            "name": "DG|么Ästroツ",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1381
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UJ9CJY0R9",
+            "name": "Durtas",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1195
+            }
+          },
+          {
+            "tag": "#2J0LJ0U8CG",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1181
+            }
+          },
+          {
+            "tag": "#2UJGRCCVUY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1195
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260910T094607.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 26,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#GJ8YYVRU8",
+        "name": "паша креатин🌺",
+        "brawler": {
+          "id": 16000094,
+          "name": "KAZE",
+          "power": 11,
+          "trophies": 611
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CC8PCCQJ9",
+            "name": "kidoousual",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 432
+            }
+          },
+          {
+            "tag": "#GJ8YYVRU8",
+            "name": "паша креатин🌺",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 611
+            }
+          },
+          {
+            "tag": "#2PLQG09C2",
+            "name": "SouRaN22♡",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 10,
+              "trophies": 21
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YUGCPPRQQ",
+            "name": "💙BalaBøy23|♤",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1078
+            }
+          },
+          {
+            "tag": "#GRJUQR882",
+            "name": "𝐒𝐓│𝐍𝐈𝐊𝐄❦",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1014
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1209
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

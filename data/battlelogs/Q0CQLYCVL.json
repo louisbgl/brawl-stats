@@ -496511,5 +496511,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260910T093201.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 349,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2YR8VYRP0",
+        "name": "Harley",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 690
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GY0RR9QU",
+            "name": "Quelli47",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1155
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 680
+            }
+          },
+          {
+            "tag": "#GJQ0829P2",
+            "name": "Nischako ♬⋆.˚",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1210
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8RYJ8JP9Y",
+            "name": "Debbie",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 826
+            }
+          },
+          {
+            "tag": "#2YR8VYRP0",
+            "name": "Harley",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 690
+            }
+          },
+          {
+            "tag": "#2Q0LCJUQYV",
+            "name": "ash-99",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 2030
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
