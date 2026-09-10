@@ -174308,5 +174308,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260910T093240.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 480,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#Q2ULQJVY",
+        "name": "Miggiu",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 2082
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JVRLPUGV",
+            "name": "simeon🕸️",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1019
+            }
+          },
+          {
+            "tag": "#2QPLUCG0UP",
+            "name": "Duriş👻",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 2037
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 814
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q2ULQJVY",
+            "name": "Miggiu",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2082
+            }
+          },
+          {
+            "tag": "#92J2RCVVR",
+            "name": "стриптис олег",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 935
+            }
+          },
+          {
+            "tag": "#YV9928VVC",
+            "name": "отчемус спрайм",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1358
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260910T093621.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 196,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 809
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LYV8L2RJ2",
+            "name": "корделиус",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1069
+            }
+          },
+          {
+            "tag": "#PU0GL0GJU",
+            "name": "даня",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 8,
+              "trophies": 394
+            }
+          },
+          {
+            "tag": "#22L2CR00J",
+            "name": "Cau",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 2048
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PJ9RVPUJ2",
+            "name": "NOTORIOUS",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1333
+            }
+          },
+          {
+            "tag": "#CGVL2JGG",
+            "name": "Kakahasef",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 9,
+              "trophies": 964
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 809
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
