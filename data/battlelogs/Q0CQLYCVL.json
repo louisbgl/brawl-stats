@@ -497247,5 +497247,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260910T140838.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 83,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#8VJ20JV09",
+        "name": "•SoulFly•",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 1012
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8VJ20JV09",
+            "name": "•SoulFly•",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1012
+            }
+          },
+          {
+            "tag": "#2YG2CC9YRR",
+            "name": "𝄞⋆𝕸𝖎𝖐𝖆𝖘𝖆",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 688
+            }
+          },
+          {
+            "tag": "#RQ080L2VR",
+            "name": "[DK]Nels",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 606
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 672
+            }
+          },
+          {
+            "tag": "#2LCLQ0QR0J",
+            "name": "Babak",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 888
+            }
+          },
+          {
+            "tag": "#8JCJYQ09Q",
+            "name": "Henning",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 1131
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260910T141151.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 148,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 669
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LGLGVGJLL",
+            "name": "hQpiK's",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 9,
+              "trophies": 331
+            }
+          },
+          {
+            "tag": "#9JLJR0U9",
+            "name": "Blaszka_PL",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 489
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 669
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JCLY9JPP2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 10,
+              "trophies": 561
+            }
+          },
+          {
+            "tag": "#2LCRVPVVLJ",
+            "name": "KELEBEK❤",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 10,
+              "trophies": 581
+            }
+          },
+          {
+            "tag": "#22PP29P02G",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 10,
+              "trophies": 516
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
