@@ -160370,5 +160370,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260911T203342.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 133,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 225
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 225
+            }
+          },
+          {
+            "tag": "#2VY2RVYU0",
+            "name": "emoboy",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 6,
+              "trophies": 221
+            }
+          },
+          {
+            "tag": "#2JUCPVU2CJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 7,
+              "trophies": 238
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GQCGYRLGU",
+            "name": "walter.it.1105",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 8,
+              "trophies": 218
+            }
+          },
+          {
+            "tag": "#2LPRJR29GP",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 7,
+              "trophies": 228
+            }
+          },
+          {
+            "tag": "#2QVJL9QYVU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 7,
+              "trophies": 224
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260911T203746.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 190,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#2QQG90LPJC",
+        "name": "FLIM4",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 1036
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 240
+            }
+          },
+          {
+            "tag": "#2QJPP80PLL",
+            "name": "xanxangorri",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 899
+            }
+          },
+          {
+            "tag": "#2ULRV9V8Q8",
+            "name": "алинур",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1011
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QGQ9UJ0UU",
+            "name": "поп",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 932
+            }
+          },
+          {
+            "tag": "#2QQG90LPJC",
+            "name": "FLIM4",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1036
+            }
+          },
+          {
+            "tag": "#RVG098QJQ",
+            "name": "ヤTHE AHMETジ",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 8,
+              "trophies": 230
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
