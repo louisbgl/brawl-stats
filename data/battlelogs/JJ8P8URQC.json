@@ -142348,5 +142348,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260911T063925.000Z",
+    "event": {
+      "id": 15001210,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Opening Move"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 80,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#2L288RGJLP",
+        "name": "Solo1",
+        "brawler": {
+          "id": 16000076,
+          "name": "KIT",
+          "power": 11,
+          "trophies": 829
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L288RGJLP",
+            "name": "Solo1",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 829
+            }
+          },
+          {
+            "tag": "#2QRLJC2CGY",
+            "name": "Smo°Zyy🔱",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 9,
+              "trophies": 243
+            }
+          },
+          {
+            "tag": "#22P2VRJCPL",
+            "name": "sahrayeşil21",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1022
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJ2RJ0RG9",
+            "name": "iq9999",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 228
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 9,
+              "trophies": 641
+            }
+          },
+          {
+            "tag": "#2QQUVR8RYC",
+            "name": "el primo",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 9,
+              "trophies": 500
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260911T064048.000Z",
+    "event": {
+      "id": 15001210,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Opening Move"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 57,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#G98PL9JQ2",
+        "name": "Muhammed",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 10,
+          "trophies": 343
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G98PL9JQ2",
+            "name": "Muhammed",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 10,
+              "trophies": 343
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 9,
+              "trophies": 638
+            }
+          },
+          {
+            "tag": "#2CP9U029VQ",
+            "name": "صديق سالم",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 9,
+              "trophies": 803
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GRGQYUYV2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 10,
+              "trophies": 610
+            }
+          },
+          {
+            "tag": "#229YGU2L9C",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 8,
+              "trophies": 663
+            }
+          },
+          {
+            "tag": "#2PLR9UYQGQ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 10,
+              "trophies": 659
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
