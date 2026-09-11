@@ -558870,5 +558870,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260911T113051.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 115,
+      "starPlayer": {
+        "tag": "#R990P998U",
+        "name": "ZTL|ELİX手",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 2000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 2252
+            }
+          },
+          {
+            "tag": "#YYPRP8QCJ",
+            "name": "sun.florra🌖",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#2UV8GR9VLV",
+            "name": "Темный друн",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R990P998U",
+            "name": "ZTL|ELİX手",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#Q8CJVJ80P",
+            "name": "ζ͜𝒀𝒊𝒈𝒊𝒕🏴",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1703
+            }
+          },
+          {
+            "tag": "#29RRPJCLVP",
+            "name": "OF|Soheib🦈",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 2069
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
