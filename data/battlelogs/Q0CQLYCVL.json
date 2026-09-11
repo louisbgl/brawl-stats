@@ -499124,5 +499124,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260911T110531.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 92,
+      "starPlayer": {
+        "tag": "#9P900RQG2",
+        "name": "ELBIBOU",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 679
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#GG280YGL2",
+            "name": "FİL NECATİ",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 539
+            }
+          },
+          {
+            "tag": "#2QRVQG2QCP",
+            "name": "regent_thragg",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1567
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8890CRYLG",
+            "name": "𝕭üş𝖗𝖆♡┆🧸",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1239
+            }
+          },
+          {
+            "tag": "#9CCGCLGUP",
+            "name": "Valent1",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#9P900RQG2",
+            "name": "ELBIBOU",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 679
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260911T110841.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 140,
+      "starPlayer": {
+        "tag": "#2UPYG8P22R",
+        "name": "Ravi wildt",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 2011
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1013
+            }
+          },
+          {
+            "tag": "#JRJ8P0Y9U",
+            "name": "EX",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1045
+            }
+          },
+          {
+            "tag": "#Q0R8RCGGP",
+            "name": "数|ZyleWin🌘",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1015
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UPYG8P22R",
+            "name": "Ravi wildt",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2011
+            }
+          },
+          {
+            "tag": "#LVCJ2QY2C",
+            "name": "TUNO5056",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#9CLGYV2JR",
+            "name": "Olum",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
