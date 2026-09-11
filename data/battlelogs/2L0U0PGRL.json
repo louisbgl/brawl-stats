@@ -310043,5 +310043,96 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260911T120000.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 53,
+      "starPlayer": {
+        "tag": "#90JLC0",
+        "name": "MrPoopyBuddHole",
+        "brawler": {
+          "id": 16000036,
+          "name": "NANI",
+          "power": 11,
+          "trophies": 904
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9UVVQJJ98",
+            "name": "Donnergott",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 2053
+            }
+          },
+          {
+            "tag": "#PV289PQ8Y",
+            "name": "Physicxz🌒",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#90JLC0",
+            "name": "MrPoopyBuddHole",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 904
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2UJ8YYPQUY",
+            "name": "Seba the Grunch",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1250
+            }
+          },
+          {
+            "tag": "#220R28QGU8",
+            "name": "josualk",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 451
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
