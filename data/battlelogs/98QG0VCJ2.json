@@ -559053,5 +559053,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260911T145449.000Z",
+    "event": {
+      "id": 15001269,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Under Pressure"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 65,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#L9PUQLJUC",
+        "name": "fabi💍",
+        "brawler": {
+          "id": 16000073,
+          "name": "CHUCK",
+          "power": 11,
+          "trophies": 855
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JQC8RGL8V",
+            "name": "~§<VICTOR>§~",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 943
+            }
+          },
+          {
+            "tag": "#L9PUQLJUC",
+            "name": "fabi💍",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 855
+            }
+          },
+          {
+            "tag": "#P8U8UG8J",
+            "name": "Inigoogl 🇵🇸",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 1952
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PPPVJVPUG",
+            "name": "zenep",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 7,
+              "trophies": 452
+            }
+          },
+          {
+            "tag": "#P8VULP2YC",
+            "name": "ATEŞ",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 11,
+              "trophies": 282
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1647
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
