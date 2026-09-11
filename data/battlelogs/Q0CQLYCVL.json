@@ -499674,5 +499674,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260911T140948.000Z",
+    "event": {
+      "id": 15001270,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Bustling Business"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 168,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000017,
+          "name": "TARA",
+          "power": 9,
+          "trophies": 725
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YV28JY92J",
+            "name": "runieboiiiii",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 877
+            }
+          },
+          {
+            "tag": "#2RC9QGPYR8",
+            "name": "SR|𝒯𝒽ɛℴ息子",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1021
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 9,
+              "trophies": 725
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P9PPPL80P",
+            "name": "Аято крааш",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 855
+            }
+          },
+          {
+            "tag": "#8RLRV8V0R",
+            "name": "Zt✘Sinco♛",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 10,
+              "trophies": 884
+            }
+          },
+          {
+            "tag": "#28RRVGVQL",
+            "name": "oui oui du 93",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 778
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
