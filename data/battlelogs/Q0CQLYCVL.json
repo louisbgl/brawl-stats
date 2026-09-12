@@ -505154,5 +505154,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260912T232159.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 209,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#GLLL88J8Y",
+        "name": "azad",
+        "brawler": {
+          "id": 16000072,
+          "name": "PEARL",
+          "power": 11,
+          "trophies": 1713
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GG2820LGY",
+            "name": "isa",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 755
+            }
+          },
+          {
+            "tag": "#GLLL88J8Y",
+            "name": "azad",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 1713
+            }
+          },
+          {
+            "tag": "#22QVJLRC",
+            "name": "👾Alsone👾",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 1653
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 810
+            }
+          },
+          {
+            "tag": "#2U88QVJ2V0",
+            "name": "VLUGGE LILY",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 873
+            }
+          },
+          {
+            "tag": "#YGRLC2YYY",
+            "name": "MEHMET KRAL",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 602
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260912T232712.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 267,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000106,
+          "name": "BOLT",
+          "power": 9,
+          "trophies": 246
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 9,
+              "trophies": 246
+            }
+          },
+          {
+            "tag": "#2CQRPCPU2P",
+            "name": "@talebrawl",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 8,
+              "trophies": 243
+            }
+          },
+          {
+            "tag": "#29JVCQQVVP",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 8,
+              "trophies": 260
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JRVJV0VVJ",
+            "name": "Zer0_bot",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 10,
+              "trophies": 261
+            }
+          },
+          {
+            "tag": "#RCUY8C02U",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 250
+            }
+          },
+          {
+            "tag": "#2QQ8CLRGGC",
+            "name": "theuzz",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 10,
+              "trophies": 236
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
