@@ -504878,5 +504878,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260912T210010.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 316,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#82C8P0CLU",
+        "name": "🌵Flaffen🌵",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1367
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QQLY0CGCV",
+            "name": "🇹🇷CRYTEK🇹🇷",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1240
+            }
+          },
+          {
+            "tag": "#2LQJL88RYL",
+            "name": "tatarafal",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 2420
+            }
+          },
+          {
+            "tag": "#8RU9G8CRJ",
+            "name": "tiffany",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 948
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#82C8P0CLU",
+            "name": "🌵Flaffen🌵",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1367
+            }
+          },
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 753
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 784
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
