@@ -563077,5 +563077,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260912T160025.000Z",
+    "event": {
+      "id": 15001330,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "In Demand"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 61,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#GJRLJY2RJ",
+        "name": "Harisヤ",
+        "brawler": {
+          "id": 16000084,
+          "name": "MOE",
+          "power": 11,
+          "trophies": 2226
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2RJVJCLCUR",
+            "name": "⛩️|Etherealツ🥀",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 1787
+            }
+          },
+          {
+            "tag": "#290URRY9R",
+            "name": "SK | RusKar🖤",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 1906
+            }
+          },
+          {
+            "tag": "#GJRLJY2RJ",
+            "name": "Harisヤ",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 2226
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2YRCYCQ2L",
+            "name": "反日所",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 11,
+              "trophies": 1042
+            }
+          },
+          {
+            "tag": "#282LPGG922",
+            "name": "T💫",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 1269
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
