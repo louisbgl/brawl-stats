@@ -365398,5 +365398,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260912T220513.000Z",
+    "event": {
+      "id": 15001330,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "In Demand"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 132,
+      "starPlayer": {
+        "tag": "#YQCYC9L00",
+        "name": "𝓢𝓲𝓶𝓸𝓷",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 1267
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#U92JR290P",
+            "name": "𝕷.𝔩𝔦𝔷𝔲𝔫",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 9,
+              "trophies": 873
+            }
+          },
+          {
+            "tag": "#YQCYC9L00",
+            "name": "𝓢𝓲𝓶𝓸𝓷",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1267
+            }
+          },
+          {
+            "tag": "#YYQPGJUG8",
+            "name": "AM|👑ᴍ𝔞𝚛ἶⲟ║▌",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1282
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RYVG0Q0L2",
+            "name": "TOJI",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1646
+            }
+          },
+          {
+            "tag": "#QLQ80VRYL",
+            "name": "Ander9923",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1746
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 1429
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
