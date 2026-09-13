@@ -510269,5 +510269,178 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260913T123402.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 120,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#98LRGY0RU",
+            "name": "херобрин",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#2UVU29V8G",
+            "name": "⛩️BrAwLeR🇺🇦",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#222GYCGJ0U",
+            "name": "Boss_man",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LU208CCL0",
+            "name": "vengeful",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#2YPLY8GU98",
+            "name": "cornicon",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260913T123606.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 105,
+      "starPlayer": {
+        "tag": "#98LRGY0RU",
+        "name": "херобрин",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 14
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98LRGY0RU",
+            "name": "херобрин",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#2UVU29V8G",
+            "name": "⛩️BrAwLeR🇺🇦",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 13
+            }
+          },
+          {
+            "tag": "#222GYCGJ0U",
+            "name": "Boss_man",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LU208CCL0",
+            "name": "vengeful",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#2YPLY8GU98",
+            "name": "cornicon",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 14
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 14
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
