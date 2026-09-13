@@ -161655,5 +161655,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260913T115612.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 89,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1402
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P2VURUUQY",
+            "name": "-ЛИПОВСКИ",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2J880JJ9QY",
+            "name": "sonic",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1788
+            }
+          },
+          {
+            "tag": "#2QUL2RQQL",
+            "name": "максим",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 1045
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CQPY8YPQL",
+            "name": "luka67",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1156
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1402
+            }
+          },
+          {
+            "tag": "#2UV20U0PRY",
+            "name": "точка",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1001
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260913T115915.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 131,
+      "starPlayer": {
+        "tag": "#2GRYPVGPPP",
+        "name": "KOTAK BOSS",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 1792
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GRYPVGPPP",
+            "name": "KOTAK BOSS",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1792
+            }
+          },
+          {
+            "tag": "#2LQCQVRPQ2",
+            "name": "TTM|Beppe13",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1096
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1236
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QRP2RR9YQ",
+            "name": "le roi du flow",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 10,
+              "trophies": 205
+            }
+          },
+          {
+            "tag": "#G2RU0CVC",
+            "name": "イルトー🩸 телзiк",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1004
+            }
+          },
+          {
+            "tag": "#GY9J982UU",
+            "name": "ZETA|Polz♠️™",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
