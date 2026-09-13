@@ -161472,5 +161472,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260913T083523.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 198,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 269
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q8V08PY0L",
+            "name": "Ci",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 169
+            }
+          },
+          {
+            "tag": "#2CY9UVQ982",
+            "name": "ADEM. jr",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 3,
+              "trophies": 153
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 269
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P9G9RGC9Q",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 9,
+              "trophies": 184
+            }
+          },
+          {
+            "tag": "#2YR8GQ9YCP",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 7,
+              "trophies": 198
+            }
+          },
+          {
+            "tag": "#2UY8UQQQVY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 7,
+              "trophies": 188
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260913T084028.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 121,
+      "starPlayer": {
+        "tag": "#LPLYLJGGP",
+        "name": "roro",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 970
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UPPJCQ9YJ",
+            "name": "Fortnite beste",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2038
+            }
+          },
+          {
+            "tag": "#LPLYLJGGP",
+            "name": "roro",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 970
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C2PC9QL2U",
+            "name": "MatuszOfTheKing",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1005
+            }
+          },
+          {
+            "tag": "#2QUY89VGLC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 11,
+              "trophies": 994
+            }
+          },
+          {
+            "tag": "#2RGQCC20YJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1018
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
