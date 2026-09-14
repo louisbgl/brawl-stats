@@ -162480,5 +162480,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260914T084415.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 282,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#G82PQLPGP",
+        "name": "🇧🇪daive🇧🇪",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1926
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#22R2G80GR",
+            "name": "LTN|odic",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1057
+            }
+          },
+          {
+            "tag": "#G82PQLPGP",
+            "name": "🇧🇪daive🇧🇪",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1926
+            }
+          },
+          {
+            "tag": "#2UYJC8QRL",
+            "name": "El Gino",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 1030
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1759
+            }
+          },
+          {
+            "tag": "#P9RUG08VY",
+            "name": "казанский ветер",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 9,
+              "trophies": 1209
+            }
+          },
+          {
+            "tag": "#YR9RP8LJU",
+            "name": "jor",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1007
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
