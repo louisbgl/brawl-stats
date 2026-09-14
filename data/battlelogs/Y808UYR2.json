@@ -162572,5 +162572,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260914T123622.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 397,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 1774
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LGCPQGUGL",
+            "name": "neerovno",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 2584
+            }
+          },
+          {
+            "tag": "#RY02YVV0Q",
+            "name": "OldButtGold",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1225
+            }
+          },
+          {
+            "tag": "#289YPYJG8",
+            "name": "VetGamer",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1225
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1774
+            }
+          },
+          {
+            "tag": "#8JRVG9GCJ",
+            "name": "HMB|Tutelka",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 691
+            }
+          },
+          {
+            "tag": "#Y90PU9U08",
+            "name": "FUT|Aris",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 10,
+              "trophies": 918
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260914T124147.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 275,
+      "trophyChange": -11,
+      "starPlayer": {
+        "tag": "#2Y8QJ88LU",
+        "name": "Любви нет",
+        "brawler": {
+          "id": 16000023,
+          "name": "LEON",
+          "power": 11,
+          "trophies": 1621
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y8QJ88LU",
+            "name": "Любви нет",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1621
+            }
+          },
+          {
+            "tag": "#2LUR92C2GP",
+            "name": "Washe Washe",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1791
+            }
+          },
+          {
+            "tag": "#YU8LQQGU0",
+            "name": "🐒T€|Ga$v¥🎉🎮",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1373
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2000C2YCL9",
+            "name": "voltexx",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1072
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1790
+            }
+          },
+          {
+            "tag": "#PUL0UVQ8R",
+            "name": "mirko",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 1775
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
