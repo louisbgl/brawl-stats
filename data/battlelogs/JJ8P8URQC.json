@@ -142532,5 +142532,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260914T120529.000Z",
+    "event": {
+      "id": 15001333,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Stroke of Luck"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 48,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#92Q9U92GR",
+        "name": "MrPieseł",
+        "brawler": {
+          "id": 16000016,
+          "name": "PAM",
+          "power": 9,
+          "trophies": 503
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9LYLLCG2J",
+            "name": "Крагер",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 735
+            }
+          },
+          {
+            "tag": "#GRGQ0J0P9",
+            "name": "#FUZI",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1210
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 9,
+              "trophies": 509
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LP0UY0P8L",
+            "name": "утка в кроксах",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1208
+            }
+          },
+          {
+            "tag": "#2CLP0Y9UJ",
+            "name": "TIMOHSTER",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 708
+            }
+          },
+          {
+            "tag": "#92Q9U92GR",
+            "name": "MrPieseł",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 9,
+              "trophies": 503
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
