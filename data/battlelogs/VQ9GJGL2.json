@@ -179144,5 +179144,398 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260914T075012.000Z",
+    "event": {
+      "id": 15000990,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Lilypond Grove"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 1,
+      "trophyChange": 15,
+      "players": [
+        {
+          "tag": "#VQ9GJGL2",
+          "name": "JOEL | OrDos_",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 415
+          }
+        },
+        {
+          "tag": "#2GC290QGRV",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000039,
+            "name": "COLETTE",
+            "power": 11,
+            "trophies": 472
+          }
+        },
+        {
+          "tag": "#22UU00PRPR",
+          "name": "@gene_bsmod",
+          "brawler": {
+            "id": 16000032,
+            "name": "MAX",
+            "power": 8,
+            "trophies": 490
+          }
+        },
+        {
+          "tag": "#2RPQ8Q89Q8",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000010,
+            "name": "EL PRIMO",
+            "power": 9,
+            "trophies": 356
+          }
+        },
+        {
+          "tag": "#29RQU0GVJP",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 9,
+            "trophies": 497
+          }
+        },
+        {
+          "tag": "#28C9CJLLCJ",
+          "name": "tg bladebots_bs",
+          "brawler": {
+            "id": 16000074,
+            "name": "CHARLIE",
+            "power": 9,
+            "trophies": 476
+          }
+        },
+        {
+          "tag": "#22YU8RP2J2",
+          "name": "TG: @genepereho",
+          "brawler": {
+            "id": 16000019,
+            "name": "PENNY",
+            "power": 10,
+            "trophies": 413
+          }
+        },
+        {
+          "tag": "#2YP8C2V99U",
+          "name": "summ",
+          "brawler": {
+            "id": 16000000,
+            "name": "SHELLY",
+            "power": 10,
+            "trophies": 375
+          }
+        },
+        {
+          "tag": "#2QQRU20J2P",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000047,
+            "name": "SQUEAK",
+            "power": 10,
+            "trophies": 439
+          }
+        },
+        {
+          "tag": "#2UGYQJY99J",
+          "name": "keith",
+          "brawler": {
+            "id": 16000056,
+            "name": "EVE",
+            "power": 11,
+            "trophies": 436
+          }
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260914T075159.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 76,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#Y28QLVYLV",
+        "name": "PACO|QG",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 995
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8QRGV9PYV",
+            "name": "Adam™️🧐🥱",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 911
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 430
+            }
+          },
+          {
+            "tag": "#PJ0C8U82C",
+            "name": "charlotte",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 734
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#J8CJ9JGY",
+            "name": "lou1s",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 9,
+              "trophies": 639
+            }
+          },
+          {
+            "tag": "#Y28QLVYLV",
+            "name": "PACO|QG",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 995
+            }
+          },
+          {
+            "tag": "#LP8J0GY9U",
+            "name": "Алексей",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 723
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260914T075329.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 64,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 11,
+          "trophies": 428
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CL0P2CQPJ",
+            "name": "kardo",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 852
+            }
+          },
+          {
+            "tag": "#90LGURPYL",
+            "name": "🔥/奧的斯|Otis\\🔥",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 529
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 428
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C2RVPQUR9",
+            "name": "mp",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 10,
+              "trophies": 665
+            }
+          },
+          {
+            "tag": "#2LUU9URJRV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 547
+            }
+          },
+          {
+            "tag": "#2U8RLVC22U",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 631
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260914T075615.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 122,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2UGGPCLYY",
+        "name": "👑NoLL💫",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 428
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QRQ29V92U",
+            "name": "txtled|TETSU🎀",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 8,
+              "trophies": 563
+            }
+          },
+          {
+            "tag": "#2UGGPCLYY",
+            "name": "👑NoLL💫",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 428
+            }
+          },
+          {
+            "tag": "#8QLR9LPJC",
+            "name": "Svoboda Luky",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 363
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ8YCUUV",
+            "name": "ITS TM NEKARHO",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 9,
+              "trophies": 204
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 438
+            }
+          },
+          {
+            "tag": "#YV8C9G98U",
+            "name": "zt",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 11,
+              "trophies": 508
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
