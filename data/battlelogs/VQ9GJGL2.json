@@ -179537,5 +179537,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260915T114847.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 101,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#8R889VGCQ",
+        "name": "GEJ | skarpeta",
+        "brawler": {
+          "id": 16000082,
+          "name": "BERRY",
+          "power": 11,
+          "trophies": 426
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8L2L0VCVL",
+            "name": "Lꫀ𝕘eɳda𝐫𝕪-☆-",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 220
+            }
+          },
+          {
+            "tag": "#J0V8Q2LPJ",
+            "name": "Jardo Pistolero",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 331
+            }
+          },
+          {
+            "tag": "#PY999P2QP",
+            "name": "JejdaMatějda",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 717
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JQQ2CYG",
+            "name": "TheWarlord951",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 707
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 436
+            }
+          },
+          {
+            "tag": "#8R889VGCQ",
+            "name": "GEJ | skarpeta",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 426
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260915T115335.000Z",
+    "event": {
+      "id": 15001323,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Triple Threat"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 144,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#YGJJ2G2PV",
+        "name": "donik",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 11,
+          "trophies": 1687
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1827
+            }
+          },
+          {
+            "tag": "#YGJJ2G2PV",
+            "name": "donik",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1687
+            }
+          },
+          {
+            "tag": "#2R2C0GPVR2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 11,
+              "trophies": 1735
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2R0Y88VGR0",
+            "name": "jhjoo",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1705
+            }
+          },
+          {
+            "tag": "#2RQR2UC9RQ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 1702
+            }
+          },
+          {
+            "tag": "#28JJRVL0RL",
+            "name": "tg: BL4D3_BR34D",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1740
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

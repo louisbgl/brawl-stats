@@ -11152,5 +11152,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260915T115914.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 35,
+      "starPlayer": {
+        "tag": "#2G092UU2PJ",
+        "name": "steki",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 1003
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2RJQPU9R0P",
+            "name": "yassine",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2VL2YQQQV",
+            "name": "itzRafa",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#2ULQ82P0CJ",
+            "name": "E9710",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1109
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V2Q929QCR",
+            "name": "MEHMET salih",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1040
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2G092UU2PJ",
+            "name": "steki",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1003
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
