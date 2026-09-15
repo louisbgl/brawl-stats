@@ -162756,5 +162756,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260915T111452.000Z",
+    "event": {
+      "id": 15001323,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Triple Threat"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 186,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 1779
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8Y2PYU20U",
+            "name": "Headshoot",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 2544
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1779
+            }
+          },
+          {
+            "tag": "#2C0RCCC0J8",
+            "name": "Trick",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1434
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GU9GC0RVR",
+            "name": "Toto",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#QCQ80PGY",
+            "name": "bav",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 892
+            }
+          },
+          {
+            "tag": "#8VJY9GJ89",
+            "name": "theblaster",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1003
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

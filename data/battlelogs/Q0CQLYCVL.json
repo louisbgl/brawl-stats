@@ -516945,5 +516945,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260915T111034.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 145,
+      "starPlayer": {
+        "tag": "#J00GQQP",
+        "name": "arroyo11",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1006
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GJY02UYPC",
+            "name": "мәке",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1148
+            }
+          },
+          {
+            "tag": "#J00GQQP",
+            "name": "arroyo11",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1006
+            }
+          },
+          {
+            "tag": "#2J9LC2QPP",
+            "name": "teresiano656",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1001
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L99JPQPU2",
+            "name": "про(рыблоко)",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 1010
+            }
+          },
+          {
+            "tag": "#L9LG8YU2C",
+            "name": "SHUMA",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1024
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1009
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
