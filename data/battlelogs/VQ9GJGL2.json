@@ -180365,5 +180365,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260915T172211.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 206,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1872
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9YPUJU8L2",
+            "name": "Deha",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1135
+            }
+          },
+          {
+            "tag": "#GQV09QCU8",
+            "name": "™£l §€v€n™",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1081
+            }
+          },
+          {
+            "tag": "#92C8RRLG8",
+            "name": "ВЕЛИКИЙ Спайк",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 2421
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RLRCR00UY",
+            "name": "Karl",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1611
+            }
+          },
+          {
+            "tag": "#J28GU8LQ",
+            "name": "Venegas29011",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1177
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1872
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260915T172735.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 266,
+      "trophyChange": -12,
+      "starPlayer": {
+        "tag": "#88Y8VVUUJ",
+        "name": "do.e",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 2244
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JCR20CQ8L",
+            "name": "Era",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1125
+            }
+          },
+          {
+            "tag": "#88Y8VVUUJ",
+            "name": "do.e",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 2244
+            }
+          },
+          {
+            "tag": "#2RPUV8LRYL",
+            "name": "даниел",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1521
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1887
+            }
+          },
+          {
+            "tag": "#2L809JJGR",
+            "name": "king_lo",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 11,
+              "trophies": 1080
+            }
+          },
+          {
+            "tag": "#82U2L0LUL",
+            "name": "✌❤ŜÄMÏ❤✌ĎŽ",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 10,
+              "trophies": 1029
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
