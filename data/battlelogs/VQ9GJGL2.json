@@ -180549,5 +180549,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260915T173303.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 296,
+      "trophyChange": -12,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1875
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L9V0QUU9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1535
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1875
+            }
+          },
+          {
+            "tag": "#2G0LQGQJ9J",
+            "name": "стич",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1569
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JQRQJVG2P",
+            "name": "SUPER LEO",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 1757
+            }
+          },
+          {
+            "tag": "#2L2RVV02Q8",
+            "name": "zal",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1201
+            }
+          },
+          {
+            "tag": "#L2GYUC99R",
+            "name": "golpa",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1115
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
