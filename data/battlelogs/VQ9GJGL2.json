@@ -180825,5 +180825,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260916T182949.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 266,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#QRJGY80LP",
+        "name": "trust my ayri",
+        "brawler": {
+          "id": 16000064,
+          "name": "GRAY",
+          "power": 11,
+          "trophies": 1321
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1765
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1894
+            }
+          },
+          {
+            "tag": "#QRJGY80LP",
+            "name": "trust my ayri",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 1321
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PRPPCP29",
+            "name": "oscaroto",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1130
+            }
+          },
+          {
+            "tag": "#8UL9CC2RU",
+            "name": "fhjcjfjdjfhf",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 2662
+            }
+          },
+          {
+            "tag": "#2PLCPLU8U",
+            "name": "BigMama",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1577
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
