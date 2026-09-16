@@ -517496,5 +517496,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260916T082400.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 149,
+      "starPlayer": {
+        "tag": "#2GQLCQYYCQ",
+        "name": "AvraDor73",
+        "brawler": {
+          "id": 16000089,
+          "name": "MEEPLE",
+          "power": 9,
+          "trophies": 318
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GQLCQYYCQ",
+            "name": "AvraDor73",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 9,
+              "trophies": 318
+            }
+          },
+          {
+            "tag": "#29880VLLU",
+            "name": "𝓚𝖔𝝇𝖒𝖔𝝇",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 435
+            }
+          },
+          {
+            "tag": "#90PYQLY2Q",
+            "name": "h1lexmeow❤",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 215
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22PYP22Q9Q",
+            "name": "gina",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 1,
+              "trophies": 55
+            }
+          },
+          {
+            "tag": "#L2GCULCQJ",
+            "name": "␈𝘊𝘪𝘶𝘧𝘧𝘰07",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 254
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 522
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260916T082747.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 36,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#PG9YCCRQ8",
+        "name": "ДЯДЯ ДЖАФАР🇦🇿",
+        "brawler": {
+          "id": 16000053,
+          "name": "LOLA",
+          "power": 11,
+          "trophies": 372
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YYGGC0CQ9",
+            "name": "FOOD|HOHDM",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 10,
+              "trophies": 514
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 522
+            }
+          },
+          {
+            "tag": "#PG9YCCRQ8",
+            "name": "ДЯДЯ ДЖАФАР🇦🇿",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 372
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CUY8QG22G",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 554
+            }
+          },
+          {
+            "tag": "#2JQQVVJC0Y",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 9,
+              "trophies": 524
+            }
+          },
+          {
+            "tag": "#2UR29LC980",
+            "name": "LAURIX",
+            "brawler": {
+              "id": 16000056,
+              "name": "EVE",
+              "power": 11,
+              "trophies": 521
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
