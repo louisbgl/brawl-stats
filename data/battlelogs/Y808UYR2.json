@@ -162848,5 +162848,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260916T093517.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 243,
+      "trophyChange": -11,
+      "starPlayer": {
+        "tag": "#2YL0RJLJJ2",
+        "name": "卩ㄖㄥㄖㄒ乇ㄥㄥ丨丨",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 1000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GG0QRJLCL",
+            "name": "*~yume🐾",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1174
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1794
+            }
+          },
+          {
+            "tag": "#9RLVY9YQ8",
+            "name": "Bella 👑",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1523
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJGQ8GCCC",
+            "name": "мурзик",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1187
+            }
+          },
+          {
+            "tag": "#2YL0RJLJJ2",
+            "name": "卩ㄖㄥㄖㄒ乇ㄥㄥ丨丨",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#PPR8YJYUU",
+            "name": "Wojciech",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
