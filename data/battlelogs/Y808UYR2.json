@@ -163860,5 +163860,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260916T183354.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 206,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1911
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1780
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1911
+            }
+          },
+          {
+            "tag": "#2YV0RPYCQV",
+            "name": "canavar",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1577
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22PLLP2U8J",
+            "name": "父親|Ali",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#28P0LC0JGP",
+            "name": "父親|Yusuf",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1071
+            }
+          },
+          {
+            "tag": "#RRRLGVYU",
+            "name": "meto92",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1464
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260916T183928.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 305,
+      "trophyChange": -11,
+      "starPlayer": {
+        "tag": "#2CJGUGYUG",
+        "name": "Hisum",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 1243
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1796
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1929
+            }
+          },
+          {
+            "tag": "#2QCQJ9UUJ",
+            "name": "PUTYOURHANDS UP",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 11,
+              "trophies": 1200
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#280YQJCJR",
+            "name": "Sora_zer0🇵🇸",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1418
+            }
+          },
+          {
+            "tag": "#2CJGUGYUG",
+            "name": "Hisum",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1243
+            }
+          },
+          {
+            "tag": "#8PRPGLC0V",
+            "name": "Bichee",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 1097
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
