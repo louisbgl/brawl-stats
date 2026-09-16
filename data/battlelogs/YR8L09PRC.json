@@ -370823,5 +370823,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260916T094353.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 42,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#GJQVY8G0",
+        "name": "Robas",
+        "brawler": {
+          "id": 16000028,
+          "name": "SANDY",
+          "power": 11,
+          "trophies": 915
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1061
+            }
+          },
+          {
+            "tag": "#9G9VVQQC",
+            "name": "raen.",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 9,
+              "trophies": 809
+            }
+          },
+          {
+            "tag": "#GJQVY8G0",
+            "name": "Robas",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 11,
+              "trophies": 915
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2G0YUPPLJV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 893
+            }
+          },
+          {
+            "tag": "#2G2UGYYGJY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 922
+            }
+          },
+          {
+            "tag": "#UCRG89Y8V",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 897
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

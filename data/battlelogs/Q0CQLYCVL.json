@@ -518413,5 +518413,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260916T093022.000Z",
+    "event": {
+      "id": 15001019,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Streets with No Name"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 154,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000029,
+          "name": "BEA",
+          "power": 11,
+          "trophies": 454
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YP8C9VYCQ",
+            "name": "RS/STALIN",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1956
+            }
+          },
+          {
+            "tag": "#PVLG0LPCQ",
+            "name": "Furios gang",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 9,
+              "trophies": 226
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 454
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8VQPJLCU",
+            "name": "MikhailYM",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 672
+            }
+          },
+          {
+            "tag": "#2UY2CRLCQR",
+            "name": "ダイアン",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 2078
+            }
+          },
+          {
+            "tag": "#2UGRQJRYVQ",
+            "name": "YFRX",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1280
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
