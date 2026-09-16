@@ -518689,5 +518689,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260916T190058.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 120,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#QJUPL0099",
+        "name": "ssukunn",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 519
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QJUPL0099",
+            "name": "ssukunn",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 519
+            }
+          },
+          {
+            "tag": "#2VY2JYVCQV",
+            "name": "SK|ABDD",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2006
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 473
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PJPG0U0QU",
+            "name": "3,14door",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1895
+            }
+          },
+          {
+            "tag": "#9PC8800Q8",
+            "name": "Wolverine",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 657
+            }
+          },
+          {
+            "tag": "#20JYRV2GYC",
+            "name": "타지로 / 아스타 707",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 2024
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260916T190932.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 68,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2CRPV0QYL0",
+        "name": "ottonator",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 10,
+          "trophies": 602
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#CCCQQURR",
+            "name": "[CLS] BIBON",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1132
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 485
+            }
+          },
+          {
+            "tag": "#82VCL8GVJ",
+            "name": "TRB|Jordan",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 877
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CRPV0QYL0",
+            "name": "ottonator",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 602
+            }
+          },
+          {
+            "tag": "#L9PCPJ9PL",
+            "name": "겨울💓❄️",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 430
+            }
+          },
+          {
+            "tag": "#P2QPGUJR9",
+            "name": "CR |よ Morris🌒",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 2036
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
