@@ -181745,5 +181745,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260917T145332.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 220,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#9898P8UCQ",
+        "name": "rere299",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 1025
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8R0U0JQRC",
+            "name": "Юлия",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1489
+            }
+          },
+          {
+            "tag": "#9898P8UCQ",
+            "name": "rere299",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1025
+            }
+          },
+          {
+            "tag": "#988RGYGQL",
+            "name": "BS | leksor 🔥",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1152
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1064
+            }
+          },
+          {
+            "tag": "#89LPPY2Y",
+            "name": "biskoty",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1335
+            }
+          },
+          {
+            "tag": "#GQ8CU90J0",
+            "name": "Jobro",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1444
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
