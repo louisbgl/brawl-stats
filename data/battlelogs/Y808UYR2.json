@@ -165372,5 +165372,136 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260917T133014.000Z",
+    "event": {
+      "id": 15001043,
+      "mode": "brawlBall5V5",
+      "modeId": 32,
+      "map": "Insane Streamer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "draw",
+      "duration": 210,
+      "starPlayer": {
+        "tag": "#RY8LY88J8",
+        "name": "teksi",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 2000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LJ2PRVPY8",
+            "name": "крошка nuggets",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1262
+            }
+          },
+          {
+            "tag": "#RVP889C20",
+            "name": "твоя семья",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1959
+            }
+          },
+          {
+            "tag": "#28JQRRQY0J",
+            "name": "SeniaaBirr",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1255
+            }
+          },
+          {
+            "tag": "#PJYJ098Q8",
+            "name": "קטן",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 1127
+            }
+          },
+          {
+            "tag": "#RY8LY88J8",
+            "name": "teksi",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1292
+            }
+          },
+          {
+            "tag": "#P9LULG2C9",
+            "name": "lobito",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1682
+            }
+          },
+          {
+            "tag": "#GVP0VRYQR",
+            "name": "GEB|Falix",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 2030
+            }
+          },
+          {
+            "tag": "#2UPG2PCV9",
+            "name": "Лола у меня",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 1204
+            }
+          },
+          {
+            "tag": "#9JC2URRY8",
+            "name": "Gin18",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1105
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
