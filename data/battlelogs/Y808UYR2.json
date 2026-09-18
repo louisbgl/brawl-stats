@@ -168263,5 +168263,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260918T111823.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 176,
+      "trophyChange": -12,
+      "starPlayer": {
+        "tag": "#28R0QCYC2",
+        "name": "Ворон",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 935
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28R0QCYC2",
+            "name": "Ворон",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 935
+            }
+          },
+          {
+            "tag": "#2CCGVVPGLP",
+            "name": "The Noob",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#GQ2Q0LQU",
+            "name": "Loïs",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1317
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1816
+            }
+          },
+          {
+            "tag": "#GU28GLG89",
+            "name": "<Lenny>",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1444
+            }
+          },
+          {
+            "tag": "#8QGRQU9Y0",
+            "name": "rrrr",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 1033
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
