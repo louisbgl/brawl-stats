@@ -16939,5 +16939,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260918T060627.000Z",
+    "event": {
+      "id": 15001331,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pump It Up"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 69,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#28YJRJJ0L9",
+        "name": "Sting | zeyn",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 398
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28YJRJJ0L9",
+            "name": "Sting | zeyn",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 398
+            }
+          },
+          {
+            "tag": "#P2JPRYUPL",
+            "name": "Sting| Lloyd",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 10,
+              "trophies": 933
+            }
+          },
+          {
+            "tag": "#229LGGLRLG",
+            "name": "𝘚𝘺𝘳𝘰𝘹🤍",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 8,
+              "trophies": 550
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 9,
+              "trophies": 853
+            }
+          },
+          {
+            "tag": "#PQVUJQCP",
+            "name": "bot 1",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 789
+            }
+          },
+          {
+            "tag": "#2228UQYPR2",
+            "name": "wrrr",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1090
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
