@@ -520879,5 +520879,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260918T212745.000Z",
+    "event": {
+      "id": 15001288,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Tasty Berry"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 101,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2QGRGR0G90",
+        "name": "SK | Memorizing",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 1822
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 499
+            }
+          },
+          {
+            "tag": "#YVR98J0Q8",
+            "name": "_YOU_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 568
+            }
+          },
+          {
+            "tag": "#LPPJ9VUJ9",
+            "name": "Tom",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 877
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C0U89GQ28",
+            "name": "vvai)",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 10,
+              "trophies": 1418
+            }
+          },
+          {
+            "tag": "#2QGRGR0G90",
+            "name": "SK | Memorizing",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1822
+            }
+          },
+          {
+            "tag": "#CVLUPV9CU",
+            "name": "lizhyLize",
+            "brawler": {
+              "id": 16000095,
+              "name": "ALLI",
+              "power": 11,
+              "trophies": 819
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
