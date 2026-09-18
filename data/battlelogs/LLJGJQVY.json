@@ -664407,5 +664407,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260918T183214.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 114,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#8UPL2Q88L",
+        "name": "ZT|Marek🔥",
+        "brawler": {
+          "id": 16000018,
+          "name": "DARRYL",
+          "power": 11,
+          "trophies": 2197
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPVU8GYCG",
+            "name": "BIG|Chost🍬",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#P2VYCPYRR",
+            "name": "Mr. E~🇮🇹🧸",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#GRVJ2YUUU",
+            "name": "le mate boosté",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1523
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 1938
+            }
+          },
+          {
+            "tag": "#8UPL2Q88L",
+            "name": "ZT|Marek🔥",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 2197
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
