@@ -589730,5 +589730,121 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260918T132957.000Z",
+    "event": {
+      "id": 15000953,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Cavern Churn"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "friendly",
+      "rank": 2,
+      "players": [
+        {
+          "tag": "#V0C",
+          "name": "Bot 9",
+          "brawler": {
+            "id": 16000000,
+            "name": "SHELLY",
+            "power": -1,
+            "trophies": -1
+          }
+        },
+        {
+          "tag": "#98QG0VCJ2",
+          "name": "JOEL | køkønut",
+          "brawler": {
+            "id": 16000014,
+            "name": "BO",
+            "power": -1,
+            "trophies": -1
+          }
+        },
+        {
+          "tag": "#LQY",
+          "name": "Bot 4",
+          "brawler": {
+            "id": 16000060,
+            "name": "SAM",
+            "power": -1,
+            "trophies": -1
+          }
+        },
+        {
+          "tag": "#JL9",
+          "name": "Bot 7",
+          "brawler": {
+            "id": 16000082,
+            "name": "BERRY",
+            "power": -1,
+            "trophies": -1
+          }
+        },
+        {
+          "tag": "#Y92",
+          "name": "Bot 3",
+          "brawler": {
+            "id": 16000096,
+            "name": "TRUNK",
+            "power": -1,
+            "trophies": -1
+          }
+        },
+        {
+          "tag": "#8GQ",
+          "name": "Bot 1",
+          "brawler": {
+            "id": 16000095,
+            "name": "ALLI",
+            "power": -1,
+            "trophies": -1
+          }
+        },
+        {
+          "tag": "#R2V",
+          "name": "Bot 6",
+          "brawler": {
+            "id": 16000070,
+            "name": "CORDELIUS",
+            "power": -1,
+            "trophies": -1
+          }
+        },
+        {
+          "tag": "#QCR",
+          "name": "Bot 5",
+          "brawler": {
+            "id": 16000051,
+            "name": "ASH",
+            "power": -1,
+            "trophies": -1
+          }
+        },
+        {
+          "tag": "#CJQ",
+          "name": "Bot 8",
+          "brawler": {
+            "id": 16000079,
+            "name": "ANGELO",
+            "power": -1,
+            "trophies": -1
+          }
+        },
+        {
+          "tag": "#9UC",
+          "name": "Bot 2",
+          "brawler": {
+            "id": 16000079,
+            "name": "ANGELO",
+            "power": -1,
+            "trophies": -1
+          }
+        }
+      ]
+    }
   }
 ]
