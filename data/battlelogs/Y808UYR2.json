@@ -168631,5 +168631,54 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260919T125933.000Z",
+    "event": {
+      "id": 15001298,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "MEGA BOSS DUO"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#Y808UYR2",
+          "name": "JOEL|MissANG3ll",
+          "brawler": {
+            "id": 16000016,
+            "name": "PAM",
+            "power": 11,
+            "trophies": 689
+          }
+        },
+        {
+          "tag": "#VQ9GJGL2",
+          "name": "JOEL | OrDos_",
+          "brawler": {
+            "id": 16000027,
+            "name": "8-BIT",
+            "power": 11,
+            "trophies": 1915
+          }
+        },
+        {
+          "tag": "#PG000JCG2",
+          "name": "asdi🍌",
+          "brawler": {
+            "id": 16000005,
+            "name": "SPIKE",
+            "power": 11,
+            "trophies": 1129
+          }
+        }
+      ],
+      "level": {
+        "name": "Normal",
+        "id": 0
+      }
+    }
   }
 ]
