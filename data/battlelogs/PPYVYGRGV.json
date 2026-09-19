@@ -20254,5 +20254,54 @@
         "id": 2
       }
     }
+  },
+  {
+    "battleTime": "20260919T125923.000Z",
+    "event": {
+      "id": 15001298,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "MEGA BOSS DUO"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2028YUV9",
+          "name": "PoissonClown69",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 1012
+          }
+        },
+        {
+          "tag": "#PPYVYGRGV",
+          "name": "spiky",
+          "brawler": {
+            "id": 16000023,
+            "name": "LEON",
+            "power": 11,
+            "trophies": 1024
+          }
+        },
+        {
+          "tag": "#2L28JQ8YJ9",
+          "name": "skit.mf",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 2000
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
   }
 ]
