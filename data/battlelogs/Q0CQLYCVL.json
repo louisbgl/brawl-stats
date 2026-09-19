@@ -523707,5 +523707,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260919T180133.000Z",
+    "event": {
+      "id": 15000011,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Undermine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 112,
+      "starPlayer": {
+        "tag": "#2UYV9QC0LR",
+        "name": "??",
+        "brawler": {
+          "id": 16000051,
+          "name": "ASH",
+          "power": 11,
+          "trophies": 9
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0V2GVR9Y",
+            "name": "𝕰𝖒𝖗𝖊𝖊𝖊",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#2LYPPY2LQ0",
+            "name": "🎭lecitron🎭",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UYV9QC0LR",
+            "name": "??",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#GRYR29U09",
+            "name": "Влади",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#LCP220UG9",
+            "name": "ebus",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
