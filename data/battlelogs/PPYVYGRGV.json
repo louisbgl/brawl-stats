@@ -20107,5 +20107,152 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260919T103824.000Z",
+    "event": {
+      "id": 15001298,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "MEGA BOSS DUO"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#PPYVYGRGV",
+          "name": "spiky",
+          "brawler": {
+            "id": 16000023,
+            "name": "LEON",
+            "power": 11,
+            "trophies": 1024
+          }
+        },
+        {
+          "tag": "#P00PCV99G",
+          "name": "NaVi|Squidwart",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 1353
+          }
+        },
+        {
+          "tag": "#G0Y8YVRR0",
+          "name": "без трусоB",
+          "brawler": {
+            "id": 16000011,
+            "name": "MORTIS",
+            "power": 11,
+            "trophies": 1293
+          }
+        }
+      ],
+      "level": {
+        "name": "Normal",
+        "id": 0
+      }
+    }
+  },
+  {
+    "battleTime": "20260919T105112.000Z",
+    "event": {
+      "id": 15001298,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "MEGA BOSS DUO"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#PPYVYGRGV",
+          "name": "spiky",
+          "brawler": {
+            "id": 16000023,
+            "name": "LEON",
+            "power": 11,
+            "trophies": 1024
+          }
+        },
+        {
+          "tag": "#2YY22G2G89",
+          "name": "AnimeHanix14",
+          "brawler": {
+            "id": 16000039,
+            "name": "COLETTE",
+            "power": 11,
+            "trophies": 240
+          }
+        },
+        {
+          "tag": "#2YPP92PUYG",
+          "name": "Kuba Kox🤫",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1436
+          }
+        }
+      ],
+      "level": {
+        "name": "Hard",
+        "id": 1
+      }
+    }
+  },
+  {
+    "battleTime": "20260919T105359.000Z",
+    "event": {
+      "id": 15001298,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "MEGA BOSS DUO"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2U9CC8QV22",
+          "name": "Соня♡",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 9,
+            "trophies": 270
+          }
+        },
+        {
+          "tag": "#2LCLVRQV89",
+          "name": "SK|M?o 2",
+          "brawler": {
+            "id": 16000039,
+            "name": "COLETTE",
+            "power": 11,
+            "trophies": 507
+          }
+        },
+        {
+          "tag": "#PPYVYGRGV",
+          "name": "spiky",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 1,
+            "trophies": 0
+          }
+        }
+      ],
+      "level": {
+        "name": "Expert",
+        "id": 2
+      }
+    }
   }
 ]
