@@ -21439,5 +21439,122 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260919T133149.000Z",
+    "event": {
+      "id": 15001301,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Cavern Churn"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 1,
+      "trophyChange": 13,
+      "players": [
+        {
+          "tag": "#PPYVYGRGV",
+          "name": "spiky",
+          "brawler": {
+            "id": 16000047,
+            "name": "SQUEAK",
+            "power": 7,
+            "trophies": 0
+          }
+        },
+        {
+          "tag": "#2G8G990G8Q",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000078,
+            "name": "MELODIE",
+            "power": 7,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#2V09UY2QGP",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000005,
+            "name": "SPIKE",
+            "power": 6,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#VJ8YLGCC2",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000029,
+            "name": "BEA",
+            "power": 6,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#2L0LCGVQVL",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000074,
+            "name": "CHARLIE",
+            "power": 6,
+            "trophies": 9
+          }
+        },
+        {
+          "tag": "#2LRG8RJR92",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000059,
+            "name": "OTIS",
+            "power": 4,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#2PV2QCYY22",
+          "name": "tg:surgeoffline",
+          "brawler": {
+            "id": 16000038,
+            "name": "SURGE",
+            "power": 7,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#2R9RQG2V28",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000000,
+            "name": "SHELLY",
+            "power": 6,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#2QVVR92YCU",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 7,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#2QU8LYPRY8",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 5,
+            "trophies": 5
+          }
+        }
+      ]
+    }
   }
 ]
