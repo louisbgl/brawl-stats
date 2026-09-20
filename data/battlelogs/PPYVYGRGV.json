@@ -21556,5 +21556,54 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20260920T115313.000Z",
+    "event": {
+      "id": 15001298,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "MEGA BOSS DUO"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#PPYVYGRGV",
+          "name": "spiky",
+          "brawler": {
+            "id": 16000023,
+            "name": "LEON",
+            "power": 11,
+            "trophies": 1024
+          }
+        },
+        {
+          "tag": "#YCUQ00998",
+          "name": "NAVİ",
+          "brawler": {
+            "id": 16000021,
+            "name": "GENE",
+            "power": 9,
+            "trophies": 544
+          }
+        },
+        {
+          "tag": "#GQUV08QQL",
+          "name": "Ryûzaki",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1260
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible",
+        "id": 5
+      }
+    }
   }
 ]
