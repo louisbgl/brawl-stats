@@ -371561,5 +371561,54 @@
         "id": 1
       }
     }
+  },
+  {
+    "battleTime": "20260920T092339.000Z",
+    "event": {
+      "id": 15001298,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "MEGA BOSS DUO"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#20QUYRJUPP",
+          "name": "romane",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1313
+          }
+        },
+        {
+          "tag": "#899PRPCQQ",
+          "name": "qbert",
+          "brawler": {
+            "id": 16000003,
+            "name": "BROCK",
+            "power": 11,
+            "trophies": 1311
+          }
+        },
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1218
+          }
+        }
+      ],
+      "level": {
+        "name": "Expert",
+        "id": 2
+      }
+    }
   }
 ]
