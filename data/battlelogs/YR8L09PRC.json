@@ -371610,5 +371610,74 @@
         "id": 2
       }
     }
+  },
+  {
+    "battleTime": "20260921T083917.000Z",
+    "event": {
+      "id": 15001299,
+      "mode": "megaBoss5P",
+      "modeId": 77,
+      "map": "MEGA BOSS DUO (5 player)"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2QYYJLLQU",
+          "name": "maleha",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1019
+          }
+        },
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1218
+          }
+        },
+        {
+          "tag": "#2GJ998QYU9",
+          "name": "marsik",
+          "brawler": {
+            "id": 16000003,
+            "name": "BROCK",
+            "power": 11,
+            "trophies": 1172
+          }
+        },
+        {
+          "tag": "#LRGRP20UV",
+          "name": "Tonda 007",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 1183
+          }
+        },
+        {
+          "tag": "#28990UJLY",
+          "name": "Taneqe_",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1025
+          }
+        }
+      ],
+      "level": {
+        "name": "Normal",
+        "id": 0
+      }
+    }
   }
 ]
