@@ -28246,5 +28246,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260922T114915.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 139,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#PPYVYGRGV",
+        "name": "spiky",
+        "brawler": {
+          "id": 16000086,
+          "name": "SHADE",
+          "power": 11,
+          "trophies": 225
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 225
+            }
+          },
+          {
+            "tag": "#2L0Q0RQQLP",
+            "name": "Dragon Ball",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 10,
+              "trophies": 228
+            }
+          },
+          {
+            "tag": "#2C2UL2J2L2",
+            "name": "Lukas🐻",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 7,
+              "trophies": 273
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PLL9CGGYV",
+            "name": "соль:()",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 461
+            }
+          },
+          {
+            "tag": "#LCQG8JPQP",
+            "name": "twitch|kelaiu",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 667
+            }
+          },
+          {
+            "tag": "#98YURQJ2R",
+            "name": "ЧИТЕР000",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 605
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
