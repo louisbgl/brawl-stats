@@ -27970,5 +27970,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260922T102926.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 63,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#PPYVYGRGV",
+        "name": "spiky",
+        "brawler": {
+          "id": 16000086,
+          "name": "SHADE",
+          "power": 11,
+          "trophies": 165
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 165
+            }
+          },
+          {
+            "tag": "#2JQQYYUQ80",
+            "name": "Путь про 2.0🎃",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 4,
+              "trophies": 170
+            }
+          },
+          {
+            "tag": "#QG20RL9C2",
+            "name": "Mwhooix",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 1,
+              "trophies": 255
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UYUP2Q9V8",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 199
+            }
+          },
+          {
+            "tag": "#2JJURGGR2G",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 8,
+              "trophies": 193
+            }
+          },
+          {
+            "tag": "#2UQR82RLGR",
+            "name": "ЗВЁЗДОЧКА МЭНДИ",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 182
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
