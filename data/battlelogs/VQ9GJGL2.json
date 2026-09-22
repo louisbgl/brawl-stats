@@ -188166,5 +188166,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260922T100521.000Z",
+    "event": {
+      "id": 15001323,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Triple Threat"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 297,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#8PL2VC9V2",
+        "name": "BANKAI",
+        "brawler": {
+          "id": 16000080,
+          "name": "DRACO",
+          "power": 11,
+          "trophies": 1148
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9QGRGLQGL",
+            "name": "ahej",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 904
+            }
+          },
+          {
+            "tag": "#802YG89P0",
+            "name": "sbost",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 2048
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 897
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QL80QPJCP",
+            "name": "KRISTINA R. ..7",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1518
+            }
+          },
+          {
+            "tag": "#8PL2VC9V2",
+            "name": "BANKAI",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 1148
+            }
+          },
+          {
+            "tag": "#LR2YYVU2P",
+            "name": "🌿q1yoku.🤍/K",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2214
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260922T101123.000Z",
+    "event": {
+      "id": 15001323,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Triple Threat"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 336,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 892
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YPYJCVR2V",
+            "name": "◤✞𝕯𝖆𝖗𝖐✞◥",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1274
+            }
+          },
+          {
+            "tag": "#VQ2LVQJRJ",
+            "name": "SO | 312cv",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1034
+            }
+          },
+          {
+            "tag": "#8GGGUL9UU",
+            "name": "ЛУЧШИЙ",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1162
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2G099CV0CY",
+            "name": "mortelle",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 2002
+            }
+          },
+          {
+            "tag": "#L09QUVYY0",
+            "name": "Dani",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1013
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 892
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

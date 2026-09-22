@@ -602254,5 +602254,97 @@
         "id": 5
       }
     }
+  },
+  {
+    "battleTime": "20260922T102931.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 85,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#98JJVG8VQ",
+        "name": "frezzex",
+        "brawler": {
+          "id": 16000045,
+          "name": "STU",
+          "power": 11,
+          "trophies": 1354
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1294
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1436
+            }
+          },
+          {
+            "tag": "#YU200CYC",
+            "name": "fut|wasabi",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2046
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98JJVG8VQ",
+            "name": "frezzex",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 1354
+            }
+          },
+          {
+            "tag": "#9RQVJRJU0",
+            "name": "MQ3|ZyroX",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 2095
+            }
+          },
+          {
+            "tag": "#P20UY0URV",
+            "name": "MQ3_Pepito",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 483
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
