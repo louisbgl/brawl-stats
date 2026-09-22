@@ -684688,5 +684688,74 @@
         "id": 5
       }
     }
+  },
+  {
+    "battleTime": "20260922T083627.000Z",
+    "event": {
+      "id": 15001299,
+      "mode": "megaBoss5P",
+      "modeId": 77,
+      "map": "MEGA BOSS DUO (5 player)"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#2CVJQUGVG2",
+          "name": "𝒔𝒖𝒉𝒓𝒐𝒃",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 2138
+          }
+        },
+        {
+          "tag": "#9V88802Q8",
+          "name": "PIOZDA",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1002
+          }
+        },
+        {
+          "tag": "#L9YPGRGV9",
+          "name": "dashka",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 11,
+            "trophies": 1005
+          }
+        },
+        {
+          "tag": "#LLJGJQVY",
+          "name": "JOEL | Escorte",
+          "brawler": {
+            "id": 16000059,
+            "name": "OTIS",
+            "power": 11,
+            "trophies": 1503
+          }
+        },
+        {
+          "tag": "#YCGC999YL",
+          "name": "~𝙎𝙝𝙖𝙙𝙤𝙬~",
+          "brawler": {
+            "id": 16000039,
+            "name": "COLETTE",
+            "power": 11,
+            "trophies": 1003
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible",
+        "id": 5
+      }
+    }
   }
 ]
