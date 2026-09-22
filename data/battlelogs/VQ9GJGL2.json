@@ -188074,5 +188074,97 @@
         "id": 5
       }
     }
+  },
+  {
+    "battleTime": "20260922T095955.000Z",
+    "event": {
+      "id": 15001323,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Triple Threat"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 198,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#802YG89P0",
+        "name": "sbost",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 2036
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y2YLPGRQ",
+            "name": "21|HanSoloTR",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 2456
+            }
+          },
+          {
+            "tag": "#82CJUGQ8J",
+            "name": "DeadBoy",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 1030
+            }
+          },
+          {
+            "tag": "#22V0LR0L8P",
+            "name": "Çaylak",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 1024
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 880
+            }
+          },
+          {
+            "tag": "#802YG89P0",
+            "name": "sbost",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 2036
+            }
+          },
+          {
+            "tag": "#9QGRGLQGL",
+            "name": "ahej",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 884
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
