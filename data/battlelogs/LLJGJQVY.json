@@ -688529,5 +688529,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260922T175928.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 142,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#9902QGVJ9",
+        "name": "斬𝑴𝒓𝑷𝑨𝑩𝑳𝑶",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 1513
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9CY8J0CGJ",
+            "name": "AHS",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#2UUUQQ8R8",
+            "name": "Henriloyd",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1710
+            }
+          },
+          {
+            "tag": "#2VU0222PLU",
+            "name": "SOL | darkevil",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2561
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GP90VLRYU",
+            "name": "Wizziy❤️‍🔥",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2008
+            }
+          },
+          {
+            "tag": "#9902QGVJ9",
+            "name": "斬𝑴𝒓𝑷𝑨𝑩𝑳𝑶",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1513
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1570
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
