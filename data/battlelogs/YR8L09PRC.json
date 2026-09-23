@@ -373301,5 +373301,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260923T074333.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 29,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#JGPP0PL2L",
+        "name": "mainihani🏄‍♂️",
+        "brawler": {
+          "id": 16000017,
+          "name": "TARA",
+          "power": 10,
+          "trophies": 286
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9P2R9QJ09",
+            "name": "IT",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 635
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 9,
+              "trophies": 265
+            }
+          },
+          {
+            "tag": "#JGPP0PL2L",
+            "name": "mainihani🏄‍♂️",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 10,
+              "trophies": 286
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GJ2GJJJQ2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 9,
+              "trophies": 487
+            }
+          },
+          {
+            "tag": "#2PQRVGJ0P2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 459
+            }
+          },
+          {
+            "tag": "#2G9L9YQCUV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 415
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260923T074459.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 52,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#8P2U20JCP",
+        "name": "compa",
+        "brawler": {
+          "id": 16000086,
+          "name": "SHADE",
+          "power": 11,
+          "trophies": 608
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P9PRU8998",
+            "name": "𝐵𝑒𝑙𝑎𝑙 ♪",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 9,
+              "trophies": 409
+            }
+          },
+          {
+            "tag": "#8P2U20JCP",
+            "name": "compa",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 608
+            }
+          },
+          {
+            "tag": "#P20QVYQC9",
+            "name": "落 niko 🃚",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 860
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LL9LU08VG",
+            "name": "dragonX34070",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 760
+            }
+          },
+          {
+            "tag": "#9JQQG9GQ9",
+            "name": "il ninjadisonga",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 5,
+              "trophies": 213
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 9,
+              "trophies": 279
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
