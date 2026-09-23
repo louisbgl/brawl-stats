@@ -529806,5 +529806,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260923T183031.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 38,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#JC8YJPJGJ",
+        "name": "nachooo",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 358
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G9G2QRYL",
+            "name": "Master Jus",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 874
+            }
+          },
+          {
+            "tag": "#Y09Y0VCQ",
+            "name": "dmo4o",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 645
+            }
+          },
+          {
+            "tag": "#JC8YJPJGJ",
+            "name": "nachooo",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 358
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 11,
+              "trophies": 843
+            }
+          },
+          {
+            "tag": "#P88QUUYPU",
+            "name": "Nikolas vog",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 870
+            }
+          },
+          {
+            "tag": "#2J88VRLJUJ",
+            "name": "snickers",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 739
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
