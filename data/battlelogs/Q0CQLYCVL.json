@@ -528427,5 +528427,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260923T105935.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 130,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#PV8PRJ8Y9",
+        "name": "Саски учихо",
+        "brawler": {
+          "id": 16000059,
+          "name": "OTIS",
+          "power": 11,
+          "trophies": 1297
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#80UL9PVVV",
+            "name": "ABUL5EL",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 669
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 11,
+              "trophies": 634
+            }
+          },
+          {
+            "tag": "#2YCJY8CPJ8",
+            "name": "TH|GabiDa",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 790
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GUPRQ9PR9",
+            "name": "🇵🇸 [Ali] √",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 10,
+              "trophies": 947
+            }
+          },
+          {
+            "tag": "#2CGCR0UCLG",
+            "name": "A.y✨",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 621
+            }
+          },
+          {
+            "tag": "#PV8PRJ8Y9",
+            "name": "Саски учихо",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 1297
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
