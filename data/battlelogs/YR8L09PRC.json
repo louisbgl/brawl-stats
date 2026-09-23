@@ -373209,5 +373209,97 @@
         "id": 5
       }
     }
+  },
+  {
+    "battleTime": "20260923T061158.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 168,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#2LVQR0QY2V",
+        "name": "ahaha t'es nul",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 706
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2J2P22PCLU",
+            "name": "البطل",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 10,
+              "trophies": 750
+            }
+          },
+          {
+            "tag": "#LQQ09PUC9",
+            "name": "Wall hack)",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 863
+            }
+          },
+          {
+            "tag": "#2C9CR0PJ2",
+            "name": "Stiscioᴷⁱˡˡᵧₒᵤツ",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 7,
+              "trophies": 380
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LVQR0QY2V",
+            "name": "ahaha t'es nul",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 706
+            }
+          },
+          {
+            "tag": "#8CLVJLGJG",
+            "name": "𝒟ℴ𝓂𝒾𝓃 ت",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 497
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 9,
+              "trophies": 252
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
