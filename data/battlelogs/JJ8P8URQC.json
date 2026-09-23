@@ -143359,5 +143359,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260923T104027.000Z",
+    "event": {
+      "id": 15001317,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 64,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#YGU0Q8U0V",
+        "name": "Abdø",
+        "brawler": {
+          "id": 16000081,
+          "name": "LILY",
+          "power": 11,
+          "trophies": 1998
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 613
+            }
+          },
+          {
+            "tag": "#Y90LLR9R",
+            "name": "Totti10",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 712
+            }
+          },
+          {
+            "tag": "#YVPYQYLRR",
+            "name": "Młody",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 9,
+              "trophies": 990
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YGU0Q8U0V",
+            "name": "Abdø",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 1998
+            }
+          },
+          {
+            "tag": "#RP8LUPJ2Q",
+            "name": "jajajajajaja",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1785
+            }
+          },
+          {
+            "tag": "#22L8Y9U90P",
+            "name": "╾━╤デ╦︻",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 7,
+              "trophies": 472
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
