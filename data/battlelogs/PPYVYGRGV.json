@@ -31577,5 +31577,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260924T155541.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 26,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2V0JPP892G",
+        "name": "LL/leon chill",
+        "brawler": {
+          "id": 16000106,
+          "name": "BOLT",
+          "power": 11,
+          "trophies": 1632
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V0JPP892G",
+            "name": "LL/leon chill",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 1632
+            }
+          },
+          {
+            "tag": "#2GG2G8LQ0Y",
+            "name": "PRO|🏆GG.EZ🏆",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1489
+            }
+          },
+          {
+            "tag": "#2CQLGGP0V0",
+            "name": "Firixe",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 1177
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 566
+            }
+          },
+          {
+            "tag": "#2CYRCYGQ9J",
+            "name": "bot 👎🏿",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1338
+            }
+          },
+          {
+            "tag": "#2J09YCP80",
+            "name": "babapıro",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 556
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
