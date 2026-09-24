@@ -31282,5 +31282,300 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260924T113824.000Z",
+    "event": {
+      "id": 15000295,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "No Excuses"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "friendly",
+      "result": "defeat",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#JRJCQLVP",
+        "name": "dty-tt",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": -1,
+          "trophies": -1
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260924T114229.000Z",
+    "event": {
+      "id": 15000295,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "No Excuses"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "friendly",
+      "result": "victory",
+      "duration": 70,
+      "starPlayer": {
+        "tag": "#PPYVYGRGV",
+        "name": "spiky",
+        "brawler": {
+          "id": 16000029,
+          "name": "BEA",
+          "power": -1,
+          "trophies": -1
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#9UC",
+            "name": "Bot 2",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#Y92",
+            "name": "Bot 3",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#LQY",
+            "name": "Bot 4",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#QCR",
+            "name": "Bot 5",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260924T114537.000Z",
+    "event": {
+      "id": 15000295,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "No Excuses"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "friendly",
+      "result": "victory",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#PPYVYGRGV",
+        "name": "spiky",
+        "brawler": {
+          "id": 16000029,
+          "name": "BEA",
+          "power": -1,
+          "trophies": -1
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260924T114829.000Z",
+    "event": {
+      "id": 15000295,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "No Excuses"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "friendly",
+      "result": "defeat",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#JRJCQLVP",
+        "name": "dty-tt",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": -1,
+          "trophies": -1
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260924T115132.000Z",
+    "event": {
+      "id": 15000295,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "No Excuses"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "friendly",
+      "result": "defeat",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#JRJCQLVP",
+        "name": "dty-tt",
+        "brawler": {
+          "id": 16000068,
+          "name": "MAISIE",
+          "power": -1,
+          "trophies": -1
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
