@@ -175890,5 +175890,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260925T153002.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 173,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#2CYQLYUQPY",
+        "name": "ZGEGOU",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 1031
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LYYUQJLJQ",
+            "name": "ZenoxNr1 99",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1311
+            }
+          },
+          {
+            "tag": "#2Q89JVJ2VV",
+            "name": "komodo ejderi",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 962
+            }
+          },
+          {
+            "tag": "#28L2LU2JGY",
+            "name": "Musa 78🇫🇷",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1261
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CYQLYUQPY",
+            "name": "ZGEGOU",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1031
+            }
+          },
+          {
+            "tag": "#829C0JCRU",
+            "name": "Diaceamare",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 948
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2154
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
