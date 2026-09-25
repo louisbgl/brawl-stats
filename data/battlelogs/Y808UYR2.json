@@ -176074,5 +176074,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260925T212948.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 185,
+      "trophyChange": -12,
+      "starPlayer": {
+        "tag": "#9JPPYJ0Y",
+        "name": "darkome",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1777
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2178
+            }
+          },
+          {
+            "tag": "#PQJ2V8GVC",
+            "name": "БАБА ЯГА",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 10,
+              "trophies": 781
+            }
+          },
+          {
+            "tag": "#9RVGP9Y8P",
+            "name": "MZCHRISTIAN3",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1121
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QJ8CUCJUP",
+            "name": "benturk 32",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 1169
+            }
+          },
+          {
+            "tag": "#JVG8Y020",
+            "name": "FlexMeister",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 880
+            }
+          },
+          {
+            "tag": "#9JPPYJ0Y",
+            "name": "darkome",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1777
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
