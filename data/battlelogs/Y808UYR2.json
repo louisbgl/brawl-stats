@@ -175154,5 +175154,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260925T065920.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 273,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#YV9Y22QYV",
+        "name": "лысеш",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1828
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2058
+            }
+          },
+          {
+            "tag": "#2JLQY89LR",
+            "name": "Xoner",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1254
+            }
+          },
+          {
+            "tag": "#YV9Y22QYV",
+            "name": "лысеш",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1828
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YJJ2YCPQV",
+            "name": "dauntii",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 764
+            }
+          },
+          {
+            "tag": "#QY0U0J9J0",
+            "name": "#ПЕЛЬМЕНЬ/GOLD#",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 772
+            }
+          },
+          {
+            "tag": "#2Q28GVLY89",
+            "name": "олег",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1684
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
