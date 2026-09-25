@@ -31853,5 +31853,309 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260925T060607.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 65,
+      "starPlayer": {
+        "tag": "#20QYUGYGJ2",
+        "name": "adc3fln",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 9,
+          "trophies": 424
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2U2UVG8JCR",
+            "name": "lamine yamal",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 7,
+              "trophies": 500
+            }
+          },
+          {
+            "tag": "#2ULPGURCLJ",
+            "name": "LL|el ferdi",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 10,
+              "trophies": 354
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 585
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2R2L2GQL2U",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 10,
+              "trophies": 461
+            }
+          },
+          {
+            "tag": "#20QYUGYGJ2",
+            "name": "adc3fln",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 424
+            }
+          },
+          {
+            "tag": "#28J22P9PGL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 524
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260925T060829.000Z",
+    "event": {
+      "id": 15000460,
+      "mode": "tagTeam",
+      "modeId": 24,
+      "map": "No Surrender"
+    },
+    "battle": {
+      "mode": "duels",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 78,
+      "players": [
+        {
+          "tag": "#2CJ2LG0P0Q",
+          "name": "tvistyyy",
+          "brawlers": [
+            {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1211,
+              "trophyChange": -3
+            },
+            {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1591,
+              "trophyChange": -3
+            },
+            {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 827,
+              "trophyChange": -3
+            }
+          ]
+        },
+        {
+          "tag": "#PPYVYGRGV",
+          "name": "spiky",
+          "brawlers": [
+            {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 585,
+              "trophyChange": 5
+            },
+            {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1293,
+              "trophyChange": 5
+            },
+            {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 7,
+              "trophies": 405,
+              "trophyChange": 4
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260925T061146.000Z",
+    "event": {
+      "id": 15000460,
+      "mode": "tagTeam",
+      "modeId": 24,
+      "map": "No Surrender"
+    },
+    "battle": {
+      "mode": "duels",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 146,
+      "players": [
+        {
+          "tag": "#PPYVYGRGV",
+          "name": "spiky",
+          "brawlers": [
+            {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 590,
+              "trophyChange": 5
+            },
+            {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1298,
+              "trophyChange": 5
+            },
+            {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 7,
+              "trophies": 409,
+              "trophyChange": 5
+            }
+          ]
+        },
+        {
+          "tag": "#LPQ8VC9JC",
+          "name": "trust me…",
+          "brawlers": [
+            {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 412,
+              "trophyChange": -1
+            },
+            {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 359,
+              "trophyChange": -1
+            },
+            {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 11,
+              "trophies": 368,
+              "trophyChange": -1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20260925T061315.000Z",
+    "event": {
+      "id": 15000460,
+      "mode": "tagTeam",
+      "modeId": 24,
+      "map": "No Surrender"
+    },
+    "battle": {
+      "mode": "duels",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 62,
+      "players": [
+        {
+          "tag": "#PPYVYGRGV",
+          "name": "spiky",
+          "brawlers": [
+            {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 595,
+              "trophyChange": 6
+            },
+            {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1303,
+              "trophyChange": 6
+            },
+            {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 7,
+              "trophies": 414,
+              "trophyChange": 4
+            }
+          ]
+        },
+        {
+          "tag": "#2RJ9Y9LUYL",
+          "name": "soja pop",
+          "brawlers": [
+            {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 720,
+              "trophyChange": -4
+            },
+            {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2006,
+              "trophyChange": -4
+            },
+            {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 10,
+              "trophies": 223,
+              "trophyChange": -4
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
