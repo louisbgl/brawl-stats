@@ -175798,5 +175798,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260925T144858.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 289,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 2142
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8R2G9QR90",
+            "name": "Pieripidui 💰",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 916
+            }
+          },
+          {
+            "tag": "#U9VGY9PVV",
+            "name": "DRAGONKING",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 10,
+              "trophies": 816
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2142
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2Q8G808GUR",
+            "name": "NP/Pheonix🐦‍🔥",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1782
+            }
+          },
+          {
+            "tag": "#YUGVCJ8C",
+            "name": "teo33",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 920
+            }
+          },
+          {
+            "tag": "#Y2U8RR9R2",
+            "name": "7moody3000",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 2090
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
