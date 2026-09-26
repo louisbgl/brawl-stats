@@ -198237,5 +198237,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260926T170411.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 335,
+      "trophyChange": 23,
+      "starPlayer": {
+        "tag": "#20L8YQUCVL",
+        "name": "kikoland",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 698
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V08CYGR09",
+            "name": "Роооооберт",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1207
+            }
+          },
+          {
+            "tag": "#2LCCRLCJ02",
+            "name": "Mega BO",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 909
+            }
+          },
+          {
+            "tag": "#28LYP0GUQG",
+            "name": "SG|Antonio",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 419
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 375
+            }
+          },
+          {
+            "tag": "#20L8YQUCVL",
+            "name": "kikoland",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 698
+            }
+          },
+          {
+            "tag": "#2JRUVV0RRQ",
+            "name": "tutur la voitur",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 9,
+              "trophies": 469
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260926T170739.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 182,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2CL92QGYGQ",
+        "name": "secondchance",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 1126
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 398
+            }
+          },
+          {
+            "tag": "#GLV2LP0VQ",
+            "name": "Ponchik(　・ω・)",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1029
+            }
+          },
+          {
+            "tag": "#2J0PRJGUL",
+            "name": "𝚕𝚎𝚘𝚗😡",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1032
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CL92QGYGQ",
+            "name": "secondchance",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1126
+            }
+          },
+          {
+            "tag": "#GVYG9UGYV",
+            "name": "Genchev",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 997
+            }
+          },
+          {
+            "tag": "#J0002URRP",
+            "name": "KRATOS",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1074
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
