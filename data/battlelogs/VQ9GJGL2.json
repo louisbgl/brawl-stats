@@ -196031,5 +196031,279 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260926T110103.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 67,
+      "starPlayer": {
+        "tag": "#2UJ2UYVQY",
+        "name": "r<zgar efe",
+        "brawler": {
+          "id": 16000085,
+          "name": "KENJI",
+          "power": 11,
+          "trophies": 5
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9Y2Y8JQPY",
+            "name": "💔TT|baer🌠",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#2UJ2UYVQY",
+            "name": "r<zgar efe",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#2UV2YCGQ9Y",
+            "name": "Emma#02",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 5
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UPCLLL0LG",
+            "name": "Tutu x¹",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#2VYRUP9VQ8",
+            "name": "usta",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 5
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260926T110336.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 110,
+      "starPlayer": {
+        "tag": "#80C0P0RR",
+        "name": "macapa",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 5
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#80C0P0RR",
+            "name": "macapa",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#2VYCJU2GR0",
+            "name": "всемогущий",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 5
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2P8V9U2GJJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#2GJY0YR02Q",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 10,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#2QU8CVL8PC",
+            "name": "juanse19",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 10,
+              "trophies": 5
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20260926T112938.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 261,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#VRQCCVUP",
+        "name": "brawler",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 886
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2G2809CV0Q",
+            "name": "007",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1671
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 902
+            }
+          },
+          {
+            "tag": "#8LGYGYVJC",
+            "name": "creepy Hari",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1239
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9QJLRYUGG",
+            "name": "jojo",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1619
+            }
+          },
+          {
+            "tag": "#2QJUJ90VJ",
+            "name": "TITO",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 11,
+              "trophies": 823
+            }
+          },
+          {
+            "tag": "#VRQCCVUP",
+            "name": "brawler",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 886
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
