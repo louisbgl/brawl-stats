@@ -534691,5 +534691,74 @@
         "id": 4
       }
     }
+  },
+  {
+    "battleTime": "20260926T120016.000Z",
+    "event": {
+      "id": 15001299,
+      "mode": "megaBoss5P",
+      "modeId": 77,
+      "map": "MEGA BOSS DUO (5 player)"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 1012
+          }
+        },
+        {
+          "tag": "#2J289YRG0",
+          "name": "haii",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 1022
+          }
+        },
+        {
+          "tag": "#2QVJQGCQ99",
+          "name": "N A V I",
+          "brawler": {
+            "id": 16000063,
+            "name": "CHESTER",
+            "power": 11,
+            "trophies": 1003
+          }
+        },
+        {
+          "tag": "#2UR9P89Y9C",
+          "name": "емеля сплит",
+          "brawler": {
+            "id": 16000027,
+            "name": "8-BIT",
+            "power": 10,
+            "trophies": 1001
+          }
+        },
+        {
+          "tag": "#9VUC98RQ0",
+          "name": "saraa",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1006
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible",
+        "id": 5
+      }
+    }
   }
 ]
