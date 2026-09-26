@@ -177211,5 +177211,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260926T203319.000Z",
+    "event": {
+      "id": 15000011,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Undermine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 98,
+      "starPlayer": {
+        "tag": "#PCJYQ2PQR",
+        "name": "マンイーター 🤍 тамик",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 5
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R9C829GUU",
+            "name": "stars boy",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#9G0Q8VQ8L",
+            "name": "Melis",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 6
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 6
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PCJYQ2PQR",
+            "name": "マンイーター 🤍 тамик",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#RPCLGGGV0",
+            "name": "руслан узенький",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 5
+            }
+          },
+          {
+            "tag": "#9LVJVPJU2",
+            "name": "♦𝘝系♦✧.*",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 6
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
