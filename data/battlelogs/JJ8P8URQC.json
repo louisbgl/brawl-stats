@@ -153539,5 +153539,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260927T102020.000Z",
+    "event": {
+      "id": 15001318,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Out in the Open"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 79,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#8CC2LVRY0",
+        "name": "Tostas_Gamer7",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 615
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8C2U0QCYU",
+            "name": "愛してる",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 1881
+            }
+          },
+          {
+            "tag": "#RG8P808QG",
+            "name": "misski🇹🇭",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 2010
+            }
+          },
+          {
+            "tag": "#8CC2LVRY0",
+            "name": "Tostas_Gamer7",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 615
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 564
+            }
+          },
+          {
+            "tag": "#2RQYJLC2U",
+            "name": "Davi V",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 858
+            }
+          },
+          {
+            "tag": "#Q9Y20U8Q",
+            "name": "EL SALVADOR",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 989
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
