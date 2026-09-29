@@ -177302,5 +177302,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20260929T195901.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 236,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 597
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28UGQQYLY0",
+            "name": "Боец",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 385
+            }
+          },
+          {
+            "tag": "#JJUQL9PLP",
+            "name": "MaSsI.FR",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1355
+            }
+          },
+          {
+            "tag": "#2J9CV2090P",
+            "name": "67",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 589
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CR2C0LPL9",
+            "name": "эл примо",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1146
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 597
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 509
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
