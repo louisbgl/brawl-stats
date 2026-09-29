@@ -384968,5 +384968,97 @@
         "id": 3
       }
     }
+  },
+  {
+    "battleTime": "20260929T212420.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 126,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 1163
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1163
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1608
+            }
+          },
+          {
+            "tag": "#LP9VPY9VL",
+            "name": "RD1923A",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1695
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#99Q2GJVYV",
+            "name": "WRØXY",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1363
+            }
+          },
+          {
+            "tag": "#YY08C8UU",
+            "name": "NICCOLÒ",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1035
+            }
+          },
+          {
+            "tag": "#20UQY2LPR",
+            "name": "Orso03",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1403
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
