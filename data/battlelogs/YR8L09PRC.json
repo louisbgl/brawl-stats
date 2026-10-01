@@ -388683,5 +388683,61 @@
         "id": 0
       }
     }
+  },
+  {
+    "battleTime": "20261001T194619.000Z",
+    "event": {
+      "id": 15001337,
+      "mode": "hunterSurvivor",
+      "modeId": 83,
+      "map": "Nothing Suspicious"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 1,
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 2010
+          }
+        },
+        {
+          "tag": "#GL9PCYC89",
+          "name": "Tech¹⁹",
+          "brawler": {
+            "id": 16000038,
+            "name": "SURGE",
+            "power": 11,
+            "trophies": 2002
+          }
+        },
+        {
+          "tag": "#PJ8J9C88L",
+          "name": "Fürst📜",
+          "brawler": {
+            "id": 16000095,
+            "name": "ALLI",
+            "power": 11,
+            "trophies": 1321
+          }
+        },
+        {
+          "tag": "#288UJV2Y2",
+          "name": "Rayan Cherki",
+          "brawler": {
+            "id": 16000018,
+            "name": "DARRYL",
+            "power": 11,
+            "trophies": 1304
+          }
+        }
+      ]
+    }
   }
 ]
