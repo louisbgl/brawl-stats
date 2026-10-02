@@ -209151,5 +209151,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261002T231126.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 227,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 829
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 829
+            }
+          },
+          {
+            "tag": "#2P2UP0GYQU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 793
+            }
+          },
+          {
+            "tag": "#2J8PVJJQRJ",
+            "name": "manu",
+            "brawler": {
+              "id": 16000066,
+              "name": "R-T",
+              "power": 11,
+              "trophies": 801
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2YQ0YCL09R",
+            "name": "tg-geoxantes",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 852
+            }
+          },
+          {
+            "tag": "#2CGVRUJQU0",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 844
+            }
+          },
+          {
+            "tag": "#2LLQL0QJLJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 10,
+              "trophies": 859
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261002T231608.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 246,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#YLR08L88",
+        "name": "Shadow",
+        "brawler": {
+          "id": 16000087,
+          "name": "JUJU",
+          "power": 9,
+          "trophies": 534
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#899UJ9UL9",
+            "name": "tinitus",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 390
+            }
+          },
+          {
+            "tag": "#22LJ292PUQ",
+            "name": "завертяева",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#2RR898RCQQ",
+            "name": "art88",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 784
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JCQQG9UU",
+            "name": "nikita",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 695
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 844
+            }
+          },
+          {
+            "tag": "#YLR08L88",
+            "name": "Shadow",
+            "brawler": {
+              "id": 16000087,
+              "name": "JUJU",
+              "power": 9,
+              "trophies": 534
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
