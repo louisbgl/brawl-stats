@@ -180106,5 +180106,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261002T091340.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 243,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#QQJV8L99",
+        "name": "jojo",
+        "brawler": {
+          "id": 16000100,
+          "name": "GIGI",
+          "power": 11,
+          "trophies": 748
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YCRVL09YQ",
+            "name": "Og Bakile",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 499
+            }
+          },
+          {
+            "tag": "#28LGU2UY0L",
+            "name": "MetaBot3000",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1504
+            }
+          },
+          {
+            "tag": "#QQJV8L99",
+            "name": "jojo",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 748
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2URVC8LYQG",
+            "name": "muzasokan67",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 912
+            }
+          },
+          {
+            "tag": "#RCV80JGYQ",
+            "name": "UpperMoon|Domo",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 200
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 484
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
