@@ -34461,5 +34461,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261002T111520.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 67,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#PPYVYGRGV",
+        "name": "spiky",
+        "brawler": {
+          "id": 16000086,
+          "name": "SHADE",
+          "power": 11,
+          "trophies": 636
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C2JQQGL8U",
+            "name": "Brawler 3.0",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 9,
+              "trophies": 867
+            }
+          },
+          {
+            "tag": "#2CGCR0CUQ8",
+            "name": "DYNAMON EVO",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 695
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 636
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JP9LU2GQV",
+            "name": "불멸의 헌터",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 757
+            }
+          },
+          {
+            "tag": "#2JL9VVJ9UQ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 9,
+              "trophies": 773
+            }
+          },
+          {
+            "tag": "#2LGPQQLJR9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 9,
+              "trophies": 786
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
