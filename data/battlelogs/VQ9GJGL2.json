@@ -209519,5 +209519,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261003T112723.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 211,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#9GCY9Q2L",
+        "name": "OP | darkpotato",
+        "brawler": {
+          "id": 16000080,
+          "name": "DRACO",
+          "power": 11,
+          "trophies": 517
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8CVQYJ9LP",
+            "name": "izana ♡",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 454
+            }
+          },
+          {
+            "tag": "#9GCY9Q2L",
+            "name": "OP | darkpotato",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 517
+            }
+          },
+          {
+            "tag": "#202P0Y0U0",
+            "name": "tamepencil260",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 391
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#28CJ2U2J0Y",
+            "name": "~hajar(˶˃ ᵕ ˂˶)",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2096
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 872
+            }
+          },
+          {
+            "tag": "#980UPP0GC",
+            "name": "neno8",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 1,
+              "trophies": 229
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
