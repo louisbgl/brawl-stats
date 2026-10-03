@@ -209335,5 +209335,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261003T091519.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 235,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 860
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JQPL90P29",
+            "name": "BalBun",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 6,
+              "trophies": 296
+            }
+          },
+          {
+            "tag": "#YCURPUUG",
+            "name": "theninja",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1428
+            }
+          },
+          {
+            "tag": "#YUY0PCL20",
+            "name": "Elite|Gamer",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 799
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QGRUR8YR2",
+            "name": "🔥FENIKS🔥",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1038
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 860
+            }
+          },
+          {
+            "tag": "#Y0Y9UVP00",
+            "name": "\"Elegant\"",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 329
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
