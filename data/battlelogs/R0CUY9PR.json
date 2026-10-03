@@ -110973,5 +110973,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261003T160505.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 121,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#2RQ89089UL",
+        "name": "mirra",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 540
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Q9YULUCL9",
+            "name": "Kaiser",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1723
+            }
+          },
+          {
+            "tag": "#2RQ89089UL",
+            "name": "mirra",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 540
+            }
+          },
+          {
+            "tag": "#GLVL82UGV",
+            "name": "FUT|Nob",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 794
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PJU2G2Y9Y",
+            "name": "KM | KING",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 514
+            }
+          },
+          {
+            "tag": "#R0CUY9PR",
+            "name": "JOEL | Sobsh",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 240
+            }
+          },
+          {
+            "tag": "#2QGVP8J9VP",
+            "name": "§yrax/chill443",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 987
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
