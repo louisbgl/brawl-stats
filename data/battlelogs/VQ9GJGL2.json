@@ -209427,5 +209427,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261003T100418.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 235,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#2JU0RQYLR9",
+        "name": "Knowala",
+        "brawler": {
+          "id": 16000100,
+          "name": "GIGI",
+          "power": 11,
+          "trophies": 372
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98YULRQ8U",
+            "name": "lol",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 10,
+              "trophies": 316
+            }
+          },
+          {
+            "tag": "#QQVG8Y9YU",
+            "name": "Mr.ViP",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 606
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 877
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UGUYGR88J",
+            "name": "Alp",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1594
+            }
+          },
+          {
+            "tag": "#2JU0RQYLR9",
+            "name": "Knowala",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 372
+            }
+          },
+          {
+            "tag": "#9L08LLQPP",
+            "name": "sanya_molodoi",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 357
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
