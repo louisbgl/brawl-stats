@@ -181762,5 +181762,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261003T173430.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 191,
+      "trophyChange": 24,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 688
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YC0829C8V",
+            "name": "Randozzz💋",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 1039
+            }
+          },
+          {
+            "tag": "#99GUR82YL",
+            "name": "limmitaaa02",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 9,
+              "trophies": 245
+            }
+          },
+          {
+            "tag": "#LQ8JPL9GC",
+            "name": "j.$$Kairat??)",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1039
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GP2V0G9QP",
+            "name": "CR.RONALDO",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 269
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 688
+            }
+          },
+          {
+            "tag": "#2LPPCCVU9R",
+            "name": "𝓢𝓚|𝓖𝓸𝓴𝓾",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 235
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
