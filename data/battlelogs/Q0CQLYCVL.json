@@ -559121,5 +559121,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261003T152621.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 153,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#22RC0JUPC",
+        "name": "semaleo10",
+        "brawler": {
+          "id": 16000084,
+          "name": "MOE",
+          "power": 11,
+          "trophies": 154
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L928VU8C2",
+            "name": "Leonardo",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 10,
+              "trophies": 644
+            }
+          },
+          {
+            "tag": "#JJYPGRYP",
+            "name": "osimus",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 817
+            }
+          },
+          {
+            "tag": "#22RC0JUPC",
+            "name": "semaleo10",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 154
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1199
+            }
+          },
+          {
+            "tag": "#JJVG8088V",
+            "name": "𝙈𝙖𝙧𝗌𝙯",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 9,
+              "trophies": 930
+            }
+          },
+          {
+            "tag": "#2G020YU22L",
+            "name": "Flxw",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 9,
+              "trophies": 1221
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261003T152842.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 113,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 1193
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#C8RYCP22J",
+            "name": "Snake",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1325
+            }
+          },
+          {
+            "tag": "#20J9QLVVRL",
+            "name": "king cobra",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1515
+            }
+          },
+          {
+            "tag": "#2CLCGC9GYU",
+            "name": "𝒴𝒶𝒷𝓊𝒿𝒾𝓃♡",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 9,
+              "trophies": 700
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8JQ8JYC",
+            "name": "YOLDAŞ😷",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 849
+            }
+          },
+          {
+            "tag": "#2Q9JPJPR9C",
+            "name": "Berat67",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1081
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1193
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
