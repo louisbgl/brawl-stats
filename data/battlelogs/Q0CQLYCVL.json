@@ -559673,5 +559673,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261003T191558.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 30,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000086,
+          "name": "SHADE",
+          "power": 11,
+          "trophies": 1179
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1179
+            }
+          },
+          {
+            "tag": "#2QRJ8PVQL0",
+            "name": "🇫🇷|la best",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 645
+            }
+          },
+          {
+            "tag": "#LQRYCYUGU",
+            "name": "T么LH么 ツ| ⛩️",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1024
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2R8R9U8Y8U",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 10,
+              "trophies": 955
+            }
+          },
+          {
+            "tag": "#2RJ9YRCUYL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 954
+            }
+          },
+          {
+            "tag": "#2LPC289RY0",
+            "name": "hujei",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 931
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
