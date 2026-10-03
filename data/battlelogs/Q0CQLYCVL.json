@@ -559581,5 +559581,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261003T163947.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 193,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#2GV8LGJQ",
+        "name": "кирюша ивни",
+        "brawler": {
+          "id": 16000034,
+          "name": "JACKY",
+          "power": 11,
+          "trophies": 1065
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L2CVYVUCG",
+            "name": "🦦🦦FUT/MOYE",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1258
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1185
+            }
+          },
+          {
+            "tag": "#2R89U0GRJ",
+            "name": "breby magnifyk",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 720
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GV8LGJQ",
+            "name": "кирюша ивни",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 1065
+            }
+          },
+          {
+            "tag": "#22Y9PYPG0G",
+            "name": "انتا تبع من؟🧌",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 235
+            }
+          },
+          {
+            "tag": "#VY2UL8C",
+            "name": "SPIKE/TIME",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1090
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
