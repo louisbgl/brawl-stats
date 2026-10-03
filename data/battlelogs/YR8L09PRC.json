@@ -388739,5 +388739,189 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20261003T002722.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 36,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#9RP8LQVQL",
+        "name": "SM68",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 1731
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9290QJRPJ",
+            "name": "Ck555DBS",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 521
+            }
+          },
+          {
+            "tag": "#9RP8LQVQL",
+            "name": "SM68",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1731
+            }
+          },
+          {
+            "tag": "#PJU2RPJ0R",
+            "name": "jose797",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1261
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 1530
+            }
+          },
+          {
+            "tag": "#2P80UP2C",
+            "name": "VeNoM",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1167
+            }
+          },
+          {
+            "tag": "#Q8JUJ00Q8",
+            "name": "FUT|ZeyroX🕊",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 1081
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261003T002959.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 134,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#RPQ9V8VRG",
+        "name": "MizmozHakmak236",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 1840
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RPQ9V8VRG",
+            "name": "MizmozHakmak236",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1840
+            }
+          },
+          {
+            "tag": "#GGYJGPJ0V",
+            "name": "TB|NeYz💤",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 1965
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 1521
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22R0GVJULP",
+            "name": "TG: @datamines",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1724
+            }
+          },
+          {
+            "tag": "#2V9PLQGLJY",
+            "name": "шалаwa",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1719
+            }
+          },
+          {
+            "tag": "#2JL90PU0QU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1738
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
