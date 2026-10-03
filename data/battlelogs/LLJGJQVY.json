@@ -707245,5 +707245,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261003T082718.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 24,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000108,
+          "name": "WENDY",
+          "power": 11,
+          "trophies": 164
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 164
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2GJY0YR02Q",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 91
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CRRPC8L20",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 10,
+              "trophies": 75
+            }
+          },
+          {
+            "tag": "#2LJLY2VGU9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 11,
+              "trophies": 88
+            }
+          },
+          {
+            "tag": "#2R0V92L22P",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 84
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261003T082922.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 41,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000109,
+          "name": "COSMO",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 9,
+              "trophies": 278
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#RPPY2VYGR",
+            "name": "🦋𝕭𝖑𝖔𝖚𝖕𝖘ャ",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 7,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QJU99PPPV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 86
+            }
+          },
+          {
+            "tag": "#VYUGC0LP2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 9,
+              "trophies": 91
+            }
+          },
+          {
+            "tag": "#20GYL8R298",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 9,
+              "trophies": 110
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
