@@ -213188,5 +213188,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261004T184334.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 252,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#YY28GYQ22",
+        "name": "BogomolВСЕЯРУСИ",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1140
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YY28GYQ22",
+            "name": "BogomolВСЕЯРУСИ",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1140
+            }
+          },
+          {
+            "tag": "#RGQPPGPUU",
+            "name": "lizUnchik",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1202
+            }
+          },
+          {
+            "tag": "#8R22989RQ",
+            "name": "Enesbabpro31",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1305
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P2L28QCJG",
+            "name": "navunsky",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 841
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 734
+            }
+          },
+          {
+            "tag": "#PQGUJL088",
+            "name": "Ancient",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 832
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
