@@ -390762,5 +390762,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261004T120842.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 94,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#R9UCUJ002",
+        "name": "BS|𝐍𝐢𝐠𝐡𝐭🌒",
+        "brawler": {
+          "id": 16000045,
+          "name": "STU",
+          "power": 11,
+          "trophies": 1134
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YCGV8YUYY",
+            "name": "killer",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1277
+            }
+          },
+          {
+            "tag": "#R9UCUJ002",
+            "name": "BS|𝐍𝐢𝐠𝐡𝐭🌒",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 1134
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 1524
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GJJP0CVPL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1289
+            }
+          },
+          {
+            "tag": "#2RPPYV988V",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1285
+            }
+          },
+          {
+            "tag": "#2UC29GCJCJ",
+            "name": "ЭКСЦЕНТРИК АЛЛИ",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1282
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
