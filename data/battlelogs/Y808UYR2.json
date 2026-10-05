@@ -183867,5 +183867,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261005T115804.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 199,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 883
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 883
+            }
+          },
+          {
+            "tag": "#Q0GCVULJ",
+            "name": "JustFem...",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 566
+            }
+          },
+          {
+            "tag": "#2QVRU0R90P",
+            "name": "ALİ",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 9,
+              "trophies": 334
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CG8LP2G8V",
+            "name": "BULL",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 7,
+              "trophies": 327
+            }
+          },
+          {
+            "tag": "#2V22VVJ8QL",
+            "name": "magmatuch",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1469
+            }
+          },
+          {
+            "tag": "#2RJGQCGPGU",
+            "name": "ruzgie123%",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 762
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
