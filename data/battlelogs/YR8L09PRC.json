@@ -392418,5 +392418,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261005T185430.000Z",
+    "event": {
+      "id": 15001021,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Spiraling Out"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 103,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#YYGJQRJPG",
+        "name": "YT|Blizzard⛩️",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 1333
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8LPG9PLQP",
+            "name": "༺Leͥgeͣnͫd༻ᴳᵒᵈ",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1623
+            }
+          },
+          {
+            "tag": "#2CL0RY9U2",
+            "name": "PeruanoPremium",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1854
+            }
+          },
+          {
+            "tag": "#2JC9UC8JRV",
+            "name": "HMB|CORVIN",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1947
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8YUR8QL",
+            "name": "RonCola Vimen🍹",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1835
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1347
+            }
+          },
+          {
+            "tag": "#YYGJQRJPG",
+            "name": "YT|Blizzard⛩️",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1333
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
