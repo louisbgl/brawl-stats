@@ -565767,5 +565767,214 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20261006T221053.000Z",
+    "event": {
+      "id": 15001012,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Crystal Eye Castle"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 6,
+      "trophyChange": 1,
+      "players": [
+        {
+          "tag": "#20YJ8CCU0",
+          "name": "kaido",
+          "brawler": {
+            "id": 16000054,
+            "name": "FANG",
+            "power": 11,
+            "trophies": 981
+          }
+        },
+        {
+          "tag": "#LQ99UVV8R",
+          "name": "Nevartan",
+          "brawler": {
+            "id": 16000109,
+            "name": "COSMO",
+            "power": 9,
+            "trophies": 329
+          }
+        },
+        {
+          "tag": "#2U2QYUGCV",
+          "name": "саня кондрашкин",
+          "brawler": {
+            "id": 16000098,
+            "name": "ZIGGY",
+            "power": 11,
+            "trophies": 353
+          }
+        },
+        {
+          "tag": "#Y28RUPYV0",
+          "name": "Gaddar",
+          "brawler": {
+            "id": 16000019,
+            "name": "PENNY",
+            "power": 9,
+            "trophies": 446
+          }
+        },
+        {
+          "tag": "#22U0JRPLV",
+          "name": "Traxi",
+          "brawler": {
+            "id": 16000015,
+            "name": "PIPER",
+            "power": 9,
+            "trophies": 797
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000036,
+            "name": "NANI",
+            "power": 9,
+            "trophies": 572
+          }
+        },
+        {
+          "tag": "#PJ9YJ02JC",
+          "name": "queen",
+          "brawler": {
+            "id": 16000032,
+            "name": "MAX",
+            "power": 11,
+            "trophies": 453
+          }
+        },
+        {
+          "tag": "#L9VV88RG9",
+          "name": "HASMINA SOKİM",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 9,
+            "trophies": 460
+          }
+        },
+        {
+          "tag": "#2UYVPJ9QUQ",
+          "name": "כראמל הכי טוב",
+          "brawler": {
+            "id": 16000029,
+            "name": "BEA",
+            "power": 7,
+            "trophies": 1141
+          }
+        },
+        {
+          "tag": "#R9RPUCRPV",
+          "name": "TH| LUCÍA🧡",
+          "brawler": {
+            "id": 16000061,
+            "name": "GUS",
+            "power": 11,
+            "trophies": 659
+          }
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20261006T221325.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 68,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000091,
+          "name": "LUMI",
+          "power": 11,
+          "trophies": 142
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 142
+            }
+          },
+          {
+            "tag": "#GC2JG928Y",
+            "name": "ZETA |Lord",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 145
+            }
+          },
+          {
+            "tag": "#CRRPC8L20",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 157
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VY9YYVCLU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 136
+            }
+          },
+          {
+            "tag": "#2PQG90UG8P",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 134
+            }
+          },
+          {
+            "tag": "#2JULCY9GL2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 152
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
