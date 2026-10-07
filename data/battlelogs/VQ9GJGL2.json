@@ -213464,5 +213464,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261007T142550.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 349,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000082,
+          "name": "BERRY",
+          "power": 11,
+          "trophies": 761
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CLJQY80CJ",
+            "name": "TavsanPamuk",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1351
+            }
+          },
+          {
+            "tag": "#2QGP9RLGGL",
+            "name": "beze",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 703
+            }
+          },
+          {
+            "tag": "#PJRCL0CQP",
+            "name": "cybertron",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 1678
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 761
+            }
+          },
+          {
+            "tag": "#8C9CGU00Y",
+            "name": "jussess",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 644
+            }
+          },
+          {
+            "tag": "#JGQ2GPR",
+            "name": "juanmaaa_02",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 683
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
