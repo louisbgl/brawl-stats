@@ -566712,5 +566712,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261007T090534.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 153,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2QU80288GR",
+        "name": "le boss",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 1556
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RPYR89VVR",
+            "name": "linara",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1021
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1074
+            }
+          },
+          {
+            "tag": "#20UGU9QVR",
+            "name": "୧( ˵ ° ~ ° ˵ )୨",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 634
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JQQULJQLY",
+            "name": "ISFP|양프",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1019
+            }
+          },
+          {
+            "tag": "#2QU80288GR",
+            "name": "le boss",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1556
+            }
+          },
+          {
+            "tag": "#9YRPQVLGJ",
+            "name": "UTŠ|Sale",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 991
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
