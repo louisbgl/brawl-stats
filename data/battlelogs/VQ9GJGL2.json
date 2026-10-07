@@ -213556,5 +213556,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261007T143142.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 214,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#JRY09YVJV",
+        "name": "爪尺|™𝔈𝔨𝔦𝔷¹²",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1315
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QC09LRCUV",
+            "name": "Arameg7",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 9,
+              "trophies": 21
+            }
+          },
+          {
+            "tag": "#8Y88C0QY9",
+            "name": "(ARM) VACH🇦🇲",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 791
+            }
+          },
+          {
+            "tag": "#P9JRYYC9",
+            "name": "☆♡Princesska♡☆",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 10,
+              "trophies": 459
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JRY09YVJV",
+            "name": "爪尺|™𝔈𝔨𝔦𝔷¹²",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1315
+            }
+          },
+          {
+            "tag": "#920GJRPQU",
+            "name": "Tostapane",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 613
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 778
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
