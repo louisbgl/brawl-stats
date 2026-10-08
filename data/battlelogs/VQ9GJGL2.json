@@ -213648,5 +213648,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261008T205123.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 307,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#222QY9GYCV",
+        "name": "Voniri",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 10,
+          "trophies": 984
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L0G02PU",
+            "name": "VENOM",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 919
+            }
+          },
+          {
+            "tag": "#222QY9GYCV",
+            "name": "Voniri",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 10,
+              "trophies": 984
+            }
+          },
+          {
+            "tag": "#2PRJ22RU",
+            "name": "ScaveGuibzz",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 779
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 914
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 796
+            }
+          },
+          {
+            "tag": "#2VRPQGVV2",
+            "name": "ঊব",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 2044
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261008T205719.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 293,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 2154
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y0U0GRV2G",
+            "name": "SLAVA MARLOW01",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#2U2U2GYU2",
+            "name": "MOHSEN",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 2697
+            }
+          },
+          {
+            "tag": "#2828Y800J0",
+            "name": "愛|🇩🇿",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1505
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2154
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 2015
+            }
+          },
+          {
+            "tag": "#2RQPUCQYJ",
+            "name": "pio",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1324
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
