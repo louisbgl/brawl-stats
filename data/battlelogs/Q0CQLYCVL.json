@@ -575816,5 +575816,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261009T190024.000Z",
+    "event": {
+      "id": 15000429,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Deep End"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 45,
+      "starPlayer": {
+        "tag": "#9QPQ8RPVQ",
+        "name": "Leander3. 0",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 11,
+          "trophies": 1004
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GL9LU2P0",
+            "name": "martatommy",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1508
+            }
+          },
+          {
+            "tag": "#2QQPRYG889",
+            "name": "cübi1007",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1402
+            }
+          },
+          {
+            "tag": "#PYLLGPVGR",
+            "name": "ANIKILANTYS",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1016
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1007
+            }
+          },
+          {
+            "tag": "#9QPQ8RPVQ",
+            "name": "Leander3. 0",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1004
+            }
+          },
+          {
+            "tag": "#G0VPGVUV",
+            "name": "itscookie",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 628
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
