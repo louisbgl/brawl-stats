@@ -213832,5 +213832,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261009T080642.000Z",
+    "event": {
+      "id": 15000008,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Crystal Arcade"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "challenge",
+      "result": "defeat",
+      "duration": 128,
+      "starPlayer": {
+        "tag": "#JPCQLVVG",
+        "name": "🇹🇷Gotgot",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2UPJURRQCU",
+            "name": "noirio-dog-",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#2VVLCJRPYG",
+            "name": "beril",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#20L8YCC9C",
+            "name": "YT EWEE",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#GCQULJJ22",
+            "name": "goldy",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#JPCQLVVG",
+            "name": "🇹🇷Gotgot",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
