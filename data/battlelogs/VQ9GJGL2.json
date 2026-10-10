@@ -213923,5 +213923,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261010T070725.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 254,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#C99RQRJLU",
+        "name": "immortal",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 2068
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 792
+            }
+          },
+          {
+            "tag": "#2G9802VGRQ",
+            "name": "CarpV",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 792
+            }
+          },
+          {
+            "tag": "#2908YLP29",
+            "name": "Odin",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 938
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RUYPLULU",
+            "name": "CoMbAcK",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 546
+            }
+          },
+          {
+            "tag": "#C99RQRJLU",
+            "name": "immortal",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 2068
+            }
+          },
+          {
+            "tag": "#PYQYYYC2U",
+            "name": "нубик-рубик",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 674
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261010T070951.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 113,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000082,
+          "name": "BERRY",
+          "power": 11,
+          "trophies": 788
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 788
+            }
+          },
+          {
+            "tag": "#2L2UYL90U0",
+            "name": "skye",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 11,
+              "trophies": 962
+            }
+          },
+          {
+            "tag": "#YUC8PG80G",
+            "name": "Unistus",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 957
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GR28P0VQ2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 11,
+              "trophies": 903
+            }
+          },
+          {
+            "tag": "#2CQRPCPU2P",
+            "name": "@talebrawl",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 10,
+              "trophies": 906
+            }
+          },
+          {
+            "tag": "#2YGVYC8RQU",
+            "name": "tg:surgeoffline",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 910
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
