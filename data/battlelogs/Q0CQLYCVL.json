@@ -577234,5 +577234,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261010T122840.000Z",
+    "event": {
+      "id": 15001330,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "In Demand"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 111,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 1395
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9PR9GULQC",
+            "name": "jtf34",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 684
+            }
+          },
+          {
+            "tag": "#PP2UGJC8R",
+            "name": "#vibe.DEMON<3",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 919
+            }
+          },
+          {
+            "tag": "#VRQPPUYCV",
+            "name": "么| White Knight",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 919
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1395
+            }
+          },
+          {
+            "tag": "#LU9LPUYLC",
+            "name": "goat kill",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 637
+            }
+          },
+          {
+            "tag": "#2CYR998RC",
+            "name": "leemeow",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 732
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
