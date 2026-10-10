@@ -184235,5 +184235,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261010T204724.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 228,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 2166
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LUQRV2CGJ",
+            "name": "melek_snm",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1030
+            }
+          },
+          {
+            "tag": "#2QLQ9UV828",
+            "name": "FORZA💊GÖZTEPE",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1867
+            }
+          },
+          {
+            "tag": "#2V02GU9YY",
+            "name": "ARI KIZ",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1114
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9VQ0RC0YP",
+            "name": "Killer 38",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 10,
+              "trophies": 837
+            }
+          },
+          {
+            "tag": "#RYJU0CJ00",
+            "name": "toxick1bo🚫🧢",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 759
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2166
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261010T205013.000Z",
+    "event": {
+      "id": 15001330,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "In Demand"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 89,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2YVJPYQCVR",
+        "name": "SK|WKS",
+        "brawler": {
+          "id": 16000013,
+          "name": "POCO",
+          "power": 9,
+          "trophies": 425
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UPP88UQP0",
+            "name": "SOUFOURRY",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 8,
+              "trophies": 65
+            }
+          },
+          {
+            "tag": "#2YVJPYQCVR",
+            "name": "SK|WKS",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 9,
+              "trophies": 425
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 349
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QVJL9QYVU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 8,
+              "trophies": 282
+            }
+          },
+          {
+            "tag": "#2UPRRRQ2JQ",
+            "name": "Pumkin",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 8,
+              "trophies": 286
+            }
+          },
+          {
+            "tag": "#2UL02LU2G9",
+            "name": "Big Daddy",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 10,
+              "trophies": 291
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
