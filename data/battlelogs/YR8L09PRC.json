@@ -399037,5 +399037,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261012T103028.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 33,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#2Q0P0JJU29",
+        "name": "Brawler",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 9,
+          "trophies": 1033
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2G8RRLJ90G",
+            "name": "『☆𝔞𝔫𝔯𝔲⁶⁷ツ☆』",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 9,
+              "trophies": 1114
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 1126
+            }
+          },
+          {
+            "tag": "#Y2RP9JVGR",
+            "name": "anya",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 919
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QQ2LQLU2P",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 1063
+            }
+          },
+          {
+            "tag": "#2Q0P0JJU29",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 9,
+              "trophies": 1033
+            }
+          },
+          {
+            "tag": "#2JVYLL2V0Y",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 8,
+              "trophies": 1054
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261012T103237.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 46,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000053,
+          "name": "LOLA",
+          "power": 11,
+          "trophies": 1120
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GG899VVQJ",
+            "name": "reFAEAl!!??)",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1037
+            }
+          },
+          {
+            "tag": "#LPYJJPL08",
+            "name": "VØID♛|M4XΞツ🥀⚔️",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 909
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 1120
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QRYP0G8J0",
+            "name": "GBR | aitoGMZ",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 1246
+            }
+          },
+          {
+            "tag": "#RU0VRP0Y0",
+            "name": "bibi",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 10,
+              "trophies": 573
+            }
+          },
+          {
+            "tag": "#2GYLJC8RG",
+            "name": "shady|なんは🎱",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 498
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
