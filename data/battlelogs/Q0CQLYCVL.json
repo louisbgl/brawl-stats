@@ -582344,5 +582344,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261012T173102.000Z",
+    "event": {
+      "id": 15000292,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Open Business"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 82,
+      "starPlayer": {
+        "tag": "#2C88PQP09",
+        "name": "елена дiлдо",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V8JGPQG8L",
+            "name": "Detectiv42k",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 9,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#889CPV028",
+            "name": "Pinchos",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 10,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2LGG0C0G9L",
+            "name": "Rita🤓",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C88PQP09",
+            "name": "елена дiлдо",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#LYPR2V8Y",
+            "name": "xyina",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
