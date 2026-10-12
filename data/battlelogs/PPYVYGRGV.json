@@ -38158,5 +38158,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261012T162957.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 137,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#20C9G8LPY0",
+        "name": "tg @JYDO500",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 4,
+          "trophies": 211
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 6,
+              "trophies": 200
+            }
+          },
+          {
+            "tag": "#20C9G8LPY0",
+            "name": "tg @JYDO500",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 4,
+              "trophies": 211
+            }
+          },
+          {
+            "tag": "#2JJ8VC2CYJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 6,
+              "trophies": 215
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QUP9LCRY2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 4,
+              "trophies": 202
+            }
+          },
+          {
+            "tag": "#J2YG00LU2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 4,
+              "trophies": 207
+            }
+          },
+          {
+            "tag": "#2U8R8PYU0V",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 4,
+              "trophies": 197
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
