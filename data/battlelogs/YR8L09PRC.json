@@ -400877,5 +400877,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261012T185936.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 52,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000100,
+          "name": "GIGI",
+          "power": 11,
+          "trophies": 1039
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8QLJ8Y0J9",
+            "name": "Shab Roz",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 1978
+            }
+          },
+          {
+            "tag": "#YGRUJJ80Y",
+            "name": "b.nastya28",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1360
+            }
+          },
+          {
+            "tag": "#QJ9Q8GYR0",
+            "name": "SK|Sim's",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 794
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 1283
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 1039
+            }
+          },
+          {
+            "tag": "#929QQC2C0",
+            "name": "assadou67",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1482
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
