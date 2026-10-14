@@ -402625,5 +402625,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261014T090040.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 153,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000053,
+          "name": "LOLA",
+          "power": 11,
+          "trophies": 1411
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VRCUPV0U",
+            "name": "itay8.5",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 987
+            }
+          },
+          {
+            "tag": "#2URPGC08Q0",
+            "name": "STAR|KING",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2039
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 1411
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8GCRU9ULG",
+            "name": "אוראל",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 852
+            }
+          },
+          {
+            "tag": "#8QG09R8QJ",
+            "name": "mulmul pro🇮🇱",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1292
+            }
+          },
+          {
+            "tag": "#GCC9G9QP",
+            "name": "GX alessio",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1427
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
