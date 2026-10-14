@@ -214658,5 +214658,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261014T153111.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 372,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2V8JPQYCJJ",
+        "name": "zui",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 9,
+          "trophies": 563
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V8JPQYCJJ",
+            "name": "zui",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 9,
+              "trophies": 563
+            }
+          },
+          {
+            "tag": "#2JRJ2V2VUU",
+            "name": "geil",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 462
+            }
+          },
+          {
+            "tag": "#9RLPUG2YY",
+            "name": "Успешный бизнес",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 11,
+              "trophies": 254
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 482
+            }
+          },
+          {
+            "tag": "#YQVPJ08C8",
+            "name": "безмамна",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 10,
+              "trophies": 678
+            }
+          },
+          {
+            "tag": "#LG8L9URJJ",
+            "name": "Журавель",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 836
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
