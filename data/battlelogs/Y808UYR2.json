@@ -186168,5 +186168,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261014T173014.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 355,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#P2YLJYQG0",
+        "name": "Боец",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 9,
+          "trophies": 488
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2ULP2U0YJP",
+            "name": "Kalimann",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 9,
+              "trophies": 1141
+            }
+          },
+          {
+            "tag": "#2UQVJ8LJQC",
+            "name": "JxoXnxi90",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 10,
+              "trophies": 1881
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 929
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P2YLJYQG0",
+            "name": "Боец",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 9,
+              "trophies": 488
+            }
+          },
+          {
+            "tag": "#2JV9GYP0JL",
+            "name": "кумыса",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 344
+            }
+          },
+          {
+            "tag": "#8C8VYU0UJ",
+            "name": "zeluisping",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 562
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
