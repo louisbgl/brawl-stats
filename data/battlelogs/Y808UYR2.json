@@ -185801,5 +185801,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261014T140856.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 328,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#8J2CYJPCP",
+        "name": "ПенисныйМонстр2",
+        "brawler": {
+          "id": 16000013,
+          "name": "POCO",
+          "power": 11,
+          "trophies": 1407
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QV2002PJQ",
+            "name": "Quazoo¿",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 205
+            }
+          },
+          {
+            "tag": "#2RGJLRJGGY",
+            "name": "killer",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 476
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 924
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2G98G0VVVP",
+            "name": "KING BRAWL",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 10,
+              "trophies": 240
+            }
+          },
+          {
+            "tag": "#Q0CQJPPL",
+            "name": "samuraiчик",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1299
+            }
+          },
+          {
+            "tag": "#8J2CYJPCP",
+            "name": "ПенисныйМонстр2",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1407
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261014T141438.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 307,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#80CL8PRG",
+        "name": "Icon",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 523
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 919
+            }
+          },
+          {
+            "tag": "#GJ2UCVJCG",
+            "name": "KDS_HYRA",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1291
+            }
+          },
+          {
+            "tag": "#2RUQYCYV",
+            "name": "Atlantic",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 699
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#80CL8PRG",
+            "name": "Icon",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 523
+            }
+          },
+          {
+            "tag": "#2VJGYVLQ92",
+            "name": "someone",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1824
+            }
+          },
+          {
+            "tag": "#2YL9JRVG",
+            "name": "Gabriel",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 453
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
