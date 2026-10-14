@@ -402717,5 +402717,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261014T132820.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#20099QPVLR",
+        "name": "Z_rkxz",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 1094
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#20099QPVLR",
+            "name": "Z_rkxz",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1094
+            }
+          },
+          {
+            "tag": "#QYC2U0RPU",
+            "name": "❄️Phåntømを",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 846
+            }
+          },
+          {
+            "tag": "#GPQC9LRYR",
+            "name": "HMB|DJay",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 490
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9YQQRRVCU",
+            "name": "Guillezz.ㄊ",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1064
+            }
+          },
+          {
+            "tag": "#28GJCRUCPU",
+            "name": "SKbloode🩸❣️",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1750
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 1427
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
