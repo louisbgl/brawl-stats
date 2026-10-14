@@ -185985,5 +185985,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261014T172039.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 218,
+      "starPlayer": {
+        "tag": "#RJ0CRJRVR",
+        "name": "Radio",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 11,
+          "trophies": 431
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RJ0CRJRVR",
+            "name": "Radio",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 431
+            }
+          },
+          {
+            "tag": "#2PUJCJ98CG",
+            "name": "Rusik",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 10,
+              "trophies": 338
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 914
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RGQCC20YJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 10,
+              "trophies": 632
+            }
+          },
+          {
+            "tag": "#2JY2RL2Q0R",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 9,
+              "trophies": 597
+            }
+          },
+          {
+            "tag": "#29LUJ2J8RL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000090,
+              "name": "OLLIE",
+              "power": 10,
+              "trophies": 630
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261014T172340.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 152,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 914
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CPJV2PU20",
+            "name": "Meronnie",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 542
+            }
+          },
+          {
+            "tag": "#Q92RPUGLV",
+            "name": "ogun",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 10,
+              "trophies": 1524
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 914
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RCY8Q02LV",
+            "name": "Rindez",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 10,
+              "trophies": 1008
+            }
+          },
+          {
+            "tag": "#2RVUPGVLU9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 9,
+              "trophies": 992
+            }
+          },
+          {
+            "tag": "#2QRVG28QGY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 995
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
