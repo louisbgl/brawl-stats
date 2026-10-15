@@ -584804,5 +584804,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261015T165827.000Z",
+    "event": {
+      "id": 15001331,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pump It Up"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 70,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#20J0CLRUU",
+        "name": "⛩️/The.killer\\",
+        "brawler": {
+          "id": 16000097,
+          "name": "MINA",
+          "power": 11,
+          "trophies": 2046
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YPV82GYG0",
+            "name": "Доминатор #найт",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 783
+            }
+          },
+          {
+            "tag": "#20L22RRPG",
+            "name": "⚔️𝑀𝒶𝓇𝒾𝑜⚔️",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1586
+            }
+          },
+          {
+            "tag": "#20J0CLRUU",
+            "name": "⛩️/The.killer\\",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 2046
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#992LLLVQ9",
+            "name": "Xyi",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 905
+            }
+          },
+          {
+            "tag": "#R08VQ089Q",
+            "name": "jtelechelespied",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1394
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1032
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
