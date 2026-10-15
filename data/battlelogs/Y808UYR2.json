@@ -186536,5 +186536,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261015T133526.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 204,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 929
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UPVCQR2J8",
+            "name": "Chiril |777",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 324
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 929
+            }
+          },
+          {
+            "tag": "#PQ2QL9L",
+            "name": "Arbias#",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 384
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2J9V0JYP0Q",
+            "name": "lukas",
+            "brawler": {
+              "id": 16000087,
+              "name": "JUJU",
+              "power": 10,
+              "trophies": 598
+            }
+          },
+          {
+            "tag": "#UVGG0U288",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000056,
+              "name": "EVE",
+              "power": 11,
+              "trophies": 549
+            }
+          },
+          {
+            "tag": "#2RL2YYJR2Y",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 11,
+              "trophies": 626
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
