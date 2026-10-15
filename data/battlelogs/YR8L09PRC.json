@@ -404005,5 +404005,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261015T155714.000Z",
+    "event": {
+      "id": 15001331,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pump It Up"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 86,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#2R820UY8",
+        "name": "𝐀𝐍𝐓𝐎 愛",
+        "brawler": {
+          "id": 16000068,
+          "name": "MAISIE",
+          "power": 11,
+          "trophies": 1809
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GR9J20R82",
+            "name": "ℒ𝒾𝓰𝓱𝓉 ⚡️",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1874
+            }
+          },
+          {
+            "tag": "#2R820UY8",
+            "name": "𝐀𝐍𝐓𝐎 愛",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 1809
+            }
+          },
+          {
+            "tag": "#2GYUVR99",
+            "name": "Luccii 🏴",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 1255
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1703
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1852
+            }
+          },
+          {
+            "tag": "#LRU8L9RU",
+            "name": "Markitos_05",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2046
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261015T155826.000Z",
+    "event": {
+      "id": 15001331,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pump It Up"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 35,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 1842
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1694
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1842
+            }
+          },
+          {
+            "tag": "#P8LUGPQYL",
+            "name": "tomi",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 2465
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LYV29PGPR",
+            "name": "Maksym2",
+            "brawler": {
+              "id": 16000060,
+              "name": "SAM",
+              "power": 11,
+              "trophies": 2016
+            }
+          },
+          {
+            "tag": "#2CJR0008PP",
+            "name": "YT| Bezsmertny",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#G8CVPLPPJ",
+            "name": "FUT |DORS🥋♈️",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
