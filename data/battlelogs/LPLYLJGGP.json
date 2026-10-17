@@ -3955,5 +3955,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261017T052834.000Z",
+    "event": {
+      "id": 15001288,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Tasty Berry"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 68,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LPLYLJGGP",
+        "name": "JOEL | roro",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 746
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2R9089P",
+            "name": "mayister 3.2.2",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 839
+            }
+          },
+          {
+            "tag": "#208QGQQRP",
+            "name": "GX Anto",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 703
+            }
+          },
+          {
+            "tag": "#LPLYLJGGP",
+            "name": "JOEL | roro",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 746
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CVGJLRQJQ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 771
+            }
+          },
+          {
+            "tag": "#2QVJUC8RJC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 775
+            }
+          },
+          {
+            "tag": "#2YULPU0RLG",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 801
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
