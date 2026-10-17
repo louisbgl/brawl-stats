@@ -407553,5 +407553,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261017T104308.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 59,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#YG88YYCR8",
+        "name": "ZETA |David ^_^",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 1360
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YG88YYCR8",
+            "name": "ZETA |David ^_^",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1360
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1537
+            }
+          },
+          {
+            "tag": "#RY2URPRRQ",
+            "name": "𝓂𝒾𝒶❀",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 1507
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CP82V9UJQ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 1428
+            }
+          },
+          {
+            "tag": "#2C08P0QQCV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1432
+            }
+          },
+          {
+            "tag": "#2Q2P00LJRC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 1423
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
