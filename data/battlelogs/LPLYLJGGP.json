@@ -4047,5 +4047,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261017T053009.000Z",
+    "event": {
+      "id": 15001288,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Tasty Berry"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 65,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#222CUL90VJ",
+        "name": "Brawler",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 1089
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CYJ9G0QRU",
+            "name": "TR|ZHankeldi🏆",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1223
+            }
+          },
+          {
+            "tag": "#2209GP8PJ2",
+            "name": "BARBA BIANCA. T",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 1291
+            }
+          },
+          {
+            "tag": "#LPLYLJGGP",
+            "name": "JOEL | roro",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 756
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PJGPY8J8P",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1085
+            }
+          },
+          {
+            "tag": "#2QU9QPUJUQ",
+            "name": "matt tuah",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1061
+            }
+          },
+          {
+            "tag": "#222CUL90VJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1089
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
