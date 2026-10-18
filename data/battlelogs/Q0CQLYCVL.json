@@ -586919,5 +586919,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261017T233208.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 119,
+      "starPlayer": {
+        "tag": "#9LJLGLJ9",
+        "name": "M3L0Dy",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 11,
+          "trophies": 2136
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GLQCJYQ2C",
+            "name": "☢️ Chrono☢️",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 975
+            }
+          },
+          {
+            "tag": "#8JJUQYJL8",
+            "name": "Diederik",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 901
+            }
+          },
+          {
+            "tag": "#9LJLGLJ9",
+            "name": "M3L0Dy",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 2136
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GLG880RL0",
+            "name": "Vevarog",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 903
+            }
+          },
+          {
+            "tag": "#9C898YC9",
+            "name": "Sausagee",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1165
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1022
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
