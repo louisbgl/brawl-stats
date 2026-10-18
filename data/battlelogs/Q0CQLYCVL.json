@@ -587286,5 +587286,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261018T120107.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 146,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 1649
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JPVVJ9J",
+            "name": "KFIR TROL",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1575
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1649
+            }
+          },
+          {
+            "tag": "#2L80VYLP00",
+            "name": "tama36👎💣",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1381
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R8C0PC2C",
+            "name": "max",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 2062
+            }
+          },
+          {
+            "tag": "#2YPLJY8R82",
+            "name": "minefrank007",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1000
+            }
+          },
+          {
+            "tag": "#G0PQRUGV",
+            "name": "ANTONIO07",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1171
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261018T120202.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 33,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#9RQPU2LP2",
+        "name": "khas power",
+        "brawler": {
+          "id": 16000092,
+          "name": "FINX",
+          "power": 11,
+          "trophies": 1205
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CLCCRLU8",
+            "name": "♤♠︎|Ghost|♠︎♤",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2008
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1660
+            }
+          },
+          {
+            "tag": "#8CLLGJCUL",
+            "name": "NailBN7",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 876
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LVV2UU02R",
+            "name": "GOT | Xedizz.🤫",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 512
+            }
+          },
+          {
+            "tag": "#2QCGR2Q89",
+            "name": "WASA GITANA 113",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 854
+            }
+          },
+          {
+            "tag": "#9RQPU2LP2",
+            "name": "khas power",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 11,
+              "trophies": 1205
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
