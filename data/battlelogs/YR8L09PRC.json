@@ -408000,5 +408000,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261018T104539.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 147,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#9L0PQRUGY",
+        "name": "GİZEMLİ",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 1673
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9LLRJUVQU",
+            "name": "bayyyy💔",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1595
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 1567
+            }
+          },
+          {
+            "tag": "#9L0PQRUGY",
+            "name": "GİZEMLİ",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1673
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UV9JR992C",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 1569
+            }
+          },
+          {
+            "tag": "#2LQCG222PP",
+            "name": "ZitronenKuchen2",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1575
+            }
+          },
+          {
+            "tag": "#2CQ2G0YGC9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 10,
+              "trophies": 1595
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
