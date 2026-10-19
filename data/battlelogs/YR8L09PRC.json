@@ -408092,5 +408092,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261019T133211.000Z",
+    "event": {
+      "id": 15001021,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Spiraling Out"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 52,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#92RUL0LY",
+        "name": "CM|Gecko♨️",
+        "brawler": {
+          "id": 16000002,
+          "name": "BULL",
+          "power": 11,
+          "trophies": 1849
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1694
+            }
+          },
+          {
+            "tag": "#92RUL0LY",
+            "name": "CM|Gecko♨️",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1849
+            }
+          },
+          {
+            "tag": "#Q20P9L0JR",
+            "name": "🌹🤍شيرخان",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 1342
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2G8Q8L92PV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1610
+            }
+          },
+          {
+            "tag": "#2J9L0JCC2J",
+            "name": "mami",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1583
+            }
+          },
+          {
+            "tag": "#2QGPLJP2RV",
+            "name": "e io non ho rie",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1574
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
