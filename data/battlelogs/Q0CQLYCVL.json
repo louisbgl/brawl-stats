@@ -591847,5 +591847,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261019T212957.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 115,
+      "starPlayer": {
+        "tag": "#LRC8LVVC",
+        "name": "Mr.Leo🃏",
+        "brawler": {
+          "id": 16000102,
+          "name": "SIRIUS",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VPL80LGQL",
+            "name": "CEMO İS BACK §",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#GU00Y08PL",
+            "name": "... ... ...",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#JUU09PJYG",
+            "name": "mee",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LRC8LVVC",
+            "name": "Mr.Leo🃏",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#9Q8V2J980",
+            "name": "🦋𝙻𝚎𝚗𝚊ϟ",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
