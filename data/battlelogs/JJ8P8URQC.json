@@ -155469,5 +155469,218 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261019T174950.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "friendly",
+      "result": "victory",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#8JVV8L9UR",
+        "name": "Matthieu",
+        "brawler": {
+          "id": 16000108,
+          "name": "WENDY",
+          "power": -1,
+          "trophies": -1
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RG2RVVPUR",
+            "name": "SK |ADpro",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#LVVY0P8GU",
+            "name": "Audrey",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#8JVV8L9UR",
+            "name": "Matthieu",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261019T175408.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "friendly",
+      "result": "victory",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#8JVV8L9UR",
+        "name": "Matthieu",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": -1,
+          "trophies": -1
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#8JVV8L9UR",
+            "name": "Matthieu",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RG2RVVPUR",
+            "name": "SK |ADpro",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#LVVY0P8GU",
+            "name": "Audrey",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261019T175744.000Z",
+    "event": {
+      "id": 15000295,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "No Excuses"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "friendly",
+      "result": "defeat",
+      "duration": 118,
+      "starPlayer": {
+        "tag": "#RG2RVVPUR",
+        "name": "SK |ADpro",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": -1,
+          "trophies": -1
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LVVY0P8GU",
+            "name": "Audrey",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#RG2RVVPUR",
+            "name": "SK |ADpro",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": -1,
+              "trophies": -1
+            }
+          },
+          {
+            "tag": "#8JVV8L9UR",
+            "name": "Matthieu",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": -1,
+              "trophies": -1
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
