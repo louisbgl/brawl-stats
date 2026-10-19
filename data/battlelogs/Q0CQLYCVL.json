@@ -589663,5 +589663,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261019T113003.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 26,
+      "starPlayer": {
+        "tag": "#2UJC88R8QC",
+        "name": "memo6767",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 11,
+          "trophies": 1380
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UJC88R8QC",
+            "name": "memo6767",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1380
+            }
+          },
+          {
+            "tag": "#2GVYVYQ0JP",
+            "name": "Pinguin",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 326
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1667
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RCGY0VUCV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1117
+            }
+          },
+          {
+            "tag": "#2YRJYP9U0R",
+            "name": "tg:ofbrawl",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1107
+            }
+          },
+          {
+            "tag": "#220C8VG9UY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 1122
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261019T113257.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 129,
+      "starPlayer": {
+        "tag": "#2VPP9G2YQV",
+        "name": "Dauz",
+        "brawler": {
+          "id": 16000106,
+          "name": "BOLT",
+          "power": 11,
+          "trophies": 509
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9QYG2C90U",
+            "name": "bossetti",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1274
+            }
+          },
+          {
+            "tag": "#L8GYRGQ22",
+            "name": "𝐒asha𝐆lasha",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 1607
+            }
+          },
+          {
+            "tag": "#RLCPCQYYJ",
+            "name": "LynelAs$Cheeks",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 1164
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VPP9G2YQV",
+            "name": "Dauz",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 509
+            }
+          },
+          {
+            "tag": "#Q28VPUUCJ",
+            "name": "Luzocki",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1017
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
