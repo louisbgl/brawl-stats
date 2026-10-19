@@ -329327,5 +329327,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261019T162952.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 68,
+      "starPlayer": {
+        "tag": "#LPLYLJGGP",
+        "name": "JOEL | roro",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1143
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28L00UPRRR",
+            "name": "Boyetti",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1595
+            }
+          },
+          {
+            "tag": "#LV88VLU0V",
+            "name": "BlacBoiMster",
+            "brawler": {
+              "id": 16000090,
+              "name": "OLLIE",
+              "power": 11,
+              "trophies": 2046
+            }
+          },
+          {
+            "tag": "#PLPUYQV9U",
+            "name": "laffy mefa🐾",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#28G0PUVGQ8",
+            "name": "HMB|alè🤫",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1285
+            }
+          },
+          {
+            "tag": "#LPLYLJGGP",
+            "name": "JOEL | roro",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1143
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 1093
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
