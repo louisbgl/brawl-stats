@@ -591665,5 +591665,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261019T170401.000Z",
+    "event": {
+      "id": 15000082,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Layer Cake"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 83,
+      "starPlayer": {
+        "tag": "#2J202ULJ09",
+        "name": "BES",
+        "brawler": {
+          "id": 16000053,
+          "name": "LOLA",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G8PVLQ2GC",
+            "name": "MKA37",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 9,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#809082R2JY",
+            "name": "какуля",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#9U09QRRC2",
+            "name": "azertybeta",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2VQY2QQLYV",
+            "name": "yeah red boy :]",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2J202ULJ09",
+            "name": "BES",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261019T170704.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 112,
+      "starPlayer": {
+        "tag": "#2VUPRUY9JV",
+        "name": "FUT|Filip18",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VUPRUY9JV",
+            "name": "FUT|Filip18",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2CP0U8UGV8",
+            "name": "Lucian",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#28R0CRPRJL",
+            "name": "Homer",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#P9Y9RR9QQ",
+            "name": "Lillus^-^",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2VL2VJV99V",
+            "name": "Black Angel",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
