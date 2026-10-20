@@ -593204,5 +593204,187 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20261020T095546.000Z",
+    "event": {
+      "id": 15000083,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Dry Season"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 94,
+      "starPlayer": {
+        "tag": "#GCUQ2LR8G",
+        "name": "NO WINTRADE",
+        "brawler": {
+          "id": 16000042,
+          "name": "BYRON",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CY0QJ99LG",
+            "name": "EDGAR",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#2GRGCUQLJQ",
+            "name": "YT | F.D.2011😎",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2URVV90GJL",
+            "name": "Jason 龙",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#LLJ0J02",
+            "name": "_v1nc3nz0_",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 8
+            }
+          },
+          {
+            "tag": "#GCUQ2LR8G",
+            "name": "NO WINTRADE",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 8
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261020T095805.000Z",
+    "event": {
+      "id": 15000132,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Center Stage"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 84,
+      "starPlayer": {
+        "tag": "#LRGPJC0",
+        "name": "Y3p|niko🥩",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 9
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y2RJ2Q9",
+            "name": "HB-chris02",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#2VYCL90YJC",
+            "name": "Chel",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#LRGPJC0",
+            "name": "Y3p|niko🥩",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VQ8VLRY29",
+            "name": "bohmiddd",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#88Y0PGGUG",
+            "name": "𝑳𝒐𝒍𝒆𝒕𝒂♡",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
