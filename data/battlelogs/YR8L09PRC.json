@@ -408276,5 +408276,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261020T170035.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 166,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#RPJCP0PU2",
+        "name": "Luki",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 11,
+          "trophies": 2030
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1715
+            }
+          },
+          {
+            "tag": "#2QC08PYR8Y",
+            "name": "LL|MAHORAGA",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 2772
+            }
+          },
+          {
+            "tag": "#2GQPPQ9PU",
+            "name": "kirby",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 2619
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RPJCP0PU2",
+            "name": "Luki",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 2030
+            }
+          },
+          {
+            "tag": "#YG28PCLLQ",
+            "name": "giftos",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1943
+            }
+          },
+          {
+            "tag": "#80RY92UYC",
+            "name": "Clion",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1567
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
