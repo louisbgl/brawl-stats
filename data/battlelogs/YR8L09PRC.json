@@ -408368,5 +408368,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261020T202939.000Z",
+    "event": {
+      "id": 15000143,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Beach Ball"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 68,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#8J8G0080V",
+        "name": "メ𝔍!𝔪❦",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 1185
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1706
+            }
+          },
+          {
+            "tag": "#YV92U9CJY",
+            "name": "𝔏𝔦𝔫𝔦ℌ𝔢",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 9,
+              "trophies": 1089
+            }
+          },
+          {
+            "tag": "#8J8G0080V",
+            "name": "メ𝔍!𝔪❦",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1185
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JP09JYLCC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 1298
+            }
+          },
+          {
+            "tag": "#2JQ0G9CRJU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1309
+            }
+          },
+          {
+            "tag": "#2CLGP0CRVJ",
+            "name": "darda",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1298
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
