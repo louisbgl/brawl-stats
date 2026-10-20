@@ -593386,5 +593386,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261020T100020.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 88,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000086,
+          "name": "SHADE",
+          "power": 11,
+          "trophies": 9
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RRPLPUUPV",
+            "name": "x-file шинигами",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#2GJYGY2URU",
+            "name": "le brawleur",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#9Y2GRRJV",
+            "name": "Pohi",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GURYJYP2J",
+            "name": "ZALIK",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#89UPV299J",
+            "name": "gt/tuborg",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261020T101922.000Z",
+    "event": {
+      "id": 15000440,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flaring Phoenix"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 81,
+      "starPlayer": {
+        "tag": "#28QRR0JJJJ",
+        "name": "VNT|Vex",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 9
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JLP2U0JVU",
+            "name": "STALLKER249",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#2UVQ2P0J0C",
+            "name": "NAFANY",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VYLRQCPVQ",
+            "name": "E=mc2",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#28QRR0JJJJ",
+            "name": "VNT|Vex",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#Q2VJGUYJL",
+            "name": "ChausséAuMoine",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

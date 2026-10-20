@@ -187456,5 +187456,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261020T100806.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 208,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000013,
+          "name": "POCO",
+          "power": 11,
+          "trophies": 1304
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1304
+            }
+          },
+          {
+            "tag": "#2UJVGJJLQV",
+            "name": "Kir🖤",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1187
+            }
+          },
+          {
+            "tag": "#22PR0LC9",
+            "name": "///blajn",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1015
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CRU2GCLV2",
+            "name": "суспирия",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 792
+            }
+          },
+          {
+            "tag": "#2J8ULQJYLC",
+            "name": "Артем",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1116
+            }
+          },
+          {
+            "tag": "#22R0G8LVC",
+            "name": "Bibou€",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 0
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
