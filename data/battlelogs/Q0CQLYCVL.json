@@ -596131,5 +596131,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261021T111931.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 86,
+      "starPlayer": {
+        "tag": "#2U9JJ2PVQP",
+        "name": "старейшина",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 2026
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1238
+            }
+          },
+          {
+            "tag": "#2U9JJ2PVQP",
+            "name": "старейшина",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2026
+            }
+          },
+          {
+            "tag": "#2V8GU92CPU",
+            "name": "67",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1000
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0Q998V20",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 10,
+              "trophies": 1394
+            }
+          },
+          {
+            "tag": "#2GG9VCRCL9",
+            "name": "liam",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 1385
+            }
+          },
+          {
+            "tag": "#2VPGCJC9CR",
+            "name": "DOUG COMPETENTE",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 1399
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261021T112122.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 60,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 1201
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QRUJCRU",
+            "name": "Petha101",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 2060
+            }
+          },
+          {
+            "tag": "#2U9YP2YYYR",
+            "name": "siska54",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1023
+            }
+          },
+          {
+            "tag": "#GY0LURYYG",
+            "name": "MrKitKat",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1070
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RUL8CJ9U9",
+            "name": "GИTЛE. R",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1507
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1201
+            }
+          },
+          {
+            "tag": "#YJCQGJ0RV",
+            "name": "{VAR}",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1264
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
