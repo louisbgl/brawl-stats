@@ -330965,5 +330965,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261021T104602.000Z",
+    "event": {
+      "id": 15000300,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Ring of Fire"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 137,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 7
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#822U99JVJ",
+            "name": "teribbile",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#Q2QQU9PV0",
+            "name": "dlaze",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L2L98G9PG",
+            "name": "Imrane🇲🇦",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#2VJGYQ8L9P",
+            "name": "هههههههههههه",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 10,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#YVQCU9U8R",
+            "name": "Santi | 2013",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 7
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
