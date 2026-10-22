@@ -412784,5 +412784,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261022T122907.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 27,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#2RJQUCRQ0",
+        "name": "фатима лирика",
+        "brawler": {
+          "id": 16000087,
+          "name": "JUJU",
+          "power": 11,
+          "trophies": 957
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1467
+            }
+          },
+          {
+            "tag": "#2J0VLJV8U",
+            "name": "TC|Falcon",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 866
+            }
+          },
+          {
+            "tag": "#2RJQUCRQ0",
+            "name": "фатима лирика",
+            "brawler": {
+              "id": 16000087,
+              "name": "JUJU",
+              "power": 11,
+              "trophies": 957
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#29YQ2UQP22",
+            "name": "тг-bladebots_bs",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1098
+            }
+          },
+          {
+            "tag": "#2U8L9JR28Y",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 10,
+              "trophies": 1092
+            }
+          },
+          {
+            "tag": "#J029VQYGR",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1095
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
