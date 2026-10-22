@@ -723032,5 +723032,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261022T143305.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 325,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1193
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8LY8GJPPR",
+            "name": "24Kilates",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1427
+            }
+          },
+          {
+            "tag": "#9YLGUUUV",
+            "name": "dominjik",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 1620
+            }
+          },
+          {
+            "tag": "#PL88P0GQQ",
+            "name": "Alexio❤️Doge",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1067
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1179
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1193
+            }
+          },
+          {
+            "tag": "#LY0UY8JU8",
+            "name": "İMP TOPRAK",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1111
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
