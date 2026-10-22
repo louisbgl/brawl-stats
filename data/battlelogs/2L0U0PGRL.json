@@ -335104,5 +335104,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261022T135718.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#LY8CUJC22",
+        "name": "ZOMBIE 🧟",
+        "brawler": {
+          "id": 16000013,
+          "name": "POCO",
+          "power": 11,
+          "trophies": 912
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JC92YJGPV",
+            "name": "Youtube|Frostix",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1053
+            }
+          },
+          {
+            "tag": "#J0R0UGLU9",
+            "name": "•[꧁☬⋆ТᎻᎬ༒ᏦᎥᏁᏳ⋆☬",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 828
+            }
+          },
+          {
+            "tag": "#UJ00PVVV",
+            "name": "duarteee10",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 2385
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 9,
+              "trophies": 1011
+            }
+          },
+          {
+            "tag": "#2LJG8R09R0",
+            "name": "HBL|LILLO/DINA",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1569
+            }
+          },
+          {
+            "tag": "#LY8CUJC22",
+            "name": "ZOMBIE 🧟",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 912
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
