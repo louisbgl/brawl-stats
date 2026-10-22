@@ -216037,5 +216037,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261022T151052.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 44,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#P0QVLJ0L0",
+        "name": "frisse_wessel",
+        "brawler": {
+          "id": 16000104,
+          "name": "DAMIAN",
+          "power": 9,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 4,
+              "trophies": 60
+            }
+          },
+          {
+            "tag": "#P0QVLJ0L0",
+            "name": "frisse_wessel",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#290Y9GRLJV",
+            "name": "EXD layroxGOTyオ",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 1,
+              "trophies": 0
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CQRPCPU2P",
+            "name": "@talebrawl",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 4,
+              "trophies": 19
+            }
+          },
+          {
+            "tag": "#JRVJV0VVJ",
+            "name": "Zer0_bot",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 2,
+              "trophies": 17
+            }
+          },
+          {
+            "tag": "#2LJLY2VGU9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 3,
+              "trophies": 22
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
