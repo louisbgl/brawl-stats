@@ -600289,5 +600289,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261023T203118.000Z",
+    "event": {
+      "id": 15001270,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Bustling Business"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 45,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2CC88C2Y0U",
+        "name": "maloş",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 877
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JL2RRGJ00",
+            "name": "SÜLEDERMAN",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 380
+            }
+          },
+          {
+            "tag": "#2CC88C2Y0U",
+            "name": "maloş",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 877
+            }
+          },
+          {
+            "tag": "#LGCCG8GL",
+            "name": "DRKOBRAZ",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1916
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 11,
+              "trophies": 382
+            }
+          },
+          {
+            "tag": "#90YC9RQQ",
+            "name": "OU$|D€MBÉLÉ🥷🩸",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1118
+            }
+          },
+          {
+            "tag": "#JQPY99Y28",
+            "name": "JAZIK🦈",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 944
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
