@@ -601482,5 +601482,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261024T122001.000Z",
+    "event": {
+      "id": 15001330,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "In Demand"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 159,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#9YGJPULYC",
+        "name": "きFreeqz🦇",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 1160
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2G0RGLJU2",
+            "name": "fratt44",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 1092
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1045
+            }
+          },
+          {
+            "tag": "#9YGJPULYC",
+            "name": "きFreeqz🦇",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1160
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2YGJVV02JQ",
+            "name": "🫸👊🫄🏿🫄🏿",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1726
+            }
+          },
+          {
+            "tag": "#2J9YJRJPV2",
+            "name": "le footeux",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1442
+            }
+          },
+          {
+            "tag": "#CCQJPCVL",
+            "name": "eleleess",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1436
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
