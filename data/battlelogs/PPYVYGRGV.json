@@ -41737,5 +41737,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261024T201749.000Z",
+    "event": {
+      "id": 15001330,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "In Demand"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 111,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#2CQ0YP9J2R",
+        "name": "Brawler",
+        "brawler": {
+          "id": 16000000,
+          "name": "SHELLY",
+          "power": 11,
+          "trophies": 233
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 247
+            }
+          },
+          {
+            "tag": "#2QCU2URRRU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 260
+            }
+          },
+          {
+            "tag": "#2CJ9PUCP8G",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 242
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UP98RCLRJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 244
+            }
+          },
+          {
+            "tag": "#2CQ0YP9J2R",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 233
+            }
+          },
+          {
+            "tag": "#2Q9VGJ9RC2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 10,
+              "trophies": 243
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
