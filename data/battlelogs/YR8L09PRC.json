@@ -416272,5 +416272,54 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261025T122752.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000091,
+            "name": "LUMI",
+            "power": 11,
+            "trophies": 1156
+          }
+        },
+        {
+          "tag": "#2VY2RU2GL",
+          "name": "7🚷|Tudor🌍🥇",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 1154
+          }
+        },
+        {
+          "tag": "#2R8JJRVR09",
+          "name": "FUT|SIGMA🥊",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 1131
+          }
+        }
+      ],
+      "level": {
+        "name": "Expert",
+        "id": 2
+      }
+    }
   }
 ]
