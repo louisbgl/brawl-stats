@@ -416321,5 +416321,54 @@
         "id": 2
       }
     }
+  },
+  {
+    "battleTime": "20261025T123113.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#222QYGLULV",
+          "name": "MU$$0L1N1",
+          "brawler": {
+            "id": 16000083,
+            "name": "CLANCY",
+            "power": 11,
+            "trophies": 2002
+          }
+        },
+        {
+          "tag": "#2LPJVVV9UY",
+          "name": "eblan",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 2034
+          }
+        },
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 2010
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
   }
 ]
