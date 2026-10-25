@@ -603860,5 +603860,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261025T110141.000Z",
+    "event": {
+      "id": 15001020,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Grass Knot"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 99,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#2VPL9YQU",
+        "name": "Боец",
+        "brawler": {
+          "id": 16000089,
+          "name": "MEEPLE",
+          "power": 11,
+          "trophies": 1266
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PCGP2LURQ",
+            "name": "MR.💎KARAT💎",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1010
+            }
+          },
+          {
+            "tag": "#9VJRP08LL",
+            "name": "↯𝙏𝙤𝙢𝙩𝙚",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 857
+            }
+          },
+          {
+            "tag": "#2VPL9YQU",
+            "name": "Боец",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 1266
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1708
+            }
+          },
+          {
+            "tag": "#L9C0UL9QC",
+            "name": "Why¿Hühnchen💍.",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 10,
+              "trophies": 941
+            }
+          },
+          {
+            "tag": "#2JL29GP9J8",
+            "name": "Daiki Aomine",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1710
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
