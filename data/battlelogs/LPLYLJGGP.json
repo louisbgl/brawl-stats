@@ -6863,5 +6863,103 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261025T134148.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#RQ9JLPCLG",
+          "name": "YT:Oderax🤫",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1134
+          }
+        },
+        {
+          "tag": "#LPLYLJGGP",
+          "name": "JOEL | roro",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 11,
+            "trophies": 1129
+          }
+        },
+        {
+          "tag": "#2GU90PYUPL",
+          "name": "про",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1123
+          }
+        }
+      ],
+      "level": {
+        "name": "Expert",
+        "id": 2
+      }
+    }
+  },
+  {
+    "battleTime": "20261025T134514.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2J9YJJYJCQ",
+          "name": "Brawl Stars",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 8,
+            "trophies": 233
+          }
+        },
+        {
+          "tag": "#2VQCY29P8G",
+          "name": "mayday",
+          "brawler": {
+            "id": 16000107,
+            "name": "NORI",
+            "power": 11,
+            "trophies": 237
+          }
+        },
+        {
+          "tag": "#LPLYLJGGP",
+          "name": "JOEL | roro",
+          "brawler": {
+            "id": 16000016,
+            "name": "PAM",
+            "power": 11,
+            "trophies": 228
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
   }
 ]
