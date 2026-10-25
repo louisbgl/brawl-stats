@@ -7145,5 +7145,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261025T164627.000Z",
+    "event": {
+      "id": 15001059,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Call of the Water"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 67,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#P29QGRQLC",
+        "name": "v0rtex",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 1844
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LPLYLJGGP",
+            "name": "JOEL | roro",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 753
+            }
+          },
+          {
+            "tag": "#GRQVYG2J8",
+            "name": "ЛЕОННИКИТОС!2.0",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 780
+            }
+          },
+          {
+            "tag": "#P29QGRQLC",
+            "name": "v0rtex",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1844
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2J2YLR0RCJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 1118
+            }
+          },
+          {
+            "tag": "#2RG8RPQGYL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1100
+            }
+          },
+          {
+            "tag": "#2RU2GYVV8G",
+            "name": "fr",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 1118
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
