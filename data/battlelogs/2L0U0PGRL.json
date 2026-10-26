@@ -341288,5 +341288,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261026T124804.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 68,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000086,
+          "name": "SHADE",
+          "power": 11,
+          "trophies": 818
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P82820J",
+            "name": "melix",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1361
+            }
+          },
+          {
+            "tag": "#2YRGJRP8L",
+            "name": "Kid",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 740
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 818
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RL8Q8RPV9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 941
+            }
+          },
+          {
+            "tag": "#2YUQRRVULQ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 10,
+              "trophies": 962
+            }
+          },
+          {
+            "tag": "#20U0Y0V2J0",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 983
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
