@@ -614185,5 +614185,428 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261026T171356.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2Y2QQCYQ20",
+          "name": "manon.chb7",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 460
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000083,
+            "name": "CLANCY",
+            "power": 11,
+            "trophies": 1027
+          }
+        },
+        {
+          "tag": "#P8G8L028L",
+          "name": "Бомжара",
+          "brawler": {
+            "id": 16000023,
+            "name": "LEON",
+            "power": 11,
+            "trophies": 1030
+          }
+        }
+      ],
+      "level": {
+        "name": "Expert",
+        "id": 2
+      }
+    }
+  },
+  {
+    "battleTime": "20261026T171627.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#28QVLP8PYP",
+          "name": "karas 9841",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1218
+          }
+        },
+        {
+          "tag": "#2Y2QQCYQ20",
+          "name": "manon.chb7",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 460
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000027,
+            "name": "8-BIT",
+            "power": 11,
+            "trophies": 1234
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
+  },
+  {
+    "battleTime": "20261026T172143.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#2Y2QQCYQ20",
+          "name": "manon.chb7",
+          "brawler": {
+            "id": 16000040,
+            "name": "AMBER",
+            "power": 11,
+            "trophies": 770
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 1155
+          }
+        },
+        {
+          "tag": "#8L9Q2QLGR",
+          "name": "lucio",
+          "brawler": {
+            "id": 16000019,
+            "name": "PENNY",
+            "power": 11,
+            "trophies": 1137
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20261026T172459.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 95,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2Y2QQCYQ20",
+        "name": "manon.chb7",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 460
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LQG9PQGJ2",
+            "name": "Majster",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 860
+            }
+          },
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 460
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 654
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GUVCG9PGL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000024,
+              "name": "ROSA",
+              "power": 11,
+              "trophies": 691
+            }
+          },
+          {
+            "tag": "#2U29GULVVJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 633
+            }
+          },
+          {
+            "tag": "#2C99P20JJG",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 720
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261026T172715.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 110,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#GR22P9V2G",
+        "name": "NİGHT FLAME🔥",
+        "brawler": {
+          "id": 16000078,
+          "name": "MELODIE",
+          "power": 11,
+          "trophies": 1520
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GR22P9V2G",
+            "name": "NİGHT FLAME🔥",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1520
+            }
+          },
+          {
+            "tag": "#9LY8YQCL8",
+            "name": "Dávid28",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 510
+            }
+          },
+          {
+            "tag": "#JLL98PQC9",
+            "name": "Paulpetta",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 274
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 470
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 664
+            }
+          },
+          {
+            "tag": "#2LQG9PQGJ2",
+            "name": "Majster",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 875
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261026T172900.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 74,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LUJPQRVPL",
+        "name": "frank lover",
+        "brawler": {
+          "id": 16000074,
+          "name": "CHARLIE",
+          "power": 11,
+          "trophies": 935
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LUJPQRVPL",
+            "name": "frank lover",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 935
+            }
+          },
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 468
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 661
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UPGQR00LG",
+            "name": "CK|Shadowww",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 1015
+            }
+          },
+          {
+            "tag": "#2QQCUC0VC9",
+            "name": "curt",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1285
+            }
+          },
+          {
+            "tag": "#2QJV2P9YVQ",
+            "name": "seth",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1054
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
