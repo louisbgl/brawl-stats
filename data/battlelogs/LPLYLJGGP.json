@@ -10073,5 +10073,214 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20261026T200402.000Z",
+    "event": {
+      "id": 15001278,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Crossing the Coast"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 1,
+      "trophyChange": 13,
+      "players": [
+        {
+          "tag": "#LPLYLJGGP",
+          "name": "JOEL | roro",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 278
+          }
+        },
+        {
+          "tag": "#2U9YL9LUQR",
+          "name": "melodi",
+          "brawler": {
+            "id": 16000032,
+            "name": "MAX",
+            "power": 10,
+            "trophies": 277
+          }
+        },
+        {
+          "tag": "#2CR88UPVUY",
+          "name": "KALAY",
+          "brawler": {
+            "id": 16000068,
+            "name": "MAISIE",
+            "power": 10,
+            "trophies": 290
+          }
+        },
+        {
+          "tag": "#RVUQCLPYC",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 264
+          }
+        },
+        {
+          "tag": "#28URGPPPJQ",
+          "name": "tg bladebots_bs",
+          "brawler": {
+            "id": 16000039,
+            "name": "COLETTE",
+            "power": 11,
+            "trophies": 275
+          }
+        },
+        {
+          "tag": "#2UYUP2Q9V8",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 276
+          }
+        },
+        {
+          "tag": "#2G22VRU9GY",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000038,
+            "name": "SURGE",
+            "power": 10,
+            "trophies": 275
+          }
+        },
+        {
+          "tag": "#RCCQC9GU0",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000016,
+            "name": "PAM",
+            "power": 9,
+            "trophies": 293
+          }
+        },
+        {
+          "tag": "#2V82RYQRVY",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000022,
+            "name": "TICK",
+            "power": 11,
+            "trophies": 275
+          }
+        },
+        {
+          "tag": "#2RRP08UJ8G",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000083,
+            "name": "CLANCY",
+            "power": 8,
+            "trophies": 286
+          }
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20261026T200910.000Z",
+    "event": {
+      "id": 15001323,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Triple Threat"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 255,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#LPLYLJGGP",
+        "name": "JOEL | roro",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 291
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#280GPCY0P",
+            "name": "TOMIZIPOT",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 816
+            }
+          },
+          {
+            "tag": "#LPLYLJGGP",
+            "name": "JOEL | roro",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 291
+            }
+          },
+          {
+            "tag": "#2C90J9VLUG",
+            "name": "TCC DER UKRAINE",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1115
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YQ9JLGUVY",
+            "name": "MOZES",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1247
+            }
+          },
+          {
+            "tag": "#2QL2C2PU80",
+            "name": "Reed",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 610
+            }
+          },
+          {
+            "tag": "#RPUL0YP8C",
+            "name": "Spinat47",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1142
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
