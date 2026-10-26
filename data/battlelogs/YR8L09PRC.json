@@ -416419,5 +416419,54 @@
         "id": 4
       }
     }
+  },
+  {
+    "battleTime": "20261026T133928.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 2010
+          }
+        },
+        {
+          "tag": "#RPPQ0RVJ2",
+          "name": "TR-Pusat",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 2009
+          }
+        },
+        {
+          "tag": "#JUVV09JUY",
+          "name": "калбаса666",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 2015
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible",
+        "id": 5
+      }
+    }
   }
 ]
