@@ -614093,5 +614093,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261026T163146.000Z",
+    "event": {
+      "id": 15001323,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Triple Threat"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 292,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#GQGQGYG9G",
+        "name": "bal kız",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 2012
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PJ9QLQJ89",
+            "name": "...мармок...",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 435
+            }
+          },
+          {
+            "tag": "#YQL2PURQ8",
+            "name": "MePJluH",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 553
+            }
+          },
+          {
+            "tag": "#89UQ0VV2U",
+            "name": "4SV! MRAZOTA",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 588
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 582
+            }
+          },
+          {
+            "tag": "#LG0VL2RU0",
+            "name": "mark",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 8,
+              "trophies": 326
+            }
+          },
+          {
+            "tag": "#GQGQGYG9G",
+            "name": "bal kız",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 2012
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
