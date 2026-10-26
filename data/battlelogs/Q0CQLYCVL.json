@@ -611103,5 +611103,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261026T084027.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2VYPLV9RQV",
+        "name": "乂Jxker🤍",
+        "brawler": {
+          "id": 16000070,
+          "name": "CORDELIUS",
+          "power": 11,
+          "trophies": 1323
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VYPLV9RQV",
+            "name": "乂Jxker🤍",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 1323
+            }
+          },
+          {
+            "tag": "#2UG9V9Q0U9",
+            "name": "@준거 리:𝕿𝖘𝖚𝖐",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1606
+            }
+          },
+          {
+            "tag": "#92092209P",
+            "name": "WNN|LET4SEE",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 9,
+              "trophies": 542
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PPLRY90P2",
+            "name": "Jean Voilasoce",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 9,
+              "trophies": 216
+            }
+          },
+          {
+            "tag": "#2LPR28LVJJ",
+            "name": "kirill",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 8,
+              "trophies": 255
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 9,
+              "trophies": 502
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
