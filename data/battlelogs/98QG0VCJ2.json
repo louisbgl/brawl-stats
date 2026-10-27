@@ -619273,5 +619273,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261027T114954.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 126,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#Y8ULQQJCQ",
+        "name": "valzzu",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1837
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y8ULQQJCQ",
+            "name": "valzzu",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1837
+            }
+          },
+          {
+            "tag": "#YQR89GRUQ",
+            "name": "Finlay 👍",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 1345
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1902
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2U82RQ2222",
+            "name": "DaReX_36",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1628
+            }
+          },
+          {
+            "tag": "#29YPGGQJLY",
+            "name": "тг-bladebots_bs",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 10,
+              "trophies": 1645
+            }
+          },
+          {
+            "tag": "#2U98P9JVPU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1631
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
