@@ -188850,5 +188850,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261027T201411.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 357,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#G0C900QYC",
+        "name": "KOZMOPOLİTAN",
+        "brawler": {
+          "id": 16000010,
+          "name": "EL PRIMO",
+          "power": 11,
+          "trophies": 983
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YRV9PVV89",
+            "name": "Alexander",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 8,
+              "trophies": 0
+            }
+          },
+          {
+            "tag": "#PP9J2GCY9",
+            "name": "guss",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 10,
+              "trophies": 224
+            }
+          },
+          {
+            "tag": "#G0C900QYC",
+            "name": "KOZMOPOLİTAN",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 983
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1076
+            }
+          },
+          {
+            "tag": "#2G2CGL9YR8",
+            "name": "𝕃𝕃 | 𝔻𝕖𝕞𝕠",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 9,
+              "trophies": 246
+            }
+          },
+          {
+            "tag": "#YC0829C8V",
+            "name": "Randozzz💋",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1751
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
