@@ -341932,5 +341932,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261027T190655.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 247,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#GRPQUJ99P",
+        "name": "ale",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 2004
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPLULCL8U",
+            "name": "Anarchist",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1376
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1251
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1045
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GRPQUJ99P",
+            "name": "ale",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 2004
+            }
+          },
+          {
+            "tag": "#9QLRG0QY9",
+            "name": "•́chinczyk4wb•́",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 2166
+            }
+          },
+          {
+            "tag": "#228PLJQCL",
+            "name": "Pitcho",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1316
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261027T191514.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 385,
+      "trophyChange": -6,
+      "starPlayer": {
+        "tag": "#GPJQG9UCP",
+        "name": "[ZERO] §$",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1067
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GPJQG9UCP",
+            "name": "[ZERO] §$",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1067
+            }
+          },
+          {
+            "tag": "#GGYG0202R",
+            "name": "HZ. Muhammed",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1016
+            }
+          },
+          {
+            "tag": "#Y9PCV2U9U",
+            "name": "Pancur",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 2105
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PJ8C28VQJ",
+            "name": "CeS | Helunka",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1272
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1269
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1060
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
