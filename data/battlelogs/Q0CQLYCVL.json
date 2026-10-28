@@ -619668,5 +619668,188 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261027T235128.000Z",
+    "event": {
+      "id": 15000051,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Super Beach"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 46,
+      "starPlayer": {
+        "tag": "#QCJ8J8U0U",
+        "name": "TTM|Osmar",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1289
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CLJ9QQVY",
+            "name": "LIQUIDATOR",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1120
+            }
+          },
+          {
+            "tag": "#2V0PQGLCUQ",
+            "name": "SML|JORGE",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 1141
+            }
+          },
+          {
+            "tag": "#QCJ8J8U0U",
+            "name": "TTM|Osmar",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1289
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2092L8GG0",
+            "name": "Santick",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 2030
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1720
+            }
+          },
+          {
+            "tag": "#9Q2CRCYLC",
+            "name": "🥽Sk|Törke‽",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1022
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261027T235536.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 220,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y08RURC0P",
+        "name": "𝚂𝚒𝚕𝚊𝚜𝙹𝚘.",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 850
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y08RURC0P",
+            "name": "𝚂𝚒𝚕𝚊𝚜𝙹𝚘.",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 850
+            }
+          },
+          {
+            "tag": "#28Y2UURUQR",
+            "name": "Nikitaオ",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 664
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 9,
+              "trophies": 660
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L2J0J28Q",
+            "name": "ScBence",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 594
+            }
+          },
+          {
+            "tag": "#CQUCC88V",
+            "name": "sina",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1956
+            }
+          },
+          {
+            "tag": "#G20QQ08R0",
+            "name": "jimamitofu",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 10,
+              "trophies": 360
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
