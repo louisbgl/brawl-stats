@@ -420854,5 +420854,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261028T203349.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 216,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#90Q02GPQ8",
+        "name": "xXćap ćapXx",
+        "brawler": {
+          "id": 16000025,
+          "name": "CARL",
+          "power": 11,
+          "trophies": 1178
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1351
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 873
+            }
+          },
+          {
+            "tag": "#82JCVJL0",
+            "name": "Mena",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 1037
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJ2QP0YC",
+            "name": "Pastis",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1106
+            }
+          },
+          {
+            "tag": "#PLVC0GQ0",
+            "name": "Honzax",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1050
+            }
+          },
+          {
+            "tag": "#90Q02GPQ8",
+            "name": "xXćap ćapXx",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1178
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

@@ -622333,5 +622333,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261028T205311.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 473,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#8U0UCURLC",
+        "name": "Барбариска🦄",
+        "brawler": {
+          "id": 16000051,
+          "name": "ASH",
+          "power": 11,
+          "trophies": 977
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V8GUVC8Y2",
+            "name": "Biffy 67",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2026
+            }
+          },
+          {
+            "tag": "#8U0UCURLC",
+            "name": "Барбариска🦄",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 977
+            }
+          },
+          {
+            "tag": "#YYLJ2RJ2Y",
+            "name": "халк",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1346
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LUCVY8JJP",
+            "name": "bomba",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 250
+            }
+          },
+          {
+            "tag": "#2909VP0PQ",
+            "name": "oskar",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 237
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 9,
+              "trophies": 813
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
