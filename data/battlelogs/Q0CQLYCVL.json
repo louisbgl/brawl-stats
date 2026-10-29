@@ -623069,5 +623069,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261029T200624.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 212,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#98CP0VRJ2",
+        "name": "Acar",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 10,
+          "trophies": 710
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98CP0VRJ2",
+            "name": "Acar",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 10,
+              "trophies": 710
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 9,
+              "trophies": 830
+            }
+          },
+          {
+            "tag": "#YCQ9PRUY2",
+            "name": "Stucki=gayfurry",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 9,
+              "trophies": 460
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V292C08U8",
+            "name": "emok1d",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 423
+            }
+          },
+          {
+            "tag": "#8R00CUVY",
+            "name": "emokit",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1084
+            }
+          },
+          {
+            "tag": "#2YYCC8Q00J",
+            "name": "shishi",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
