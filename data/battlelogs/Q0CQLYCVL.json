@@ -622517,5 +622517,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261029T103001.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 431,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#ULPRU8YV",
+        "name": "зомби",
+        "brawler": {
+          "id": 16000085,
+          "name": "KENJI",
+          "power": 11,
+          "trophies": 611
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q9YPRJV29",
+            "name": "CR|landi",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 9,
+              "trophies": 649
+            }
+          },
+          {
+            "tag": "#2CGP8VYLYJ",
+            "name": "BIG | SNAKE",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 9,
+              "trophies": 1123
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 810
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#J0J9Y0QYL",
+            "name": "титан",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 9,
+              "trophies": 551
+            }
+          },
+          {
+            "tag": "#ULPRU8YV",
+            "name": "зомби",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 611
+            }
+          },
+          {
+            "tag": "#2QCL0Q8V9L",
+            "name": "Anonym 393",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1124
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
