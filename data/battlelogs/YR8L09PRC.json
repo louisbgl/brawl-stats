@@ -420946,5 +420946,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261029T150149.000Z",
+    "event": {
+      "id": 15001331,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pump It Up"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 54,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 1341
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1341
+            }
+          },
+          {
+            "tag": "#88RL99U0C",
+            "name": "MĄXÏMØ ᵍᵒᵒᵈ",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1018
+            }
+          },
+          {
+            "tag": "#QYR9YL2Y",
+            "name": "RYZEN",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1570
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#298PP9YCL9",
+            "name": "тг-geoxantes",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1281
+            }
+          },
+          {
+            "tag": "#2J8PVJJQRJ",
+            "name": "manu",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1280
+            }
+          },
+          {
+            "tag": "#2CCCPC2CR2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1283
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
