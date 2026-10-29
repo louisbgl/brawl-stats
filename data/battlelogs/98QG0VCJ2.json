@@ -620193,5 +620193,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261029T093420.000Z",
+    "event": {
+      "id": 15001331,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pump It Up"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 60,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2CR0P8R0GC",
+        "name": "Tomar753",
+        "brawler": {
+          "id": 16000010,
+          "name": "EL PRIMO",
+          "power": 10,
+          "trophies": 110
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 101
+            }
+          },
+          {
+            "tag": "#2CJ2JVVQJ8",
+            "name": "Robinay",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 99
+            }
+          },
+          {
+            "tag": "#2CR0P8R0GC",
+            "name": "Tomar753",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 10,
+              "trophies": 110
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V22CUYYJY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 10,
+              "trophies": 116
+            }
+          },
+          {
+            "tag": "#29G098JV8L",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 103
+            }
+          },
+          {
+            "tag": "#292RLJUGCQ",
+            "name": "тг-bladebots_bs",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 10,
+              "trophies": 105
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
