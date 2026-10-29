@@ -623621,5 +623621,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261029T230049.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 145,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 11,
+          "trophies": 812
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2RGVVUUQVJ",
+            "name": "IG | Termiblaze",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1023
+            }
+          },
+          {
+            "tag": "#JRVYQJYR9",
+            "name": "idk.",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 770
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 812
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JUCGLQ8L8",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 11,
+              "trophies": 876
+            }
+          },
+          {
+            "tag": "#VQQJ2CCCR",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 10,
+              "trophies": 841
+            }
+          },
+          {
+            "tag": "#2C2VGC2R09",
+            "name": "lalu973",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 822
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
