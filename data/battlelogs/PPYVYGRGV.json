@@ -42272,5 +42272,97 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20261030T223117.000Z",
+    "event": {
+      "id": 15001018,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Double Decker"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 59,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#VRL2GUJ",
+        "name": "neuccc",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 11,
+          "trophies": 1187
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JQ8JUU8Q2",
+            "name": "BS|SleNd",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 9,
+              "trophies": 464
+            }
+          },
+          {
+            "tag": "#2VGPRLLYCJ",
+            "name": "agm8",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1678
+            }
+          },
+          {
+            "tag": "#8VL9YU80Y",
+            "name": "hyeglot",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 8,
+              "trophies": 470
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VRL2GUJ",
+            "name": "neuccc",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1187
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 296
+            }
+          },
+          {
+            "tag": "#808G8L99RG",
+            "name": "西非小巴黎",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 993
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
