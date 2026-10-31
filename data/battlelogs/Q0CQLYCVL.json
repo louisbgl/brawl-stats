@@ -623989,5 +623989,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261031T003101.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 457,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#8JPQPQVCC",
+        "name": "_dimbata_",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 1953
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 878
+            }
+          },
+          {
+            "tag": "#8JPQPQVCC",
+            "name": "_dimbata_",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1953
+            }
+          },
+          {
+            "tag": "#JYCJJU8V",
+            "name": "tiepvncz",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1053
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2J0QYUYRUQ",
+            "name": "Nadia",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 747
+            }
+          },
+          {
+            "tag": "#QGV9QC8LR",
+            "name": "camaron es payo",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 941
+            }
+          },
+          {
+            "tag": "#CJPUCJ9R",
+            "name": "Otterlos",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1018
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
