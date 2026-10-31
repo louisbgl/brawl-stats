@@ -624081,5 +624081,54 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261031T115529.000Z",
+    "event": {
+      "id": 15001080,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Plague Doctor Crow"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#R0VPPY98R",
+          "name": "Kolabolda",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1166
+          }
+        },
+        {
+          "tag": "#2PGVQCVQC",
+          "name": "§ OUSSAMA YT §",
+          "brawler": {
+            "id": 16000086,
+            "name": "SHADE",
+            "power": 11,
+            "trophies": 1166
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 1170
+          }
+        }
+      ],
+      "level": {
+        "name": "Expert",
+        "id": 2
+      }
+    }
   }
 ]
