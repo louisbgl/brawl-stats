@@ -623713,5 +623713,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261030T233345.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 254,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#2QLPRRVRL",
+        "name": "Dikke Dean",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 576
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QLU2RCJ2Q",
+            "name": "dark sky",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1333
+            }
+          },
+          {
+            "tag": "#YJU8RL98R",
+            "name": "po",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 869
+            }
+          },
+          {
+            "tag": "#2LRVVC2C8V",
+            "name": "Ronamdo21&",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 680
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CYRJQPUP",
+            "name": "Jk",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 903
+            }
+          },
+          {
+            "tag": "#2QLPRRVRL",
+            "name": "Dikke Dean",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 576
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 827
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261030T235808.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 233,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#VCPVJRLU",
+        "name": "MS | ZEUS",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 649
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VCPVJRLU",
+            "name": "MS | ZEUS",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 649
+            }
+          },
+          {
+            "tag": "#GL9CUYVG2",
+            "name": "{Gucci}",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 465
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 843
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PGPV9L2GQ",
+            "name": "DWN|𝕴𝖘𝖒𝖆",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 784
+            }
+          },
+          {
+            "tag": "#8GUQUQP2L",
+            "name": "🫪🫪🫪",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 603
+            }
+          },
+          {
+            "tag": "#P9Y9YQ2RJ",
+            "name": "𝓁ℯ𝓁𝒾𝒽𝒶𝓇𝒾",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 1092
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
