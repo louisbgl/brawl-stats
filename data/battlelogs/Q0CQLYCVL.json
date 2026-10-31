@@ -624375,5 +624375,189 @@
         "id": 7
       }
     }
+  },
+  {
+    "battleTime": "20261031T171134.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 246,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#V89UU8GU",
+        "name": "s3",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 9,
+          "trophies": 978
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#V89UU8GU",
+            "name": "s3",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 978
+            }
+          },
+          {
+            "tag": "#2089PLYRU",
+            "name": "Black kat [XL]",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 1933
+            }
+          },
+          {
+            "tag": "#288QPRCYY",
+            "name": "Крисс",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 606
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RYC8PC8Q8",
+            "name": "вепар🥽🧊",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1316
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 873
+            }
+          },
+          {
+            "tag": "#Y2YP0PY2V",
+            "name": "manera",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 982
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261031T171622.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 258,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#2JR9VRQR8",
+        "name": "inqw1n🐧",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 10,
+          "trophies": 500
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UG9CLLY9J",
+            "name": "🌺✨Carmi✨🌺",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 794
+            }
+          },
+          {
+            "tag": "#2JR9VRQR8",
+            "name": "inqw1n🐧",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 10,
+              "trophies": 500
+            }
+          },
+          {
+            "tag": "#82J88UVC0",
+            "name": "❤A.farham❤",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 715
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LQ892V00Q",
+            "name": "FİL NECATİ",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 869
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 9,
+              "trophies": 862
+            }
+          },
+          {
+            "tag": "#2JQLVR9R2G",
+            "name": "muns💀",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 7,
+              "trophies": 488
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
