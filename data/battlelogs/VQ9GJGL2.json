@@ -216699,5 +216699,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261031T085441.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 159,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#2UL2RLU8G2",
+        "name": "Tanchik_Ranchik",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1381
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1070
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 872
+            }
+          },
+          {
+            "tag": "#P8Q0RCUJV",
+            "name": "pijma",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 2072
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GRV8YJQVL",
+            "name": "Ralph;)",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 887
+            }
+          },
+          {
+            "tag": "#GG088PRG8",
+            "name": "babaproaybk",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1005
+            }
+          },
+          {
+            "tag": "#2UL2RLU8G2",
+            "name": "Tanchik_Ranchik",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1381
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
