@@ -427542,5 +427542,54 @@
         "id": 7
       }
     }
+  },
+  {
+    "battleTime": "20261031T120308.000Z",
+    "event": {
+      "id": 15001080,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Plague Doctor Crow"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#YR8L09PRC",
+          "name": "JOEL | Mommy",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 2010
+          }
+        },
+        {
+          "tag": "#2V2GPR2UJG",
+          "name": "stitch🩵",
+          "brawler": {
+            "id": 16000107,
+            "name": "NORI",
+            "power": 11,
+            "trophies": 2000
+          }
+        },
+        {
+          "tag": "#2VQ980GLVU",
+          "name": "киса",
+          "brawler": {
+            "id": 16000003,
+            "name": "BROCK",
+            "power": 11,
+            "trophies": 2034
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible III",
+        "id": 7
+      }
+    }
   }
 ]
