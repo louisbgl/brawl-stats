@@ -351657,5 +351657,54 @@
         "id": 2
       }
     }
+  },
+  {
+    "battleTime": "20261101T144326.000Z",
+    "event": {
+      "id": 15001080,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Plague Doctor Crow"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#GJUGRV2U",
+          "name": "luffy",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1196
+          }
+        },
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000099,
+            "name": "PIERCE",
+            "power": 11,
+            "trophies": 1186
+          }
+        },
+        {
+          "tag": "#2UYLVPCRJU",
+          "name": "lucasito",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1206
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
   }
 ]
