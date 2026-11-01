@@ -625136,5 +625136,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261101T121827.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 383,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 11,
+          "trophies": 883
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2PUVQGYU9",
+            "name": "оболтус",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 432
+            }
+          },
+          {
+            "tag": "#R2U209PR9",
+            "name": "👾dergwi👾",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 847
+            }
+          },
+          {
+            "tag": "#RU82JJ8YQ",
+            "name": "teko",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 1053
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RLPVYCVJ2",
+            "name": "Ruben s le boss",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 786
+            }
+          },
+          {
+            "tag": "#8LYGPJJU9",
+            "name": "the gun dealer",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1206
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 883
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
