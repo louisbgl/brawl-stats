@@ -428510,5 +428510,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261101T190624.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 51,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#GCLQJ2PRJ",
+        "name": "BG|WAVE",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1245
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#U9CGLLC",
+            "name": "pie03btw",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 975
+            }
+          },
+          {
+            "tag": "#GCLQJ2PRJ",
+            "name": "BG|WAVE",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1245
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1387
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2J0Q82P0C9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 1190
+            }
+          },
+          {
+            "tag": "#2JV20VVQVV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1192
+            }
+          },
+          {
+            "tag": "#2GLR8R0YUC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1191
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
