@@ -189678,5 +189678,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261102T194927.000Z",
+    "event": {
+      "id": 15001323,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Triple Threat"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 422,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#GL99QJ02C",
+        "name": "KBarnuska 🇭🇺",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 11,
+          "trophies": 1118
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 761
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 923
+            }
+          },
+          {
+            "tag": "#2G2CQ88LRJ",
+            "name": "ıker casillas",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 820
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8P0092089",
+            "name": "Astaoth",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 931
+            }
+          },
+          {
+            "tag": "#2CRYC8JPY2",
+            "name": "lola",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1434
+            }
+          },
+          {
+            "tag": "#GL99QJ02C",
+            "name": "KBarnuska 🇭🇺",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1118
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261102T195513.000Z",
+    "event": {
+      "id": 15001323,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Triple Threat"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 265,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#92JYQU88G",
+        "name": "🇺🇦kent🇺🇦",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 1589
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#92JYQU88G",
+            "name": "🇺🇦kent🇺🇦",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1589
+            }
+          },
+          {
+            "tag": "#2QCQQYVLQ9",
+            "name": "mali",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1306
+            }
+          },
+          {
+            "tag": "#299YLLQLQ",
+            "name": "alonedark",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1144
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1304
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 478
+            }
+          },
+          {
+            "tag": "#9U290J9",
+            "name": "elnaz",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 955
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
