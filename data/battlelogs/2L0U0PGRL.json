@@ -354347,5 +354347,214 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261103T205136.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 337,
+      "trophyChange": 19,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 768
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PQ9YU2JYV",
+            "name": "fffoidka",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1030
+            }
+          },
+          {
+            "tag": "#PVJR2C8UL",
+            "name": "ฅ^•ﻌ•^ฅ",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 10,
+              "trophies": 546
+            }
+          },
+          {
+            "tag": "#2P0GY9ULP",
+            "name": "Maciejowski",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1016
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8VVVVUQ2J",
+            "name": "El_Capitan",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 846
+            }
+          },
+          {
+            "tag": "#2Y0Q9CRGL",
+            "name": "sinematik",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 2042
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 768
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261103T205736.000Z",
+    "event": {
+      "id": 15001012,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Crystal Eye Castle"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 1,
+      "trophyChange": 15,
+      "players": [
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000084,
+            "name": "MOE",
+            "power": 10,
+            "trophies": 719
+          }
+        },
+        {
+          "tag": "#2CJ9PUCP8G",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000031,
+            "name": "MR. P",
+            "power": 10,
+            "trophies": 680
+          }
+        },
+        {
+          "tag": "#CVYUL2QYC",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000027,
+            "name": "8-BIT",
+            "power": 10,
+            "trophies": 770
+          }
+        },
+        {
+          "tag": "#2JL2RCG9PP",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 10,
+            "trophies": 681
+          }
+        },
+        {
+          "tag": "#290JRP9YG8",
+          "name": "тг-bladebots_bs",
+          "brawler": {
+            "id": 16000068,
+            "name": "MAISIE",
+            "power": 9,
+            "trophies": 757
+          }
+        },
+        {
+          "tag": "#2U82GVJ8L2",
+          "name": "aysun",
+          "brawler": {
+            "id": 16000081,
+            "name": "LILY",
+            "power": 10,
+            "trophies": 724
+          }
+        },
+        {
+          "tag": "#2V22CUYYJY",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000023,
+            "name": "LEON",
+            "power": 10,
+            "trophies": 687
+          }
+        },
+        {
+          "tag": "#VY0LJJRJ2",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000008,
+            "name": "NITA",
+            "power": 10,
+            "trophies": 745
+          }
+        },
+        {
+          "tag": "#2U0YQYJ8CJ",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000038,
+            "name": "SURGE",
+            "power": 10,
+            "trophies": 706
+          }
+        },
+        {
+          "tag": "#2QY080PR0R",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 9,
+            "trophies": 747
+          }
+        }
+      ]
+    }
   }
 ]
