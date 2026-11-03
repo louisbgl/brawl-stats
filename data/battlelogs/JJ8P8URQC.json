@@ -157543,5 +157543,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261103T113232.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 41,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#JJ8P8URQC",
+        "name": "JOEL | Orbova",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 681
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QRG8R2VJY",
+            "name": "Mita",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 2063
+            }
+          },
+          {
+            "tag": "#9J8VJ8P2C",
+            "name": "/мяк",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1007
+            }
+          },
+          {
+            "tag": "#9L2U0909C",
+            "name": "|arthur|👺",
+            "brawler": {
+              "id": 16000056,
+              "name": "EVE",
+              "power": 11,
+              "trophies": 350
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 681
+            }
+          },
+          {
+            "tag": "#2GQVJR80RU",
+            "name": "PRİME | ETO🥶",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 2016
+            }
+          },
+          {
+            "tag": "#R9Q0U2U8V",
+            "name": "GEO|Soso",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1747
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261103T113544.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 95,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#8LVJQYLQ2",
+        "name": "Lovikus",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 10,
+          "trophies": 712
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#202YYCGPQ2",
+            "name": "△◐↺✕¿¿¿✕↺◐△",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 866
+            }
+          },
+          {
+            "tag": "#2RJ2QUCV2G",
+            "name": "игот",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#JJ8P8URQC",
+            "name": "JOEL | Orbova",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 693
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C092RGP9",
+            "name": "apacho",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 959
+            }
+          },
+          {
+            "tag": "#8LVJQYLQ2",
+            "name": "Lovikus",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 10,
+              "trophies": 712
+            }
+          },
+          {
+            "tag": "#8JU0CG08",
+            "name": "Serg",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1944
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
