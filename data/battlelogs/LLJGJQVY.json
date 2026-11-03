@@ -746058,5 +746058,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261103T144059.000Z",
+    "event": {
+      "id": 15001378,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Human Nature"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#RP899UC",
+        "name": "Miqui",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 1934
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PLGJYR0RV",
+            "name": "Waffle🥞",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2008
+            }
+          },
+          {
+            "tag": "#8RPLLV9YC",
+            "name": "Izuv_main",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2014
+            }
+          },
+          {
+            "tag": "#8VVPC98Q0",
+            "name": "Architecttt💕",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 2036
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 1410
+            }
+          },
+          {
+            "tag": "#RP899UC",
+            "name": "Miqui",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1934
+            }
+          },
+          {
+            "tag": "#LP299J8C",
+            "name": "emilio tussy👛",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1302
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
