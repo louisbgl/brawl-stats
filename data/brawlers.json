@@ -2229,7 +2229,7 @@
       "hyperCharges": [
         {
           "id": 23000756,
-          "name": "BLIZZARD"
+          "name": "RAGING BLIZZARD"
         }
       ],
       "gears": [
@@ -2267,7 +2267,7 @@
       "gadgets": [
         {
           "id": 23000277,
-          "name": "SPRING EJECTOR"
+          "name": "NORTH WIND WALL"
         },
         {
           "id": 23000407,
@@ -2425,7 +2425,7 @@
       "hyperCharges": [
         {
           "id": 23000826,
-          "name": "STAGE 5"
+          "name": "JUICED UP!"
         }
       ],
       "gears": [
@@ -2611,7 +2611,7 @@
       "starPowers": [
         {
           "id": 23000324,
-          "name": "SUPERCOOL"
+          "name": "COLD SNAP"
         },
         {
           "id": 23000325,
@@ -2668,7 +2668,7 @@
         },
         {
           "id": 23000400,
-          "name": "CRYO SYRUP"
+          "name": "AVALANCHE"
         }
       ]
     },
@@ -3967,7 +3967,7 @@
         },
         {
           "id": 23000528,
-          "name": "SNEAK PEEK"
+          "name": "JESTER'S PRIVILEGE"
         }
       ],
       "hyperCharges": [
@@ -4011,7 +4011,7 @@
       "gadgets": [
         {
           "id": 23000529,
-          "name": "SPICY DICE"
+          "name": "PRANKSTER'S SURPRISE"
         },
         {
           "id": 23000530,
@@ -4091,7 +4091,7 @@
         },
         {
           "id": 23000544,
-          "name": "HARD CANDY"
+          "name": "GOBSTOPPER"
         }
       ],
       "hyperCharges": [
@@ -5145,7 +5145,7 @@
         },
         {
           "id": 23000765,
-          "name": "MAKING A MESS"
+          "name": "STICKY TOPPINGS"
         }
       ],
       "hyperCharges": [
@@ -5193,7 +5193,7 @@
         },
         {
           "id": 23000767,
-          "name": "HEALTHY ADDITIVES"
+          "name": "SECRET FORMULA"
         }
       ]
     },
@@ -6858,6 +6858,177 @@
         {
           "id": 23001453,
           "name": "METAMOTHOSIS"
+        }
+      ]
+    },
+    {
+      "id": 16000111,
+      "name": "THUNDER FROGS",
+      "starPowers": [
+        {
+          "id": 23001496,
+          "name": "LEECH LANDING"
+        },
+        {
+          "id": 23001497,
+          "name": "SWAMP STOMPS"
+        }
+      ],
+      "hyperCharges": [],
+      "gears": [
+        {
+          "id": 62000000,
+          "name": "SPEED",
+          "level": 3
+        },
+        {
+          "id": 62000001,
+          "name": "HEALTH",
+          "level": 3
+        },
+        {
+          "id": 62000002,
+          "name": "DAMAGE",
+          "level": 3
+        },
+        {
+          "id": 62000003,
+          "name": "VISION",
+          "level": 3
+        },
+        {
+          "id": 62000004,
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000017,
+          "name": "GADGET COOLDOWN",
+          "level": 3
+        }
+      ],
+      "gadgets": [
+        {
+          "id": 23001498,
+          "name": "DOUBLE JUMPERS"
+        },
+        {
+          "id": 23001499,
+          "name": "SOOTHING SHOCK"
+        }
+      ]
+    },
+    {
+      "id": 16000112,
+      "name": "REY",
+      "starPowers": [
+        {
+          "id": 23001505,
+          "name": "CLOCK MANAGEMENT"
+        },
+        {
+          "id": 23001506,
+          "name": "EN PASSANT"
+        }
+      ],
+      "hyperCharges": [],
+      "gears": [
+        {
+          "id": 62000000,
+          "name": "SPEED",
+          "level": 3
+        },
+        {
+          "id": 62000001,
+          "name": "HEALTH",
+          "level": 3
+        },
+        {
+          "id": 62000002,
+          "name": "DAMAGE",
+          "level": 3
+        },
+        {
+          "id": 62000003,
+          "name": "VISION",
+          "level": 3
+        },
+        {
+          "id": 62000004,
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000017,
+          "name": "GADGET COOLDOWN",
+          "level": 3
+        }
+      ],
+      "gadgets": [
+        {
+          "id": 23001507,
+          "name": "QUEEN'S GAMBIT"
+        },
+        {
+          "id": 23001508,
+          "name": "REY LOPEZ"
+        }
+      ]
+    },
+    {
+      "id": 16000113,
+      "name": "RUBY",
+      "starPowers": [
+        {
+          "id": 23001513,
+          "name": "LUCKY NUMBER"
+        },
+        {
+          "id": 23001514,
+          "name": "DOUBLE OR NOTHING"
+        }
+      ],
+      "hyperCharges": [],
+      "gears": [
+        {
+          "id": 62000000,
+          "name": "SPEED",
+          "level": 3
+        },
+        {
+          "id": 62000001,
+          "name": "HEALTH",
+          "level": 3
+        },
+        {
+          "id": 62000002,
+          "name": "DAMAGE",
+          "level": 3
+        },
+        {
+          "id": 62000003,
+          "name": "VISION",
+          "level": 3
+        },
+        {
+          "id": 62000004,
+          "name": "SHIELD",
+          "level": 3
+        },
+        {
+          "id": 62000017,
+          "name": "GADGET COOLDOWN",
+          "level": 3
+        }
+      ],
+      "gadgets": [
+        {
+          "id": 23001515,
+          "name": "SHUFFLE AND CUT"
+        },
+        {
+          "id": 23001516,
+          "name": "STACK THE DECK"
         }
       ]
     }
