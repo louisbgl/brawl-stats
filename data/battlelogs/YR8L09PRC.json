@@ -431882,5 +431882,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261103T184529.000Z",
+    "event": {
+      "id": 15000502,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Flowing Springs"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 122,
+      "starPlayer": {
+        "tag": "#CV8GCP9PG",
+        "name": "Tarfink",
+        "brawler": {
+          "id": 16000036,
+          "name": "NANI",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GRJL9JGY0",
+            "name": "ederinho",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#CV8GCP9PG",
+            "name": "Tarfink",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 11
+            }
+          },
+          {
+            "tag": "#PCCRPQ0CV",
+            "name": "Kolizion_off",
+            "brawler": {
+              "id": 16000056,
+              "name": "EVE",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2VR88P8GRQ",
+            "name": "Yousuf",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2CVQR9PG2",
+            "name": "SK|Creatur",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261103T184839.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 46,
+      "starPlayer": {
+        "tag": "#90PLCUC2G",
+        "name": "MAZ_Jonas",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#90PLCUC2G",
+            "name": "MAZ_Jonas",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#20908CYPQQ",
+            "name": "TT:Tahaxbs",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YGRP89CU",
+            "name": "samuele",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#UGQG2J02",
+            "name": "TyNp_jp",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 12
+            }
+          },
+          {
+            "tag": "#2J9QGGRY0Q",
+            "name": "ycyago",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 12
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
