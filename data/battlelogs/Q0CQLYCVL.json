@@ -631362,5 +631362,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261103T123134.000Z",
+    "event": {
+      "id": 15001378,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Human Nature"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 187,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#LUC9VL9PY",
+        "name": "Егорчик",
+        "brawler": {
+          "id": 16000048,
+          "name": "GROM",
+          "power": 10,
+          "trophies": 577
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1909
+            }
+          },
+          {
+            "tag": "#RL0QJGGG9",
+            "name": "匚卄モ乃∪尺モＫ",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1596
+            }
+          },
+          {
+            "tag": "#GC80UUUG",
+            "name": "TitoSanti24",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 713
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#C0UL9Q88",
+            "name": "GX Orso quieto",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 895
+            }
+          },
+          {
+            "tag": "#2JU0Q2YVY9",
+            "name": "berserk",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1874
+            }
+          },
+          {
+            "tag": "#LUC9VL9PY",
+            "name": "Егорчик",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 10,
+              "trophies": 577
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
