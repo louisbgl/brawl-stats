@@ -433371,5 +433371,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261104T161929.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 111,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 1190
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QUCGQUP8J",
+            "name": "TH|GUILLO👑",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 2016
+            }
+          },
+          {
+            "tag": "#QP9RY20L",
+            "name": "Yorch",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 1259
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1190
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9YYYQLRPL",
+            "name": "XS|danilo",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1021
+            }
+          },
+          {
+            "tag": "#Y22G88PUR",
+            "name": "OSB|Ryzée❦",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1068
+            }
+          },
+          {
+            "tag": "#U2Y9R0VV",
+            "name": "𝕴𝖓𝖋𝖆𝖙𝖊𝖃",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 1183
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
