@@ -218907,5 +218907,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261104T133300.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 214,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#2CY00LC2GR",
+        "name": "12lilHuskyStarr",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 887
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1119
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1387
+            }
+          },
+          {
+            "tag": "#92QP0R00",
+            "name": "🇬🇷γάμα σε🇬🇷",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1357
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CY00LC2GR",
+            "name": "12lilHuskyStarr",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 887
+            }
+          },
+          {
+            "tag": "#9G22LJRQV",
+            "name": "dujdueu",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 1219
+            }
+          },
+          {
+            "tag": "#P0VQCU8Q",
+            "name": "DRO|Chilla",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1002
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
