@@ -656086,5 +656086,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261105T195539.000Z",
+    "event": {
+      "id": 15000026,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinhole Punt"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 61,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000110,
+          "name": "VINCE",
+          "power": 11,
+          "trophies": 1809
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LQUGPUL0C",
+            "name": "elinapopa",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 877
+            }
+          },
+          {
+            "tag": "#2LY0JQC2UV",
+            "name": "TurKan",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 10,
+              "trophies": 860
+            }
+          },
+          {
+            "tag": "#2CGCPLU9R8",
+            "name": "D1xeR",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 594
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 1809
+            }
+          },
+          {
+            "tag": "#YCRCJQJQG",
+            "name": "NeyMark10 11",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 1593
+            }
+          },
+          {
+            "tag": "#PP0LJGRRL",
+            "name": "Swich ಠ_ಠ",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 11,
+              "trophies": 955
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
