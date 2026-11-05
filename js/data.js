@@ -229,18 +229,21 @@ const DataManager = {
 
     getAllPlayers() {
         const players = [];
-        this.latestData.clubs.forEach((club, clubIndex) => {
-            club.members.forEach((player, playerIndex) => {
-                // Wrap player and brawlers for compatibility
-                const wrappedPlayer = wrapCompat({ ...player, clubIndex, playerIndex });
-                wrappedPlayer.brawlers = (player.brawlers || []).map(b => wrapCompat(b));
-                players.push(wrappedPlayer);
-            });
-        });
-        (this.latestData.individual_players || []).forEach((player, playerIndex) => {
-            const wrappedPlayer = wrapCompat({ ...player, clubIndex: -1, playerIndex });
+        // An individually tracked player can also be a club member: keep one entry per tag
+        const seenTags = new Set();
+        const addPlayer = (player, clubIndex, playerIndex) => {
+            if (seenTags.has(player.tag)) return;
+            seenTags.add(player.tag);
+            // Wrap player and brawlers for compatibility
+            const wrappedPlayer = wrapCompat({ ...player, clubIndex, playerIndex });
             wrappedPlayer.brawlers = (player.brawlers || []).map(b => wrapCompat(b));
             players.push(wrappedPlayer);
+        };
+        this.latestData.clubs.forEach((club, clubIndex) => {
+            club.members.forEach((player, playerIndex) => addPlayer(player, clubIndex, playerIndex));
+        });
+        (this.latestData.individual_players || []).forEach((player, playerIndex) => {
+            addPlayer(player, -1, playerIndex);
         });
         return players;
     },
