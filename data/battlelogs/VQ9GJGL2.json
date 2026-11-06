@@ -218999,5 +218999,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261106T202716.000Z",
+    "event": {
+      "id": 15000368,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Belle's Rock"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 53,
+      "starPlayer": {
+        "tag": "#P9V0YYPLL",
+        "name": "GUNTER",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 4
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#P9V0YYPLL",
+            "name": "GUNTER",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 4
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JULCY9GL2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2CQRPCPU2P",
+            "name": "@talebrawl",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#JRVJV0VVJ",
+            "name": "Zer0_bot",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 4
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261106T202936.000Z",
+    "event": {
+      "id": 15000300,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Ring of Fire"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 67,
+      "starPlayer": {
+        "tag": "#GV0UQCURP",
+        "name": "faze*nico",
+        "brawler": {
+          "id": 16000045,
+          "name": "STU",
+          "power": 11,
+          "trophies": 4
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#GV0UQCURP",
+            "name": "faze*nico",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 4
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2PGUVCUG9R",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2V8L9UYCP2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#2G0PLRYUGJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 4
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
