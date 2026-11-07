@@ -220461,5 +220461,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261107T103055.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 124,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1184
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1184
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1502
+            }
+          },
+          {
+            "tag": "#8JVQ89JUG",
+            "name": "yang",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 1007
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V8LJVCYYR",
+            "name": "عبدالله",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 2571
+            }
+          },
+          {
+            "tag": "#YLVQQ0YQQ",
+            "name": "GG MAKI PRO",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1025
+            }
+          },
+          {
+            "tag": "#2QJ8G8GQYJ",
+            "name": "musialka_aa",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 880
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
