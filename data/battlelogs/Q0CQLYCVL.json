@@ -665538,5 +665538,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261107T133242.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 109,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#2CLRLYGQ9Q",
+        "name": "zloyFD",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 1671
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CLRLYGQ9Q",
+            "name": "zloyFD",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1671
+            }
+          },
+          {
+            "tag": "#PPJU9V9Y0",
+            "name": "CODE : NYX",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 794
+            }
+          },
+          {
+            "tag": "#8LYR88UPY",
+            "name": "matex67",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 9,
+              "trophies": 410
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9LG2YLPRU",
+            "name": "eбy",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 867
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 294
+            }
+          },
+          {
+            "tag": "#2CYQGJCG9P",
+            "name": "PATRICK",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1061
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261107T133727.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 208,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2JY2UY89",
+        "name": "DrWaffleBottom",
+        "brawler": {
+          "id": 16000110,
+          "name": "VINCE",
+          "power": 11,
+          "trophies": 245
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q2GGYLCR8",
+            "name": "SluB",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 331
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 305
+            }
+          },
+          {
+            "tag": "#L2PQCJLY",
+            "name": "jean",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 9,
+              "trophies": 235
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CVUCRQVLQ",
+            "name": "Goodziiiilla",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 703
+            }
+          },
+          {
+            "tag": "#2JY2UY89",
+            "name": "DrWaffleBottom",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 245
+            }
+          },
+          {
+            "tag": "#Y28CPR8J",
+            "name": "goofy",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 10,
+              "trophies": 670
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
