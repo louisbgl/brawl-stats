@@ -671121,5 +671121,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261108T150124.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 361,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2QQRJ2LLCQ",
+        "name": "Domingo",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 533
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QQRJ2LLCQ",
+            "name": "Domingo",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 533
+            }
+          },
+          {
+            "tag": "#8R0VQJ80U",
+            "name": "zef☁️",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 231
+            }
+          },
+          {
+            "tag": "#JRLLLLL",
+            "name": "ravenche",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 701
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 351
+            }
+          },
+          {
+            "tag": "#LLCP9PCLC",
+            "name": "Krisaa",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 564
+            }
+          },
+          {
+            "tag": "#PLRL08YPP",
+            "name": "Jolly007",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 11,
+              "trophies": 934
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
