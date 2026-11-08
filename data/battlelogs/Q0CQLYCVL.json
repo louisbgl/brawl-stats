@@ -671029,5 +671029,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261108T145452.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 209,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#PLRL08YPP",
+        "name": "Jolly007",
+        "brawler": {
+          "id": 16000092,
+          "name": "FINX",
+          "power": 11,
+          "trophies": 917
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PJP988QGU",
+            "name": "Машка не",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 581
+            }
+          },
+          {
+            "tag": "#80P90J2UVJ",
+            "name": "машка не",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 566
+            }
+          },
+          {
+            "tag": "#2UR0PC98V9",
+            "name": "fatima hajji",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1742
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 334
+            }
+          },
+          {
+            "tag": "#2JYRL922L9",
+            "name": "KARFIT",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 928
+            }
+          },
+          {
+            "tag": "#PLRL08YPP",
+            "name": "Jolly007",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 11,
+              "trophies": 917
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
