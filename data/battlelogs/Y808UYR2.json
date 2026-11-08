@@ -192979,5 +192979,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261108T164642.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 317,
+      "trophyChange": -11,
+      "starPlayer": {
+        "tag": "#920V0V9RY",
+        "name": "⛩️|○ØLūcįfērØ●",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 11,
+          "trophies": 825
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G08V8GRQ9",
+            "name": "Supaji",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 9,
+              "trophies": 833
+            }
+          },
+          {
+            "tag": "#Q92RPUGLV",
+            "name": "ogun",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 2288
+            }
+          },
+          {
+            "tag": "#28L8GV08",
+            "name": "☆彡[(Kral) 58]彡☆",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1070
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#L2VCVCLL2",
+            "name": "safival",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1172
+            }
+          },
+          {
+            "tag": "#920V0V9RY",
+            "name": "⛩️|○ØLūcįfērØ●",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 825
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1519
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
