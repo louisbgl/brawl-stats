@@ -46533,5 +46533,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261109T120040.000Z",
+    "event": {
+      "id": 15000293,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Parallel Plays"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 76,
+      "starPlayer": {
+        "tag": "#892V89QPY",
+        "name": "TGoK|FlameON 🔥",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 5
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LGLG8QGP8",
+            "name": "m1trich",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 6
+            }
+          },
+          {
+            "tag": "#8YJYRGQ29",
+            "name": "[MK] kaczmarek",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 6
+            }
+          },
+          {
+            "tag": "#892V89QPY",
+            "name": "TGoK|FlameON 🔥",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 5
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LCCPLJJ8G",
+            "name": "Pandadu1707",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 4
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 6
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 6
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
