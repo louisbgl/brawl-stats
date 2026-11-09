@@ -785592,5 +785592,97 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20261109T173104.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 79,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000064,
+          "name": "GRAY",
+          "power": 11,
+          "trophies": 1804
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GP8Y88RVG",
+            "name": "PROTURK.🗿",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#2GVCJ2LYL",
+            "name": "Namsoj",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 1447
+            }
+          },
+          {
+            "tag": "#PPL8UJCR9",
+            "name": "𝒩𝒾𝓈𝒶 ִֶָ🪽",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 2016
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LVQV8YGRC",
+            "name": "𝐎𝐑𝐇𝐀𝐍",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2024
+            }
+          },
+          {
+            "tag": "#LC2QQYLJC",
+            "name": "\"KÖKCÜ\"",
+            "brawler": {
+              "id": 16000066,
+              "name": "R-T",
+              "power": 11,
+              "trophies": 1376
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 1804
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
