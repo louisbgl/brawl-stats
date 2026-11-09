@@ -50537,5 +50537,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261109T150118.000Z",
+    "event": {
+      "id": 15000005,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Shooting Star"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 94,
+      "starPlayer": {
+        "tag": "#PPYVYGRGV",
+        "name": "spiky",
+        "brawler": {
+          "id": 16000099,
+          "name": "PIERCE",
+          "power": 11,
+          "trophies": 9
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#YYG92GRPQ",
+            "name": "🌘Eclipse🌒",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VUY9RG28G",
+            "name": "babybee",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#8YG0P2C8Q",
+            "name": "babyboo",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 9
+            }
+          },
+          {
+            "tag": "#P9Y9JCYL8",
+            "name": "Mara",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 9
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
