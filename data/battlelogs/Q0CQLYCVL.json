@@ -671765,5 +671765,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261109T195506.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 60,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#YUC8JLPC9",
+        "name": "dangerчокер👅👄",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 9,
+          "trophies": 184
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YUC8JLPC9",
+            "name": "dangerчокер👅👄",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 9,
+              "trophies": 184
+            }
+          },
+          {
+            "tag": "#J8YU9YC0V",
+            "name": "gustavo",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 246
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 256
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RU8JJ08UY",
+            "name": "szamanfn",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 236
+            }
+          },
+          {
+            "tag": "#2CLVGP080L",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 9,
+              "trophies": 238
+            }
+          },
+          {
+            "tag": "#2GCR88YQRQ",
+            "name": "gg/tsmod",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 9,
+              "trophies": 223
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261109T195818.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#J2RVRQVLJ",
+        "name": "sleep apathy",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 288
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 266
+            }
+          },
+          {
+            "tag": "#2UJU2J9UPG",
+            "name": "BT/RAIS444",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2023
+            }
+          },
+          {
+            "tag": "#2VVLUUR0LU",
+            "name": "Vxsionヤ",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1585
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GLR8RQPG9",
+            "name": "chill guy",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 301
+            }
+          },
+          {
+            "tag": "#J2RVRQVLJ",
+            "name": "sleep apathy",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 288
+            }
+          },
+          {
+            "tag": "#2JPPUJCCJQ",
+            "name": "LEO5629",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1255
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
