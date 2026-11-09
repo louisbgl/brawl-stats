@@ -645673,5 +645673,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261109T080402.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 30,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#RPULLGCPC",
+        "name": "ZETA|Erco",
+        "brawler": {
+          "id": 16000045,
+          "name": "STU",
+          "power": 11,
+          "trophies": 321
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 601
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 246
+            }
+          },
+          {
+            "tag": "#RPULLGCPC",
+            "name": "ZETA|Erco",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 321
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#20RQLL9LQQ",
+            "name": "ᴷᴵᴺᴳ♛鬱𝔁𝓾𝓪𝓷™",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#2CJJ9RRR0Q",
+            "name": "rfl_33k",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 5,
+              "trophies": 50
+            }
+          },
+          {
+            "tag": "#2QP9UQG9LR",
+            "name": "MMP | Clinex 🥀",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 8,
+              "trophies": 296
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261109T080658.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#2Y2PPYLL0",
+        "name": "ghostWTWen3rgy",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 1445
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RPULLGCPC",
+            "name": "ZETA|Erco",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 339
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 257
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 621
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJPL0YYQQ",
+            "name": "ᴷᴵᴺᴳ♛鬱𝔁𝓾𝓪𝓷™",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 11,
+              "trophies": 1508
+            }
+          },
+          {
+            "tag": "#2Y2PPYLL0",
+            "name": "ghostWTWen3rgy",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1445
+            }
+          },
+          {
+            "tag": "#L0LV02VRP",
+            "name": "ghostmadonna2",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 673
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
