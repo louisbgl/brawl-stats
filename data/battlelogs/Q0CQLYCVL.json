@@ -672409,5 +672409,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261109T214121.000Z",
+    "event": {
+      "id": 15001323,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Triple Threat"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 161,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#2V8LLG2LRP",
+        "name": "mamacita",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1345
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V8LLG2LRP",
+            "name": "mamacita",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1345
+            }
+          },
+          {
+            "tag": "#GC0GC9UJL",
+            "name": "Popelol67",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 733
+            }
+          },
+          {
+            "tag": "#2QJCR9YL0L",
+            "name": "probng",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 2016
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G2U280C2V",
+            "name": "СОНЯСУПЕР",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 776
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 849
+            }
+          },
+          {
+            "tag": "#PYCL0V090",
+            "name": "emiliano",
+            "brawler": {
+              "id": 16000016,
+              "name": "PAM",
+              "power": 11,
+              "trophies": 877
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261109T214645.000Z",
+    "event": {
+      "id": 15001323,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Triple Threat"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 296,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#PQLJQ98J",
+        "name": "sally*",
+        "brawler": {
+          "id": 16000077,
+          "name": "LARRY & LAWRIE",
+          "power": 10,
+          "trophies": 402
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P8P82CPP2",
+            "name": "alejandra",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1356
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 844
+            }
+          },
+          {
+            "tag": "#P0PVJLQLU",
+            "name": "[Ez] DRYY",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 975
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y0VQ9RJQJ",
+            "name": "𝓥𝓸𝓲𝓭𝓔𝓭𝓰𝓮",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 674
+            }
+          },
+          {
+            "tag": "#8GRC2Y2VP",
+            "name": "[OG]GRXZL",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 10,
+              "trophies": 561
+            }
+          },
+          {
+            "tag": "#PQLJQ98J",
+            "name": "sally*",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 10,
+              "trophies": 402
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
