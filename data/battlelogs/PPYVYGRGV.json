@@ -44547,5 +44547,189 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261109T085419.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 70,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#RG0909LUQ",
+        "name": "FTM|Zero",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 9,
+          "trophies": 607
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RG0909LUQ",
+            "name": "FTM|Zero",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 9,
+              "trophies": 607
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 372
+            }
+          },
+          {
+            "tag": "#2RU8VQJVJ8",
+            "name": "мортис",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 428
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RV9YRYVLJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 546
+            }
+          },
+          {
+            "tag": "#2YQRGULU0L",
+            "name": "tg gjwump",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 8,
+              "trophies": 515
+            }
+          },
+          {
+            "tag": "#2VY0P0P8UY",
+            "name": "HANK (WÜTEND)",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 526
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261109T085634.000Z",
+    "event": {
+      "id": 15001054,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Match 1123581321"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 89,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#999VPLPVV",
+        "name": "𝕭𝕻𝕲|𝕭𝖔𝖇𝖔",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 9,
+          "trophies": 862
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#999VPLPVV",
+            "name": "𝕭𝕻𝕲|𝕭𝖔𝖇𝖔",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 862
+            }
+          },
+          {
+            "tag": "#2C8URCGQQY",
+            "name": "koçari",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 531
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 382
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22YCCQGJYJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 587
+            }
+          },
+          {
+            "tag": "#2U9R088URJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 9,
+              "trophies": 657
+            }
+          },
+          {
+            "tag": "#2P9Y20GL2P",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 9,
+              "trophies": 643
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
