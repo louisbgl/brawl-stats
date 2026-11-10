@@ -675261,5 +675261,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261110T163741.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 73,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000041,
+          "name": "LOU",
+          "power": 11,
+          "trophies": 836
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PJGPR8YV",
+            "name": "Prime Alpp",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 9,
+              "trophies": 508
+            }
+          },
+          {
+            "tag": "#8VC290VVU",
+            "name": "3МК_АМЕЯ",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 568
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 836
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#UUVP2LY2Q",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 9,
+              "trophies": 672
+            }
+          },
+          {
+            "tag": "#2GRGQYUYV2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 9,
+              "trophies": 661
+            }
+          },
+          {
+            "tag": "#2CCLUQPRLQ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 664
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
