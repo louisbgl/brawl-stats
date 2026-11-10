@@ -480817,5 +480817,97 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261110T173022.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 46,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#PVQ09L2RR",
+        "name": "Naruto",
+        "brawler": {
+          "id": 16000067,
+          "name": "WILLOW",
+          "power": 11,
+          "trophies": 2060
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 1843
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 697
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1572
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PVQ09L2RR",
+            "name": "Naruto",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 11,
+              "trophies": 2060
+            }
+          },
+          {
+            "tag": "#8L0J0QYGQ",
+            "name": "İBRAHİM007",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 2000
+            }
+          },
+          {
+            "tag": "#82V00VG9",
+            "name": "𝓓𝓪𝓋𝓲𝓭‎ ‎🎀",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2182
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
