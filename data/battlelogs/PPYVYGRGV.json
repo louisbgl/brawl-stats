@@ -51155,5 +51155,96 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261110T172116.000Z",
+    "event": {
+      "id": 15000293,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Parallel Plays"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 85,
+      "starPlayer": {
+        "tag": "#2JRVLJPPG8",
+        "name": "İlkeer",
+        "brawler": {
+          "id": 16000045,
+          "name": "STU",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2UY9GYQPQG",
+            "name": "NK/UNO",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2JRVLJPPG8",
+            "name": "İlkeer",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GCCCL2P28",
+            "name": "Adam@2015",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2UYP2VQGVP",
+            "name": "LK7474",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#PJ0J9UUYJ",
+            "name": "UYG",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
