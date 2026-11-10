@@ -51246,5 +51246,187 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261110T173811.000Z",
+    "event": {
+      "id": 15000367,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Goldarm Gulch"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 83,
+      "starPlayer": {
+        "tag": "#80P9VQ2CQ9",
+        "name": "HUNTER",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#80P9VQ2CQ9",
+            "name": "HUNTER",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2J9LPQCU0V",
+            "name": "clr/luffy",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GRG0PPPQL",
+            "name": "🇬🇪GABO🔥",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#YVCLJ0QJY",
+            "name": "البطل",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#Y9VP22JYU",
+            "name": "propasxalhs🇬🇷",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261110T174130.000Z",
+    "event": {
+      "id": 15000022,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Hideout"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#RQRCCCLGP",
+        "name": "torak",
+        "brawler": {
+          "id": 16000036,
+          "name": "NANI",
+          "power": 11,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R2JCLPG2",
+            "name": "SERGI",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#2YRL228UR",
+            "name": "Fotomatón",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CYU9V8J0J",
+            "name": "฿₳Ɽ₳₦฿ÁĎ฿ŐŶ",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 7
+            }
+          },
+          {
+            "tag": "#9RPUP2V8C",
+            "name": "🪐𝓐𝓡𝓔𝓝.🪐",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 10
+            }
+          },
+          {
+            "tag": "#RQRCCCLGP",
+            "name": "torak",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 11,
+              "trophies": 10
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
