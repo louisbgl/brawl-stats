@@ -481383,5 +481383,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261111T155903.000Z",
+    "event": {
+      "id": 15001380,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Front Tackle"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 38,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#9YJPV8LVY",
+        "name": "sandstorm",
+        "brawler": {
+          "id": 16000041,
+          "name": "LOU",
+          "power": 11,
+          "trophies": 1085
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1580
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 17900,
+              "healing": 0,
+              "damageTaken": 0,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#9YJPV8LVY",
+            "name": "sandstorm",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 1085
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 4752,
+              "healing": 0,
+              "damageTaken": 7000,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2LY0JUYY",
+            "name": "天斩 Hɪʀᴏɴ ♕︎",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 9,
+              "trophies": 1312
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 12800,
+              "healing": 460,
+              "damageTaken": 8642,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2G9QL9RR0U",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1307
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 2133,
+              "healing": 2912,
+              "damageTaken": 14112,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2P2UCPYR92",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1297
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 13509,
+              "healing": 0,
+              "damageTaken": 6540,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2U2P0Q2C00",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1297
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 0,
+              "healing": 0,
+              "damageTaken": 14800,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
