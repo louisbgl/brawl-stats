@@ -675669,5 +675669,321 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261111T195035.000Z",
+    "event": {
+      "id": 15001380,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Front Tackle"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 79,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#RGQQPVUQC",
+        "name": "$Eray$_BOOS",
+        "brawler": {
+          "id": 16000089,
+          "name": "MEEPLE",
+          "power": 11,
+          "trophies": 214
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RGQQPVUQC",
+            "name": "$Eray$_BOOS",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 214
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 31750,
+              "healing": 7520,
+              "damageTaken": 18539,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2Y2GR8U82",
+            "name": "barinss",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 396
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 22803,
+              "healing": 9204,
+              "damageTaken": 10909,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 855
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 27943,
+              "healing": 16038,
+              "damageTaken": 20863,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GGQ02YVV8",
+            "name": "jean voilasos💦",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1951
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 29060,
+              "healing": 4804,
+              "damageTaken": 14404,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#YRRP9L0LQ",
+            "name": "༄ Player 3089",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 10,
+              "trophies": 1548
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 9333,
+              "healing": 1976,
+              "damageTaken": 39976,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2VYVP0C8LQ",
+            "name": "FUNKY BARLEY",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 2247
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 11918,
+              "healing": 1716,
+              "damageTaken": 28116,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261111T195453.000Z",
+    "event": {
+      "id": 15001383,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Sunken harbor"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 74,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q8JG9PC2V",
+        "name": "Angela of Death",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 746
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 641
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 0,
+              "damageDealt": 53260,
+              "healing": 7340,
+              "damageTaken": 10273,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 37
+              }
+            }
+          },
+          {
+            "tag": "#Q8JG9PC2V",
+            "name": "Angela of Death",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 746
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 3,
+              "damageDealt": 58790,
+              "healing": 780,
+              "damageTaken": 18780,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 25
+              }
+            }
+          },
+          {
+            "tag": "#2CVP9LGJ99",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 705
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 26150,
+              "healing": 3600,
+              "damageTaken": 10494,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 49
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GV9CRQVUP",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 11,
+              "trophies": 733
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 6,
+              "damageDealt": 15594,
+              "healing": 0,
+              "damageTaken": 40000,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 11
+              }
+            }
+          },
+          {
+            "tag": "#CJRRQQVGJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 721
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 5,
+              "damageDealt": 14618,
+              "healing": 9400,
+              "damageTaken": 44200,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 17
+              }
+            }
+          },
+          {
+            "tag": "#V2V0PYGY9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 667
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 6,
+              "damageDealt": 9335,
+              "healing": 0,
+              "damageTaken": 54000,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 14
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
