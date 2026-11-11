@@ -675353,5 +675353,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261111T125937.000Z",
+    "event": {
+      "id": 15001380,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Front Tackle"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 111,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#2V98GLVYC",
+        "name": "ツ| Şͥ₱ͣᎥͫᏨ𝕐 🌈",
+        "brawler": {
+          "id": 16000031,
+          "name": "MR. P",
+          "power": 11,
+          "trophies": 967
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VGGJRVGP",
+            "name": "DM05",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 9,
+              "trophies": 570
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 54684,
+              "healing": 4830,
+              "damageTaken": 26430,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2UQY8UCY0L",
+            "name": "PRİME NİYAZİ",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1201
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 28046,
+              "healing": 11778,
+              "damageTaken": 43678,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#PYP2GCRQ9",
+            "name": "seksiedaddie",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 363
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 29643,
+              "healing": 20235,
+              "damageTaken": 54705,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 847
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 47314,
+              "healing": 17446,
+              "damageTaken": 33903,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2V98GLVYC",
+            "name": "ツ| Şͥ₱ͣᎥͫᏨ𝕐 🌈",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 967
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 4,
+              "damageDealt": 66139,
+              "healing": 1924,
+              "damageTaken": 32184,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#9VUPLVRQR",
+            "name": "ItsLukasTV",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 436
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 11360,
+              "healing": 11398,
+              "damageTaken": 46286,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
