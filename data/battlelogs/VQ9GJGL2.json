@@ -221370,5 +221370,139 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261111T123707.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 396,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1210
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1210
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 1092685,
+              "healing": 10798,
+              "damageTaken": 60343
+            }
+          },
+          {
+            "tag": "#2CUU2YGCCU",
+            "name": "🤠sasuke🤠",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2008
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 6,
+              "damageDealt": 106230,
+              "healing": 122331,
+              "damageTaken": 208009
+            }
+          },
+          {
+            "tag": "#2JUV20P2YQ",
+            "name": "RX_-pro",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1414
+            },
+            "stats": {
+              "kills": 11,
+              "deaths": 7,
+              "damageDealt": 533620,
+              "healing": 135396,
+              "damageTaken": 286200
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R0YUL9PUY",
+            "name": "malfe23",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1464
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 9,
+              "damageDealt": 483297,
+              "healing": 5977,
+              "damageTaken": 87890
+            }
+          },
+          {
+            "tag": "#2C8RUPVL28",
+            "name": "★Seree★",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1079
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 11,
+              "damageDealt": 378867,
+              "healing": 177047,
+              "damageTaken": 309297
+            }
+          },
+          {
+            "tag": "#9YYJRPVL",
+            "name": "T-Zit",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 1043
+            },
+            "stats": {
+              "kills": 9,
+              "deaths": 4,
+              "damageDealt": 801140,
+              "healing": 111798,
+              "damageTaken": 188008
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
