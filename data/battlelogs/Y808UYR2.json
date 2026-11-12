@@ -193620,5 +193620,139 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261112T092735.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 247,
+      "trophyChange": -11,
+      "starPlayer": {
+        "tag": "#80J908RU",
+        "name": "VEN1",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 674
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1512
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 312192,
+              "healing": 91274,
+              "damageTaken": 123626
+            }
+          },
+          {
+            "tag": "#L2CR0QQJG",
+            "name": "random",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 973
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 7,
+              "damageDealt": 267359,
+              "healing": 29199,
+              "damageTaken": 88750
+            }
+          },
+          {
+            "tag": "#GLPGRV80",
+            "name": "iena",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 744
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 5,
+              "damageDealt": 306579,
+              "healing": 3076,
+              "damageTaken": 49776
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UC2CRJ290",
+            "name": "rokatelj",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1671
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 1,
+              "damageDealt": 351740,
+              "healing": 127081,
+              "damageTaken": 173341
+            }
+          },
+          {
+            "tag": "#80J908RU",
+            "name": "VEN1",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 674
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 1,
+              "damageDealt": 521984,
+              "healing": 37731,
+              "damageTaken": 50681
+            }
+          },
+          {
+            "tag": "#220CYQVYL8",
+            "name": "✧𝙂𝙞𝙨𝙚𝙡𝙡𝙚",
+            "brawler": {
+              "id": 16000028,
+              "name": "SANDY",
+              "power": 8,
+              "trophies": 511
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 267931,
+              "healing": 16455,
+              "damageTaken": 49000
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
