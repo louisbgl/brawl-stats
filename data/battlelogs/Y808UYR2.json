@@ -195117,5 +195117,139 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261112T142003.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 353,
+      "trophyChange": -11,
+      "starPlayer": {
+        "tag": "#22LGYV0Q0",
+        "name": "папа",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 580
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RLCQCYQRJ",
+            "name": "Iván",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 790
+            },
+            "stats": {
+              "kills": 9,
+              "deaths": 5,
+              "damageDealt": 525531,
+              "healing": 118979,
+              "damageTaken": 319009
+            }
+          },
+          {
+            "tag": "#29C2YQC9PR",
+            "name": "Сигманаггетс248",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 767
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 7,
+              "damageDealt": 585701,
+              "healing": 18074,
+              "damageTaken": 113308
+            }
+          },
+          {
+            "tag": "#RY9QC9228",
+            "name": "|5|TAPIKK|5|",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1734
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 10,
+              "damageDealt": 217870,
+              "healing": 80314,
+              "damageTaken": 181764
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22LGYV0Q0",
+            "name": "папа",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 580
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 4,
+              "damageDealt": 727242,
+              "healing": 17161,
+              "damageTaken": 68611
+            }
+          },
+          {
+            "tag": "#2RQUV08GU2",
+            "name": "mimari❤️🌸",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 631
+            },
+            "stats": {
+              "kills": 9,
+              "deaths": 5,
+              "damageDealt": 440332,
+              "healing": 58254,
+              "damageTaken": 164497
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1525
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 10,
+              "damageDealt": 343735,
+              "healing": 44943,
+              "damageTaken": 177193
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
