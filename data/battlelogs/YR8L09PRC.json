@@ -482331,5 +482331,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261111T234143.000Z",
+    "event": {
+      "id": 15001380,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Front Tackle"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 85,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#U8U0JGUR",
+        "name": "_.ramiiirez._",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 1030
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GUVRJ9RYR",
+            "name": "femalejiggles",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1441
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 11380,
+              "healing": 1360,
+              "damageTaken": 25360,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#8V98RGJ29",
+            "name": ":)Jiggly:)",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 1196
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 2300,
+              "healing": 0,
+              "damageTaken": 28000,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1610
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 30315,
+              "healing": 7904,
+              "damageTaken": 29848,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QGR9L8VQY",
+            "name": "agus21",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1179
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 14516,
+              "healing": 1900,
+              "damageTaken": 25035,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#U8U0JGUR",
+            "name": "_.ramiiirez._",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1030
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 28674,
+              "healing": 10240,
+              "damageTaken": 14780,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#J0QQVV99",
+            "name": "QKTRAPP JUEGA",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1241
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 40018,
+              "healing": 2628,
+              "damageTaken": 4180,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
