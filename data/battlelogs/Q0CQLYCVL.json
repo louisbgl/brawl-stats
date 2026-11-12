@@ -681338,5 +681338,186 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261112T140111.000Z",
+    "event": {
+      "id": 15000132,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Center Stage"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 151,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000035,
+          "name": "GALE",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VYVVLQYUV",
+            "name": "youssef_bslm",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000078,
+              "name": "MELODIE"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 6,
+              "damageDealt": 72781,
+              "healing": 9356,
+              "damageTaken": 56904,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#8JC989Q2C",
+            "name": "дядя вася",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000026,
+              "name": "BIBI"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 63176,
+              "healing": 2718,
+              "damageTaken": 33312,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2LPU8PQ00R",
+            "name": "LL/JOUD",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000004,
+              "name": "RICO"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 31773,
+              "healing": 23700,
+              "damageTaken": 68000,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2R0CYLG220",
+            "name": "Headmaster",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000040,
+              "name": "AMBER"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 45005,
+              "healing": 14586,
+              "damageTaken": 39946,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000044,
+              "name": "RUFFS"
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 4,
+              "damageDealt": 59459,
+              "healing": 16014,
+              "damageTaken": 53870,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2JU9VP89C",
+            "name": "Nikogr10",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000020,
+              "name": "FRANK"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 53752,
+              "healing": 14304,
+              "damageTaken": 73914,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
