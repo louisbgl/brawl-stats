@@ -410738,5 +410738,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261112T225855.000Z",
+    "event": {
+      "id": 15001331,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pump It Up"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 84,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#PVR0Q8U9L",
+        "name": "Gout Goutt",
+        "brawler": {
+          "id": 16000077,
+          "name": "LARRY & LAWRIE",
+          "power": 11,
+          "trophies": 1022
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98YCQR2GG",
+            "name": "JAIME",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 205
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 17805,
+              "healing": 3744,
+              "damageTaken": 25744,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#GC099Y82",
+            "name": "SETE",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 9,
+              "trophies": 210
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 19028,
+              "healing": 5642,
+              "damageTaken": 24240,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 739
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 12788,
+              "healing": 3800,
+              "damageTaken": 30200,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GQQJRVYPV",
+            "name": "M.S.l/Axel🤨",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 852
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 17340,
+              "healing": 1765,
+              "damageTaken": 16165,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#PVR0Q8U9L",
+            "name": "Gout Goutt",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 1022
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 46078,
+              "healing": 3780,
+              "damageTaken": 14980,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#QPVYCVU90",
+            "name": "AKIOOOOOR",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 1106
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 16766,
+              "healing": 3990,
+              "damageTaken": 18476,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
