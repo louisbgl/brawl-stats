@@ -194715,5 +194715,407 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261112T133055.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 233,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#LCRUJQYYQ",
+        "name": "Hina",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 1943
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8VCCGYV8P",
+            "name": "我累了'claire",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 733
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 5,
+              "damageDealt": 232901,
+              "healing": 56210,
+              "damageTaken": 116960
+            }
+          },
+          {
+            "tag": "#RQ0J0JGGR",
+            "name": "LL|HMB|C4-621",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 7,
+              "damageDealt": 230806,
+              "healing": 36029,
+              "damageTaken": 116469
+            }
+          },
+          {
+            "tag": "#2JYUP2UJV8",
+            "name": "stepan33",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 953
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 9,
+              "damageDealt": 173438,
+              "healing": 50735,
+              "damageTaken": 140045
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1505
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 304360,
+              "healing": 64241,
+              "damageTaken": 90157
+            }
+          },
+          {
+            "tag": "#LCRUJQYYQ",
+            "name": "Hina",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1943
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 0,
+              "damageDealt": 348428,
+              "healing": 7471,
+              "damageTaken": 10650
+            }
+          },
+          {
+            "tag": "#PLJ89P0UV",
+            "name": "TFP | El patron",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 532
+            },
+            "stats": {
+              "kills": 9,
+              "deaths": 4,
+              "damageDealt": 298542,
+              "healing": 58328,
+              "damageTaken": 155387
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261112T133640.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 297,
+      "trophyChange": -11,
+      "starPlayer": {
+        "tag": "#829GP0VJG",
+        "name": "..𝑬𝐫ǝ𝓷🥀🧸",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 711
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y0Q8Y0LCG",
+            "name": "ksenonik",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1084
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 8,
+              "damageDealt": 220782,
+              "healing": 9553,
+              "damageTaken": 91653
+            }
+          },
+          {
+            "tag": "#2QPPPG0Y9R",
+            "name": "RestInPeace",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 829
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 525760,
+              "healing": 41754,
+              "damageTaken": 81804
+            }
+          },
+          {
+            "tag": "#829GP0VJG",
+            "name": "..𝑬𝐫ǝ𝓷🥀🧸",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 711
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 2,
+              "damageDealt": 698231,
+              "healing": 53035,
+              "damageTaken": 89239
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1521
+            },
+            "stats": {
+              "kills": 11,
+              "deaths": 1,
+              "damageDealt": 477954,
+              "healing": 95648,
+              "damageTaken": 158870
+            }
+          },
+          {
+            "tag": "#LCPLYCV8R",
+            "name": "🇹🇯💪🐯Wello🐯",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 725
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 7,
+              "damageDealt": 203536,
+              "healing": 113666,
+              "damageTaken": 138857
+            }
+          },
+          {
+            "tag": "#22CQLC98Q",
+            "name": "marco",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 707
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 344617,
+              "healing": 54929,
+              "damageTaken": 92794
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261112T134342.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 353,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2LRJRUJ09G",
+        "name": "Beyza",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 1429
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2YYVL2G8VG",
+            "name": "lorenzob",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1370
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 388251,
+              "healing": 50144,
+              "damageTaken": 95284
+            }
+          },
+          {
+            "tag": "#YCG0CUJCL",
+            "name": "BonbonAmy",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2156
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 523028,
+              "healing": 32655,
+              "damageTaken": 54988
+            }
+          },
+          {
+            "tag": "#2LRJRUJ09G",
+            "name": "Beyza",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1429
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 6,
+              "damageDealt": 639064,
+              "healing": 33043,
+              "damageTaken": 113516
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y0URRVU0R",
+            "name": "panoz",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 862
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 367186,
+              "healing": 47207,
+              "damageTaken": 59970
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1510
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 6,
+              "damageDealt": 373759,
+              "healing": 106603,
+              "damageTaken": 178603
+            }
+          },
+          {
+            "tag": "#8JYG2CQGQ",
+            "name": "EfecanGl",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 607
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 451124,
+              "healing": 68827,
+              "damageTaken": 108127
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
