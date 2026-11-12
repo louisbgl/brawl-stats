@@ -681157,5 +681157,186 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261112T135734.000Z",
+    "event": {
+      "id": 15000082,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Layer Cake"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 58,
+      "starPlayer": {
+        "tag": "#YJJJG0YR8",
+        "name": "Emilija",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000037,
+              "name": "SPROUT"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 9380,
+              "healing": 5490,
+              "damageTaken": 26490,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 6
+              }
+            }
+          },
+          {
+            "tag": "#2LG82LCGPJ",
+            "name": "🙉ilyous🙊",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000095,
+              "name": "ALLI"
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 31199,
+              "healing": 1780,
+              "damageTaken": 19780,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 9
+              }
+            }
+          },
+          {
+            "tag": "#LP20CL9J8",
+            "name": "Sobrin Opesado",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000043,
+              "name": "EDGAR"
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 18050,
+              "healing": 8240,
+              "damageTaken": 20920,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LJG2GU9VG",
+            "name": "llo",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000086,
+              "name": "SHADE"
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 21020,
+              "healing": 0,
+              "damageTaken": 24360,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 8
+              }
+            }
+          },
+          {
+            "tag": "#YJJJG0YR8",
+            "name": "Emilija",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 32067,
+              "healing": 7060,
+              "damageTaken": 13060,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 9
+              }
+            }
+          },
+          {
+            "tag": "#2VPLR2LP9J",
+            "name": "didksoe",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000061,
+              "name": "GUS"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 14103,
+              "healing": 8709,
+              "damageTaken": 21209,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 3
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
