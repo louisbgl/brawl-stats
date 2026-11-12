@@ -410580,5 +410580,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261112T173230.000Z",
+    "event": {
+      "id": 15001331,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pump It Up"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 105,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#GL0L9PL80",
+        "name": "buddy💩👻🐶🐶🏀",
+        "brawler": {
+          "id": 16000032,
+          "name": "MAX",
+          "power": 11,
+          "trophies": 286
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RYC9UCUYP",
+            "name": "Legand of Leon",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 9,
+              "trophies": 574
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 47424,
+              "healing": 19297,
+              "damageTaken": 46331,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#UUV8U8GY",
+            "name": "bnGioGx",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 706
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 16128,
+              "healing": 18097,
+              "damageTaken": 60913,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2GJR9RUV20",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 8,
+              "trophies": 595
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 20879,
+              "healing": 8430,
+              "damageTaken": 24240,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GL0L9PL80",
+            "name": "buddy💩👻🐶🐶🏀",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 286
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 32684,
+              "healing": 12525,
+              "damageTaken": 34325,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 729
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 45002,
+              "healing": 7631,
+              "damageTaken": 24380,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2R9UVUPRUY",
+            "name": "gg/tsmod",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 9,
+              "trophies": 634
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 53798,
+              "healing": 13106,
+              "damageTaken": 25726,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
