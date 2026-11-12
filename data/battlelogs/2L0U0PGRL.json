@@ -410896,5 +410896,321 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261112T230110.000Z",
+    "event": {
+      "id": 15001331,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pump It Up"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 53,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000018,
+          "name": "DARRYL",
+          "power": 9,
+          "trophies": 683
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 9,
+              "trophies": 683
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 35273,
+              "healing": 648,
+              "damageTaken": 9373,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#QUGUP2GRL",
+            "name": "gaia",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 940
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 18414,
+              "healing": 2028,
+              "damageTaken": 4489,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#289PJRVUU",
+            "name": "manuelito",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 446
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 15156,
+              "healing": 0,
+              "damageTaken": 0,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2YCPVJG9R9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 9,
+              "trophies": 714
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 5846,
+              "healing": 702,
+              "damageTaken": 14526,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2RQRYP0J0G",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 9,
+              "trophies": 743
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 7368,
+              "healing": 1750,
+              "damageTaken": 38909,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#29JQQR29C0",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 637
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 648,
+              "healing": 0,
+              "damageTaken": 15408,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261112T230245.000Z",
+    "event": {
+      "id": 15001331,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pump It Up"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 60,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#2QL882PJ",
+        "name": "John F Kennedy",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 857
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 704
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 27738,
+              "healing": 3280,
+              "damageTaken": 12512,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2QL882PJ",
+            "name": "John F Kennedy",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 857
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 38389,
+              "healing": 1564,
+              "damageTaken": 5956,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#92RC0VLVG",
+            "name": "Faze_Sanyi",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 11,
+              "trophies": 879
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 28927,
+              "healing": 230,
+              "damageTaken": 5679,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2U000Y9L0U",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 762
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 16224,
+              "healing": 0,
+              "damageTaken": 17880,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2YLRCLUCUU",
+            "name": "тг: geoxantes",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 836
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 4060,
+              "healing": 2916,
+              "damageTaken": 57518,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#2VPGCJC9CR",
+            "name": "DOUG COMPETENTE",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 826
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 3863,
+              "healing": 4056,
+              "damageTaken": 19656,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
