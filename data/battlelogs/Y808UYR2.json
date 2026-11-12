@@ -193754,5 +193754,296 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261112T093414.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 366,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#9JRJ200",
+        "name": "Alianware",
+        "brawler": {
+          "id": 16000006,
+          "name": "BARLEY",
+          "power": 11,
+          "trophies": 1466
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2130
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 7,
+              "damageDealt": 520832,
+              "healing": 36453,
+              "damageTaken": 115553
+            }
+          },
+          {
+            "tag": "#2GPQ2RVG8",
+            "name": "_Recidivist_",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 858
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 5,
+              "damageDealt": 392252,
+              "healing": 26275,
+              "damageTaken": 83355
+            }
+          },
+          {
+            "tag": "#9JRJ200",
+            "name": "Alianware",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 1466
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 4,
+              "damageDealt": 505957,
+              "healing": 81254,
+              "damageTaken": 133904
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GCUPU9P29",
+            "name": "Mr.rims👣",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1192
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 8,
+              "damageDealt": 345466,
+              "healing": 39543,
+              "damageTaken": 151802
+            }
+          },
+          {
+            "tag": "#2CL9029LR0",
+            "name": "Junx",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 2228
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 6,
+              "damageDealt": 304928,
+              "healing": 59907,
+              "damageTaken": 102851
+            }
+          },
+          {
+            "tag": "#Y80V9L08Y",
+            "name": "Milenka",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1291
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 557058,
+              "healing": 51029,
+              "damageTaken": 54051
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261112T093656.000Z",
+    "event": {
+      "id": 15000306,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Dueling Beetles"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 94,
+      "starPlayer": {
+        "tag": "#2J8LQ0Y9JR",
+        "name": "TTV flipside346",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 8
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2J8LQ0Y9JR",
+            "name": "TTV flipside346",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 8
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 4,
+              "damageDealt": 62905,
+              "healing": 5170,
+              "damageTaken": 33170,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 21
+              }
+            }
+          },
+          {
+            "tag": "#2V2CC88RUU",
+            "name": "марьянуш😝",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 8
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 6,
+              "damageDealt": 24020,
+              "healing": 0,
+              "damageTaken": 41880,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 20
+              }
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 8
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 38074,
+              "healing": 8242,
+              "damageTaken": 36500,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 20
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UJRYJLPQJ",
+            "name": "GECO2.0",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 8
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 31404,
+              "healing": 988,
+              "damageTaken": 31388,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 29
+              }
+            }
+          },
+          {
+            "tag": "#2VJQ2CPCGL",
+            "name": "DC-Māntèè÷🥥",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 8
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 4,
+              "damageDealt": 36345,
+              "healing": 10296,
+              "damageTaken": 39096,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 21
+              }
+            }
+          },
+          {
+            "tag": "#2VYJRUR2P9",
+            "name": "Футбол Амир",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 8
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 4,
+              "damageDealt": 43801,
+              "healing": 20027,
+              "damageTaken": 54515,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 27
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
