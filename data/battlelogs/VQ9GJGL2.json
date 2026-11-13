@@ -221504,5 +221504,406 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261113T131407.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 337,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#8YCG9Q8G",
+        "name": "Jacker_1110",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 10,
+          "trophies": 2113
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1226
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 7,
+              "damageDealt": 493996,
+              "healing": 15955,
+              "damageTaken": 94591
+            }
+          },
+          {
+            "tag": "#2GC2UCRL08",
+            "name": "elchinitoloco",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1826
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 10,
+              "damageDealt": 399791,
+              "healing": 12454,
+              "damageTaken": 121759
+            }
+          },
+          {
+            "tag": "#VJRU2VV8",
+            "name": "Timelan",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1035
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 4,
+              "damageDealt": 462393,
+              "healing": 127308,
+              "damageTaken": 165962
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VVV2Q8QP9",
+            "name": "imla",
+            "brawler": {
+              "id": 16000087,
+              "name": "JUJU",
+              "power": 11,
+              "trophies": 1059
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 399558,
+              "healing": 51606,
+              "damageTaken": 106606
+            }
+          },
+          {
+            "tag": "#8YCG9Q8G",
+            "name": "Jacker_1110",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 10,
+              "trophies": 2113
+            },
+            "stats": {
+              "kills": 15,
+              "deaths": 3,
+              "damageDealt": 512090,
+              "healing": 116879,
+              "damageTaken": 162736
+            }
+          },
+          {
+            "tag": "#2LGC99VYL9",
+            "name": "robi",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 821
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 6,
+              "damageDealt": 237851,
+              "healing": 39196,
+              "damageTaken": 79246
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261113T131738.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 170,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2QC2PPCLL",
+        "name": "Ⱨ₳₭Ɇ₩₳₴ɆⱤ",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 851
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JQQUCLG92",
+            "name": "NUMA",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 196422,
+              "healing": 27860,
+              "damageTaken": 58460
+            }
+          },
+          {
+            "tag": "#208QUL90P",
+            "name": "Stunt",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1397
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 76788,
+              "healing": 44569,
+              "damageTaken": 84048
+            }
+          },
+          {
+            "tag": "#2Y28CYJY8Q",
+            "name": "tudmii",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 2003
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 155322,
+              "healing": 16364,
+              "damageTaken": 21205
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1218
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 323486,
+              "healing": 20556,
+              "damageTaken": 22188
+            }
+          },
+          {
+            "tag": "#80V9UQ2CL",
+            "name": "Ali",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1320
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 164664,
+              "healing": 42184,
+              "damageTaken": 54134
+            }
+          },
+          {
+            "tag": "#2QC2PPCLL",
+            "name": "Ⱨ₳₭Ɇ₩₳₴ɆⱤ",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 851
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 162280,
+              "healing": 21041,
+              "damageTaken": 41761
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261113T132309.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 291,
+      "starPlayer": {
+        "tag": "#2QC2PPCLL",
+        "name": "Ⱨ₳₭Ɇ₩₳₴ɆⱤ",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 873
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#80V9UQ2CL",
+            "name": "Ali",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1345
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 6,
+              "damageDealt": 334493,
+              "healing": 57633,
+              "damageTaken": 122383
+            }
+          },
+          {
+            "tag": "#2QC2PPCLL",
+            "name": "Ⱨ₳₭Ɇ₩₳₴ɆⱤ",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 873
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 5,
+              "damageDealt": 329149,
+              "healing": 8807,
+              "damageTaken": 98999
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1233
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 6,
+              "damageDealt": 422464,
+              "healing": 13655,
+              "damageTaken": 81447
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JJ8PP9C",
+            "name": "Redjack",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 725
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 7,
+              "damageDealt": 269955,
+              "healing": 37477,
+              "damageTaken": 121477
+            }
+          },
+          {
+            "tag": "#8RPCUPVQ2",
+            "name": "tugba",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 836
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 5,
+              "damageDealt": 302825,
+              "healing": 20546,
+              "damageTaken": 81196
+            }
+          },
+          {
+            "tag": "#2QUUY8JQ0R",
+            "name": "Vinmat007",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2076
+            },
+            "stats": {
+              "kills": 11,
+              "deaths": 6,
+              "damageDealt": 338727,
+              "healing": 96902,
+              "damageTaken": 181902
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
