@@ -195519,5 +195519,428 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261113T135153.000Z",
+    "event": {
+      "id": 15000924,
+      "mode": "treasureHunt",
+      "modeId": 56,
+      "map": "Brawl Starrgate"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 52,
+      "starPlayer": {
+        "tag": "#YPGR8LUJC",
+        "name": "lensi",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 1001
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L0PYRJ290",
+            "name": "sss",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 10,
+              "trophies": 1072
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 10390,
+              "healing": 1258,
+              "damageTaken": 20638
+            }
+          },
+          {
+            "tag": "#YPGR8LUJC",
+            "name": "lensi",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1001
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 0,
+              "damageDealt": 26680,
+              "healing": 14155,
+              "damageTaken": 20279
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1492
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 30120,
+              "healing": 16089,
+              "damageTaken": 20995
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V0GL98RY2",
+            "name": "Artem1313",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 7,
+              "trophies": 310
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 20160,
+              "healing": 1580,
+              "damageTaken": 25900
+            }
+          },
+          {
+            "tag": "#LRU9VYVJ0",
+            "name": "LEON BOT",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1036
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 18179,
+              "healing": 2290,
+              "damageTaken": 19170
+            }
+          },
+          {
+            "tag": "#LL9U0P28Y",
+            "name": "L̷o̷̷w̷z̷i̷n̷",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1005
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 23573,
+              "healing": 0,
+              "damageTaken": 22120
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261113T135603.000Z",
+    "event": {
+      "id": 15000008,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Crystal Arcade"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 136,
+      "starPlayer": {
+        "tag": "#2QRYR0J2RC",
+        "name": "Sotiria<3",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1090
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1492
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 5,
+              "damageDealt": 47315,
+              "healing": 13776,
+              "damageTaken": 53136,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2C8G022YGC",
+            "name": "AYET <🫡🤭🤫>",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 7,
+              "trophies": 262
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 24576,
+              "healing": 13675,
+              "damageTaken": 43715,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#2QRYR0J2RC",
+            "name": "Sotiria<3",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1090
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 2,
+              "damageDealt": 30139,
+              "healing": 26831,
+              "damageTaken": 43422,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 13
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JRRC02QJV",
+            "name": "✨ M A R O ✨🤟🏻",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1341
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 5,
+              "damageDealt": 51263,
+              "healing": 5799,
+              "damageTaken": 53799,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#GGRQ020G",
+            "name": "TRZ|JACK🍄👅",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1603
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 63945,
+              "healing": 1560,
+              "damageTaken": 21631,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#2UJCPJ9V2L",
+            "name": "JUMBO POCOamdet",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 10,
+              "trophies": 1116
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 23065,
+              "healing": 2000,
+              "damageTaken": 28600,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 2
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261113T135845.000Z",
+    "event": {
+      "id": 15000367,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Goldarm Gulch"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 76,
+      "starPlayer": {
+        "tag": "#20Y0UP2LG",
+        "name": "KNNDY",
+        "brawler": {
+          "id": 16000010,
+          "name": "EL PRIMO",
+          "power": 11,
+          "trophies": 462
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#20Y0UP2LG",
+            "name": "KNNDY",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 462
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 21128,
+              "healing": 14201,
+              "damageTaken": 23086
+            }
+          },
+          {
+            "tag": "#YG9PQ0YJ0",
+            "name": "kis kis",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1150
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 17980,
+              "healing": 6002,
+              "damageTaken": 8699
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 728
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 19670,
+              "healing": 7600,
+              "damageTaken": 7600
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LRG8YJ2JC",
+            "name": "LL|HMB|TOMMASO",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1015
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 8820,
+              "healing": 0,
+              "damageTaken": 12000
+            }
+          },
+          {
+            "tag": "#JQVU98JRQ",
+            "name": "El Autismo",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 2017
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 21925,
+              "healing": 6520,
+              "damageTaken": 20120
+            }
+          },
+          {
+            "tag": "#2R2009QJUU",
+            "name": "xhevat king",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2004
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 8640,
+              "healing": 11858,
+              "damageTaken": 26658
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
