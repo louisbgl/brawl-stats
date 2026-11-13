@@ -411212,5 +411212,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261113T122414.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 20,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#2LY9J8Q8LJ",
+        "name": "dininho",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 91
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G8R0GJJRL",
+            "name": "-[ Seven ]-",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 7,
+              "trophies": 10
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 3500,
+              "healing": 1040,
+              "damageTaken": 1440,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 4,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 7176,
+              "healing": 0,
+              "damageTaken": 8160,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2LY9J8Q8LJ",
+            "name": "dininho",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 91
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 27007,
+              "healing": 0,
+              "damageTaken": 444,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RJ9889G90",
+            "name": "162_Daninho",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 7,
+              "trophies": 48
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 2400,
+              "healing": 624,
+              "damageTaken": 10224,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2Q9LGC0YRC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 5,
+              "trophies": 32
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 444,
+              "healing": 0,
+              "damageTaken": 10959,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#UL09UGUV0",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 6,
+              "trophies": 24
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 7200,
+              "healing": 0,
+              "damageTaken": 16500,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
