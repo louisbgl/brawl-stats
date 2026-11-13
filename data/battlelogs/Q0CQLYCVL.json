@@ -683233,5 +683233,851 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261113T123650.000Z",
+    "event": {
+      "id": 15000924,
+      "mode": "treasureHunt",
+      "modeId": 56,
+      "map": "Brawl Starrgate"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 86,
+      "starPlayer": {
+        "tag": "#R9JG88GQ2",
+        "name": "El caudillo",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 761
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y2L2V0CY",
+            "name": "ajmoCiganii",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1038
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 29706,
+              "healing": 14086,
+              "damageTaken": 39889
+            }
+          },
+          {
+            "tag": "#2092VJ2RUL",
+            "name": "anja",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1555
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 24322,
+              "healing": 11680,
+              "damageTaken": 35080
+            }
+          },
+          {
+            "tag": "#2CPVYQCYY8",
+            "name": "NW__NEGAN",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 10,
+              "trophies": 2137
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 27948,
+              "healing": 16159,
+              "damageTaken": 38929
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R9JG88GQ2",
+            "name": "El caudillo",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 761
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 50867,
+              "healing": 7586,
+              "damageTaken": 21586
+            }
+          },
+          {
+            "tag": "#2CRYP028J8",
+            "name": "ViVAL DiE 🪡",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 10,
+              "trophies": 791
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 12701,
+              "healing": 7646,
+              "damageTaken": 34602
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1008
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 46330,
+              "healing": 13308,
+              "damageTaken": 25788
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261113T124002.000Z",
+    "event": {
+      "id": 15000008,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Crystal Arcade"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 91,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000035,
+          "name": "GALE",
+          "power": 11,
+          "trophies": 1008
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1008
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 0,
+              "damageDealt": 53958,
+              "healing": 12773,
+              "damageTaken": 17754,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#9P9PPPL2G",
+            "name": "fire player",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1041
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 39541,
+              "healing": 7020,
+              "damageTaken": 24929,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#GCVUPVLCR",
+            "name": "29|Messi🎭",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2002
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 14012,
+              "healing": 8830,
+              "damageTaken": 19077,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 10
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9UR8PL0GY",
+            "name": "GHOST|TRB",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1529
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 11495,
+              "healing": 10713,
+              "damageTaken": 35213,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2CLC99YGV8",
+            "name": "zen'in Toji",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1181
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 24606,
+              "healing": 11454,
+              "damageTaken": 37854,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2UL02GQ880",
+            "name": "ION|Umut🥱🧠",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 7,
+              "trophies": 648
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 5,
+              "damageDealt": 25659,
+              "healing": 3244,
+              "damageTaken": 34444,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261113T124214.000Z",
+    "event": {
+      "id": 15001155,
+      "mode": "bombHeist",
+      "modeId": 70,
+      "map": "Fuseyard"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 72,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1184
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2RPPUVCPVL",
+            "name": "WW|Damcot",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1227
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 19051,
+              "healing": 11793,
+              "damageTaken": 33993
+            }
+          },
+          {
+            "tag": "#P0CRRVPG9",
+            "name": "Meterr",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1185
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 42118,
+              "healing": 1716,
+              "damageTaken": 28116
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1184
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 1,
+              "damageDealt": 58376,
+              "healing": 4400,
+              "damageTaken": 13432
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PRJG0G8VG",
+            "name": "MetaOrionHD",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 1001
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 6,
+              "damageDealt": 20940,
+              "healing": 2600,
+              "damageTaken": 62600
+            }
+          },
+          {
+            "tag": "#2LVJQJQPPU",
+            "name": "biimo111",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 6,
+              "trophies": 1004
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 13005,
+              "healing": 3629,
+              "damageTaken": 29879
+            }
+          },
+          {
+            "tag": "#80JJ2JC2G",
+            "name": "メfiͥ𝖗eͣfͫสŇg❥",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1006
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 1,
+              "damageDealt": 41596,
+              "healing": 19266,
+              "damageTaken": 27066
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261113T124521.000Z",
+    "event": {
+      "id": 15000367,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Goldarm Gulch"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 134,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000009,
+          "name": "DYNAMIKE",
+          "power": 11,
+          "trophies": 1001
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RPLCP82QC",
+            "name": "ToxicMoya",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1158
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 29966,
+              "healing": 5096,
+              "damageTaken": 16296
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1001
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 30186,
+              "healing": 6690,
+              "damageTaken": 12690
+            }
+          },
+          {
+            "tag": "#2UJJP89J82",
+            "name": "🐉亗Angel亗🐉",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1073
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 14764,
+              "healing": 10600,
+              "damageTaken": 16200
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2R229L9UY",
+            "name": "IBOSH🇰🇿🇰🇿",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1236
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 36846,
+              "healing": 8548,
+              "damageTaken": 21604
+            }
+          },
+          {
+            "tag": "#2P8P9YVL8",
+            "name": "Ninja",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2009
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 8340,
+              "healing": 10112,
+              "damageTaken": 32312
+            }
+          },
+          {
+            "tag": "#2URCQCP2L8",
+            "name": "Blood_geamer",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 863
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 0,
+              "healing": 0,
+              "damageTaken": 21000
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261113T124759.000Z",
+    "event": {
+      "id": 15000008,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Crystal Arcade"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 102,
+      "starPlayer": {
+        "tag": "#PR8PLU80U",
+        "name": "ля ти криса",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 1088
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1008
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 32541,
+              "healing": 14830,
+              "damageTaken": 38830,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2YY9GRR0VQ",
+            "name": "German",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1273
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 12700,
+              "healing": 16204,
+              "damageTaken": 47404,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#R8GLJQV92",
+            "name": "zenba",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1046
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 10900,
+              "healing": 14188,
+              "damageTaken": 33988,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RVJ2V092",
+            "name": "девушка",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1069
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 37420,
+              "healing": 5820,
+              "damageTaken": 11820,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 7
+              }
+            }
+          },
+          {
+            "tag": "#P8Q8P9QVG",
+            "name": "EXORCIST",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1040
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 36244,
+              "healing": 7800,
+              "damageTaken": 25800,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#PR8PLU80U",
+            "name": "ля ти криса",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1088
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 46558,
+              "healing": 10921,
+              "damageTaken": 18521,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 7
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261113T125122.000Z",
+    "event": {
+      "id": 15001155,
+      "mode": "bombHeist",
+      "modeId": 70,
+      "map": "Fuseyard"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "draw",
+      "duration": 150,
+      "starPlayer": {
+        "tag": "#229PCGLL",
+        "name": "NicoPellet",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1136
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#29UVRP0UC",
+            "name": "minimax",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 2022
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 6,
+              "damageDealt": 89856,
+              "healing": 11379,
+              "damageTaken": 47379
+            }
+          },
+          {
+            "tag": "#2UYLJPPRYQ",
+            "name": "TurboRex",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 5,
+              "damageDealt": 45251,
+              "healing": 27918,
+              "damageTaken": 64918
+            }
+          },
+          {
+            "tag": "#GGLVJQQ8Y",
+            "name": "Cipiripi",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1019
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 8,
+              "damageDealt": 30312,
+              "healing": 11645,
+              "damageTaken": 75645
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1184
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 6,
+              "damageDealt": 79139,
+              "healing": 13100,
+              "damageTaken": 59538
+            }
+          },
+          {
+            "tag": "#UVL988LQ",
+            "name": "GX NAYCO",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1013
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 5,
+              "damageDealt": 27329,
+              "healing": 10692,
+              "damageTaken": 40372
+            }
+          },
+          {
+            "tag": "#229PCGLL",
+            "name": "NicoPellet",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1136
+            },
+            "stats": {
+              "kills": 11,
+              "deaths": 4,
+              "damageDealt": 81474,
+              "healing": 35909,
+              "damageTaken": 65509
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
