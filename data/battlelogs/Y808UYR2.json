@@ -195942,5 +195942,138 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261113T140059.000Z",
+    "event": {
+      "id": 15000924,
+      "mode": "treasureHunt",
+      "modeId": 56,
+      "map": "Brawl Starrgate"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 74,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1492
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UCP29QGL2",
+            "name": "纯白 || Luminous",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 1,
+              "trophies": 54
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 1140,
+              "healing": 1365,
+              "damageTaken": 12500
+            }
+          },
+          {
+            "tag": "#28VGYULP0",
+            "name": "PACAGARSE",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1316
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 48545,
+              "healing": 4248,
+              "damageTaken": 10248
+            }
+          },
+          {
+            "tag": "#9PJJURGGG",
+            "name": "SpicyChicken",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1052
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 35524,
+              "healing": 21952,
+              "damageTaken": 44152
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1492
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 28313,
+              "healing": 18902,
+              "damageTaken": 29718
+            }
+          },
+          {
+            "tag": "#2VRR8UUG29",
+            "name": "Sare🇹🇷🇹🇷",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2009
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 15347,
+              "healing": 10300,
+              "damageTaken": 25100
+            }
+          },
+          {
+            "tag": "#2CQ990UQ9Y",
+            "name": "𝓚𝓾𝓫𝓲𝓬",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 9,
+              "trophies": 1001
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 21240,
+              "healing": 10651,
+              "damageTaken": 32391
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
