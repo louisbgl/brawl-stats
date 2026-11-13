@@ -811968,5 +811968,479 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261113T140201.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 139,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000037,
+          "name": "SPROUT",
+          "power": 11,
+          "trophies": 1539
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 1395
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 58372,
+              "healing": 10834,
+              "damageTaken": 24260,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 1539
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 56995,
+              "healing": 1664,
+              "damageTaken": 16458,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#2RJQUPYGP",
+            "name": "MuscuDuCul",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 1225
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 6,
+              "damageDealt": 71102,
+              "healing": 16143,
+              "damageTaken": 82157,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8P28V0VYP",
+            "name": "Yzk",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1880
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 45593,
+              "healing": 12896,
+              "damageTaken": 42458,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#V9JRU9J8",
+            "name": "rougailsaussice",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1756
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 5,
+              "damageDealt": 47808,
+              "healing": 15800,
+              "damageTaken": 83800,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#QRYLR2LP8",
+            "name": "miguel",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1927
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 29474,
+              "healing": 38011,
+              "damageTaken": 60211,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261113T140340.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 73,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#8CVJP8Y0L",
+        "name": "GE|Lēø",
+        "brawler": {
+          "id": 16000026,
+          "name": "BIBI",
+          "power": 11,
+          "trophies": 2000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 1405
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 22756,
+              "healing": 6960,
+              "damageTaken": 20960,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 1549
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 35574,
+              "healing": 0,
+              "damageTaken": 12800,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2RJQUPYGP",
+            "name": "MuscuDuCul",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 1237
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 28275,
+              "healing": 2028,
+              "damageTaken": 43028,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#28J9GY8PGL",
+            "name": "Dreyzz🦅",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1876
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 48096,
+              "healing": 1498,
+              "damageTaken": 12369,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#8CVJP8Y0L",
+            "name": "GE|Lēø",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 16518,
+              "healing": 22492,
+              "damageTaken": 36094,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#2J2CGC8QYL",
+            "name": "ᥫ᭡buииy🎈",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 2497
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 12174,
+              "healing": 4680,
+              "damageTaken": 38142,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261113T140614.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 126,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#8LGG2QJYQ",
+        "name": "才ーラモルフ",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 2020
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 1540
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 49031,
+              "healing": 832,
+              "damageTaken": 20032,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 1397
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 33679,
+              "healing": 14198,
+              "damageTaken": 35478,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2RJQUPYGP",
+            "name": "MuscuDuCul",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 1230
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 36649,
+              "healing": 29441,
+              "damageTaken": 71761,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8LGG2QJYQ",
+            "name": "才ーラモルフ",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 2020
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 29845,
+              "healing": 20882,
+              "damageTaken": 46928,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2QGPQCUJ0Y",
+            "name": "Coøkíe.🏴",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 41233,
+              "healing": 10576,
+              "damageTaken": 40712,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#8JRLGQYP0",
+            "name": "夔| 𝐴𝑙𝑖🕊️",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2054
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 56193,
+              "healing": 2418,
+              "damageTaken": 31719,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
