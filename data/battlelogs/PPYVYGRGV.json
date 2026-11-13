@@ -57666,5 +57666,162 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261113T105536.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 54,
+      "starPlayer": {
+        "tag": "#28G92VRJG0",
+        "name": "blur uncle",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 9,
+          "trophies": 126
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28G92VRJG0",
+            "name": "blur uncle",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 9,
+              "trophies": 126
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 39868,
+              "healing": 4350,
+              "damageTaken": 7940,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 58
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 7692,
+              "healing": 1124,
+              "damageTaken": 1124,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2CJJQVCGRU",
+            "name": "Ahyeon🦋 ❤️",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 1,
+              "trophies": 21
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 6600,
+              "healing": 0,
+              "damageTaken": 3600,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UPYRJJJRY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 9,
+              "trophies": 53
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 6120,
+              "healing": 5328,
+              "damageTaken": 19876,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#22L2892YYL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 7,
+              "trophies": 79
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 4864,
+              "healing": 0,
+              "damageTaken": 13300,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2CQY89QRG0",
+            "name": "УЛЬТРАБОЕЦ ДАГ",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 7,
+              "trophies": 78
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 1680,
+              "healing": 3162,
+              "damageTaken": 20984,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
