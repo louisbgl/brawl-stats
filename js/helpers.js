@@ -104,6 +104,34 @@ const BattlelogHelpers = {
     },
 
     /**
+     * Get a player's per-battle stats (kills, deaths, damageDealt, healing, damageTaken, modeStat?)
+     * Only present on team-mode battles since 2026-11-11; showdown has none.
+     * @param {Object} battle - Battle object
+     * @param {string} playerTag - Player tag
+     * @returns {Object|null}
+     */
+    getPlayerStats(battle, playerTag) {
+        for (const team of battle.battle?.teams || []) {
+            const player = team.find(p => p.tag === playerTag);
+            if (player) return player.stats || null;
+        }
+        return null;
+    },
+
+    /**
+     * Score how dominant a kill/death line is (positive = good game, negative = bad game).
+     * score = (k - d) * |ln((k+1)/(d+1))|
+     * Net (k - d) rewards volume, log-ratio rewards cleanliness; +1 smoothing avoids /0.
+     * Symmetric: 17/2 → +26.9, 2/17 → -26.9. Ex: 12/5 → 5.4 ranks below 5/0 → 9.0.
+     * @param {number} kills
+     * @param {number} deaths
+     * @returns {number}
+     */
+    getKdScore(kills, deaths) {
+        return (kills - deaths) * Math.abs(Math.log((kills + 1) / (deaths + 1)));
+    },
+
+    /**
      * Get trophy change for a player in a battle
      * Handles all modes including duels (where each brawler has its own trophyChange)
      * @param {Object} battle - Battle object

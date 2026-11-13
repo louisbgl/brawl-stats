@@ -294,6 +294,18 @@ function displayClubLeaderboards() {
         })
         .sort((a, b) => b.value - a.value);
 
+    // === BEST / WORST K/D GAME LEADERBOARDS ===
+    const kdGames = players
+        .map(p => ({ name: DataManager.getPlayerName(p.tag), games: BattlelogAnalytics.getBestAndWorstKdGame(p.tag) }))
+        .filter(p => p.games);
+    const toKdEntry = (name, game) => ({ name, value: game.score, formattedValue: `${game.kills} / ${game.deaths}` });
+    const bestKdRanking = kdGames
+        .map(p => toKdEntry(p.name, p.games.best))
+        .sort((a, b) => b.value - a.value);
+    const worstKdRanking = kdGames
+        .map(p => toKdEntry(p.name, p.games.worst))
+        .sort((a, b) => a.value - b.value);
+
     // === MAXED BRAWLERS LEADERBOARD ===
     const maxedRanking = players
         .map(p => ({
@@ -352,6 +364,8 @@ function displayClubLeaderboards() {
             ${ViewHelpers.createPodiumLeaderboard('Total Battles', '👑', battlesRanking, 'var(--accent-blue)')}
             ${ViewHelpers.createPodiumLeaderboard('Win Rate', '📊', winRateRanking, 'var(--accent-green)')}
             ${ViewHelpers.createPodiumLeaderboard('Star Player MVPs', '⭐', starPlayerRanking, 'var(--accent-purple)')}
+            ${ViewHelpers.createPodiumLeaderboard('Best Game (K / D)', '🔥', bestKdRanking, 'var(--accent-green)')}
+            ${ViewHelpers.createPodiumLeaderboard('Worst Game (K / D)', '💀', worstKdRanking, 'var(--accent-red)')}
             ${ViewHelpers.createPodiumLeaderboard('Maxed Brawlers', '✨', maxedRanking, 'var(--accent-green)')}
             ${prestigeLeaderboards.join('')}
         </div>

@@ -164,6 +164,36 @@ const BattlelogAnalytics = {
     },
 
     // ============================================================================
+    // Kill / Death Games
+    // ============================================================================
+
+    /**
+     * Find a player's best and worst single game by K/D score.
+     * Ties keep the first game found.
+     * @param {string} tag - Player tag
+     * @returns {{ best: {kills, deaths, score}, worst: {kills, deaths, score} } | null} - null if no battle has stats
+     */
+    getBestAndWorstKdGame(tag) {
+        let best = null;
+        let worst = null;
+
+        for (const battle of BattlelogDataManager.getBattlesForPlayer(tag)) {
+            const stats = BattlelogHelpers.getPlayerStats(battle, tag);
+            if (!stats) continue;
+
+            const game = {
+                kills: stats.kills,
+                deaths: stats.deaths,
+                score: BattlelogHelpers.getKdScore(stats.kills, stats.deaths)
+            };
+            if (!best || game.score > best.score) best = game;
+            if (!worst || game.score < worst.score) worst = game;
+        }
+
+        return best ? { best, worst } : null;
+    },
+
+    // ============================================================================
     // Star Player (MVP) Stats
     // ============================================================================
 
