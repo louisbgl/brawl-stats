@@ -60876,5 +60876,530 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261113T154111.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 117,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 6,
+              "damageDealt": 41685,
+              "healing": 7916,
+              "damageTaken": 49176,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000054,
+              "name": "FANG"
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 2,
+              "damageDealt": 49242,
+              "healing": 11425,
+              "damageTaken": 30906,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 10
+              }
+            }
+          },
+          {
+            "tag": "#YYQL98V0Y",
+            "name": "ÐévílTRXヤ",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000043,
+              "name": "EDGAR"
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 28530,
+              "healing": 11344,
+              "damageTaken": 35716,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R02Q9YUUQ",
+            "name": "Melody",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000032,
+              "name": "MAX"
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 48399,
+              "healing": 16634,
+              "damageTaken": 40034,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2QJV0L90L",
+            "name": "\\Daco_Boss/",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000018,
+              "name": "DARRYL"
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 16336,
+              "healing": 6176,
+              "damageTaken": 38176,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#22GVLQJ9C8",
+            "name": "CYB|Ace♠️",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000027,
+              "name": "8-BIT"
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 4,
+              "damageDealt": 51063,
+              "healing": 10978,
+              "damageTaken": 41247,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 6
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261113T154320.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 110,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 27200,
+              "healing": 10330,
+              "damageTaken": 36730,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000054,
+              "name": "FANG"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 46208,
+              "healing": 13270,
+              "damageTaken": 39670,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#YYQL98V0Y",
+            "name": "ÐévílTRXヤ",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000043,
+              "name": "EDGAR"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 6,
+              "damageDealt": 38734,
+              "healing": 0,
+              "damageTaken": 40800,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R02Q9YUUQ",
+            "name": "Melody",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000032,
+              "name": "MAX"
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 54234,
+              "healing": 24570,
+              "damageTaken": 40170,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2QJV0L90L",
+            "name": "\\Daco_Boss/",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000018,
+              "name": "DARRYL"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 28970,
+              "healing": 19813,
+              "damageTaken": 28938,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 13
+              }
+            }
+          },
+          {
+            "tag": "#22GVLQJ9C8",
+            "name": "CYB|Ace♠️",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000027,
+              "name": "8-BIT"
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 6,
+              "damageDealt": 33996,
+              "healing": 0,
+              "damageTaken": 43034,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 1
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261113T154546.000Z",
+    "event": {
+      "id": 15000115,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Double Swoosh"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 128,
+      "starPlayer": {
+        "tag": "#JRJCQLVP",
+        "name": "dty-tt",
+        "brawler": {
+          "id": 16000017,
+          "name": "TARA",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 0,
+              "damageDealt": 51394,
+              "healing": 32388,
+              "damageTaken": 32388,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 14
+              }
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000054,
+              "name": "FANG"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 53399,
+              "healing": 7240,
+              "damageTaken": 14120,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#YYQL98V0Y",
+            "name": "ÐévílTRXヤ",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000043,
+              "name": "EDGAR"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 32955,
+              "healing": 10920,
+              "damageTaken": 44414,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R02Q9YUUQ",
+            "name": "Melody",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000032,
+              "name": "MAX"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 5,
+              "damageDealt": 43966,
+              "healing": 12248,
+              "damageTaken": 51248,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2QJV0L90L",
+            "name": "\\Daco_Boss/",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000018,
+              "name": "DARRYL"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 9308,
+              "healing": 19099,
+              "damageTaken": 51099,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#22GVLQJ9C8",
+            "name": "CYB|Ace♠️",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000027,
+              "name": "8-BIT"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 37648,
+              "healing": 9001,
+              "damageTaken": 35401,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
