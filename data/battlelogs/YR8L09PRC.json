@@ -483595,5 +483595,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261112T233321.000Z",
+    "event": {
+      "id": 15001331,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pump It Up"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 55,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 1385
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C8YCRJPQQ",
+            "name": "лирика 2",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 2014
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 5856,
+              "healing": 3200,
+              "damageTaken": 30827,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2RUP8UPL82",
+            "name": "Kaito_RXtotem",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 9,
+              "trophies": 816
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 8139,
+              "healing": 0,
+              "damageTaken": 19980,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#LPVCYU2GU",
+            "name": "A LUPIN",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1876
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 10100,
+              "healing": 3900,
+              "damageTaken": 17500,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJ2V0U8P2",
+            "name": "sgroda",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 1030
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 24784,
+              "healing": 0,
+              "damageTaken": 8067,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1385
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 26941,
+              "healing": 0,
+              "damageTaken": 4956,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#PGU8J8VLY",
+            "name": "XS|Yxkusa",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1599
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 16582,
+              "healing": 4620,
+              "damageTaken": 11072,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
