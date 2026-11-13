@@ -222173,5 +222173,139 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261113T150542.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 246,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#GRVPPGGUU",
+        "name": "SYN 🌸",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 1169
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RYQ2RG9Y2",
+            "name": "professor",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 880
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 251089,
+              "healing": 39478,
+              "damageTaken": 78041
+            }
+          },
+          {
+            "tag": "#98PYR8GJJ",
+            "name": "aras",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 1054
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 259280,
+              "healing": 64170,
+              "damageTaken": 114890
+            }
+          },
+          {
+            "tag": "#GRVPPGGUU",
+            "name": "SYN 🌸",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1169
+            },
+            "stats": {
+              "kills": 14,
+              "deaths": 1,
+              "damageDealt": 409514,
+              "healing": 13282,
+              "damageTaken": 39601
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2989PLL2YJ",
+            "name": "л лоулайт🥶💀",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2432
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 5,
+              "damageDealt": 353883,
+              "healing": 15278,
+              "damageTaken": 59378
+            }
+          },
+          {
+            "tag": "#92YVL28Y0",
+            "name": "☠️XR☠️🇵🇦",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 2052
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 9,
+              "damageDealt": 213673,
+              "healing": 2417,
+              "damageTaken": 95879
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 942
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 7,
+              "damageDealt": 245461,
+              "healing": 44446,
+              "damageTaken": 80684
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
