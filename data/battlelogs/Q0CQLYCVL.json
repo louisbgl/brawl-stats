@@ -686476,5 +686476,139 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261113T230118.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 278,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 407
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2RPRULYYGY",
+            "name": "RN_CO",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1718
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 358269,
+              "healing": 13157,
+              "damageTaken": 48998
+            }
+          },
+          {
+            "tag": "#LVRUVU2U0",
+            "name": "smouc",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 1954
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 5,
+              "damageDealt": 227980,
+              "healing": 27292,
+              "damageTaken": 75886
+            }
+          },
+          {
+            "tag": "#URYYCV288",
+            "name": "BOKUTOOO❤️‍🩹",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 1234
+            },
+            "stats": {
+              "kills": 10,
+              "deaths": 3,
+              "damageDealt": 376554,
+              "healing": 8187,
+              "damageTaken": 33837
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#G0JQC8RG9",
+            "name": "🍀ARBUZECK 🍀",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 860
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 7242,
+              "healing": 2943,
+              "damageTaken": 37993
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 407
+            },
+            "stats": {
+              "kills": 9,
+              "deaths": 3,
+              "damageDealt": 516590,
+              "healing": 73617,
+              "damageTaken": 111521
+            }
+          },
+          {
+            "tag": "#20L8GQ8UC",
+            "name": "god",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 419
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 10,
+              "damageDealt": 184740,
+              "healing": 14239,
+              "damageTaken": 176971
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
