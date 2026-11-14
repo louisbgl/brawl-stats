@@ -693059,5 +693059,139 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261114T191757.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 223,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#2J9V8929LV",
+        "name": "RPhysique",
+        "brawler": {
+          "id": 16000035,
+          "name": "GALE",
+          "power": 11,
+          "trophies": 245
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#22QJQGLYL8",
+            "name": "Karimov10",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 7,
+              "trophies": 276
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 6,
+              "damageDealt": 187898,
+              "healing": 4584,
+              "damageTaken": 44384
+            }
+          },
+          {
+            "tag": "#QR8PP8Y29",
+            "name": "irem",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 10,
+              "trophies": 890
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 318267,
+              "healing": 16262,
+              "damageTaken": 57342
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 681
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 141937,
+              "healing": 39966,
+              "damageTaken": 82339
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2R8JUQRJGL",
+            "name": "∆JaxezZ∆",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 1124
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 250663,
+              "healing": 83018,
+              "damageTaken": 107629
+            }
+          },
+          {
+            "tag": "#2J9V8929LV",
+            "name": "RPhysique",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 245
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 0,
+              "damageDealt": 288869,
+              "healing": 28575,
+              "damageTaken": 33454
+            }
+          },
+          {
+            "tag": "#2JQQGYQVGJ",
+            "name": "Rhen Forever",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 220
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 276534,
+              "healing": 29531,
+              "damageTaken": 43115
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
