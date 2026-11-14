@@ -693193,5 +693193,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261114T201002.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 84,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#LV2PYCRVQ",
+        "name": "noah_jr",
+        "brawler": {
+          "id": 16000018,
+          "name": "DARRYL",
+          "power": 11,
+          "trophies": 960
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#808UVLQP9P",
+            "name": "Akça",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 9,
+              "trophies": 379
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 25543,
+              "healing": 3912,
+              "damageTaken": 29160,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#880Q9Y8CP",
+            "name": "marief25",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 677
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 37948,
+              "healing": 4368,
+              "damageTaken": 42186,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2RCRYLRV8V",
+            "name": "FUT / SNAYPIR",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 268
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 69495,
+              "healing": 20736,
+              "damageTaken": 28079,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LV2PYCRVQ",
+            "name": "noah_jr",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 960
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 36894,
+              "healing": 11750,
+              "damageTaken": 47723,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 651
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 33880,
+              "healing": 3060,
+              "damageTaken": 19032,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#YGP2JQPRP",
+            "name": "LEO",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 947
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 28651,
+              "healing": 32430,
+              "damageTaken": 67171,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
