@@ -692523,5 +692523,139 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261114T150400.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 249,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#RRR9VP0",
+        "name": "ManxDog",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 758
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9UQJLGRJ9",
+            "name": "<{SoSu}>",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 641
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 5,
+              "damageDealt": 267528,
+              "healing": 34290,
+              "damageTaken": 86790
+            }
+          },
+          {
+            "tag": "#2G0G8V89VP",
+            "name": "⠀⠀",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 880
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 174388,
+              "healing": 42548,
+              "damageTaken": 86940
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 659
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 7,
+              "damageDealt": 206492,
+              "healing": 26630,
+              "damageTaken": 90844
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RRR9VP0",
+            "name": "ManxDog",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 758
+            },
+            "stats": {
+              "kills": 10,
+              "deaths": 1,
+              "damageDealt": 436797,
+              "healing": 24098,
+              "damageTaken": 47648
+            }
+          },
+          {
+            "tag": "#UJQ9V22C",
+            "name": "Dutchboy_Xen",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 454
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 218679,
+              "healing": 28852,
+              "damageTaken": 53414
+            }
+          },
+          {
+            "tag": "#2VPGC8V298",
+            "name": "zzero",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 1752
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 5,
+              "damageDealt": 231915,
+              "healing": 13349,
+              "damageTaken": 54499
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
