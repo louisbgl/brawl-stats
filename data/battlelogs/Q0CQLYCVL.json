@@ -695514,5 +695514,321 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261115T010136.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 49,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#89YJU9VU8",
+        "name": "TH/ttChacxVGX",
+        "brawler": {
+          "id": 16000006,
+          "name": "BARLEY",
+          "power": 11,
+          "trophies": 915
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#89YJU9VU8",
+            "name": "TH/ttChacxVGX",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 915
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 30825,
+              "healing": 7140,
+              "damageTaken": 7500,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#YYRCG8209",
+            "name": "Xantares peek",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1596
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 20260,
+              "healing": 16899,
+              "damageTaken": 33944,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#P9GG229R9",
+            "name": "Freddy_235YTB",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1358
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 16862,
+              "healing": 6240,
+              "damageTaken": 15050,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1049
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 29600,
+              "healing": 4160,
+              "damageTaken": 20160,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#L2QQL0PP0",
+            "name": "Yusuf|😼",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 9,
+              "trophies": 853
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 0,
+              "healing": 5565,
+              "damageTaken": 23925,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2GC82Y9VV2",
+            "name": "IcEb0X",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1806
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 26894,
+              "healing": 962,
+              "damageTaken": 23862,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261115T010357.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 100,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#R8VUVLRYP",
+        "name": "Ilyxss ?💔ㄔ",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 910
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UCGP2PLGC",
+            "name": "RCM|BEREKIA",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 2016
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 33698,
+              "healing": 4230,
+              "damageTaken": 24810,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1044
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 53772,
+              "healing": 8940,
+              "damageTaken": 21744,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#R8VUVLRYP",
+            "name": "Ilyxss ?💔ㄔ",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 910
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 0,
+              "damageDealt": 98754,
+              "healing": 17778,
+              "damageTaken": 25751,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8Y9RGPGQ0",
+            "name": "Moha🇲🇦🇪🇸",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 669
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 27795,
+              "healing": 624,
+              "damageTaken": 47860,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#980UQ90Q",
+            "name": "Anderson💀",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1100
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 21014,
+              "healing": 11830,
+              "damageTaken": 70300,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#JGGPYP2JU",
+            "name": "ylr🪽",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 9,
+              "trophies": 737
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 5,
+              "damageDealt": 23496,
+              "healing": 20894,
+              "damageTaken": 69232,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
