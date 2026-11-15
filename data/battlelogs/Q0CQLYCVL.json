@@ -695830,5 +695830,273 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261115T135420.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 258,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#LYC8JGQYY",
+        "name": "tarbiy",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 1185
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q2G9GG9LV",
+            "name": "molotochnik",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 725
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 6,
+              "damageDealt": 357133,
+              "healing": 18037,
+              "damageTaken": 75087
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1220
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 263396,
+              "healing": 77521,
+              "damageTaken": 106746
+            }
+          },
+          {
+            "tag": "#YY8RG8UP",
+            "name": "KristianPI4",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 603
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 6,
+              "damageDealt": 169146,
+              "healing": 25193,
+              "damageTaken": 83693
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#LYC8JGQYY",
+            "name": "tarbiy",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1185
+            },
+            "stats": {
+              "kills": 11,
+              "deaths": 2,
+              "damageDealt": 405852,
+              "healing": 25969,
+              "damageTaken": 52269
+            }
+          },
+          {
+            "tag": "#QYUL8GC0Y",
+            "name": "Принцесса",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 530
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 220438,
+              "healing": 52365,
+              "damageTaken": 84797
+            }
+          },
+          {
+            "tag": "#89PQ0C0",
+            "name": "SEAVVYY",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 9,
+              "trophies": 641
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 228669,
+              "healing": 11608,
+              "damageTaken": 38285
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261115T135637.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 99,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 1212
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LC8P08YPR",
+            "name": "ТОКО ГАЗ🔥",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1095
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 117732,
+              "healing": 14013,
+              "damageTaken": 14013
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 1212
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 0,
+              "damageDealt": 142462,
+              "healing": 15147,
+              "damageTaken": 24311
+            }
+          },
+          {
+            "tag": "#L00JUVLC8",
+            "name": "твой идол",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 607
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 0,
+              "damageDealt": 146173,
+              "healing": 29764,
+              "damageTaken": 32500
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CG8L2PPL8",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 970
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 82045,
+              "healing": 6823,
+              "damageTaken": 51273
+            }
+          },
+          {
+            "tag": "#2QLYCQJVJ2",
+            "name": "Ronaldo",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 975
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 6,
+              "damageDealt": 43824,
+              "healing": 4120,
+              "damageTaken": 53620
+            }
+          },
+          {
+            "tag": "#2CYYCC28VJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 970
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 6,
+              "damageDealt": 66171,
+              "healing": 5614,
+              "damageTaken": 50614
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
