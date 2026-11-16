@@ -497515,5 +497515,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261116T155727.000Z",
+    "event": {
+      "id": 15001021,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Spiraling Out"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 69,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#VQULV9LY",
+        "name": "Fut|Erkan-Piper",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 1878
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#22ULVYLLQ",
+            "name": "ASTRIX",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1127
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 28501,
+              "healing": 9540,
+              "damageTaken": 18302,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2URC0PVVPU",
+            "name": "|cursed|🫡",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2157
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 22286,
+              "healing": 6118,
+              "damageTaken": 14752,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#VQULV9LY",
+            "name": "Fut|Erkan-Piper",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1878
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 33512,
+              "healing": 16204,
+              "damageTaken": 18818,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JQCYYQR8G",
+            "name": "RNV|neXoo❤️‍🔥",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 1797
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 4158,
+              "healing": 15520,
+              "damageTaken": 40788,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2PC2CYLRY",
+            "name": "toto le best",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1039
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 22495,
+              "healing": 8929,
+              "damageTaken": 24929,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1676
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 25219,
+              "healing": 5642,
+              "damageTaken": 18582,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
