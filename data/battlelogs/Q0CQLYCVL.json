@@ -698467,5 +698467,186 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261116T183040.000Z",
+    "event": {
+      "id": 15000306,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Dueling Beetles"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 133,
+      "starPlayer": {
+        "tag": "#2C8GQP00UJ",
+        "name": "NaVi|Mmaga",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000014,
+              "name": "BO"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 53045,
+              "healing": 3640,
+              "damageTaken": 38296,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 16
+              }
+            }
+          },
+          {
+            "tag": "#2C8GQP00UJ",
+            "name": "NaVi|Mmaga",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 6,
+              "damageDealt": 47974,
+              "healing": 1612,
+              "damageTaken": 38812,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 3
+              }
+            }
+          },
+          {
+            "tag": "#8QQLC8GYC",
+            "name": "مهند",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000007,
+              "name": "JESSIE"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 8,
+              "damageDealt": 25081,
+              "healing": 2262,
+              "damageTaken": 66282,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 7
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#80VYGQJPR",
+            "name": "ehuehuehu",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000025,
+              "name": "CARL"
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 7,
+              "damageDealt": 42181,
+              "healing": 7215,
+              "damageTaken": 59015,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 26
+              }
+            }
+          },
+          {
+            "tag": "#Q8LL8LUCU",
+            "name": "elpablo",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000043,
+              "name": "EDGAR"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 5,
+              "damageDealt": 62480,
+              "healing": 3120,
+              "damageTaken": 33120,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 44
+              }
+            }
+          },
+          {
+            "tag": "#GRQV8PGPU",
+            "name": "CM|Xлonkonыт🥶",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000102,
+              "name": "SIRIUS"
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 4,
+              "damageDealt": 38729,
+              "healing": 2770,
+              "damageTaken": 33965,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 18
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
