@@ -696868,5 +696868,297 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261116T133257.000Z",
+    "event": {
+      "id": 15001329,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Tread Carefully"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 86,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 711
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QRGCYYCCU",
+            "name": "leon",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 9,
+              "trophies": 1613
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 21148,
+              "healing": 7674,
+              "damageTaken": 27654,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 28
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 711
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 2,
+              "damageDealt": 47580,
+              "healing": 3408,
+              "damageTaken": 15408,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 32
+              }
+            }
+          },
+          {
+            "tag": "#YU8L88GCL",
+            "name": "olaia",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 10,
+              "trophies": 737
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 47052,
+              "healing": 13021,
+              "damageTaken": 38546,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 23
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#80PRLL2VGC",
+            "name": "Al",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 947
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 31324,
+              "healing": 16057,
+              "damageTaken": 39598,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 37
+              }
+            }
+          },
+          {
+            "tag": "#2R88YRVJC",
+            "name": "epa",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 811
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 21017,
+              "healing": 4206,
+              "damageTaken": 27006,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 30
+              }
+            }
+          },
+          {
+            "tag": "#JQRUQQ92G",
+            "name": "vanill0",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 288
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 5,
+              "damageDealt": 29267,
+              "healing": 8176,
+              "damageTaken": 49176,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 31
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261116T133835.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 277,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 722
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GYRC0GQJ8",
+            "name": "judoro1",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 562
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 239333,
+              "healing": 23009,
+              "damageTaken": 47859
+            }
+          },
+          {
+            "tag": "#GUVCCQVRQ",
+            "name": "HRN\\LeGuilleVGX",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 1384
+            },
+            "stats": {
+              "kills": 9,
+              "deaths": 3,
+              "damageDealt": 196545,
+              "healing": 68735,
+              "damageTaken": 96335
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 722
+            },
+            "stats": {
+              "kills": 9,
+              "deaths": 1,
+              "damageDealt": 489695,
+              "healing": 50372,
+              "damageTaken": 65594
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QJYLCJ0UV",
+            "name": "sosatxuiaraba",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1252
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 8,
+              "damageDealt": 150271,
+              "healing": 33847,
+              "damageTaken": 115097
+            }
+          },
+          {
+            "tag": "#J9LU0JC9",
+            "name": "vanlee",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 1022
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 6,
+              "damageDealt": 229591,
+              "healing": 75381,
+              "damageTaken": 176770
+            }
+          },
+          {
+            "tag": "#2Y0YUGQ9RJ",
+            "name": "cipskolakilit",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1455
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 7,
+              "damageDealt": 324924,
+              "healing": 18342,
+              "damageTaken": 87389
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
