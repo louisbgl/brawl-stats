@@ -197279,5 +197279,273 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261116T102328.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 183,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1549
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GYGQRR0J",
+            "name": "Sako_arm_11",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1387
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 220391,
+              "healing": 20638,
+              "damageTaken": 35438
+            }
+          },
+          {
+            "tag": "#YUV2R2VUC",
+            "name": "Отморозь",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 11,
+              "trophies": 2012
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 0,
+              "damageDealt": 145287,
+              "healing": 112504,
+              "damageTaken": 50503
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1549
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 237342,
+              "healing": 27969,
+              "damageTaken": 101566
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YYYG99QJ8",
+            "name": "Sanyi",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 2231
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 5,
+              "damageDealt": 137362,
+              "healing": 20275,
+              "damageTaken": 83775
+            }
+          },
+          {
+            "tag": "#2VGC2022R",
+            "name": "8л.+2л.=я каю 1",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 10,
+              "trophies": 754
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 174891,
+              "healing": 16754,
+              "damageTaken": 55254
+            }
+          },
+          {
+            "tag": "#29YYUV20V",
+            "name": "adridomfra77",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 608
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 8,
+              "damageDealt": 160203,
+              "healing": 8063,
+              "damageTaken": 71163
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261116T102825.000Z",
+    "event": {
+      "id": 15001065,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "The Smackdome"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 271,
+      "trophyChange": -11,
+      "starPlayer": {
+        "tag": "#22J0PJC90",
+        "name": "Phenomenon",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 953
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YUV2R2VUC",
+            "name": "Отморозь",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 11,
+              "trophies": 2024
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 187306,
+              "healing": 94313,
+              "damageTaken": 70971
+            }
+          },
+          {
+            "tag": "#2GYGQRR0J",
+            "name": "Sako_arm_11",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1402
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 329205,
+              "healing": 29210,
+              "damageTaken": 57960
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1564
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 6,
+              "damageDealt": 322006,
+              "healing": 17379,
+              "damageTaken": 117591
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UP9QV9LCU",
+            "name": "bot",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 674
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 431257,
+              "healing": 26632,
+              "damageTaken": 33856
+            }
+          },
+          {
+            "tag": "#22J0PJC90",
+            "name": "Phenomenon",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 953
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 449715,
+              "healing": 60866,
+              "damageTaken": 75109
+            }
+          },
+          {
+            "tag": "#YRUGPYJJ",
+            "name": "chaoschainedby",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1145
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 238390,
+              "healing": 97532,
+              "damageTaken": 130704
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
