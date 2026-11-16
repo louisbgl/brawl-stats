@@ -696734,5 +696734,139 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20261116T080457.000Z",
+    "event": {
+      "id": 15001391,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Dry Run"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 165,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#G9JCGGVP0",
+        "name": "ez raner ez",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 661
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 701
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 33570,
+              "healing": 3712,
+              "damageTaken": 20082
+            }
+          },
+          {
+            "tag": "#JRPLCY9J",
+            "name": "DEVIL",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 10,
+              "trophies": 519
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 26790,
+              "healing": 8808,
+              "damageTaken": 21898
+            }
+          },
+          {
+            "tag": "#800P028YVU",
+            "name": "nita",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1272
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 12941,
+              "healing": 21301,
+              "damageTaken": 31360
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GRCVVULLC",
+            "name": "Gune",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 1,
+              "trophies": 303
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 15100,
+              "healing": 2215,
+              "damageTaken": 8215
+            }
+          },
+          {
+            "tag": "#2URQRUJJYC",
+            "name": "Aliya",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 8,
+              "trophies": 230
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 37812,
+              "healing": 6186,
+              "damageTaken": 15612
+            }
+          },
+          {
+            "tag": "#G9JCGGVP0",
+            "name": "ez raner ez",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 661
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 20428,
+              "healing": 28245,
+              "damageTaken": 49474
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
