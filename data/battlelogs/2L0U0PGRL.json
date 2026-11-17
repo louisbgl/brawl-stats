@@ -436845,5 +436845,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261117T194409.000Z",
+    "event": {
+      "id": 15001378,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Human Nature"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 88,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000100,
+          "name": "GIGI",
+          "power": 11,
+          "trophies": 431
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UQL2PQ22R",
+            "name": "demon asta",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 316
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 18977,
+              "healing": 12767,
+              "damageTaken": 41746,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2GUU0V900G",
+            "name": "code:ghost",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 438
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 27732,
+              "healing": 1680,
+              "damageTaken": 24946,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2CY9VLG0L0",
+            "name": "mãe",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 802
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 25895,
+              "healing": 4440,
+              "damageTaken": 25350,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JJ92YV9GC",
+            "name": "Primé AliQú🥷🍥",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 1307
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 38794,
+              "healing": 4446,
+              "damageTaken": 16860,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#YR8809RYQ",
+            "name": "Alper",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 9,
+              "trophies": 882
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 19381,
+              "healing": 5228,
+              "damageTaken": 23028,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 431
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 33867,
+              "healing": 20158,
+              "damageTaken": 32716,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
