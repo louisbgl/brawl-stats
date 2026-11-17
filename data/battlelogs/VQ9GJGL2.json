@@ -223207,5 +223207,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261117T120228.000Z",
+    "event": {
+      "id": 15001378,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Human Nature"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 99,
+      "trophyChange": -1,
+      "starPlayer": {
+        "tag": "#802PUP8JVG",
+        "name": "minimahmutbaba",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 2042
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2J0JGVURY9",
+            "name": "力Aqre!",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1635
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 36516,
+              "healing": 6188,
+              "damageTaken": 31655,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2LL28VVJY2",
+            "name": "el papu😎🥱🤑🤑",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 628
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 41942,
+              "healing": 12214,
+              "damageTaken": 26341,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#802PUP8JVG",
+            "name": "minimahmutbaba",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2042
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 40349,
+              "healing": 16430,
+              "damageTaken": 46722,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#UJUP8LVG",
+            "name": "daruyn",
+            "brawler": {
+              "id": 16000089,
+              "name": "MEEPLE",
+              "power": 9,
+              "trophies": 977
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 6,
+              "damageDealt": 27273,
+              "healing": 1544,
+              "damageTaken": 37184,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 9,
+              "trophies": 205
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 35991,
+              "healing": 18853,
+              "damageTaken": 38833,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#Q8LU0VPC0",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 385
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 4,
+              "damageDealt": 41454,
+              "healing": 9990,
+              "damageTaken": 42790,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
