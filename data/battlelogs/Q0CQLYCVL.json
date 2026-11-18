@@ -701963,5 +701963,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261118T120110.000Z",
+    "event": {
+      "id": 15001393,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Endothermic Shift"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 83,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#RLJYULRPR",
+        "name": "Code=TIMIO",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 869
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9Q0L2J0Q",
+            "name": "Edgar spammer",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 1810
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 26765,
+              "healing": 25138,
+              "damageTaken": 47098,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 7
+              }
+            }
+          },
+          {
+            "tag": "#2CPUVJL9GG",
+            "name": "sara",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 8,
+              "trophies": 329
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 26570,
+              "healing": 8579,
+              "damageTaken": 27449,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 10
+              }
+            }
+          },
+          {
+            "tag": "#2CYGLLJPV0",
+            "name": "sans",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 419
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 25329,
+              "healing": 14976,
+              "damageTaken": 19920,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 3
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 753
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 39760,
+              "healing": 8688,
+              "damageTaken": 26688,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2UR8VVPQCG",
+            "name": "сплю без мамы",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1858
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 18860,
+              "healing": 16908,
+              "damageTaken": 31764,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          },
+          {
+            "tag": "#RLJYULRPR",
+            "name": "Code=TIMIO",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 869
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 35847,
+              "healing": 1612,
+              "damageTaken": 20212,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 9
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
