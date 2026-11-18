@@ -702121,5 +702121,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261118T192953.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 69,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#88P09UUP",
+        "name": "么 𝑻𝑼𝑵𝑨 么",
+        "brawler": {
+          "id": 16000084,
+          "name": "MOE",
+          "power": 11,
+          "trophies": 421
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 750
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 31973,
+              "healing": 3900,
+              "damageTaken": 17973,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2R9JUCLYV8",
+            "name": "Hasan577boom!",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 7,
+              "trophies": 358
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 13938,
+              "healing": 6756,
+              "damageTaken": 24125,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#88P09UUP",
+            "name": "么 𝑻𝑼𝑵𝑨 么",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 421
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 34032,
+              "healing": 6916,
+              "damageTaken": 15796,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#J2YG00LU2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 10,
+              "trophies": 503
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 21047,
+              "healing": 1678,
+              "damageTaken": 25858,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2JLUCQPYYU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 8,
+              "trophies": 520
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 20309,
+              "healing": 2477,
+              "damageTaken": 21307,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2J9CLRGYQY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 10,
+              "trophies": 458
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 16538,
+              "healing": 1482,
+              "damageTaken": 32778,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
