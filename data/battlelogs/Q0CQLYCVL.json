@@ -701355,5 +701355,613 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261118T115132.000Z",
+    "event": {
+      "id": 15000997,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Mirage Arena"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 195,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 695
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2C2CJ88PQG",
+            "name": "ℳ𝒾𝓇𝒶",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 453
+            },
+            "stats": {
+              "kills": 9,
+              "deaths": 1,
+              "damageDealt": 203526,
+              "healing": 43842,
+              "damageTaken": 63857
+            }
+          },
+          {
+            "tag": "#J98VGYRV9",
+            "name": "Elle 😡",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 10,
+              "trophies": 813
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 148987,
+              "healing": 70406,
+              "damageTaken": 94656
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 695
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 1,
+              "damageDealt": 196917,
+              "healing": 26698,
+              "damageTaken": 36250
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VY2ULGJ0G",
+            "name": "umut",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1559
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 7,
+              "damageDealt": 36867,
+              "healing": 27729,
+              "damageTaken": 86729
+            }
+          },
+          {
+            "tag": "#2CJ9GR8RG8",
+            "name": "ROYAL CORDELIUS",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 1592
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 7,
+              "damageDealt": 206691,
+              "healing": 2300,
+              "damageTaken": 72700
+            }
+          },
+          {
+            "tag": "#2QLQ8RJ8YR",
+            "name": "XXXTENTACION",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 891
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 6,
+              "damageDealt": 97376,
+              "healing": 9400,
+              "damageTaken": 60361
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261118T115403.000Z",
+    "event": {
+      "id": 15001393,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Endothermic Shift"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 74,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#8VPCRG0V",
+        "name": "BOT DIEGOX",
+        "brawler": {
+          "id": 16000107,
+          "name": "NORI",
+          "power": 11,
+          "trophies": 338
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CLLPPLYUV",
+            "name": "Оливер 200",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 11,
+              "trophies": 1085
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 11200,
+              "healing": 28,
+              "damageTaken": 13628,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2LU2U09V8R",
+            "name": "LeBomboclat",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1538
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 37014,
+              "healing": 6233,
+              "damageTaken": 33553,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          },
+          {
+            "tag": "#2QCU80982C",
+            "name": "avv",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 584
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 9760,
+              "healing": 28432,
+              "damageTaken": 60800,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2R2VPYQVJ9",
+            "name": "Y@nis",
+            "brawler": {
+              "id": 16000079,
+              "name": "ANGELO",
+              "power": 9,
+              "trophies": 650
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 24104,
+              "healing": 8146,
+              "damageTaken": 17744,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#8VPCRG0V",
+            "name": "BOT DIEGOX",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 338
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 26872,
+              "healing": 9100,
+              "damageTaken": 28310,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 14
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 735
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 55117,
+              "healing": 780,
+              "damageTaken": 11920,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261118T115638.000Z",
+    "event": {
+      "id": 15001393,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Endothermic Shift"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 71,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#2V80JY9CG2",
+        "name": "iwn2",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1826
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QY9PC8G08",
+            "name": "💫 | ᴍɪʟɪᴋᴏᴛɪᴋ",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1291
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 15622,
+              "healing": 9748,
+              "damageTaken": 15748,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 8
+              }
+            }
+          },
+          {
+            "tag": "#L99CCJ2JY",
+            "name": "Giuli",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1503
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 6,
+              "damageDealt": 22294,
+              "healing": 3062,
+              "damageTaken": 40262,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2URLCQLJ28",
+            "name": "mom",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 9,
+              "trophies": 940
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 25401,
+              "healing": 4585,
+              "damageTaken": 16155,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 10
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#28QP8RJQVL",
+            "name": "$vin⚜️",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 10,
+              "trophies": 690
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 21349,
+              "healing": 5115,
+              "damageTaken": 23125,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          },
+          {
+            "tag": "#2V80JY9CG2",
+            "name": "iwn2",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1826
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 31194,
+              "healing": 9112,
+              "damageTaken": 19932,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 10
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 745
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 19622,
+              "healing": 8260,
+              "damageTaken": 20260,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261118T115918.000Z",
+    "event": {
+      "id": 15001393,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Endothermic Shift"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 109,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#9QQRGCQP2",
+        "name": "ХОП! за яичко",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 255
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28QP8RJQVL",
+            "name": "$vin⚜️",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 10,
+              "trophies": 700
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 34461,
+              "healing": 12925,
+              "damageTaken": 33445,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#2V80JY9CG2",
+            "name": "iwn2",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1837
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 22332,
+              "healing": 19520,
+              "damageTaken": 35145,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 4
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 756
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 40451,
+              "healing": 4360,
+              "damageTaken": 22360,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 7
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9QQRGCQP2",
+            "name": "ХОП! за яичко",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 255
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 51815,
+              "healing": 15962,
+              "damageTaken": 23087,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 12
+              }
+            }
+          },
+          {
+            "tag": "#2UGL0PLCCQ",
+            "name": "Ana Tag",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 1337
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 20229,
+              "healing": 17041,
+              "damageTaken": 47673,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2CRUQ998J8",
+            "name": "FUT|kitkat",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1698
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 18906,
+              "healing": 15763,
+              "damageTaken": 26484,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 8
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
