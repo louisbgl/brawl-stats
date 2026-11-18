@@ -65687,5 +65687,953 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261118T090750.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 37,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#JRJCQLVP",
+        "name": "dty-tt",
+        "brawler": {
+          "id": 16000035,
+          "name": "GALE",
+          "power": 11,
+          "trophies": 1200
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1274
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 7632,
+              "healing": 900,
+              "damageTaken": 10950,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1200
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 11708,
+              "healing": 3990,
+              "damageTaken": 13201,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#2RC9L0CVUU",
+            "name": "Eti🪑",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 1119
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 24370,
+              "healing": 0,
+              "damageTaken": 8359,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#UCRG89Y8V",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1166
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 20266,
+              "healing": 1560,
+              "damageTaken": 8160,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2R2900RYRG",
+            "name": "gg/tsmod",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 10,
+              "trophies": 1177
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 7479,
+              "healing": 950,
+              "damageTaken": 19950,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#JVGC2QQQU",
+            "name": "tg @SCRE1",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1187
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 4765,
+              "healing": 0,
+              "damageTaken": 15600,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261118T090946.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 94,
+      "trophyChange": 21,
+      "starPlayer": {
+        "tag": "#PPYVYGRGV",
+        "name": "spiky",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 1294
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1294
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 38987,
+              "healing": 6452,
+              "damageTaken": 16132,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1222
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 29016,
+              "healing": 7260,
+              "damageTaken": 25560,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#PYGLGUGY",
+            "name": "Emmanuel",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1091
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 52909,
+              "healing": 7974,
+              "damageTaken": 27592,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2UP0CLY9P0",
+            "name": "DARRYL JUSTE",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1190
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 39553,
+              "healing": 0,
+              "damageTaken": 19600,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2Y9J2UGL20",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 9,
+              "trophies": 1177
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 13736,
+              "healing": 13506,
+              "damageTaken": 63064,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2JUCPVU2CJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1188
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 15995,
+              "healing": 12940,
+              "damageTaken": 38248,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261118T091030.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 23,
+      "trophyChange": 22,
+      "starPlayer": {
+        "tag": "#2UL0GYRRJ",
+        "name": "NewGlance",
+        "brawler": {
+          "id": 16000094,
+          "name": "KAZE",
+          "power": 11,
+          "trophies": 1285
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UL0GYRRJ",
+            "name": "NewGlance",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 1285
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 12300,
+              "healing": 1066,
+              "damageTaken": 7540,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1315
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 7150,
+              "healing": 0,
+              "damageTaken": 2099,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1245
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 6600,
+              "healing": 3180,
+              "damageTaken": 3180,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C8GUVGQUY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1266
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 2100,
+              "healing": 0,
+              "damageTaken": 6000,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2G8YRJC0QY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1260
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 10440,
+              "healing": 0,
+              "damageTaken": 6300,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2JLL2J0YPU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 10,
+              "trophies": 1265
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 279,
+              "healing": 0,
+              "damageTaken": 13750,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261118T091334.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 161,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#JRJCQLVP",
+        "name": "dty-tt",
+        "brawler": {
+          "id": 16000035,
+          "name": "GALE",
+          "power": 11,
+          "trophies": 1269
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1337
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 67039,
+              "healing": 9233,
+              "damageTaken": 38343,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1269
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 50978,
+              "healing": 22224,
+              "damageTaken": 63140,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2V0999VU8",
+            "name": "kawaiiKill🖤",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1015
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 80301,
+              "healing": 4380,
+              "damageTaken": 28380,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#RG2GQ29YU",
+            "name": "He/Ro fan",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1185
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 63982,
+              "healing": 15346,
+              "damageTaken": 42496,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2G28J8QU09",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 9,
+              "trophies": 1196
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 5,
+              "damageDealt": 20782,
+              "healing": 16567,
+              "damageTaken": 87795,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#2U9V9GQ8CV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1195
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 45099,
+              "healing": 46206,
+              "damageTaken": 68027,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261118T091521.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 70,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#PPYVYGRGV",
+        "name": "spiky",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 1329
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1329
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 22441,
+              "healing": 7017,
+              "damageTaken": 11581,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1262
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 0,
+              "damageDealt": 31091,
+              "healing": 13382,
+              "damageTaken": 13382,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#PGJ0J2P8R",
+            "name": "ztl",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1692
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 31203,
+              "healing": 6146,
+              "damageTaken": 17240,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2R9J8PUGLY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 10,
+              "trophies": 1399
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 21991,
+              "healing": 3333,
+              "damageTaken": 14733,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2LJQ2PJR2P",
+            "name": "Blackmonkey",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1392
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 16227,
+              "healing": 2808,
+              "damageTaken": 29208,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2U88Q090YV",
+            "name": "WILLOW REAL",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1388
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 3985,
+              "healing": 8794,
+              "damageTaken": 40794,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261118T091745.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 106,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#GCUCGYCQ9",
+        "name": "Invincible🗽",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 1497
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#20G8VYJJ0U",
+            "name": "Guess",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 935
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 16574,
+              "healing": 1628,
+              "damageTaken": 24028,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#PYPLV9Q09",
+            "name": "25/11/2025💔🕊️",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 1147
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 33078,
+              "healing": 21157,
+              "damageTaken": 45595,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#GCUCGYCQ9",
+            "name": "Invincible🗽",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1497
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 1,
+              "damageDealt": 43924,
+              "healing": 10760,
+              "damageTaken": 20680,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1349
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 26095,
+              "healing": 10080,
+              "damageTaken": 21896,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1282
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 25035,
+              "healing": 4320,
+              "damageTaken": 36320,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#QU08YGYLU",
+            "name": "توفيق | Tawfiq",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1087
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 39173,
+              "healing": 0,
+              "damageTaken": 35360,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
