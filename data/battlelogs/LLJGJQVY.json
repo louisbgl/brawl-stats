@@ -842179,5 +842179,321 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261118T203031.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 119,
+      "trophyChange": 21,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000110,
+          "name": "VINCE",
+          "power": 11,
+          "trophies": 765
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1340
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 17044,
+              "healing": 41042,
+              "damageTaken": 41592,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1200
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 35056,
+              "healing": 9732,
+              "damageTaken": 91079,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 765
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 0,
+              "damageDealt": 95834,
+              "healing": 11280,
+              "damageTaken": 22106,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8PL2UU8VU",
+            "name": "TTM ( Ayand) 💫",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 62742,
+              "healing": 6896,
+              "damageTaken": 24896,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#L9P9LQUYR",
+            "name": "deiloww",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1106
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 6,
+              "damageDealt": 42591,
+              "healing": 8664,
+              "damageTaken": 90264,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#PU0PVJYUC",
+            "name": "KingE.O:(",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1219
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 49444,
+              "healing": 12828,
+              "damageTaken": 32774,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261118T203223.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 92,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 11,
+          "trophies": 1221
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1361
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 31305,
+              "healing": 41043,
+              "damageTaken": 32466,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 1221
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 1,
+              "damageDealt": 48297,
+              "healing": 37548,
+              "damageTaken": 73650,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 786
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 49436,
+              "healing": 5336,
+              "damageTaken": 20824,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9RPGCVVCL",
+            "name": "ᴀɴɢɪɪɪ ᥫ᭡˚",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1965
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 40764,
+              "healing": 5020,
+              "damageTaken": 45020,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#PJJR8CVU9",
+            "name": "FBI",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1117
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 52500,
+              "healing": 8660,
+              "damageTaken": 40660,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#9QVGR09QP",
+            "name": "si senior",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 9,
+              "trophies": 1094
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 33676,
+              "healing": 10958,
+              "damageTaken": 43358,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
