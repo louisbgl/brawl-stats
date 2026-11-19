@@ -71105,5 +71105,186 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261119T105900.000Z",
+    "event": {
+      "id": 15000292,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Open Business"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 120,
+      "starPlayer": {
+        "tag": "#PPYVYGRGV",
+        "name": "spiky",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#22209G0U9J",
+            "name": "laiisabbela🌸",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 6
+            },
+            "bannedBrawler": {
+              "id": 16000020,
+              "name": "FRANK"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 8,
+              "damageDealt": 55158,
+              "healing": 4264,
+              "damageTaken": 69864,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 25
+              }
+            }
+          },
+          {
+            "tag": "#2VGRU2GPQC",
+            "name": "Laparita🇩🇴",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 7,
+              "damageDealt": 52893,
+              "healing": 20342,
+              "damageTaken": 72142,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 22
+              }
+            }
+          },
+          {
+            "tag": "#2V0YPUCUGV",
+            "name": "FUT |Pierce",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000082,
+              "name": "BERRY"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 63581,
+              "healing": 2241,
+              "damageTaken": 29441,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 8
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000006,
+              "name": "BARLEY"
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 3,
+              "damageDealt": 55975,
+              "healing": 13656,
+              "damageTaken": 43002,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 31
+              }
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 5,
+              "damageDealt": 55752,
+              "healing": 2886,
+              "damageTaken": 44942,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 32
+              }
+            }
+          },
+          {
+            "tag": "#GJYU0CRRP",
+            "name": "Shrek201IQ",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000007,
+              "name": "JESSIE"
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 5,
+              "damageDealt": 59720,
+              "healing": 18400,
+              "damageTaken": 79926,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 27
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
