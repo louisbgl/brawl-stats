@@ -708778,5 +708778,1429 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261119T223657.000Z",
+    "event": {
+      "id": 15000548,
+      "mode": "knockout",
+      "modeId": 20,
+      "map": "Out in the Open"
+    },
+    "battle": {
+      "mode": "knockout",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 102,
+      "starPlayer": {
+        "tag": "#P9R28C0",
+        "name": "𝖒𝖎𝖟𝖚𝖚🥀",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#J89RP0U",
+            "name": "Azdart.exe",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000081,
+              "name": "LILY"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 14324,
+              "healing": 1335,
+              "damageTaken": 13335
+            }
+          },
+          {
+            "tag": "#2C90Y00P89",
+            "name": "Cxbéer🏴",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000108,
+              "name": "WENDY"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 19225,
+              "healing": 9464,
+              "damageTaken": 20664
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000015,
+              "name": "PIPER"
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 24925,
+              "healing": 11780,
+              "damageTaken": 23780
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P9R28C0",
+            "name": "𝖒𝖎𝖟𝖚𝖚🥀",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000013,
+              "name": "POCO"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 30320,
+              "healing": 9996,
+              "damageTaken": 21578
+            }
+          },
+          {
+            "tag": "#22PY88YPPL",
+            "name": "Cayan6262",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000004,
+              "name": "RICO"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 13100,
+              "healing": 12076,
+              "damageTaken": 26180
+            }
+          },
+          {
+            "tag": "#JRG09GC9Y",
+            "name": "Elisouille",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000061,
+              "name": "GUS"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 14359,
+              "healing": 13038,
+              "damageTaken": 11916
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261119T223938.000Z",
+    "event": {
+      "id": 15000306,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Dueling Beetles"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 96,
+      "starPlayer": {
+        "tag": "#2C90Y00P89",
+        "name": "Cxbéer🏴",
+        "brawler": {
+          "id": 16000020,
+          "name": "FRANK",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QPLRVJCYY",
+            "name": "Skipy_bklf",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000086,
+              "name": "SHADE"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 18709,
+              "healing": 11816,
+              "damageTaken": 50216,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 7
+              }
+            }
+          },
+          {
+            "tag": "#GJ9UQPRCR",
+            "name": "karioli",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 64133,
+              "healing": 6640,
+              "damageTaken": 32224,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 3
+              }
+            }
+          },
+          {
+            "tag": "#UPVUP0Y",
+            "name": "Criss",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000048,
+              "name": "GROM"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 55457,
+              "healing": 9936,
+              "damageTaken": 32136,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 7
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 39191,
+              "healing": 20014,
+              "damageTaken": 37374,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 29
+              }
+            }
+          },
+          {
+            "tag": "#L8GL09GJY",
+            "name": "jakxz",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000035,
+              "name": "GALE"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 30883,
+              "healing": 17676,
+              "damageTaken": 31276,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 34
+              }
+            }
+          },
+          {
+            "tag": "#2C90Y00P89",
+            "name": "Cxbéer🏴",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000041,
+              "name": "LOU"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 44502,
+              "healing": 34207,
+              "damageTaken": 69649,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 20
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261119T224246.000Z",
+    "event": {
+      "id": 15000007,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Hard Rock Mine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 121,
+      "starPlayer": {
+        "tag": "#9L2JG9Q0L",
+        "name": "N G",
+        "brawler": {
+          "id": 16000094,
+          "name": "KAZE",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#9L2JG9Q0L",
+            "name": "N G",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000063,
+              "name": "CHESTER"
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 33533,
+              "healing": 29086,
+              "damageTaken": 45486,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 14
+              }
+            }
+          },
+          {
+            "tag": "#GRUGY9P28",
+            "name": "Ac |Tokio!",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000020,
+              "name": "FRANK"
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 45482,
+              "healing": 11208,
+              "damageTaken": 27788,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2UYJRPY2JV",
+            "name": "CROW",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000061,
+              "name": "GUS"
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 2,
+              "damageDealt": 50756,
+              "healing": 13031,
+              "damageTaken": 31906,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2Y8QJUYP82",
+            "name": "7ilixczn",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000086,
+              "name": "SHADE"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 44090,
+              "healing": 9274,
+              "damageTaken": 27274,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000030,
+              "name": "EMZ"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 6,
+              "damageDealt": 43094,
+              "healing": 7080,
+              "damageTaken": 47880,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2CYG2P9JU9",
+            "name": "YT~JNS|🐺",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000107,
+              "name": "NORI"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 5,
+              "damageDealt": 17996,
+              "healing": 330,
+              "damageTaken": 54617,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261119T224604.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 135,
+      "starPlayer": {
+        "tag": "#RQ0QP2UY",
+        "name": "🔞𝙔𝙊𝙍𝙆ˢˡᵃʸ",
+        "brawler": {
+          "id": 16000105,
+          "name": "STARR NOVA",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P0QYY29JJ",
+            "name": "Hаslа💔kiss u ~",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000043,
+              "name": "EDGAR"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 53894,
+              "healing": 2380,
+              "damageTaken": 21200,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2C9YU9L0PV",
+            "name": "Queef_Beef444",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000011,
+              "name": "MORTIS"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 41196,
+              "healing": 3848,
+              "damageTaken": 38562,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#RQ0QP2UY",
+            "name": "🔞𝙔𝙊𝙍𝙆ˢˡᵃʸ",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000020,
+              "name": "FRANK"
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 3,
+              "damageDealt": 57261,
+              "healing": 23038,
+              "damageTaken": 50023,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000096,
+              "name": "TRUNK",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000107,
+              "name": "NORI"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 26337,
+              "healing": 35735,
+              "damageTaken": 76703,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#GCQPPLL8G",
+            "name": "⚡ᴵᴬᴹ𝕋𝔼𝕌ℕ⚡",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000043,
+              "name": "EDGAR"
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 58584,
+              "healing": 2340,
+              "damageTaken": 28687,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#8UY9UJVY9",
+            "name": "『𝓐𝓵𝓲』☬kønak⚦",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000075,
+              "name": "MICO"
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 6,
+              "damageDealt": 24864,
+              "healing": 5517,
+              "damageTaken": 46317,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261119T224912.000Z",
+    "event": {
+      "id": 15000011,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Undermine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 123,
+      "starPlayer": {
+        "tag": "#2JY2JC8YC8",
+        "name": "SheWasOnly9",
+        "brawler": {
+          "id": 16000040,
+          "name": "AMBER",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PP28LYYYY",
+            "name": "YEMEN🇾🇪🇾🇪",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000086,
+              "name": "SHADE"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 7,
+              "damageDealt": 14365,
+              "healing": 3120,
+              "damageTaken": 45120,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2CYJ8V2J8P",
+            "name": "HYPERまMODY",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000004,
+              "name": "RICO"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 34349,
+              "healing": 7320,
+              "damageTaken": 35142,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 10
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000094,
+              "name": "KAZE"
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 4,
+              "damageDealt": 61086,
+              "healing": 10280,
+              "damageTaken": 39880,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#29GULL89",
+            "name": "морския",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000076,
+              "name": "KIT"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 13188,
+              "healing": 7788,
+              "damageTaken": 34188,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2JY2JC8YC8",
+            "name": "SheWasOnly9",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000110,
+              "name": "VINCE"
+            },
+            "stats": {
+              "kills": 11,
+              "deaths": 2,
+              "damageDealt": 69986,
+              "healing": 15892,
+              "damageTaken": 30752,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#9UGCCUG0U",
+            "name": "beko pro stalya",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000043,
+              "name": "EDGAR"
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 36968,
+              "healing": 11060,
+              "damageTaken": 44860,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261119T225212.000Z",
+    "event": {
+      "id": 15000292,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Open Business"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 105,
+      "starPlayer": {
+        "tag": "#QP92J09RV",
+        "name": "Aut|Fabix",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 11
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JJ99R80VP",
+            "name": "kleinezicke💋",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000086,
+              "name": "SHADE"
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 3,
+              "damageDealt": 30030,
+              "healing": 51176,
+              "damageTaken": 83836,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 41
+              }
+            }
+          },
+          {
+            "tag": "#8PU8CVRU",
+            "name": "sera",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000019,
+              "name": "PENNY"
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 32931,
+              "healing": 7610,
+              "damageTaken": 36685,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 7
+              }
+            }
+          },
+          {
+            "tag": "#QP92J09RV",
+            "name": "Aut|Fabix",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 11
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 48653,
+              "healing": 14720,
+              "damageTaken": 33840,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 25
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 6,
+              "damageDealt": 59405,
+              "healing": 9000,
+              "damageTaken": 54300,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 8
+              }
+            }
+          },
+          {
+            "tag": "#PVVJLRCYQ",
+            "name": "kiciwoko",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000063,
+              "name": "CHESTER"
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 44531,
+              "healing": 3740,
+              "damageTaken": 21740,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 40
+              }
+            }
+          },
+          {
+            "tag": "#2CJPL29VCQ",
+            "name": "blumi",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000014,
+              "name": "BO"
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 5,
+              "damageDealt": 50425,
+              "healing": 2574,
+              "damageTaken": 35574,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 41
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261119T225436.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 85,
+      "starPlayer": {
+        "tag": "#LLQQL0GVQ",
+        "name": "꧁༺ᴅᴇᴀᴛʜꜰᴏx༻꧂",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#80GLYPQPU",
+            "name": "Hm Deymos?",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 10
+            },
+            "bannedBrawler": {
+              "id": 16000086,
+              "name": "SHADE"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 5,
+              "damageDealt": 54693,
+              "healing": 1300,
+              "damageTaken": 51300,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#GCUR0VYRG",
+            "name": "gg_bakar",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000100,
+              "name": "GIGI"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 5,
+              "damageDealt": 43587,
+              "healing": 858,
+              "damageTaken": 33858,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000026,
+              "name": "BIBI"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 25778,
+              "healing": 10400,
+              "damageTaken": 42400,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8YCYVUJY8",
+            "name": "Burmalda.ua",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000002,
+              "name": "BULL"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 19555,
+              "healing": 10106,
+              "damageTaken": 39253,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#YQQ99L0CJ",
+            "name": "FUT|KAYLER",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000010,
+              "name": "EL PRIMO"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 32800,
+              "healing": 39780,
+              "damageTaken": 40240,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#LLQQL0GVQ",
+            "name": "꧁༺ᴅᴇᴀᴛʜꜰᴏx༻꧂",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000052,
+              "name": "MEG"
+            },
+            "stats": {
+              "kills": 11,
+              "deaths": 0,
+              "damageDealt": 75203,
+              "healing": 21820,
+              "damageTaken": 47374,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261119T225808.000Z",
+    "event": {
+      "id": 15000300,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Ring of Fire"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 147,
+      "starPlayer": {
+        "tag": "#2CQGYGVQ0L",
+        "name": "moggriff",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 12
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YQUCV20QG",
+            "name": "Zxz",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000043,
+              "name": "EDGAR"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 5,
+              "damageDealt": 58141,
+              "healing": 17801,
+              "damageTaken": 44581,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 32
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 42810,
+              "healing": 25724,
+              "damageTaken": 39324,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 17
+              }
+            }
+          },
+          {
+            "tag": "#9VCPG2R8C",
+            "name": "Akuss",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000007,
+              "name": "JESSIE"
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 8,
+              "damageDealt": 45037,
+              "healing": 9097,
+              "damageTaken": 74717,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 41
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VLLQVG22L",
+            "name": "FL|patapouf",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000050,
+              "name": "GRIFF"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 5,
+              "damageDealt": 34484,
+              "healing": 39193,
+              "damageTaken": 80193,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 28
+              }
+            }
+          },
+          {
+            "tag": "#2CQGYGVQ0L",
+            "name": "moggriff",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000014,
+              "name": "BO"
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 2,
+              "damageDealt": 69299,
+              "healing": 17866,
+              "damageTaken": 29866,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 21
+              }
+            }
+          },
+          {
+            "tag": "#9GU8YPPY",
+            "name": "arenarenzo32",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 12
+            },
+            "bannedBrawler": {
+              "id": 16000019,
+              "name": "PENNY"
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 2,
+              "damageDealt": 54839,
+              "healing": 22729,
+              "damageTaken": 35929,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 16
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
