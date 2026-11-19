@@ -198686,5 +198686,273 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261119T134850.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 158,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#RPCRY80U8",
+        "name": "атомныйxoлoкocт",
+        "brawler": {
+          "id": 16000039,
+          "name": "COLETTE",
+          "power": 11,
+          "trophies": 1666
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#G8CP8L0QG",
+            "name": "sk|bos",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 846
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 2,
+              "damageDealt": 131520,
+              "healing": 12805,
+              "damageTaken": 30805
+            }
+          },
+          {
+            "tag": "#RPCRY80U8",
+            "name": "атомныйxoлoкocт",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1666
+            },
+            "stats": {
+              "kills": 12,
+              "deaths": 1,
+              "damageDealt": 224397,
+              "healing": 38339,
+              "damageTaken": 57391
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1546
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 187659,
+              "healing": 40243,
+              "damageTaken": 53033
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GRCVVC88L",
+            "name": "Twearosy",
+            "brawler": {
+              "id": 16000025,
+              "name": "CARL",
+              "power": 9,
+              "trophies": 546
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 6,
+              "damageDealt": 94678,
+              "healing": 15041,
+              "damageTaken": 78127
+            }
+          },
+          {
+            "tag": "#YV8LPYLQR",
+            "name": "Sokol",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 2420
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 9,
+              "damageDealt": 122437,
+              "healing": 14676,
+              "damageTaken": 57154
+            }
+          },
+          {
+            "tag": "#Q9L8R9C88",
+            "name": "inymaki",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 2288
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 140838,
+              "healing": 9512,
+              "damageTaken": 53258
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261119T135523.000Z",
+    "event": {
+      "id": 15001324,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Brawler's Rift"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 328,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#2C9LQYLRQ8",
+        "name": "Şahin01",
+        "brawler": {
+          "id": 16000054,
+          "name": "FANG",
+          "power": 11,
+          "trophies": 756
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UY000V09V",
+            "name": "Simay01",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 10,
+              "trophies": 278
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 282182,
+              "healing": 51559,
+              "damageTaken": 95681
+            }
+          },
+          {
+            "tag": "#2C9LQYLRQ8",
+            "name": "Şahin01",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 756
+            },
+            "stats": {
+              "kills": 12,
+              "deaths": 0,
+              "damageDealt": 474132,
+              "healing": 168332,
+              "damageTaken": 180215
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1561
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 486422,
+              "healing": 56094,
+              "damageTaken": 72044
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9JY99Q29G",
+            "name": "осёл",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 739
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 7,
+              "damageDealt": 430782,
+              "healing": 64591,
+              "damageTaken": 145791
+            }
+          },
+          {
+            "tag": "#GQQ99L9QP",
+            "name": "😎❤️pro",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1146
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 7,
+              "damageDealt": 569637,
+              "healing": 20523,
+              "damageTaken": 95123
+            }
+          },
+          {
+            "tag": "#C2Q9Y8PQR",
+            "name": "YT/ __NIEKAS...",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1652
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 7,
+              "damageDealt": 376377,
+              "healing": 155386,
+              "damageTaken": 246786
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
