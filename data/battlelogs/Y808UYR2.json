@@ -198954,5 +198954,453 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261120T202514.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 203,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#VQ9GJGL2",
+        "name": "JOEL | OrDos_",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 1240
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1577
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 2,
+              "damageDealt": 187194,
+              "healing": 76245,
+              "damageTaken": 105971
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1240
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 2,
+              "damageDealt": 340606,
+              "healing": 28520,
+              "damageTaken": 49520
+            }
+          },
+          {
+            "tag": "#2CCG22CUR0",
+            "name": "emir",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1925
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 206734,
+              "healing": 18945,
+              "damageTaken": 49145
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q92G8PPP0",
+            "name": "Mélenphion",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1012
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 7,
+              "damageDealt": 290054,
+              "healing": 6909,
+              "damageTaken": 79524
+            }
+          },
+          {
+            "tag": "#9LYG8Q9YL",
+            "name": "Léon",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 838
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 8,
+              "damageDealt": 123312,
+              "healing": 520,
+              "damageTaken": 61446
+            }
+          },
+          {
+            "tag": "#U8LR92GUJ",
+            "name": "Lantern Shork",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 2276
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 246391,
+              "healing": 91827,
+              "damageTaken": 108445
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261120T202717.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 41,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 1819
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2J2VU2VVG9",
+            "name": "LL|CRISTIANpr",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 9792,
+              "healing": 0,
+              "damageTaken": 28000,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2RR90QG88Q",
+            "name": "Bruno",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1185
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 0,
+              "healing": 0,
+              "damageTaken": 22200,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 6480
+              }
+            }
+          },
+          {
+            "tag": "#8PU89UC2V",
+            "name": "THK|SHOK",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 10,
+              "trophies": 404
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 2240,
+              "healing": 0,
+              "damageTaken": 18810,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1256
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 20854,
+              "healing": 960,
+              "damageTaken": 960,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 17028
+              }
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1819
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 0,
+              "damageDealt": 38580,
+              "healing": 2574,
+              "damageTaken": 4872,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 40172
+              }
+            }
+          },
+          {
+            "tag": "#222082UCVP",
+            "name": "RONA7",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1065
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 9576,
+              "healing": 0,
+              "damageTaken": 6200,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 22800
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261120T203002.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 121,
+      "starPlayer": {
+        "tag": "#2QQQJ8R999",
+        "name": "hippopipo",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1172
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CYGY9RPGQ",
+            "name": "стасяя",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 2001
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 5,
+              "damageDealt": 24835,
+              "healing": 15668,
+              "damageTaken": 60158,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 9380
+              }
+            }
+          },
+          {
+            "tag": "#2QQQJ8R999",
+            "name": "hippopipo",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1172
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 5,
+              "damageDealt": 46323,
+              "healing": 9620,
+              "damageTaken": 46620,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 52140
+              }
+            }
+          },
+          {
+            "tag": "#2RJJCJ0QV",
+            "name": "Lalkayopt",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1335
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 4,
+              "damageDealt": 52789,
+              "healing": 2418,
+              "damageTaken": 27218,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 18480
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1819
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 46908,
+              "healing": 11438,
+              "damageTaken": 37838,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 14484
+              }
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 1256
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 53156,
+              "healing": 13608,
+              "damageTaken": 35644,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 30440
+              }
+            }
+          },
+          {
+            "tag": "#JJVRPC89G",
+            "name": "zadymiarz ;",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 6,
+              "damageDealt": 33932,
+              "healing": 5025,
+              "damageTaken": 50465,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 10860
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
