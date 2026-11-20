@@ -79174,5 +79174,530 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261120T130046.000Z",
+    "event": {
+      "id": 15000300,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Ring of Fire"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 96,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#22VCG8J0C",
+            "name": "KNG|Cristiano",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000014,
+              "name": "BO"
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 36456,
+              "healing": 13520,
+              "damageTaken": 26860,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 41
+              }
+            }
+          },
+          {
+            "tag": "#2V80PGQ8RQ",
+            "name": "➺>𝖤𝗀𝗈⌁ ⨀⃝⃟⃞➢",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000041,
+              "name": "LOU"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 33921,
+              "healing": 780,
+              "damageTaken": 25352,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 29
+              }
+            }
+          },
+          {
+            "tag": "#GCRVC88R",
+            "name": "x_xNikkinx_x",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000019,
+              "name": "PENNY"
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 0,
+              "damageDealt": 41925,
+              "healing": 18732,
+              "damageTaken": 18732,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 25
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QJ9QJ9UP0",
+            "name": "LTW | Wolfnyan",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000063,
+              "name": "CHESTER"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 13960,
+              "healing": 18870,
+              "damageTaken": 46870,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 9
+              }
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 27607,
+              "healing": 4680,
+              "damageTaken": 28680,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000030,
+              "name": "EMZ"
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 29377,
+              "healing": 5772,
+              "damageTaken": 36752,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 13
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261120T130310.000Z",
+    "event": {
+      "id": 15000300,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Ring of Fire"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "victory",
+      "duration": 124,
+      "starPlayer": null,
+      "teams": [
+        [
+          {
+            "tag": "#22VCG8J0C",
+            "name": "KNG|Cristiano",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000014,
+              "name": "BO"
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 39210,
+              "healing": 8320,
+              "damageTaken": 47820,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 24
+              }
+            }
+          },
+          {
+            "tag": "#2V80PGQ8RQ",
+            "name": "➺>𝖤𝗀𝗈⌁ ⨀⃝⃟⃞➢",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000041,
+              "name": "LOU"
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 6,
+              "damageDealt": 61110,
+              "healing": 2340,
+              "damageTaken": 38640,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 9
+              }
+            }
+          },
+          {
+            "tag": "#GCRVC88R",
+            "name": "x_xNikkinx_x",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000019,
+              "name": "PENNY"
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 15338,
+              "healing": 21942,
+              "damageTaken": 41742,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 27
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QJ9QJ9UP0",
+            "name": "LTW | Wolfnyan",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000063,
+              "name": "CHESTER"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 35528,
+              "healing": 29048,
+              "damageTaken": 41812,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 32
+              }
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 0,
+              "damageDealt": 40924,
+              "healing": 20894,
+              "damageTaken": 26600,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 33
+              }
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000030,
+              "name": "EMZ"
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 5,
+              "damageDealt": 51750,
+              "healing": 3766,
+              "damageTaken": 47246,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 30
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261120T130532.000Z",
+    "event": {
+      "id": 15000300,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Ring of Fire"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "soloRanked",
+      "result": "defeat",
+      "duration": 124,
+      "starPlayer": {
+        "tag": "#2V80PGQ8RQ",
+        "name": "➺>𝖤𝗀𝗈⌁ ⨀⃝⃟⃞➢",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 11,
+          "trophies": 13
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#22VCG8J0C",
+            "name": "KNG|Cristiano",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000014,
+              "name": "BO"
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 5,
+              "damageDealt": 55588,
+              "healing": 12480,
+              "damageTaken": 52480,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 24
+              }
+            }
+          },
+          {
+            "tag": "#2V80PGQ8RQ",
+            "name": "➺>𝖤𝗀𝗈⌁ ⨀⃝⃟⃞➢",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000041,
+              "name": "LOU"
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 5,
+              "damageDealt": 60758,
+              "healing": 3120,
+              "damageTaken": 33120,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 37
+              }
+            }
+          },
+          {
+            "tag": "#GCRVC88R",
+            "name": "x_xNikkinx_x",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000019,
+              "name": "PENNY"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 37474,
+              "healing": 16004,
+              "damageTaken": 35804,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 39
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QJ9QJ9UP0",
+            "name": "LTW | Wolfnyan",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000063,
+              "name": "CHESTER"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 33940,
+              "healing": 26624,
+              "damageTaken": 55624,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 16
+              }
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000022,
+              "name": "TICK"
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 4,
+              "damageDealt": 43850,
+              "healing": 10650,
+              "damageTaken": 41350,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 25
+              }
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 13
+            },
+            "bannedBrawler": {
+              "id": 16000030,
+              "name": "EMZ"
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 7,
+              "damageDealt": 43614,
+              "healing": 3446,
+              "damageTaken": 56846,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 31
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
