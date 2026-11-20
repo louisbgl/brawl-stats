@@ -513422,5 +513422,321 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20261120T150137.000Z",
+    "event": {
+      "id": 15001270,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Bustling Business"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 33,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#88YVVPJ2U",
+        "name": "SMOT|AnToxic",
+        "brawler": {
+          "id": 16000078,
+          "name": "MELODIE",
+          "power": 11,
+          "trophies": 1026
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YY0GG9R08",
+            "name": "au tthyus 2",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 11,
+              "trophies": 889
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 27270,
+              "healing": 0,
+              "damageTaken": 5360,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#88YVVPJ2U",
+            "name": "SMOT|AnToxic",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1026
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 16600,
+              "healing": 2080,
+              "damageTaken": 5360,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1693
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 11700,
+              "healing": 0,
+              "damageTaken": 540,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RC8CJ99LL",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1192
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 4860,
+              "healing": 3930,
+              "damageTaken": 16330,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#20GYL8R298",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1191
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 0,
+              "healing": 7700,
+              "damageTaken": 26900,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2J2YJ9LCUL",
+            "name": "Артем",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1178
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 6400,
+              "healing": 2340,
+              "damageTaken": 12340,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261120T150316.000Z",
+    "event": {
+      "id": 15001270,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Bustling Business"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 79,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#92JQCPPYP",
+        "name": "Yass",
+        "brawler": {
+          "id": 16000014,
+          "name": "BO",
+          "power": 11,
+          "trophies": 1057
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#92JQCPPYP",
+            "name": "Yass",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1057
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 32910,
+              "healing": 7904,
+              "damageTaken": 20618,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#8RQRYG22P",
+            "name": "Master.tenebris",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 11,
+              "trophies": 1711
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 33922,
+              "healing": 6796,
+              "damageTaken": 15056,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#R9JC2R288",
+            "name": "barimyo",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1287
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 24300,
+              "healing": 568,
+              "damageTaken": 24258,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YY0GG9R08",
+            "name": "au tthyus 2",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 11,
+              "trophies": 899
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 27705,
+              "healing": 0,
+              "damageTaken": 36200,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1709
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 20927,
+              "healing": 3292,
+              "damageTaken": 21892,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#88YVVPJ2U",
+            "name": "SMOT|AnToxic",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1038
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 11300,
+              "healing": 1040,
+              "damageTaken": 33040,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
