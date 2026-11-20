@@ -447882,5 +447882,162 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261119T234659.000Z",
+    "event": {
+      "id": 15000031,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Sapphire Plains"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 156,
+      "starPlayer": {
+        "tag": "#2JLLPJPPGR",
+        "name": "leotheking",
+        "brawler": {
+          "id": 16000111,
+          "name": "THUNDER FROGS",
+          "power": 9,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JLLPJPPGR",
+            "name": "leotheking",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 9,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 26775,
+              "healing": 10206,
+              "damageTaken": 22806,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 14
+              }
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 9,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 3,
+              "damageDealt": 55296,
+              "healing": 6624,
+              "damageTaken": 25524,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#22Y89UGJY",
+            "name": "Farbklex ._.",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 9,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 35190,
+              "healing": 9594,
+              "damageTaken": 38358,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 5
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJULLRLYU",
+            "name": "daniel",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 9,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 6,
+              "damageDealt": 23283,
+              "healing": 3258,
+              "damageTaken": 44622,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 4
+              }
+            }
+          },
+          {
+            "tag": "#2C0GY2VP9C",
+            "name": "JackStripa",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 9,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 21195,
+              "healing": 7038,
+              "damageTaken": 32238,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#9RJ0U8LQ",
+            "name": "KIMMI🥷",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 9,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 42210,
+              "healing": 24237,
+              "damageTaken": 40401,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
