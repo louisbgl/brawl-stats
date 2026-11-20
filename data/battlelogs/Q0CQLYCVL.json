@@ -710202,5 +710202,162 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261120T123756.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 137,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000111,
+          "name": "THUNDER FROGS",
+          "power": 11,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2LCGJ2P289",
+            "name": "Nø Lìfé BrX❦",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 2010
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 4,
+              "damageDealt": 55178,
+              "healing": 10028,
+              "damageTaken": 32428,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 26
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 1,
+              "damageDealt": 83828,
+              "healing": 36626,
+              "damageTaken": 43980,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 47
+              }
+            }
+          },
+          {
+            "tag": "#2UP8LGQ8P8",
+            "name": "FUT|™GHOST",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1039
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 4,
+              "damageDealt": 41771,
+              "healing": 14968,
+              "damageTaken": 53368,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 22
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#J0QQYJ9J",
+            "name": "Hierophant_Red",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1014
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 7,
+              "damageDealt": 54443,
+              "healing": 282,
+              "damageTaken": 71006,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 27
+              }
+            }
+          },
+          {
+            "tag": "#RYGRLPVR8",
+            "name": "tmb/ma xx",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 10,
+              "trophies": 1011
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 7,
+              "damageDealt": 25991,
+              "healing": 50160,
+              "damageTaken": 53502,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 24
+              }
+            }
+          },
+          {
+            "tag": "#2LJ0LVPJGY",
+            "name": "🥔👑🦅⬛⬜rafa",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 5,
+              "damageDealt": 49342,
+              "healing": 8085,
+              "damageTaken": 56269,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 23
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
