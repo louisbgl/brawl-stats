@@ -513738,5 +513738,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261120T164337.000Z",
+    "event": {
+      "id": 15001270,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Bustling Business"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 169,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#QPJCP92",
+        "name": "42",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 1201
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CGP9Q02",
+            "name": "ENES42",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1701
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 40031,
+              "healing": 46418,
+              "damageTaken": 33331,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#QPJCP92",
+            "name": "42",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1201
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 89918,
+              "healing": 5786,
+              "damageTaken": 57742,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2Q0RL2RV2L",
+            "name": "They Call Me",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1551
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 5,
+              "damageDealt": 43883,
+              "healing": 19826,
+              "damageTaken": 71863,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y2LQV80CC",
+            "name": "hello",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1433
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 2,
+              "damageDealt": 49982,
+              "healing": 12480,
+              "damageTaken": 32300,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#GVJY8QVRJ",
+            "name": "SB|ZeroX¡",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 11,
+              "trophies": 1044
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 53355,
+              "healing": 47328,
+              "damageTaken": 104360,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1700
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 4,
+              "damageDealt": 59599,
+              "healing": 7302,
+              "damageTaken": 37172,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
