@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-18",
-  "timestamp": "2026-11-18T00:15:15.364707+01:00",
+  "date": "2026-11-21",
+  "timestamp": "2026-11-21T00:15:15.300731+01:00",
   "clubs": [
     {
       "tag": "#80QPP8V8P",
@@ -9,7 +9,7 @@
       "type": "inviteOnly",
       "badgeId": 8000010,
       "requiredTrophies": 600,
-      "trophies": 799454,
+      "trophies": 801367,
       "members": [
         {
           "tag": "#98QG0VCJ2",
@@ -18,26 +18,26 @@
           "icon": {
             "id": 28000161
           },
-          "trophies": 150935,
-          "highestTrophies": 150987,
+          "trophies": 151028,
+          "highestTrophies": 151028,
           "totalPrestigeLevel": 127,
-          "fame": 186166,
+          "fame": 188395,
           "fameTierName": "ALIEN FAME I",
           "expLevel": 293,
-          "expPoints": 438282,
+          "expPoints": 438734,
           "isQualifiedFromChampionshipChallenge": false,
-          "3vs3Victories": 24613,
-          "soloVictories": 1971,
+          "3vs3Victories": 24639,
+          "soloVictories": 1972,
           "duoVictories": 1753,
           "bestRoboRumbleTime": 6,
           "bestTimeAsBigBrawler": 0,
-          "rankedSeasonId": 50,
-          "rankedRank": 7,
-          "rankedRankName": "GOLD I",
-          "rankedElo": 1937,
-          "highestSeasonRankedRank": 7,
-          "highestSeasonRankedRankName": "GOLD I",
-          "highestSeasonRankedElo": 1937,
+          "rankedSeasonId": 51,
+          "rankedRank": 10,
+          "rankedRankName": "DIAMOND I",
+          "rankedElo": 3087,
+          "highestSeasonRankedRank": 10,
+          "highestSeasonRankedRankName": "DIAMOND I",
+          "highestSeasonRankedElo": 3097,
           "highestAllTimeRankedRank": 16,
           "highestAllTimeRankedRankName": "LEGENDARY I",
           "highestAllTimeRankedElo": 7273,
@@ -2030,7 +2030,7 @@
               "name": "GALE",
               "power": 11,
               "rank": 5,
-              "trophies": 1397,
+              "trophies": 1389,
               "highestTrophies": 1405,
               "prestigeLevel": 1,
               "currentWinStreak": 0,
@@ -6253,10 +6253,10 @@
               "name": "VINCE",
               "power": 11,
               "rank": 3,
-              "trophies": 618,
-              "highestTrophies": 621,
+              "trophies": 709,
+              "highestTrophies": 709,
               "prestigeLevel": 0,
-              "currentWinStreak": 0,
+              "currentWinStreak": 7,
               "maxWinStreak": 15,
               "skin": {
                 "id": 29001757,
@@ -6315,9 +6315,62 @@
                 "starPower": false,
                 "hyperCharge": false
               }
+            },
+            {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "rank": 1,
+              "trophies": 10,
+              "highestTrophies": 10,
+              "prestigeLevel": 0,
+              "currentWinStreak": 1,
+              "maxWinStreak": 1,
+              "skin": {
+                "id": 29001883,
+                "name": "THUNDER FROGS"
+              },
+              "gadgets": [
+                {
+                  "id": 23001498,
+                  "name": "DOUBLE JUMPERS"
+                },
+                {
+                  "id": 23001499,
+                  "name": "SOOTHING SHOCK"
+                }
+              ],
+              "gears": [
+                {
+                  "id": 62000002,
+                  "name": "DAMAGE",
+                  "level": 3
+                },
+                {
+                  "id": 62000004,
+                  "name": "SHIELD",
+                  "level": 3
+                }
+              ],
+              "starPowers": [
+                {
+                  "id": 23001496,
+                  "name": "LEECH LANDING"
+                },
+                {
+                  "id": 23001497,
+                  "name": "SWAMP STOMPS"
+                }
+              ],
+              "hyperCharges": [],
+              "buffies": {
+                "gadget": false,
+                "starPower": false,
+                "hyperCharge": false
+              }
             }
           ],
-          "timestamp": "2026-11-18T00:15:15.364949+01:00"
+          "timestamp": "2026-11-21T00:15:15.300970+01:00"
         },
         {
           "tag": "#LLJGJQVY",
@@ -6326,26 +6379,26 @@
           "icon": {
             "id": 28000255
           },
-          "trophies": 143538,
-          "highestTrophies": 143570,
+          "trophies": 143756,
+          "highestTrophies": 143771,
           "totalPrestigeLevel": 123,
-          "fame": 165599,
+          "fame": 165614,
           "fameTierName": "ALIEN FAME I",
           "expLevel": 291,
-          "expPoints": 431675,
+          "expPoints": 431969,
           "isQualifiedFromChampionshipChallenge": false,
-          "3vs3Victories": 26261,
+          "3vs3Victories": 26279,
           "soloVictories": 1018,
           "duoVictories": 1511,
           "bestRoboRumbleTime": 14,
           "bestTimeAsBigBrawler": 0,
-          "rankedSeasonId": 50,
-          "rankedRank": 14,
-          "rankedRankName": "MYTHIC II",
-          "rankedElo": 5076,
-          "highestSeasonRankedRank": 14,
-          "highestSeasonRankedRankName": "MYTHIC II",
-          "highestSeasonRankedElo": 5076,
+          "rankedSeasonId": 51,
+          "rankedRank": 12,
+          "rankedRankName": "DIAMOND III",
+          "rankedElo": 4000,
+          "highestSeasonRankedRank": 12,
+          "highestSeasonRankedRankName": "DIAMOND III",
+          "highestSeasonRankedElo": 4000,
           "highestAllTimeRankedRank": 16,
           "highestAllTimeRankedRankName": "LEGENDARY I",
           "highestAllTimeRankedElo": 7305,
@@ -8682,7 +8735,7 @@
               "name": "BYRON",
               "power": 11,
               "rank": 5,
-              "trophies": 1056,
+              "trophies": 1041,
               "highestTrophies": 1064,
               "prestigeLevel": 1,
               "currentWinStreak": 0,
@@ -8701,7 +8754,18 @@
                   "name": "BOOSTER SHOTS"
                 }
               ],
-              "gears": [],
+              "gears": [
+                {
+                  "id": 62000003,
+                  "name": "VISION",
+                  "level": 3
+                },
+                {
+                  "id": 62000004,
+                  "name": "SHIELD",
+                  "level": 3
+                }
+              ],
               "starPowers": [
                 {
                   "id": 23000331,
@@ -8729,7 +8793,7 @@
               "name": "EDGAR",
               "power": 11,
               "rank": 5,
-              "trophies": 1410,
+              "trophies": 1402,
               "highestTrophies": 1424,
               "prestigeLevel": 1,
               "currentWinStreak": 0,
@@ -12157,10 +12221,10 @@
               "name": "COSMO",
               "power": 11,
               "rank": 4,
-              "trophies": 831,
-              "highestTrophies": 831,
+              "trophies": 833,
+              "highestTrophies": 833,
               "prestigeLevel": 0,
-              "currentWinStreak": 14,
+              "currentWinStreak": 1,
               "maxWinStreak": 14,
               "skin": {
                 "id": 29001756,
@@ -12209,11 +12273,11 @@
               "id": 16000110,
               "name": "VINCE",
               "power": 11,
-              "rank": 3,
-              "trophies": 559,
-              "highestTrophies": 563,
+              "rank": 4,
+              "trophies": 798,
+              "highestTrophies": 798,
               "prestigeLevel": 0,
-              "currentWinStreak": 0,
+              "currentWinStreak": 3,
               "maxWinStreak": 11,
               "skin": {
                 "id": 29001757,
@@ -12253,7 +12317,7 @@
               }
             }
           ],
-          "timestamp": "2026-11-18T00:15:15.364999+01:00"
+          "timestamp": "2026-11-21T00:15:15.301014+01:00"
         },
         {
           "tag": "#R0CUY9PR",
@@ -12275,13 +12339,11 @@
           "duoVictories": 1167,
           "bestRoboRumbleTime": 0,
           "bestTimeAsBigBrawler": 0,
-          "rankedSeasonId": 50,
-          "rankedRank": 4,
-          "rankedRankName": "SILVER I",
-          "rankedElo": 750,
-          "highestSeasonRankedRank": 4,
-          "highestSeasonRankedRankName": "SILVER I",
-          "highestSeasonRankedElo": 750,
+          "rankedSeasonId": 0,
+          "rankedRank": 0,
+          "rankedElo": 0,
+          "highestSeasonRankedRank": 0,
+          "highestSeasonRankedElo": 0,
           "highestAllTimeRankedRank": 15,
           "highestAllTimeRankedRankName": "MYTHIC III",
           "highestAllTimeRankedElo": 5549,
@@ -18619,7 +18681,7 @@
               }
             }
           ],
-          "timestamp": "2026-11-18T00:15:15.365042+01:00"
+          "timestamp": "2026-11-21T00:15:15.301054+01:00"
         },
         {
           "tag": "#2L0U0PGRL",
@@ -18628,26 +18690,26 @@
           "icon": {
             "id": 28000545
           },
-          "trophies": 81201,
-          "highestTrophies": 81201,
+          "trophies": 81849,
+          "highestTrophies": 81849,
           "totalPrestigeLevel": 41,
-          "fame": 74800,
+          "fame": 75455,
           "fameTierName": "SOLAR FAME II",
           "expLevel": 190,
-          "expPoints": 185402,
+          "expPoints": 186078,
           "isQualifiedFromChampionshipChallenge": false,
-          "3vs3Victories": 8152,
-          "soloVictories": 1473,
-          "duoVictories": 1146,
+          "3vs3Victories": 8179,
+          "soloVictories": 1478,
+          "duoVictories": 1153,
           "bestRoboRumbleTime": 14,
           "bestTimeAsBigBrawler": 0,
-          "rankedSeasonId": 50,
-          "rankedRank": 13,
-          "rankedRankName": "MYTHIC I",
-          "rankedElo": 4936,
-          "highestSeasonRankedRank": 13,
-          "highestSeasonRankedRankName": "MYTHIC I",
-          "highestSeasonRankedElo": 4936,
+          "rankedSeasonId": 51,
+          "rankedRank": 11,
+          "rankedRankName": "DIAMOND II",
+          "rankedElo": 3500,
+          "highestSeasonRankedRank": 11,
+          "highestSeasonRankedRankName": "DIAMOND II",
+          "highestSeasonRankedElo": 3500,
           "highestAllTimeRankedRank": 13,
           "highestAllTimeRankedRankName": "MYTHIC I",
           "highestAllTimeRankedElo": 5221,
@@ -18708,7 +18770,7 @@
               "name": "COLT",
               "power": 9,
               "rank": 5,
-              "trophies": 1078,
+              "trophies": 1073,
               "highestTrophies": 1081,
               "prestigeLevel": 1,
               "currentWinStreak": 0,
@@ -18845,10 +18907,10 @@
               "name": "RICO",
               "power": 11,
               "rank": 5,
-              "trophies": 1032,
+              "trophies": 1027,
               "highestTrophies": 1034,
               "prestigeLevel": 1,
-              "currentWinStreak": 1,
+              "currentWinStreak": 0,
               "maxWinStreak": 10,
               "skin": {
                 "id": 29000758,
@@ -19281,14 +19343,14 @@
               "name": "POCO",
               "power": 11,
               "rank": 5,
-              "trophies": 1109,
-              "highestTrophies": 1110,
+              "trophies": 1373,
+              "highestTrophies": 1373,
               "prestigeLevel": 1,
-              "currentWinStreak": 4,
-              "maxWinStreak": 5,
+              "currentWinStreak": 3,
+              "maxWinStreak": 11,
               "skin": {
-                "id": 29000562,
-                "name": "DESPERADO POCO"
+                "id": 29001336,
+                "name": "SCRATCHER POCO"
               },
               "gadgets": [
                 {
@@ -19375,7 +19437,7 @@
               "name": "PIPER",
               "power": 11,
               "rank": 5,
-              "trophies": 1161,
+              "trophies": 1155,
               "highestTrophies": 1174,
               "prestigeLevel": 1,
               "currentWinStreak": 0,
@@ -19580,10 +19642,10 @@
               "name": "PENNY",
               "power": 11,
               "rank": 5,
-              "trophies": 1164,
+              "trophies": 1174,
               "highestTrophies": 1179,
               "prestigeLevel": 1,
-              "currentWinStreak": 0,
+              "currentWinStreak": 1,
               "maxWinStreak": 7,
               "skin": {
                 "id": 29001295,
@@ -20196,10 +20258,10 @@
               "name": "JACKY",
               "power": 9,
               "rank": 3,
-              "trophies": 667,
-              "highestTrophies": 667,
+              "trophies": 684,
+              "highestTrophies": 684,
               "prestigeLevel": 0,
-              "currentWinStreak": 2,
+              "currentWinStreak": 3,
               "maxWinStreak": 7,
               "skin": {
                 "id": 29000846,
@@ -20238,10 +20300,10 @@
               "name": "GALE",
               "power": 10,
               "rank": 3,
-              "trophies": 653,
-              "highestTrophies": 653,
+              "trophies": 666,
+              "highestTrophies": 666,
               "prestigeLevel": 0,
-              "currentWinStreak": 1,
+              "currentWinStreak": 2,
               "maxWinStreak": 3,
               "skin": {
                 "id": 29000386,
@@ -20493,10 +20555,10 @@
               "name": "LOU",
               "power": 11,
               "rank": 4,
-              "trophies": 962,
-              "highestTrophies": 975,
+              "trophies": 991,
+              "highestTrophies": 991,
               "prestigeLevel": 0,
-              "currentWinStreak": 0,
+              "currentWinStreak": 3,
               "maxWinStreak": 9,
               "skin": {
                 "id": 29000678,
@@ -20593,10 +20655,10 @@
               "name": "EDGAR",
               "power": 11,
               "rank": 5,
-              "trophies": 1128,
-              "highestTrophies": 1144,
+              "trophies": 1157,
+              "highestTrophies": 1157,
               "prestigeLevel": 1,
-              "currentWinStreak": 0,
+              "currentWinStreak": 1,
               "maxWinStreak": 9,
               "skin": {
                 "id": 29000281,
@@ -20812,10 +20874,10 @@
               "name": "GROM",
               "power": 9,
               "rank": 3,
-              "trophies": 639,
-              "highestTrophies": 639,
+              "trophies": 655,
+              "highestTrophies": 655,
               "prestigeLevel": 0,
-              "currentWinStreak": 1,
+              "currentWinStreak": 2,
               "maxWinStreak": 5,
               "skin": {
                 "id": 29000712,
@@ -20892,10 +20954,10 @@
               "name": "GRIFF",
               "power": 11,
               "rank": 5,
-              "trophies": 1099,
-              "highestTrophies": 1099,
+              "trophies": 1115,
+              "highestTrophies": 1115,
               "prestigeLevel": 1,
-              "currentWinStreak": 3,
+              "currentWinStreak": 2,
               "maxWinStreak": 11,
               "skin": {
                 "id": 29000679,
@@ -21569,10 +21631,10 @@
               "name": "MAISIE",
               "power": 9,
               "rank": 4,
-              "trophies": 765,
+              "trophies": 762,
               "highestTrophies": 765,
               "prestigeLevel": 0,
-              "currentWinStreak": 5,
+              "currentWinStreak": 0,
               "maxWinStreak": 15,
               "skin": {
                 "id": 29001015,
@@ -21802,10 +21864,10 @@
               "name": "CHUCK",
               "power": 11,
               "rank": 5,
-              "trophies": 1345,
-              "highestTrophies": 1353,
+              "trophies": 1366,
+              "highestTrophies": 1366,
               "prestigeLevel": 1,
-              "currentWinStreak": 0,
+              "currentWinStreak": 2,
               "maxWinStreak": 12,
               "skin": {
                 "id": 29001097,
@@ -22010,7 +22072,12 @@
                   "name": "PROTOCOL: ASSIST"
                 }
               ],
-              "hyperCharges": [],
+              "hyperCharges": [
+                {
+                  "id": 23001053,
+                  "name": "THE THREE-BOT PROBLEM"
+                }
+              ],
               "buffies": {
                 "gadget": false,
                 "starPower": false,
@@ -22183,7 +22250,12 @@
                   "name": "VIGILANCE"
                 }
               ],
-              "hyperCharges": [],
+              "hyperCharges": [
+                {
+                  "id": 23000924,
+                  "name": "GERMINATE"
+                }
+              ],
               "buffies": {
                 "gadget": false,
                 "starPower": false,
@@ -22195,7 +22267,7 @@
               "name": "BERRY",
               "power": 11,
               "rank": 5,
-              "trophies": 1033,
+              "trophies": 1028,
               "highestTrophies": 1038,
               "prestigeLevel": 1,
               "currentWinStreak": 0,
@@ -22400,10 +22472,10 @@
               "name": "SHADE",
               "power": 11,
               "rank": 5,
-              "trophies": 1051,
+              "trophies": 1046,
               "highestTrophies": 1051,
               "prestigeLevel": 1,
-              "currentWinStreak": 2,
+              "currentWinStreak": 0,
               "maxWinStreak": 9,
               "skin": {
                 "id": 29001830,
@@ -22521,13 +22593,13 @@
             {
               "id": 16000090,
               "name": "OLLIE",
-              "power": 7,
+              "power": 9,
               "rank": 1,
-              "trophies": 184,
-              "highestTrophies": 184,
+              "trophies": 238,
+              "highestTrophies": 238,
               "prestigeLevel": 0,
-              "currentWinStreak": 12,
-              "maxWinStreak": 12,
+              "currentWinStreak": 14,
+              "maxWinStreak": 14,
               "skin": {
                 "id": 29001103,
                 "name": "PHARAOLLIE"
@@ -22539,7 +22611,16 @@
                 }
               ],
               "gears": [],
-              "starPowers": [],
+              "starPowers": [
+                {
+                  "id": 23000883,
+                  "name": "KICK, PUSH"
+                },
+                {
+                  "id": 23000884,
+                  "name": "RENEGADE"
+                }
+              ],
               "hyperCharges": [
                 {
                   "id": 23001033,
@@ -22670,10 +22751,10 @@
               "name": "KAZE",
               "power": 9,
               "rank": 1,
-              "trophies": 212,
-              "highestTrophies": 213,
+              "trophies": 231,
+              "highestTrophies": 231,
               "prestigeLevel": 0,
-              "currentWinStreak": 0,
+              "currentWinStreak": 1,
               "maxWinStreak": 6,
               "skin": {
                 "id": 29001208,
@@ -22713,7 +22794,7 @@
               "name": "ALLI",
               "power": 9,
               "rank": 3,
-              "trophies": 551,
+              "trophies": 553,
               "highestTrophies": 569,
               "prestigeLevel": 0,
               "currentWinStreak": 0,
@@ -22755,10 +22836,10 @@
               "name": "TRUNK",
               "power": 9,
               "rank": 3,
-              "trophies": 551,
-              "highestTrophies": 551,
+              "trophies": 567,
+              "highestTrophies": 567,
               "prestigeLevel": 0,
-              "currentWinStreak": 1,
+              "currentWinStreak": 2,
               "maxWinStreak": 16,
               "skin": {
                 "id": 29001253,
@@ -22919,11 +23000,11 @@
               "id": 16000100,
               "name": "GIGI",
               "power": 11,
-              "rank": 2,
-              "trophies": 443,
-              "highestTrophies": 443,
+              "rank": 3,
+              "trophies": 519,
+              "highestTrophies": 519,
               "prestigeLevel": 0,
-              "currentWinStreak": 3,
+              "currentWinStreak": 2,
               "maxWinStreak": 9,
               "skin": {
                 "id": 29001341,
@@ -22973,10 +23054,10 @@
               "name": "GLOWY",
               "power": 11,
               "rank": 4,
-              "trophies": 904,
-              "highestTrophies": 904,
+              "trophies": 939,
+              "highestTrophies": 939,
               "prestigeLevel": 0,
-              "currentWinStreak": 2,
+              "currentWinStreak": 4,
               "maxWinStreak": 8,
               "skin": {
                 "id": 29001400,
@@ -23163,10 +23244,10 @@
               "name": "STARR NOVA",
               "power": 11,
               "rank": 4,
-              "trophies": 818,
-              "highestTrophies": 818,
+              "trophies": 847,
+              "highestTrophies": 851,
               "prestigeLevel": 0,
-              "currentWinStreak": 4,
+              "currentWinStreak": 0,
               "maxWinStreak": 13,
               "skin": {
                 "id": 29001599,
@@ -23304,11 +23385,11 @@
               "name": "WENDY",
               "power": 11,
               "rank": 1,
-              "trophies": 48,
-              "highestTrophies": 48,
+              "trophies": 79,
+              "highestTrophies": 79,
               "prestigeLevel": 0,
-              "currentWinStreak": 4,
-              "maxWinStreak": 4,
+              "currentWinStreak": 5,
+              "maxWinStreak": 5,
               "skin": {
                 "id": 29001653,
                 "name": "WENDY"
@@ -23395,7 +23476,7 @@
               }
             }
           ],
-          "timestamp": "2026-11-18T00:15:15.365077+01:00"
+          "timestamp": "2026-11-21T00:15:15.301088+01:00"
         },
         {
           "tag": "#YR8L09PRC",
@@ -23404,26 +23485,26 @@
           "icon": {
             "id": 28001239
           },
-          "trophies": 72645,
-          "highestTrophies": 72645,
+          "trophies": 73353,
+          "highestTrophies": 73353,
           "totalPrestigeLevel": 46,
-          "fame": 65267,
+          "fame": 65772,
           "fameTierName": "SOLAR FAME II",
           "expLevel": 186,
-          "expPoints": 178214,
+          "expPoints": 178922,
           "isQualifiedFromChampionshipChallenge": false,
-          "3vs3Victories": 8559,
+          "3vs3Victories": 8600,
           "soloVictories": 1052,
-          "duoVictories": 1607,
+          "duoVictories": 1614,
           "bestRoboRumbleTime": 14,
           "bestTimeAsBigBrawler": 0,
-          "rankedSeasonId": 50,
-          "rankedRank": 14,
-          "rankedRankName": "MYTHIC II",
-          "rankedElo": 5038,
-          "highestSeasonRankedRank": 14,
-          "highestSeasonRankedRankName": "MYTHIC II",
-          "highestSeasonRankedElo": 5038,
+          "rankedSeasonId": 51,
+          "rankedRank": 12,
+          "rankedRankName": "DIAMOND III",
+          "rankedElo": 4000,
+          "highestSeasonRankedRank": 12,
+          "highestSeasonRankedRankName": "DIAMOND III",
+          "highestSeasonRankedElo": 4000,
           "highestAllTimeRankedRank": 14,
           "highestAllTimeRankedRankName": "MYTHIC II",
           "highestAllTimeRankedElo": 5221,
@@ -23437,8 +23518,8 @@
               "name": "SHELLY",
               "power": 11,
               "rank": 3,
-              "trophies": 562,
-              "highestTrophies": 564,
+              "trophies": 684,
+              "highestTrophies": 687,
               "prestigeLevel": 0,
               "currentWinStreak": 0,
               "maxWinStreak": 5,
@@ -23484,8 +23565,8 @@
               "name": "COLT",
               "power": 11,
               "rank": 5,
-              "trophies": 1693,
-              "highestTrophies": 1702,
+              "trophies": 1710,
+              "highestTrophies": 1710,
               "prestigeLevel": 1,
               "currentWinStreak": 1,
               "maxWinStreak": 11,
@@ -23642,7 +23723,7 @@
                 }
               ],
               "buffies": {
-                "gadget": false,
+                "gadget": true,
                 "starPower": false,
                 "hyperCharge": true
               }
@@ -24435,14 +24516,14 @@
               "name": "FRANK",
               "power": 11,
               "rank": 5,
-              "trophies": 1002,
-              "highestTrophies": 1002,
+              "trophies": 1233,
+              "highestTrophies": 1233,
               "prestigeLevel": 1,
-              "currentWinStreak": 1,
+              "currentWinStreak": 3,
               "maxWinStreak": 8,
               "skin": {
-                "id": 29000829,
-                "name": "PARASOL FRANK"
+                "id": 29000619,
+                "name": "SPIRIT KNIGHT FRANK"
               },
               "gadgets": [
                 {
@@ -24798,8 +24879,8 @@
               "name": "8-BIT",
               "power": 11,
               "rank": 3,
-              "trophies": 535,
-              "highestTrophies": 541,
+              "trophies": 543,
+              "highestTrophies": 545,
               "prestigeLevel": 0,
               "currentWinStreak": 0,
               "maxWinStreak": 3,
@@ -24837,7 +24918,7 @@
               "buffies": {
                 "gadget": true,
                 "starPower": true,
-                "hyperCharge": false
+                "hyperCharge": true
               }
             },
             {
@@ -27902,10 +27983,10 @@
               "name": "GIGI",
               "power": 11,
               "rank": 6,
-              "trophies": 2012,
-              "highestTrophies": 2012,
+              "trophies": 2020,
+              "highestTrophies": 2020,
               "prestigeLevel": 2,
-              "currentWinStreak": 5,
+              "currentWinStreak": 6,
               "maxWinStreak": 14,
               "skin": {
                 "id": 29001404,
@@ -28207,7 +28288,12 @@
               "gadgets": [],
               "gears": [],
               "starPowers": [],
-              "hyperCharges": [],
+              "hyperCharges": [
+                {
+                  "id": 23001527,
+                  "name": "COSMIC CAPTURE"
+                }
+              ],
               "buffies": {
                 "gadget": false,
                 "starPower": false,
@@ -28217,21 +28303,47 @@
             {
               "id": 16000110,
               "name": "VINCE",
-              "power": 1,
-              "rank": 1,
-              "trophies": 0,
-              "highestTrophies": 0,
+              "power": 11,
+              "rank": 2,
+              "trophies": 322,
+              "highestTrophies": 322,
               "prestigeLevel": 0,
-              "currentWinStreak": 0,
-              "maxWinStreak": 0,
+              "currentWinStreak": 8,
+              "maxWinStreak": 12,
               "skin": {
                 "id": 29001757,
                 "name": "VINCE"
               },
-              "gadgets": [],
-              "gears": [],
-              "starPowers": [],
-              "hyperCharges": [],
+              "gadgets": [
+                {
+                  "id": 23001453,
+                  "name": "METAMOTHOSIS"
+                }
+              ],
+              "gears": [
+                {
+                  "id": 62000001,
+                  "name": "HEALTH",
+                  "level": 3
+                },
+                {
+                  "id": 62000004,
+                  "name": "SHIELD",
+                  "level": 3
+                }
+              ],
+              "starPowers": [
+                {
+                  "id": 23001450,
+                  "name": "COME TO PAPA"
+                }
+              ],
+              "hyperCharges": [
+                {
+                  "id": 23001528,
+                  "name": "BUG SWARM"
+                }
+              ],
               "buffies": {
                 "gadget": false,
                 "starPower": false,
@@ -28239,7 +28351,7 @@
               }
             }
           ],
-          "timestamp": "2026-11-18T00:15:15.365119+01:00"
+          "timestamp": "2026-11-21T00:15:15.301124+01:00"
         },
         {
           "tag": "#Q0CQLYCVL",
@@ -28248,26 +28360,26 @@
           "icon": {
             "id": 28000210
           },
-          "trophies": 71545,
-          "highestTrophies": 71549,
+          "trophies": 71717,
+          "highestTrophies": 71717,
           "totalPrestigeLevel": 47,
-          "fame": 56715,
+          "fame": 57557,
           "fameTierName": "SOLAR FAME I",
           "expLevel": 180,
-          "expPoints": 167118,
+          "expPoints": 167804,
           "isQualifiedFromChampionshipChallenge": false,
-          "3vs3Victories": 8520,
-          "soloVictories": 766,
+          "3vs3Victories": 8561,
+          "soloVictories": 768,
           "duoVictories": 1090,
           "bestRoboRumbleTime": 9,
           "bestTimeAsBigBrawler": 0,
-          "rankedSeasonId": 50,
+          "rankedSeasonId": 51,
           "rankedRank": 13,
           "rankedRankName": "MYTHIC I",
-          "rankedElo": 4617,
+          "rankedElo": 4558,
           "highestSeasonRankedRank": 13,
           "highestSeasonRankedRankName": "MYTHIC I",
-          "highestSeasonRankedElo": 4660,
+          "highestSeasonRankedElo": 4558,
           "highestAllTimeRankedRank": 16,
           "highestAllTimeRankedRankName": "LEGENDARY I",
           "highestAllTimeRankedElo": 6088,
@@ -29194,12 +29306,12 @@
             {
               "id": 16000019,
               "name": "PENNY",
-              "power": 9,
+              "power": 11,
               "rank": 3,
-              "trophies": 557,
-              "highestTrophies": 557,
+              "trophies": 573,
+              "highestTrophies": 573,
               "prestigeLevel": 0,
-              "currentWinStreak": 1,
+              "currentWinStreak": 2,
               "maxWinStreak": 5,
               "skin": {
                 "id": 29000589,
@@ -29836,8 +29948,8 @@
               "currentWinStreak": 1,
               "maxWinStreak": 7,
               "skin": {
-                "id": 29000916,
-                "name": "CUTTLEFISH JACKY"
+                "id": 29000846,
+                "name": "WAVE HOPPER JACKY"
               },
               "gadgets": [
                 {
@@ -30101,10 +30213,10 @@
               "name": "AMBER",
               "power": 11,
               "rank": 3,
-              "trophies": 695,
-              "highestTrophies": 699,
+              "trophies": 710,
+              "highestTrophies": 710,
               "prestigeLevel": 0,
-              "currentWinStreak": 0,
+              "currentWinStreak": 1,
               "maxWinStreak": 25,
               "skin": {
                 "id": 29000207,
@@ -30468,10 +30580,10 @@
               "name": "GROM",
               "power": 11,
               "rank": 3,
-              "trophies": 706,
-              "highestTrophies": 713,
+              "trophies": 732,
+              "highestTrophies": 732,
               "prestigeLevel": 0,
-              "currentWinStreak": 0,
+              "currentWinStreak": 2,
               "maxWinStreak": 8,
               "skin": {
                 "id": 29001101,
@@ -31001,14 +31113,14 @@
               "name": "CHESTER",
               "power": 11,
               "rank": 5,
-              "trophies": 1006,
-              "highestTrophies": 1006,
+              "trophies": 1042,
+              "highestTrophies": 1042,
               "prestigeLevel": 1,
               "currentWinStreak": 2,
               "maxWinStreak": 9,
               "skin": {
-                "id": 29000680,
-                "name": "WOOD SPIRIT CHESTER"
+                "id": 29000807,
+                "name": "LOKI CHESTER"
               },
               "gadgets": [
                 {
@@ -31100,11 +31212,11 @@
               "id": 16000065,
               "name": "MANDY",
               "power": 11,
-              "rank": 3,
-              "trophies": 735,
-              "highestTrophies": 739,
+              "rank": 4,
+              "trophies": 788,
+              "highestTrophies": 788,
               "prestigeLevel": 0,
-              "currentWinStreak": 0,
+              "currentWinStreak": 3,
               "maxWinStreak": 12,
               "skin": {
                 "id": 29001389,
@@ -31490,8 +31602,8 @@
               "currentWinStreak": 9,
               "maxWinStreak": 9,
               "skin": {
-                "id": 29000732,
-                "name": "AMAZING CHARLIE"
+                "id": 29000728,
+                "name": "ROSIE CHARLIE"
               },
               "gadgets": [],
               "gears": [],
@@ -32032,10 +32144,10 @@
               "name": "MEEPLE",
               "power": 11,
               "rank": 2,
-              "trophies": 295,
-              "highestTrophies": 296,
+              "trophies": 321,
+              "highestTrophies": 321,
               "prestigeLevel": 0,
-              "currentWinStreak": 0,
+              "currentWinStreak": 2,
               "maxWinStreak": 10,
               "skin": {
                 "id": 29001091,
@@ -32275,6 +32387,10 @@
                 {
                   "id": 23000989,
                   "name": "LIZARD LIMBS"
+                },
+                {
+                  "id": 23000990,
+                  "name": "YOU BETTER RUN, YOU BETTER TAKE COVER"
                 }
               ],
               "hyperCharges": [
@@ -32443,7 +32559,12 @@
                   "name": "SLIP 'N SNIPE"
                 }
               ],
-              "hyperCharges": [],
+              "hyperCharges": [
+                {
+                  "id": 23001220,
+                  "name": "SECOND WAVE"
+                }
+              ],
               "buffies": {
                 "gadget": false,
                 "starPower": false,
@@ -32880,7 +33001,7 @@
               }
             }
           ],
-          "timestamp": "2026-11-18T00:15:15.365158+01:00"
+          "timestamp": "2026-11-21T00:15:15.301161+01:00"
         },
         {
           "tag": "#VQ9GJGL2",
@@ -32889,26 +33010,26 @@
           "icon": {
             "id": 28000680
           },
-          "trophies": 59279,
-          "highestTrophies": 59280,
+          "trophies": 59322,
+          "highestTrophies": 59330,
           "totalPrestigeLevel": 28,
-          "fame": 20051,
-          "fameTierName": "MARTIAN FAME I",
+          "fame": 20256,
+          "fameTierName": "MARTIAN FAME II",
           "expLevel": 136,
-          "expPoints": 97145,
+          "expPoints": 97215,
           "isQualifiedFromChampionshipChallenge": false,
-          "3vs3Victories": 6232,
+          "3vs3Victories": 6236,
           "soloVictories": 402,
           "duoVictories": 253,
           "bestRoboRumbleTime": 5,
           "bestTimeAsBigBrawler": 0,
-          "rankedSeasonId": 50,
-          "rankedRank": 8,
-          "rankedRankName": "GOLD II",
-          "rankedElo": 2032,
-          "highestSeasonRankedRank": 8,
-          "highestSeasonRankedRankName": "GOLD II",
-          "highestSeasonRankedElo": 2032,
+          "rankedSeasonId": 51,
+          "rankedRank": 6,
+          "rankedRankName": "SILVER III",
+          "rankedElo": 1250,
+          "highestSeasonRankedRank": 6,
+          "highestSeasonRankedRankName": "SILVER III",
+          "highestSeasonRankedElo": 1250,
           "highestAllTimeRankedRank": 13,
           "highestAllTimeRankedRankName": "MYTHIC I",
           "highestAllTimeRankedElo": 4568,
@@ -33748,10 +33869,10 @@
               "name": "PENNY",
               "power": 11,
               "rank": 5,
-              "trophies": 1240,
-              "highestTrophies": 1240,
+              "trophies": 1283,
+              "highestTrophies": 1291,
               "prestigeLevel": 1,
-              "currentWinStreak": 1,
+              "currentWinStreak": 0,
               "maxWinStreak": 11,
               "skin": {
                 "id": 29001077,
@@ -34580,7 +34701,12 @@
                   "name": "SERVE ICE COLD"
                 }
               ],
-              "hyperCharges": [],
+              "hyperCharges": [
+                {
+                  "id": 23000826,
+                  "name": "JUICED UP!"
+                }
+              ],
               "buffies": {
                 "gadget": false,
                 "starPower": false,
@@ -34868,7 +34994,12 @@
               },
               "gadgets": [],
               "gears": [],
-              "starPowers": [],
+              "starPowers": [
+                {
+                  "id": 23000362,
+                  "name": "ZERO DRAG"
+                }
+              ],
               "hyperCharges": [],
               "buffies": {
                 "gadget": false,
@@ -34894,6 +35025,10 @@
                 {
                   "id": 23000371,
                   "name": "NEST EGG"
+                },
+                {
+                  "id": 23000463,
+                  "name": "REVERSE POLARITY"
                 }
               ],
               "gears": [],
@@ -35328,7 +35463,12 @@
               },
               "gadgets": [],
               "gears": [],
-              "starPowers": [],
+              "starPowers": [
+                {
+                  "id": 23000479,
+                  "name": "WISDOM TOOTH"
+                }
+              ],
               "hyperCharges": [
                 {
                   "id": 23001003,
@@ -37134,7 +37274,7 @@
               }
             }
           ],
-          "timestamp": "2026-11-18T00:15:15.365188+01:00"
+          "timestamp": "2026-11-21T00:15:15.301193+01:00"
         },
         {
           "tag": "#Y9G0QL9GL",
@@ -37156,13 +37296,11 @@
           "duoVictories": 820,
           "bestRoboRumbleTime": 5,
           "bestTimeAsBigBrawler": 0,
-          "rankedSeasonId": 50,
-          "rankedRank": 4,
-          "rankedRankName": "SILVER I",
-          "rankedElo": 750,
-          "highestSeasonRankedRank": 4,
-          "highestSeasonRankedRankName": "SILVER I",
-          "highestSeasonRankedElo": 750,
+          "rankedSeasonId": 0,
+          "rankedRank": 0,
+          "rankedElo": 0,
+          "highestSeasonRankedRank": 0,
+          "highestSeasonRankedElo": 0,
           "highestAllTimeRankedRank": 13,
           "highestAllTimeRankedRankName": "MYTHIC I",
           "highestAllTimeRankedElo": 5210,
@@ -40083,7 +40221,7 @@
               }
             }
           ],
-          "timestamp": "2026-11-18T00:15:15.365215+01:00"
+          "timestamp": "2026-11-21T00:15:15.301215+01:00"
         },
         {
           "tag": "#JJ8P8URQC",
@@ -40105,13 +40243,11 @@
           "duoVictories": 95,
           "bestRoboRumbleTime": 2,
           "bestTimeAsBigBrawler": 0,
-          "rankedSeasonId": 50,
-          "rankedRank": 3,
-          "rankedRankName": "BRONZE III",
-          "rankedElo": 500,
-          "highestSeasonRankedRank": 3,
-          "highestSeasonRankedRankName": "BRONZE III",
-          "highestSeasonRankedElo": 500,
+          "rankedSeasonId": 0,
+          "rankedRank": 0,
+          "rankedElo": 0,
+          "highestSeasonRankedRank": 0,
+          "highestSeasonRankedElo": 0,
           "highestAllTimeRankedRank": 4,
           "highestAllTimeRankedRankName": "SILVER I",
           "highestAllTimeRankedElo": 1543,
@@ -42180,7 +42316,7 @@
               }
             }
           ],
-          "timestamp": "2026-11-18T00:15:15.365259+01:00"
+          "timestamp": "2026-11-21T00:15:15.301263+01:00"
         },
         {
           "tag": "#Y808UYR2",
@@ -42189,26 +42325,26 @@
           "icon": {
             "id": 28001212
           },
-          "trophies": 29931,
-          "highestTrophies": 29953,
+          "trophies": 30005,
+          "highestTrophies": 30016,
           "totalPrestigeLevel": 12,
-          "fame": 10835,
+          "fame": 11285,
           "fameTierName": "LUNAR FAME II",
           "expLevel": 105,
-          "expPoints": 58250,
+          "expPoints": 58316,
           "isQualifiedFromChampionshipChallenge": false,
-          "3vs3Victories": 3721,
+          "3vs3Victories": 3727,
           "soloVictories": 49,
           "duoVictories": 303,
           "bestRoboRumbleTime": 0,
           "bestTimeAsBigBrawler": 0,
-          "rankedSeasonId": 50,
-          "rankedRank": 8,
-          "rankedRankName": "GOLD II",
-          "rankedElo": 2122,
-          "highestSeasonRankedRank": 8,
-          "highestSeasonRankedRankName": "GOLD II",
-          "highestSeasonRankedElo": 2173,
+          "rankedSeasonId": 51,
+          "rankedRank": 6,
+          "rankedRankName": "SILVER III",
+          "rankedElo": 1250,
+          "highestSeasonRankedRank": 6,
+          "highestSeasonRankedRankName": "SILVER III",
+          "highestSeasonRankedElo": 1250,
           "highestAllTimeRankedRank": 13,
           "highestAllTimeRankedRankName": "MYTHIC I",
           "highestAllTimeRankedElo": 4770,
@@ -43376,8 +43512,8 @@
               "currentWinStreak": 6,
               "maxWinStreak": 6,
               "skin": {
-                "id": 29000659,
-                "name": "BUBBLEGUM BIBI"
+                "id": 29001922,
+                "name": "SCHOOLGIRL BIBI II"
               },
               "gadgets": [],
               "gears": [],
@@ -43523,8 +43659,8 @@
               "name": "EMZ",
               "power": 11,
               "rank": 5,
-              "trophies": 1546,
-              "highestTrophies": 1568,
+              "trophies": 1620,
+              "highestTrophies": 1631,
               "prestigeLevel": 1,
               "currentWinStreak": 0,
               "maxWinStreak": 14,
@@ -44866,7 +45002,7 @@
               "hyperCharges": [],
               "buffies": {
                 "gadget": false,
-                "starPower": false,
+                "starPower": true,
                 "hyperCharge": false
               }
             },
@@ -46036,7 +46172,12 @@
               "gadgets": [],
               "gears": [],
               "starPowers": [],
-              "hyperCharges": [],
+              "hyperCharges": [
+                {
+                  "id": 23001473,
+                  "name": "GREEN ENERGY"
+                }
+              ],
               "buffies": {
                 "gadget": false,
                 "starPower": false,
@@ -46092,7 +46233,7 @@
               }
             }
           ],
-          "timestamp": "2026-11-18T00:15:15.365291+01:00"
+          "timestamp": "2026-11-21T00:15:15.301293+01:00"
         },
         {
           "tag": "#LPLYLJGGP",
@@ -46114,7 +46255,7 @@
           "duoVictories": 616,
           "bestRoboRumbleTime": 6,
           "bestTimeAsBigBrawler": 0,
-          "rankedSeasonId": 50,
+          "rankedSeasonId": 51,
           "rankedRank": 4,
           "rankedRankName": "SILVER I",
           "rankedElo": 750,
@@ -49089,11 +49230,11 @@
               }
             }
           ],
-          "timestamp": "2026-11-18T00:15:15.365314+01:00"
+          "timestamp": "2026-11-21T00:15:15.301318+01:00"
         }
       ],
       "isFamilyFriendly": true,
-      "timestamp": "2026-11-18T00:15:15.365317+01:00"
+      "timestamp": "2026-11-21T00:15:15.301321+01:00"
     }
   ],
   "individual_players": [
@@ -49117,13 +49258,11 @@
       "duoVictories": 759,
       "bestRoboRumbleTime": 4,
       "bestTimeAsBigBrawler": 0,
-      "rankedSeasonId": 50,
-      "rankedRank": 4,
-      "rankedRankName": "SILVER I",
-      "rankedElo": 750,
-      "highestSeasonRankedRank": 4,
-      "highestSeasonRankedRankName": "SILVER I",
-      "highestSeasonRankedElo": 750,
+      "rankedSeasonId": 0,
+      "rankedRank": 0,
+      "rankedElo": 0,
+      "highestSeasonRankedRank": 0,
+      "highestSeasonRankedElo": 0,
       "highestAllTimeRankedRank": 11,
       "highestAllTimeRankedRankName": "DIAMOND II",
       "highestAllTimeRankedElo": 5249,
@@ -51869,7 +52008,7 @@
           }
         }
       ],
-      "timestamp": "2026-11-18T00:15:15.365341+01:00"
+      "timestamp": "2026-11-21T00:15:15.301344+01:00"
     },
     {
       "tag": "#Q0CQLYCVL",
@@ -51878,26 +52017,26 @@
       "icon": {
         "id": 28000210
       },
-      "trophies": 71545,
-      "highestTrophies": 71549,
+      "trophies": 71717,
+      "highestTrophies": 71717,
       "totalPrestigeLevel": 47,
-      "fame": 56715,
+      "fame": 57557,
       "fameTierName": "SOLAR FAME I",
       "expLevel": 180,
-      "expPoints": 167118,
+      "expPoints": 167804,
       "isQualifiedFromChampionshipChallenge": false,
-      "3vs3Victories": 8520,
-      "soloVictories": 766,
+      "3vs3Victories": 8561,
+      "soloVictories": 768,
       "duoVictories": 1090,
       "bestRoboRumbleTime": 9,
       "bestTimeAsBigBrawler": 0,
-      "rankedSeasonId": 50,
+      "rankedSeasonId": 51,
       "rankedRank": 13,
       "rankedRankName": "MYTHIC I",
-      "rankedElo": 4617,
+      "rankedElo": 4558,
       "highestSeasonRankedRank": 13,
       "highestSeasonRankedRankName": "MYTHIC I",
-      "highestSeasonRankedElo": 4660,
+      "highestSeasonRankedElo": 4558,
       "highestAllTimeRankedRank": 16,
       "highestAllTimeRankedRankName": "LEGENDARY I",
       "highestAllTimeRankedElo": 6088,
@@ -52824,12 +52963,12 @@
         {
           "id": 16000019,
           "name": "PENNY",
-          "power": 9,
+          "power": 11,
           "rank": 3,
-          "trophies": 557,
-          "highestTrophies": 557,
+          "trophies": 573,
+          "highestTrophies": 573,
           "prestigeLevel": 0,
-          "currentWinStreak": 1,
+          "currentWinStreak": 2,
           "maxWinStreak": 5,
           "skin": {
             "id": 29000589,
@@ -53466,8 +53605,8 @@
           "currentWinStreak": 1,
           "maxWinStreak": 7,
           "skin": {
-            "id": 29000916,
-            "name": "CUTTLEFISH JACKY"
+            "id": 29000846,
+            "name": "WAVE HOPPER JACKY"
           },
           "gadgets": [
             {
@@ -53731,10 +53870,10 @@
           "name": "AMBER",
           "power": 11,
           "rank": 3,
-          "trophies": 695,
-          "highestTrophies": 699,
+          "trophies": 710,
+          "highestTrophies": 710,
           "prestigeLevel": 0,
-          "currentWinStreak": 0,
+          "currentWinStreak": 1,
           "maxWinStreak": 25,
           "skin": {
             "id": 29000207,
@@ -54098,10 +54237,10 @@
           "name": "GROM",
           "power": 11,
           "rank": 3,
-          "trophies": 706,
-          "highestTrophies": 713,
+          "trophies": 732,
+          "highestTrophies": 732,
           "prestigeLevel": 0,
-          "currentWinStreak": 0,
+          "currentWinStreak": 2,
           "maxWinStreak": 8,
           "skin": {
             "id": 29001101,
@@ -54631,14 +54770,14 @@
           "name": "CHESTER",
           "power": 11,
           "rank": 5,
-          "trophies": 1006,
-          "highestTrophies": 1006,
+          "trophies": 1042,
+          "highestTrophies": 1042,
           "prestigeLevel": 1,
           "currentWinStreak": 2,
           "maxWinStreak": 9,
           "skin": {
-            "id": 29000680,
-            "name": "WOOD SPIRIT CHESTER"
+            "id": 29000807,
+            "name": "LOKI CHESTER"
           },
           "gadgets": [
             {
@@ -54730,11 +54869,11 @@
           "id": 16000065,
           "name": "MANDY",
           "power": 11,
-          "rank": 3,
-          "trophies": 735,
-          "highestTrophies": 739,
+          "rank": 4,
+          "trophies": 788,
+          "highestTrophies": 788,
           "prestigeLevel": 0,
-          "currentWinStreak": 0,
+          "currentWinStreak": 3,
           "maxWinStreak": 12,
           "skin": {
             "id": 29001389,
@@ -55120,8 +55259,8 @@
           "currentWinStreak": 9,
           "maxWinStreak": 9,
           "skin": {
-            "id": 29000732,
-            "name": "AMAZING CHARLIE"
+            "id": 29000728,
+            "name": "ROSIE CHARLIE"
           },
           "gadgets": [],
           "gears": [],
@@ -55662,10 +55801,10 @@
           "name": "MEEPLE",
           "power": 11,
           "rank": 2,
-          "trophies": 295,
-          "highestTrophies": 296,
+          "trophies": 321,
+          "highestTrophies": 321,
           "prestigeLevel": 0,
-          "currentWinStreak": 0,
+          "currentWinStreak": 2,
           "maxWinStreak": 10,
           "skin": {
             "id": 29001091,
@@ -55905,6 +56044,10 @@
             {
               "id": 23000989,
               "name": "LIZARD LIMBS"
+            },
+            {
+              "id": 23000990,
+              "name": "YOU BETTER RUN, YOU BETTER TAKE COVER"
             }
           ],
           "hyperCharges": [
@@ -56073,7 +56216,12 @@
               "name": "SLIP 'N SNIPE"
             }
           ],
-          "hyperCharges": [],
+          "hyperCharges": [
+            {
+              "id": 23001220,
+              "name": "SECOND WAVE"
+            }
+          ],
           "buffies": {
             "gadget": false,
             "starPower": false,
@@ -56510,7 +56658,7 @@
           }
         }
       ],
-      "timestamp": "2026-11-18T00:15:15.365381+01:00"
+      "timestamp": "2026-11-21T00:15:15.301378+01:00"
     },
     {
       "tag": "#PPYVYGRGV",
@@ -56519,26 +56667,26 @@
       "icon": {
         "id": 28000156
       },
-      "trophies": 16583,
-      "highestTrophies": 16609,
+      "trophies": 17060,
+      "highestTrophies": 17060,
       "totalPrestigeLevel": 8,
       "fame": 0,
       "fameTierName": "GLOBAL FAME I",
-      "expLevel": 75,
-      "expPoints": 30169,
+      "expLevel": 76,
+      "expPoints": 30983,
       "isQualifiedFromChampionshipChallenge": false,
-      "3vs3Victories": 1368,
+      "3vs3Victories": 1430,
       "soloVictories": 269,
       "duoVictories": 292,
       "bestRoboRumbleTime": 2,
       "bestTimeAsBigBrawler": 0,
-      "rankedSeasonId": 50,
+      "rankedSeasonId": 51,
       "rankedRank": 13,
       "rankedRankName": "MYTHIC I",
-      "rankedElo": 4680,
+      "rankedElo": 4500,
       "highestSeasonRankedRank": 13,
       "highestSeasonRankedRankName": "MYTHIC I",
-      "highestSeasonRankedElo": 4845,
+      "highestSeasonRankedElo": 4519,
       "highestAllTimeRankedRank": 13,
       "highestAllTimeRankedRankName": "MYTHIC I",
       "highestAllTimeRankedElo": 4845,
@@ -56562,6 +56710,10 @@
             {
               "id": 23000288,
               "name": "CLAY PIGEONS"
+            },
+            {
+              "id": 23000255,
+              "name": "FAST FORWARD"
             }
           ],
           "gears": [],
@@ -56666,10 +56818,15 @@
           "gadgets": [],
           "gears": [],
           "starPowers": [],
-          "hyperCharges": [],
+          "hyperCharges": [
+            {
+              "id": 23000688,
+              "name": "ROCKET BARRAGE"
+            }
+          ],
           "buffies": {
             "gadget": false,
-            "starPower": false,
+            "starPower": true,
             "hyperCharge": false
           }
         },
@@ -56870,10 +57027,10 @@
           "name": "MORTIS",
           "power": 11,
           "rank": 5,
-          "trophies": 1140,
-          "highestTrophies": 1144,
+          "trophies": 1173,
+          "highestTrophies": 1173,
           "prestigeLevel": 1,
-          "currentWinStreak": 0,
+          "currentWinStreak": 3,
           "maxWinStreak": 8,
           "skin": {
             "id": 29001014,
@@ -56906,6 +57063,30 @@
               "name": "BLOOD BOOMERANG"
             }
           ],
+          "buffies": {
+            "gadget": false,
+            "starPower": false,
+            "hyperCharge": false
+          }
+        },
+        {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 1,
+          "rank": 1,
+          "trophies": 0,
+          "highestTrophies": 0,
+          "prestigeLevel": 0,
+          "currentWinStreak": 0,
+          "maxWinStreak": 0,
+          "skin": {
+            "id": 29000019,
+            "name": "CROW"
+          },
+          "gadgets": [],
+          "gears": [],
+          "starPowers": [],
+          "hyperCharges": [],
           "buffies": {
             "gadget": false,
             "starPower": false,
@@ -57046,10 +57227,10 @@
           "name": "DARRYL",
           "power": 7,
           "rank": 3,
-          "trophies": 513,
+          "trophies": 523,
           "highestTrophies": 523,
           "prestigeLevel": 0,
-          "currentWinStreak": 0,
+          "currentWinStreak": 1,
           "maxWinStreak": 2,
           "skin": {
             "id": 29001758,
@@ -57410,6 +57591,10 @@
             {
               "id": 23000274,
               "name": "FRIENDZONER"
+            },
+            {
+              "id": 23000459,
+              "name": "ACID SPRAY"
             }
           ],
           "gears": [],
@@ -57557,8 +57742,8 @@
           "currentWinStreak": 0,
           "maxWinStreak": 0,
           "skin": {
-            "id": 29000155,
-            "name": "GALE"
+            "id": 29000386,
+            "name": "SQUEAKBUSTER GALE"
           },
           "gadgets": [],
           "gears": [],
@@ -58191,10 +58376,10 @@
           "name": "GUS",
           "power": 11,
           "rank": 5,
-          "trophies": 1281,
-          "highestTrophies": 1312,
+          "trophies": 1715,
+          "highestTrophies": 1715,
           "prestigeLevel": 1,
-          "currentWinStreak": 0,
+          "currentWinStreak": 9,
           "maxWinStreak": 15,
           "skin": {
             "id": 29000730,
@@ -58309,7 +58494,12 @@
           "gadgets": [],
           "gears": [],
           "starPowers": [],
-          "hyperCharges": [],
+          "hyperCharges": [
+            {
+              "id": 23000894,
+              "name": "SUGAR FOR ALL!"
+            }
+          ],
           "buffies": {
             "gadget": false,
             "starPower": false,
@@ -58401,6 +58591,54 @@
           "skin": {
             "id": 29000665,
             "name": "HANK"
+          },
+          "gadgets": [],
+          "gears": [],
+          "starPowers": [],
+          "hyperCharges": [],
+          "buffies": {
+            "gadget": false,
+            "starPower": false,
+            "hyperCharge": false
+          }
+        },
+        {
+          "id": 16000070,
+          "name": "CORDELIUS",
+          "power": 1,
+          "rank": 1,
+          "trophies": 0,
+          "highestTrophies": 0,
+          "prestigeLevel": 0,
+          "currentWinStreak": 0,
+          "maxWinStreak": 0,
+          "skin": {
+            "id": 29000676,
+            "name": "CORDELIUS"
+          },
+          "gadgets": [],
+          "gears": [],
+          "starPowers": [],
+          "hyperCharges": [],
+          "buffies": {
+            "gadget": false,
+            "starPower": false,
+            "hyperCharge": false
+          }
+        },
+        {
+          "id": 16000071,
+          "name": "DOUG",
+          "power": 1,
+          "rank": 1,
+          "trophies": 0,
+          "highestTrophies": 0,
+          "prestigeLevel": 0,
+          "currentWinStreak": 0,
+          "maxWinStreak": 0,
+          "skin": {
+            "id": 29001768,
+            "name": "J\u00d6RMUNGANDR DOUG"
           },
           "gadgets": [],
           "gears": [],
@@ -58759,6 +58997,30 @@
           }
         },
         {
+          "id": 16000093,
+          "name": "JAE-YONG",
+          "power": 1,
+          "rank": 1,
+          "trophies": 0,
+          "highestTrophies": 0,
+          "prestigeLevel": 0,
+          "currentWinStreak": 0,
+          "maxWinStreak": 0,
+          "skin": {
+            "id": 29001155,
+            "name": "JAE-YONG"
+          },
+          "gadgets": [],
+          "gears": [],
+          "starPowers": [],
+          "hyperCharges": [],
+          "buffies": {
+            "gadget": false,
+            "starPower": false,
+            "hyperCharge": false
+          }
+        },
+        {
           "id": 16000096,
           "name": "TRUNK",
           "power": 1,
@@ -58873,6 +59135,30 @@
           }
         },
         {
+          "id": 16000101,
+          "name": "GLOWY",
+          "power": 1,
+          "rank": 1,
+          "trophies": 0,
+          "highestTrophies": 0,
+          "prestigeLevel": 0,
+          "currentWinStreak": 0,
+          "maxWinStreak": 0,
+          "skin": {
+            "id": 29001400,
+            "name": "GLOWY"
+          },
+          "gadgets": [],
+          "gears": [],
+          "starPowers": [],
+          "hyperCharges": [],
+          "buffies": {
+            "gadget": false,
+            "starPower": false,
+            "hyperCharge": false
+          }
+        },
+        {
           "id": 16000104,
           "name": "DAMIAN",
           "power": 1,
@@ -58950,7 +59236,7 @@
           }
         }
       ],
-      "timestamp": "2026-11-18T00:15:15.365391+01:00"
+      "timestamp": "2026-11-21T00:15:15.301480+01:00"
     }
   ]
 }
