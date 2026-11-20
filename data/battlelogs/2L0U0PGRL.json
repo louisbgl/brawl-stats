@@ -448039,5 +448039,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261120T112627.000Z",
+    "event": {
+      "id": 15001268,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Reach for the Stars"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 78,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#8U2Y088GY",
+        "name": "aleksa",
+        "brawler": {
+          "id": 16000031,
+          "name": "MR. P",
+          "power": 11,
+          "trophies": 1000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8U2Y088GY",
+            "name": "aleksa",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 1000
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 0,
+              "damageDealt": 52721,
+              "healing": 7696,
+              "damageTaken": 9488,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 20
+              }
+            }
+          },
+          {
+            "tag": "#PCGQQY0G9",
+            "name": "fra1",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 830
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 47950,
+              "healing": 16040,
+              "damageTaken": 23753,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 21
+              }
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 968
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 0,
+              "damageDealt": 41619,
+              "healing": 7407,
+              "damageTaken": 11599,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 53
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CU9UPRJQL",
+            "name": "Antonio",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 904
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 10206,
+              "healing": 4000,
+              "damageTaken": 54000,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 4
+              }
+            }
+          },
+          {
+            "tag": "#2PG0R2VJ2R",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 952
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 27337,
+              "healing": 4290,
+              "damageTaken": 30690,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 6
+              }
+            }
+          },
+          {
+            "tag": "#2QQY22UJ0V",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 948
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 6,
+              "damageDealt": 7297,
+              "healing": 0,
+              "damageTaken": 57600,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 7
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
