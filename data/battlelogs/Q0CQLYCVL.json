@@ -712562,5 +712562,139 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261120T225804.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 151,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 557
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 557
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 0,
+              "damageDealt": 293731,
+              "healing": 32842,
+              "damageTaken": 33523
+            }
+          },
+          {
+            "tag": "#2LGUYR08JQ",
+            "name": "Timo prime 😎",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 357
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 75787,
+              "healing": 13057,
+              "damageTaken": 25557
+            }
+          },
+          {
+            "tag": "#2UPV9VLP0Y",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 500
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 122442,
+              "healing": 8237,
+              "damageTaken": 56940
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#29L2LYV9J9",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 429
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 5,
+              "damageDealt": 205556,
+              "healing": 8906,
+              "damageTaken": 49398
+            }
+          },
+          {
+            "tag": "#J8GGYLJVC",
+            "name": "S2MLE100LESH",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 495
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 162596,
+              "healing": 17677,
+              "damageTaken": 17677
+            }
+          },
+          {
+            "tag": "#RP8VV8UUR",
+            "name": "ferchomen18",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 11,
+              "trophies": 535
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 7,
+              "damageDealt": 142155,
+              "healing": 18924,
+              "damageTaken": 133104
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
