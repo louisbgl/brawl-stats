@@ -716828,5 +716828,139 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261121T182135.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 174,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 831
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2JLRR2LGGG",
+            "name": "moonbs",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 468
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 8,
+              "damageDealt": 80401,
+              "healing": 2450,
+              "damageTaken": 74100
+            }
+          },
+          {
+            "tag": "#90CGJ0CYL",
+            "name": "NINJA[Sr]",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 8,
+              "trophies": 38
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 175216,
+              "healing": 27432,
+              "damageTaken": 29930
+            }
+          },
+          {
+            "tag": "#PGRQRYVJV",
+            "name": "эди",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 834
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 107230,
+              "healing": 18059,
+              "damageTaken": 57458
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2V2GC0VRU9",
+            "name": "egal",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1824
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 160179,
+              "healing": 33967,
+              "damageTaken": 77843
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 831
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 286818,
+              "healing": 31369,
+              "damageTaken": 35627
+            }
+          },
+          {
+            "tag": "#2VPRCJL8V",
+            "name": "loaaiza",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1257
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 183897,
+              "healing": 27653,
+              "damageTaken": 27653
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
