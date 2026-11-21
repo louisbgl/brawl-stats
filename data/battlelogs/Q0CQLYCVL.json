@@ -712696,5 +712696,273 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261120T233606.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 210,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#22CR228JY",
+        "name": "VX | BANKIR",
+        "brawler": {
+          "id": 16000036,
+          "name": "NANI",
+          "power": 9,
+          "trophies": 640
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8L098GVCV",
+            "name": "huckleberry",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 1110
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 1,
+              "damageDealt": 229249,
+              "healing": 26977,
+              "damageTaken": 35327
+            }
+          },
+          {
+            "tag": "#22CR228JY",
+            "name": "VX | BANKIR",
+            "brawler": {
+              "id": 16000036,
+              "name": "NANI",
+              "power": 9,
+              "trophies": 640
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 257892,
+              "healing": 20234,
+              "damageTaken": 32269
+            }
+          },
+          {
+            "tag": "#LRVV2V9",
+            "name": "DARTONIAN",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 9,
+              "trophies": 471
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 5,
+              "damageDealt": 128021,
+              "healing": 29815,
+              "damageTaken": 68965
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2J9GGQJCGV",
+            "name": "Убежище",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 5,
+              "trophies": 388
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 13,
+              "damageDealt": 107522,
+              "healing": 982,
+              "damageTaken": 57322
+            }
+          },
+          {
+            "tag": "#99RQU2URG",
+            "name": "piou piou",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 568
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 167327,
+              "healing": 17023,
+              "damageTaken": 29788
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 573
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 310925,
+              "healing": 30499,
+              "damageTaken": 63049
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261120T234306.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 242,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 571
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YLLCP8V8",
+            "name": "paşa",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 2154
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 4,
+              "damageDealt": 241311,
+              "healing": 104999,
+              "damageTaken": 164299
+            }
+          },
+          {
+            "tag": "#2C8G89PVLP",
+            "name": "[БЛЭТ]Ďęмønaols",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 10,
+              "trophies": 330
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 106675,
+              "healing": 56301,
+              "damageTaken": 107301
+            }
+          },
+          {
+            "tag": "#2U9JUUQGUL",
+            "name": "kam",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 9,
+              "trophies": 294
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 11,
+              "damageDealt": 185084,
+              "healing": 5145,
+              "damageTaken": 90465
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P9JP9YPUR",
+            "name": "superbrawler",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 434
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 322442,
+              "healing": 15734,
+              "damageTaken": 35082
+            }
+          },
+          {
+            "tag": "#Q0QJ9PPG9",
+            "name": "☆(ARİF)☆",
+            "brawler": {
+              "id": 16000062,
+              "name": "BUSTER",
+              "power": 5,
+              "trophies": 344
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 10,
+              "damageDealt": 141712,
+              "healing": 4981,
+              "damageTaken": 103481
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 571
+            },
+            "stats": {
+              "kills": 12,
+              "deaths": 2,
+              "damageDealt": 490585,
+              "healing": 23663,
+              "damageTaken": 42787
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
