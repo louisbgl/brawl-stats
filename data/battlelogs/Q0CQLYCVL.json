@@ -718034,5 +718034,139 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261121T232401.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 307,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#2Y80GGRP0L",
+        "name": "𝔇𝔞𝔯𝔨𝔷𝔶𝔩",
+        "brawler": {
+          "id": 16000017,
+          "name": "TARA",
+          "power": 11,
+          "trophies": 803
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#C2JCLRC9",
+            "name": "FineBread",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 514
+            },
+            "stats": {
+              "kills": 12,
+              "deaths": 5,
+              "damageDealt": 436139,
+              "healing": 63492,
+              "damageTaken": 194981
+            }
+          },
+          {
+            "tag": "#9PQP2UL",
+            "name": "nHappymaNn",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 814
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 3,
+              "damageDealt": 347496,
+              "healing": 28263,
+              "damageTaken": 120962
+            }
+          },
+          {
+            "tag": "#28G29YVQ9",
+            "name": "QLFDOP",
+            "brawler": {
+              "id": 16000101,
+              "name": "GLOWY",
+              "power": 11,
+              "trophies": 309
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 5,
+              "damageDealt": 259705,
+              "healing": 225032,
+              "damageTaken": 200467
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 916
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 8,
+              "damageDealt": 414433,
+              "healing": 22620,
+              "damageTaken": 106980
+            }
+          },
+          {
+            "tag": "#Q0VQ828YR",
+            "name": "заводчанин",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 593
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 10,
+              "damageDealt": 343453,
+              "healing": 20652,
+              "damageTaken": 124202
+            }
+          },
+          {
+            "tag": "#2Y80GGRP0L",
+            "name": "𝔇𝔞𝔯𝔨𝔷𝔶𝔩",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 803
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 6,
+              "damageDealt": 483142,
+              "healing": 40866,
+              "damageTaken": 108501
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
