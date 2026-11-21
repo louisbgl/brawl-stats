@@ -448698,5 +448698,564 @@
         }
       ]
     }
+  },
+  {
+    "battleTime": "20261121T000210.000Z",
+    "event": {
+      "id": 15001056,
+      "mode": "deathmatch",
+      "modeId": 25,
+      "map": "Time Flies"
+    },
+    "battle": {
+      "mode": "wipeout",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 74,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#8JULLCYVJ",
+        "name": "viva i pinguini",
+        "brawler": {
+          "id": 16000012,
+          "name": "CROW",
+          "power": 11,
+          "trophies": 792
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8JULLCYVJ",
+            "name": "viva i pinguini",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 792
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 41255,
+              "healing": 728,
+              "damageTaken": 14484
+            }
+          },
+          {
+            "tag": "#GQGVUCVJP",
+            "name": "Reby08",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1186
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 40699,
+              "healing": 3455,
+              "damageTaken": 10595
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 7,
+              "trophies": 550
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 25992,
+              "healing": 4402,
+              "damageTaken": 5913
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CVG0LJCC8",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 11,
+              "trophies": 820
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 5,
+              "damageDealt": 11719,
+              "healing": 4940,
+              "damageTaken": 42940
+            }
+          },
+          {
+            "tag": "#2QP2UJ90RL",
+            "name": "Ali",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 851
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 9346,
+              "healing": 7194,
+              "damageTaken": 33594
+            }
+          },
+          {
+            "tag": "#2RRV2RR0LV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000058,
+              "name": "BONNIE",
+              "power": 11,
+              "trophies": 879
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 9927,
+              "healing": 15980,
+              "damageTaken": 31412
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T000823.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 295,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#YLJP9L0RG",
+        "name": "40辣",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 2166
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2U9GVUGUR",
+            "name": "Doktormandsen",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 854
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 331924,
+              "healing": 36469,
+              "damageTaken": 74619
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1199
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 7,
+              "damageDealt": 281416,
+              "healing": 26723,
+              "damageTaken": 95673
+            }
+          },
+          {
+            "tag": "#2GUGUYUR2",
+            "name": "Venom",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 945
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 301830,
+              "healing": 49866,
+              "damageTaken": 78066
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9RU209PQR",
+            "name": "StinkyLinky",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 2036
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 205162,
+              "healing": 74692,
+              "damageTaken": 66385
+            }
+          },
+          {
+            "tag": "#YLJP9L0RG",
+            "name": "40辣",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 2166
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 0,
+              "damageDealt": 488633,
+              "healing": 36987,
+              "damageTaken": 48913
+            }
+          },
+          {
+            "tag": "#UCRV99L",
+            "name": "Alex",
+            "brawler": {
+              "id": 16000070,
+              "name": "CORDELIUS",
+              "power": 11,
+              "trophies": 887
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 365237,
+              "healing": 36234,
+              "damageTaken": 104093
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T001442.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 323,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 10,
+          "trophies": 755
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 10,
+              "trophies": 755
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 1,
+              "damageDealt": 567836,
+              "healing": 49110,
+              "damageTaken": 64611
+            }
+          },
+          {
+            "tag": "#Y9Y22GGJ",
+            "name": "comaaa",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 1086
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 7,
+              "damageDealt": 365054,
+              "healing": 75690,
+              "damageTaken": 256453
+            }
+          },
+          {
+            "tag": "#9Q0CYQRU2",
+            "name": "chiara",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 977
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 495717,
+              "healing": 75332,
+              "damageTaken": 133481
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GUGUYUR2",
+            "name": "Venom",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 940
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 544010,
+              "healing": 32862,
+              "damageTaken": 48214
+            }
+          },
+          {
+            "tag": "#8QG9CLP",
+            "name": "@DEADPOOL_71",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 951
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 9,
+              "damageDealt": 368949,
+              "healing": 66690,
+              "damageTaken": 275790
+            }
+          },
+          {
+            "tag": "#2U9GVUGUR",
+            "name": "Doktormandsen",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 849
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 5,
+              "damageDealt": 440200,
+              "healing": 59600,
+              "damageTaken": 120500
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T002827.000Z",
+    "event": {
+      "id": 15000022,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Hideout"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 75,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000046,
+          "name": "BELLE",
+          "power": 11,
+          "trophies": 1016
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#J8VVUJ20",
+            "name": "the doctor",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 27657,
+              "healing": 12070,
+              "damageTaken": 19070,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 7
+              }
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1155
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 28136,
+              "healing": 2361,
+              "damageTaken": 4919,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 4
+              }
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000046,
+              "name": "BELLE",
+              "power": 11,
+              "trophies": 1016
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 29580,
+              "healing": 9062,
+              "damageTaken": 17522,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 10
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#82V0R9YUV",
+            "name": "Riccard",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 11,
+              "trophies": 1011
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 17767,
+              "healing": 9360,
+              "damageTaken": 33360,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 3
+              }
+            }
+          },
+          {
+            "tag": "#GYUYV0PLG",
+            "name": "Abdul",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 6894,
+              "healing": 5590,
+              "damageTaken": 24713,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#PQCV9GVJY",
+            "name": "YOU DEAD ︻デ═一💀",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1303
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 16850,
+              "healing": 9300,
+              "damageTaken": 27300,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 2
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
