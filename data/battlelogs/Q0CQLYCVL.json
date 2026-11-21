@@ -713994,5 +713994,2169 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261121T113251.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 162,
+      "trophyChange": 19,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 637
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 637
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 289203,
+              "healing": 6607,
+              "damageTaken": 14547
+            }
+          },
+          {
+            "tag": "#2ULJPYY8Y",
+            "name": "ahha",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 756
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 173620,
+              "healing": 55217,
+              "damageTaken": 50566
+            }
+          },
+          {
+            "tag": "#PCCY9RGU2",
+            "name": "Wollewollemann",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 11,
+              "trophies": 1003
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 142081,
+              "healing": 7765,
+              "damageTaken": 29607
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Y8YLYJYY8",
+            "name": "Shelven",
+            "brawler": {
+              "id": 16000081,
+              "name": "LILY",
+              "power": 11,
+              "trophies": 1616
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 219097,
+              "healing": 50389,
+              "damageTaken": 78589
+            }
+          },
+          {
+            "tag": "#PQYGPC8JV",
+            "name": "Гражданин Civic",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1332
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 6,
+              "damageDealt": 118892,
+              "healing": 27219,
+              "damageTaken": 86919
+            }
+          },
+          {
+            "tag": "#2VJCG9UC9",
+            "name": "ShahrukSMZ",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 11,
+              "trophies": 367
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 121236,
+              "healing": 28572,
+              "damageTaken": 65818
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T113637.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 47,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2QPUGGP9LL",
+        "name": "Kiss or Slap ?",
+        "brawler": {
+          "id": 16000082,
+          "name": "BERRY",
+          "power": 11,
+          "trophies": 796
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2G2VJGLQQQ",
+            "name": "ROST",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 509
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 10733,
+              "healing": 5938,
+              "damageTaken": 14000,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#UJR9PL02",
+            "name": "pippilotta",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 9,
+              "trophies": 487
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 14097,
+              "healing": 0,
+              "damageTaken": 18588,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2Q2LYLC0QC",
+            "name": "Liverpool ²",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 548
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 9920,
+              "healing": 4290,
+              "damageTaken": 17490,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QPUGGP9LL",
+            "name": "Kiss or Slap ?",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 796
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 15822,
+              "healing": 5395,
+              "damageTaken": 7217,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 44140
+              }
+            }
+          },
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 489
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 8660,
+              "healing": 7763,
+              "damageTaken": 17803,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 30240
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 656
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 25596,
+              "healing": 2730,
+              "damageTaken": 9730,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 5620
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T113803.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 56,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#2Y2QQCYQ20",
+        "name": "manon.chb7",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 501
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 501
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 31127,
+              "healing": 18207,
+              "damageTaken": 29756,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 46872
+              }
+            }
+          },
+          {
+            "tag": "#2QPUGGP9LL",
+            "name": "Kiss or Slap ?",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 806
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 16760,
+              "healing": 8406,
+              "damageTaken": 19364,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 21120
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 671
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 20479,
+              "healing": 5460,
+              "damageTaken": 13376,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 12008
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#PL2U09CVJ",
+            "name": "ObMoPoЧнЫй_ГУМО",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 669
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 27138,
+              "healing": 4056,
+              "damageTaken": 24856,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 15572
+              }
+            }
+          },
+          {
+            "tag": "#2CYGRQYL2C",
+            "name": "CB|Nihad",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1526
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 22470,
+              "healing": 8360,
+              "damageTaken": 32360,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2G9GJ2PUVP",
+            "name": "натурал в пабге",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 918
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 12888,
+              "healing": 3622,
+              "damageTaken": 11150,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 18000
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T113906.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 37,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#2Y2QQCYQ20",
+        "name": "manon.chb7",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 514
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P8YUJ228G",
+            "name": "<<Dominik0>>",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 1350
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 6595,
+              "healing": 1320,
+              "damageTaken": 1320,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 16200
+              }
+            }
+          },
+          {
+            "tag": "#802QL2UY00",
+            "name": "Warnox",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 803
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 15999,
+              "healing": 0,
+              "damageTaken": 0,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 5504
+              }
+            }
+          },
+          {
+            "tag": "#2QJ89JJP2G",
+            "name": "STR |G°@°b",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 7,
+              "trophies": 400
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 1088,
+              "healing": 3244,
+              "damageTaken": 3960,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 32096
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 514
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 0,
+              "healing": 1800,
+              "damageTaken": 12743,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 39090
+              }
+            }
+          },
+          {
+            "tag": "#2QPUGGP9LL",
+            "name": "Kiss or Slap ?",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 817
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 5280,
+              "healing": 10436,
+              "damageTaken": 4199,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 25150
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 687
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 0,
+              "healing": 5400,
+              "damageTaken": 6740,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 11760
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T114043.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 75,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#2QPUGGP9LL",
+        "name": "Kiss or Slap ?",
+        "brawler": {
+          "id": 16000082,
+          "name": "BERRY",
+          "power": 11,
+          "trophies": 829
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2J9QY9P2CP",
+            "name": "Rıza Baba 31 57",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1582
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 19264,
+              "healing": 3318,
+              "damageTaken": 15718,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 8829
+              }
+            }
+          },
+          {
+            "tag": "#9JU220YYY",
+            "name": "愛 | 𝘭𝘦𝘪 🤍",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 9,
+              "trophies": 639
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 2,
+              "damageDealt": 34466,
+              "healing": 1356,
+              "damageTaken": 20096,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 11700
+              }
+            }
+          },
+          {
+            "tag": "#JQYGY9CGY",
+            "name": "Skeleurex√",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 1000
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 34660,
+              "healing": 6085,
+              "damageTaken": 18059,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 29100
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 528
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 22455,
+              "healing": 14211,
+              "damageTaken": 38391,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 16200
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 704
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 20744,
+              "healing": 3640,
+              "damageTaken": 28240,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 19446
+              }
+            }
+          },
+          {
+            "tag": "#2QPUGGP9LL",
+            "name": "Kiss or Slap ?",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 829
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 10674,
+              "healing": 11739,
+              "damageTaken": 21759,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 44354
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T114343.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 76,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#2Y2QQCYQ20",
+        "name": "manon.chb7",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 543
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 788
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 37392,
+              "healing": 6990,
+              "damageTaken": 16226,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 23816
+              }
+            }
+          },
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 543
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 20330,
+              "healing": 11513,
+              "damageTaken": 33713,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 46440
+              }
+            }
+          },
+          {
+            "tag": "#YPGQCYQY9",
+            "name": "pikaspikas🤩",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1269
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 28102,
+              "healing": 3340,
+              "damageTaken": 21340,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 9744
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P90LPUUPL",
+            "name": "Tedders M8",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 8,
+              "trophies": 307
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 16140,
+              "healing": 4902,
+              "damageTaken": 23772,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 4080
+              }
+            }
+          },
+          {
+            "tag": "#2V0CQ9LL8Y",
+            "name": "Surge",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2101
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 32814,
+              "healing": 22052,
+              "damageTaken": 46052,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2CRRJ888QG",
+            "name": "ACE🤪",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1689
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 22325,
+              "healing": 858,
+              "damageTaken": 16000,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 30650
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T114514.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 63,
+      "trophyChange": 14,
+      "starPlayer": {
+        "tag": "#2Y2QQCYQ20",
+        "name": "manon.chb7",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 559
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 559
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 0,
+              "healing": 2304,
+              "damageTaken": 19057,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 39600
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 801
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 31736,
+              "healing": 1254,
+              "damageTaken": 9558,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 10000
+              }
+            }
+          },
+          {
+            "tag": "#YVLUQ8888",
+            "name": "CAPTAIN",
+            "brawler": {
+              "id": 16000083,
+              "name": "CLANCY",
+              "power": 11,
+              "trophies": 697
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 7000,
+              "healing": 3378,
+              "damageTaken": 5583,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 26400
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8QU8209GV",
+            "name": "ail",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 10,
+              "trophies": 1008
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 10003,
+              "healing": 5308,
+              "damageTaken": 7740,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 16302
+              }
+            }
+          },
+          {
+            "tag": "#R9LLRGUYV",
+            "name": "Leila",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 9,
+              "trophies": 550
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 12594,
+              "healing": 4067,
+              "damageTaken": 17894,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 28194
+              }
+            }
+          },
+          {
+            "tag": "#P99822G98",
+            "name": "esila",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 681
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 11601,
+              "healing": 6448,
+              "damageTaken": 13102,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 6840
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T114646.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 61,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#2Y2QQCYQ20",
+        "name": "manon.chb7",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 576
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GG282URRQ",
+            "name": "Davidos_XD",
+            "brawler": {
+              "id": 16000032,
+              "name": "MAX",
+              "power": 7,
+              "trophies": 860
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 13858,
+              "healing": 1456,
+              "damageTaken": 12240,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 2560
+              }
+            }
+          },
+          {
+            "tag": "#L2QLRRRC8",
+            "name": "🌑TSUKASA🌕🇬🇦",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 517
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 21012,
+              "healing": 24745,
+              "damageTaken": 30115,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2J9RCV9PUL",
+            "name": "малая",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 1,
+              "trophies": 291
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 5420,
+              "healing": 572,
+              "damageTaken": 13772,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8R89QLL0R",
+            "name": "winterfresh",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 576
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 24440,
+              "healing": 2240,
+              "damageTaken": 17262,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 16096
+              }
+            }
+          },
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 576
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 2160,
+              "healing": 4830,
+              "damageTaken": 18532,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 45904
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 815
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 29527,
+              "healing": 4276,
+              "damageTaken": 4496,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 10000
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T114757.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 49,
+      "trophyChange": 16,
+      "starPlayer": {
+        "tag": "#8R89QLL0R",
+        "name": "winterfresh",
+        "brawler": {
+          "id": 16000008,
+          "name": "NITA",
+          "power": 11,
+          "trophies": 592
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 594
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 2340,
+              "healing": 982,
+              "damageTaken": 15782,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 30240
+              }
+            }
+          },
+          {
+            "tag": "#8R89QLL0R",
+            "name": "winterfresh",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 592
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 20240,
+              "healing": 12592,
+              "damageTaken": 18868,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 44760
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 830
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 27665,
+              "healing": 6704,
+              "damageTaken": 8904,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 5000
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JU2P9J8LJ",
+            "name": "21.EMRE",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 9,
+              "trophies": 527
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 19946,
+              "healing": 0,
+              "damageTaken": 19800,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#JV29G8GU2",
+            "name": "rojat baba VPN",
+            "brawler": {
+              "id": 16000105,
+              "name": "STARR NOVA",
+              "power": 11,
+              "trophies": 1161
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 10868,
+              "healing": 7150,
+              "damageTaken": 19445,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 16132
+              }
+            }
+          },
+          {
+            "tag": "#2QC029UR0L",
+            "name": "licht",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 2046
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 12740,
+              "healing": 2340,
+              "damageTaken": 11000,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T115002.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 91,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#2VRRGUU2Y",
+        "name": "beast boy",
+        "brawler": {
+          "id": 16000001,
+          "name": "COLT",
+          "power": 11,
+          "trophies": 549
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 613
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 10904,
+              "healing": 10257,
+              "damageTaken": 40104,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 37800
+              }
+            }
+          },
+          {
+            "tag": "#8R89QLL0R",
+            "name": "winterfresh",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 604
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 41184,
+              "healing": 8955,
+              "damageTaken": 40455,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 32200
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 846
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 46092,
+              "healing": 1980,
+              "damageTaken": 19980,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 10000
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2VRRGUU2Y",
+            "name": "beast boy",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 549
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 33356,
+              "healing": 4836,
+              "damageTaken": 23436,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 53360
+              }
+            }
+          },
+          {
+            "tag": "#P2P9JC0G0",
+            "name": "pigDanik",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 1568
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 33695,
+              "healing": 12000,
+              "damageTaken": 35384,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 25618
+              }
+            }
+          },
+          {
+            "tag": "#8RPCCU9YQ",
+            "name": "Willocks",
+            "brawler": {
+              "id": 16000052,
+              "name": "MEG",
+              "power": 11,
+              "trophies": 905
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 33488,
+              "healing": 4960,
+              "damageTaken": 39360,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T115112.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 37,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#2Y2QQCYQ20",
+        "name": "manon.chb7",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 633
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 633
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 14040,
+              "healing": 5949,
+              "damageTaken": 9577,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 44800
+              }
+            }
+          },
+          {
+            "tag": "#8R89QLL0R",
+            "name": "winterfresh",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 617
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 22822,
+              "healing": 2184,
+              "damageTaken": 13292,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 31200
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 863
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 16800,
+              "healing": 4680,
+              "damageTaken": 10928,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#JCYQYGVU",
+            "name": "ꫂꪋꪦꪯ",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 11,
+              "trophies": 691
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 12600,
+              "healing": 21532,
+              "damageTaken": 16240,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 17600
+              }
+            }
+          },
+          {
+            "tag": "#YPPC0Q98J",
+            "name": "Code:Ansar",
+            "brawler": {
+              "id": 16000094,
+              "name": "KAZE",
+              "power": 11,
+              "trophies": 944
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 12345,
+              "healing": 7462,
+              "damageTaken": 27102,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 14600
+              }
+            }
+          },
+          {
+            "tag": "#2LJQ0VVP2R",
+            "name": "BWS | Trackie",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 7,
+              "trophies": 1039
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 8852,
+              "healing": 6920,
+              "damageTaken": 10320,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 7552
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T115316.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 99,
+      "trophyChange": -4,
+      "starPlayer": {
+        "tag": "#8QJJYG99",
+        "name": "NICKY悲STU",
+        "brawler": {
+          "id": 16000027,
+          "name": "8-BIT",
+          "power": 11,
+          "trophies": 793
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 653
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 6,
+              "damageDealt": 25142,
+              "healing": 18461,
+              "damageTaken": 62861,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#8R89QLL0R",
+            "name": "winterfresh",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 11,
+              "trophies": 631
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 5,
+              "damageDealt": 27155,
+              "healing": 2016,
+              "damageTaken": 44016,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 8352
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 881
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 36021,
+              "healing": 10920,
+              "damageTaken": 26958,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 18050
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QVP2GLLV",
+            "name": "aubergine épicé",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 10,
+              "trophies": 674
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 21744,
+              "healing": 13610,
+              "damageTaken": 40350,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 11128
+              }
+            }
+          },
+          {
+            "tag": "#J0LCP9Y",
+            "name": "Akeno Senpai",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 508
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 44468,
+              "healing": 3625,
+              "damageTaken": 14785,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 28944
+              }
+            }
+          },
+          {
+            "tag": "#8QJJYG99",
+            "name": "NICKY悲STU",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 793
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 2,
+              "damageDealt": 67623,
+              "healing": 6668,
+              "damageTaken": 33183,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 39928
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T115536.000Z",
+    "event": {
+      "id": 15001170,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Quintillion"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 72,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#R92QLQ8PL",
+        "name": "хасан дзюдо",
+        "brawler": {
+          "id": 16000075,
+          "name": "MICO",
+          "power": 11,
+          "trophies": 638
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Y2QQCYQ20",
+            "name": "manon.chb7",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 650
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 4320,
+              "healing": 5628,
+              "damageTaken": 35228,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 17280
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 710
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 30680,
+              "healing": 5084,
+              "damageTaken": 15560,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2QVJLVY22",
+            "name": "YT|@AquaShAdoW",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 1922
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 1,
+              "damageDealt": 33640,
+              "healing": 0,
+              "damageTaken": 12714,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 22880
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R92QLQ8PL",
+            "name": "хасан дзюдо",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 638
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 9690,
+              "healing": 1080,
+              "damageTaken": 20840,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 58200
+              }
+            }
+          },
+          {
+            "tag": "#2YU8R9QUYP",
+            "name": "3MD1",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 675
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 42372,
+              "healing": 0,
+              "damageTaken": 20400,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 10360
+              }
+            }
+          },
+          {
+            "tag": "#YCVV9Y2QV",
+            "name": "nurmukhan",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 271
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 11440,
+              "healing": 3640,
+              "damageTaken": 27400,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 11440
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261121T115928.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 195,
+      "trophyChange": 24,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000019,
+          "name": "PENNY",
+          "power": 11,
+          "trophies": 722
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2GQPVVL0Y",
+            "name": "LUDI|ŠONE",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 575
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 183317,
+              "healing": 16035,
+              "damageTaken": 32585
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 722
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 368646,
+              "healing": 25413,
+              "damageTaken": 36963
+            }
+          },
+          {
+            "tag": "#202P8VLPJU",
+            "name": "JalaBrat",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 906
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 6,
+              "damageDealt": 109014,
+              "healing": 2865,
+              "damageTaken": 48315
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YG9QQYRYG",
+            "name": "ASEEL🇵🇸",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 448
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 113298,
+              "healing": 105677,
+              "damageTaken": 125587
+            }
+          },
+          {
+            "tag": "#82U00LYQ8",
+            "name": "Wass",
+            "brawler": {
+              "id": 16000067,
+              "name": "WILLOW",
+              "power": 11,
+              "trophies": 1178
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 161211,
+              "healing": 7551,
+              "damageTaken": 53079
+            }
+          },
+          {
+            "tag": "#2Y909URCPL",
+            "name": "hrb 533441",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 2237
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 3,
+              "damageDealt": 183812,
+              "healing": 5461,
+              "damageTaken": 78590
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
