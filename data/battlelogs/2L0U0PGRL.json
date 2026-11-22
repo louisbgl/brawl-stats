@@ -457500,5 +457500,438 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261122T111245.000Z",
+    "event": {
+      "id": 15000959,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Flying Fantasies"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 1,
+      "trophyChange": 14,
+      "players": [
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000111,
+            "name": "THUNDER FROGS",
+            "power": 11,
+            "trophies": 342
+          }
+        },
+        {
+          "tag": "#2J80CPVQGJ",
+          "name": "İMP|Kerem",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1794
+          }
+        },
+        {
+          "tag": "#RYVGVPQYQ",
+          "name": "bsdeuce",
+          "brawler": {
+            "id": 16000026,
+            "name": "BIBI",
+            "power": 11,
+            "trophies": 350
+          }
+        },
+        {
+          "tag": "#2C8P9CVJVC",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000051,
+            "name": "ASH",
+            "power": 10,
+            "trophies": 784
+          }
+        },
+        {
+          "tag": "#2U89GG09RJ",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 8,
+            "trophies": 868
+          }
+        },
+        {
+          "tag": "#2J8UVVU2RY",
+          "name": "MAK Aura",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 9,
+            "trophies": 869
+          }
+        },
+        {
+          "tag": "#2JLGP8Q0Q0",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000023,
+            "name": "LEON",
+            "power": 11,
+            "trophies": 866
+          }
+        },
+        {
+          "tag": "#229Y2VQ9PP",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000017,
+            "name": "TARA",
+            "power": 11,
+            "trophies": 815
+          }
+        },
+        {
+          "tag": "#2JUYYG2G88",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000030,
+            "name": "EMZ",
+            "power": 10,
+            "trophies": 808
+          }
+        },
+        {
+          "tag": "#2RCVPQL8JQ",
+          "name": "clsoylslltll",
+          "brawler": {
+            "id": 16000008,
+            "name": "NITA",
+            "power": 11,
+            "trophies": 864
+          }
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20261122T111453.000Z",
+    "event": {
+      "id": 15001382,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Sectioned"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 65,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#PYP8YJJCQ",
+        "name": "ImWarfare",
+        "brawler": {
+          "id": 16000031,
+          "name": "MR. P",
+          "power": 11,
+          "trophies": 1039
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#U8UGJJUV",
+            "name": "mister SS",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 589
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 12430,
+              "healing": 2028,
+              "damageTaken": 22828,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 4
+              }
+            }
+          },
+          {
+            "tag": "#2LU8JU8L0J",
+            "name": "Maleys",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 9,
+              "trophies": 419
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 8780,
+              "healing": 0,
+              "damageTaken": 16200,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 4
+              }
+            }
+          },
+          {
+            "tag": "#PQLYRL9GY",
+            "name": "velvet",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 286
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 12288,
+              "healing": 7192,
+              "damageTaken": 22966,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 11
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 356
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 15378,
+              "healing": 5327,
+              "damageTaken": 19327,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 13
+              }
+            }
+          },
+          {
+            "tag": "#2R988UJC8",
+            "name": "raph",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 1270
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 21676,
+              "healing": 4495,
+              "damageTaken": 11295,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 35
+              }
+            }
+          },
+          {
+            "tag": "#PYP8YJJCQ",
+            "name": "ImWarfare",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 1039
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 24940,
+              "healing": 2876,
+              "damageTaken": 2876,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 43
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261122T111803.000Z",
+    "event": {
+      "id": 15001379,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Passing Through"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#2L0U0PGRL",
+        "name": "JOEL | FREEED🐸",
+        "brawler": {
+          "id": 16000111,
+          "name": "THUNDER FROGS",
+          "power": 11,
+          "trophies": 368
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2J8JUY980",
+            "name": "Rodrigo",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 361
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 42569,
+              "healing": 26868,
+              "damageTaken": 37176,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2UCQ8V99VG",
+            "name": "киса",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 2060
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 17555,
+              "healing": 21564,
+              "damageTaken": 61564,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#8P0PC9PCG",
+            "name": "keva11",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 9,
+              "trophies": 566
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 5,
+              "damageDealt": 38363,
+              "healing": 11319,
+              "damageTaken": 54636,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 368
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 62917,
+              "healing": 28608,
+              "damageTaken": 36804,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#YPJY2UGLY",
+            "name": "被 | weakness ャ",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 313
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 54740,
+              "healing": 9724,
+              "damageTaken": 36304,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2YVU9YLG9P",
+            "name": "hmb/mink",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 8,
+              "trophies": 428
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 35719,
+              "healing": 12920,
+              "damageTaken": 25379,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
