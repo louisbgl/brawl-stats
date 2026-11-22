@@ -719106,5 +719106,801 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261122T114509.000Z",
+    "event": {
+      "id": 15001064,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Knockout Grounds"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 305,
+      "trophyChange": -5,
+      "starPlayer": {
+        "tag": "#G0UCG9CL0",
+        "name": "CODE :MZU🔥🔥",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 933
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#820PUUULC8",
+            "name": "ÖFKELİ RICO",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 999
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 4,
+              "damageDealt": 521268,
+              "healing": 35833,
+              "damageTaken": 91082
+            }
+          },
+          {
+            "tag": "#G0UCG9CL0",
+            "name": "CODE :MZU🔥🔥",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 933
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 1,
+              "damageDealt": 379960,
+              "healing": 33165,
+              "damageTaken": 48649
+            }
+          },
+          {
+            "tag": "#RY8LR200",
+            "name": "LEON",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 5,
+              "trophies": 240
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 10,
+              "damageDealt": 140887,
+              "healing": 8585,
+              "damageTaken": 66985
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 877
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 4,
+              "damageDealt": 258599,
+              "healing": 33230,
+              "damageTaken": 78030
+            }
+          },
+          {
+            "tag": "#JRG9J92QQ",
+            "name": "cacamobil",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 943
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 439699,
+              "healing": 27091,
+              "damageTaken": 71491
+            }
+          },
+          {
+            "tag": "#9R2CRUVR2",
+            "name": "kai angel",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 9,
+              "trophies": 209
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 8,
+              "damageDealt": 153494,
+              "healing": 37639,
+              "damageTaken": 119989
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261122T114726.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 77,
+      "starPlayer": {
+        "tag": "#G0GU90GPR",
+        "name": "🇹🇷TÜRKİYE🇹🇷",
+        "brawler": {
+          "id": 16000085,
+          "name": "KENJI",
+          "power": 11,
+          "trophies": 1185
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 0,
+              "damageDealt": 38721,
+              "healing": 5956,
+              "damageTaken": 6395,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 27
+              }
+            }
+          },
+          {
+            "tag": "#G0GU90GPR",
+            "name": "🇹🇷TÜRKİYE🇹🇷",
+            "brawler": {
+              "id": 16000085,
+              "name": "KENJI",
+              "power": 11,
+              "trophies": 1185
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 3,
+              "damageDealt": 46500,
+              "healing": 18751,
+              "damageTaken": 47677,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 5
+              }
+            }
+          },
+          {
+            "tag": "#92CQV8Q8Y",
+            "name": "makatayyy",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 466
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 19657,
+              "healing": 10390,
+              "damageTaken": 26010,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 46
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8QCCCYPY",
+            "name": "CHUS",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1134
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 6,
+              "damageDealt": 34320,
+              "healing": 858,
+              "damageTaken": 40458,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#98QC8GGV0",
+            "name": "♠️Navi♠️",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 15382,
+              "healing": 4890,
+              "damageTaken": 28650,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#Q88JJLGVP",
+            "name": "ice mortis🧊",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 11,
+              "trophies": 654
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 30380,
+              "healing": 7770,
+              "damageTaken": 35770,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261122T115010.000Z",
+    "event": {
+      "id": 15001336,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Alchemy"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 101,
+      "starPlayer": {
+        "tag": "#Y0RYVQC90",
+        "name": "TT:bartosz",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 601
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Y0QV8VC0Q",
+            "name": "Godzilla",
+            "brawler": {
+              "id": 16000103,
+              "name": "NAJIA",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 23847,
+              "healing": 9724,
+              "damageTaken": 25828,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 7
+              }
+            }
+          },
+          {
+            "tag": "#Y0RYVQC90",
+            "name": "TT:bartosz",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 601
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 27298,
+              "healing": 9160,
+              "damageTaken": 9160,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 8
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1054
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 30340,
+              "healing": 14320,
+              "damageTaken": 40640,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 6
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2LC2RJC29Y",
+            "name": "mister.x.",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1012
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 22300,
+              "healing": 15365,
+              "damageTaken": 21365,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#YCVY0YLVR",
+            "name": "анастейша",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 1035
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 25100,
+              "healing": 7400,
+              "damageTaken": 25400,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 8
+              }
+            }
+          },
+          {
+            "tag": "#2VURP2PUP9",
+            "name": "GOZI_1414💤",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 554
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 28228,
+              "healing": 6720,
+              "damageTaken": 34720,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261122T115140.000Z",
+    "event": {
+      "id": 15000788,
+      "mode": "gunGame",
+      "modeId": 39,
+      "map": "Scorched Stone"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 1,
+      "players": [
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000011,
+            "name": "MORTIS",
+            "power": 11,
+            "trophies": 149
+          }
+        },
+        {
+          "tag": "#2U990GRLP9",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000017,
+            "name": "TARA",
+            "power": 9,
+            "trophies": 1020
+          }
+        },
+        {
+          "tag": "#2VPP0Q2R0G",
+          "name": "Gla2tap",
+          "brawler": {
+            "id": 16000017,
+            "name": "TARA",
+            "power": 9,
+            "trophies": 1023
+          }
+        },
+        {
+          "tag": "#VJ8YLGCC2",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000036,
+            "name": "NANI",
+            "power": 9,
+            "trophies": 1030
+          }
+        },
+        {
+          "tag": "#2CYR8C2YLV",
+          "name": "los 67",
+          "brawler": {
+            "id": 16000036,
+            "name": "NANI",
+            "power": 9,
+            "trophies": 997
+          }
+        },
+        {
+          "tag": "#2J8VR0RQ8R",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000036,
+            "name": "NANI",
+            "power": 9,
+            "trophies": 1018
+          }
+        },
+        {
+          "tag": "#2CRGJR9R9R",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 9,
+            "trophies": 980
+          }
+        },
+        {
+          "tag": "#29L2LYV9J9",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 9,
+            "trophies": 1008
+          }
+        },
+        {
+          "tag": "#2JJ9UU0QUC",
+          "name": "ng3rshu ter",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 9,
+            "trophies": 1022
+          }
+        },
+        {
+          "tag": "#2PV2QCYY22",
+          "name": "tg:surgeoffline",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 9,
+            "trophies": 978
+          }
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20261122T115329.000Z",
+    "event": {
+      "id": 15000788,
+      "mode": "gunGame",
+      "modeId": 39,
+      "map": "Scorched Stone"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 1,
+      "players": [
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000011,
+            "name": "MORTIS",
+            "power": 11,
+            "trophies": 149
+          }
+        },
+        {
+          "tag": "#2JJ92GQ9CY",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000024,
+            "name": "ROSA",
+            "power": 9,
+            "trophies": 1012
+          }
+        },
+        {
+          "tag": "#29YPQULGP8",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000017,
+            "name": "TARA",
+            "power": 9,
+            "trophies": 1014
+          }
+        },
+        {
+          "tag": "#VY0LJJRJ2",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000017,
+            "name": "TARA",
+            "power": 9,
+            "trophies": 1025
+          }
+        },
+        {
+          "tag": "#2CP8RYU9GV",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000017,
+            "name": "TARA",
+            "power": 9,
+            "trophies": 1015
+          }
+        },
+        {
+          "tag": "#URVCQY9L2",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000036,
+            "name": "NANI",
+            "power": 9,
+            "trophies": 1026
+          }
+        },
+        {
+          "tag": "#2V22CUYYJY",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000036,
+            "name": "NANI",
+            "power": 9,
+            "trophies": 1022
+          }
+        },
+        {
+          "tag": "#2U0YQYJ8CJ",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000036,
+            "name": "NANI",
+            "power": 9,
+            "trophies": 986
+          }
+        },
+        {
+          "tag": "#2U82GVJ8L2",
+          "name": "aysun",
+          "brawler": {
+            "id": 16000036,
+            "name": "NANI",
+            "power": 9,
+            "trophies": 1014
+          }
+        },
+        {
+          "tag": "#2CJ2JVVQJ8",
+          "name": "Robinay",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 9,
+            "trophies": 1016
+          }
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20261122T115537.000Z",
+    "event": {
+      "id": 15000788,
+      "mode": "gunGame",
+      "modeId": 39,
+      "map": "Scorched Stone"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 1,
+      "players": [
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000011,
+            "name": "MORTIS",
+            "power": 11,
+            "trophies": 149
+          }
+        },
+        {
+          "tag": "#GU9J8GL0R",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000011,
+            "name": "MORTIS",
+            "power": 9,
+            "trophies": 1024
+          }
+        },
+        {
+          "tag": "#2R9G89P890",
+          "name": "Jon",
+          "brawler": {
+            "id": 16000024,
+            "name": "ROSA",
+            "power": 9,
+            "trophies": 1012
+          }
+        },
+        {
+          "tag": "#28VQLU8G9L",
+          "name": "only shelly",
+          "brawler": {
+            "id": 16000024,
+            "name": "ROSA",
+            "power": 9,
+            "trophies": 1030
+          }
+        },
+        {
+          "tag": "#2G0YUPPLJV",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000018,
+            "name": "DARRYL",
+            "power": 9,
+            "trophies": 1025
+          }
+        },
+        {
+          "tag": "#2JJCR9RJ92",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000036,
+            "name": "NANI",
+            "power": 9,
+            "trophies": 1004
+          }
+        },
+        {
+          "tag": "#2UY0JGJYYU",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000036,
+            "name": "NANI",
+            "power": 9,
+            "trophies": 1015
+          }
+        },
+        {
+          "tag": "#UL09UGUV0",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000036,
+            "name": "NANI",
+            "power": 9,
+            "trophies": 1021
+          }
+        },
+        {
+          "tag": "#2C2ULG0PVV",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 9,
+            "trophies": 993
+          }
+        },
+        {
+          "tag": "#2QLR2JCRR0",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 9,
+            "trophies": 1017
+          }
+        }
+      ]
+    }
   }
 ]
