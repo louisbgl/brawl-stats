@@ -726716,5 +726716,319 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261123T092538.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 91,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000075,
+          "name": "MICO",
+          "power": 11,
+          "trophies": 1011
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 1011
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 0,
+              "healing": 1000,
+              "damageTaken": 36000,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 47424
+              }
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 46630,
+              "healing": 5741,
+              "damageTaken": 20141,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 23100
+              }
+            }
+          },
+          {
+            "tag": "#GYLG9C9CP",
+            "name": "🐊scarus🐊",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1016
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 4,
+              "damageDealt": 59074,
+              "healing": 2274,
+              "damageTaken": 35850,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 9476
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P9Q0JV8YP",
+            "name": "هركبك",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1023
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 33094,
+              "healing": 13337,
+              "damageTaken": 46108,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 1080
+              }
+            }
+          },
+          {
+            "tag": "#89UUJCYCV",
+            "name": "ramashow",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 2003
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 36749,
+              "healing": 1560,
+              "damageTaken": 24748,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 8790
+              }
+            }
+          },
+          {
+            "tag": "#RGJP2JGUL",
+            "name": "Timobzy",
+            "brawler": {
+              "id": 16000059,
+              "name": "OTIS",
+              "power": 11,
+              "trophies": 274
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 22148,
+              "healing": 4680,
+              "damageTaken": 34848,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 29750
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261123T092757.000Z",
+    "event": {
+      "id": 15000022,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Hideout"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 55,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000110,
+          "name": "VINCE",
+          "power": 11,
+          "trophies": 709
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#L8Y8Y2UR",
+            "name": "AlexDuus14",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 637
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 19952,
+              "healing": 2340,
+              "damageTaken": 26340,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2VRQV2V2PU",
+            "name": "KLIRER",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1010
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 10138,
+              "healing": 4776,
+              "damageTaken": 34376,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 3
+              }
+            }
+          },
+          {
+            "tag": "#2UVJC9LCJ8",
+            "name": "Z01A",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1271
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 8620,
+              "healing": 6122,
+              "damageTaken": 21722,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 2011
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 34656,
+              "healing": 16504,
+              "damageTaken": 18444,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 4
+              }
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 709
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 28792,
+              "healing": 2320,
+              "damageTaken": 4560,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 9
+              }
+            }
+          },
+          {
+            "tag": "#8LVGGVQJ0",
+            "name": "This is lifes🐙",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 2005
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 18990,
+              "healing": 2496,
+              "damageTaken": 15706,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 8
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
