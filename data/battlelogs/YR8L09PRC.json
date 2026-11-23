@@ -520942,5 +520942,319 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261123T202604.000Z",
+    "event": {
+      "id": 15000118,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Pinball Dreams"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 89,
+      "starPlayer": {
+        "tag": "#YVY2Q2YQ8",
+        "name": "Atiborri",
+        "brawler": {
+          "id": 16000057,
+          "name": "JANET",
+          "power": 11,
+          "trophies": 394
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L8J9RRQR8",
+            "name": "Fede0101",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2020
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 9499,
+              "healing": 11260,
+              "damageTaken": 52783,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2U0YUUY8Q9",
+            "name": "Slowszvx",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 25601,
+              "healing": 1300,
+              "damageTaken": 35240,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#PU09RLUL0",
+            "name": "Talip",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1031
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 53530,
+              "healing": 4680,
+              "damageTaken": 43748,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 691
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 34443,
+              "healing": 2730,
+              "damageTaken": 17790,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 2010
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 45415,
+              "healing": 24698,
+              "damageTaken": 39645,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#YVY2Q2YQ8",
+            "name": "Atiborri",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 394
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 2,
+              "damageDealt": 51913,
+              "healing": 13277,
+              "damageTaken": 31195,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261123T202926.000Z",
+    "event": {
+      "id": 15000293,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Parallel Plays"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 108,
+      "starPlayer": {
+        "tag": "#PRGUQVVPV",
+        "name": "erdi",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 1000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VRG29Y8LR",
+            "name": "larossa",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 10,
+              "trophies": 1109
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 22332,
+              "healing": 7650,
+              "damageTaken": 32218,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 21
+              }
+            }
+          },
+          {
+            "tag": "#PRGUQVVPV",
+            "name": "erdi",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1000
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 2,
+              "damageDealt": 55452,
+              "healing": 6231,
+              "damageTaken": 19431,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 42
+              }
+            }
+          },
+          {
+            "tag": "#9RU9YVRL0",
+            "name": "Mathis|FR",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 1,
+              "damageDealt": 41836,
+              "healing": 11677,
+              "damageTaken": 19240,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 24
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 2020
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 17365,
+              "healing": 16993,
+              "damageTaken": 49793,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 13
+              }
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 691
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 33263,
+              "healing": 4350,
+              "damageTaken": 18606,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 42
+              }
+            }
+          },
+          {
+            "tag": "#2QC92Y28YU",
+            "name": "Joker",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1289
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 5,
+              "damageDealt": 20261,
+              "healing": 14221,
+              "damageTaken": 51221,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 28
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
