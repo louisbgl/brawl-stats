@@ -728292,5 +728292,754 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261123T192113.000Z",
+    "event": {
+      "id": 15001394,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Eye of the Beholder"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 54,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#2V28R8Q99",
+        "name": "Mz kevin",
+        "brawler": {
+          "id": 16000111,
+          "name": "THUNDER FROGS",
+          "power": 11,
+          "trophies": 1016
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#JJPCJ9GGG",
+            "name": "giogio",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 5,
+              "trophies": 370
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 21830,
+              "healing": 3665,
+              "damageTaken": 3665,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 3
+              }
+            }
+          },
+          {
+            "tag": "#9JVRQJ0PU",
+            "name": "benito",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 1,
+              "trophies": 10
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 5040,
+              "healing": 2599,
+              "damageTaken": 9399,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#2V28R8Q99",
+            "name": "Mz kevin",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 1016
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 0,
+              "damageDealt": 47639,
+              "healing": 5418,
+              "damageTaken": 11418,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 16
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9RV2Q2VLU",
+            "name": "Véa",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 553
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 3918,
+              "healing": 876,
+              "damageTaken": 16117,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000021,
+              "name": "GENE",
+              "power": 11,
+              "trophies": 520
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 7764,
+              "healing": 9929,
+              "damageTaken": 33136,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#LC8P2V098",
+            "name": "катюша",
+            "brawler": {
+              "id": 16000087,
+              "name": "JUJU",
+              "power": 11,
+              "trophies": 512
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 12800,
+              "healing": 0,
+              "damageTaken": 25256,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261123T192310.000Z",
+    "event": {
+      "id": 15000990,
+      "mode": "soloShowdown",
+      "modeId": 6,
+      "map": "Lilypond Grove"
+    },
+    "battle": {
+      "mode": "soloShowdown",
+      "type": "ranked",
+      "rank": 2,
+      "trophyChange": 10,
+      "players": [
+        {
+          "tag": "#2C8QQJYR0U",
+          "name": "BreadDEV",
+          "brawler": {
+            "id": 16000019,
+            "name": "PENNY",
+            "power": 8,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000111,
+            "name": "THUNDER FROGS",
+            "power": 9,
+            "trophies": 0
+          }
+        },
+        {
+          "tag": "#2GYUJ9UV2P",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000034,
+            "name": "JACKY",
+            "power": 10,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#C92C8GQQY",
+          "name": "tg @SCRE1",
+          "brawler": {
+            "id": 16000002,
+            "name": "BULL",
+            "power": 8,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#2LPUYVPJLP",
+          "name": "Xi'an",
+          "brawler": {
+            "id": 16000042,
+            "name": "BYRON",
+            "power": 10,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#29C0ULQPRU",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000045,
+            "name": "STU",
+            "power": 10,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#2L0CU2Y08R",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000000,
+            "name": "SHELLY",
+            "power": 10,
+            "trophies": 8
+          }
+        },
+        {
+          "tag": "#2RUUPG0QVP",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000077,
+            "name": "LARRY & LAWRIE",
+            "power": 8,
+            "trophies": 10
+          }
+        },
+        {
+          "tag": "#2GCJUGURRC",
+          "name": "арсен",
+          "brawler": {
+            "id": 16000079,
+            "name": "ANGELO",
+            "power": 8,
+            "trophies": 5
+          }
+        },
+        {
+          "tag": "#2Q220C2Y2R",
+          "name": "Brawler",
+          "brawler": {
+            "id": 16000084,
+            "name": "MOE",
+            "power": 10,
+            "trophies": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "battleTime": "20261123T192457.000Z",
+    "event": {
+      "id": 15001383,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Sunken harbor"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 68,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000111,
+          "name": "THUNDER FROGS",
+          "power": 9,
+          "trophies": 10
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 9,
+              "trophies": 10
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 0,
+              "damageDealt": 66576,
+              "healing": 8740,
+              "damageTaken": 9820,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 37
+              }
+            }
+          },
+          {
+            "tag": "#2J9CLRGYQY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 9,
+              "trophies": 9
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 13500,
+              "healing": 1080,
+              "damageTaken": 7200,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 41
+              }
+            }
+          },
+          {
+            "tag": "#2RQRYP0J0G",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 9,
+              "trophies": 11
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 20004,
+              "healing": 1730,
+              "damageTaken": 12020,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 37
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JJ8VC2CYJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 8,
+              "trophies": 16
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 2312,
+              "healing": 0,
+              "damageTaken": 32130,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 18
+              }
+            }
+          },
+          {
+            "tag": "#299VJPJ02V",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000060,
+              "name": "SAM",
+              "power": 10,
+              "trophies": 22
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 18378,
+              "healing": 0,
+              "damageTaken": 39330,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 16
+              }
+            }
+          },
+          {
+            "tag": "#2VP90CJ0GU",
+            "name": "БУКА ЛУ",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 9,
+              "trophies": 16
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 8350,
+              "healing": 0,
+              "damageTaken": 28620,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 19
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261123T192626.000Z",
+    "event": {
+      "id": 15001383,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Sunken harbor"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 60,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000111,
+          "name": "THUNDER FROGS",
+          "power": 9,
+          "trophies": 21
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 9,
+              "trophies": 21
+            },
+            "stats": {
+              "kills": 12,
+              "deaths": 0,
+              "damageDealt": 71109,
+              "healing": 18214,
+              "damageTaken": 19642,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 27
+              }
+            }
+          },
+          {
+            "tag": "#2J2CJCG0CY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 9,
+              "trophies": 14
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 1224,
+              "healing": 1976,
+              "damageTaken": 5148,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 46
+              }
+            }
+          },
+          {
+            "tag": "#29LPJC28LR",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 9,
+              "trophies": 10
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 12408,
+              "healing": 1976,
+              "damageTaken": 13136,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 30
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2YPPQRPRJV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 24
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 5,
+              "damageDealt": 14740,
+              "healing": 741,
+              "damageTaken": 29241,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 7
+              }
+            }
+          },
+          {
+            "tag": "#2YQRG9UVRU",
+            "name": "TG pwnedbanned",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 10,
+              "trophies": 6
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 11856,
+              "healing": 0,
+              "damageTaken": 28500,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 6
+              }
+            }
+          },
+          {
+            "tag": "#2CY0JPPPCR",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 9,
+              "trophies": 20
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 5,
+              "damageDealt": 11330,
+              "healing": 0,
+              "damageTaken": 27000,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 5
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261123T192810.000Z",
+    "event": {
+      "id": 15001383,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Sunken harbor"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 83,
+      "trophyChange": 18,
+      "starPlayer": {
+        "tag": "#2RCLY0QCP9",
+        "name": "A13",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 1245
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VULY2GYJL",
+            "name": "xo",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 1,
+              "trophies": 10
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 8956,
+              "healing": 0,
+              "damageTaken": 8720,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 54
+              }
+            }
+          },
+          {
+            "tag": "#2RCLY0QCP9",
+            "name": "A13",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1245
+            },
+            "stats": {
+              "kills": 13,
+              "deaths": 3,
+              "damageDealt": 59844,
+              "healing": 1248,
+              "damageTaken": 15648,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 14
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 9,
+              "trophies": 33
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 32150,
+              "healing": 0,
+              "damageTaken": 18900,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 22
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QQLJV099R",
+            "name": "blyqn",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 6,
+              "trophies": 513
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 5,
+              "damageDealt": 20955,
+              "healing": 0,
+              "damageTaken": 37500,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 19
+              }
+            }
+          },
+          {
+            "tag": "#2C92R2VCCQ",
+            "name": "ブタイモムシ",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 6,
+              "trophies": 484
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 7,
+              "damageDealt": 5303,
+              "healing": 0,
+              "damageTaken": 28350,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 4
+              }
+            }
+          },
+          {
+            "tag": "#2CJVYG8Q2L",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 6,
+              "trophies": 461
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 6,
+              "damageDealt": 17010,
+              "healing": 0,
+              "damageTaken": 35100,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 10
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
