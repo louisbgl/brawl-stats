@@ -520785,5 +520785,162 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261123T133643.000Z",
+    "event": {
+      "id": 15001202,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Golden Bay"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 134,
+      "starPlayer": {
+        "tag": "#2QQ8UCV",
+        "name": "n0lik",
+        "brawler": {
+          "id": 16000038,
+          "name": "SURGE",
+          "power": 11,
+          "trophies": 1136
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#802LV80PG",
+            "name": "umiltá edo👶🏻",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1005
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 6,
+              "damageDealt": 20707,
+              "healing": 20254,
+              "damageTaken": 80254,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 18
+              }
+            }
+          },
+          {
+            "tag": "#PJ0LVPV8C",
+            "name": "Ethan",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 482
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 7,
+              "damageDealt": 54968,
+              "healing": 6784,
+              "damageTaken": 52984,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 29
+              }
+            }
+          },
+          {
+            "tag": "#2CL2GVQ8QP",
+            "name": "Tomar 753",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 2049
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 6,
+              "damageDealt": 42757,
+              "healing": 6006,
+              "damageTaken": 45606,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 14
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QQ8UCV",
+            "name": "n0lik",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1136
+            },
+            "stats": {
+              "kills": 9,
+              "deaths": 1,
+              "damageDealt": 76352,
+              "healing": 16984,
+              "damageTaken": 23584,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 41
+              }
+            }
+          },
+          {
+            "tag": "#2CGVP0V09",
+            "name": "David",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1012
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 6,
+              "damageDealt": 63308,
+              "healing": 6852,
+              "damageTaken": 52452,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 28
+              }
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000045,
+              "name": "STU",
+              "power": 9,
+              "trophies": 568
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 5,
+              "damageDealt": 39184,
+              "healing": 5733,
+              "damageTaken": 42396,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 36
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
