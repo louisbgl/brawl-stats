@@ -522114,5 +522114,633 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261123T224253.000Z",
+    "event": {
+      "id": 15000010,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Gem Fort"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 83,
+      "starPlayer": {
+        "tag": "#2UR8YVUJJ0",
+        "name": "Eren",
+        "brawler": {
+          "id": 16000043,
+          "name": "EDGAR",
+          "power": 11,
+          "trophies": 2015
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#82G9CJ2LY",
+            "name": "T3mya",
+            "brawler": {
+              "id": 16000017,
+              "name": "TARA",
+              "power": 11,
+              "trophies": 626
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 21732,
+              "healing": 6006,
+              "damageTaken": 23991,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2UR8YVUJJ0",
+            "name": "Eren",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2015
+            },
+            "stats": {
+              "kills": 10,
+              "deaths": 0,
+              "damageDealt": 73435,
+              "healing": 48334,
+              "damageTaken": 50753,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 6
+              }
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 2010
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 10572,
+              "healing": 8718,
+              "damageTaken": 19108,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 6
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YPLLQV0GU",
+            "name": "GG/the boos",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1153
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 29048,
+              "healing": 780,
+              "damageTaken": 24780,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#G892RGJ",
+            "name": "tincio",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 371
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 33314,
+              "healing": 9959,
+              "damageTaken": 46959,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2CLP8P89LV",
+            "name": "White 🍫",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 2031
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 5,
+              "damageDealt": 31490,
+              "healing": 0,
+              "damageTaken": 34000,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261123T224510.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 74,
+      "starPlayer": {
+        "tag": "#8JLCRRY0Y",
+        "name": "✞︎|𝙻𝚘𝚕𝚕𝚘シ︎",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 2126
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 1184
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 5940,
+              "healing": 8790,
+              "damageTaken": 19080,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 30780
+              }
+            }
+          },
+          {
+            "tag": "#PJ2Y89YLU",
+            "name": "✞PeTaRツ",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1343
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 37303,
+              "healing": 4806,
+              "damageTaken": 23430,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 20969
+              }
+            }
+          },
+          {
+            "tag": "#8JLCRRY0Y",
+            "name": "✞︎|𝙻𝚘𝚕𝚕𝚘シ︎",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 2126
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 27786,
+              "healing": 2340,
+              "damageTaken": 19050,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 28251
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8LLJJRJ2",
+            "name": "Luigi",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 31183,
+              "healing": 2028,
+              "damageTaken": 33228,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 3400
+              }
+            }
+          },
+          {
+            "tag": "#2U998R022",
+            "name": "TTM | fxllen",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 1022
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 13688,
+              "healing": 7580,
+              "damageTaken": 27477,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 36224
+              }
+            }
+          },
+          {
+            "tag": "#2RC2QYJ9LJ",
+            "name": "καλαμαρος",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1080
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 16689,
+              "healing": 4324,
+              "damageTaken": 10324,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261123T224813.000Z",
+    "event": {
+      "id": 15000011,
+      "mode": "gemGrab",
+      "modeId": 0,
+      "map": "Undermine"
+    },
+    "battle": {
+      "mode": "gemGrab",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 99,
+      "starPlayer": {
+        "tag": "#8JG8PP2QG",
+        "name": "Dzoni",
+        "brawler": {
+          "id": 16000111,
+          "name": "THUNDER FROGS",
+          "power": 11,
+          "trophies": 0
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPY29L0Q0",
+            "name": "victor",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1179
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 32064,
+              "healing": 18580,
+              "damageTaken": 70580,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1601
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 16488,
+              "healing": 9016,
+              "damageTaken": 24593,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2LRGGCC9UY",
+            "name": "cupira",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1009
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 27335,
+              "healing": 6341,
+              "damageTaken": 39641,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 1
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#99UVGJPQP",
+            "name": "3RIPLLL",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1031
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 62220,
+              "healing": 3060,
+              "damageTaken": 21060,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#20CGRVJUG",
+            "name": "діма",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1754
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 26346,
+              "healing": 9452,
+              "damageTaken": 39052,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#8JG8PP2QG",
+            "name": "Dzoni",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 0
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 0,
+              "damageDealt": 46248,
+              "healing": 15752,
+              "damageTaken": 15775,
+              "modeStat": {
+                "type": "gemsHeld",
+                "value": 13
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261123T225255.000Z",
+    "event": {
+      "id": 15000024,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Backyard Bowl"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 141,
+      "starPlayer": {
+        "tag": "#2ULY9GVPYG",
+        "name": "D🎀",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 2011
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R8CGPYPJ",
+            "name": "LukeTheJeday",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 1020
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 8,
+              "damageDealt": 5740,
+              "healing": 1244,
+              "damageTaken": 64520,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#Y0RLPCUPU",
+            "name": "koko",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 2013
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 5,
+              "damageDealt": 38452,
+              "healing": 12272,
+              "damageTaken": 104217,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#2CRC99JCC",
+            "name": "S4W | Kass 💔",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1209
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 63980,
+              "healing": 54198,
+              "damageTaken": 69513,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2ULY9GVPYG",
+            "name": "D🎀",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 2011
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 3,
+              "damageDealt": 109140,
+              "healing": 8966,
+              "damageTaken": 39928,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2R20Y0CU8P",
+            "name": "⚕️CaDImSI⚕️",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1617
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 5,
+              "damageDealt": 68343,
+              "healing": 4940,
+              "damageTaken": 42940,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1415
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 60767,
+              "healing": 17099,
+              "damageTaken": 25304,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
