@@ -83924,5 +83924,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261124T120200.000Z",
+    "event": {
+      "id": 15000144,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sunny Soccer"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 102,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#9RVQJPUGY",
+        "name": "OGT_leopoldb75",
+        "brawler": {
+          "id": 16000071,
+          "name": "DOUG",
+          "power": 11,
+          "trophies": 852
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1835
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 65976,
+              "healing": 10483,
+              "damageTaken": 30974,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#JRJCQLVP",
+            "name": "dty-tt",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1014
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 21060,
+              "healing": 23567,
+              "damageTaken": 21312,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2UGVYRUUU",
+            "name": "LEP4YK",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 533
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 59718,
+              "healing": 23449,
+              "damageTaken": 78058,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#9RVQJPUGY",
+            "name": "OGT_leopoldb75",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 852
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 38005,
+              "healing": 14924,
+              "damageTaken": 79902,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#YVVV2VYUC",
+            "name": "𝑩𝑨𝑹𝑫𝑰𝑨",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 9,
+              "trophies": 666
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 22666,
+              "healing": 59690,
+              "damageTaken": 32530,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2RLRJLLJV",
+            "name": "MXx_95🍃🍃",
+            "brawler": {
+              "id": 16000044,
+              "name": "RUFFS",
+              "power": 9,
+              "trophies": 889
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 64699,
+              "healing": 1117,
+              "damageTaken": 36214,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

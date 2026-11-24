@@ -466473,5 +466473,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261124T120131.000Z",
+    "event": {
+      "id": 15001272,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Tubs"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 42,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#QPG8RPQRR",
+        "name": "Arisu",
+        "brawler": {
+          "id": 16000018,
+          "name": "DARRYL",
+          "power": 11,
+          "trophies": 1221
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#P0Q0R9ULY",
+            "name": "sup and bip",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1164
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 0,
+              "damageDealt": 33940,
+              "healing": 600,
+              "damageTaken": 600,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 26624
+              }
+            }
+          },
+          {
+            "tag": "#QPG8RPQRR",
+            "name": "Arisu",
+            "brawler": {
+              "id": 16000018,
+              "name": "DARRYL",
+              "power": 11,
+              "trophies": 1221
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 7140,
+              "healing": 2145,
+              "damageTaken": 9382,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 53376
+              }
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 1366
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 17966,
+              "healing": 5148,
+              "damageTaken": 13948,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2GQRR8YVVC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1229
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 7148,
+              "healing": 3468,
+              "damageTaken": 25638,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2RUUGPUP8P",
+            "name": "bray",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1221
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 5390,
+              "healing": 0,
+              "damageTaken": 18000,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2GCUCULCQY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1231
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 11392,
+              "healing": 3960,
+              "damageTaken": 15408,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
