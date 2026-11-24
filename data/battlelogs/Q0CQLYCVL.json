@@ -740262,5 +740262,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261124T153242.000Z",
+    "event": {
+      "id": 15001272,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Tubs"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 150,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#80G8YQJ9YY",
+        "name": "MORFİN",
+        "brawler": {
+          "id": 16000003,
+          "name": "BROCK",
+          "power": 11,
+          "trophies": 1563
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CGLLGJRUJ",
+            "name": "nico",
+            "brawler": {
+              "id": 16000049,
+              "name": "BUZZ",
+              "power": 11,
+              "trophies": 255
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 6,
+              "damageDealt": 36262,
+              "healing": 14300,
+              "damageTaken": 82100,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 13230
+              }
+            }
+          },
+          {
+            "tag": "#2V0C29CU8G",
+            "name": "siuol",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1642
+            },
+            "stats": {
+              "kills": 10,
+              "deaths": 8,
+              "damageDealt": 59935,
+              "healing": 3042,
+              "damageTaken": 65442,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 15433
+              }
+            }
+          },
+          {
+            "tag": "#2RGUQJQ90R",
+            "name": "EREN ALİ PRO GS",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 210
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 7,
+              "damageDealt": 32243,
+              "healing": 10481,
+              "damageTaken": 44081,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 29200
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#80G8YQJ9YY",
+            "name": "MORFİN",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1563
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 4,
+              "damageDealt": 70830,
+              "healing": 6440,
+              "damageTaken": 30440,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 43858
+              }
+            }
+          },
+          {
+            "tag": "#PJLCV2RRG",
+            "name": "ogi",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1487
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 7,
+              "damageDealt": 70488,
+              "healing": 5060,
+              "damageTaken": 47060,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 960
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 772
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 6,
+              "damageDealt": 50305,
+              "healing": 8960,
+              "damageTaken": 50940,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 34705
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
