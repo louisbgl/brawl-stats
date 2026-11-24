@@ -745317,5 +745317,479 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261124T182426.000Z",
+    "event": {
+      "id": 15001272,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Tubs"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 93,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000015,
+          "name": "PIPER",
+          "power": 9,
+          "trophies": 622
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 9,
+              "trophies": 622
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 2,
+              "damageDealt": 36791,
+              "healing": 10712,
+              "damageTaken": 20792,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 33598
+              }
+            }
+          },
+          {
+            "tag": "#8CYVGL02V",
+            "name": "FUT|EMOC-XxX",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 11,
+              "trophies": 1470
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 26969,
+              "healing": 13104,
+              "damageTaken": 51970,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 6384
+              }
+            }
+          },
+          {
+            "tag": "#P9VR20PLG",
+            "name": "GG_Cat",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 828
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 33184,
+              "healing": 6871,
+              "damageTaken": 28760,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 36018
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2G0GVV22QU",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000109,
+              "name": "COSMO",
+              "power": 11,
+              "trophies": 954
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 46848,
+              "healing": 6080,
+              "damageTaken": 30000,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 4660
+              }
+            }
+          },
+          {
+            "tag": "#22UJ2L2VJJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000097,
+              "name": "MINA",
+              "power": 9,
+              "trophies": 984
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 5,
+              "damageDealt": 20330,
+              "healing": 7386,
+              "damageTaken": 41386,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 1440
+              }
+            }
+          },
+          {
+            "tag": "#2JVLL8CL9J",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 9,
+              "trophies": 984
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 34344,
+              "healing": 5038,
+              "damageTaken": 25558,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261124T182534.000Z",
+    "event": {
+      "id": 15001272,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Tubs"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 46,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#2UUCV9VVQU",
+        "name": "заброшка",
+        "brawler": {
+          "id": 16000007,
+          "name": "JESSIE",
+          "power": 11,
+          "trophies": 1176
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CJYRJ9RP2",
+            "name": "Pyla💫Impulse",
+            "brawler": {
+              "id": 16000053,
+              "name": "LOLA",
+              "power": 11,
+              "trophies": 1296
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 15784,
+              "healing": 6412,
+              "damageTaken": 19495,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 8400
+              }
+            }
+          },
+          {
+            "tag": "#2UUCV9VVQU",
+            "name": "заброшка",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 11,
+              "trophies": 1176
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 37070,
+              "healing": 2574,
+              "damageTaken": 5690,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 40600
+              }
+            }
+          },
+          {
+            "tag": "#2UGRVCQ9QL",
+            "name": "M7MD🇩🇿",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1349
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 9936,
+              "healing": 0,
+              "damageTaken": 16000,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 27000
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VUV0Y9PG",
+            "name": "boczek",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 9,
+              "trophies": 824
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 3780,
+              "healing": 0,
+              "damageTaken": 20790,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 2520
+              }
+            }
+          },
+          {
+            "tag": "#QRGRYQPPC",
+            "name": "DANI",
+            "brawler": {
+              "id": 16000027,
+              "name": "8-BIT",
+              "power": 9,
+              "trophies": 438
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 12134,
+              "healing": 0,
+              "damageTaken": 28830,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 9,
+              "trophies": 632
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 25271,
+              "healing": 0,
+              "damageTaken": 13170,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261124T182701.000Z",
+    "event": {
+      "id": 15001272,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Tubs"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 54,
+      "trophyChange": -7,
+      "starPlayer": {
+        "tag": "#PR2U0QCLJ",
+        "name": "DS|ابو شهاب",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 600
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1237
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 39332,
+              "healing": 6664,
+              "damageTaken": 14064,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 3000
+              }
+            }
+          },
+          {
+            "tag": "#998LUQQU2",
+            "name": "Aŕxss🥀",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 782
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 14530,
+              "healing": 0,
+              "damageTaken": 28868,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#GP2R9L99P",
+            "name": "『ғʙ | 乇爪丨尺』",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1087
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 7938,
+              "healing": 1140,
+              "damageTaken": 17140,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 17000
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2YV82CCQ9Y",
+            "name": "apfelra",
+            "brawler": {
+              "id": 16000069,
+              "name": "HANK",
+              "power": 11,
+              "trophies": 879
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 17966,
+              "healing": 9313,
+              "damageTaken": 30044,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 2640
+              }
+            }
+          },
+          {
+            "tag": "#Q02YCUR9R",
+            "name": "❤️‍🔥Jayden🔥",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1269
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 9028,
+              "healing": 4160,
+              "damageTaken": 18906,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 30990
+              }
+            }
+          },
+          {
+            "tag": "#PR2U0QCLJ",
+            "name": "DS|ابو شهاب",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 600
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 33078,
+              "healing": 988,
+              "damageTaken": 12850,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 46370
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
