@@ -731288,5 +731288,479 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261124T095530.000Z",
+    "event": {
+      "id": 15001383,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Sunken harbor"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 92,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1193
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YV892QRR9",
+            "name": "блейдャ",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 834
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 42282,
+              "healing": 10535,
+              "damageTaken": 62535,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 35
+              }
+            }
+          },
+          {
+            "tag": "#G2RV8UG8",
+            "name": "Pablo",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1170
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 24848,
+              "healing": 5220,
+              "damageTaken": 29220,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 22
+              }
+            }
+          },
+          {
+            "tag": "#Q2VQ9UPL9",
+            "name": "Snuffy",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 948
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 28796,
+              "healing": 4368,
+              "damageTaken": 26768,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 8
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1193
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 4,
+              "damageDealt": 69043,
+              "healing": 2886,
+              "damageTaken": 32486,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 30
+              }
+            }
+          },
+          {
+            "tag": "#YY022PGCL",
+            "name": "asverr",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 9,
+              "trophies": 1137
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 23849,
+              "healing": 0,
+              "damageTaken": 46800,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 17
+              }
+            }
+          },
+          {
+            "tag": "#2VL80P2828",
+            "name": "Kotakbas",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 432
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 25631,
+              "healing": 4640,
+              "damageTaken": 16640,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 40
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261124T095725.000Z",
+    "event": {
+      "id": 15001383,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Sunken harbor"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 89,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#2C2JLRGJJ",
+        "name": "krekr07",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 1139
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VL80P2828",
+            "name": "Kotakbas",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 442
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 34992,
+              "healing": 3890,
+              "damageTaken": 20583,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 31
+              }
+            }
+          },
+          {
+            "tag": "#YY022PGCL",
+            "name": "asverr",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 9,
+              "trophies": 1147
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 15826,
+              "healing": 13081,
+              "damageTaken": 59881,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 21
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1208
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 36264,
+              "healing": 9514,
+              "damageTaken": 39114,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 33
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C2JLRGJJ",
+            "name": "krekr07",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 1139
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 48281,
+              "healing": 7788,
+              "damageTaken": 22188,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 27
+              }
+            }
+          },
+          {
+            "tag": "#YJVUUPL88",
+            "name": "rinat",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 779
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 18583,
+              "healing": 4298,
+              "damageTaken": 25154,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 29
+              }
+            }
+          },
+          {
+            "tag": "#PU899GY8V",
+            "name": "funeli",
+            "brawler": {
+              "id": 16000072,
+              "name": "PEARL",
+              "power": 11,
+              "trophies": 648
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 52714,
+              "healing": 5340,
+              "damageTaken": 39740,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 35
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261124T095929.000Z",
+    "event": {
+      "id": 15001383,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Sunken harbor"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 81,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000050,
+          "name": "GRIFF",
+          "power": 11,
+          "trophies": 1219
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2QGYQQGYUQ",
+            "name": "BSC|caprina",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1034
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 6,
+              "damageDealt": 16940,
+              "healing": 0,
+              "damageTaken": 36000,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 21
+              }
+            }
+          },
+          {
+            "tag": "#P0PJ002RY",
+            "name": "Mor",
+            "brawler": {
+              "id": 16000091,
+              "name": "LUMI",
+              "power": 11,
+              "trophies": 1038
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 8650,
+              "healing": 2705,
+              "damageTaken": 30638,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 7
+              }
+            }
+          },
+          {
+            "tag": "#PVL8VLGP",
+            "name": "KeriKiwi",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 10,
+              "trophies": 966
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 14718,
+              "healing": 14124,
+              "damageTaken": 54237,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 17
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QY902CJ9J",
+            "name": "フィリップ",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1566
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 31126,
+              "healing": 12148,
+              "damageTaken": 12148,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 39
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000050,
+              "name": "GRIFF",
+              "power": 11,
+              "trophies": 1219
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 2,
+              "damageDealt": 56184,
+              "healing": 4722,
+              "damageTaken": 19640,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 31
+              }
+            }
+          },
+          {
+            "tag": "#VU09P9R90",
+            "name": "Sharky_pro",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1039
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 32972,
+              "healing": 2520,
+              "damageTaken": 8520,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 27
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
