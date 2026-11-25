@@ -526404,5 +526404,476 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261125T162503.000Z",
+    "event": {
+      "id": 15001336,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Alchemy"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 114,
+      "starPlayer": {
+        "tag": "#20UPRJ8P2",
+        "name": "Allmighto",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 2004
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1415
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 23670,
+              "healing": 6341,
+              "damageTaken": 25981,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000042,
+              "name": "BYRON",
+              "power": 11,
+              "trophies": 1649
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 19419,
+              "healing": 14609,
+              "damageTaken": 21300,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#C8JJC2YRG",
+            "name": "minchen",
+            "brawler": {
+              "id": 16000014,
+              "name": "BO",
+              "power": 11,
+              "trophies": 1156
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 33328,
+              "healing": 10793,
+              "damageTaken": 41082,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#920UVCU2V",
+            "name": "STIRATO DIO BEL",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 2016
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 20485,
+              "healing": 21252,
+              "damageTaken": 22517,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#20UPRJ8P2",
+            "name": "Allmighto",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 2004
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 37593,
+              "healing": 13669,
+              "damageTaken": 25669,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 10
+              }
+            }
+          },
+          {
+            "tag": "#892RYJQRQ",
+            "name": "BJK1903🦅",
+            "brawler": {
+              "id": 16000015,
+              "name": "PIPER",
+              "power": 11,
+              "trophies": 1010
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 30285,
+              "healing": 26554,
+              "damageTaken": 28231,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 9
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261125T162636.000Z",
+    "event": {
+      "id": 15000053,
+      "mode": "heist",
+      "modeId": 2,
+      "map": "Hot Potato"
+    },
+    "battle": {
+      "mode": "heist",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 46,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000075,
+          "name": "MICO",
+          "power": 11,
+          "trophies": 1178
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YJPC8VY9L",
+            "name": "luca",
+            "brawler": {
+              "id": 16000080,
+              "name": "DRACO",
+              "power": 11,
+              "trophies": 584
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 1,
+              "damageDealt": 5660,
+              "healing": 11088,
+              "damageTaken": 22288,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2UVP8RR0VG",
+            "name": "ll.yusuff_",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1023
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 13248,
+              "healing": 4914,
+              "damageTaken": 23853,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#GRVQ09P09",
+            "name": "ヤζ͜͡Mustâfaa.℘",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1043
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 8287,
+              "healing": 0,
+              "damageTaken": 12580,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 4320
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1022
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 27653,
+              "healing": 780,
+              "damageTaken": 6780,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 22200
+              }
+            }
+          },
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000075,
+              "name": "MICO",
+              "power": 11,
+              "trophies": 1178
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 6282,
+              "healing": 4770,
+              "damageTaken": 8115,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 34760
+              }
+            }
+          },
+          {
+            "tag": "#VRLQYU8",
+            "name": "lDarsl",
+            "brawler": {
+              "id": 16000073,
+              "name": "CHUCK",
+              "power": 11,
+              "trophies": 1049
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 24786,
+              "healing": 2288,
+              "damageTaken": 12300,
+              "modeStat": {
+                "type": "safeDamage",
+                "value": 23040
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261125T162917.000Z",
+    "event": {
+      "id": 15001336,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Alchemy"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 105,
+      "starPlayer": {
+        "tag": "#YR8L09PRC",
+        "name": "JOEL | Mommy",
+        "brawler": {
+          "id": 16000065,
+          "name": "MANDY",
+          "power": 11,
+          "trophies": 1169
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#J9C8PYJRR",
+            "name": "danielix🇹🇩",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 506
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 23834,
+              "healing": 8892,
+              "damageTaken": 31692,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 7
+              }
+            }
+          },
+          {
+            "tag": "#GRCC29CRJ",
+            "name": "YT|COUNTRFURKAN",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 11,
+              "trophies": 1437
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 21332,
+              "healing": 10065,
+              "damageTaken": 22065,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 3
+              }
+            }
+          },
+          {
+            "tag": "#VQ0QJQ9R9",
+            "name": "SC|SNEZY🐐",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2006
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 22083,
+              "healing": 10766,
+              "damageTaken": 29366,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#YR8L09PRC",
+            "name": "JOEL | Mommy",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1169
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 34891,
+              "healing": 7770,
+              "damageTaken": 10386,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 9
+              }
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000054,
+              "name": "FANG",
+              "power": 11,
+              "trophies": 1220
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 24925,
+              "healing": 20056,
+              "damageTaken": 33163,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 6
+              }
+            }
+          },
+          {
+            "tag": "#2QJ0JQVQ9",
+            "name": "[TS] SHRUNK",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1505
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 23307,
+              "healing": 11700,
+              "damageTaken": 23700,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
