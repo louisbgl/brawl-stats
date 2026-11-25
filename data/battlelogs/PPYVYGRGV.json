@@ -84082,5 +84082,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261125T114511.000Z",
+    "event": {
+      "id": 15001380,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Front Tackle"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 49,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#PPYVYGRGV",
+        "name": "spiky",
+        "brawler": {
+          "id": 16000061,
+          "name": "GUS",
+          "power": 11,
+          "trophies": 1825
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1825
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 20302,
+              "healing": 0,
+              "damageTaken": 5957,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#GG00YJVV",
+            "name": "Rares",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 778
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 15200,
+              "healing": 15885,
+              "damageTaken": 4408,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2CU80L8L89",
+            "name": "TK|Echich",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 9,
+              "trophies": 693
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 17306,
+              "healing": 4934,
+              "damageTaken": 21048,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#28GPRV2PRC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000003,
+              "name": "BROCK",
+              "power": 10,
+              "trophies": 1091
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 21483,
+              "healing": 5802,
+              "damageTaken": 17202,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2QQ2Y8ULJY",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1096
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 1080,
+              "healing": 5046,
+              "damageTaken": 19846,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2RL2UYL9LV",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1093
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 8850,
+              "healing": 4560,
+              "damageTaken": 15760,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
