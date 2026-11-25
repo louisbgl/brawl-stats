@@ -471372,5 +471372,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261125T153219.000Z",
+    "event": {
+      "id": 15001287,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Supercut"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 120,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#8GJY2VQQR",
+        "name": "𝒥𝑒𝒻𝒻𝓇𝑒𝓎",
+        "brawler": {
+          "id": 16000063,
+          "name": "CHESTER",
+          "power": 11,
+          "trophies": 1230
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#RYYY08GYV",
+            "name": "hombre muyante",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1101
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 5,
+              "damageDealt": 33343,
+              "healing": 2184,
+              "damageTaken": 32536,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 13
+              }
+            }
+          },
+          {
+            "tag": "#L8JYL2YPP",
+            "name": "ARSA",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 2004
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 0,
+              "damageDealt": 38825,
+              "healing": 62380,
+              "damageTaken": 54126,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#GCC9YQGUY",
+            "name": "[Rush]Ciprian",
+            "brawler": {
+              "id": 16000023,
+              "name": "LEON",
+              "power": 11,
+              "trophies": 1010
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 24409,
+              "healing": 12824,
+              "damageTaken": 30506,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 10,
+              "trophies": 775
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 31079,
+              "healing": 6403,
+              "damageTaken": 21953,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#PPYGQGPJ8",
+            "name": "pingu",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 1084
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 30911,
+              "healing": 8144,
+              "damageTaken": 20342,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 9
+              }
+            }
+          },
+          {
+            "tag": "#8GJY2VQQR",
+            "name": "𝒥𝑒𝒻𝒻𝓇𝑒𝓎",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1230
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 55178,
+              "healing": 18118,
+              "damageTaken": 55279,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 10
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
