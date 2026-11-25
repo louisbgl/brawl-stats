@@ -231777,5 +231777,163 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261125T123221.000Z",
+    "event": {
+      "id": 15001380,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Front Tackle"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -8,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000111,
+          "name": "THUNDER FROGS",
+          "power": 11,
+          "trophies": 518
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1362
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 58271,
+              "healing": 12029,
+              "damageTaken": 34829,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 518
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 2,
+              "damageDealt": 93672,
+              "healing": 22769,
+              "damageTaken": 34125,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 1422
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 80071,
+              "healing": 11214,
+              "damageTaken": 33238,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#22PPJPRU2",
+            "name": "LastDance🇧🇷👑",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1027
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 34556,
+              "healing": 19822,
+              "damageTaken": 94072,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#8VQJJ20U2",
+            "name": "♛❦ℛ𝓍-🤍-𝕲𝖞❦♛",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1989
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 6,
+              "damageDealt": 34790,
+              "healing": 13220,
+              "damageTaken": 64566,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#RPQV82G09",
+            "name": "İMP|HUYSUZ",
+            "brawler": {
+              "id": 16000013,
+              "name": "POCO",
+              "power": 11,
+              "trophies": 1333
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 32846,
+              "healing": 44242,
+              "damageTaken": 73376,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
