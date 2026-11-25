@@ -751424,5 +751424,795 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261125T122324.000Z",
+    "event": {
+      "id": 15001287,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Supercut"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 73,
+      "trophyChange": -3,
+      "starPlayer": {
+        "tag": "#8QPR2QULV",
+        "name": "smg",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 1264
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 789
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 13765,
+              "healing": 9768,
+              "damageTaken": 31528,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#P09CL9099",
+            "name": "КЕНГ",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 9,
+              "trophies": 1000
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 23967,
+              "healing": 2843,
+              "damageTaken": 19043,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#9Y8L8PY0Y",
+            "name": "woeww",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1182
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 25394,
+              "healing": 17455,
+              "damageTaken": 30655,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 10
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2RRR0YQLQC",
+            "name": "Machtou pichtou",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1568
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 9673,
+              "healing": 16447,
+              "damageTaken": 16447,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          },
+          {
+            "tag": "#2098LPGG",
+            "name": "🇬🇪gg winner🇬",
+            "brawler": {
+              "id": 16000039,
+              "name": "COLETTE",
+              "power": 11,
+              "trophies": 1615
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 39767,
+              "healing": 7503,
+              "damageTaken": 21903,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#8QPR2QULV",
+            "name": "smg",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1264
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 31786,
+              "healing": 1976,
+              "damageTaken": 24776,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 15
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261125T122439.000Z",
+    "event": {
+      "id": 15001287,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Supercut"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 54,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#Q0CQLYCVL",
+        "name": "JOEL | Nexlein",
+        "brawler": {
+          "id": 16000064,
+          "name": "GRAY",
+          "power": 11,
+          "trophies": 786
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PL2PQ0UV2",
+            "name": "kroxkiller",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 1622
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 20322,
+              "healing": 1044,
+              "damageTaken": 1044,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          },
+          {
+            "tag": "#R8UVUVULC",
+            "name": "ТУФЛЯ",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1479
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 25084,
+              "healing": 1044,
+              "damageTaken": 8644,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 7
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 786
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 24948,
+              "healing": 4596,
+              "damageTaken": 10109,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 8
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2C9LGQGCR8",
+            "name": "TTM qeqe sk",
+            "brawler": {
+              "id": 16000038,
+              "name": "SURGE",
+              "power": 11,
+              "trophies": 1417
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 7600,
+              "healing": 2574,
+              "damageTaken": 22374,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#YYJV2QRVP",
+            "name": "satoshi4",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 9,
+              "trophies": 436
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 12197,
+              "healing": 5860,
+              "damageTaken": 17740,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#PL28R9RQJ",
+            "name": "Dimasik",
+            "brawler": {
+              "id": 16000008,
+              "name": "NITA",
+              "power": 9,
+              "trophies": 508
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 0,
+              "healing": 0,
+              "damageTaken": 30240,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261125T122602.000Z",
+    "event": {
+      "id": 15001287,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Supercut"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 58,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#R8UVUVULC",
+        "name": "ТУФЛЯ",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 1489
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#R8UVUVULC",
+            "name": "ТУФЛЯ",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1489
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 49502,
+              "healing": 10840,
+              "damageTaken": 18440,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 13
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 796
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 17988,
+              "healing": 2652,
+              "damageTaken": 19052,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          },
+          {
+            "tag": "#PL2PQ0UV2",
+            "name": "kroxkiller",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 1633
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 13080,
+              "healing": 0,
+              "damageTaken": 12800,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 2
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#CCGQQCV8Y",
+            "name": "M.E.H",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1111
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 8704,
+              "healing": 378,
+              "damageTaken": 28466,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2U8LQPJLJ",
+            "name": "Sally🐣Roxi🐼",
+            "brawler": {
+              "id": 16000065,
+              "name": "MANDY",
+              "power": 11,
+              "trophies": 1343
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 20000,
+              "healing": 780,
+              "damageTaken": 9852,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2V0C09JCJ2",
+            "name": "𝕶𝖓𝖌 𝖒𝖔𝖟𝖆",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 21588,
+              "healing": 18252,
+              "damageTaken": 42252,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 13
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261125T122728.000Z",
+    "event": {
+      "id": 15001287,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Supercut"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 57,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#R8UVUVULC",
+        "name": "ТУФЛЯ",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 1500
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PL2PQ0UV2",
+            "name": "kroxkiller",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 1645
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 6300,
+              "healing": 0,
+              "damageTaken": 18006,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 807
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 16314,
+              "healing": 6037,
+              "damageTaken": 16381,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 5
+              }
+            }
+          },
+          {
+            "tag": "#R8UVUVULC",
+            "name": "ТУФЛЯ",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1500
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 44562,
+              "healing": 0,
+              "damageTaken": 15200,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 15
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2U9YCRR0UR",
+            "name": "халид",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1392
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 22793,
+              "healing": 14612,
+              "damageTaken": 29412,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 6
+              }
+            }
+          },
+          {
+            "tag": "#C20QUVJUU",
+            "name": "emma🩷",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 1243
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 19994,
+              "healing": 0,
+              "damageTaken": 12000,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#9UYQ2PPUQ",
+            "name": "Боец",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1112
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 3,
+              "damageDealt": 6800,
+              "healing": 2964,
+              "damageTaken": 25764,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 2
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261125T122848.000Z",
+    "event": {
+      "id": 15001287,
+      "mode": "bounty",
+      "modeId": 3,
+      "map": "Supercut"
+    },
+    "battle": {
+      "mode": "bounty",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 58,
+      "trophyChange": 13,
+      "starPlayer": {
+        "tag": "#R8UVUVULC",
+        "name": "ТУФЛЯ",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 1512
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#PL2PQ0UV2",
+            "name": "kroxkiller",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 11,
+              "trophies": 1658
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 1,
+              "damageDealt": 9900,
+              "healing": 832,
+              "damageTaken": 10276,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000064,
+              "name": "GRAY",
+              "power": 11,
+              "trophies": 819
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 20418,
+              "healing": 10324,
+              "damageTaken": 11684,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 6
+              }
+            }
+          },
+          {
+            "tag": "#R8UVUVULC",
+            "name": "ТУФЛЯ",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1512
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 0,
+              "damageDealt": 42752,
+              "healing": 12812,
+              "damageTaken": 17149,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 13
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#8YRLRQUY8",
+            "name": "la granouille",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 255
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 2,
+              "damageDealt": 22725,
+              "healing": 7410,
+              "damageTaken": 22610,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#2UJU9UYGQ",
+            "name": "AnaF0F",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 631
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 11404,
+              "healing": 0,
+              "damageTaken": 31000,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#28CPP8RRC0",
+            "name": "popo from Mars",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2084
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 4980,
+              "healing": 5460,
+              "damageTaken": 19460,
+              "modeStat": {
+                "type": "bountyStars",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
