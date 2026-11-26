@@ -768484,5 +768484,103 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261126T112310.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2CJPYULPJY",
+          "name": "ሸቀበ",
+          "brawler": {
+            "id": 16000097,
+            "name": "MINA",
+            "power": 11,
+            "trophies": 1040
+          }
+        },
+        {
+          "tag": "#80Q8R0QP2G",
+          "name": "SHELLY KRALI👑",
+          "brawler": {
+            "id": 16000004,
+            "name": "RICO",
+            "power": 9,
+            "trophies": 1040
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000083,
+            "name": "CLANCY",
+            "power": 11,
+            "trophies": 1027
+          }
+        }
+      ],
+      "level": {
+        "name": "Normal",
+        "id": 0
+      }
+    }
+  },
+  {
+    "battleTime": "20261126T112610.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 1003
+          }
+        },
+        {
+          "tag": "#P0RLGJUUG",
+          "name": "AranyValag🐨",
+          "brawler": {
+            "id": 16000102,
+            "name": "SIRIUS",
+            "power": 9,
+            "trophies": 1004
+          }
+        },
+        {
+          "tag": "#8098G09VL",
+          "name": "crseby original",
+          "brawler": {
+            "id": 16000001,
+            "name": "COLT",
+            "power": 11,
+            "trophies": 1000
+          }
+        }
+      ],
+      "level": {
+        "name": "Hard",
+        "id": 1
+      }
+    }
   }
 ]
