@@ -202752,5 +202752,139 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261126T191935.000Z",
+    "event": {
+      "id": 15001241,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Crimson Divide"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 114,
+      "trophyChange": -12,
+      "starPlayer": {
+        "tag": "#QYUGQVQQV",
+        "name": "who is?",
+        "brawler": {
+          "id": 16000078,
+          "name": "MELODIE",
+          "power": 11,
+          "trophies": 1381
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#QYUGQVQQV",
+            "name": "who is?",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 1381
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 1,
+              "damageDealt": 161612,
+              "healing": 29836,
+              "damageTaken": 44586
+            }
+          },
+          {
+            "tag": "#RP9QRU2Y0",
+            "name": "samocan",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 2169
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 0,
+              "damageDealt": 144149,
+              "healing": 55330,
+              "damageTaken": 55330
+            }
+          },
+          {
+            "tag": "#2V20RV0Q9",
+            "name": "XO|METEÖRİD ☄️",
+            "brawler": {
+              "id": 16000057,
+              "name": "JANET",
+              "power": 11,
+              "trophies": 1119
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 109775,
+              "healing": 21222,
+              "damageTaken": 29267
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#J82LPC0V",
+            "name": "GSII | Meze",
+            "brawler": {
+              "id": 16000048,
+              "name": "GROM",
+              "power": 11,
+              "trophies": 1690
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 84768,
+              "healing": 100,
+              "damageTaken": 39670
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1842
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 59496,
+              "healing": 23949,
+              "damageTaken": 64198
+            }
+          },
+          {
+            "tag": "#VQ9GJGL2",
+            "name": "JOEL | OrDos_",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 1354
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 6,
+              "damageDealt": 68741,
+              "healing": 3022,
+              "damageTaken": 53572
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
