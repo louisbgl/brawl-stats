@@ -479488,5 +479488,103 @@
         "id": 5
       }
     }
+  },
+  {
+    "battleTime": "20261126T183644.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000008,
+            "name": "NITA",
+            "power": 11,
+            "trophies": 1235
+          }
+        },
+        {
+          "tag": "#2G0UCCCUCY",
+          "name": "DAVID",
+          "brawler": {
+            "id": 16000107,
+            "name": "NORI",
+            "power": 10,
+            "trophies": 1228
+          }
+        },
+        {
+          "tag": "#2CJ9GL2CVR",
+          "name": "69",
+          "brawler": {
+            "id": 16000043,
+            "name": "EDGAR",
+            "power": 11,
+            "trophies": 1212
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible",
+        "id": 5
+      }
+    }
+  },
+  {
+    "battleTime": "20261126T184305.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "defeat",
+      "players": [
+        {
+          "tag": "#802PVVQ2CY",
+          "name": "даг",
+          "brawler": {
+            "id": 16000068,
+            "name": "MAISIE",
+            "power": 7,
+            "trophies": 1120
+          }
+        },
+        {
+          "tag": "#2L0U0PGRL",
+          "name": "JOEL | FREEED🐸",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 1127
+          }
+        },
+        {
+          "tag": "#2QP29JGCQL",
+          "name": "odai siam 🇵🇸",
+          "brawler": {
+            "id": 16000027,
+            "name": "8-BIT",
+            "power": 11,
+            "trophies": 1143
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible",
+        "id": 5
+      }
+    }
   }
 ]
