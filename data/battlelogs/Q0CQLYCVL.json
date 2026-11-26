@@ -769726,5 +769726,795 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261126T181530.000Z",
+    "event": {
+      "id": 15001203,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Hyacinth House"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 104,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#22909280QV",
+        "name": "Diablo",
+        "brawler": {
+          "id": 16000022,
+          "name": "TICK",
+          "power": 11,
+          "trophies": 184
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2UJ022YGG8",
+            "name": "brat1k",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 4,
+              "trophies": 188
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 31426,
+              "healing": 2955,
+              "damageTaken": 25705,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 13
+              }
+            }
+          },
+          {
+            "tag": "#22909280QV",
+            "name": "Diablo",
+            "brawler": {
+              "id": 16000022,
+              "name": "TICK",
+              "power": 11,
+              "trophies": 184
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 4,
+              "damageDealt": 44608,
+              "healing": 3574,
+              "damageTaken": 27143,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 27
+              }
+            }
+          },
+          {
+            "tag": "#2JYYUVU920",
+            "name": "knixxix",
+            "brawler": {
+              "id": 16000107,
+              "name": "NORI",
+              "power": 11,
+              "trophies": 220
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 30669,
+              "healing": 9474,
+              "damageTaken": 37474,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 38
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 346
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 2,
+              "damageDealt": 40180,
+              "healing": 24825,
+              "damageTaken": 44933,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 15
+              }
+            }
+          },
+          {
+            "tag": "#GQYCPQQ2J",
+            "name": "prime EMZ 2",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 9,
+              "trophies": 1128
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 24148,
+              "healing": 14761,
+              "damageTaken": 49861,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 38
+              }
+            }
+          },
+          {
+            "tag": "#2JU0YCUU8V",
+            "name": "soufi",
+            "brawler": {
+              "id": 16000108,
+              "name": "WENDY",
+              "power": 9,
+              "trophies": 418
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 25994,
+              "healing": 0,
+              "damageTaken": 11909,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 43
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261126T181752.000Z",
+    "event": {
+      "id": 15001203,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Hyacinth House"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 116,
+      "trophyChange": -2,
+      "starPlayer": {
+        "tag": "#RLUPQYC8P",
+        "name": "Lanz4la",
+        "brawler": {
+          "id": 16000047,
+          "name": "SQUEAK",
+          "power": 11,
+          "trophies": 500
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2V2YQ22GP2",
+            "name": "Starr",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1776
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 33832,
+              "healing": 18999,
+              "damageTaken": 77959,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 42
+              }
+            }
+          },
+          {
+            "tag": "#QJR8UJQVJ",
+            "name": "grens",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 1958
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 52471,
+              "healing": 7446,
+              "damageTaken": 34646,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 27
+              }
+            }
+          },
+          {
+            "tag": "#L2U89JUPV",
+            "name": "ZUCKY",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 839
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 5,
+              "damageDealt": 65370,
+              "healing": 9880,
+              "damageTaken": 47880,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 23
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#QL2R8UG0J",
+            "name": "Snake",
+            "brawler": {
+              "id": 16000102,
+              "name": "SIRIUS",
+              "power": 11,
+              "trophies": 566
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 5,
+              "damageDealt": 28045,
+              "healing": 8156,
+              "damageTaken": 43656,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 36
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 358
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 5,
+              "damageDealt": 44778,
+              "healing": 20801,
+              "damageTaken": 73701,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 16
+              }
+            }
+          },
+          {
+            "tag": "#RLUPQYC8P",
+            "name": "Lanz4la",
+            "brawler": {
+              "id": 16000047,
+              "name": "SQUEAK",
+              "power": 11,
+              "trophies": 500
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 3,
+              "damageDealt": 87662,
+              "healing": 11516,
+              "damageTaken": 34316,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 11
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261126T181953.000Z",
+    "event": {
+      "id": 15001203,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Hyacinth House"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 95,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LYLUR9CQC",
+        "name": "JuniorBs❄️",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 359
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#8208UY2UY",
+            "name": "[Darth] Xandrus",
+            "brawler": {
+              "id": 16000086,
+              "name": "SHADE",
+              "power": 11,
+              "trophies": 710
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 19858,
+              "healing": 7921,
+              "damageTaken": 21521,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 37
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 356
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 44162,
+              "healing": 21079,
+              "damageTaken": 62679,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 9
+              }
+            }
+          },
+          {
+            "tag": "#LYLUR9CQC",
+            "name": "JuniorBs❄️",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 359
+            },
+            "stats": {
+              "kills": 11,
+              "deaths": 1,
+              "damageDealt": 63324,
+              "healing": 4010,
+              "damageTaken": 11810,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 40
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2998JVY22G",
+            "name": "тг-bladebots_bs",
+            "brawler": {
+              "id": 16000007,
+              "name": "JESSIE",
+              "power": 10,
+              "trophies": 539
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 5,
+              "damageDealt": 36769,
+              "healing": 8546,
+              "damageTaken": 39896,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 30
+              }
+            }
+          },
+          {
+            "tag": "#2R90JGU0UG",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000074,
+              "name": "CHARLIE",
+              "power": 11,
+              "trophies": 529
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 5,
+              "damageDealt": 30231,
+              "healing": 8342,
+              "damageTaken": 45342,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 34
+              }
+            }
+          },
+          {
+            "tag": "#2GYYJ0QGG2",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 11,
+              "trophies": 441
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 5,
+              "damageDealt": 29010,
+              "healing": 5106,
+              "damageTaken": 42106,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 34
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261126T182236.000Z",
+    "event": {
+      "id": 15001203,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Hyacinth House"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 106,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#2URU0LCU0G",
+        "name": "juanico",
+        "brawler": {
+          "id": 16000006,
+          "name": "BARLEY",
+          "power": 9,
+          "trophies": 1710
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#28CVL88YUG",
+            "name": "Ramba",
+            "brawler": {
+              "id": 16000076,
+              "name": "KIT",
+              "power": 11,
+              "trophies": 2070
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 6,
+              "damageDealt": 32212,
+              "healing": 2741,
+              "damageTaken": 41541,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 25
+              }
+            }
+          },
+          {
+            "tag": "#LUYYUP9GR",
+            "name": "mustionline",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 423
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 23980,
+              "healing": 3900,
+              "damageTaken": 27900,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 25
+              }
+            }
+          },
+          {
+            "tag": "#2LPUP0JU8R",
+            "name": "Willow",
+            "brawler": {
+              "id": 16000110,
+              "name": "VINCE",
+              "power": 11,
+              "trophies": 771
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 36378,
+              "healing": 0,
+              "damageTaken": 26520,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 22
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2URU0LCU0G",
+            "name": "juanico",
+            "brawler": {
+              "id": 16000006,
+              "name": "BARLEY",
+              "power": 9,
+              "trophies": 1710
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 3,
+              "damageDealt": 40604,
+              "healing": 8502,
+              "damageTaken": 23210,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 41
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 9,
+              "trophies": 230
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 32872,
+              "healing": 9265,
+              "damageTaken": 35190,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 31
+              }
+            }
+          },
+          {
+            "tag": "#PY9JVV8L0",
+            "name": "mysterious65_2",
+            "brawler": {
+              "id": 16000104,
+              "name": "DAMIAN",
+              "power": 9,
+              "trophies": 478
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 22485,
+              "healing": 3930,
+              "damageTaken": 34170,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 24
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261126T182722.000Z",
+    "event": {
+      "id": 15001203,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Hyacinth House"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 134,
+      "trophyChange": 20,
+      "starPlayer": {
+        "tag": "#2VY0QUP220",
+        "name": "pro",
+        "brawler": {
+          "id": 16000005,
+          "name": "SPIKE",
+          "power": 11,
+          "trophies": 1880
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VY0QUP220",
+            "name": "pro",
+            "brawler": {
+              "id": 16000005,
+              "name": "SPIKE",
+              "power": 11,
+              "trophies": 1880
+            },
+            "stats": {
+              "kills": 9,
+              "deaths": 4,
+              "damageDealt": 65408,
+              "healing": 3717,
+              "damageTaken": 45812,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 43
+              }
+            }
+          },
+          {
+            "tag": "#Q0CQLYCVL",
+            "name": "JOEL | Nexlein",
+            "brawler": {
+              "id": 16000092,
+              "name": "FINX",
+              "power": 9,
+              "trophies": 250
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 6,
+              "damageDealt": 43332,
+              "healing": 3460,
+              "damageTaken": 49096,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 24
+              }
+            }
+          },
+          {
+            "tag": "#2JPG2YJ88Y",
+            "name": "HuYo🫥",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 5,
+              "damageDealt": 48964,
+              "healing": 2730,
+              "damageTaken": 37730,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 36
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#829UPJY0J",
+            "name": "KPYTOU",
+            "brawler": {
+              "id": 16000037,
+              "name": "SPROUT",
+              "power": 11,
+              "trophies": 839
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 5,
+              "damageDealt": 44909,
+              "healing": 832,
+              "damageTaken": 37672,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 37
+              }
+            }
+          },
+          {
+            "tag": "#9002VVY8G",
+            "name": "BBL",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 10,
+              "trophies": 266
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 5,
+              "damageDealt": 39484,
+              "healing": 3702,
+              "damageTaken": 31542,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 8
+              }
+            }
+          },
+          {
+            "tag": "#802G9QCVU8",
+            "name": "Frankenstein",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 7,
+              "damageDealt": 44191,
+              "healing": 32490,
+              "damageTaken": 88490,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 25
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
