@@ -768631,5 +768631,152 @@
         "id": 2
       }
     }
+  },
+  {
+    "battleTime": "20261126T124006.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#2URYGURLGU",
+          "name": "samu",
+          "brawler": {
+            "id": 16000045,
+            "name": "STU",
+            "power": 11,
+            "trophies": 1001
+          }
+        },
+        {
+          "tag": "#RUC2VCQQ0",
+          "name": "vefababapiro",
+          "brawler": {
+            "id": 16000011,
+            "name": "MORTIS",
+            "power": 11,
+            "trophies": 1029
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 1003
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
+  },
+  {
+    "battleTime": "20261126T124238.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#RPC2QC02V",
+          "name": "andre",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 1006
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 1003
+          }
+        },
+        {
+          "tag": "#2CRUVCYCGL",
+          "name": "DAL | BAEB",
+          "brawler": {
+            "id": 16000005,
+            "name": "SPIKE",
+            "power": 11,
+            "trophies": 1000
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
+  },
+  {
+    "battleTime": "20261126T124814.000Z",
+    "event": {
+      "id": 15001083,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "Kizu Kenji"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#PGYYC8PPU",
+          "name": "TREZVEL",
+          "brawler": {
+            "id": 16000105,
+            "name": "STARR NOVA",
+            "power": 10,
+            "trophies": 1003
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 1003
+          }
+        },
+        {
+          "tag": "#2UYPC2R29",
+          "name": "yarisci_kizz66",
+          "brawler": {
+            "id": 16000039,
+            "name": "COLETTE",
+            "power": 11,
+            "trophies": 1008
+          }
+        }
+      ],
+      "level": {
+        "name": "Impossible",
+        "id": 5
+      }
+    }
   }
 ]
