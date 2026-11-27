@@ -770979,5 +770979,103 @@
         "id": 2
       }
     }
+  },
+  {
+    "battleTime": "20261127T215612.000Z",
+    "event": {
+      "id": 15001263,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "NANO NORI"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 1003
+          }
+        },
+        {
+          "tag": "#282JCL9LPR",
+          "name": "MeJih",
+          "brawler": {
+            "id": 16000022,
+            "name": "TICK",
+            "power": 11,
+            "trophies": 1021
+          }
+        },
+        {
+          "tag": "#CPPPC8YJ",
+          "name": "Eren123",
+          "brawler": {
+            "id": 16000021,
+            "name": "GENE",
+            "power": 11,
+            "trophies": 1000
+          }
+        }
+      ],
+      "level": {
+        "name": "Master",
+        "id": 3
+      }
+    }
+  },
+  {
+    "battleTime": "20261127T215744.000Z",
+    "event": {
+      "id": 15001263,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "NANO NORI"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 1003
+          }
+        },
+        {
+          "tag": "#2GV208Y9L8",
+          "name": "MATTE2694",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 1002
+          }
+        },
+        {
+          "tag": "#PLQJCRJV0",
+          "name": "⛩️|𝕷𝖊𝖌𝖊𝖓𝖉",
+          "brawler": {
+            "id": 16000002,
+            "name": "BULL",
+            "power": 9,
+            "trophies": 1004
+          }
+        }
+      ],
+      "level": {
+        "name": "Insane",
+        "id": 4
+      }
+    }
   }
 ]
