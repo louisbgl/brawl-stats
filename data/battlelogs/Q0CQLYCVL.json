@@ -770930,5 +770930,54 @@
         "id": 1
       }
     }
+  },
+  {
+    "battleTime": "20261127T210855.000Z",
+    "event": {
+      "id": 15001263,
+      "mode": "megaBoss",
+      "modeId": 61,
+      "map": "NANO NORI"
+    },
+    "battle": {
+      "mode": "lastStand",
+      "result": "victory",
+      "players": [
+        {
+          "tag": "#89GPYQL28",
+          "name": "Agente_106",
+          "brawler": {
+            "id": 16000012,
+            "name": "CROW",
+            "power": 11,
+            "trophies": 1006
+          }
+        },
+        {
+          "tag": "#Q0CQLYCVL",
+          "name": "JOEL | Nexlein",
+          "brawler": {
+            "id": 16000007,
+            "name": "JESSIE",
+            "power": 11,
+            "trophies": 1003
+          }
+        },
+        {
+          "tag": "#9Y88VGGJP",
+          "name": "Diego",
+          "brawler": {
+            "id": 16000050,
+            "name": "GRIFF",
+            "power": 11,
+            "trophies": 1051
+          }
+        }
+      ],
+      "level": {
+        "name": "Expert",
+        "id": 2
+      }
+    }
   }
 ]
