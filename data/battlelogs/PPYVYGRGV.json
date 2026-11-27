@@ -87084,5 +87084,162 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261127T131343.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "starPlayer": {
+        "tag": "#20C8YVY88",
+        "name": "HP|Skibidi",
+        "brawler": {
+          "id": 16000100,
+          "name": "GIGI",
+          "power": 11,
+          "trophies": 1475
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2VCRUV8C98",
+            "name": "(!)",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 972
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 5,
+              "damageDealt": 63899,
+              "healing": 10958,
+              "damageTaken": 78067,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#RLQLPC9J0",
+            "name": "(?)",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 10,
+              "trophies": 728
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 3,
+              "damageDealt": 39990,
+              "healing": 30354,
+              "damageTaken": 29038,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#PPYVYGRGV",
+            "name": "spiky",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1911
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 2,
+              "damageDealt": 87209,
+              "healing": 17481,
+              "damageTaken": 44110,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2R00RLULC8",
+            "name": "люциус",
+            "brawler": {
+              "id": 16000002,
+              "name": "BULL",
+              "power": 11,
+              "trophies": 1134
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 6,
+              "damageDealt": 62133,
+              "healing": 19299,
+              "damageTaken": 82224,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#8URP9R9YJ",
+            "name": "nice | BANANJO",
+            "brawler": {
+              "id": 16000084,
+              "name": "MOE",
+              "power": 11,
+              "trophies": 439
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 5,
+              "damageDealt": 44041,
+              "healing": 6504,
+              "damageTaken": 48298,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#20C8YVY88",
+            "name": "HP|Skibidi",
+            "brawler": {
+              "id": 16000100,
+              "name": "GIGI",
+              "power": 11,
+              "trophies": 1475
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 3,
+              "damageDealt": 45041,
+              "healing": 29306,
+              "damageTaken": 60576,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
