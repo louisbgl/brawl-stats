@@ -499978,5 +499978,321 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261128T120127.000Z",
+    "event": {
+      "id": 15001329,
+      "mode": "hotZone",
+      "modeId": 17,
+      "map": "Tread Carefully"
+    },
+    "battle": {
+      "mode": "hotZone",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 87,
+      "trophyChange": 11,
+      "starPlayer": {
+        "tag": "#2JPL8G8Y0C",
+        "name": "marito1201",
+        "brawler": {
+          "id": 16000011,
+          "name": "MORTIS",
+          "power": 11,
+          "trophies": 1617
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LQ0YLYG0R",
+            "name": "ilylay",
+            "brawler": {
+              "id": 16000029,
+              "name": "BEA",
+              "power": 11,
+              "trophies": 1882
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 5,
+              "damageDealt": 29700,
+              "healing": 0,
+              "damageTaken": 28000,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 21
+              }
+            }
+          },
+          {
+            "tag": "#2QQJ2L99Q8",
+            "name": "ryoma75",
+            "brawler": {
+              "id": 16000063,
+              "name": "CHESTER",
+              "power": 11,
+              "trophies": 1511
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 33604,
+              "healing": 5286,
+              "damageTaken": 35686,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 19
+              }
+            }
+          },
+          {
+            "tag": "#20RQJQV0YY",
+            "name": "omerta 👁️👄👁️",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 1131
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 4,
+              "damageDealt": 34084,
+              "healing": 962,
+              "damageTaken": 30562,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 16
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2JPL8G8Y0C",
+            "name": "marito1201",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 1617
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 1,
+              "damageDealt": 26540,
+              "healing": 20093,
+              "damageTaken": 33933,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 41
+              }
+            }
+          },
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1157
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 1,
+              "damageDealt": 30528,
+              "healing": 27725,
+              "damageTaken": 41415,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 40
+              }
+            }
+          },
+          {
+            "tag": "#9CQJVR20P",
+            "name": "bokum is coming",
+            "brawler": {
+              "id": 16000041,
+              "name": "LOU",
+              "power": 11,
+              "trophies": 1034
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 37180,
+              "healing": 3640,
+              "damageTaken": 22040,
+              "modeStat": {
+                "type": "hotZoneTime",
+                "value": 20
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261128T120430.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 137,
+      "trophyChange": 12,
+      "starPlayer": {
+        "tag": "#8VC90C8VL",
+        "name": "OSİMHEEN",
+        "brawler": {
+          "id": 16000034,
+          "name": "JACKY",
+          "power": 11,
+          "trophies": 1682
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2CCYC88JQC",
+            "name": "tomris",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 2212
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 61666,
+              "healing": 24773,
+              "damageTaken": 51419,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#LGVU0JCV9",
+            "name": "Rimuru Tempest",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 1518
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 48026,
+              "healing": 1612,
+              "damageTaken": 21712,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#80C8PQRLU",
+            "name": "kevsergns",
+            "brawler": {
+              "id": 16000012,
+              "name": "CROW",
+              "power": 11,
+              "trophies": 1158
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 5,
+              "damageDealt": 42564,
+              "healing": 3737,
+              "damageTaken": 33799,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1168
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 4,
+              "damageDealt": 21482,
+              "healing": 17219,
+              "damageTaken": 50659,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#8VC90C8VL",
+            "name": "OSİMHEEN",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 1682
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 3,
+              "damageDealt": 53335,
+              "healing": 14636,
+              "damageTaken": 57905,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#8C9R9CJPP",
+            "name": "AQM|EnnioVGX",
+            "brawler": {
+              "id": 16000093,
+              "name": "JAE-YONG",
+              "power": 11,
+              "trophies": 1662
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 32113,
+              "healing": 9272,
+              "damageTaken": 43692,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
