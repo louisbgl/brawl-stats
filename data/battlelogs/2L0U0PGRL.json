@@ -496595,5 +496595,139 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261128T095713.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 234,
+      "trophyChange": 17,
+      "starPlayer": {
+        "tag": "#UYPYRPGL",
+        "name": "zloduga",
+        "brawler": {
+          "id": 16000004,
+          "name": "RICO",
+          "power": 11,
+          "trophies": 1280
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2L0U0PGRL",
+            "name": "JOEL | FREEED🐸",
+            "brawler": {
+              "id": 16000098,
+              "name": "ZIGGY",
+              "power": 8,
+              "trophies": 213
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 2,
+              "damageDealt": 248836,
+              "healing": 24876,
+              "damageTaken": 45383
+            }
+          },
+          {
+            "tag": "#289YVJQVLQ",
+            "name": "CR | Joker",
+            "brawler": {
+              "id": 16000078,
+              "name": "MELODIE",
+              "power": 11,
+              "trophies": 673
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 5,
+              "damageDealt": 290383,
+              "healing": 40389,
+              "damageTaken": 98534
+            }
+          },
+          {
+            "tag": "#UYPYRPGL",
+            "name": "zloduga",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1280
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 321680,
+              "healing": 7103,
+              "damageTaken": 14444
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2YYG99GJLY",
+            "name": "slangete",
+            "brawler": {
+              "id": 16000040,
+              "name": "AMBER",
+              "power": 11,
+              "trophies": 1246
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 3,
+              "damageDealt": 267734,
+              "healing": 12027,
+              "damageTaken": 82296
+            }
+          },
+          {
+            "tag": "#GVLJRYV8V",
+            "name": "Aniela",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 2332
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 3,
+              "damageDealt": 251270,
+              "healing": 77806,
+              "damageTaken": 61267
+            }
+          },
+          {
+            "tag": "#2UPYC00P90",
+            "name": "בוט1",
+            "brawler": {
+              "id": 16000009,
+              "name": "DYNAMIKE",
+              "power": 11,
+              "trophies": 1065
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 7,
+              "damageDealt": 209225,
+              "healing": 8481,
+              "damageTaken": 77753
+            }
+          }
+        ]
+      ]
+    }
   }
 ]

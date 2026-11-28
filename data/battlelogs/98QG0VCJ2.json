@@ -710592,5 +710592,321 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261128T095357.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 54,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000111,
+          "name": "THUNDER FROGS",
+          "power": 11,
+          "trophies": 1737
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#YGCPJ20QU",
+            "name": "TT|egort",
+            "brawler": {
+              "id": 16000035,
+              "name": "GALE",
+              "power": 11,
+              "trophies": 1128
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 19960,
+              "healing": 0,
+              "damageTaken": 24000,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#YGU8QY0Q",
+            "name": "jigsaw?",
+            "brawler": {
+              "id": 16000068,
+              "name": "MAISIE",
+              "power": 11,
+              "trophies": 1941
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 2,
+              "damageDealt": 35472,
+              "healing": 0,
+              "damageTaken": 22720,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2YPVJL980L",
+            "name": "MrWozyy🗽",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 2146
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 3,
+              "damageDealt": 16631,
+              "healing": 60,
+              "damageTaken": 25968,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 1737
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 35583,
+              "healing": 0,
+              "damageTaken": 6598,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 1939
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 27065,
+              "healing": 21840,
+              "damageTaken": 42844,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#PVUC89GJ8",
+            "name": "ZETA|YĘÏÇØ⛩️",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 10040,
+              "healing": 12653,
+              "damageTaken": 23145,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261128T095726.000Z",
+    "event": {
+      "id": 15000050,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Sneaky Fields"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 165,
+      "trophyChange": -9,
+      "starPlayer": {
+        "tag": "#VCJGYUVY",
+        "name": "Nessie🧙‍♂️",
+        "brawler": {
+          "id": 16000000,
+          "name": "SHELLY",
+          "power": 11,
+          "trophies": 1574
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 1747
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 6,
+              "damageDealt": 92981,
+              "healing": 9344,
+              "damageTaken": 56679,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 1949
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 7,
+              "damageDealt": 54328,
+              "healing": 25016,
+              "damageTaken": 127380,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2V2LCQQJL8",
+            "name": "SK_Lucasªƴ",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 2592
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 8,
+              "damageDealt": 64168,
+              "healing": 14420,
+              "damageTaken": 147952,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#GJYQ0VG9C",
+            "name": "跳皮筋優神秘",
+            "brawler": {
+              "id": 16000020,
+              "name": "FRANK",
+              "power": 11,
+              "trophies": 2053
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 5,
+              "damageDealt": 112294,
+              "healing": 36468,
+              "damageTaken": 118904,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#VCJGYUVY",
+            "name": "Nessie🧙‍♂️",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 11,
+              "trophies": 1574
+            },
+            "stats": {
+              "kills": 12,
+              "deaths": 1,
+              "damageDealt": 141725,
+              "healing": 40503,
+              "damageTaken": 55733,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#JQ0PUJVJ",
+            "name": "ThomAss🦇",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 75780,
+              "healing": 10440,
+              "damageTaken": 36840,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
