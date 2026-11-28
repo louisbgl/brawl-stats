@@ -888159,5 +888159,637 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261128T000027.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 143,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000111,
+          "name": "THUNDER FROGS",
+          "power": 11,
+          "trophies": 1754
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 1959
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 2,
+              "damageDealt": 63320,
+              "healing": 30242,
+              "damageTaken": 55960,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 1754
+            },
+            "stats": {
+              "kills": 6,
+              "deaths": 1,
+              "damageDealt": 84844,
+              "healing": 15043,
+              "damageTaken": 29240,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2LURL08YY8",
+            "name": "df",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2006
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 49579,
+              "healing": 16259,
+              "damageTaken": 53279,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#P92C0U02Q",
+            "name": "_llucas🪼",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 2022
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 6,
+              "damageDealt": 34816,
+              "healing": 19159,
+              "damageTaken": 94274,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2CPL0G0RJ",
+            "name": "❤️‍🔥|raull🧸_",
+            "brawler": {
+              "id": 16000001,
+              "name": "COLT",
+              "power": 11,
+              "trophies": 2022
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 51183,
+              "healing": 13926,
+              "damageTaken": 45131,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2RPPPV8VLC",
+            "name": "floryd",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2002
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 52480,
+              "healing": 17890,
+              "damageTaken": 58338,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261128T000139.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 21,
+      "trophyChange": 10,
+      "starPlayer": {
+        "tag": "#LLJGJQVY",
+        "name": "JOEL | Escorte",
+        "brawler": {
+          "id": 16000071,
+          "name": "DOUG",
+          "power": 11,
+          "trophies": 1949
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 1745
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 0,
+              "damageDealt": 19654,
+              "healing": 5242,
+              "damageTaken": 7180,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 1949
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 0,
+              "damageDealt": 23820,
+              "healing": 9336,
+              "damageTaken": 14907,
+              "modeStat": {
+                "type": "goals",
+                "value": 2
+              }
+            }
+          },
+          {
+            "tag": "#RP0RCR2PC",
+            "name": "illitenha",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1762
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 0,
+              "damageDealt": 14126,
+              "healing": 3042,
+              "damageTaken": 3420,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2QLJUVL8Q8",
+            "name": "Tomar753",
+            "brawler": {
+              "id": 16000051,
+              "name": "ASH",
+              "power": 11,
+              "trophies": 1780
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 6400,
+              "healing": 0,
+              "damageTaken": 23600,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#2LQQR2JJ0G",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000061,
+              "name": "GUS",
+              "power": 11,
+              "trophies": 1743
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 9000,
+              "healing": 0,
+              "damageTaken": 13200,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#UL8P0LUR8",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000034,
+              "name": "JACKY",
+              "power": 11,
+              "trophies": 1784
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 2,
+              "damageDealt": 10107,
+              "healing": 0,
+              "damageTaken": 20800,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261128T000453.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#98QG0VCJ2",
+        "name": "JOEL | køkønut",
+        "brawler": {
+          "id": 16000111,
+          "name": "THUNDER FROGS",
+          "power": 11,
+          "trophies": 1755
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 1755
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 3,
+              "damageDealt": 94786,
+              "healing": 17804,
+              "damageTaken": 40529,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 1959
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 90546,
+              "healing": 36899,
+              "damageTaken": 125210,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#8PJCV292R",
+            "name": "NL|Killua🌴",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2008
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 8,
+              "damageDealt": 39699,
+              "healing": 5538,
+              "damageTaken": 69538,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#VGU8P000",
+            "name": "Jantteri🥵❤️‍🔥",
+            "brawler": {
+              "id": 16000011,
+              "name": "MORTIS",
+              "power": 11,
+              "trophies": 2153
+            },
+            "stats": {
+              "kills": 8,
+              "deaths": 1,
+              "damageDealt": 56405,
+              "healing": 46712,
+              "damageTaken": 63632,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#VCJGYUVY",
+            "name": "Nessie🧙‍♂️",
+            "brawler": {
+              "id": 16000026,
+              "name": "BIBI",
+              "power": 11,
+              "trophies": 1646
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 4,
+              "damageDealt": 74508,
+              "healing": 23859,
+              "damageTaken": 70789,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#9VV9JULG",
+            "name": "ACE|MrAbracitos",
+            "brawler": {
+              "id": 16000010,
+              "name": "EL PRIMO",
+              "power": 11,
+              "trophies": 1888
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 4,
+              "damageDealt": 102188,
+              "healing": 30480,
+              "damageTaken": 90610,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261128T000835.000Z",
+    "event": {
+      "id": 15000025,
+      "mode": "brawlBall",
+      "modeId": 5,
+      "map": "Triple Dribble"
+    },
+    "battle": {
+      "mode": "brawlBall",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 150,
+      "trophyChange": -10,
+      "starPlayer": {
+        "tag": "#9VP9PJGQJ",
+        "name": "BP|Zyrox🧸",
+        "brawler": {
+          "id": 16000111,
+          "name": "THUNDER FROGS",
+          "power": 11,
+          "trophies": 2000
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#GJYV0YUCJ",
+            "name": "L❤️S🧸",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 2100
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 0,
+              "damageDealt": 55780,
+              "healing": 53075,
+              "damageTaken": 60306,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#9VP9PJGQJ",
+            "name": "BP|Zyrox🧸",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 2,
+              "damageDealt": 83300,
+              "healing": 19700,
+              "damageTaken": 39570,
+              "modeStat": {
+                "type": "goals",
+                "value": 1
+              }
+            }
+          },
+          {
+            "tag": "#2R9VV9GL0",
+            "name": "BP|YoXico🧸",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 11,
+              "trophies": 1727
+            },
+            "stats": {
+              "kills": 3,
+              "deaths": 5,
+              "damageDealt": 36360,
+              "healing": 3120,
+              "damageTaken": 33120,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#98QG0VCJ2",
+            "name": "JOEL | køkønut",
+            "brawler": {
+              "id": 16000111,
+              "name": "THUNDER FROGS",
+              "power": 11,
+              "trophies": 1746
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 6,
+              "damageDealt": 41884,
+              "healing": 3418,
+              "damageTaken": 49530,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#LLJGJQVY",
+            "name": "JOEL | Escorte",
+            "brawler": {
+              "id": 16000071,
+              "name": "DOUG",
+              "power": 11,
+              "trophies": 1949
+            },
+            "stats": {
+              "kills": 5,
+              "deaths": 3,
+              "damageDealt": 39580,
+              "healing": 39142,
+              "damageTaken": 92873,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          },
+          {
+            "tag": "#P2UCYQVC8",
+            "name": "五条|Zenin Tojoᵐᵍ",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 1978
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 5,
+              "damageDealt": 51532,
+              "healing": 5460,
+              "damageTaken": 36660,
+              "modeStat": {
+                "type": "goals",
+                "value": 0
+              }
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
