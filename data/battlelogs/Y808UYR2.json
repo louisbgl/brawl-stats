@@ -204115,5 +204115,273 @@
         ]
       ]
     }
+  },
+  {
+    "battleTime": "20261128T110743.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "victory",
+      "duration": 145,
+      "trophyChange": 15,
+      "starPlayer": {
+        "tag": "#Y808UYR2",
+        "name": "JOEL|MissANG3ll",
+        "brawler": {
+          "id": 16000030,
+          "name": "EMZ",
+          "power": 11,
+          "trophies": 1828
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#LQG8YCGGV",
+            "name": "паша квадробер",
+            "brawler": {
+              "id": 16000099,
+              "name": "PIERCE",
+              "power": 9,
+              "trophies": 1157
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 1,
+              "damageDealt": 262160,
+              "healing": 8936,
+              "damageTaken": 14836
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1828
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 0,
+              "damageDealt": 202604,
+              "healing": 19656,
+              "damageTaken": 21996
+            }
+          },
+          {
+            "tag": "#9PYL80PQC",
+            "name": "ZETA | COUSCOUS",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 622
+            },
+            "stats": {
+              "kills": 11,
+              "deaths": 0,
+              "damageDealt": 192436,
+              "healing": 20639,
+              "damageTaken": 26556
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#2CJVLVQPUC",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000000,
+              "name": "SHELLY",
+              "power": 9,
+              "trophies": 1191
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 6,
+              "damageDealt": 69951,
+              "healing": 6293,
+              "damageTaken": 60113
+            }
+          },
+          {
+            "tag": "#22L28L2Y2G",
+            "name": "TG: @datamines",
+            "brawler": {
+              "id": 16000106,
+              "name": "BOLT",
+              "power": 11,
+              "trophies": 1192
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 8,
+              "damageDealt": 35016,
+              "healing": 9249,
+              "damageTaken": 102749
+            }
+          },
+          {
+            "tag": "#2GV09GG0UJ",
+            "name": "Brawler",
+            "brawler": {
+              "id": 16000077,
+              "name": "LARRY & LAWRIE",
+              "power": 11,
+              "trophies": 1186
+            },
+            "stats": {
+              "kills": 0,
+              "deaths": 7,
+              "damageDealt": 158830,
+              "healing": 1000,
+              "damageTaken": 50200
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "battleTime": "20261128T111335.000Z",
+    "event": {
+      "id": 15001242,
+      "mode": "brawlArena",
+      "modeId": 48,
+      "map": "Silver Highlands"
+    },
+    "battle": {
+      "mode": "siege",
+      "type": "ranked",
+      "result": "defeat",
+      "duration": 314,
+      "trophyChange": -12,
+      "starPlayer": {
+        "tag": "#UCG9PJRV",
+        "name": "mati",
+        "brawler": {
+          "id": 16000031,
+          "name": "MR. P",
+          "power": 11,
+          "trophies": 541
+        }
+      },
+      "teams": [
+        [
+          {
+            "tag": "#2Q222VPJ8L",
+            "name": "♕꧁英雄꧂Saif♕",
+            "brawler": {
+              "id": 16000019,
+              "name": "PENNY",
+              "power": 11,
+              "trophies": 2000
+            },
+            "stats": {
+              "kills": 7,
+              "deaths": 7,
+              "damageDealt": 649851,
+              "healing": 16194,
+              "damageTaken": 90044
+            }
+          },
+          {
+            "tag": "#809CL0U2V",
+            "name": "Trapz",
+            "brawler": {
+              "id": 16000043,
+              "name": "EDGAR",
+              "power": 11,
+              "trophies": 1761
+            },
+            "stats": {
+              "kills": 4,
+              "deaths": 4,
+              "damageDealt": 332153,
+              "healing": 157651,
+              "damageTaken": 221001
+            }
+          },
+          {
+            "tag": "#Y808UYR2",
+            "name": "JOEL|MissANG3ll",
+            "brawler": {
+              "id": 16000030,
+              "name": "EMZ",
+              "power": 11,
+              "trophies": 1843
+            },
+            "stats": {
+              "kills": 2,
+              "deaths": 12,
+              "damageDealt": 209276,
+              "healing": 16981,
+              "damageTaken": 148381
+            }
+          }
+        ],
+        [
+          {
+            "tag": "#R8LQCYLC2",
+            "name": "oss",
+            "brawler": {
+              "id": 16000082,
+              "name": "BERRY",
+              "power": 11,
+              "trophies": 1454
+            },
+            "stats": {
+              "kills": 1,
+              "deaths": 4,
+              "damageDealt": 450695,
+              "healing": 107174,
+              "damageTaken": 132407
+            }
+          },
+          {
+            "tag": "#9PYL80PQC",
+            "name": "ZETA | COUSCOUS",
+            "brawler": {
+              "id": 16000004,
+              "name": "RICO",
+              "power": 10,
+              "trophies": 637
+            },
+            "stats": {
+              "kills": 11,
+              "deaths": 6,
+              "damageDealt": 369455,
+              "healing": 1384,
+              "damageTaken": 77484
+            }
+          },
+          {
+            "tag": "#UCG9PJRV",
+            "name": "mati",
+            "brawler": {
+              "id": 16000031,
+              "name": "MR. P",
+              "power": 11,
+              "trophies": 541
+            },
+            "stats": {
+              "kills": 11,
+              "deaths": 3,
+              "damageDealt": 561702,
+              "healing": 26672,
+              "damageTaken": 73567
+            }
+          }
+        ]
+      ]
+    }
   }
 ]
